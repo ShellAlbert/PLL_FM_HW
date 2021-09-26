@@ -1,4 +1,4 @@
-{ Using PSTWRITER 17.4.0 d001Sep-26-2021 at 09:49:47 }
+{ Using PSTWRITER 17.4.0 d001Sep-26-2021 at 17:17:26 }
 
 #1 WARNING(ORCAP-36038): "No_connect" property on Pin "U3.36" ignored for U3: SCHEMATIC1, 03-STM32_CORE (165.10, 38.10). Connecting pin to net "M2_PWM-".
 #2 WARNING(ORCAP-36038): "No_connect" property on Pin "U3.35" ignored for U3: SCHEMATIC1, 03-STM32_CORE (165.10, 38.10). Connecting pin to net "M1_PWM-".
