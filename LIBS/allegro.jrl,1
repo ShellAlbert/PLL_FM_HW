@@ -1,0 +1,88 @@
+\t (08:01:41) allegro 17.4 S017 Windows SPB 64-bit Edition
+\t (08:01:41)     Journal start - Wed Sep 22 17:28:03 2021
+\t (08:01:41)         Host=BF-202007251750 User=Administrator Pid=8676 CPUs=16
+\t (08:01:41) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (08:01:41) 
+\d (08:01:41) Design opened: G:/ZSY/MiniFMDemod/LIBS/FPC-14P-0D5.dra
+\i (08:01:41) trapsize 1604
+\i (08:01:42) zoom in 1 
+\i (08:01:42) setwindow pcb
+\i (08:01:42) zoom in -1.4161 -0.9864
+\i (08:01:42) trapsize 802
+\i (08:01:43) delete 
+\i (08:01:44) pick grid -1.9614 1.5956
+\t (08:01:44) last pick:  -1.9610 1.5960
+\t (08:01:44) Shape "Package Geometry/Place_Bound_Top"
+\i (08:01:44) pick grid dbl -1.9614 1.5956
+\t (08:01:44) last pick:  -1.9610 1.5960
+\i (08:01:44) prepopup -2.8595 1.9164
+\i (08:01:45) done 
+\i (08:01:48) shape add rect 
+\i (08:01:50) pick grid -5.5538 2.9107
+\t (08:01:50) last pick:  -5.5540 2.9110
+\i (08:01:52) zoom in 1 
+\i (08:01:52) setwindow pcb
+\i (08:01:52) zoom in 5.0470 4.4663
+\i (08:01:52) trapsize 401
+\i (08:01:52) zoom in 1 
+\i (08:01:52) setwindow pcb
+\i (08:01:52) zoom in 5.0069 4.4664
+\i (08:01:52) trapsize 200
+\i (08:01:53) zoom out 1 
+\i (08:01:53) setwindow pcb
+\i (08:01:53) zoom out 4.8506 4.4584
+\i (08:01:53) trapsize 401
+\i (08:01:53) zoom out 1 
+\i (08:01:53) setwindow pcb
+\i (08:01:53) zoom out 4.8506 4.4585
+\i (08:01:53) trapsize 802
+\i (08:01:53) zoom in 1 
+\i (08:01:53) setwindow pcb
+\i (08:01:53) zoom in 4.8505 4.4584
+\i (08:01:53) trapsize 401
+\i (08:01:54) zoom out 1 
+\i (08:01:54) setwindow pcb
+\i (08:01:54) zoom out 4.8666 4.4344
+\i (08:01:54) trapsize 802
+\i (08:01:55) zoom in 1 
+\i (08:01:55) setwindow pcb
+\i (08:01:55) zoom in 5.9090 4.0655
+\i (08:01:55) trapsize 401
+\i (08:01:55) zoom in 1 
+\i (08:01:55) setwindow pcb
+\i (08:01:55) zoom in 5.9090 4.0656
+\i (08:01:55) trapsize 200
+\i (08:02:00) pick grid 5.6043 4.4505
+\t (08:02:00) last pick:  5.6040 4.4510
+\i (08:02:00) prepopup 5.6725 4.2179
+\i (08:02:00) done 
+\i (08:02:01) zoom out 1 
+\i (08:02:01) setwindow pcb
+\i (08:02:01) zoom out 5.5482 4.2179
+\i (08:02:01) trapsize 401
+\i (08:02:01) zoom out 1 
+\i (08:02:01) setwindow pcb
+\i (08:02:01) zoom out 5.5241 4.2340
+\i (08:02:01) trapsize 802
+\i (08:02:01) save 
+\i (08:02:02) fillin yes 
+\t (08:02:02) Symbol 'fpc-14p-0d5.psm' created.
+\i (08:02:05) opencd G:/ZSY/MiniFMDemod/PCB/FMDEMOD-56.brd 
+\i (08:02:06) QtSignal ImpPrefDialog ImpPrefDialog closed
+\i (08:02:06) QtSignal ImpGrpSel ImpGrpSel closed
+\i (08:02:06) QtSignal ImpPrefDialog ImpPrefDialog closed
+\i (08:02:06) QtSignal CplGrpSel CplGrpSel closed
+\i (08:02:06) QtSignal CplPrefDialog CplPrefDialog closed
+\i (08:02:06) QtSignal XtalkPrefDialog XtalkPrefDialog closed
+\i (08:02:06) QtSignal RfltPrefDialog RfltPrefDialog closed
+\i (08:02:06) QtSignal RpGrpSel RpGrpSel closed
+\i (08:02:06) QtSignal IRDropPrefDialog IRDropPrefDialog closed
+\i (08:02:06) QtSignal IRDropVRMSetupDialog IRDropVRMSetupDialog closed
+\i (08:02:06) QtSignal IRDropSINKSetupDialog IRDropSINKSetupDialog closed
+\t (08:02:06) Opening existing design...
+\i (08:02:06) trapsize 2032
+\i (08:02:06) trapsize 2098
+\i (08:02:06) trapsize 2116
+\i (08:02:06) trapsize 1563
+\i (08:02:06) trapsize 1563
+\t (08:02:06)     Journal end - Wed Sep 22 17:28:28 2021

@@ -1,0 +1,8 @@
+\t (00:00:00) padstack_editor 17.2 P019 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Thu Jun 24 09:19:19 2021
+\t (00:00:00)         Host=PC-202101061530 User=Administrator Pid=10016 CPUs=4
+\t (00:00:00) CmdLine= c:\cadence\cadence_spb_17.2-2016\tools\bin\padstack_editor.exe E:\V3S2021\PCB\Libs\smd_rec_0d65x1d35.pad
+\t (00:00:00) 
+\d (00:00:03) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:08) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\t (00:00:15)     Journal end - Thu Jun 24 09:19:34 2021

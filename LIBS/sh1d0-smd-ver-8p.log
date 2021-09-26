@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : SH1D0-SMD-VER-8P.dra                          )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Wed Sep  8 15:22:28 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = G:/ZSY/MiniFMDemod/LIBS
+    Name      = sh1d0-smd-ver-8p.psm
+    User      = Administrator
+    Machine   = BF-202007251750
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

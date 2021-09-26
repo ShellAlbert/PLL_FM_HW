@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : C0402.dra                                     )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Fri Jun 25 15:11:55 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/V3S2021/PCB/Libs
+    Name      = c0402.psm
+    User      = Administrator
+    Machine   = PC-202101061530
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

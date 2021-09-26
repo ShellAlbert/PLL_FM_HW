@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : SCREWS-M3.dra                                 )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Fri Aug 27 11:47:06 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = G:/ZSY/MiniFMDemod/LIBS
+    Name      = screws-m3.psm
+    User      = Administrator
+    Machine   = BF-202007251750
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

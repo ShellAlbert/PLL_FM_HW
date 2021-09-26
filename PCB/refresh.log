@@ -1,0 +1,84 @@
+Thu Sep 23 09:30:58 2021				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Thu Sep 23 09:30:58 2021
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : FMDEMOD-56.brd                                )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Thu Sep 23 09:30:59 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Thu Sep 23 09:30:59 2021				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design  = 'G:/ZSY/MiniFMDemod/PCB/FMDEMOD-56.brd'
+Output design = ''
+
+Update mechanical symbols              = 'NO'
+Update format symbols                  = 'NO'
+Update package symbols                 = 'NO'
+Update shape/flash symbols             = 'NO'
+Update symbol padstacks                = 'YES'
+Preserve padstacks replaced on pins    = 'NO'
+Reset symbol text and size locations   = 'NO'
+Reset Pin Escapes (fanouts)            = 'NO'
+Ripup Etch                             = 'NO'
+Reset custom drill data                = 'NO'
+Symbol list file                       = 'C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaagf09540.tmp'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/local/pcb/symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/pcb_lib/symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/allegrolib/symbols 
+           G:/ZSY/MiniFMDemod/LIBS 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/local/pcb/padstacks 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/pcb_lib/symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/allegrolib/symbols 
+           G:/ZSY/MiniFMDemod/LIBS/via 
+           G:/ZSY/MiniFMDemod/LIBS 
+
+
+------ Symbol Refresh Messages ------
+
+'FPC-14P-0D5'  symbol refreshed successfully.
+
+
+------ Pad Stack Refresh Messages ------
+
+'SMD_REC_2D0X2D0'  pad stack refreshed successfully.
+'SMD_REC_0D2X1D5'  pad stack refreshed successfully.
+
+
+----- Symbol Update Summary ----
+
+Updated symbols: 1 out 1
+    Design updated.
+

@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : LED0402.dra                                   )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Tue Jun 29 09:45:14 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/V3S2021/PCB/Libs
+    Name      = led0402.psm
+    User      = Administrator
+    Machine   = PC-202101061530
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

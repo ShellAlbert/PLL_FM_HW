@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : HEADER-2X5P-1D27-SMD.dra                      )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Fri Aug 20 09:59:44 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = G:/ZSY/MiniFMDemod/LIBS
+    Name      = header-2x5p-1d27-smd.psm
+    User      = Administrator
+    Machine   = BF-202007251750
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : TP_REC_3D0X1D6.dra                            )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Wed Aug 11 09:21:38 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = G:/ZSY/MiniFMDemod/LIBS
+    Name      = tp_rec_3d0x1d6.psm
+    User      = Administrator
+    Machine   = BF-202007251750
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

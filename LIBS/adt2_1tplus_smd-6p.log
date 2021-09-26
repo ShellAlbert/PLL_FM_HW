@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : ADT2_1TPLUS_SMD-6P.dra                        )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Thu Jun 24 09:22:09 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/V3S2021/PCB/Libs
+    Name      = adt2_1tplus_smd-6p.psm
+    User      = Administrator
+    Machine   = PC-202101061530
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

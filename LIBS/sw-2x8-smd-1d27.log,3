@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : SW-2x8-SMD-1D27.dra                           )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Thu Jun 24 18:42:19 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/V3S2021/PCB/Libs
+    Name      = sw-2x8-smd-1d27.psm
+    User      = Administrator
+    Machine   = PC-202101061530
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

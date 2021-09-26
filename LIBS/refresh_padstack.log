@@ -1,0 +1,53 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : LQFP-100.dra                                  )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Tue Jun 22 09:08:48 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Tue Jun 22 09:08:48 2021				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design  = 'E:/V3S2021/PCB/Libs/LQFP-100.dra'
+Output design = ''
+Reset symbol text and size locations   = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/symbols 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/allegrolib/symbols 
+           D:/footprint/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/padstacks 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/allegrolib/symbols 
+           D:/footprint/ 
+           E:/V3S2021/PCB/Libs/ 
+
+
+------ Pad Stack Refresh Messages ------
+
+'SMD250REC46'  pad stack refresh starting.
+
+     'SMD250REC46'  pad stack refreshed successfully.
+     
+'SMD_REC_0D3X1D2'  pad stack refresh starting.
+
+     'SMD_REC_0D3X1D2'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : QFN-28.dra                                    )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Wed Jun 23 17:17:45 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/V3S2021/PCB/Libs
+    Name      = qfn-28.psm
+    User      = Administrator
+    Machine   = PC-202101061530
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

@@ -1,0 +1,217 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dangling Line, Via and Antenna Report                            )
+(                                                                     )
+(    Drawing          : FMDEMOD-8.brd                                 )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Wed Aug 11 13:52:15 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Report methodology:
+  - Dangling lines have at least one end not connected.
+  - Dangling vias have one or no connection
+      - Plus are not a test, thieving or netshort property via.
+  - Antenna vias do not have connections on their start and end layers.
+      - Plus they are not a thieving vias.
+      - Optionally, VOLTAGE nets, testvias and through vias can be suppressed with
+        the environment variable report_antennavia.
+      - Section may be suppressed by variable report_noantennavia.
+  - Not part of the current partition.
+  - To suppress items in dangle report add the OK_DANGLE property to the via
+    or connect line.
+
+<< Dangling Lines >>  - Location marked with a star (*) is dangling.
+  Net                 Layer                  Length       Location
+  ------------------------------------------------------------------------------------------
+  N7454523             PWR-L6                0.3640     *(31.3630 -70.4600) to  (31.3630 -70.0960)
+  MCU_UART3_TXD        TOP                   5.1193      (48.5990 -49.4020) to *(46.8630 -52.7670)
+  FPGA_SPI2_CS         TOP                   0.0050     *(41.7750 -53.3640) to  (41.7700 -53.3640)
+  Not a Net            PWR-L6                5.2110     *(73.1000 -72.3000) to *(76.3200 -75.2400)
+  Not a Net            PWR-L6                6.1696     *(71.2000 -72.3000) to *(75.3200 -75.2400)
+  Not a Net            PWR-L6                6.2683     *(55.1000 -72.3000) to *(50.7800 -75.2400)
+  Not a Net            PWR-L6                7.0394     *(57.0000 -72.3000) to *(51.7800 -75.2400)
+
+
+<< Dangling Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  AD_RAND              VIA0402-TOP-SIGNAL-L3 (18.1140 -74.6530) TOP/SIGNAL-L3 
+  ADC_3V3              VIA_0D4_0D2          (16.4160 -73.4080) TOP/BOTTOM 
+  M2_PWM+              VIA0402-TOP-SIGNAL-L8 (53.1300 -64.6300) TOP/SIGNAL-L8 
+  M2_PWM-              VIA0402-TOP-SIGNAL-L8 (53.7800 -64.6300) TOP/SIGNAL-L8 
+  CPU_UART2_TXD        VIA0402-TOP-SIGNAL-L7 (45.8660 -52.7670) TOP/SIGNAL-L7 
+  GND                  VIA0402-TOP-GND-L2   (25.0600 -77.1710) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (36.8950 -52.7940) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (37.4219 -52.8049) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (36.2900 -52.8020) TOP/GND-L2 
+  GND                  VIA_0D4_0D2          (14.0270 -66.4520) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (8.6570 -59.0000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (2.7695 -54.2885) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (4.1840 -52.8740) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (14.1270 -65.4790) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (9.5180 -52.2570) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (16.5950 -75.3050) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (10.4870 -52.2670) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (3.5230 -64.1220) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (8.9160 -69.6140) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (6.7500 -56.5760) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (8.1600 -64.9840) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (6.7450 -55.6360) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (10.8330 -55.1210) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (9.3220 -55.1210) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (8.6650 -61.8710) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (1.7066 -68.7710) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (8.3970 -71.3180) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (4.2665 -71.3410) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (10.4060 -66.6200) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (8.9240 -66.6200) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (3.9465 -66.8985) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (3.9415 -67.5005) TOP/BOTTOM 
+  GND                  VIA0402-TOP-GND-L2   (21.3000 -62.7000) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (30.3000 -62.7000) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (28.3000 -62.7000) TOP/GND-L2 
+  GND                  VIA0402-BOTTOM-SIGNAL-L7 (33.8780 -64.8590) SIGNAL-L7/BOTTOM 
+  GND                  VIA0402-TOP-GND-L2   (33.3000 -64.7000) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (32.3000 -63.7000) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (21.1790 -77.7190) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (39.8900 -66.8000) TOP/GND-L2 
+  GND                  VIA0402-BOTTOM-SIGNAL-L7 (37.8647 -59.9960) SIGNAL-L7/BOTTOM 
+  GND                  VIA0402-TOP-GND-L2   (4.9270 -50.9080) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (28.2140 -76.6300) TOP/GND-L2 
+  GND                  VIA_0D4_0D2          (6.6940 -63.2060) TOP/BOTTOM 
+  GND                  VIA0402-TOP-GND-L2   (31.3000 -60.7000) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (31.3000 -56.7000) TOP/GND-L2 
+  GND                  VIA0402-BOTTOM-SIGNAL-L7 (35.4460 -64.8450) SIGNAL-L7/BOTTOM 
+  GND                  VIA0402-TOP-GND-L2   (51.0180 -75.0430) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (49.2720 -75.0490) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (47.5230 -71.9910) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (47.5230 -66.5910) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (35.3500 -57.2900) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (35.8990 -54.7150) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (36.5490 -50.8590) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (38.0950 -58.9000) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (38.0000 -65.4000) TOP/GND-L2 
+  GND                  VIA_0D4_0D2          (23.5600 -77.1810) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (16.5750 -78.4050) TOP/BOTTOM 
+  GND                  VIA0402-TOP-GND-L2   (29.2080 -74.4690) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (34.5980 -71.6500) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (37.5000 -71.0300) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (35.7040 -75.3100) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (31.8900 -68.1000) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (32.1100 -69.2500) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (31.8900 -66.8000) TOP/GND-L2 
+  GND                  VIA0402-BOTTOM-SIGNAL-L7 (37.8590 -71.1960) SIGNAL-L7/BOTTOM 
+  GND                  VIA0402-TOP-GND-L2   (28.8360 -68.5960) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (29.0570 -67.4740) TOP/GND-L2 
+  GND                  VIA0402-BOTTOM-GND-L9 (62.1500 -72.3000) GND-L9/BOTTOM 
+  GND                  VIA0402-BOTTOM-GND-L9 (68.5040 -55.2510) GND-L9/BOTTOM 
+  GND                  VIA0402-BOTTOM-GND-L9 (68.5040 -51.9700) GND-L9/BOTTOM 
+  GND                  VIA0402-TOP-GND-L2   (64.4010 -54.9030) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (48.5990 -58.9020) TOP/GND-L2 
+  NCE                  VIA0402-BOTTOM-SIGNAL-L8 (35.4460 -66.8450) SIGNAL-L8/BOTTOM 
+  NCE                  VIA0402-TOP-SIGNAL-L8 (22.3000 -62.7000) TOP/SIGNAL-L8 
+  FPGA_3V3             VIA_0D4_0D2          (12.7640 -45.1640) TOP/BOTTOM 
+  M1_PWM+              VIA0402-TOP-SIGNAL-L8 (57.0300 -64.6300) TOP/SIGNAL-L8 
+  N7132405             VIA0402-BOTTOM-SIGNAL-L8 (48.1850 -62.5800) SIGNAL-L8/BOTTOM 
+  N7132397             VIA0402-BOTTOM-SIGNAL-L8 (48.8350 -62.5800) SIGNAL-L8/BOTTOM 
+
+
+<< Antenna Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  AD_RAND              VIA0402-TOP-SIGNAL-L3 (18.1140 -74.6530) TOP/SIGNAL-L3 
+  AD_PGA               VIA_0D4_0D2          (18.5470 -75.1530) TOP/BOTTOM 
+  TMS                  VIA0402-BOTTOM-SIGNAL-L7 (34.9990 -62.8450) SIGNAL-L7/BOTTOM 
+  ADC_3V3              VIA_0D4_0D2          (16.4160 -73.4080) TOP/BOTTOM 
+  M2_PWM+              VIA0402-TOP-SIGNAL-L8 (53.1300 -64.6300) TOP/SIGNAL-L8 
+  M2_PWM-              VIA0402-TOP-SIGNAL-L8 (53.7800 -64.6300) TOP/SIGNAL-L8 
+  AD15                 VIA_0D4_0D2          (18.1030 -72.6530) TOP/BOTTOM 
+  AD14                 VIA_0D4_0D2          (18.5480 -72.1530) TOP/BOTTOM 
+  AD13                 VIA_0D4_0D2          (18.0910 -71.6530) TOP/BOTTOM 
+  AD12                 VIA_0D4_0D2          (18.5430 -71.1530) TOP/BOTTOM 
+  AD11                 VIA_0D4_0D2          (20.5600 -68.7070) TOP/BOTTOM 
+  AD4                  VIA_0D4_0D2          (27.0370 -71.1530) TOP/BOTTOM 
+  CPU_UART2_TXD        VIA0402-TOP-SIGNAL-L7 (45.8660 -52.7670) TOP/SIGNAL-L7 
+  STEP2A_DRV2          VIA0402-TOP-SIGNAL-L8 (77.6115 -70.3350) TOP/SIGNAL-L8 
+  GND                  VIA0402-TOP-GND-L2   (25.0600 -77.1710) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (36.8950 -52.7940) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (37.4219 -52.8049) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (36.2900 -52.8020) TOP/GND-L2 
+  GND                  VIA_0D4_0D2          (14.0270 -66.4520) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (8.6570 -59.0000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (2.7695 -54.2885) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (4.1840 -52.8740) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (14.1270 -65.4790) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (9.5180 -52.2570) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (16.5950 -75.3050) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (10.4870 -52.2670) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (3.5230 -64.1220) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (8.9160 -69.6140) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (6.7500 -56.5760) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (8.1600 -64.9840) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (6.7450 -55.6360) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (10.8330 -55.1210) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (9.3220 -55.1210) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (8.6650 -61.8710) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (1.7066 -68.7710) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (8.3970 -71.3180) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (4.2665 -71.3410) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (10.4060 -66.6200) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (8.9240 -66.6200) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (3.9465 -66.8985) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (3.9415 -67.5005) TOP/BOTTOM 
+  GND                  VIA0402-TOP-GND-L2   (21.3000 -62.7000) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (30.3000 -62.7000) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (28.3000 -62.7000) TOP/GND-L2 
+  GND                  VIA0402-BOTTOM-SIGNAL-L7 (33.8780 -64.8590) SIGNAL-L7/BOTTOM 
+  GND                  VIA0402-TOP-GND-L2   (33.3000 -64.7000) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (32.3000 -63.7000) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (21.1790 -77.7190) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (39.8900 -66.8000) TOP/GND-L2 
+  GND                  VIA0402-BOTTOM-SIGNAL-L7 (37.8647 -59.9960) SIGNAL-L7/BOTTOM 
+  GND                  VIA0402-TOP-GND-L2   (4.9270 -50.9080) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (28.2140 -76.6300) TOP/GND-L2 
+  GND                  VIA_0D4_0D2          (6.6940 -63.2060) TOP/BOTTOM 
+  GND                  VIA0402-TOP-GND-L2   (31.3000 -60.7000) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (31.3000 -56.7000) TOP/GND-L2 
+  GND                  VIA0402-BOTTOM-SIGNAL-L7 (35.4460 -64.8450) SIGNAL-L7/BOTTOM 
+  GND                  VIA0402-TOP-GND-L2   (51.0180 -75.0430) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (49.2720 -75.0490) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (47.5230 -71.9910) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (47.5230 -66.5910) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (35.3500 -57.2900) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (35.8990 -54.7150) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (36.5490 -50.8590) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (38.0950 -58.9000) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (38.0000 -65.4000) TOP/GND-L2 
+  GND                  VIA_0D4_0D2          (23.5600 -77.1810) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (16.5750 -78.4050) TOP/BOTTOM 
+  GND                  VIA0402-TOP-GND-L2   (29.2080 -74.4690) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (34.5980 -71.6500) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (37.5000 -71.0300) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (35.7040 -75.3100) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (31.8900 -68.1000) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (32.1100 -69.2500) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (31.8900 -66.8000) TOP/GND-L2 
+  GND                  VIA0402-BOTTOM-SIGNAL-L7 (37.8590 -71.1960) SIGNAL-L7/BOTTOM 
+  GND                  VIA0402-TOP-GND-L2   (28.8360 -68.5960) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (29.0570 -67.4740) TOP/GND-L2 
+  GND                  VIA0402-BOTTOM-GND-L9 (62.1500 -72.3000) GND-L9/BOTTOM 
+  GND                  VIA0402-BOTTOM-GND-L9 (68.5040 -55.2510) GND-L9/BOTTOM 
+  GND                  VIA0402-BOTTOM-GND-L9 (68.5040 -51.9700) GND-L9/BOTTOM 
+  GND                  VIA0402-TOP-GND-L2   (64.4010 -54.9030) TOP/GND-L2 
+  GND                  VIA0402-TOP-GND-L2   (48.5990 -58.9020) TOP/GND-L2 
+  VCOM                 VIA_0D4_0D2          (19.4630 -77.7190) TOP/BOTTOM 
+  NCE                  VIA0402-BOTTOM-SIGNAL-L8 (35.4460 -66.8450) SIGNAL-L8/BOTTOM 
+  NCE                  VIA0402-TOP-SIGNAL-L8 (22.3000 -62.7000) TOP/SIGNAL-L8 
+  FPGA_3V3             VIA_0D4_0D2          (12.7640 -45.1640) TOP/BOTTOM 
+  M1_PWM+              VIA0402-TOP-SIGNAL-L8 (57.0300 -64.6300) TOP/SIGNAL-L8 
+  N7132405             VIA0402-BOTTOM-SIGNAL-L8 (48.1850 -62.5800) SIGNAL-L8/BOTTOM 
+  N7132397             VIA0402-BOTTOM-SIGNAL-L8 (48.8350 -62.5800) SIGNAL-L8/BOTTOM 
+
+<< Summary >>
+  Total dangling lines:       7
+  Total dangling vias:       79
+  Total antenna vias:        89
