@@ -194,16 +194,6 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 660"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 26 5 1393 26 680")
-        (Scroll "1666 4328")
-        (Zoom "424")
-        (Occurrence "/"))
-      (Path "G:\GITHUB\PLL_FM_HW\SCHEMATIC\MINIFMDEMOD.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "10-FMDEMOD")))
+        (Placement "44 0 1 -1 -1 -1 -1 0 318 0 660"))
+      (Tab 0)))
   (ISPCBBASICLICENSE "false"))
