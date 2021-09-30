@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : FMDEMOD-57.brd                                )
 (    Software Version : 17.4S017                                      )
-(    Date/Time        : Tue Sep 28 16:16:51 2021                      )
+(    Date/Time        : Tue Sep 28 16:17:42 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -22,6 +22,6 @@
 
  ..... Total number of DRC errors  144
 
- ..... DRC update completed, total CPU time   0:00:03
+ ..... DRC update completed, total CPU time   0:00:02
  *************************************************************************
 
