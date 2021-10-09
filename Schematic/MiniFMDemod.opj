@@ -1,6 +1,6 @@
 (ExpressProject "MiniFMDemod"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[09/29/21]")
+  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[10/09/21]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -188,21 +188,12 @@
       (Path "Design Resources" ".\minifmdemod.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\library1.olb")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources" ".\minifmdemod.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 345 0 660"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1248 26 680")
-        (Scroll "937 3757")
-        (Zoom "424")
-        (Occurrence "/"))
-      (Path "G:\GITHUB\PLL_FM_HW\SCHEMATIC\MINIFMDEMOD.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "05-IMX6_PERI1")))
+        (Placement "44 0 1 -1 -1 -1 -1 0 397 0 660"))
+      (Tab 0)))
   (ISPCBBASICLICENSE "false"))

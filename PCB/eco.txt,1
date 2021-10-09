@@ -3,35 +3,38 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  G:/github/PLL_FM_HW/PCB/FMDEMOD-57.brd                                      |
-|                                                    Wed Sep 29 14:35:14 2021  |
+|                                                    Wed Sep 29 16:50:21 2021  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  GND          pins ADDED TO this existing net (pins not previously on any net)
-                                 C5655.2                        
+  DRAM_VREF    pins ADDED TO this existing net (pins not previously on any net)
+                                 C5656.1                        
+                                 C5657.1                        
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VDD_HIGH_CAP pins ADDED TO this existing net (pins not previously on any net)
-                                 C5655.1                        
+  GND          pins ADDED TO this existing net (pins not previously on any net)
+                                 C5656.2                        
+                                 C5657.2                        
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  G:/github/PLL_FM_HW/PCB/FMDEMOD-57.brd                                      |
-|                                                    Wed Sep 29 14:35:14 2021  |
+|                                                    Wed Sep 29 16:50:21 2021  |
 |------------------------------------------------------------------------------|
 | COMPONENTS ADDED to design                                                   |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        |    device type                                           |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C5655               CAP NP_C0201_DISCRETE_0.22UF 
+ C5656               CAP NP_C0402_DISCRETE_10UF 
+ C5657               CAP NP_C0402_DISCRETE_10UF 
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
 |  G:/github/PLL_FM_HW/PCB/FMDEMOD-57.brd                                      |
-|                                                    Wed Sep 29 14:35:14 2021  |
+|                                                    Wed Sep 29 16:50:21 2021  |
 |------------------------------------------------------------------------------|
 | COMPONENT PROPERTIES added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -61,32 +64,35 @@
 |                                                                    Page   4  |
 |------------------------------------------------------------------------------|
 |  G:/github/PLL_FM_HW/PCB/FMDEMOD-57.brd                                      |
-|                                                    Wed Sep 29 14:35:14 2021  |
+|                                                    Wed Sep 29 16:50:21 2021  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C5655.2                        PRIM_FILE      .\pstchip.dat
+ C5656.2                        PRIM_FILE      .\pstchip.dat
+ C5657.2                        PRIM_FILE      .\pstchip.dat
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   5  |
 |------------------------------------------------------------------------------|
 |  G:/github/PLL_FM_HW/PCB/FMDEMOD-57.brd                                      |
-|                                                    Wed Sep 29 14:35:14 2021  |
+|                                                    Wed Sep 29 16:50:21 2021  |
 |------------------------------------------------------------------------------|
 | PIN PROPERTIES added to design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    pin_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C5655.1                        CDS_PINID      \1\
- C5655.2                        CDS_PINID      \2\
+ C5656.1                        CDS_PINID      \1\
+ C5656.2                        CDS_PINID      \2\
+ C5657.1                        CDS_PINID      \1\
+ C5657.2                        CDS_PINID      \2\
 |------------------------------------------------------------------------------|
-|       Nets changed          :       2                                        |
-|       Components added      :       1                                        |
+|       Nets changed          :       4                                        |
+|       Components added      :       2                                        |
 |       Comp property added   :      19                                        |
-|       Pin property added    :       2                                        |
-|       Slot property added   :       1                                        |
+|       Pin property added    :       4                                        |
+|       Slot property added   :       2                                        |
 |                                                                              |
-|   Total ECO changes reported:      25                                        |
+|   Total ECO changes reported:      31                                        |
 |------------------------------------------------------------------------------|
