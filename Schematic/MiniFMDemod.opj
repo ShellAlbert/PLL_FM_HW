@@ -194,6 +194,46 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 397 0 660"))
-      (Tab 0)))
+        (Placement "44 0 1 -1 -1 -1 -1 0 327 0 660"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1266 26 680")
+        (Scroll "-176 -1")
+        (Zoom "53")
+        (Occurrence "/"))
+      (Path "G:\GITHUB\PLL_FM_HW\SCHEMATIC\MINIFMDEMOD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "06-IMX6_PERI2"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1266 26 680")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "G:\GITHUB\PLL_FM_HW\SCHEMATIC\MINIFMDEMOD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "05-IMX6_PERI1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1266 26 680")
+        (Scroll "414 139")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "G:\GITHUB\PLL_FM_HW\SCHEMATIC\MINIFMDEMOD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "12-POWER_CPU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1266 26 680")
+        (Scroll "414 537")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "G:\GITHUB\PLL_FM_HW\SCHEMATIC\MINIFMDEMOD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "10-FMDEMOD")))
   (ISPCBBASICLICENSE "false"))
