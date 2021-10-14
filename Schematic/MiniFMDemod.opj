@@ -1,6 +1,6 @@
 (ExpressProject "MiniFMDemod"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[10/12/21]")
+  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[10/14/21]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -193,6 +193,6 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 435 0 660"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 558 0 660"))
       (Tab 0)))
   (ISPCBBASICLICENSE "false"))
