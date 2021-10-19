@@ -1,6 +1,6 @@
 (ExpressProject "MiniFMDemod"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[10/14/21]")
+  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[10/19/21]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -188,11 +188,12 @@
       (Path "Design Resources" ".\minifmdemod.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\library1.olb")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources" ".\minifmdemod.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 558 0 660"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 425 0 660"))
       (Tab 0)))
   (ISPCBBASICLICENSE "false"))
