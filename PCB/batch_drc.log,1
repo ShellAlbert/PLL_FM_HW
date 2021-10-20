@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : FMDEMOD-57.brd                                )
 (    Software Version : 17.4S017                                      )
-(    Date/Time        : Sat Oct  9 16:07:16 2021                      )
+(    Date/Time        : Wed Oct 20 16:38:39 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,8 +20,8 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  317
+ ..... Total number of DRC errors  26
 
- ..... DRC update completed, total CPU time   0:00:02
+ ..... DRC update completed, total CPU time   0:00:03
  *************************************************************************
 
