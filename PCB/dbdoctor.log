@@ -1,0 +1,16 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : FMDEMOD-57.brd                                )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Thu Oct 21 08:45:53 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+WARNING Deleted redundant via at (68.2500 -27.3800) on net DCDC_3V3.
+WARNING Deleted redundant via at (37.3530 -46.5350) on net GND.
+WARNING Deleted redundant via at (21.3200 -52.8870) on net GND.
+
+3 warnings, 0 errors detected, 0 errors could be fixed.

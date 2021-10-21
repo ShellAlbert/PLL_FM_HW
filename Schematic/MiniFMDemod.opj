@@ -1,6 +1,6 @@
 (ExpressProject "MiniFMDemod"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[10/19/21]")
+  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[10/21/21]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -56,11 +56,24 @@
     (Annotate_type "Default")
     (width_pages "100")
     (width_start "80")
-    (width_End "80"))
+    (width_End "80")
+    ("Allegro Backannotation Run Genfeed" "TRUE")
+    ("Allegro Backannotation Board File"
+       "G:\github\PLL_FM_HW\PCB\FMDEMOD-57.brd")
+    ("Allegro Backannotation Netlist Directory"
+       "G:\github\PLL_FM_HW\Schematic\NETLIST")
+    ("Allegro Backannotation Output File" "allegro\MINIFMDEMOD.swp")
+    ("Allegro Backannotation Update Schematic" "TRUE")
+    ("Allegro Backannotation View Output" "FALSE")
+    ("Allegro Setup Output Warnings" "FALSE")
+    (Backannotation_TAB "0"))
   (Folder "Layout")
   (Folder "Outputs"
     (File ".\minifmdemod.bom"
-      (Type "Report")))
+      (Type "Report"))
+    (File ".\allegro\minifmdemod.swp"
+      (Type "Report")
+      (DisplayName "MINIFMDEMOD.swp")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
@@ -70,7 +83,10 @@
       (Sort User))
     (Folder "Include Files"
       (Sort User)))
-  (Folder "Logs")
+  (Folder "Logs"
+    (File ".\netlist\swp.log"
+      (Type "Log File")
+      (LogFile "G:\github\PLL_FM_HW\Schematic\NETLIST\swp.log")))
   (PartMRUSelector
     ("T POINT S"
       (FullPartName "T POINT S.Normal")
@@ -189,11 +205,12 @@
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\library1.olb")
       (Path "Outputs")
+      (Path "Logs")
       (Select "Design Resources" ".\minifmdemod.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 425 0 660"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 381 0 660"))
       (Tab 0)))
   (ISPCBBASICLICENSE "false"))

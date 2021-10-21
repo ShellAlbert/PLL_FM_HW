@@ -1,26 +1,369 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <?xml-stylesheet type="text/xsl" href="file:///D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/consmgr/VDD/report/treeview.xsl"?>
-<ConstraintDifferenceReport Path="file:///D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/consmgr/VDD/report/rc" Status="no-change" Type="Constraint Difference Report">
+<ConstraintDifferenceReport Path="file:///D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/consmgr/VDD/report/rc" Type="Constraint Difference Report">
 
   <RptSummary Col1="Layout" Col2="Schematic">
-    <Entry Name="Report time">Tue Oct 19 10:49:35 2021
+    <Entry Name="Report time">Thu Oct 21 09:28:51 2021
 </Entry>
     <Entry Name="Software version">17.4 (S017)</Entry>
     <Entry Name="Layout">G:\github\PLL_FM_HW\PCB\FMDEMOD-57.brd</Entry>
     <Entry Name="Schematic">G:\github\PLL_FM_HW\Schematic\NETLIST\pstcmdb.dat</Entry>
-    <Entry Name="Baseline File">C:\Users\ADMINI~1\AppData\Local\Temp\#Taaaaaf10612.tmp</Entry>
+    <Entry Name="Baseline File">C:\Users\ADMINI~1\AppData\Local\Temp\Tmp00001018.dcf</Entry>
     <Entry Name="Destination design updated">Yes</Entry>
     <Entry Name="Update Mode">Diff3</Entry>
-    <Entry Name="Constraint Information">Electrical, NetClasses, Properties</Entry>
+    <Entry Name="Constraint Information">CrossSection, Electrical, Physical, Spacing, Same Net Spacing, NetClasses, Properties</Entry>
+    <Entry Name="Objects with conflicts">0</Entry>
   </RptSummary>
 
   <Tree>
-    <Item Filter="0x1" Name="Summary" Ref="main-summary"/>
+    <Item Filter="0x1b" Name="Summary" Ref="main-summary">
+      <Item Filter="0x1a" Name="DiffPairs [9]" Ref="3d">
+        <Item Filter="0x1a" Name="AIN" Ref="36"/>
+        <Item Filter="0x1a" Name="CK0" Ref="2e"/>
+        <Item Filter="0x2" Name="CLKO" Ref="2b"/>
+        <Item Filter="0x1a" Name="CLK_AD" Ref="3a"/>
+        <Item Filter="0x1a" Name="DP1" Ref="34"/>
+        <Item Filter="0x1a" Name="DP2" Ref="35"/>
+        <Item Filter="0x1a" Name="ENC" Ref="37"/>
+        <Item Filter="0x1a" Name="MIC2" Ref="31"/>
+        <Item Filter="0x1a" Name="SDQS1" Ref="38"/>
+      </Item>
+      <Item Filter="0x2" Name="MatchGroups [3]" Ref="3e">
+        <Item Filter="0x2" Name="MG_DATA0-7" Ref="2a"/>
+        <Item Filter="0x2" Name="MG_DATA8-15" Ref="28"/>
+        <Item Filter="0x2" Name="MG_SDRAM_ADDRESS" Ref="29"/>
+      </Item>
+      <Item Filter="0x2" Name="NetGroups [1]" Ref="3f">
+        <Item Filter="0x2" Name="NG_BANK" Ref="27"/>
+      </Item>
+      <Item Filter="0x0" Name="Nets [1]" Ref="3c">
+        <Item Filter="0x0" Name="CK0N" Ref="5">
+          <Item Filter="0x0" Name="R211.1:U10.P2" Ref="2d"/>
+          <Item Filter="0x0" Name="U2.K7:R211.1" Ref="2c"/>
+        </Item>
+      </Item>
+      <Item Filter="0x12" Name="Xnets [10]" Ref="3b">
+        <Item Filter="0x2" Name="AIN+" Ref="11"/>
+        <Item Filter="0x2" Name="AUDIO_OUT" Ref="a"/>
+        <Item Filter="0x2" Name="CK0N" Ref="4"/>
+        <Item Filter="0x2" Name="CLKO+" Ref="19"/>
+        <Item Filter="0x2" Name="CLKO-" Ref="1c"/>
+        <Item Filter="0x2" Name="ENC+" Ref="1f"/>
+        <Item Filter="0x0" Name="N7587990" Ref="26"/>
+        <Item Filter="0x2" Name="SDQS0N" Ref="7"/>
+        <Item Filter="0x2" Name="SDQS1N" Ref="1"/>
+        <Item Filter="0x10" Name="VCOM" Ref="25"/>
+      </Item>
+    </Item>
   </Tree>
 
   <Summaries>
-    <MainSummary ID="main-summary"/>
+    <MainSummary ID="main-summary">
+      <ChangedObject Filter="0x1a" Name="DiffPairs" ObjNumber="9" Ref="3d"/>
+      <ChangedObject Filter="0x2" Name="MatchGroups" ObjNumber="3" Ref="3e"/>
+      <ChangedObject Filter="0x2" Name="NetGroups" ObjNumber="1" Ref="3f"/>
+      <ChangedObject Filter="0x0" Name="Nets" ObjNumber="1" Ref="3c"/>
+      <ChangedObject Filter="0x12" Name="Xnets" ObjNumber="10" Ref="3b"/>
+    </MainSummary>
+    <GroupSummary ID="3b" Name="Xnets">
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="7" Name="AIN+" Notes="0" Other="0" Ref="11" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="6" Name="AUDIO_OUT" Notes="0" Other="0" Ref="a" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="2" Name="CK0N" Notes="0" Other="0" Ref="4" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="2" Name="CLKO+" Notes="0" Other="0" Ref="19" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="2" Name="CLKO-" Notes="0" Other="0" Ref="1c" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="5" Name="ENC+" Notes="0" Other="0" Ref="1f" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="N7587990" Notes="0" Other="0" Ref="26" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="2" Name="SDQS0N" Notes="0" Other="0" Ref="7" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="2" Name="SDQS1N" Notes="0" Other="0" Ref="1" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="10" Child="0" Filter="0x10" Membership="0" Name="VCOM" Notes="0" Other="0" Ref="25" Reference="0" Status="Deleted"/>
+    </GroupSummary>
+    <ObjectSummary ID="11" Kind="Xnet" Name="AIN+" Status="Created">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="AIN+"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="N7581387"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="N7581373"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="AIN-"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="VCOM"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="N7581277"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="N7581273"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="a" Kind="Xnet" Name="AUDIO_OUT">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="MIC2N_IN2"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="MIC2P_IN2"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="MIC2P"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="MIC2P_IN"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="MIC2N_IN"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="MIC2N"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="4" Kind="Xnet" Name="CK0N" Status="Created">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="CK0N" Ref="5"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="CK0P"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="19" Kind="Xnet" Name="CLKO+" Status="Created">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="CLKO+"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="CLK_AD+"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="1c" Kind="Xnet" Name="CLKO-" Status="Created">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="CLKO-"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="CLK_AD-"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="1f" Kind="Xnet" Name="ENC+" Status="Created">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="ENC+"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="N7588005"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="N7587990"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="N7588017"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="ENC-"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="26" Kind="Xnet" Name="N7587990" Status="Deleted"/>
+    <ObjectSummary ID="7" Kind="Xnet" Name="SDQS0N" Status="Created">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="SDQS0N"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="SDQS0P"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="1" Kind="Xnet" Name="SDQS1N" Status="Created">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="SDQS1N"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="SDQS1P"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="25" Kind="Xnet" Name="VCOM" Status="Deleted">
+      <Attributes Filter="0x10" Type="Attributes">
+        <Attribute Filter="0x10" Name="BBV_TO_SHAPE_SPACING" Status="Deleted" Taken="Src" Type="Scalar">
+          <Value Type="noChange">
+            <Dst>0.3000</Dst>
+            <Src></Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BONDPAD_TO_SHAPE_SPACING" Status="Deleted" Taken="Src" Type="Scalar">
+          <Value Type="noChange">
+            <Dst>0.3000</Dst>
+            <Src></Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="LINE_TO_SHAPE_SPACING" Status="Deleted" Taken="Src" Type="Scalar">
+          <Value Type="noChange">
+            <Dst>0.3000</Dst>
+            <Src></Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="MVIA_TO_SHAPE_SPACING" Status="Deleted" Taken="Src" Type="Scalar">
+          <Value Type="noChange">
+            <Dst>0.3000</Dst>
+            <Src></Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="SHAPE_TO_SHAPE_SPACING" Status="Deleted" Taken="Src" Type="Scalar">
+          <Value Type="noChange">
+            <Dst>0.5000</Dst>
+            <Src></Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="SHAPE_TO_SMDPIN_SPACING" Status="Deleted" Taken="Src" Type="Scalar">
+          <Value Type="noChange">
+            <Dst>0.3000</Dst>
+            <Src></Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="SHAPE_TO_TESTPIN_SPACING" Status="Deleted" Taken="Src" Type="Scalar">
+          <Value Type="noChange">
+            <Dst>0.3000</Dst>
+            <Src></Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="SHAPE_TO_TESTVIA_SPACING" Status="Deleted" Taken="Src" Type="Scalar">
+          <Value Type="noChange">
+            <Dst>0.3000</Dst>
+            <Src></Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="SHAPE_TO_THRUVIA_SPACING" Status="Deleted" Taken="Src" Type="Scalar">
+          <Value Type="noChange">
+            <Dst>0.3000</Dst>
+            <Src></Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="THRUPIN_TO_SHAPE_SPACING" Status="Deleted" Taken="Src" Type="Scalar">
+          <Value Type="noChange">
+            <Dst>0.3000</Dst>
+            <Src></Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+    <GroupSummary ID="3c" Name="Nets">
+      <ChangedObject Attributes="0" Child="2" Filter="0x0" Membership="0" Name="CK0N" Notes="0" Other="0" Ref="5" Reference="0"/>
+    </GroupSummary>
+    <ObjectSummary ID="5" Kind="Net" Name="CK0N">
+      <Children Type="Child">
+        <Children Type=" PinPair">
+          <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="R211.1:U10.P2" Notes="1" Other="0" Ref="2d" Reference="0"/>
+          <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="U2.K7:R211.1" Notes="1" Other="0" Ref="2c" Reference="0"/>
+        </Children>
+      </Children>
+    </ObjectSummary>
+    <GroupSummary ID="3d" Name="DiffPairs">
+      <ChangedObject Attributes="0" Child="0" Filter="0x1a" Membership="2" Name="AIN" Notes="0" Other="0" Ref="36" Reference="2" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x1a" Membership="2" Name="CK0" Notes="0" Other="0" Ref="2e" Reference="2" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="2" Name="CLKO" Notes="0" Other="0" Ref="2b" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x1a" Membership="2" Name="CLK_AD" Notes="0" Other="0" Ref="3a" Reference="2" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x1a" Membership="2" Name="DP1" Notes="0" Other="0" Ref="34" Reference="2" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x1a" Membership="2" Name="DP2" Notes="0" Other="0" Ref="35" Reference="2" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x1a" Membership="2" Name="ENC" Notes="0" Other="0" Ref="37" Reference="2" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x1a" Membership="2" Name="MIC2" Notes="0" Other="0" Ref="31" Reference="2" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x1a" Membership="2" Name="SDQS1" Notes="0" Other="0" Ref="38" Reference="2" Status="Deleted"/>
+    </GroupSummary>
+    <ObjectSummary ID="36" Kind="DiffPair" Name="AIN" Status="Deleted">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="AIN-"/>
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="AIN+"/>
+      </Associations>
+      <Associations Filter="0x18" Type="Reference">
+        <Reference Add="0" Filter="0x10" Kind="SpacingCSet" Name="OUTER_DIFF_100_OHMS"/>
+        <Reference Add="0" Filter="0x8" Kind="PhysicalCSet" Name="OUTER_DIFF_100_OHMS"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="2e" Kind="DiffPair" Name="CK0" Status="Deleted">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="CK0P"/>
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="CK0N" Ref="5"/>
+      </Associations>
+      <Associations Filter="0x18" Type="Reference">
+        <Reference Add="0" Filter="0x10" Kind="SpacingCSet" Name="DEFAULT"/>
+        <Reference Add="0" Filter="0x8" Kind="PhysicalCSet" Name="INNER_DIFF_100_OHMS"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="2b" Kind="DiffPair" Name="CLKO">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="1" Filter="0x40000000" Kind="Xnet" Name="CLKO+" Ref="19"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Xnet" Name="CLKO-" Ref="1c"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="3a" Kind="DiffPair" Name="CLK_AD" Status="Deleted">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="CLK_AD-"/>
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="CLK_AD+"/>
+      </Associations>
+      <Associations Filter="0x18" Type="Reference">
+        <Reference Add="0" Filter="0x10" Kind="SpacingCSet" Name="INNER_DIFF_100_OHMS"/>
+        <Reference Add="0" Filter="0x8" Kind="PhysicalCSet" Name="INNER_DIFF_100_OHMS"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="34" Kind="DiffPair" Name="DP1" Status="Deleted">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="MIC2P_IN"/>
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="MIC2N_IN"/>
+      </Associations>
+      <Associations Filter="0x18" Type="Reference">
+        <Reference Add="0" Filter="0x10" Kind="SpacingCSet" Name="OUTER_DIFF_100_OHMS"/>
+        <Reference Add="0" Filter="0x8" Kind="PhysicalCSet" Name="INNER_DIFF_100_OHMS"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="35" Kind="DiffPair" Name="DP2" Status="Deleted">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="MIC2P_IN2"/>
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="MIC2N_IN2"/>
+      </Associations>
+      <Associations Filter="0x18" Type="Reference">
+        <Reference Add="0" Filter="0x10" Kind="SpacingCSet" Name="OUTER_DIFF_100_OHMS"/>
+        <Reference Add="0" Filter="0x8" Kind="PhysicalCSet" Name="OUTER_DIFF_100_OHMS"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="37" Kind="DiffPair" Name="ENC" Status="Deleted">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="ENC-"/>
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="ENC+"/>
+      </Associations>
+      <Associations Filter="0x18" Type="Reference">
+        <Reference Add="0" Filter="0x10" Kind="SpacingCSet" Name="OUTER_DIFF_100_OHMS"/>
+        <Reference Add="0" Filter="0x8" Kind="PhysicalCSet" Name="OUTER_DIFF_100_OHMS"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="31" Kind="DiffPair" Name="MIC2" Status="Deleted">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="MIC2P"/>
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="MIC2N"/>
+      </Associations>
+      <Associations Filter="0x18" Type="Reference">
+        <Reference Add="0" Filter="0x10" Kind="SpacingCSet" Name="OUTER_DIFF_100_OHMS"/>
+        <Reference Add="0" Filter="0x8" Kind="PhysicalCSet" Name="OUTER_DIFF_100_OHMS"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="38" Kind="DiffPair" Name="SDQS1" Status="Deleted">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="SDQS1P"/>
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="SDQS1N"/>
+      </Associations>
+      <Associations Filter="0x18" Type="Reference">
+        <Reference Add="0" Filter="0x10" Kind="SpacingCSet" Name="INNER_DIFF_100_OHMS"/>
+        <Reference Add="0" Filter="0x8" Kind="PhysicalCSet" Name="INNER_DIFF_100_OHMS"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="2d" Kind="PinPair" Name="R211.1:U10.P2">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating PinPair: &quot;R211.1:U10.P2&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="2c" Kind="PinPair" Name="U2.K7:R211.1">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating PinPair: &quot;U2.K7:R211.1&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <GroupSummary ID="3e" Name="MatchGroups">
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="1" Name="MG_DATA0-7" Notes="0" Other="0" Ref="2a" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="1" Name="MG_DATA8-15" Notes="0" Other="0" Ref="28" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="1" Name="MG_SDRAM_ADDRESS" Notes="0" Other="0" Ref="29" Reference="0"/>
+    </GroupSummary>
+    <ObjectSummary ID="2a" Kind="MatchGroup" Name="MG_DATA0-7">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="1" Filter="0x40000000" Kind="Xnet" Name="SDQS0N" Ref="7"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="28" Kind="MatchGroup" Name="MG_DATA8-15">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="1" Filter="0x40000000" Kind="Xnet" Name="SDQS1N" Ref="1"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="29" Kind="MatchGroup" Name="MG_SDRAM_ADDRESS">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="1" Filter="0x40000000" Kind="Xnet" Name="CK0N" Ref="4"/>
+      </Associations>
+    </ObjectSummary>
+    <GroupSummary ID="3f" Name="NetGroups">
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="1" Name="NG_BANK" Notes="0" Other="0" Ref="27" Reference="0"/>
+    </GroupSummary>
+    <ObjectSummary ID="27" Kind="NetGroup" Name="NG_BANK">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="1" Filter="0x40000000" Kind="Xnet" Name="CK0N" Ref="4"/>
+      </Associations>
+    </ObjectSummary>
   </Summaries>
+
+  <Notes>
+    <Note Ref="2c" Text="Not creating PinPair: &quot;U2.K7:R211.1&quot;. Preserving deletion. (PinPair U2.K7:R211.1)" Type="Warning"/>
+    <Note Ref="2d" Text="Not creating PinPair: &quot;R211.1:U10.P2&quot;. Preserving deletion. (PinPair R211.1:U10.P2)" Type="Warning"/>
+  </Notes>
 
   <Layers>
     <Layer Name="TOP" Type="Conductor"/>

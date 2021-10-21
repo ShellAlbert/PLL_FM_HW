@@ -3,48 +3,74 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  G:/github/PLL_FM_HW/PCB/FMDEMOD-57.brd                                      |
-|                                                    Tue Oct 19 10:49:35 2021  |
+|                                                    Thu Oct 21 09:28:51 2021  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
+| COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  GND_SIGNAL   pins MOVED FROM this net (to net name listed on right)
-                                 U36.31          22.5600 -69.403
-                                                                            GND
+ R_R0402_DISCRETE_15K
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  G:/github/PLL_FM_HW/PCB/FMDEMOD-57.brd                                      |
-|                                                    Tue Oct 19 10:49:35 2021  |
+|                                                    Thu Oct 21 09:28:51 2021  |
 |------------------------------------------------------------------------------|
-| COMPONENT PROPERTIES added to design                                         |
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R109                R_R0402_DISCRETE_15K  49.9140 -34.882 R_R0402_DISCRETE_15K
+ R110                R_R0402_DISCRETE_15K  50.3990 -33.892 R_R0402_DISCRETE_15K
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/PCB/FMDEMOD-57.brd                                      |
+|                                                    Thu Oct 21 09:28:51 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENT PROPERTIES deleted from design                                     |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   ref  des   |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C84            62.4150 -7.9070 NO_XNET_CONNEC True
- C86            59.9880 -4.8350 NO_XNET_CONNEC True
- C177           59.4910 -36.207 NO_XNET_CONNEC True
- C179           58.4020 -34.027 NO_XNET_CONNEC True
- C182           58.2300 -34.910 NO_XNET_CONNEC True
- C188           57.4360 -34.027 NO_XNET_CONNEC True
- C189           55.9810 -35.217 NO_XNET_CONNEC True
- R70            65.5750 -4.8350 NO_XNET_CONNEC True
- R187           59.3560 -34.027 NO_XNET_CONNEC True
- R193           55.9810 -33.037 NO_XNET_CONNEC True
- R238           29.2040 -77.380 NO_XNET_CONNEC True
- R239           16.9900 -76.055 NO_XNET_CONNEC True
- R240           16.9900 -77.055 NO_XNET_CONNEC True
- R241           24.2960 -68.136 NO_XNET_CONNEC True
- R242           24.2960 -67.157 NO_XNET_CONNEC True
- R243           29.2040 -75.380 NO_XNET_CONNEC True
- R324           50.6670 -35.652 NO_XNET_CONNEC True
- R325           50.3990 -33.892 NO_XNET_CONNEC True
- R326           49.9140 -34.882 NO_XNET_CONNEC True
+ C108           57.4360 -34.027 NO_XNET_CONNEC 
+ C109           58.4020 -34.027 NO_XNET_CONNEC 
+ C111           58.2300 -34.910 NO_XNET_CONNEC 
+ C122           55.9810 -35.217 NO_XNET_CONNEC 
+ C123           59.4910 -36.207 NO_XNET_CONNEC 
+ C272           59.9880 -4.8350 NO_XNET_CONNEC 
+ C281           62.4150 -7.9070 NO_XNET_CONNEC 
+ R104           55.9810 -33.037 NO_XNET_CONNEC 
+ R105           59.3560 -34.027 NO_XNET_CONNEC 
+ R109           49.9140 -34.882 NO_XNET_CONNEC 
+ R110           50.3990 -33.892 NO_XNET_CONNEC 
+ R113           50.6670 -35.652 NO_XNET_CONNEC 
+ R167           24.2960 -67.157 NO_XNET_CONNEC 
+ R169           24.2960 -68.136 NO_XNET_CONNEC 
+ R192           29.2040 -75.380 NO_XNET_CONNEC 
+ R194           16.9900 -76.055 NO_XNET_CONNEC 
+ R196           16.9900 -77.055 NO_XNET_CONNEC 
+ R197           29.2040 -77.380 NO_XNET_CONNEC 
+ R211           65.5750 -4.8350 NO_XNET_CONNEC 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
 |------------------------------------------------------------------------------|
-|       Nets changed          :       1                                        |
-|       Comp property added   :      19                                        |
+|  G:/github/PLL_FM_HW/PCB/FMDEMOD-57.brd                                      |
+|                                                    Thu Oct 21 09:28:51 2021  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R109.2         49.9140 -34.882 PRIM_FILE      .\pstchip.dat
+ R110.2         50.3990 -33.892 PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Comp definitions added:       1                                        |
+|       Components changed    :       2                                        |
+|       Comp property deleted :      19                                        |
+|       Slot property added   :       2                                        |
 |                                                                              |
-|   Total ECO changes reported:      20                                        |
+|   Total ECO changes reported:      24                                        |
 |------------------------------------------------------------------------------|

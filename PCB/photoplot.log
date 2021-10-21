@@ -1,0 +1,934 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : FMDEMOD-57.brd                                )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Thu Oct 21 08:45:56 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          MM
+    FILM-SIZE             2400000 1600000
+    FORMAT                2.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < G:/github/PLL_FM_HW/PCB/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10000                                  DARK 
+  CIRCLE     0.12000                                  DARK 
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.16000                                  DARK 
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.25000                                  DARK 
+  CIRCLE     0.26000                                  DARK 
+  CIRCLE     0.30000                                  DARK 
+  CIRCLE     0.36000                                  DARK 
+  CIRCLE     0.38000                                  DARK 
+  CIRCLE     0.40000                                  DARK 
+  CIRCLE     0.45000                                  DARK 
+  CIRCLE     0.50000                                  DARK 
+  CIRCLE     0.60000                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     3.80000                                  DARK 
+  RECTANGLE  0.20000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  0.20000     x 0.50000      90.000 NO     DARK 
+  RECTANGLE  0.20000     x 0.60000      45.000 NO     DARK 
+  RECTANGLE  0.20000     x 0.60000     135.000 NO     DARK 
+  RECTANGLE  0.20000     x 0.80000       0.000 NO     DARK 
+  RECTANGLE  0.20000     x 0.80000      90.000 NO     DARK 
+  RECTANGLE  0.25000     x 0.35000      90.000 NO     DARK 
+  RECTANGLE  0.25000     x 0.70000       0.000 NO     DARK 
+  RECTANGLE  0.25000     x 0.70000      90.000 NO     DARK 
+  RECTANGLE  0.30000     x 0.20000       0.000 NO     DARK 
+  RECTANGLE  0.35000     x 1.00000       0.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.60000      90.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.80000       0.000 NO     DARK 
+  RECTANGLE  0.40000     x 1.50000       0.000 NO     DARK 
+  RECTANGLE  0.50000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  0.50000     x 0.50000      90.000 NO     DARK 
+  RECTANGLE  0.50000     x 1.00000      45.000 NO     DARK 
+  RECTANGLE  0.50000     x 1.00000     135.000 NO     DARK 
+  RECTANGLE  0.60000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  0.60000     x 0.50000      90.000 NO     DARK 
+  RECTANGLE  0.60000     x 1.00000       0.000 NO     DARK 
+  RECTANGLE  0.60000     x 1.00000      90.000 NO     DARK 
+  RECTANGLE  0.70000     x 0.30000       0.000 NO     DARK 
+  RECTANGLE  0.70000     x 0.30000      90.000 NO     DARK 
+  RECTANGLE  0.70000     x 1.00000       0.000 NO     DARK 
+  RECTANGLE  0.70000     x 1.00000      90.000 NO     DARK 
+  RECTANGLE  0.75000     x 2.50000       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.40000       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.40000      90.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.50000      90.000 NO     DARK 
+  RECTANGLE  0.80000     x 2.00000      90.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.30000      90.000 NO     DARK 
+  RECTANGLE  1.20000     x 0.30000       0.000 NO     DARK 
+  RECTANGLE  1.20000     x 0.30000      90.000 NO     DARK 
+  RECTANGLE  1.20000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  1.20000     x 0.60000      90.000 NO     DARK 
+  RECTANGLE  1.50000     x 0.40000       0.000 NO     DARK 
+  RECTANGLE  1.50000     x 0.40000      90.000 NO     DARK 
+  RECTANGLE  1.50000     x 0.80000       0.000 NO     DARK 
+  RECTANGLE  1.50000     x 0.80000      90.000 NO     DARK 
+  RECTANGLE  1.50000     x 1.00000       0.000 NO     DARK 
+  RECTANGLE  1.50000     x 1.20000       0.000 NO     DARK 
+  RECTANGLE  1.50000     x 1.20000      90.000 NO     DARK 
+  RECTANGLE  1.70000     x 2.40000      90.000 NO     DARK 
+  RECTANGLE  2.00000     x 4.00000       0.000 NO     DARK 
+  RECTANGLE  2.20000     x 2.20000       0.000 NO     DARK 
+  RECTANGLE  2.20000     x 2.20000      45.000 NO     DARK 
+  RECTANGLE  3.20000     x 0.90000      90.000 NO     DARK 
+  RECTANGLE  3.20000     x 3.20000       0.000 NO     DARK 
+  RECTANGLE  5.00000     x 5.00000       0.000 NO     DARK 
+
+     TOP created.
+
+
+================================================================
+     PROCESSING FILM < GND-L2 >
+     TO FILE < G:/github/PLL_FM_HW/PCB/GND-L2.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10000                                  DARK 
+  CIRCLE     0.30000                                  DARK 
+  CIRCLE     0.40000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     3.80000                                  DARK 
+
+     GND-L2 created.
+
+
+================================================================
+     PROCESSING FILM < SIGNAL-L3 >
+     TO FILE < G:/github/PLL_FM_HW/PCB/SIGNAL-L3.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10000                                  DARK 
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.15000                                  DARK 
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.25000                                  DARK 
+  CIRCLE     0.26000                                  DARK 
+  CIRCLE     0.30000                                  DARK 
+  CIRCLE     0.36000                                  DARK 
+  CIRCLE     0.40000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     3.80000                                  DARK 
+
+     SIGNAL-L3 created.
+
+
+================================================================
+     PROCESSING FILM < SIGNAL-L4 >
+     TO FILE < G:/github/PLL_FM_HW/PCB/SIGNAL-L4.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10000                                  DARK 
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.16000                                  DARK 
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.26000                                  DARK 
+  CIRCLE     0.30000                                  DARK 
+  CIRCLE     0.36000                                  DARK 
+  CIRCLE     0.40000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     3.80000                                  DARK 
+
+     SIGNAL-L4 created.
+
+
+================================================================
+     PROCESSING FILM < GND-L5 >
+     TO FILE < G:/github/PLL_FM_HW/PCB/GND-L5.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.30000                                  DARK 
+  CIRCLE     0.40000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     3.80000                                  DARK 
+
+     GND-L5 created.
+
+
+================================================================
+     PROCESSING FILM < PWR-L6 >
+     TO FILE < G:/github/PLL_FM_HW/PCB/PWR-L6.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10000                                  DARK 
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.22000                                  DARK 
+  CIRCLE     0.25000                                  DARK 
+  CIRCLE     0.26000                                  DARK 
+  CIRCLE     0.30000                                  DARK 
+  CIRCLE     0.36000                                  DARK 
+  CIRCLE     0.38000                                  DARK 
+  CIRCLE     0.40000                                  DARK 
+  CIRCLE     0.50000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     3.80000                                  DARK 
+
+     PWR-L6 created.
+
+
+================================================================
+     PROCESSING FILM < SIGNAL-L7 >
+     TO FILE < G:/github/PLL_FM_HW/PCB/SIGNAL-L7.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10000                                  DARK 
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.26000                                  DARK 
+  CIRCLE     0.30000                                  DARK 
+  CIRCLE     0.40000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     3.80000                                  DARK 
+
+     SIGNAL-L7 created.
+
+
+================================================================
+     PROCESSING FILM < SIGNAL-L8 >
+     TO FILE < G:/github/PLL_FM_HW/PCB/SIGNAL-L8.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10000                                  DARK 
+  CIRCLE     0.16000                                  DARK 
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.25000                                  DARK 
+  CIRCLE     0.26000                                  DARK 
+  CIRCLE     0.30000                                  DARK 
+  CIRCLE     0.40000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     3.80000                                  DARK 
+
+     SIGNAL-L8 created.
+
+
+================================================================
+     PROCESSING FILM < GND-L9 >
+     TO FILE < G:/github/PLL_FM_HW/PCB/GND-L9.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.30000                                  DARK 
+  CIRCLE     0.40000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     3.80000                                  DARK 
+
+     GND-L9 created.
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < G:/github/PLL_FM_HW/PCB/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10000                                  DARK 
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.15000                                  DARK 
+  CIRCLE     0.16000                                  DARK 
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.22000                                  DARK 
+  CIRCLE     0.25000                                  DARK 
+  CIRCLE     0.26000                                  DARK 
+  CIRCLE     0.28000                                  DARK 
+  CIRCLE     0.30000                                  DARK 
+  CIRCLE     0.36000                                  DARK 
+  CIRCLE     0.38000                                  DARK 
+  CIRCLE     0.40000                                  DARK 
+  CIRCLE     0.45000                                  DARK 
+  CIRCLE     0.50000                                  DARK 
+  CIRCLE     1.20000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     2.00000                                  DARK 
+  CIRCLE     3.80000                                  DARK 
+  RECTANGLE  0.20000     x 0.60000      45.000 NO     DARK 
+  RECTANGLE  0.20000     x 0.60000     135.000 NO     DARK 
+  RECTANGLE  0.20000     x 1.50000      90.000 NO     DARK 
+  RECTANGLE  0.30000     x 0.20000       0.000 NO     DARK 
+  RECTANGLE  0.30000     x 0.20000      90.000 NO     DARK 
+  RECTANGLE  0.30000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  0.30000     x 0.50000      90.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.80000       0.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.80000      90.000 NO     DARK 
+  RECTANGLE  0.50000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  0.50000     x 0.50000      90.000 NO     DARK 
+  RECTANGLE  0.60000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  0.60000     x 0.50000      90.000 NO     DARK 
+  RECTANGLE  0.65000     x 1.35000       0.000 NO     DARK 
+  RECTANGLE  0.65000     x 1.35000      90.000 NO     DARK 
+  RECTANGLE  0.70000     x 0.30000       0.000 NO     DARK 
+  RECTANGLE  0.70000     x 1.00000       0.000 NO     DARK 
+  RECTANGLE  0.70000     x 1.00000      90.000 NO     DARK 
+  RECTANGLE  0.70000     x 1.40000      90.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.40000       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.40000      90.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.50000      90.000 NO     DARK 
+  RECTANGLE  1.20000     x 0.30000      90.000 NO     DARK 
+  RECTANGLE  1.20000     x 0.60000      90.000 NO     DARK 
+  RECTANGLE  1.20000     x 1.60000      90.000 NO     DARK 
+  RECTANGLE  1.20000     x 2.50000      90.000 NO     DARK 
+  RECTANGLE  1.30000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  1.30000     x 0.60000      90.000 NO     DARK 
+  RECTANGLE  1.50000     x 0.40000       0.000 NO     DARK 
+  RECTANGLE  1.50000     x 0.40000      90.000 NO     DARK 
+  RECTANGLE  1.50000     x 0.80000      90.000 NO     DARK 
+  RECTANGLE  1.50000     x 1.00000       0.000 NO     DARK 
+  RECTANGLE  1.50000     x 1.00000      90.000 NO     DARK 
+  RECTANGLE  1.50000     x 1.20000       0.000 NO     DARK 
+  RECTANGLE  1.50000     x 1.20000      90.000 NO     DARK 
+  RECTANGLE  1.60000     x 1.80000      90.000 NO     DARK 
+  RECTANGLE  2.00000     x 2.00000      90.000 NO     DARK 
+  RECTANGLE  2.20000     x 2.20000     135.000 NO     DARK 
+
+     BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < SILKSCREEN_TOP >
+     TO FILE < G:/github/PLL_FM_HW/PCB/SILKSCREEN_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.02000                                  DARK 
+  CIRCLE     0.05000                                  DARK 
+  CIRCLE     0.10000                                  DARK 
+  CIRCLE     0.20000                                  DARK 
+
+     SILKSCREEN_TOP created.
+
+
+================================================================
+     PROCESSING FILM < SILKSCREEN_BOTTOM >
+     TO FILE < G:/github/PLL_FM_HW/PCB/SILKSCREEN_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.02000                                  DARK 
+  CIRCLE     0.05000                                  DARK 
+  CIRCLE     0.10000                                  DARK 
+
+     SILKSCREEN_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_TOP >
+     TO FILE < G:/github/PLL_FM_HW/PCB/SOLDERMASK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.50000                                  DARK 
+  CIRCLE     0.60000                                  DARK 
+  CIRCLE     0.72000                                  DARK 
+  CIRCLE     1.10000                                  DARK 
+  CIRCLE     1.80000                                  DARK 
+  CIRCLE     4.00000                                  DARK 
+  RECTANGLE  0.35000     x 0.45000      90.000 NO     DARK 
+  RECTANGLE  0.35000     x 0.80000       0.000 NO     DARK 
+  RECTANGLE  0.35000     x 0.80000      90.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.30000       0.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.60000      90.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.70000      45.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.70000     135.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.90000       0.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.90000      90.000 NO     DARK 
+  RECTANGLE  0.45000     x 1.00000       0.000 NO     DARK 
+  RECTANGLE  0.50000     x 0.70000       0.000 NO     DARK 
+  RECTANGLE  0.50000     x 0.70000      90.000 NO     DARK 
+  RECTANGLE  0.50000     x 0.90000       0.000 NO     DARK 
+  RECTANGLE  0.60000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  0.60000     x 0.60000      90.000 NO     DARK 
+  RECTANGLE  0.60000     x 1.10000      45.000 NO     DARK 
+  RECTANGLE  0.60000     x 1.10000     135.000 NO     DARK 
+  RECTANGLE  0.60000     x 1.60000       0.000 NO     DARK 
+  RECTANGLE  0.70000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  0.70000     x 0.60000      90.000 NO     DARK 
+  RECTANGLE  0.70000     x 1.10000       0.000 NO     DARK 
+  RECTANGLE  0.70000     x 1.10000      90.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.40000       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.40000      90.000 NO     DARK 
+  RECTANGLE  0.80000     x 1.10000       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 1.10000      90.000 NO     DARK 
+  RECTANGLE  0.85000     x 2.60000       0.000 NO     DARK 
+  RECTANGLE  0.90000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  0.90000     x 0.50000      90.000 NO     DARK 
+  RECTANGLE  0.90000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  0.90000     x 0.60000      90.000 NO     DARK 
+  RECTANGLE  0.90000     x 2.10000      90.000 NO     DARK 
+  RECTANGLE  1.10000     x 0.40000      90.000 NO     DARK 
+  RECTANGLE  1.30000     x 0.40000       0.000 NO     DARK 
+  RECTANGLE  1.30000     x 0.40000      90.000 NO     DARK 
+  RECTANGLE  1.30000     x 0.70000       0.000 NO     DARK 
+  RECTANGLE  1.30000     x 0.70000      90.000 NO     DARK 
+  RECTANGLE  1.60000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  1.60000     x 0.50000      90.000 NO     DARK 
+  RECTANGLE  1.60000     x 0.90000       0.000 NO     DARK 
+  RECTANGLE  1.60000     x 0.90000      90.000 NO     DARK 
+  RECTANGLE  1.60000     x 1.10000       0.000 NO     DARK 
+  RECTANGLE  1.60000     x 1.30000       0.000 NO     DARK 
+  RECTANGLE  1.60000     x 1.30000      90.000 NO     DARK 
+  RECTANGLE  1.80000     x 2.50000      90.000 NO     DARK 
+  RECTANGLE  2.10000     x 4.10000       0.000 NO     DARK 
+  RECTANGLE  2.30000     x 2.30000       0.000 NO     DARK 
+  RECTANGLE  2.30000     x 2.30000      45.000 NO     DARK 
+  RECTANGLE  3.30000     x 1.00000      90.000 NO     DARK 
+  RECTANGLE  3.30000     x 3.30000       0.000 NO     DARK 
+  RECTANGLE  5.10000     x 5.10000       0.000 NO     DARK 
+
+     SOLDERMASK_TOP created.
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_BOTTOM >
+     TO FILE < G:/github/PLL_FM_HW/PCB/SOLDERMASK_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     1.30000                                  DARK 
+  CIRCLE     1.80000                                  DARK 
+  CIRCLE     2.10000                                  DARK 
+  RECTANGLE  0.30000     x 1.60000      90.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.30000       0.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.30000      90.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.60000      90.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.70000      45.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.70000     135.000 NO     DARK 
+  RECTANGLE  0.50000     x 0.70000       0.000 NO     DARK 
+  RECTANGLE  0.50000     x 0.90000       0.000 NO     DARK 
+  RECTANGLE  0.50000     x 0.90000      90.000 NO     DARK 
+  RECTANGLE  0.60000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  0.60000     x 0.60000      90.000 NO     DARK 
+  RECTANGLE  0.70000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  0.70000     x 0.60000      90.000 NO     DARK 
+  RECTANGLE  0.75000     x 1.45000       0.000 NO     DARK 
+  RECTANGLE  0.75000     x 1.45000      90.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.40000       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 1.10000       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 1.10000      90.000 NO     DARK 
+  RECTANGLE  0.80000     x 1.50000      90.000 NO     DARK 
+  RECTANGLE  0.90000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  0.90000     x 0.50000      90.000 NO     DARK 
+  RECTANGLE  0.90000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  0.90000     x 0.60000      90.000 NO     DARK 
+  RECTANGLE  1.30000     x 0.40000      90.000 NO     DARK 
+  RECTANGLE  1.30000     x 0.70000      90.000 NO     DARK 
+  RECTANGLE  1.30000     x 1.70000      90.000 NO     DARK 
+  RECTANGLE  1.30000     x 2.60000      90.000 NO     DARK 
+  RECTANGLE  1.40000     x 0.70000       0.000 NO     DARK 
+  RECTANGLE  1.40000     x 0.70000      90.000 NO     DARK 
+  RECTANGLE  1.60000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  1.60000     x 0.50000      90.000 NO     DARK 
+  RECTANGLE  1.60000     x 0.90000      90.000 NO     DARK 
+  RECTANGLE  1.60000     x 1.10000       0.000 NO     DARK 
+  RECTANGLE  1.60000     x 1.10000      90.000 NO     DARK 
+  RECTANGLE  1.60000     x 1.30000       0.000 NO     DARK 
+  RECTANGLE  1.60000     x 1.30000      90.000 NO     DARK 
+  RECTANGLE  1.70000     x 1.90000      90.000 NO     DARK 
+  RECTANGLE  2.10000     x 2.10000      90.000 NO     DARK 
+  RECTANGLE  2.30000     x 2.30000     135.000 NO     DARK 
+
+     SOLDERMASK_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < PASTEMASK_TOP >
+     TO FILE < G:/github/PLL_FM_HW/PCB/PASTEMASK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00100                                  DARK 
+  CIRCLE     0.40000                                  DARK 
+  CIRCLE     0.50000                                  DARK 
+  CIRCLE     0.60000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  RECTANGLE  0.20000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  0.20000     x 0.50000      90.000 NO     DARK 
+  RECTANGLE  0.20000     x 0.60000      45.000 NO     DARK 
+  RECTANGLE  0.20000     x 0.60000     135.000 NO     DARK 
+  RECTANGLE  0.20000     x 0.80000       0.000 NO     DARK 
+  RECTANGLE  0.20000     x 0.80000      90.000 NO     DARK 
+  RECTANGLE  0.25000     x 0.35000      90.000 NO     DARK 
+  RECTANGLE  0.25000     x 0.70000       0.000 NO     DARK 
+  RECTANGLE  0.25000     x 0.70000      90.000 NO     DARK 
+  RECTANGLE  0.30000     x 0.20000       0.000 NO     DARK 
+  RECTANGLE  0.35000     x 1.00000       0.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.60000      90.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.80000       0.000 NO     DARK 
+  RECTANGLE  0.40000     x 1.50000       0.000 NO     DARK 
+  RECTANGLE  0.50000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  0.50000     x 0.50000      90.000 NO     DARK 
+  RECTANGLE  0.50000     x 1.00000      45.000 NO     DARK 
+  RECTANGLE  0.50000     x 1.00000     135.000 NO     DARK 
+  RECTANGLE  0.60000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  0.60000     x 0.50000      90.000 NO     DARK 
+  RECTANGLE  0.60000     x 1.00000       0.000 NO     DARK 
+  RECTANGLE  0.60000     x 1.00000      90.000 NO     DARK 
+  RECTANGLE  0.70000     x 0.30000       0.000 NO     DARK 
+  RECTANGLE  0.70000     x 0.30000      90.000 NO     DARK 
+  RECTANGLE  0.70000     x 1.00000       0.000 NO     DARK 
+  RECTANGLE  0.70000     x 1.00000      90.000 NO     DARK 
+  RECTANGLE  0.75000     x 2.50000       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.40000       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.40000      90.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.50000      90.000 NO     DARK 
+  RECTANGLE  0.80000     x 2.00000      90.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.30000      90.000 NO     DARK 
+  RECTANGLE  1.20000     x 0.30000       0.000 NO     DARK 
+  RECTANGLE  1.20000     x 0.30000      90.000 NO     DARK 
+  RECTANGLE  1.20000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  1.20000     x 0.60000      90.000 NO     DARK 
+  RECTANGLE  1.50000     x 0.40000       0.000 NO     DARK 
+  RECTANGLE  1.50000     x 0.40000      90.000 NO     DARK 
+  RECTANGLE  1.50000     x 0.80000       0.000 NO     DARK 
+  RECTANGLE  1.50000     x 0.80000      90.000 NO     DARK 
+  RECTANGLE  1.50000     x 1.00000       0.000 NO     DARK 
+  RECTANGLE  1.50000     x 1.20000       0.000 NO     DARK 
+  RECTANGLE  1.50000     x 1.20000      90.000 NO     DARK 
+  RECTANGLE  1.70000     x 2.40000      90.000 NO     DARK 
+  RECTANGLE  2.00000     x 4.00000       0.000 NO     DARK 
+  RECTANGLE  2.20000     x 2.20000       0.000 NO     DARK 
+  RECTANGLE  2.20000     x 2.20000      45.000 NO     DARK 
+  RECTANGLE  3.20000     x 0.90000      90.000 NO     DARK 
+  RECTANGLE  3.20000     x 3.20000       0.000 NO     DARK 
+  RECTANGLE  5.00000     x 5.00000       0.000 NO     DARK 
+
+     PASTEMASK_TOP created.
+
+
+================================================================
+     PROCESSING FILM < PASTEMASK_BOTTOM >
+     TO FILE < G:/github/PLL_FM_HW/PCB/PASTEMASK_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     1.70000                                  DARK 
+  RECTANGLE  0.20000     x 0.60000      45.000 NO     DARK 
+  RECTANGLE  0.20000     x 0.60000     135.000 NO     DARK 
+  RECTANGLE  0.20000     x 1.50000      90.000 NO     DARK 
+  RECTANGLE  0.30000     x 0.20000       0.000 NO     DARK 
+  RECTANGLE  0.30000     x 0.20000      90.000 NO     DARK 
+  RECTANGLE  0.30000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  0.30000     x 0.50000      90.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.80000       0.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.80000      90.000 NO     DARK 
+  RECTANGLE  0.50000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  0.50000     x 0.50000      90.000 NO     DARK 
+  RECTANGLE  0.60000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  0.60000     x 0.50000      90.000 NO     DARK 
+  RECTANGLE  0.65000     x 1.35000       0.000 NO     DARK 
+  RECTANGLE  0.65000     x 1.35000      90.000 NO     DARK 
+  RECTANGLE  0.70000     x 0.30000       0.000 NO     DARK 
+  RECTANGLE  0.70000     x 1.00000       0.000 NO     DARK 
+  RECTANGLE  0.70000     x 1.00000      90.000 NO     DARK 
+  RECTANGLE  0.70000     x 1.40000      90.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.40000       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.40000      90.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.50000      90.000 NO     DARK 
+  RECTANGLE  1.20000     x 0.30000      90.000 NO     DARK 
+  RECTANGLE  1.20000     x 0.60000      90.000 NO     DARK 
+  RECTANGLE  1.20000     x 1.60000      90.000 NO     DARK 
+  RECTANGLE  1.20000     x 2.50000      90.000 NO     DARK 
+  RECTANGLE  1.30000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  1.30000     x 0.60000      90.000 NO     DARK 
+  RECTANGLE  1.50000     x 0.40000       0.000 NO     DARK 
+  RECTANGLE  1.50000     x 0.40000      90.000 NO     DARK 
+  RECTANGLE  1.50000     x 0.80000      90.000 NO     DARK 
+  RECTANGLE  1.50000     x 1.00000       0.000 NO     DARK 
+  RECTANGLE  1.50000     x 1.00000      90.000 NO     DARK 
+  RECTANGLE  1.50000     x 1.20000       0.000 NO     DARK 
+  RECTANGLE  1.50000     x 1.20000      90.000 NO     DARK 
+  RECTANGLE  1.60000     x 1.80000      90.000 NO     DARK 
+  RECTANGLE  2.00000     x 2.00000      90.000 NO     DARK 
+  RECTANGLE  2.20000     x 2.20000     135.000 NO     DARK 
+
+     PASTEMASK_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < DIMENSION >
+     TO FILE < G:/github/PLL_FM_HW/PCB/DIMENSION.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: 0 width line found at (-8.5000 -86.0000)
+           ... using undefined line width of 0.2540
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 0.2540
+
+    WARNING: text composed 0 width line found at (-50.2289 -40.6535)
+           ... using undefined line width of 0.2540
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 0.2540
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10000                                  DARK 
+  CIRCLE     0.25400                                  DARK 
+  CIRCLE     0.50000                                  DARK 
+
+     DIMENSION created with warnings
+
+
+================================================================
+     PROCESSING FILM < OUTLINE >
+     TO FILE < G:/github/PLL_FM_HW/PCB/OUTLINE.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.25400                                  DARK 
+
+     OUTLINE created.
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created.
+        GND-L2 created.
+        SIGNAL-L3 created.
+        SIGNAL-L4 created.
+        GND-L5 created.
+        PWR-L6 created.
+        SIGNAL-L7 created.
+        SIGNAL-L8 created.
+        GND-L9 created.
+        BOTTOM created.
+        SILKSCREEN_TOP created.
+        SILKSCREEN_BOTTOM created.
+        SOLDERMASK_TOP created.
+        SOLDERMASK_BOTTOM created.
+        PASTEMASK_TOP created.
+        PASTEMASK_BOTTOM created.
+        DIMENSION created with warnings
+        OUTLINE created.
+
+ ARTWORK had warnings
