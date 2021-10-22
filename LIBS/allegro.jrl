@@ -1,163 +1,31 @@
-\t (00:07:39) allegro 17.4 S017 Windows SPB 64-bit Edition
-\t (00:07:39)     Journal start - Thu Sep 23 09:28:06 2021
-\t (00:07:39)         Host=BF-202007251750 User=Administrator Pid=9540 CPUs=16
-\t (00:07:39) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
-\t (00:07:39) 
-\d (00:07:39) Design opened: G:/ZSY/MiniFMDemod/LIBS/FPC-14P-0D5.dra
-\i (00:07:39) trapsize 1104
-\i (00:07:39) helpcmd C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaadu09540.tmp 
-\i (00:07:40) zoom in 1 
-\i (00:07:40) setwindow pcb
-\i (00:07:40) zoom in -2.2520 1.2718
-\i (00:07:40) trapsize 552
-\i (00:07:41) delete 
-\i (00:07:42) pick grid -4.4166 3.7566
-\t (00:07:42) last pick:  -4.4170 3.7570
-\t (00:07:42) Shape "Package Geometry/Place_Bound_Top"
-\i (00:07:42) pick grid dbl -4.4166 3.7566
-\t (00:07:42) last pick:  -4.4170 3.7570
-\i (00:07:42) prepopup -4.2399 3.7677
-\i (00:07:43) done 
-\i (00:07:45) shape add rect 
-\i (00:07:47) zoom in 1 
-\i (00:07:47) setwindow pcb
-\i (00:07:47) zoom in -3.4116 2.9505
-\i (00:07:47) trapsize 276
-\i (00:07:47) zoom in 1 
-\i (00:07:47) setwindow pcb
-\i (00:07:47) zoom in -3.4227 2.8843
-\i (00:07:47) trapsize 138
-\i (00:07:48) pick grid -3.4835 2.6468
-\t (00:07:48) last pick:  -3.4830 2.6470
-\i (00:07:49) zoom out 1 
-\i (00:07:49) setwindow pcb
-\i (00:07:49) zoom out -3.0528 2.8981
-\i (00:07:49) trapsize 276
-\i (00:07:49) zoom out 1 
-\i (00:07:49) setwindow pcb
-\i (00:07:49) zoom out -3.0527 2.8981
-\i (00:07:49) trapsize 552
-\i (00:07:49) zoom out 1 
-\i (00:07:49) setwindow pcb
-\i (00:07:49) zoom out -3.0527 2.8981
-\i (00:07:49) trapsize 1104
-\i (00:07:49) zoom in 1 
-\i (00:07:49) setwindow pcb
-\i (00:07:49) zoom in 3.5295 4.1351
-\i (00:07:49) trapsize 552
-\i (00:07:49) zoom in 1 
-\i (00:07:49) setwindow pcb
-\i (00:07:49) zoom in 3.5295 4.1351
-\i (00:07:49) trapsize 276
-\i (00:07:49) zoom in 1 
-\i (00:07:49) setwindow pcb
-\i (00:07:49) zoom in 3.5406 4.1462
-\i (00:07:49) trapsize 138
-\i (00:07:51) zoom out 1 
-\i (00:07:51) setwindow pcb
-\i (00:07:51) zoom out 3.4412 4.3754
-\i (00:07:51) trapsize 276
-\i (00:07:51) zoom out 1 
-\i (00:07:51) setwindow pcb
-\i (00:07:51) zoom out 3.4413 4.3754
-\i (00:07:51) trapsize 552
-\i (00:07:52) zoom in 1 
-\i (00:07:52) setwindow pcb
-\i (00:07:52) zoom in 3.4413 4.3754
-\i (00:07:52) trapsize 276
-\i (00:07:52) zoom in 1 
-\i (00:07:52) setwindow pcb
-\i (00:07:52) zoom in 3.4413 4.3754
-\i (00:07:52) trapsize 138
-\i (00:07:54) zoom in 1 
-\i (00:07:54) setwindow pcb
-\i (00:07:54) zoom in 3.4965 4.3864
-\i (00:07:54) trapsize 69
-\i (00:07:54) zoom in 1 
-\i (00:07:54) setwindow pcb
-\i (00:07:54) zoom in 3.4966 4.3864
-\i (00:07:54) trapsize 35
-\i (00:07:54) zoom in 1 
-\i (00:07:54) setwindow pcb
-\i (00:07:54) zoom in 3.4966 4.3864
-\i (00:07:54) trapsize 17
-\i (00:07:54) zoom in 1 
-\i (00:07:54) setwindow pcb
-\i (00:07:54) zoom in 3.4925 4.4026
-\i (00:07:54) trapsize 9
-\i (00:07:54) zoom in 1 
-\i (00:07:54) setwindow pcb
-\i (00:07:54) zoom in 3.4920 4.4032
-\i (00:07:54) trapsize 4
-\i (00:07:55) zoom in 1 
-\i (00:07:55) setwindow pcb
-\i (00:07:55) zoom in 3.4860 4.4040
-\i (00:07:55) trapsize 2
-\i (00:07:55) zoom in 1 
-\i (00:07:55) setwindow pcb
-\i (00:07:55) zoom in 3.4860 4.4040
-\i (00:07:55) trapsize 1
-\i (00:07:55) zoom in 1 
-\i (00:07:55) setwindow pcb
-\i (00:07:55) zoom in 3.4860 4.4040
-\i (00:07:55) trapsize 1
-\i (00:07:56) pick grid 3.4860 4.4041
-\t (00:07:56) last pick:  3.4860 4.4040
-\i (00:07:56) zoom out 1 
-\i (00:07:56) setwindow pcb
-\i (00:07:56) zoom out 3.4868 4.4035
-\i (00:07:56) trapsize 1
-\i (00:07:56) zoom out 1 
-\i (00:07:56) setwindow pcb
-\i (00:07:56) zoom out 3.4870 4.4035
-\i (00:07:56) trapsize 2
-\i (00:07:56) zoom out 1 
-\i (00:07:56) setwindow pcb
-\i (00:07:56) zoom out 3.4869 4.4036
-\i (00:07:56) trapsize 4
-\i (00:07:56) zoom out 1 
-\i (00:07:56) setwindow pcb
-\i (00:07:56) zoom out 3.4870 4.4036
-\i (00:07:56) trapsize 9
-\i (00:07:56) zoom out 1 
-\i (00:07:56) setwindow pcb
-\i (00:07:56) zoom out 3.4870 4.4036
-\i (00:07:57) trapsize 17
-\i (00:07:57) zoom out 1 
-\i (00:07:57) setwindow pcb
-\i (00:07:57) zoom out 3.4871 4.4037
-\i (00:07:57) trapsize 35
-\i (00:07:57) zoom out 1 
-\i (00:07:57) setwindow pcb
-\i (00:07:57) zoom out 3.4953 4.4043
-\i (00:07:57) trapsize 69
-\i (00:07:57) zoom out 1 
-\i (00:07:57) setwindow pcb
-\i (00:07:57) zoom out 3.5092 4.4030
-\i (00:07:57) trapsize 138
-\i (00:07:57) zoom out 1 
-\i (00:07:57) setwindow pcb
-\i (00:07:57) zoom out 3.5091 4.4030
-\i (00:07:57) trapsize 276
-\i (00:07:57) zoom out 1 
-\i (00:07:57) setwindow pcb
-\i (00:07:57) zoom out 3.5092 4.4030
-\i (00:07:57) trapsize 553
-\i (00:07:57) zoom out 1 
-\i (00:07:57) setwindow pcb
-\i (00:07:57) zoom out 3.5091 4.4031
-\i (00:07:57) trapsize 1105
-\i (00:07:58) prepopup -3.2537 4.8009
-\i (00:07:58) done 
-\i (00:07:59) save 
-\i (00:08:00) fillin yes 
-\t (00:08:02) Symbol 'fpc-14p-0d5.psm' created.
-\i (00:08:45) opencd G:/ZSY/MiniFMDemod/PCB/FMDEMOD-56.brd 
-\t (00:08:46) Opening existing design...
-\i (00:08:46) helpcmd C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaaej09540.tmp 
-\i (00:08:46) trapsize 2083
-\i (00:08:46) trapsize 2151
-\i (00:08:46) trapsize 2169
-\i (00:08:46) trapsize 1602
-\i (00:08:46) trapsize 1602
-\t (00:08:46)     Journal end - Thu Sep 23 09:29:14 2021
+\t (01:27:32) allegro 17.4 S017 Windows SPB 64-bit Edition
+\t (01:27:32)     Journal start - Fri Oct 22 16:32:26 2021
+\t (01:27:32)         Host=BF-202007251750 User=Administrator Pid=1076 CPUs=16
+\t (01:27:32) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (01:27:32) 
+\d (01:27:32) Design opened: G:/github/PLL_FM_HW/LIBS/SMD_MARKER_CIR_1D5.dra
+\i (01:27:32) trapsize 767
+\i (01:27:32) helpcmd C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaaom01076.tmp 
+\i (01:27:32) generaledit 
+\i (01:27:34) prmed 
+\i (01:27:36) setwindow form.prmedit
+\i (01:27:36) FORM prmedit design  
+\i (01:27:39) FORM prmedit type Mechanical 
+\i (01:27:41) FORM prmedit done  
+\i (01:27:41) helpcmd C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaaon01076.tmp 
+\i (01:27:41) setwindow pcb
+\i (01:27:41) trapsize 792
+\i (01:27:42) trapsize 767
+\i (01:27:42) generaledit 
+\i (01:27:44) save 
+\i (01:27:45) fillin yes 
+\t (01:27:45) Symbol 'smd_marker_cir_1d5.bsm' created.
+\i (01:27:45) generaledit 
+\i (01:27:49) opencd G:/github/PLL_FM_HW/PCB/FMDEMOD-57.brd 
+\t (01:27:50) Opening existing design...
+\i (01:27:50) helpcmd C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaapc01076.tmp 
+\i (01:27:50) trapsize 514
+\i (01:27:50) trapsize 530
+\i (01:27:50) trapsize 535
+\i (01:27:50) trapsize 535
+\t (01:27:50)     Journal end - Fri Oct 22 16:32:44 2021

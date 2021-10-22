@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : SMD_MARKER_CIR_1D5.dra                        )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Fri Oct 22 16:32:39 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: MECHANICAL
+    Directory = G:/github/PLL_FM_HW/LIBS
+    Name      = smd_marker_cir_1d5.bsm
+    User      = Administrator
+    Machine   = BF-202007251750
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+
