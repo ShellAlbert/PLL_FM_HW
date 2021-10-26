@@ -1,144 +1,103 @@
-\t (01:25:30) allegro 17.4 S017 Windows SPB 64-bit Edition
-\t (01:25:30)     Journal start - Fri Oct 22 16:30:24 2021
-\t (01:25:30)         Host=BF-202007251750 User=Administrator Pid=1076 CPUs=16
-\t (01:25:30) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
-\t (01:25:30) 
-\t (01:25:30) Starting new design...
-\i (01:25:30) helpcmd C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaamy01076.tmp 
-\i (01:25:30) trapsize 32432
-\i (01:25:30) trapsize 33231
-\i (01:25:30) trapsize 32432
-\i (01:25:30) trapsize 75473
-\i (01:25:30) trapsize 75473
-\i (01:25:31) trapsize 71280
-\i (01:25:31) helpcmd C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaamz01076.tmp 
-\i (01:25:31) generaledit 
-\i (01:25:31) zoom out 1 
-\i (01:25:31) setwindow pcb
-\i (01:25:31) zoom out 74.0720 708.4683
-\i (01:25:31) trapsize 71280
-\i (01:25:32) zoom out 1 
-\i (01:25:32) setwindow pcb
-\i (01:25:32) zoom out 14.1963 752.6622
-\i (01:25:32) trapsize 71280
-\i (01:25:32) zoom out 1 
-\i (01:25:32) setwindow pcb
-\i (01:25:32) zoom out 21.3244 751.2366
-\i (01:25:32) trapsize 71280
-\i (01:25:32) zoom out 1 
-\i (01:25:32) setwindow pcb
-\i (01:25:32) zoom out 38.4317 746.9598
-\i (01:25:32) trapsize 71280
-\i (01:25:32) zoom out 1 
-\i (01:25:32) setwindow pcb
-\i (01:25:32) zoom out 68.3695 736.9805
-\i (01:25:32) trapsize 71280
-\i (01:25:33) add pin 
-\i (01:25:36) setwindow form.mini
-\i (01:25:36) FORM mini pintype_mechanical YES 
-\i (01:25:38) FORM mini pad_browse  
-\t (01:25:43) No valid name selected.
-\i (01:25:46) fillin "Smd_Cir_1D5_No_Pm"
-\t (01:25:46) Using 'SMD_CIR_1D5_NO_PM.pad'.
-\i (01:25:48) setwindow pcb
-\i (01:25:48) zoom in 1 
-\i (01:25:48) setwindow pcb
-\i (01:25:48) zoom in 29.8781 -22.8695
-\i (01:25:48) trapsize 35640
-\i (01:25:48) zoom in 1 
-\i (01:25:48) setwindow pcb
-\i (01:25:48) zoom in 24.1757 -22.8695
-\i (01:25:48) trapsize 17820
-\i (01:25:49) zoom in 1 
-\i (01:25:49) setwindow pcb
-\i (01:25:49) zoom in 22.7501 -22.8695
-\i (01:25:49) trapsize 8910
-\i (01:25:49) zoom in 1 
-\i (01:25:49) setwindow pcb
-\i (01:25:49) zoom in 1.3659 -3.9801
-\i (01:25:49) trapsize 4455
-\i (01:25:49) zoom in 1 
-\i (01:25:49) setwindow pcb
-\i (01:25:49) zoom in -1.2180 -1.6635
-\i (01:25:49) trapsize 2228
-\i (01:25:49) zoom in 1 
-\i (01:25:49) setwindow pcb
-\i (01:25:49) zoom in -0.2824 -1.6189
-\i (01:25:49) trapsize 1114
-\i (01:25:50) zoom out 1 
-\i (01:25:50) setwindow pcb
-\i (01:25:50) zoom out 6.5782 -1.5966
-\i (01:25:50) trapsize 2228
-\i (01:25:50) zoom out 1 
-\i (01:25:50) setwindow pcb
-\i (01:25:50) zoom out 6.9793 -1.5966
-\i (01:25:50) trapsize 4455
-\i (01:25:50) zoom in 1 
-\i (01:25:50) setwindow pcb
-\i (01:25:50) zoom in -3.8912 -0.7055
-\i (01:25:50) trapsize 2228
-\i (01:25:50) zoom in 1 
-\i (01:25:50) setwindow pcb
-\i (01:25:50) zoom in -2.8665 -0.6164
-\i (01:25:50) trapsize 1114
-\i (01:25:51) zoom in 1 
-\i (01:25:51) setwindow pcb
-\i (01:25:51) zoom in 0.9871 -0.4159
-\i (01:25:51) trapsize 557
-\i (01:26:00) pick 0 0 
-\t (01:26:00) last pick:  0.0000 0.0000
-\t (01:26:00) Using 'SMD_CIR_1D5_NO_PM.pad'.
-\i (01:26:01) done 
-\t (01:26:01) Exiting from Add Pin.
-\i (01:26:02) generaledit 
-\i (01:26:02) zoom out 1 
-\i (01:26:02) setwindow pcb
-\i (01:26:02) zoom out 1.9226 3.9390
-\i (01:26:02) trapsize 1114
-\i (01:26:03) save 
-\e (01:26:05) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
-\i (01:26:05) generaledit 
-\i (01:26:09) setwindow text
-\i (01:26:09) close
-\i (01:26:10) setwindow pcb
-\i (01:26:10) zoom out 1 
-\i (01:26:10) setwindow pcb
-\i (01:26:10) zoom out -0.8396 0.7313
-\i (01:26:10) trapsize 2228
-\i (01:26:10) zoom in 1 
-\i (01:26:10) setwindow pcb
-\i (01:26:10) zoom in 0.6751 2.9142
-\i (01:26:10) trapsize 1114
-\i (01:26:16) label device 
-\t (01:26:16) Pick text location.
-\i (01:26:17) label refdes 
-\t (01:26:17) Pick text location.
-\i (01:26:22) setwindow form.mini
-\i (01:26:22) FORM mini subclass SILKSCREEN_TOP 
-\i (01:26:23) setwindow pcb
-\i (01:26:23) pick grid -0.0154 -0.0484
-\t (01:26:23) last pick:  0.0000 0.0000
-\t (01:26:23) Enter text string.
-\i (01:26:23) setwindow pcb
-\i (01:26:23) prepopup 1.1874 -0.8057
-\i (01:26:24) done 
-\i (01:26:24) setwindow pcb
-\i (01:26:24) pick 0.0000 0.0000
-\i (01:26:24) setwindow pcb
-\i (01:26:24) zoom in 1 
-\i (01:26:24) setwindow pcb
-\i (01:26:24) zoom in 0.2296 -0.4939
-\i (01:26:24) trapsize 557
-\i (01:26:24) generaledit 
-\i (01:26:25) save 
-\i (01:26:26) fillin yes 
-\t (01:26:26) Symbol 'smd_marker_cir_1d5.psm' created.
-\i (01:26:26) generaledit 
-\i (01:26:32) opencd G:/github/PLL_FM_HW/PCB/FMDEMOD-57.brd 
-\t (01:26:32) Opening existing design...
-\i (01:26:32) helpcmd C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaaob01076.tmp 
-\i (01:26:32) trapsize 4109
-\i (01:26:32) trapsize 4242
-\i (01:26:32) trapsize 4277
-\i (01:26:32) trapsize 4277
-\t (01:26:32)     Journal end - Fri Oct 22 16:31:26 2021
+\t (00:56:03) allegro 17.4 S017 Windows SPB 64-bit Edition
+\t (00:56:03)     Journal start - Tue Oct 26 09:27:35 2021
+\t (00:56:03)         Host=BF-202007251750 User=Administrator Pid=17336 CPUs=16
+\t (00:56:03) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (00:56:03) 
+\d (00:56:03) Design opened: G:/github/PLL_FM_HW/LIBS/SCREW-M3.dra
+\i (00:56:03) trapsize 727
+\i (00:56:03) generaledit 
+\i (00:56:04) zoom in 1 
+\i (00:56:04) setwindow pcb
+\i (00:56:04) zoom in 0.0902 -0.4010
+\i (00:56:04) trapsize 364
+\i (00:56:07) change 
+\i (00:56:11) prepopup -2.5211 2.0577
+\i (00:56:11) done 
+\i (00:56:11) generaledit 
+\i (00:56:13) text edit 
+\i (00:56:14) pick grid -0.6590 0.0791
+\t (00:56:14) last pick:  0.0000 0.0000
+\e (00:56:14) ERROR(SPMHA1-441): Text not found.
+\i (00:56:15) setwindow pcb
+\i (00:56:15) prepopup -0.1934 2.4577
+\i (00:56:16) done 
+\i (00:56:16) zoom out 1 
+\i (00:56:16) setwindow pcb
+\i (00:56:16) zoom out 0.3448 2.2177
+\i (00:56:16) trapsize 727
+\i (00:56:16) generaledit 
+\i (00:56:17) move 
+\t (00:56:17) Select element(s) to move.
+\i (00:56:18) pick grid 0.0538 -0.2264
+\t (00:56:18) last pick:  0.0000 0.0000
+\t (00:56:18) last pick:  0.0000 0.0000
+\t (00:56:18) Pick new location for the element(s).
+\i (00:56:19) pick grid 3.8800 -1.1575
+\t (00:56:19) last pick:  5.0800 0.0000
+\i (00:56:19) prepopup 2.6725 -2.2777
+\i (00:56:20) done 
+\i (00:56:20) generaledit 
+\i (00:56:23) text edit 
+\i (00:56:25) pick grid 4.9711 -0.1827
+\t (00:56:25) last pick:  5.0800 0.0000
+\e (00:56:25) ERROR(SPMHA1-441): Text not found.
+\i (00:56:28) setwindow pcb
+\i (00:56:28) pick grid 5.5094 -0.3137
+\t (00:56:28) last pick:  5.0800 0.0000
+\e (00:56:28) ERROR(SPMHA1-441): Text not found.
+\i (00:56:29) setwindow pcb
+\i (00:56:29) prepopup 1.3050 1.9267
+\i (00:56:29) done 
+\i (00:56:30) generaledit 
+\i (00:56:32) add text 
+\t (00:56:32) Pick text location.
+\i (00:56:36) setwindow form.mini
+\i (00:56:36) FORM mini subclass PIN_NUMBER 
+\t (00:56:36) Pick an element to attach the text to.
+\i (00:56:38) setwindow pcb
+\i (00:56:38) pick grid 4.7820 -0.1245
+\t (00:56:38) last pick:  5.0800 0.0000
+\t (00:56:38) Pick text location.
+\i (00:56:40) prepopup 7.4588 0.6465
+\i (00:56:41) done 
+\i (00:56:41) generaledit 
+\i (00:56:41) zoom out 1 
+\i (00:56:41) setwindow pcb
+\i (00:56:41) zoom out 7.5316 0.1519
+\i (00:56:41) trapsize 1455
+\i (00:56:41) zoom in 1 
+\i (00:56:41) setwindow pcb
+\i (00:56:41) zoom in 7.2697 0.2973
+\i (00:56:41) trapsize 727
+\i (00:56:43) delete 
+\i (00:56:44) pick grid 6.0913 -0.1828
+\t (00:56:44) last pick:  5.0800 0.0000
+\t (00:56:44) Mechanical Pin "Thr_Cir_3D8x3d2"
+\i (00:56:44) pick grid dbl 6.0913 -0.1828
+\t (00:56:44) last pick:  5.0800 0.0000
+\i (00:56:44) prepopup 4.5929 0.5737
+\i (00:56:44) done 
+\i (00:56:45) generaledit 
+\i (00:56:46) add pin 
+\t (00:56:46) Using 'THR_CIR_3D8X3D2.pad'.
+\i (00:56:51) setwindow form.mini
+\i (00:56:51) FORM mini next_pin_number 1 
+\i (00:56:56) setwindow pcb
+\i (00:56:56) pick 0 0 
+\t (00:56:56) last pick:  0.0000 0.0000
+\t (00:56:56) Using 'THR_CIR_3D8X3D2.pad'.
+\i (00:56:57) prepopup 2.7598 -1.7249
+\i (00:56:57) done 
+\t (00:56:57) Exiting from Add Pin.
+\i (00:56:57) generaledit 
+\i (00:56:58) save 
+\i (00:56:59) fillin yes 
+\t (00:56:59) Symbol 'screw-m3.psm' created.
+\i (00:56:59) generaledit 
+\i (00:57:04) opencd G:/github/PLL_FM_HW/PCB/FMDEMOD-57.brd 
+\t (00:57:04) Opening existing design...
+\i (00:57:04) trapsize 4426
+\i (00:57:04) trapsize 4569
+\i (00:57:04) trapsize 4607
+\i (00:57:04) trapsize 4607
+\t (00:57:04)     Journal end - Tue Oct 26 09:28:36 2021

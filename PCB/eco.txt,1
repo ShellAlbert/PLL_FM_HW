@@ -3,48 +3,128 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  G:/github/PLL_FM_HW/PCB/FMDEMOD-57.brd                                      |
-|                                                    Tue Oct 19 10:49:35 2021  |
+|                                                    Tue Oct 26 09:28:40 2021  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  GND_SIGNAL   pins MOVED FROM this net (to net name listed on right)
-                                 U36.31          22.5600 -69.403
-                                                                            GND
+  GND          pins ADDED TO this existing net (pins not previously on any net)
+                                 TP27.1                         
+                                 TP28.1                         
+                                 TP29.1                         
+                                 TP30.1                         
+                                 TP31.1                         
+                                 TP32.1                         
+                                 TP33.1                         
+                                 TP34.1                         
+                                 TP35.1                         
+                                 TP36.1                         
+                                 TP37.1                         
+                                 TP38.1                         
+                                 TP39.1                         
+                                 TP40.1                         
+                                 TP41.1                         
+                                 TP42.1                         
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  G:/github/PLL_FM_HW/PCB/FMDEMOD-57.brd                                      |
-|                                                    Tue Oct 19 10:49:35 2021  |
+|                                                    Tue Oct 26 09:28:40 2021  |
 |------------------------------------------------------------------------------|
-| COMPONENT PROPERTIES added to design                                         |
+| COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   ref  des   |   x   |   y   |   property   |             value              |
+|    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C84            62.4150 -7.9070 NO_XNET_CONNEC True
- C86            59.9880 -4.8350 NO_XNET_CONNEC True
- C177           59.4910 -36.207 NO_XNET_CONNEC True
- C179           58.4020 -34.027 NO_XNET_CONNEC True
- C182           58.2300 -34.910 NO_XNET_CONNEC True
- C188           57.4360 -34.027 NO_XNET_CONNEC True
- C189           55.9810 -35.217 NO_XNET_CONNEC True
- R70            65.5750 -4.8350 NO_XNET_CONNEC True
- R187           59.3560 -34.027 NO_XNET_CONNEC True
- R193           55.9810 -33.037 NO_XNET_CONNEC True
- R238           29.2040 -77.380 NO_XNET_CONNEC True
- R239           16.9900 -76.055 NO_XNET_CONNEC True
- R240           16.9900 -77.055 NO_XNET_CONNEC True
- R241           24.2960 -68.136 NO_XNET_CONNEC True
- R242           24.2960 -67.157 NO_XNET_CONNEC True
- R243           29.2040 -75.380 NO_XNET_CONNEC True
- R324           50.6670 -35.652 NO_XNET_CONNEC True
- R325           50.3990 -33.892 NO_XNET_CONNEC True
- R326           49.9140 -34.882 NO_XNET_CONNEC True
+ T POINT R_SCREW-M3_T POINT R
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|       Nets changed          :       1                                        |
-|       Comp property added   :      19                                        |
+|  G:/github/PLL_FM_HW/PCB/FMDEMOD-57.brd                                      |
+|                                                    Tue Oct 26 09:28:40 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ TP27                T POINT R_SCREW-M3_T POINT R 
+ TP28                T POINT R_SCREW-M3_T POINT R 
+ TP29                T POINT R_SCREW-M3_T POINT R 
+ TP30                T POINT R_SCREW-M3_T POINT R 
+ TP31                T POINT R_SCREW-M3_T POINT R 
+ TP32                T POINT R_SCREW-M3_T POINT R 
+ TP33                T POINT R_SCREW-M3_T POINT R 
+ TP34                T POINT R_SCREW-M3_T POINT R 
+ TP35                T POINT R_SCREW-M3_T POINT R 
+ TP36                T POINT R_SCREW-M3_T POINT R 
+ TP37                T POINT R_SCREW-M3_T POINT R 
+ TP38                T POINT R_SCREW-M3_T POINT R 
+ TP39                T POINT R_SCREW-M3_T POINT R 
+ TP40                T POINT R_SCREW-M3_T POINT R 
+ TP41                T POINT R_SCREW-M3_T POINT R 
+ TP42                T POINT R_SCREW-M3_T POINT R 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/PCB/FMDEMOD-57.brd                                      |
+|                                                    Tue Oct 26 09:28:40 2021  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ TP27.1                         PRIM_FILE      .\pstchip.dat
+ TP28.1                         PRIM_FILE      .\pstchip.dat
+ TP29.1                         PRIM_FILE      .\pstchip.dat
+ TP30.1                         PRIM_FILE      .\pstchip.dat
+ TP31.1                         PRIM_FILE      .\pstchip.dat
+ TP32.1                         PRIM_FILE      .\pstchip.dat
+ TP33.1                         PRIM_FILE      .\pstchip.dat
+ TP34.1                         PRIM_FILE      .\pstchip.dat
+ TP35.1                         PRIM_FILE      .\pstchip.dat
+ TP36.1                         PRIM_FILE      .\pstchip.dat
+ TP37.1                         PRIM_FILE      .\pstchip.dat
+ TP38.1                         PRIM_FILE      .\pstchip.dat
+ TP39.1                         PRIM_FILE      .\pstchip.dat
+ TP40.1                         PRIM_FILE      .\pstchip.dat
+ TP41.1                         PRIM_FILE      .\pstchip.dat
+ TP42.1                         PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/PCB/FMDEMOD-57.brd                                      |
+|                                                    Tue Oct 26 09:28:40 2021  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ TP27.1                         CDS_PINID      \TP\
+ TP28.1                         CDS_PINID      \TP\
+ TP29.1                         CDS_PINID      \TP\
+ TP30.1                         CDS_PINID      \TP\
+ TP31.1                         CDS_PINID      \TP\
+ TP32.1                         CDS_PINID      \TP\
+ TP33.1                         CDS_PINID      \TP\
+ TP34.1                         CDS_PINID      \TP\
+ TP35.1                         CDS_PINID      \TP\
+ TP36.1                         CDS_PINID      \TP\
+ TP37.1                         CDS_PINID      \TP\
+ TP38.1                         CDS_PINID      \TP\
+ TP39.1                         CDS_PINID      \TP\
+ TP40.1                         CDS_PINID      \TP\
+ TP41.1                         CDS_PINID      \TP\
+ TP42.1                         CDS_PINID      \TP\
+|------------------------------------------------------------------------------|
+|       Nets changed          :      16                                        |
+|       Comp definitions added:       1                                        |
+|       Components added      :      16                                        |
+|       Pin property added    :      16                                        |
+|       Slot property added   :      16                                        |
 |                                                                              |
-|   Total ECO changes reported:      20                                        |
+|   Total ECO changes reported:      65                                        |
 |------------------------------------------------------------------------------|

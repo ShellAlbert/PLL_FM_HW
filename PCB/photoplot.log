@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : FMDEMOD-57.brd                                )
 (    Software Version : 17.4S017                                      )
-(    Date/Time        : Thu Oct 21 08:45:56 2021                      )
+(    Date/Time        : Tue Oct 26 10:38:27 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -43,6 +43,9 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
+    WARNING: Film contains objects with associated DRCs (101).
+           In the design editor view this film and enable visibility for the
+           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
 
 
   APERTURES USED:
@@ -64,6 +67,7 @@ Results from parameter file ...
   CIRCLE     0.50000                                  DARK 
   CIRCLE     0.60000                                  DARK 
   CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.50000                                  DARK 
   CIRCLE     1.70000                                  DARK 
   CIRCLE     3.80000                                  DARK 
   RECTANGLE  0.20000     x 0.50000       0.000 NO     DARK 
@@ -120,7 +124,7 @@ Results from parameter file ...
   RECTANGLE  3.20000     x 3.20000       0.000 NO     DARK 
   RECTANGLE  5.00000     x 5.00000       0.000 NO     DARK 
 
-     TOP created.
+     TOP created with warnings
 
 
 ================================================================
@@ -311,6 +315,9 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
+    WARNING: Film contains objects with associated DRCs (259).
+           In the design editor view this film and enable visibility for the
+           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
 
 
   APERTURES USED:
@@ -326,7 +333,7 @@ Results from parameter file ...
   CIRCLE     1.70000                                  DARK 
   CIRCLE     3.80000                                  DARK 
 
-     SIGNAL-L7 created.
+     SIGNAL-L7 created with warnings
 
 
 ================================================================
@@ -432,6 +439,7 @@ Results from parameter file ...
   CIRCLE     0.45000                                  DARK 
   CIRCLE     0.50000                                  DARK 
   CIRCLE     1.20000                                  DARK 
+  CIRCLE     1.50000                                  DARK 
   CIRCLE     1.70000                                  DARK 
   CIRCLE     2.00000                                  DARK 
   CIRCLE     3.80000                                  DARK 
@@ -534,6 +542,7 @@ Results from parameter file ...
   CIRCLE     0.02000                                  DARK 
   CIRCLE     0.05000                                  DARK 
   CIRCLE     0.10000                                  DARK 
+  CIRCLE     0.25400                                  DARK 
 
      SILKSCREEN_BOTTOM created.
 
@@ -564,6 +573,7 @@ Results from parameter file ...
   CIRCLE     0.60000                                  DARK 
   CIRCLE     0.72000                                  DARK 
   CIRCLE     1.10000                                  DARK 
+  CIRCLE     1.60000                                  DARK 
   CIRCLE     1.80000                                  DARK 
   CIRCLE     4.00000                                  DARK 
   RECTANGLE  0.35000     x 0.45000      90.000 NO     DARK 
@@ -645,8 +655,10 @@ Results from parameter file ...
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
   CIRCLE     1.30000                                  DARK 
+  CIRCLE     1.60000                                  DARK 
   CIRCLE     1.80000                                  DARK 
   CIRCLE     2.10000                                  DARK 
+  CIRCLE     4.00000                                  DARK 
   RECTANGLE  0.30000     x 1.60000      90.000 NO     DARK 
   RECTANGLE  0.40000     x 0.30000       0.000 NO     DARK 
   RECTANGLE  0.40000     x 0.30000      90.000 NO     DARK 
@@ -713,7 +725,6 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.00100                                  DARK 
   CIRCLE     0.40000                                  DARK 
   CIRCLE     0.50000                                  DARK 
   CIRCLE     0.60000                                  DARK 
@@ -912,13 +923,13 @@ Results from parameter file ...
 
 ------------------------------------------------------
  SUMMARY:
-        TOP created.
+        TOP created with warnings
         GND-L2 created.
         SIGNAL-L3 created.
         SIGNAL-L4 created.
         GND-L5 created.
         PWR-L6 created.
-        SIGNAL-L7 created.
+        SIGNAL-L7 created with warnings
         SIGNAL-L8 created.
         GND-L9 created.
         BOTTOM created.

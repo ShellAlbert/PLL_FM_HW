@@ -1,6 +1,6 @@
 (ExpressProject "MiniFMDemod"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[10/21/21]")
+  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[10/26/21]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -88,6 +88,15 @@
       (Type "Log File")
       (LogFile "G:\github\PLL_FM_HW\Schematic\NETLIST\swp.log")))
   (PartMRUSelector
+    (GND
+      (LibraryName
+         "D:\MYSOFTSET\CADENCESPB172\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("T POINT R"
+      (FullPartName "T POINT R.Normal")
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     ("T POINT S"
       (FullPartName "T POINT S.Normal")
       (LibraryName
@@ -96,15 +105,6 @@
     (TPS74601PBQWDRVRQ1
       (FullPartName "TPS74601PBQWDRVRQ1.Normal")
       (LibraryName "G:\ZSY\MINIFMDEMOD\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    ("T POINT R"
-      (FullPartName "T POINT R.Normal")
-      (LibraryName
-         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (GND
-      (LibraryName
-         "D:\MYSOFTSET\CADENCESPB172\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (OFFPAGELEFT-L
       (LibraryName
@@ -211,6 +211,16 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 381 0 660"))
-      (Tab 0)))
+        (Placement "44 0 1 -1 -1 -1 -1 0 378 0 660"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1215 26 680")
+        (Scroll "571 1496")
+        (Zoom "340")
+        (Occurrence "/"))
+      (Path "G:\GITHUB\PLL_FM_HW\SCHEMATIC\MINIFMDEMOD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "09-COMMUNICATE")))
   (ISPCBBASICLICENSE "false"))
