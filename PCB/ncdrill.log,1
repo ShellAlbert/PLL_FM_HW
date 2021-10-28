@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : FMDEMOD-57.brd                                )
 (    Software Version : 17.4S017                                      )
-(    Date/Time        : Mon Oct 25 13:04:23 2021                      )
+(    Date/Time        : Tue Oct 26 10:38:57 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -46,7 +46,7 @@
          0.1500  P        T01            0.000000     0.000000
          0.2000  P        T02            0.000000     0.000000
          1.0000  P        T03            0.000000     0.000000
-         3.2000  P        T04            0.000000     0.000000
+         3.2000  N        T04            0.000000     0.000000
 
 
 Drill files being output to directory 'G:/github/PLL_FM_HW/PCB' ...
@@ -73,11 +73,11 @@ Drill files being output to directory 'G:/github/PLL_FM_HW/PCB' ...
      Tool  Num     Size      +/- Tolerance     Plating   Quantity
 
      T01    1.   0.1500    0.0000/  0.0000      PLATED        169
-     T02    2.   0.2000    0.0000/  0.0000      PLATED        394
+     T02    2.   0.2000    0.0000/  0.0000      PLATED        402
 
-     ---- Total holes:                                        563
+     ---- Total holes:                                        571
 
-     ---- Total head travel:              6.42 feet (1.96 meters)
+     ---- Total head travel:              6.45 feet (1.97 meters)
 
 
 
@@ -165,7 +165,7 @@ Drill files being output to directory 'G:/github/PLL_FM_HW/PCB' ...
      T01    1.   0.1500    0.0000/  0.0000      PLATED          1
      T02    2.   0.2000    0.0000/  0.0000      PLATED        320
      T03    3.   1.0000    0.0000/  0.0000      PLATED          1
-     T04    4.   3.2000    0.0000/  0.0000      PLATED         16
+     T04    4.   3.2000    0.0000/  0.0000  NON_PLATED         16
 
      ---- Total holes:                                        338
 

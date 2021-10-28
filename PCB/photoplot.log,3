@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : FMDEMOD-57.brd                                )
 (    Software Version : 17.4S017                                      )
-(    Date/Time        : Tue Oct 26 10:29:13 2021                      )
+(    Date/Time        : Tue Oct 26 10:58:28 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -875,12 +875,6 @@ Results from parameter file ...
     WARNING: Multiple 0 width lines; all will be treated the same as the first.
            ... using undefined line width of 0.2540
 
-    WARNING: text composed 0 width line found at (-50.2289 -40.6535)
-           ... using undefined line width of 0.2540
-
-    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
-           ... using undefined line width of 0.2540
-
 
 
   APERTURES USED:
@@ -888,6 +882,7 @@ Results from parameter file ...
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
   CIRCLE     0.10000                                  DARK 
+  CIRCLE     0.20000                                  DARK 
   CIRCLE     0.25400                                  DARK 
   CIRCLE     0.50000                                  DARK 
 
