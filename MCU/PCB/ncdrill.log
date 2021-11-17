@@ -1,0 +1,293 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC DRILL Log                                                     )
+(                                                                     )
+(    Drawing          : FMDEMOD-57.brd                                )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Tue Oct 26 11:13:52 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file 'nc_param.txt' ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		2.5
+ MACHINE-OFFSET		x:0.00000	y:0.00000   (mm)
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		METRIC
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	YES
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		YES
+ TOOL-SELECT		YES
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		NO
+ SEPARATE-ROUTING	NO
+ OPTIMIZE_DRILLING	YES
+ ENHANCED_EXCELLON	YES
+ SCALE			1.000000
+
+ WARNING(SPMHMF-368): Cannot find NC Drill tool file 'nc_tools.txt'
+ WARNING(SPMHMF-369): ... will auto-generate tool file 'nc_tools_auto.txt'.
+
+
+     Auto-generating tool file 'nc_tools_auto.txt' ...
+
+           Size  Plating  Tool        + Tolerance  - Tolerance
+
+         0.1500  P        T01            0.000000     0.000000
+         0.2000  P        T02            0.000000     0.000000
+         1.0000  P        T03            0.000000     0.000000
+         3.2000  N        T04            0.000000     0.000000
+
+
+Drill files being output to directory 'G:/github/PLL_FM_HW/PCB' ...
+
+
+
+     'FMDEMOD-57-2-10.drl' created for holes connecting GND-L2 and BOTTOM
+     --------------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T02    1.   0.2000    0.0000/  0.0000      PLATED         27
+
+     ---- Total holes:                                         27
+
+     ---- Total head travel:              0.71 feet (0.22 meters)
+
+
+
+
+     'FMDEMOD-57-9-10.drl' created for holes connecting GND-L9 and BOTTOM
+     --------------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T01    1.   0.1500    0.0000/  0.0000      PLATED        169
+     T02    2.   0.2000    0.0000/  0.0000      PLATED        402
+
+     ---- Total holes:                                        571
+
+     ---- Total head travel:              6.45 feet (1.97 meters)
+
+
+
+
+     'FMDEMOD-57-6-10.drl' created for holes connecting PWR-L6 and BOTTOM
+     --------------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T01    1.   0.1500    0.0000/  0.0000      PLATED        166
+     T02    2.   0.2000    0.0000/  0.0000      PLATED        265
+
+     ---- Total holes:                                        431
+
+     ---- Total head travel:              5.86 feet (1.79 meters)
+
+
+
+
+     'FMDEMOD-57-3-10.drl' created for holes connecting SIGNAL-L3 and BOTTOM
+     -----------------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T01    1.   0.1500    0.0000/  0.0000      PLATED         15
+     T02    2.   0.2000    0.0000/  0.0000      PLATED         42
+
+     ---- Total holes:                                         57
+
+     ---- Total head travel:              1.70 feet (0.52 meters)
+
+
+
+
+     'FMDEMOD-57-4-10.drl' created for holes connecting SIGNAL-L4 and BOTTOM
+     -----------------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T01    1.   0.1500    0.0000/  0.0000      PLATED         10
+     T02    2.   0.2000    0.0000/  0.0000      PLATED         42
+
+     ---- Total holes:                                         52
+
+     ---- Total head travel:              1.56 feet (0.48 meters)
+
+
+
+
+     'FMDEMOD-57-7-10.drl' created for holes connecting SIGNAL-L7 and BOTTOM
+     -----------------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T01    1.   0.1500    0.0000/  0.0000      PLATED         34
+     T02    2.   0.2000    0.0000/  0.0000      PLATED         30
+
+     ---- Total holes:                                         64
+
+     ---- Total head travel:              1.66 feet (0.51 meters)
+
+
+
+
+     'FMDEMOD-57-8-10.drl' created for holes connecting SIGNAL-L8 and BOTTOM
+     -----------------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T01    1.   0.1500    0.0000/  0.0000      PLATED         21
+     T02    2.   0.2000    0.0000/  0.0000      PLATED         41
+
+     ---- Total holes:                                         62
+
+     ---- Total head travel:              1.85 feet (0.56 meters)
+
+
+
+
+     'FMDEMOD-57-1-10.drl' created for holes connecting TOP and BOTTOM
+     -----------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T01    1.   0.1500    0.0000/  0.0000      PLATED          1
+     T02    2.   0.2000    0.0000/  0.0000      PLATED        320
+     T03    3.   1.0000    0.0000/  0.0000      PLATED          1
+     T04    4.   3.2000    0.0000/  0.0000  NON_PLATED         16
+
+     ---- Total holes:                                        338
+
+     ---- Total head travel:              4.34 feet (1.32 meters)
+
+
+
+
+     'FMDEMOD-57-1-2.drl' created for holes connecting TOP and GND-L2
+     ----------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T01    1.   0.1500    0.0000/  0.0000      PLATED        185
+     T02    2.   0.2000    0.0000/  0.0000      PLATED        379
+
+     ---- Total holes:                                        564
+
+     ---- Total head travel:              6.81 feet (2.08 meters)
+
+
+
+
+     'FMDEMOD-57-1-5.drl' created for holes connecting TOP and GND-L5
+     ----------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T01    1.   0.1500    0.0000/  0.0000      PLATED          1
+     T02    2.   0.2000    0.0000/  0.0000      PLATED          3
+
+     ---- Total holes:                                          4
+
+     ---- Total head travel:              0.44 feet (0.13 meters)
+
+
+
+
+     'FMDEMOD-57-1-9.drl' created for holes connecting TOP and GND-L9
+     ----------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T01    1.   0.1500    0.0000/  0.0000      PLATED          4
+     T02    2.   0.2000    0.0000/  0.0000      PLATED         77
+
+     ---- Total holes:                                         81
+
+     ---- Total head travel:              1.20 feet (0.36 meters)
+
+
+
+
+     'FMDEMOD-57-1-6.drl' created for holes connecting TOP and PWR-L6
+     ----------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T01    1.   0.1500    0.0000/  0.0000      PLATED        212
+     T02    2.   0.2000    0.0000/  0.0000      PLATED        442
+
+     ---- Total holes:                                        654
+
+     ---- Total head travel:              7.05 feet (2.15 meters)
+
+
+
+
+     'FMDEMOD-57-1-3.drl' created for holes connecting TOP and SIGNAL-L3
+     -------------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T01    1.   0.1500    0.0000/  0.0000      PLATED        171
+     T02    2.   0.2000    0.0000/  0.0000      PLATED         90
+
+     ---- Total holes:                                        261
+
+     ---- Total head travel:              4.28 feet (1.30 meters)
+
+
+
+
+     'FMDEMOD-57-1-4.drl' created for holes connecting TOP and SIGNAL-L4
+     -------------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T01    1.   0.1500    0.0000/  0.0000      PLATED        134
+     T02    2.   0.2000    0.0000/  0.0000      PLATED         68
+
+     ---- Total holes:                                        202
+
+     ---- Total head travel:              3.32 feet (1.01 meters)
+
+
+
+
+     'FMDEMOD-57-1-7.drl' created for holes connecting TOP and SIGNAL-L7
+     -------------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T01    1.   0.1500    0.0000/  0.0000      PLATED        129
+     T02    2.   0.2000    0.0000/  0.0000      PLATED         12
+
+     ---- Total holes:                                        141
+
+     ---- Total head travel:              2.08 feet (0.63 meters)
+
+
+
+
+     'FMDEMOD-57-1-8.drl' created for holes connecting TOP and SIGNAL-L8
+     -------------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T01    1.   0.1500    0.0000/  0.0000      PLATED         78
+     T02    2.   0.2000    0.0000/  0.0000      PLATED         21
+
+     ---- Total holes:                                         99
+
+     ---- Total head travel:              2.24 feet (0.68 meters)
+

@@ -1,96 +1,39 @@
-\t (00:48:31) allegro 17.4 S017 Windows SPB 64-bit Edition
-\t (00:48:31)     Journal start - Wed Oct 27 18:13:52 2021
-\t (00:48:31)         Host=BF-202007251750 User=Administrator Pid=9524 CPUs=16
-\t (00:48:31) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
-\t (00:48:31) 
-\d (00:48:31) Design opened: G:/github/PLL_FM_HW/LIBS/C0402.dra
-\i (00:48:31) trapsize 214
-\i (00:48:31) generaledit 
-\i (00:48:34) step pkg map 
-\i (00:48:35) fillin yes 
-\i (00:48:42) setwindow form.pkgmap3d
-\i (00:48:42) FORM pkgmap3d stplist c0402c104k4ractu.stp 
-\i (00:48:45) FORM pkgmap3d show_step_origin YES 
-\i (00:48:47) FORM pkgmap3d show_step_origin NO 
-\i (00:48:47) FORM pkgmap3d show_step_origin YES 
-\i (00:48:49) FORM pkgmap3d hide_board YES 
-\i (00:48:50) FORM pkgmap3d hide_board NO 
-\i (00:48:51) FORM pkgmap3d overlay YES 
-\i (00:48:53) FORM pkgmap3d arrow_right  
-\i (00:48:54) FORM pkgmap3d arrow_right  
-\i (00:48:54) FORM pkgmap3d arrow_right  
-\i (00:48:54) FORM pkgmap3d arrow_right  
-\i (00:48:56) FORM pkgmap3d view_orientation Front 
-\i (00:49:00) FORM pkgmap3d arrow_right  
-\i (00:49:00) FORM pkgmap3d arrow_right  
-\i (00:49:00) FORM pkgmap3d arrow_right  
-\i (00:49:00) FORM pkgmap3d arrow_right  
-\i (00:49:01) FORM pkgmap3d arrow_right  
-\i (00:49:01) FORM pkgmap3d arrow_right  
-\i (00:49:01) FORM pkgmap3d arrow_right  
-\i (00:49:01) FORM pkgmap3d arrow_right  
-\i (00:49:01) FORM pkgmap3d arrow_right  
-\i (00:49:02) FORM pkgmap3d arrow_right  
-\i (00:49:02) FORM pkgmap3d arrow_right  
-\i (00:49:02) FORM pkgmap3d arrow_right  
-\i (00:49:02) FORM pkgmap3d arrow_right  
-\i (00:49:02) FORM pkgmap3d arrow_right  
-\i (00:49:03) FORM pkgmap3d arrow_left  
-\i (00:49:04) FORM pkgmap3d arrow_left  
-\i (00:49:04) FORM pkgmap3d arrow_left  
-\i (00:49:04) FORM pkgmap3d arrow_left  
-\i (00:49:04) FORM pkgmap3d arrow_left  
-\i (00:49:04) FORM pkgmap3d arrow_left  
-\i (00:49:04) FORM pkgmap3d arrow_left  
-\i (00:49:05) FORM pkgmap3d arrow_left  
-\i (00:49:05) FORM pkgmap3d arrow_left  
-\i (00:49:05) FORM pkgmap3d arrow_left  
-\i (00:49:05) FORM pkgmap3d arrow_left  
-\i (00:49:07) FORM pkgmap3d arrow_down  
-\i (00:49:07) FORM pkgmap3d arrow_down  
-\i (00:49:07) FORM pkgmap3d arrow_down  
-\i (00:49:07) FORM pkgmap3d arrow_down  
-\i (00:49:07) FORM pkgmap3d arrow_down  
-\i (00:49:08) FORM pkgmap3d arrow_down  
-\i (00:49:08) FORM pkgmap3d arrow_down  
-\i (00:49:08) FORM pkgmap3d arrow_down  
-\i (00:49:08) FORM pkgmap3d arrow_down  
-\i (00:49:08) FORM pkgmap3d arrow_down  
-\i (00:49:08) FORM pkgmap3d arrow_down  
-\i (00:49:08) FORM pkgmap3d arrow_down  
-\i (00:49:09) FORM pkgmap3d arrow_down  
-\i (00:49:09) FORM pkgmap3d arrow_down  
-\i (00:49:09) FORM pkgmap3d arrow_down  
-\i (00:49:09) FORM pkgmap3d arrow_down  
-\i (00:49:09) FORM pkgmap3d arrow_down  
-\i (00:49:10) FORM pkgmap3d arrow_down  
-\i (00:49:10) FORM pkgmap3d arrow_down  
-\i (00:49:10) FORM pkgmap3d arrow_down  
-\i (00:49:10) FORM pkgmap3d arrow_down  
-\i (00:49:10) FORM pkgmap3d arrow_down  
-\i (00:49:10) FORM pkgmap3d arrow_down  
-\i (00:49:10) FORM pkgmap3d arrow_down  
-\i (00:49:11) FORM pkgmap3d arrow_down  
-\i (00:49:11) FORM pkgmap3d arrow_down  
-\i (00:49:11) FORM pkgmap3d arrow_down  
-\i (00:49:11) FORM pkgmap3d arrow_down  
-\i (00:49:11) FORM pkgmap3d arrow_down  
-\i (00:49:11) FORM pkgmap3d arrow_down  
-\i (00:49:12) FORM pkgmap3d arrow_down  
-\i (00:49:12) FORM pkgmap3d arrow_down  
-\i (00:49:12) FORM pkgmap3d arrow_down  
-\i (00:49:12) FORM pkgmap3d arrow_down  
-\i (00:49:12) FORM pkgmap3d arrow_down  
-\i (00:49:12) FORM pkgmap3d arrow_down  
-\i (00:49:13) FORM pkgmap3d arrow_down  
-\i (00:49:13) FORM pkgmap3d arrow_down  
-\i (00:49:13) FORM pkgmap3d arrow_down  
-\i (00:49:13) FORM pkgmap3d arrow_down  
-\i (00:49:13) FORM pkgmap3d arrow_down  
-\i (00:49:14) FORM pkgmap3d arrow_down  
-\i (00:49:16) setwindow pcb
-\i (00:49:16) exit 
-\i (00:49:17) fillin yes 
-\e (00:49:18) Do you want to save the changes you made to C0402.dra?
-\i (00:49:18) fillin no 
-\t (00:49:21)     Journal end - Wed Oct 27 18:14:43 2021
+\t (02:53:38) allegro 17.4 S017 Windows SPB 64-bit Edition
+\t (02:53:38)     Journal start - Fri Nov 12 11:27:01 2021
+\t (02:53:38)         Host=BF-202007251750 User=Administrator Pid=5988 CPUs=16
+\t (02:53:38) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (02:53:38) 
+\d (02:53:38) Design opened: G:/github/PLL_FM_HW/LIBS/FPC-14P-0D5.dra
+\i (02:53:38) trapsize 1522
+\i (02:53:39) zoom out 1 
+\i (02:53:39) setwindow pcb
+\i (02:53:39) zoom out -5.2477 3.7307
+\i (02:53:39) trapsize 3044
+\i (02:53:39) zoom in 1 
+\i (02:53:39) setwindow pcb
+\i (02:53:39) zoom in 4.0665 -0.0436
+\i (02:53:39) trapsize 1522
+\i (02:53:40) zoom in 1 
+\i (02:53:40) setwindow pcb
+\i (02:53:40) zoom in 0.1704 3.3960
+\i (02:53:40) trapsize 761
+\i (02:53:40) zoom in 1 
+\i (02:53:40) setwindow pcb
+\i (02:53:40) zoom in 0.1704 3.3960
+\i (02:53:40) trapsize 380
+\i (02:53:41) zoom out 1 
+\i (02:53:41) setwindow pcb
+\i (02:53:41) zoom out -0.5296 3.7080
+\i (02:53:41) trapsize 761
+\i (02:53:41) zoom out 1 
+\i (02:53:41) setwindow pcb
+\i (02:53:41) zoom out -0.9102 3.9515
+\i (02:53:41) trapsize 1522
+\i (02:53:45) opencd G:/github/PLL_FM_HW/MCU/PCB/MCU.brd 
+\t (02:53:46) Opening existing design...
+\i (02:53:46) trapsize 3269
+\i (02:53:46) trapsize 3375
+\i (02:53:46) trapsize 3403
+\i (02:53:46) trapsize 2513
+\i (02:53:46) trapsize 2513
+\t (02:53:46)     Journal end - Fri Nov 12 11:27:09 2021

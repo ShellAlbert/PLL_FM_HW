@@ -4,13 +4,13 @@
 (                                                                     )
 (    Drawing          : R0201.dra                                     )
 (    Software Version : 17.4S017                                      )
-(    Date/Time        : Tue Sep  7 10:30:31 2021                      )
+(    Date/Time        : Fri Nov  5 08:55:42 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 Create Symbol of type: PACKAGE
-    Directory = G:/ZSY/MiniFMDemod/LIBS
+    Directory = G:/github/PLL_FM_HW/LIBS
     Name      = r0201.psm
     User      = Administrator
     Machine   = BF-202007251750

@@ -1,6 +1,6 @@
 (ExpressProject "MiniFMDemod"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[10/26/21]")
+  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[11/08/21]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -90,9 +90,17 @@
       (Type "Log File")
       (LogFile "G:\github\PLL_FM_HW\Schematic\NETLIST\swp.log")))
   (PartMRUSelector
+    (HEADER-1X10
+      (FullPartName "HEADER-1X10.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (HEADER-1X4
+      (FullPartName "HEADER-1X4.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
     (GND
       (LibraryName
-         "D:\MYSOFTSET\CADENCESPB172\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     ("T POINT R"
       (FullPartName "T POINT R.Normal")
@@ -189,14 +197,6 @@
     (SN74LVC2G34DBV
       (FullPartName "SN74LVC2G34DBV.Normal")
       (LibraryName "G:\ZSY\MINIFMDEMOD\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (SGM2028-3.3
-      (FullPartName "SGM2028-3.3.Normal")
-      (LibraryName "G:\ZSY\MINIFMDEMOD\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (GND_SIGNAL
-      (LibraryName
-         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0")))
   (MPSSessionName "Administrator")
   (GlobalState
@@ -207,13 +207,31 @@
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\library1.olb")
       (Path "Outputs")
-      (Path "Logs")
-      (Select "Design Resources" ".\minifmdemod.dsn" "SCHEMATIC1"
-         "imx6_power_tree"))
+      (Path "Logs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 567 0 660"))
-      (Tab 0)))
+        (Placement "44 0 1 -1 -1 -1 -1 0 353 0 742"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1240 28 764")
+        (Scroll "318 343")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "G:\GITHUB\PLL_FM_HW\SCHEMATIC\MINIFMDEMOD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "04-STM32_MOTOR"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1240 28 764")
+        (Scroll "8 118")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "G:\GITHUB\PLL_FM_HW\SCHEMATIC\MINIFMDEMOD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "03-STM32_CORE")))
   (ISPCBBASICLICENSE "false"))

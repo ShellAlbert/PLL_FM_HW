@@ -1,0 +1,22 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Parameter File READ                                              )
+(                                                                     )
+(    Drawing          : FMDEMOD-57.brd                                )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Fri Oct 29 11:01:56 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+	Paramfile Name : G:/github/PLL_FM_HW/PCB/color_setting.prm
+	Layout Name   : G:/github/PLL_FM_HW/PCB/FMDEMOD-57.brd
+
+Reading...parameter_header:
+Reading...color_table_table:
+Reading...ColorParmType:
+Reading...netCustomColors:
+
+
+..... Total number of errors: 0.
+..... Total number of warnings: 0.
