@@ -1,39 +1,73 @@
-\t (02:53:38) allegro 17.4 S017 Windows SPB 64-bit Edition
-\t (02:53:38)     Journal start - Fri Nov 12 11:27:01 2021
-\t (02:53:38)         Host=BF-202007251750 User=Administrator Pid=5988 CPUs=16
-\t (02:53:38) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
-\t (02:53:38) 
-\d (02:53:38) Design opened: G:/github/PLL_FM_HW/LIBS/FPC-14P-0D5.dra
-\i (02:53:38) trapsize 1522
-\i (02:53:39) zoom out 1 
-\i (02:53:39) setwindow pcb
-\i (02:53:39) zoom out -5.2477 3.7307
-\i (02:53:39) trapsize 3044
-\i (02:53:39) zoom in 1 
-\i (02:53:39) setwindow pcb
-\i (02:53:39) zoom in 4.0665 -0.0436
-\i (02:53:39) trapsize 1522
-\i (02:53:40) zoom in 1 
-\i (02:53:40) setwindow pcb
-\i (02:53:40) zoom in 0.1704 3.3960
-\i (02:53:40) trapsize 761
-\i (02:53:40) zoom in 1 
-\i (02:53:40) setwindow pcb
-\i (02:53:40) zoom in 0.1704 3.3960
-\i (02:53:40) trapsize 380
-\i (02:53:41) zoom out 1 
-\i (02:53:41) setwindow pcb
-\i (02:53:41) zoom out -0.5296 3.7080
-\i (02:53:41) trapsize 761
-\i (02:53:41) zoom out 1 
-\i (02:53:41) setwindow pcb
-\i (02:53:41) zoom out -0.9102 3.9515
-\i (02:53:41) trapsize 1522
-\i (02:53:45) opencd G:/github/PLL_FM_HW/MCU/PCB/MCU.brd 
-\t (02:53:46) Opening existing design...
-\i (02:53:46) trapsize 3269
-\i (02:53:46) trapsize 3375
-\i (02:53:46) trapsize 3403
-\i (02:53:46) trapsize 2513
-\i (02:53:46) trapsize 2513
-\t (02:53:46)     Journal end - Fri Nov 12 11:27:09 2021
+\t (00:02:31) allegro 17.4 S017 Windows SPB 64-bit Edition
+\t (00:02:31)     Journal start - Fri Nov 19 10:49:38 2021
+\t (00:02:31)         Host=BF-202007251750 User=Administrator Pid=3668 CPUs=16
+\t (00:02:31) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (00:02:31) 
+\d (00:02:31) Design opened: G:/github/PLL_FM_HW/LIBS/FPC-14P-0D5.dra
+\i (00:02:31) trapsize 1522
+\i (00:02:31) generaledit 
+\i (00:02:32) zoom in 1 
+\i (00:02:32) setwindow pcb
+\i (00:02:32) zoom in -2.9039 -0.0132
+\i (00:02:32) trapsize 761
+\i (00:02:33) zoom in 1 
+\i (00:02:33) setwindow pcb
+\i (00:02:33) zoom in -3.1626 3.7612
+\i (00:02:33) trapsize 380
+\i (00:02:33) zoom in 1 
+\i (00:02:33) setwindow pcb
+\i (00:02:33) zoom in -3.1702 3.7612
+\i (00:02:33) trapsize 190
+\i (00:02:34) zoom out 1 
+\i (00:02:34) setwindow pcb
+\i (00:02:34) zoom out -2.8506 3.4797
+\i (00:02:34) trapsize 380
+\i (00:02:38) shape add circle 
+\i (00:02:42) setwindow form.mini
+\i (00:02:42) FORM mini subclass SILKSCREEN_TOP 
+\i (00:02:45) setwindow pcb
+\i (00:02:45) zoom in 1 
+\i (00:02:45) setwindow pcb
+\i (00:02:45) zoom in -6.9446 4.1417
+\i (00:02:45) trapsize 190
+\i (00:02:45) pick grid -6.1304 3.8411
+\t (00:02:45) last pick:  -6.1300 3.8410
+\i (00:02:46) pick grid -5.7080 3.4226
+\t (00:02:46) last pick:  -5.7080 3.4230
+\i (00:02:47) prepopup -5.4493 3.8373
+\i (00:02:47) done 
+\i (00:02:47) generaledit 
+\i (00:02:48) move 
+\t (00:02:48) Select element(s) to move.
+\i (00:02:49) setwindow form.find
+\i (00:02:49) FORM find all_on  
+\i (00:02:51) setwindow pcb
+\i (00:02:51) pick grid -6.1798 3.6851
+\t (00:02:51) last pick:  -6.1800 3.6850
+\t (00:02:51) last pick:  -6.1800 3.6850
+\t (00:02:51) Element has no origin, using pick.
+\t (00:02:51) Pick new location for the element(s).
+\i (00:02:53) pick grid -6.1646 3.5406
+\t (00:02:53) last pick:  -6.1650 3.5410
+\i (00:02:53) zoom out 1 
+\i (00:02:53) setwindow pcb
+\i (00:02:53) zoom out -5.5406 3.7612
+\i (00:02:53) trapsize 380
+\i (00:02:53) zoom out 1 
+\i (00:02:53) setwindow pcb
+\i (00:02:53) zoom out -5.4570 3.7689
+\i (00:02:53) trapsize 761
+\i (00:02:53) prepopup -4.6199 3.7080
+\i (00:02:54) done 
+\i (00:02:54) generaledit 
+\i (00:02:55) save 
+\i (00:02:56) fillin yes 
+\t (00:02:56) Symbol 'fpc-14p-0d5.psm' created.
+\i (00:02:56) generaledit 
+\i (00:02:59) opencd G:/github/PLL_FM_HW/MCU/PCB/MCU-V4.brd 
+\t (00:03:00) Opening existing design...
+\i (00:03:00) trapsize 1716
+\i (00:03:00) trapsize 1771
+\i (00:03:00) trapsize 1786
+\i (00:03:00) trapsize 1786
+\t (00:03:00)     Journal end - Fri Nov 19 10:50:06 2021

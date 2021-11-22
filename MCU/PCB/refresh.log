@@ -1,9 +1,9 @@
-Tue Nov  9 15:38:17 2021				Page     1
+Fri Nov 19 10:50:16 2021				Page     1
 
 
  
 Update Symbols/Modules Logfile
-	Tue Nov  9 15:38:17 2021
+	Fri Nov 19 10:50:16 2021
 
 ------ Module Refresh Messages ------
 
@@ -17,24 +17,24 @@ SUMMARY:    Updated 0 out of 0 modules
 (                                                                     )
 (    Refresh Symbol                                                   )
 (                                                                     )
-(    Drawing          : MCU.brd                                       )
+(    Drawing          : MCU-V4.brd                                    )
 (    Software Version : 17.4S017                                      )
-(    Date/Time        : Tue Nov  9 15:38:17 2021                      )
+(    Date/Time        : Fri Nov 19 10:50:16 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Tue Nov  9 15:38:17 2021				Page     1
+Fri Nov 19 10:50:16 2021				Page     1
 
 
 ------ Symbol Refresh Directives ------
 
-Input design  = 'G:/github/PLL_FM_HW/MCU/PCB/MCU.brd'
+Input design  = 'G:/github/PLL_FM_HW/MCU/PCB/MCU-V4.brd'
 Output design = ''
 
 Update mechanical symbols              = 'NO'
 Update format symbols                  = 'NO'
-Update package symbols                 = 'YES'
+Update package symbols                 = 'NO'
 Update shape/flash symbols             = 'NO'
 Update symbol padstacks                = 'NO'
 Preserve padstacks replaced on pins    = 'NO'
@@ -42,6 +42,7 @@ Reset symbol text and size locations   = 'NO'
 Reset Pin Escapes (fanouts)            = 'NO'
 Ripup Etch                             = 'NO'
 Reset custom drill data                = 'NO'
+Symbol list file                       = 'C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaadd03668.tmp'
 
 
 ------ Library Paths ------
@@ -67,61 +68,11 @@ PADPATH =  .
 
 ------ Symbol Refresh Messages ------
 
-'R0402'  symbol refreshed successfully.
-'SH1D0-SMD-VER-4P'  symbol refreshed successfully.
-'SCREW-M3'  symbol refreshed successfully.
-'WSON-6'  symbol refreshed successfully.
-'TP_SMD_CIR_2D0'  symbol refreshed successfully.
-'QFN-14'  symbol refreshed successfully.
-'C0201'  symbol refreshed successfully.
-'TP_SMD_CIR_1D0'  symbol refreshed successfully.
-'R1206'  symbol refreshed successfully.
-
-'LQFP-100'  symbol starting to refresh:
-     ERROR(SPMHDB-243): Cannot modify element; the object or a parent has the FIXED property. [help]
-     ERROR(SPMHNI-254): Unable to load symbol, 'LQFP-100': 'Cannot modify element; the object or a parent has the FIXED property. ~
-     [help]'.
-     
-'VQFN-24'  symbol refreshed successfully.
-
-'HTSSOP-16'  symbol starting to refresh:
-     ERROR(SPMHDB-243): Cannot modify element; the object or a parent has the FIXED property. [help]
-     ERROR(SPMHNI-254): Unable to load symbol, 'HTSSOP-16': 'Cannot modify element; the object or a parent has the FIXED property.~
-      [help]'.
-     
-'TSSOP-16'  symbol refreshed successfully.
-
-'SH1D0-SMD-VER-10P'  symbol starting to refresh:
-     ERROR(SPMHDB-243): Cannot modify element; the object or a parent has the FIXED property. [help]
-     ERROR(SPMHNI-254): Unable to load symbol, 'SH1D0-SMD-VER-10P': 'Cannot modify element; the object or a parent has the FIXED p~
-     roperty. [help]'.
-     
-'SH1D0-SMD-VER-6P'  symbol refreshed successfully.
-'MSOP-8'  symbol refreshed successfully.
-'SOT-23-6'  symbol refreshed successfully.
-'SOT-6'  symbol refreshed successfully.
-'SOT-23-5'  symbol refreshed successfully.
-'SOT-23-3'  symbol refreshed successfully.
-'C0402'  symbol refreshed successfully.
-'C0805'  symbol refreshed successfully.
-'C0603'  symbol refreshed successfully.
-'C1206'  symbol refreshed successfully.
-'SOD-523F'  symbol refreshed successfully.
-'DF1006'  symbol refreshed successfully.
-'LED0402'  symbol refreshed successfully.
-'FB0603'  symbol refreshed successfully.
-'CD54-IND-2P'  symbol refreshed successfully.
-'FB0402'  symbol refreshed successfully.
-'R0603'  symbol refreshed successfully.
-'R3216'  symbol refreshed successfully.
-'CRY5032'  symbol refreshed successfully.
-Tue Nov  9 15:38:17 2021				Page     2
-
-
+'FPC-14P-0D5'  symbol refreshed successfully.
 
 
 ----- Symbol Update Summary ----
 
-Updated symbols: 30 out 33
+Updated symbols: 1 out 1
     Design updated.
 

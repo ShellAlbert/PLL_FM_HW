@@ -3,13 +3,13 @@
 (    GenFeed                                                          )
 (                                                                     )
 (    Software Version : 17.4S017                                      )
-(    Date/Time        : Thu Oct 21 09:27:58 2021                      )
+(    Date/Time        : Thu Nov 18 09:37:13 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 Extract file used: D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/text/views/pxlBA-rfpcb.txt
 
-  Wrote feedbackview.cdsz file to G:/github/PLL_FM_HW/Schematic/NETLIST directory
+  Wrote feedbackview.cdsz file to G:/github/PLL_FM_HW/MCU/Schematic/NETLIST directory
 
 SUMMARY: No errors or warnings detected.

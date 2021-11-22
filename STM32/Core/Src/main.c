@@ -729,99 +729,90 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOD_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOE, SMTR2_M0_Pin|SMTR2_M1_Pin|SMTR2_TOFF_SEL_Pin|SMTR2_DEC1_Pin
-                          |SMTR2_nSLEEP_Pin|ARM_ONOFF_Pin|SMTR1_DEC0_Pin|SMTR1_I1_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOE, SMTR2_DEC0_Pin|SMTR2_NSLEEP_Pin|SMTR2_DEC1_Pin|SMTR2_I1_Pin
+                          |SMTR2_I0_Pin|ARM_ONOFF_Pin|NSLEEP34_Pin|SMTR2_M1_Pin
+                          |SMTR2_TOFF_SEL_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOC, SMTR2_DEC0_Pin|SMTR2_I1_Pin|SMTR2_I0_Pin|MCU_RST_CPU_Pin
-                          |MCU_RST_FPGA_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOC, SMTR2_ADEC_Pin|SMTR2_DIR_Pin|MCU_RST_CPU_Pin|MCU_RST_FPGA_Pin
+                          |MCU_LED4_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOB, SMTR2_DIR_Pin|SMTR2_ADEC_Pin|SMTR1_I0_Pin|SMTR1_DEC1_Pin
-                          |SMTR1_nSLEEP_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB, NSLEEP12_Pin|SMTR1_DEC0_Pin|SMTR1_DEC1_Pin|SMTR2_M0_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOD, MCU_LED2_Pin|MCU_LED1_Pin|MCU_LED4_Pin|MCU_LED3_Pin
-                          |SMTR1_M0_Pin|SMTR1_M1_Pin|SMTR1_TOFF_SEL_Pin|SMTR1_DIR_Pin
-                          |SMTR1_ADEC_Pin|nSLEEP34_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, MCU_LED2_Pin|MCU_LED1_Pin|MCU_LED3_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(nSLEEP12_GPIO_Port, nSLEEP12_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOD, SMTR1_M0_Pin|SMTR1_M1_Pin|SMTR1_TOFF_SEL_Pin|SMTR1_DIR_Pin
+                          |SMTR1_ADEC_Pin|SMTR1_I1_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pins : SMTR2_M0_Pin SMTR2_M1_Pin SMTR2_TOFF_SEL_Pin SMTR2_DEC1_Pin
-                           SMTR2_nSLEEP_Pin ARM_ONOFF_Pin SMTR1_DEC0_Pin SMTR1_I1_Pin */
-  GPIO_InitStruct.Pin = SMTR2_M0_Pin|SMTR2_M1_Pin|SMTR2_TOFF_SEL_Pin|SMTR2_DEC1_Pin
-                          |SMTR2_nSLEEP_Pin|ARM_ONOFF_Pin|SMTR1_DEC0_Pin|SMTR1_I1_Pin;
+  /*Configure GPIO pins : SMTR2_DEC0_Pin SMTR2_NSLEEP_Pin SMTR2_DEC1_Pin SMTR2_I1_Pin
+                           SMTR2_I0_Pin ARM_ONOFF_Pin NSLEEP34_Pin SMTR2_M1_Pin
+                           SMTR2_TOFF_SEL_Pin */
+  GPIO_InitStruct.Pin = SMTR2_DEC0_Pin|SMTR2_NSLEEP_Pin|SMTR2_DEC1_Pin|SMTR2_I1_Pin
+                          |SMTR2_I0_Pin|ARM_ONOFF_Pin|NSLEEP34_Pin|SMTR2_M1_Pin
+                          |SMTR2_TOFF_SEL_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : SMTR2_DEC0_Pin SMTR2_I1_Pin SMTR2_I0_Pin MCU_RST_CPU_Pin
-                           MCU_RST_FPGA_Pin */
-  GPIO_InitStruct.Pin = SMTR2_DEC0_Pin|SMTR2_I1_Pin|SMTR2_I0_Pin|MCU_RST_CPU_Pin
-                          |MCU_RST_FPGA_Pin;
+  /*Configure GPIO pins : SMTR2_ADEC_Pin SMTR2_DIR_Pin MCU_RST_CPU_Pin MCU_RST_FPGA_Pin
+                           MCU_LED4_Pin */
+  GPIO_InitStruct.Pin = SMTR2_ADEC_Pin|SMTR2_DIR_Pin|MCU_RST_CPU_Pin|MCU_RST_FPGA_Pin
+                          |MCU_LED4_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : SMTR2_nFAULT_Pin */
-  GPIO_InitStruct.Pin = SMTR2_nFAULT_Pin;
+  /*Configure GPIO pin : NFAULT34_Pin */
+  GPIO_InitStruct.Pin = NFAULT34_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(SMTR2_nFAULT_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(NFAULT34_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : SMTR2_DIR_Pin SMTR2_ADEC_Pin SMTR1_I0_Pin SMTR1_DEC1_Pin
-                           SMTR1_nSLEEP_Pin */
-  GPIO_InitStruct.Pin = SMTR2_DIR_Pin|SMTR2_ADEC_Pin|SMTR1_I0_Pin|SMTR1_DEC1_Pin
-                          |SMTR1_nSLEEP_Pin;
+  /*Configure GPIO pins : NSLEEP12_Pin SMTR1_DEC0_Pin SMTR1_DEC1_Pin SMTR2_M0_Pin */
+  GPIO_InitStruct.Pin = NSLEEP12_Pin|SMTR1_DEC0_Pin|SMTR1_DEC1_Pin|SMTR2_M0_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : MCU_LED2_Pin MCU_LED1_Pin MCU_LED4_Pin MCU_LED3_Pin
-                           SMTR1_M0_Pin SMTR1_M1_Pin SMTR1_TOFF_SEL_Pin SMTR1_DIR_Pin
-                           SMTR1_ADEC_Pin nSLEEP34_Pin */
-  GPIO_InitStruct.Pin = MCU_LED2_Pin|MCU_LED1_Pin|MCU_LED4_Pin|MCU_LED3_Pin
-                          |SMTR1_M0_Pin|SMTR1_M1_Pin|SMTR1_TOFF_SEL_Pin|SMTR1_DIR_Pin
-                          |SMTR1_ADEC_Pin|nSLEEP34_Pin;
+  /*Configure GPIO pins : NFAULT12_Pin SMTR1_NSLEEP_Pin SMTR2_NFAULT_Pin */
+  GPIO_InitStruct.Pin = NFAULT12_Pin|SMTR1_NSLEEP_Pin|SMTR2_NFAULT_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : LIMIT_SW1_Pin LIMIT_SW2_Pin LIMIT_SW3_Pin LIMIT_SW4_Pin */
+  GPIO_InitStruct.Pin = LIMIT_SW1_Pin|LIMIT_SW2_Pin|LIMIT_SW3_Pin|LIMIT_SW4_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : MCU_LED2_Pin MCU_LED1_Pin MCU_LED3_Pin */
+  GPIO_InitStruct.Pin = MCU_LED2_Pin|MCU_LED1_Pin|MCU_LED3_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
-
-  /*Configure GPIO pins : PA8 PA11 PA15 */
-  GPIO_InitStruct.Pin = GPIO_PIN_8|GPIO_PIN_11|GPIO_PIN_15;
-  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : nSLEEP12_Pin */
-  GPIO_InitStruct.Pin = nSLEEP12_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(nSLEEP12_GPIO_Port, &GPIO_InitStruct);
-
-  /*Configure GPIO pin : LIMIT_SW1_Pin */
-  GPIO_InitStruct.Pin = LIMIT_SW1_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(LIMIT_SW1_GPIO_Port, &GPIO_InitStruct);
-
-  /*Configure GPIO pins : SMTR1_nFAULT_Pin nFAULT12_Pin */
-  GPIO_InitStruct.Pin = SMTR1_nFAULT_Pin|nFAULT12_Pin;
+  /*Configure GPIO pins : SMTR1_nFAULT_Pin SMTR1_I0_Pin */
+  GPIO_InitStruct.Pin = SMTR1_nFAULT_Pin|SMTR1_I0_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : nFAULT34_Pin */
-  GPIO_InitStruct.Pin = nFAULT34_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  /*Configure GPIO pins : SMTR1_M0_Pin SMTR1_M1_Pin SMTR1_TOFF_SEL_Pin SMTR1_DIR_Pin
+                           SMTR1_ADEC_Pin SMTR1_I1_Pin */
+  GPIO_InitStruct.Pin = SMTR1_M0_Pin|SMTR1_M1_Pin|SMTR1_TOFF_SEL_Pin|SMTR1_DIR_Pin
+                          |SMTR1_ADEC_Pin|SMTR1_I1_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(nFAULT34_GPIO_Port, &GPIO_InitStruct);
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
 
 }
 

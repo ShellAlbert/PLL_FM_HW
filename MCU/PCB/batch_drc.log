@@ -2,9 +2,9 @@
 (                                                                     )
 (    DRC Update                                                       )
 (                                                                     )
-(    Drawing          : MCU.brd                                       )
+(    Drawing          : MCU-V4.brd                                    )
 (    Software Version : 17.4S017                                      )
-(    Date/Time        : Tue Nov  9 15:38:17 2021                      )
+(    Date/Time        : Fri Nov 19 10:40:07 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  4
+ ..... Total number of DRC errors  70
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************

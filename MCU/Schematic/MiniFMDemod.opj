@@ -1,6 +1,6 @@
 (ExpressProject "MiniFMDemod"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[11/17/21]")
+  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[11/22/21]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -34,8 +34,8 @@
     (BOM_Report_File "G:\ZSY\MINIFMDEMOD\MINIFMDEMOD.BOM")
     (BOM_Merge_Include "FALSE")
     (BOM_Property_Combine_7.0
-       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}")
-    (BOM_Header "Item\tQuantity\tReference\tPart\tPCBFootprint")
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}\t{ZSYDesc}")
+    (BOM_Header "Item\tQuantity\tReference\tPart\tPCBFootprint\tDetails")
     (BOM_Include_File "G:\ZSY\MINIFMDEMOD\MINIFMDEMOD.INC")
     (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
     (BOM_One_Part_Per_Line "FALSE")
@@ -59,9 +59,9 @@
     (width_End "80")
     ("Allegro Backannotation Run Genfeed" "TRUE")
     ("Allegro Backannotation Board File"
-       "G:\github\PLL_FM_HW\PCB\FMDEMOD-57.brd")
+       "G:\github\PLL_FM_HW\MCU\PCB\MCU-V3.brd")
     ("Allegro Backannotation Netlist Directory"
-       "G:\github\PLL_FM_HW\Schematic\NETLIST")
+       "G:\github\PLL_FM_HW\MCU\Schematic\NETLIST")
     ("Allegro Backannotation Output File" "allegro\MINIFMDEMOD.swp")
     ("Allegro Backannotation Update Schematic" "TRUE")
     ("Allegro Backannotation View Output" "FALSE")
@@ -69,8 +69,6 @@
     (Backannotation_TAB "0"))
   (Folder "Layout")
   (Folder "Outputs"
-    (File ".\minifmdemod.bom"
-      (Type "Report"))
     (File ".\allegro\minifmdemod.swp"
       (Type "Report")
       (DisplayName "MINIFMDEMOD.swp"))
@@ -88,7 +86,7 @@
   (Folder "Logs"
     (File ".\netlist\swp.log"
       (Type "Log File")
-      (LogFile "G:\github\PLL_FM_HW\Schematic\NETLIST\swp.log")))
+      (LogFile "G:\github\PLL_FM_HW\MCU\Schematic\NETLIST\swp.log")))
   (PartMRUSelector
     (GND
       (LibraryName
@@ -206,21 +204,13 @@
       (Path "Design Resources" ".\minifmdemod.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Path "Logs"))
+      (Path "Logs")
+      (Select "Design Resources" ".\minifmdemod.dsn" "SCHEMATIC1"
+         "03-STM32_CORE"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 742"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1393 28 764")
-        (Scroll "3917 394")
-        (Zoom "480")
-        (Occurrence "/"))
-      (Path "G:\GITHUB\PLL_FM_HW\MCU\SCHEMATIC\MINIFMDEMOD.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "04-STM32_MOTOR")))
+        (Placement "44 0 1 -1 -1 -1 -1 0 486 0 742"))
+      (Tab 0)))
   (ISPCBBASICLICENSE "false"))

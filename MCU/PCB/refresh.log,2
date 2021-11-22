@@ -1,9 +1,9 @@
-Tue Oct 26 10:16:12 2021				Page     1
+Fri Nov 19 10:48:25 2021				Page     1
 
 
  
 Update Symbols/Modules Logfile
-	Tue Oct 26 10:16:12 2021
+	Fri Nov 19 10:48:25 2021
 
 ------ Module Refresh Messages ------
 
@@ -17,32 +17,32 @@ SUMMARY:    Updated 0 out of 0 modules
 (                                                                     )
 (    Refresh Symbol                                                   )
 (                                                                     )
-(    Drawing          : FMDEMOD-57.brd                                )
+(    Drawing          : MCU-V4.brd                                    )
 (    Software Version : 17.4S017                                      )
-(    Date/Time        : Tue Oct 26 10:16:13 2021                      )
+(    Date/Time        : Fri Nov 19 10:48:26 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Tue Oct 26 10:16:13 2021				Page     1
+Fri Nov 19 10:48:26 2021				Page     1
 
 
 ------ Symbol Refresh Directives ------
 
-Input design  = 'G:/github/PLL_FM_HW/PCB/FMDEMOD-57.brd'
+Input design  = 'G:/github/PLL_FM_HW/MCU/PCB/MCU-V4.brd'
 Output design = ''
 
 Update mechanical symbols              = 'NO'
 Update format symbols                  = 'NO'
 Update package symbols                 = 'NO'
 Update shape/flash symbols             = 'NO'
-Update symbol padstacks                = 'YES'
+Update symbol padstacks                = 'NO'
 Preserve padstacks replaced on pins    = 'NO'
 Reset symbol text and size locations   = 'NO'
 Reset Pin Escapes (fanouts)            = 'NO'
 Ripup Etch                             = 'NO'
 Reset custom drill data                = 'NO'
-Symbol list file                       = 'C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabg10696.tmp'
+Symbol list file                       = 'C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabb03668.tmp'
 
 
 ------ Library Paths ------
@@ -68,12 +68,7 @@ PADPATH =  .
 
 ------ Symbol Refresh Messages ------
 
-'SCREW-M3'  symbol refreshed successfully.
-
-
------- Pad Stack Refresh Messages ------
-
-'THR_CIR_3D8X3D2'  pad stack refreshed successfully.
+'R0402'  symbol refreshed successfully.
 
 
 ----- Symbol Update Summary ----

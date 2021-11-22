@@ -2,124 +2,34 @@
 (                                                                     )
 (    DBDOCTOR                                                         )
 (                                                                     )
-(    Drawing          : FMDEMOD-57.brd                                )
+(    Drawing          : MCU-V4.brd                                    )
 (    Software Version : 17.4S017                                      )
-(    Date/Time        : Tue Oct 26 10:58:27 2021                      )
+(    Date/Time        : Fri Nov 19 10:43:55 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 
-WARNING: in SYMBOL PIN   refdes = TP42
+WARNING: in SYMBOL PIN   refdes = TP1
   pin# 1
-  symbol origin = (40.0000 -43.0000)
+  symbol origin = (49.0000 -7.0000)
   WARNING(SPMHA1-97): Illegal drill plating.
 Non-Plated hole has connected objects, consider changing to PLATED. Pad stack - THR_CIR_3D8X3D2_NP is NON_PLATED.
 
 
-WARNING: in SYMBOL PIN   refdes = TP30
+WARNING: in SYMBOL PIN   refdes = TP2
   pin# 1
-  symbol origin = (40.0000 -37.0000)
+  symbol origin = (7.1000 -7.1000)
   WARNING(SPMHA1-97): Illegal drill plating.
 Non-Plated hole has connected objects, consider changing to PLATED. Pad stack - THR_CIR_3D8X3D2_NP is NON_PLATED.
 
 
-WARNING: in SYMBOL PIN   refdes = TP29
-  pin# 1
-  symbol origin = (3.0000 -37.0000)
-  WARNING(SPMHA1-97): Illegal drill plating.
-Non-Plated hole has connected objects, consider changing to PLATED. Pad stack - THR_CIR_3D8X3D2_NP is NON_PLATED.
+WARNING: The following vias/pins have connections using non-plated padstacks
+         This may cause issues with your manufacturing process.
+
+  Pin/Via         Padstack                                   Location
+  -------------------------------------------------------------------------
+  TP2.1           THR_CIR_3D8X3D2_NP                       (7.1000 -7.1000)
 
 
-WARNING: in SYMBOL PIN   refdes = TP28
-  pin# 1
-  symbol origin = (40.0000 -3.0000)
-  WARNING(SPMHA1-97): Illegal drill plating.
-Non-Plated hole has connected objects, consider changing to PLATED. Pad stack - THR_CIR_3D8X3D2_NP is NON_PLATED.
-
-
-WARNING: in SYMBOL PIN   refdes = TP27
-  pin# 1
-  symbol origin = (3.0000 -3.0000)
-  WARNING(SPMHA1-97): Illegal drill plating.
-Non-Plated hole has connected objects, consider changing to PLATED. Pad stack - THR_CIR_3D8X3D2_NP is NON_PLATED.
-
-
-WARNING: in SYMBOL PIN   refdes = TP41
-  pin# 1
-  symbol origin = (3.0000 -43.0000)
-  WARNING(SPMHA1-97): Illegal drill plating.
-Non-Plated hole has connected objects, consider changing to PLATED. Pad stack - THR_CIR_3D8X3D2_NP is NON_PLATED.
-
-
-WARNING: in SYMBOL PIN   refdes = TP40
-  pin# 1
-  symbol origin = (3.0000 -77.0000)
-  WARNING(SPMHA1-97): Illegal drill plating.
-Non-Plated hole has connected objects, consider changing to PLATED. Pad stack - THR_CIR_3D8X3D2_NP is NON_PLATED.
-
-
-WARNING: in SYMBOL PIN   refdes = TP39
-  pin# 1
-  symbol origin = (40.0000 -77.0000)
-  WARNING(SPMHA1-97): Illegal drill plating.
-Non-Plated hole has connected objects, consider changing to PLATED. Pad stack - THR_CIR_3D8X3D2_NP is NON_PLATED.
-
-
-WARNING: in SYMBOL PIN   refdes = TP38
-  pin# 1
-  symbol origin = (83.0000 -77.0000)
-  WARNING(SPMHA1-97): Illegal drill plating.
-Non-Plated hole has connected objects, consider changing to PLATED. Pad stack - THR_CIR_3D8X3D2_NP is NON_PLATED.
-
-
-WARNING: in SYMBOL PIN   refdes = TP37
-  pin# 1
-  symbol origin = (46.0000 -77.0000)
-  WARNING(SPMHA1-97): Illegal drill plating.
-Non-Plated hole has connected objects, consider changing to PLATED. Pad stack - THR_CIR_3D8X3D2_NP is NON_PLATED.
-
-
-WARNING: in SYMBOL PIN   refdes = TP36
-  pin# 1
-  symbol origin = (83.0000 -43.0000)
-  WARNING(SPMHA1-97): Illegal drill plating.
-Non-Plated hole has connected objects, consider changing to PLATED. Pad stack - THR_CIR_3D8X3D2_NP is NON_PLATED.
-
-
-WARNING: in SYMBOL PIN   refdes = TP35
-  pin# 1
-  symbol origin = (46.0000 -43.0000)
-  WARNING(SPMHA1-97): Illegal drill plating.
-Non-Plated hole has connected objects, consider changing to PLATED. Pad stack - THR_CIR_3D8X3D2_NP is NON_PLATED.
-
-
-WARNING: in SYMBOL PIN   refdes = TP34
-  pin# 1
-  symbol origin = (83.0000 -37.0000)
-  WARNING(SPMHA1-97): Illegal drill plating.
-Non-Plated hole has connected objects, consider changing to PLATED. Pad stack - THR_CIR_3D8X3D2_NP is NON_PLATED.
-
-
-WARNING: in SYMBOL PIN   refdes = TP33
-  pin# 1
-  symbol origin = (46.0000 -37.0000)
-  WARNING(SPMHA1-97): Illegal drill plating.
-Non-Plated hole has connected objects, consider changing to PLATED. Pad stack - THR_CIR_3D8X3D2_NP is NON_PLATED.
-
-
-WARNING: in SYMBOL PIN   refdes = TP32
-  pin# 1
-  symbol origin = (83.0000 -3.0000)
-  WARNING(SPMHA1-97): Illegal drill plating.
-Non-Plated hole has connected objects, consider changing to PLATED. Pad stack - THR_CIR_3D8X3D2_NP is NON_PLATED.
-
-
-WARNING: in SYMBOL PIN   refdes = TP31
-  pin# 1
-  symbol origin = (46.0000 -3.0000)
-  WARNING(SPMHA1-97): Illegal drill plating.
-Non-Plated hole has connected objects, consider changing to PLATED. Pad stack - THR_CIR_3D8X3D2_NP is NON_PLATED.
-
-
-16 warnings, 0 errors detected, 0 errors could be fixed.
+3 warnings, 0 errors detected, 0 errors could be fixed.
