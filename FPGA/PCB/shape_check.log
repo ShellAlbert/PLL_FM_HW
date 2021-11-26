@@ -1,0 +1,20 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Artwork Check                                              )
+(                                                                     )
+(    Drawing          : FMDEMOD-41.brd                                )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Wed Sep 15 11:51:30 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Performing shape checks for 1 selected shapes...
+
+Shape 1
+   Type   : Static
+   Layer  : ETCH, TOP
+   Net    : N8200614
+   Extents: ((6.337 -38.831), (10.996 -37.637))
+
+Wed Sep 15 11:51:31 2021

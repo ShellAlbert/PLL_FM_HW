@@ -1,0 +1,35 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Compose Shapes                                                   )
+(                                                                     )
+(    Drawing          : FMDEMOD-41.brd                                )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Wed Sep 15 11:43:56 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+current class name(ETCH)
+Find smallest gap failed. Be cautious, this may not be an error
+Retrieve closedLoop with segments (nil) failed
+Get shape struct returns nil
+A total of 0 shapes were created.
+There are segments remaining which do not form a closed shape based on current gap settings.
+Use the "Close Shape" option from the RMB popup to close any shape(s) left open.
+current class name(ETCH)
+current class name(ETCH)
+Retrieve closedLoop with segments (nil) failed
+Get shape struct returns nil
+A total of 0 shapes were created.
+There are segments remaining which do not form a closed shape based on current gap settings.
+Use the "Close Shape" option from the RMB popup to close any shape(s) left open.
+current class name(ETCH)
+Get shape struct returns nil
+A total of 0 shapes were created.
+There are segments remaining which do not form a closed shape based on current gap settings.
+Use the "Close Shape" option from the RMB popup to close any shape(s) left open.
+Retrieve closedLoop with segments (nil) failed
+Get shape struct returns nil
+A total of 0 shapes were created.
+There are segments remaining which do not form a closed shape based on current gap settings.
+Use the "Close Shape" option from the RMB popup to close any shape(s) left open.

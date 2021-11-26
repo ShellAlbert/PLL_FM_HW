@@ -1,0 +1,17 @@
+#Allegro PCB Router v17-4-0 made 2021/02/21 at 12:48:59
+#Host 
+#ROUTING STATUS <<< G:/github/PLL_FM_HW/FPGA/PCB\FPGA-V3.dsn >>>
+Start  Time: Report Time: Wed Nov 24 14:09:42 2021
+
+Nets         =      229   Connections         =     1164
+Current Wire =      216   Reroute wires       =        0
+Completion   =   17.35%   Unconnections       =      900
+| ROUTING HISTORY ================================================================
+|     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+|   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+|----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+| Fanout   |  1|     0|    31| 192|  900|  283|    0|   0|   |  0:00:01|  0:00:01|
+| Delete   |  1|     0|     0|   0|  914|   34|    0|   0|   |  0:00:00|  0:00:01|
+| Read Rte |  1|     0|    33|   0|  900|  167|    0|   0|   |  0:00:01|  0:00:02|
+| Fanout   |  2|     0|    31|   0|  900|  334|    0|   0|   |  0:00:00|  0:00:02|
+| Conflicts between polygon wires and fixed objects:   0

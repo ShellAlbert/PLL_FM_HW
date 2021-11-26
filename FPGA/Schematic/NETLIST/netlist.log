@@ -1,0 +1,12 @@
+{ Using PSTWRITER 17.4.0 d001Nov-25-2021 at 17:28:40 }
+
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... G:\github\PLL_FM_HW\FPGA\Schematic\NETLIST\pstchip.dat
+
+Loading... G:\github\PLL_FM_HW\FPGA\Schematic\NETLIST\pstchip.dat
+
+Loading... G:\github\PLL_FM_HW\FPGA\Schematic\NETLIST\pstxprt.dat
+
+Loading... G:\github\PLL_FM_HW\FPGA\Schematic\NETLIST\pstxnet.dat
+packaging the design view...

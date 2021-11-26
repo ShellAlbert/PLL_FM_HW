@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="file:///D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/consmgr/VDD/report/treeview.xsl"?>
+<ConstraintDifferenceReport Path="file:///D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/consmgr/VDD/report/rc" Type="Constraint Difference Report">
+
+  <RptSummary Col1="Layout" Col2="Schematic">
+    <Entry Name="Report time">Thu Nov 25 17:29:49 2021
+</Entry>
+    <Entry Name="Software version">17.4 (S017)</Entry>
+    <Entry Name="Layout">G:\github\PLL_FM_HW\FPGA\PCB\FPGA-V3.brd</Entry>
+    <Entry Name="Schematic">G:\github\PLL_FM_HW\FPGA\Schematic\NETLIST\pstcmdb.dat</Entry>
+    <Entry Name="Baseline File">C:\Users\ADMINI~1\AppData\Local\Temp\#Taaaaaf11612.tmp</Entry>
+    <Entry Name="Destination design updated">Yes</Entry>
+    <Entry Name="Update Mode">Diff3</Entry>
+    <Entry Name="Constraint Information">CrossSection, Electrical, Physical, Spacing, Same Net Spacing, NetClasses, Properties</Entry>
+    <Entry Name="Objects with conflicts">0</Entry>
+  </RptSummary>
+
+  <Tree>
+    <Item Filter="0x1" Name="Summary" Ref="main-summary">
+      <Item Filter="0x0" Name="MatchGroups [13]" Ref="13">
+        <Item Filter="0x0" Name="MG10" Ref="8"/>
+        <Item Filter="0x0" Name="MG11" Ref="d"/>
+        <Item Filter="0x0" Name="MG12" Ref="6"/>
+        <Item Filter="0x0" Name="MG4" Ref="b"/>
+        <Item Filter="0x0" Name="MG5" Ref="e"/>
+        <Item Filter="0x0" Name="MG6" Ref="11"/>
+        <Item Filter="0x0" Name="MG8" Ref="10"/>
+        <Item Filter="0x0" Name="MG9" Ref="f"/>
+        <Item Filter="0x0" Name="MG_DATA0-7" Ref="12"/>
+        <Item Filter="0x0" Name="MG_DATA8-15" Ref="9"/>
+        <Item Filter="0x0" Name="MG_I2S" Ref="c"/>
+        <Item Filter="0x0" Name="MG_SDRAM_ADDRESS" Ref="a"/>
+        <Item Filter="0x0" Name="MG_SD_BUS" Ref="7"/>
+      </Item>
+      <Item Filter="0x0" Name="NetGroups [5]" Ref="14">
+        <Item Filter="0x0" Name="NAND_BUS" Ref="5"/>
+        <Item Filter="0x0" Name="NG1" Ref="4"/>
+        <Item Filter="0x0" Name="NG_BANK" Ref="3"/>
+        <Item Filter="0x0" Name="SDRAM_CTRLS" Ref="2"/>
+        <Item Filter="0x0" Name="SD_CARD" Ref="1"/>
+      </Item>
+    </Item>
+  </Tree>
+
+  <Summaries>
+    <MainSummary ID="main-summary">
+      <ChangedObject Filter="0x0" Name="MatchGroups" ObjNumber="13" Ref="13"/>
+      <ChangedObject Filter="0x0" Name="NetGroups" ObjNumber="5" Ref="14"/>
+    </MainSummary>
+    <GroupSummary ID="13" Name="MatchGroups">
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="MG10" Notes="1" Other="0" Ref="8" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="MG11" Notes="1" Other="0" Ref="d" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="MG12" Notes="1" Other="0" Ref="6" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="MG4" Notes="1" Other="0" Ref="b" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="MG5" Notes="1" Other="0" Ref="e" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="MG6" Notes="1" Other="0" Ref="11" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="MG8" Notes="1" Other="0" Ref="10" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="MG9" Notes="1" Other="0" Ref="f" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="MG_DATA0-7" Notes="1" Other="0" Ref="12" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="MG_DATA8-15" Notes="1" Other="0" Ref="9" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="MG_I2S" Notes="1" Other="0" Ref="c" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="MG_SDRAM_ADDRESS" Notes="1" Other="0" Ref="a" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="MG_SD_BUS" Notes="1" Other="0" Ref="7" Reference="0"/>
+    </GroupSummary>
+    <ObjectSummary ID="8" Kind="MatchGroup" Name="MG10">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating MatchGroup: &quot;MG10&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="d" Kind="MatchGroup" Name="MG11">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating MatchGroup: &quot;MG11&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="6" Kind="MatchGroup" Name="MG12">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating MatchGroup: &quot;MG12&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="b" Kind="MatchGroup" Name="MG4">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating MatchGroup: &quot;MG4&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="e" Kind="MatchGroup" Name="MG5">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating MatchGroup: &quot;MG5&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="11" Kind="MatchGroup" Name="MG6">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating MatchGroup: &quot;MG6&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="10" Kind="MatchGroup" Name="MG8">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating MatchGroup: &quot;MG8&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="f" Kind="MatchGroup" Name="MG9">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating MatchGroup: &quot;MG9&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="12" Kind="MatchGroup" Name="MG_DATA0-7">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating MatchGroup: &quot;MG_DATA0-7&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="9" Kind="MatchGroup" Name="MG_DATA8-15">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating MatchGroup: &quot;MG_DATA8-15&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="c" Kind="MatchGroup" Name="MG_I2S">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating MatchGroup: &quot;MG_I2S&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="a" Kind="MatchGroup" Name="MG_SDRAM_ADDRESS">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating MatchGroup: &quot;MG_SDRAM_ADDRESS&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="7" Kind="MatchGroup" Name="MG_SD_BUS">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating MatchGroup: &quot;MG_SD_BUS&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <GroupSummary ID="14" Name="NetGroups">
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="NAND_BUS" Notes="1" Other="0" Ref="5" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="NG1" Notes="1" Other="0" Ref="4" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="NG_BANK" Notes="1" Other="0" Ref="3" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="SDRAM_CTRLS" Notes="1" Other="0" Ref="2" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="SD_CARD" Notes="1" Other="0" Ref="1" Reference="0"/>
+    </GroupSummary>
+    <ObjectSummary ID="5" Kind="NetGroup" Name="NAND_BUS">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating NetGroup: &quot;NAND_BUS&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="4" Kind="NetGroup" Name="NG1">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating NetGroup: &quot;NG1&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="3" Kind="NetGroup" Name="NG_BANK">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating NetGroup: &quot;NG_BANK&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="2" Kind="NetGroup" Name="SDRAM_CTRLS">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating NetGroup: &quot;SDRAM_CTRLS&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="1" Kind="NetGroup" Name="SD_CARD">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating NetGroup: &quot;SD_CARD&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+  </Summaries>
+
+  <Notes>
+    <Note Ref="1" Text="Not creating NetGroup: &quot;SD_CARD&quot;. Preserving deletion. (NetGroup SD_CARD)" Type="Warning"/>
+    <Note Ref="2" Text="Not creating NetGroup: &quot;SDRAM_CTRLS&quot;. Preserving deletion. (NetGroup SDRAM_CTRLS)" Type="Warning"/>
+    <Note Ref="3" Text="Not creating NetGroup: &quot;NG_BANK&quot;. Preserving deletion. (NetGroup NG_BANK)" Type="Warning"/>
+    <Note Ref="4" Text="Not creating NetGroup: &quot;NG1&quot;. Preserving deletion. (NetGroup NG1)" Type="Warning"/>
+    <Note Ref="5" Text="Not creating NetGroup: &quot;NAND_BUS&quot;. Preserving deletion. (NetGroup NAND_BUS)" Type="Warning"/>
+    <Note Ref="6" Text="Not creating MatchGroup: &quot;MG12&quot;. Preserving deletion. (MatchGroup MG12)" Type="Warning"/>
+    <Note Ref="7" Text="Not creating MatchGroup: &quot;MG_SD_BUS&quot;. Preserving deletion. (MatchGroup MG_SD_BUS)" Type="Warning"/>
+    <Note Ref="8" Text="Not creating MatchGroup: &quot;MG10&quot;. Preserving deletion. (MatchGroup MG10)" Type="Warning"/>
+    <Note Ref="9" Text="Not creating MatchGroup: &quot;MG_DATA8-15&quot;. Preserving deletion. (MatchGroup MG_DATA8-15)" Type="Warning"/>
+    <Note Ref="a" Text="Not creating MatchGroup: &quot;MG_SDRAM_ADDRESS&quot;. Preserving deletion. (MatchGroup MG_SDRAM_ADDRESS)" Type="Warning"/>
+    <Note Ref="b" Text="Not creating MatchGroup: &quot;MG4&quot;. Preserving deletion. (MatchGroup MG4)" Type="Warning"/>
+    <Note Ref="c" Text="Not creating MatchGroup: &quot;MG_I2S&quot;. Preserving deletion. (MatchGroup MG_I2S)" Type="Warning"/>
+    <Note Ref="d" Text="Not creating MatchGroup: &quot;MG11&quot;. Preserving deletion. (MatchGroup MG11)" Type="Warning"/>
+    <Note Ref="e" Text="Not creating MatchGroup: &quot;MG5&quot;. Preserving deletion. (MatchGroup MG5)" Type="Warning"/>
+    <Note Ref="f" Text="Not creating MatchGroup: &quot;MG9&quot;. Preserving deletion. (MatchGroup MG9)" Type="Warning"/>
+    <Note Ref="10" Text="Not creating MatchGroup: &quot;MG8&quot;. Preserving deletion. (MatchGroup MG8)" Type="Warning"/>
+    <Note Ref="11" Text="Not creating MatchGroup: &quot;MG6&quot;. Preserving deletion. (MatchGroup MG6)" Type="Warning"/>
+    <Note Ref="12" Text="Not creating MatchGroup: &quot;MG_DATA0-7&quot;. Preserving deletion. (MatchGroup MG_DATA0-7)" Type="Warning"/>
+  </Notes>
+
+  <Layers>
+    <Layer Name="TOP" Type="Conductor"/>
+    <Layer Name="GND-L2" Type="Conductor"/>
+    <Layer Name="SIGNAL-L3" Type="Conductor"/>
+    <Layer Name="SIGNAL-L4" Type="Conductor"/>
+    <Layer Name="GND-L5" Type="Conductor"/>
+    <Layer Name="PWR-L6" Type="Conductor"/>
+    <Layer Name="SIGNAL-L7" Type="Conductor"/>
+    <Layer Name="SIGNAL-L8" Type="Conductor"/>
+    <Layer Name="GND-L9" Type="Conductor"/>
+    <Layer Name="BOTTOM" Type="Conductor"/>
+  </Layers>
+
+  <GenericLayers>
+    <Layer Name="Conductor"/>
+  </GenericLayers>
+
+</ConstraintDifferenceReport>

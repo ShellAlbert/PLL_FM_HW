@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : MCU-V4.brd                                    )
 (    Software Version : 17.4S017                                      )
-(    Date/Time        : Fri Nov 19 10:40:07 2021                      )
+(    Date/Time        : Fri Nov 19 10:40:21 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -32,12 +32,4 @@ WARNING: The following vias/pins have connections using non-plated padstacks
   TP2.1           THR_CIR_3D8X3D2_NP                       (7.1000 -7.1000)
 
 
-Number of Xnets before update: 27        after update: 27
-Number of Diff Pairs before update: 0   after update: 0
-
-Regenerating DRC
-  Original DRC errors:   70
-  Updated DRC errors:    70
-  DRC elapsed time:      00:00:01
-
-3 warnings, 0 errors detected, 0 errors  fixed.
+3 warnings, 0 errors detected, 0 errors could be fixed.

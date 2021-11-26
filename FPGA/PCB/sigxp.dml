@@ -1,0 +1,126 @@
+("sigxp.dml" 
+ (IbisIOCell 
+  (CDSDefaultIO_2p5v 
+   (Technology CMOS ) 
+   (Model 
+    (ModelType "I/O" ) 
+    (Polarity "Non-Inverting" ) 
+    (Enable "Active-High" ) 
+    (C_comp 
+     (typical 3p ) 
+     (minimum 2p ) 
+     (maximum 4p ) ) ) 
+   (Ramp 
+    (Rise 
+     (minimum 
+      (dV 1.35 ) 
+      (dt "0.405n" ) ) 
+     (typical 
+      (dV 1.5 ) 
+      (dt "0.3n" ) ) 
+     (maximum 
+      (dV 1.65 ) 
+      (dt "0.264n" ) ) ) 
+    (Fall 
+     (minimum 
+      (dV 1.35 ) 
+      (dt "0.405n" ) ) 
+     (typical 
+      (dV 1.5 ) 
+      (dt "0.3n" ) ) 
+     (maximum 
+      (dV 1.65 ) 
+      (dt "0.264n" ) ) ) ) 
+   (LogicThresholds 
+    (Input 
+     (High 
+      (minimum 1.7 ) 
+      (maximum 1.7 ) 
+      (typical 1.7 ) ) 
+     (Low 
+      (minimum 0.7 ) 
+      (maximum 0.7 ) 
+      (typical 0.7 ) ) ) ) 
+   (DelayMeasurementFixture 
+    (C 10p ) 
+    (R 500 ) 
+    (V 0 ) 
+    (Threshold 
+     (minimum 1.25 ) 
+     (maximum 1.25 ) 
+     (typical 1.25 ) ) ) 
+   (VIReferenceTemperature 
+    (minimum 10 ) 
+    (typical 50 ) 
+    (maximum 100 ) ) 
+   (PullDown 
+    (ReferenceVoltage 
+     (minimum 0 ) 
+     (typical 0 ) 
+     (maximum 0 ) ) 
+    (VICurve "	  -3.0 -197.0ma -191.0ma -202.0ma
+	  -2.0 -188ma   -183ma   -193ma
+	  -1.0  -70ma    -65ma    -75ma
+	   0.0    0ma      0ma      0ma
+	   0.5   70ma     65ma     75ma
+	   1.0  127ma    122ma    132ma
+	   1.5  164ma    159ma    169ma
+	   2.0  188ma    183ma    193ma
+	   2.5  203ma    200ma    208ma
+	   3.0  207ma    202ma    212ma
+	   3.5  210ma    205ma    215ma
+	   4.0  212ma    207ma    217ma
+	   4.5  214ma    209ma    219ma
+	   5.0  215ma    210ma    220ma" ) ) 
+   (PullUp 
+    (ReferenceVoltage 
+     (minimum 2.25 ) 
+     (typical 2.5 ) 
+     (maximum 2.75 ) ) 
+    (VICurve "-3.0	0.118	0.113	0.123
+-2.5	0.113	0.098	0.113
+-2.0	0.098	0.093	0.103
+-1.0	0.064	0.059	0.069
+0.0	0.0	0.0	0.0
+0.5	-0.038	-0.033	-0.043
+1.0	-0.064	-0.059	-0.069
+1.5	-0.083	-0.078	-0.088
+2.0	-0.098	-0.093	-0.103
+2.5	-0.11	      -0.105	-0.115
+3.0   -0.118      -0.113      -0.123
+3.5   -0.123      -0.118      -0.128
+4.0   -0.128      -0.123      -0.133
+4.5   -0.133      -0.128      -0.138
+5.0   -0.137      -0.132      -0.142
+" ) ) 
+   (GroundClamp 
+    (ReferenceVoltage 
+     (minimum 0 ) 
+     (typical 0 ) 
+     (maximum 0 ) ) 
+    (VICurve "-2.5	-0.125	-0.125	-0.125
+-1.0	-0.025	-0.025	-0.025
+-0.9	-0.013	-0.013	-0.013
+-0.8	-0.006	-0.006	-0.006
+-0.7	-0.0024	-0.0024	-0.0024
+-0.6	-0.0012	-0.0012	-0.0012
+-0.5	-0.0005	-0.0005	-0.0005
+-0.4	-0.0001	-0.0001	-0.0001
+-0.1	0.0	0.0	0.0
+0.0	0.0	0.0	0.0" ) ) 
+   (PowerClamp 
+    (ReferenceVoltage 
+     (minimum 2.25 ) 
+     (typical 2.5 ) 
+     (maximum 2.75 ) ) 
+    (VICurve "-2.5	0.125	0.125	0.125
+-1.0	0.025	0.025	0.025
+-0.9	0.013	0.013	0.013
+-0.8	0.006	0.006	0.006
+-0.7	0.0024	0.0024	0.0024
+-0.6	0.0012	0.0012	0.0012
+-0.5	0.0006	0.0006	0.0006
+-0.4	0.0001	0.0001	0.0001
+-0.1	0.0	0.0	0.0
+0.0	0.0	0.0	0.0" ) ) ) ) 
+ (LibraryVersion 136.2 ) ) 

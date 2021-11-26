@@ -1,35 +1,186 @@
-\t (00:00:02) allegro 17.4 S017 Windows SPB 64-bit Edition
-\t (00:00:02)     Journal start - Mon Nov 22 16:30:24 2021
-\t (00:00:02)         Host=BF-202007251750 User=Administrator Pid=12976 CPUs=16
-\t (00:00:02) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
-\t (00:00:02) 
-   (00:00:02) Loading axlcore.cxt 
-\t (00:00:05) Opening existing design...
-\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "MCU-V4"
-\d (00:00:05) Design opened: G:/github/PLL_FM_HW/MCU/PCB/MCU-V4.brd
-\i (00:00:05) trapsize 10799
-\i (00:00:05) trapsize 11122
-\i (00:00:05) trapsize 11208
-\i (00:00:05) trapsize 8935
-\i (00:00:05) trapsize 9159
-\i (00:00:06) generaledit 
-\i (00:00:44) ncdrill customization 
-\i (00:00:44) generaledit 
-\i (00:00:48) zoom in 1 
-\i (00:00:48) setwindow pcb
-\i (00:00:48) zoom in 119.8078 -27.1078
-\i (00:00:48) trapsize 4579
-\i (00:00:48) zoom in 1 
-\i (00:00:48) setwindow pcb
-\i (00:00:48) zoom in 119.6246 -26.8330
-\i (00:00:48) trapsize 2290
-\i (00:00:49) zoom out 1 
-\i (00:00:49) setwindow pcb
-\i (00:00:49) zoom out 83.9511 -25.2302
-\i (00:00:49) trapsize 4579
-\i (00:00:49) zoom out 1 
-\i (00:00:49) setwindow pcb
-\i (00:00:49) zoom out 83.9512 -25.2302
-\i (00:00:49) trapsize 9159
-\i (00:01:53) exit 
-\t (00:01:56)     Journal end - Mon Nov 22 16:32:19 2021
+\t (00:36:57) allegro 17.4 S017 Windows SPB 64-bit Edition
+\t (00:36:57)     Journal start - Fri Nov 26 09:13:50 2021
+\t (00:36:57)         Host=BF-202007251750 User=Administrator Pid=7668 CPUs=16
+\t (00:36:57) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (00:36:57) 
+\d (00:36:57) Design opened: G:/github/PLL_FM_HW/MCU/PCB/MCU-V4.brd
+\i (00:36:57) placementedit 
+\i (00:36:58) zoom out 1 
+\i (00:36:58) setwindow pcb
+\i (00:36:58) zoom out 8.2676 -29.0198
+\i (00:36:58) trapsize 2234
+\i (00:36:58) zoom out 1 
+\i (00:36:58) setwindow pcb
+\i (00:36:58) zoom out 8.2674 -29.0198
+\i (00:36:58) trapsize 4467
+\i (00:36:59) zoom out 1 
+\i (00:36:59) setwindow pcb
+\i (00:36:59) zoom out 8.2675 -29.1984
+\i (00:36:59) trapsize 8935
+\i (00:37:08) ncdrill customization 
+\i (00:37:08) placementedit 
+\i (00:37:10) setwindow form.nc_drillcustomization
+\i (00:37:10) FORM nc_drillcustomization auto_symbols  
+\i (00:37:11) fillin yes 
+\i (00:37:12) FORM nc_drillcustomization done  
+\i (00:37:13) fillin yes 
+\i (00:37:14) setwindow pcb
+\i (00:37:14) zoom in 1 
+\i (00:37:14) setwindow pcb
+\i (00:37:14) zoom in 37.9310 -66.7247
+\i (00:37:14) trapsize 4467
+\i (00:37:14) zoom in 1 
+\i (00:37:14) setwindow pcb
+\i (00:37:14) zoom in 38.1991 -65.2057
+\i (00:37:14) trapsize 2234
+\i (00:37:14) zoom in 1 
+\i (00:37:14) setwindow pcb
+\i (00:37:14) zoom in 38.6012 -63.9548
+\i (00:37:14) trapsize 1117
+\i (00:37:15) zoom in 1 
+\i (00:37:15) setwindow pcb
+\i (00:37:15) zoom in 38.8469 -62.8379
+\i (00:37:15) trapsize 558
+\i (00:37:16) zoom out 1 
+\i (00:37:16) setwindow pcb
+\i (00:37:16) zoom out 38.4672 -62.7597
+\i (00:37:16) trapsize 1117
+\i (00:37:16) zoom out 1 
+\i (00:37:16) setwindow pcb
+\i (00:37:16) zoom out 38.4672 -62.7598
+\i (00:37:16) trapsize 2234
+\i (00:37:16) zoom out 1 
+\i (00:37:16) setwindow pcb
+\i (00:37:16) zoom out 38.4671 -62.7597
+\i (00:37:16) trapsize 4467
+\i (00:37:23) ncdrill legend 
+   (00:37:23) Loading mfg.cxt 
+\i (00:37:24) setwindow form.nc_drilllegend
+\i (00:37:24) FORM nc_drilllegend done  
+\i (00:37:24) setwindow pcb
+\i (00:37:24) zoom out 1 
+\i (00:37:24) setwindow pcb
+\i (00:37:24) zoom out 19.4360 -67.4058
+\i (00:37:24) trapsize 8935
+\i (00:37:27) pick grid 64.8248 -16.6562
+\t (00:37:27) last pick:  64.8000 -16.7000
+\t (00:37:27) NC Drill Legend generation successful
+\i (00:37:27) placementedit 
+\i (00:37:29) save 
+\i (00:37:30) fillin yes 
+\i (00:37:30) placementedit 
+\i (00:37:34) artwork 
+\i (00:37:35) setwindow form.film_control
+\i (00:37:35) FORM film_control filmtree  DIMENSION 
+\i (00:37:36) FORM film_control filmtree popup 'Display for Visibility' DIMENSION 
+\i (00:37:37) setwindow pcb
+\i (00:37:37) zoom in 1 
+\i (00:37:37) setwindow pcb
+\i (00:37:37) zoom in 40.7008 -59.1859
+\i (00:37:37) trapsize 4467
+\i (00:37:37) zoom in 1 
+\i (00:37:37) setwindow pcb
+\i (00:37:37) zoom in 40.4328 -60.1687
+\i (00:37:37) trapsize 2234
+\i (00:37:37) zoom in 1 
+\i (00:37:37) setwindow pcb
+\i (00:37:37) zoom in 40.4328 -60.2134
+\i (00:37:37) trapsize 1117
+\i (00:37:38) zoom in 1 
+\i (00:37:38) setwindow pcb
+\i (00:37:38) zoom in 39.2936 -62.2237
+\i (00:37:38) trapsize 558
+\i (00:37:38) zoom in 1 
+\i (00:37:38) setwindow pcb
+\i (00:37:38) zoom in 39.2937 -62.2236
+\i (00:37:38) trapsize 279
+\i (00:37:38) zoom in 1 
+\i (00:37:38) setwindow pcb
+\i (00:37:38) zoom in 39.2937 -62.2236
+\i (00:37:38) trapsize 140
+\i (00:37:38) zoom out 1 
+\i (00:37:38) setwindow pcb
+\i (00:37:38) zoom out 38.9531 -61.8746
+\i (00:37:38) trapsize 279
+\i (00:37:38) zoom out 1 
+\i (00:37:38) setwindow pcb
+\i (00:37:38) zoom out 38.9419 -61.8634
+\i (00:37:38) trapsize 558
+\i (00:37:38) zoom out 1 
+\i (00:37:38) setwindow pcb
+\i (00:37:38) zoom out 38.9307 -61.8522
+\i (00:37:38) trapsize 1117
+\i (00:37:38) zoom out 1 
+\i (00:37:38) setwindow pcb
+\i (00:37:38) zoom out 38.8860 -61.8521
+\i (00:37:38) trapsize 2234
+\i (00:37:38) zoom out 1 
+\i (00:37:38) setwindow pcb
+\i (00:37:38) zoom out 38.8860 -61.8075
+\i (00:37:38) trapsize 4467
+\i (00:37:39) setwindow form.film_control
+\i (00:37:39) FORM film_control ok  
+\i (00:37:39) setwindow pcb
+\i (00:37:39) placementedit 
+\i (00:37:40) zoom in 1 
+\i (00:37:40) setwindow pcb
+\i (00:37:40) zoom in 77.7523 -45.0100
+\i (00:37:40) trapsize 2234
+\i (00:37:41) zoom out 1 
+\i (00:37:41) setwindow pcb
+\i (00:37:41) zoom out 74.9826 -51.3090
+\i (00:37:41) trapsize 4467
+\i (00:37:41) zoom out 1 
+\i (00:37:41) setwindow pcb
+\i (00:37:41) zoom out 77.1269 -51.6664
+\i (00:37:41) trapsize 8935
+\i (00:37:41) zoom out 1 
+\i (00:37:41) setwindow pcb
+\i (00:37:41) zoom out 77.1269 -51.6663
+\i (00:37:41) trapsize 17870
+\i (00:37:42) zoom in 1 
+\i (00:37:42) setwindow pcb
+\i (00:37:42) zoom in 99.2853 -62.0307
+\i (00:37:42) trapsize 8935
+\i (00:37:43) save 
+\i (00:37:44) fillin yes 
+\i (00:37:45) placementedit 
+\i (00:37:45) zoom out 1 
+\i (00:37:45) setwindow pcb
+\i (00:37:45) zoom out 92.3161 -67.5703
+\i (00:37:45) trapsize 17870
+\i (00:37:51) artwork 
+\i (00:37:52) setwindow form.film_control
+\i (00:37:52) FORM film_control select_all  
+\i (00:37:53) FORM film_control create  
+\i (00:37:54) fillin yes 
+\t (00:37:54) Checking db records
+\t (00:37:54)     checking for orphans...
+\t (00:37:54)     Checked  20 percent
+\t (00:37:54)     Checked  40 percent
+\t (00:37:54)     Checked  60 percent
+\t (00:37:54)     Checked  80 percent
+\t (00:37:54)     Checked 100 percent
+\w (00:37:54) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:37:54) Done dbdoctor.
+\t (00:37:54) Starting Create artwork films...
+\w (00:37:56) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:37:57) Artwork generated with warnings.
+\i (00:38:05) setwindow text
+\i (00:38:05) close
+\i (00:38:07) setwindow form.film_control
+\i (00:38:07) FORM film_control ok  
+\i (00:38:07) setwindow pcb
+\i (00:38:07) placementedit 
+\i (00:38:12) nctape_full 
+\i (00:38:14) setwindow form.nc_drill
+\i (00:38:14) FORM nc_drill execute  
+\t (00:38:14) Starting Generating NC Drill...
+\i (00:38:18) setwindow pcb
+\i (00:38:18) save 
+\i (00:38:19) fillin yes 
+   (00:38:19) Loading signal.cxt 
+\i (00:38:19) placementedit 
+\i (00:38:21) exit 
+\t (00:38:24)     Journal end - Fri Nov 26 09:15:16 2021

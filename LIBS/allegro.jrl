@@ -1,43 +1,106 @@
-\t (00:04:03) allegro 17.4 S017 Windows SPB 64-bit Edition
-\t (00:04:03)     Journal start - Fri Nov 19 10:51:09 2021
-\t (00:04:03)         Host=BF-202007251750 User=Administrator Pid=3668 CPUs=16
-\t (00:04:03) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
-\t (00:04:03) 
-\d (00:04:03) Design opened: G:/github/PLL_FM_HW/LIBS/DF1006.dra
-\i (00:04:03) trapsize 732
-\i (00:04:03) generaledit 
-\i (00:04:04) zoom in 1 
-\i (00:04:04) setwindow pcb
-\i (00:04:04) zoom in 0.8876 0.2052
-\i (00:04:04) trapsize 366
-\i (00:04:04) zoom in 1 
-\i (00:04:04) setwindow pcb
-\i (00:04:04) zoom in 0.8949 0.1979
-\i (00:04:04) trapsize 183
-\i (00:04:04) zoom in 1 
-\i (00:04:04) setwindow pcb
-\i (00:04:04) zoom in 0.7485 0.2601
-\i (00:04:04) trapsize 91
-\i (00:04:06) zoom out 1 
-\i (00:04:06) setwindow pcb
-\i (00:04:06) zoom out 0.5308 0.3937
-\i (00:04:06) trapsize 183
-\i (00:04:07) zoom in 1 
-\i (00:04:07) setwindow pcb
-\i (00:04:07) zoom in 0.5491 0.3387
-\i (00:04:07) trapsize 91
-\i (00:04:10) zoom out 1 
-\i (00:04:10) setwindow pcb
-\i (00:04:10) zoom out 0.5181 0.5089
-\i (00:04:10) trapsize 183
-\i (00:04:14) zoom out 1 
-\i (00:04:14) setwindow pcb
-\i (00:04:14) zoom out 0.6059 0.4649
-\i (00:04:14) trapsize 366
-\i (00:04:48) opencd G:/github/PLL_FM_HW/MCU/PCB/MCU-V4.brd 
-\t (00:04:48) Opening existing design...
-\i (00:04:48) trapsize 1716
-\i (00:04:48) trapsize 1771
-\i (00:04:48) trapsize 1786
-\i (00:04:48) trapsize 1786
-\t (00:04:48)     Journal end - Fri Nov 19 10:51:55 2021
+\t (01:20:57) allegro 17.4 S017 Windows SPB 64-bit Edition
+\t (01:20:57)     Journal start - Thu Nov 25 10:01:29 2021
+\t (01:20:57)         Host=BF-202007251750 User=Administrator Pid=9196 CPUs=16
+\t (01:20:57) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (01:20:57) 
+\d (01:20:57) Design opened: G:/github/PLL_FM_HW/LIBS/SMA.dra
+\i (01:20:57) trapsize 550
+\i (01:21:49) zoom in 1 
+\i (01:21:49) setwindow pcb
+\i (01:21:49) zoom in -1.3616 0.4330
+\i (01:21:49) trapsize 275
+\i (01:21:49) zoom in 1 
+\i (01:21:49) setwindow pcb
+\i (01:21:49) zoom in -1.3615 0.4330
+\i (01:21:49) trapsize 138
+\i (01:21:50) zoom out 1 
+\i (01:21:50) setwindow pcb
+\i (01:21:50) zoom out -0.0982 0.3394
+\i (01:21:50) trapsize 275
+\i (01:21:51) zoom out 1 
+\i (01:21:51) setwindow pcb
+\i (01:21:51) zoom out 0.4275 0.8734
+\i (01:21:51) trapsize 550
+\e (01:22:33) Command not found: xhilite
+\i (01:22:33) xname_flush 
+\e (01:22:33) No command active
+\i (01:22:33) done 
+\e (01:22:33) No command active
+\e (01:22:39) Command not found: xhilite
+\i (01:22:39) xname_flush 
+\e (01:22:39) No command active
+\i (01:22:39) done 
+\e (01:22:39) No command active
+\e (01:22:40) Command not found: xdehilite
+\i (01:22:40) xname_flush 
+\e (01:22:40) No command active
+\i (01:22:40) done 
+\e (01:22:40) No command active
+\e (01:22:43) Command not found: xhilite
+\i (01:22:43) xname_flush 
+\e (01:22:43) No command active
+\i (01:22:43) done 
+\e (01:22:43) No command active
+\e (01:22:43) Command not found: xdehilite
+\i (01:22:43) xname_flush 
+\e (01:22:43) No command active
+\i (01:22:43) done 
+\e (01:22:43) No command active
+\e (01:22:45) Command not found: xhilite
+\i (01:22:45) xname_flush 
+\e (01:22:45) No command active
+\i (01:22:45) done 
+\e (01:22:45) No command active
+\e (01:22:46) Command not found: xdehilite
+\i (01:22:46) xname_flush 
+\e (01:22:46) No command active
+\i (01:22:46) done 
+\e (01:22:46) No command active
+\e (01:22:50) Command not found: xhilite
+\i (01:22:50) xname_flush 
+\e (01:22:50) No command active
+\i (01:22:50) done 
+\e (01:22:50) No command active
+\e (01:22:51) Command not found: xdehilite
+\i (01:22:51) xname_flush 
+\e (01:22:51) No command active
+\i (01:22:51) done 
+\e (01:22:51) No command active
+\e (01:22:52) Command not found: xhilite
+\i (01:22:52) xname_flush 
+\e (01:22:52) No command active
+\i (01:22:52) done 
+\e (01:22:52) No command active
+\e (01:22:52) Command not found: xdehilite
+\i (01:22:52) xname_flush 
+\e (01:22:52) No command active
+\i (01:22:52) done 
+\e (01:22:52) No command active
+\e (01:22:53) Command not found: xhilite
+\i (01:22:53) xname_flush 
+\e (01:22:53) No command active
+\i (01:22:53) done 
+\e (01:22:53) No command active
+\e (01:22:53) Command not found: xdehilite
+\i (01:22:53) xname_flush 
+\e (01:22:53) No command active
+\i (01:22:53) done 
+\e (01:22:53) No command active
+\e (01:22:54) Command not found: xhilite
+\i (01:22:54) xname_flush 
+\e (01:22:54) No command active
+\i (01:22:54) done 
+\e (01:22:54) No command active
+\e (01:22:54) Command not found: xdehilite
+\i (01:22:54) xname_flush 
+\e (01:22:54) No command active
+\i (01:22:54) done 
+\e (01:22:54) No command active
+\i (01:25:08) opencd G:/github/PLL_FM_HW/FPGA/PCB/FPGA-V3.brd 
+\t (01:25:09) Opening existing design...
+\i (01:25:09) trapsize 1703
+\i (01:25:09) trapsize 1758
+\i (01:25:09) trapsize 1773
+\i (01:25:09) trapsize 1309
+\i (01:25:09) trapsize 1309
+\t (01:25:09)     Journal end - Thu Nov 25 10:05:41 2021

@@ -1,0 +1,110 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : FPGA-V3.brd                                   )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Thu Nov 25 17:29:48 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'G:/github/PLL_FM_HW/FPGA/Schematic/NETLIST'
+Design Directory:            'G:/github/PLL_FM_HW/FPGA/PCB'
+Old design name:             'G:/github/PLL_FM_HW/FPGA/PCB/FPGA-V3.brd'
+New design name:             'G:/github/PLL_FM_HW/FPGA/PCB/FPGA-V3.brd'
+
+CmdLine: netrev -$ -i G:/github/PLL_FM_HW/FPGA/Schematic/NETLIST -y 1 -h -q netrev_constraint_report.xml G:/github/PLL_FM_HW/FPGA/PCB/#Taaadjr09196.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read G:/github/PLL_FM_HW/FPGA/Schematic/NETLIST/pstchip.dat 
+   Finished reading G:/github/PLL_FM_HW/FPGA/Schematic/NETLIST/pstchip.dat (00:00:00.30)
+Starting to read G:/github/PLL_FM_HW/FPGA/Schematic/NETLIST/pstxprt.dat 
+   Finished reading G:/github/PLL_FM_HW/FPGA/Schematic/NETLIST/pstxprt.dat (00:00:00.00)
+Starting to read G:/github/PLL_FM_HW/FPGA/Schematic/NETLIST/pstxnet.dat 
+   Finished reading G:/github/PLL_FM_HW/FPGA/Schematic/NETLIST/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+
+
+===========================================================
+Start Constraint Diff3 Import
+	Constraint File:    G:/github/PLL_FM_HW/FPGA/Schematic/NETLIST/pstcmdb.dat
+	Allegro Baseline:   C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaaaf11612.tmp
+	Start time: Thu Nov 25 17:29:49 2021
+===========================================================
+
+
+The constraint difference report file can be viewed using the following command:
+cdnFlowOOSMsg.exe -file file:///G:/github/PLL_FM_HW/FPGA/PCB/netrev_constraint_report.xml
+
+===========================================================
+Finished Constraint Update	Time: Thu Nov 25 17:29:49 2021
+===========================================================
+
+------ Library Paths ------
+MODULEPATH =  . 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/local/pcb/symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/pcb_lib/symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/allegrolib/symbols 
+           G:/github/PLL_FM_HW/LIBS 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/local/pcb/padstacks 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/pcb_lib/symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/allegrolib/symbols 
+           G:/github/PLL_FM_HW/LIBS/via 
+           G:/github/PLL_FM_HW/LIBS 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Nov 25 17:29:48 2021
+   DESIGN NAME : 'MINIFMDEMOD'
+   PACKAGING ON Apr 19 2021 16:22:31
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:01:46
+elapsed time  0:00:01
+

@@ -1,0 +1,498 @@
+# 
+# ===============================================================================
+#                               Allegro PCB Router                               
+# Copyright 1990-2010 Cadence Design Systems, Inc.  All Rights Reserved.
+# ===============================================================================
+# 
+# Software licensed for sale by Cadence Design Systems, Inc.
+# Current time = Wed Nov 24 14:07:45 2021
+# 
+# Allegro PCB Router v17-4-0 made 2021/02/21 at 12:48:59
+# Running on: bf-202007251750, OS Version: WindowsNT 6.2.9200, Architecture: Intel Pentium II, III, or 4
+# Licensing: The program will not obey any unlicensed rules
+# No graphics will be displayed.
+# Design Name G:/github/PLL_FM_HW/FPGA/PCB\FPGA-V3.dsn
+# Batch File Name: pasde.do
+# Did File Name: G:/github/PLL_FM_HW/FPGA/PCB/specctra.did
+# Current time = Wed Nov 24 14:07:45 2021
+# PCB G:/github/PLL_FM_HW/FPGA/PCB
+# Master Unit set up as: MM 100000
+# PCB Limits xlo= -2.8000 ylo=-73.5000 xhi= 58.8000 yhi=  3.5000
+# Total 480 Images Consolidated.
+# Via 'VIA03015-GND-L5-PWR-L6' z=5, 6 xlo= -0.1500 ylo= -0.1500 xhi=  0.1500 yhi=  0.1500
+# Via 'VIA03015-GND-L9-BOTTOM' z=9, 10 xlo= -0.1500 ylo= -0.1500 xhi=  0.1500 yhi=  0.1500
+# Via 'VIA03015-SIGNAL-L3-SIGNAL-L4' z=3, 4 xlo= -0.1500 ylo= -0.1500 xhi=  0.1500 yhi=  0.1500
+# Via 'VIA03015-SIGNAL-L7-SIGNAL-L8' z=7, 8 xlo= -0.1500 ylo= -0.1500 xhi=  0.1500 yhi=  0.1500
+# Via 'VIA03015-TOP-BOTTOM' z=1, 10 xlo= -0.1500 ylo= -0.1500 xhi=  0.1500 yhi=  0.1500
+# Via 'VIA03015-TOP-GND-L2' z=1, 2 xlo= -0.1500 ylo= -0.1500 xhi=  0.1500 yhi=  0.1500
+# Via 'VIA0402-GND-L5-PWR-L6' z=5, 6 xlo= -0.2000 ylo= -0.2000 xhi=  0.2000 yhi=  0.2000
+# Via 'VIA0402-GND-L9-BOTTOM' z=9, 10 xlo= -0.2000 ylo= -0.2000 xhi=  0.2000 yhi=  0.2000
+# Via 'VIA0402-SIGNAL-L3-SIGNAL-L4' z=3, 4 xlo= -0.2000 ylo= -0.2000 xhi=  0.2000 yhi=  0.2000
+# Via 'VIA0402-SIGNAL-L7-SIGNAL-L8' z=7, 8 xlo= -0.2000 ylo= -0.2000 xhi=  0.2000 yhi=  0.2000
+# Via 'VIA0402-TOP-GND-L2' z=1, 2 xlo= -0.2000 ylo= -0.2000 xhi=  0.2000 yhi=  0.2000
+# Via VIA_0D3_0D15 z=1, 10 xlo= -0.1500 ylo= -0.1500 xhi=  0.1500 yhi=  0.1500
+# Via VIA_0D4_0D2 z=1, 10 xlo= -0.2000 ylo= -0.2000 xhi=  0.2000 yhi=  0.2000
+# 
+#         VIA                   TOP                        'GND-L2'                     'SIGNAL-L3'                     'SIGNAL-L4'                        'GND-L5'                        'PWR-L6'                     'SIGNAL-L7'                     'SIGNAL-L8'                        'GND-L9'                          BOTTOM          
+# 
+#         TOP  ------------------------------      'VIA03015-TOP-GND-L2'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'     
+#    'GND-L2'      'VIA03015-TOP-GND-L2'       ------------------------------      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'     
+# 'SIGNAL-L3'      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'       ------------------------------  'VIA03015-SIGNAL-L3-SIGNAL-L4'      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'     
+# 'SIGNAL-L4'      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'       'VIA03015-SIGNAL-L3-SIGNAL-L4'  ------------------------------      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'     
+#    'GND-L5'      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'       ------------------------------     'VIA03015-GND-L5-PWR-L6'         'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'     
+#    'PWR-L6'      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'          'VIA03015-GND-L5-PWR-L6'     ------------------------------      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'     
+# 'SIGNAL-L7'      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'       ------------------------------  'VIA03015-SIGNAL-L7-SIGNAL-L8'      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'     
+# 'SIGNAL-L8'      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'       'VIA03015-SIGNAL-L7-SIGNAL-L8'  ------------------------------      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'     
+#    'GND-L9'      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'       ------------------------------     'VIA03015-GND-L9-BOTTOM'   
+#      BOTTOM      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'          'VIA03015-GND-L9-BOTTOM'     ------------------------------
+# 
+# <<WARNING:>> Net GND is defined as a signal net and contains 410 pins.
+# This is more pins than most signal nets contain.
+# Please verify whether net GND should be a signal net or a power net.
+# Note that a signal net will be routed as starburst or daisy chain.
+# <<WARNING:>> Net VCCIO_3V3 is defined as a signal net and contains 106 pins.
+# This is more pins than most signal nets contain.
+# Please verify whether net VCCIO_3V3 should be a signal net or a power net.
+# Note that a signal net will be routed as starburst or daisy chain.
+# <<WARNING:>> Potential non fixed positive shape alignment with the host CAD system exists.
+#              Allegro PCB Router does not perform any operations to remove or identify slivers and isolations.
+#              If the host CAD system performs such an operation, the user may experience unrouted
+#              or DRC alignment issues.
+#              The user must perform final unrouted/DRC validation within the host CAD system.
+# Wires Processed 493, Vias Processed 167
+# Using colormap in design file.
+# Layers Processed: Signal Layers 10
+# Components Placed 502, Images Processed 533, Padstacks Processed 78
+# Nets Processed 227, Net Terminals 1559
+# PCB Area= 3920.000  EIC=115  Area/EIC= 34.087  SMDs=499
+# Total Pin Count: 1623
+# Signal Connections Created 900
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'GND-L2' Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'SIGNAL-L3' Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'SIGNAL-L4' Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'GND-L5' Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'PWR-L6' Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'SIGNAL-L7' Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'SIGNAL-L8' Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'GND-L9' Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- G:/github/PLL_FM_HW/FPGA/PCB\FPGA-V3.dsn
+# Nets 227 Connections 1164 Unroutes 900
+# Signal Layers 10 Power Layers 0
+# Wire Junctions 60, at vias 41 Total Vias 167
+# Percent Connected   17.01
+# Manhattan Length 13413.4620 Horizontal 2734.8608 Vertical 10678.6012
+# Routed Length 2588.7515 Horizontal 1617.8941 Vertical 1292.6592
+# Ratio Actual / Manhattan   0.1930
+# Unconnected Length 12373.4011 Horizontal 2944.4462 Vertical 9428.9549
+# Total Conflicts: 33 (Cross: 0, Clear: 33, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# Loading Do File pasde.do ...
+# Loading Do File G:/github/PLL_FM_HW/FPGA/PCB\FPGA-V3_rules.do ...
+# <<WARNING:>> Could not form pair of nets 'CLK_AD-' and CLK_AD+.
+# <<WARNING:>> Could not form pair of nets 'CLKO-' and CLKO+.
+# Colormap Written to File _notify.std
+# Enter command <# Loading Do File C:/Users/ADMINI~1/AppData/Local/Temp/#Taaabjc09276.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+# Component U20 Selected.
+set route_diagonal 0
+grid wire 0.000100 (direction x) (offset 0.000000)
+grid wire 0.000100 (direction y) (offset 0.000000)
+grid via 0.000100 (direction x) (offset 0.000000)
+grid via 0.000100 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction 'GND-L2' vertical
+select layer 'GND-L2'
+unprotect layer_wires 'GND-L2'
+# Wires on layer 'GND-L2' were Unprotected.
+direction 'SIGNAL-L3' horizontal
+select layer 'SIGNAL-L3'
+unprotect layer_wires 'SIGNAL-L3'
+# Wires on layer 'SIGNAL-L3' were Unprotected.
+direction 'SIGNAL-L4' vertical
+select layer 'SIGNAL-L4'
+unprotect layer_wires 'SIGNAL-L4'
+# Wires on layer 'SIGNAL-L4' were Unprotected.
+direction 'GND-L5' horizontal
+select layer 'GND-L5'
+unprotect layer_wires 'GND-L5'
+# Wires on layer 'GND-L5' were Unprotected.
+direction 'PWR-L6' vertical
+select layer 'PWR-L6'
+unprotect layer_wires 'PWR-L6'
+# Wires on layer 'PWR-L6' were Unprotected.
+direction 'SIGNAL-L7' horizontal
+select layer 'SIGNAL-L7'
+unprotect layer_wires 'SIGNAL-L7'
+# Wires on layer 'SIGNAL-L7' were Unprotected.
+direction 'SIGNAL-L8' vertical
+select layer 'SIGNAL-L8'
+unprotect layer_wires 'SIGNAL-L8'
+# Wires on layer 'SIGNAL-L8' were Unprotected.
+direction 'GND-L9' horizontal
+select layer 'GND-L9'
+unprotect layer_wires 'GND-L9'
+# Wires on layer 'GND-L9' were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+fanout 1 (direction In_out) (location Anywhere) (smart_via_grid one_wire_between) (pin_type power) (pin_type signal) (pin_type single)
+# Fanout in any direction.
+# Fanout inside and outside component outline.
+# Fanout..Signal Nets.
+# Fanout..Power Nets.
+# Fanout..Single Pin Nets.
+# Current time = Wed Nov 24 14:08:36 2021
+# 
+#         VIA                   TOP                        'GND-L2'                     'SIGNAL-L3'                     'SIGNAL-L4'                        'GND-L5'                        'PWR-L6'                     'SIGNAL-L7'                     'SIGNAL-L8'                        'GND-L9'                          BOTTOM          
+# 
+#         TOP  ------------------------------      'VIA03015-TOP-GND-L2'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'     
+#    'GND-L2'      'VIA03015-TOP-GND-L2'       ------------------------------      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'     
+# 'SIGNAL-L3'      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'       ------------------------------  'VIA03015-SIGNAL-L3-SIGNAL-L4'      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'     
+# 'SIGNAL-L4'      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'       'VIA03015-SIGNAL-L3-SIGNAL-L4'  ------------------------------      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'     
+#    'GND-L5'      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'       ------------------------------     'VIA03015-GND-L5-PWR-L6'         'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'     
+#    'PWR-L6'      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'          'VIA03015-GND-L5-PWR-L6'     ------------------------------      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'     
+# 'SIGNAL-L7'      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'       ------------------------------  'VIA03015-SIGNAL-L7-SIGNAL-L8'      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'     
+# 'SIGNAL-L8'      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'       'VIA03015-SIGNAL-L7-SIGNAL-L8'  ------------------------------      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'     
+#    'GND-L9'      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'       ------------------------------     'VIA03015-GND-L9-BOTTOM'   
+#      BOTTOM      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'          'VIA03015-GND-L9-BOTTOM'     ------------------------------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.6540 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'GND-L2' Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'SIGNAL-L3' Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'SIGNAL-L4' Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'GND-L5' Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'PWR-L6' Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'SIGNAL-L7' Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'SIGNAL-L8' Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'GND-L9' Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# 
+# Wiring Statistics ----------------- G:/github/PLL_FM_HW/FPGA/PCB\FPGA-V3.dsn
+# Nets 227 Connections 1164 Unroutes 900
+# Signal Layers 10 Power Layers 0
+# Wire Junctions 60, at vias 41 Total Vias 167
+# Percent Connected   17.01
+# Manhattan Length 13413.4620 Horizontal 2734.8608 Vertical 10678.6012
+# Routed Length 2588.7515 Horizontal 1617.8941 Vertical 1292.6592
+# Ratio Actual / Manhattan   0.1930
+# Unconnected Length 12373.4011 Horizontal 2944.4462 Vertical 9428.9549
+# Start Fanout Pass 1 of 1
+# Attempts 337 Successes 145 Failures 192 Vias 332
+# 4 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 31 (Cross: 0, Clear: 31, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 1 of 1
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# 
+# Wiring Statistics ----------------- G:/github/PLL_FM_HW/FPGA/PCB\FPGA-V3.dsn
+# Nets 227 Connections 1164 Unroutes 900
+# Signal Layers 10 Power Layers 0
+# Wire Junctions 128, at vias 92 Total Vias 283
+# Percent Connected   17.35
+# Manhattan Length 13413.4620 Horizontal 2746.0581 Vertical 10667.4039
+# Routed Length 2922.2832 Horizontal 1810.4141 Vertical 1465.6712
+# Ratio Actual / Manhattan   0.2179
+# Unconnected Length 12513.4071 Horizontal 3029.3642 Vertical 9484.0429
+write routes (changed_only) (reset_changed) C:/Users/ADMINI~1/AppData/Local/Temp/#Taaabjd09276.tmp
+# <<WARNING:>> Non positive shape width (0) near the point 4050000/-1996000.
+# <<WARNING:>> Non positive shape width (0) near the point 4003000/-1654000.
+# <<WARNING:>> Non positive shape width (0) near the point 3020000/-1996000.
+# <<WARNING:>> Non positive shape width (0) near the point 2970500/-1654000.
+# <<WARNING:>> Non positive shape width (0) near the point 1820000/-1996000.
+# <<WARNING:>> Non positive shape width (0) near the point 1776000/-1654000.
+# <<WARNING:>> Non positive shape width (0) near the point 770000/-1996000.
+# <<WARNING:>> Non positive shape width (0) near the point 720000/-1654000.
+# <<WARNING:>> Non positive shape width (0) near the point 8480100/-15874400.
+# <<WARNING:>> Non positive shape width (0) near the point 4405000/-15874400.
+# <<WARNING:>> Number of warnings on non positive widths exceeded limit (10). No more messages will be printed.
+# Routing Written to File C:/Users/ADMINI~1/AppData/Local/Temp/#Taaabjd09276.tmp
+# Loading Do File C:/Users/ADMINI~1/AppData/Local/Temp/#Taaabjf09276.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+# Net NSTATUS Selected.
+# Net VCCINT_1V2 Selected.
+# Net IO8 Selected.
+# Net VDPL1 Selected.
+# Net VDPL3 Selected.
+# Net VDPL4 Selected.
+# Net VDPL2 Selected.
+# Net 2V5_FPGA_PWR Selected.
+# Net VBAT_IN Selected.
+# Net 1V2_FPGA_PWR Selected.
+# Net 5V_FPGA_PWR Selected.
+# Net 3V3_FPGA_PWR Selected.
+# Net LED3 Selected.
+# Net MSEL3 Selected.
+# Net IO5 Selected.
+# Net IO2 Selected.
+# Net IO3 Selected.
+# Net IO4 Selected.
+# Net IO6 Selected.
+# Net MSEL1 Selected.
+# Net MSEL2 Selected.
+# Net MSEL0 Selected.
+# Net AD_RAND Selected.
+# Net N7538451 Selected.
+# Net AD13 Selected.
+# Net TMS Selected.
+# Net TDI Selected.
+# Net 'CLK_AD-' Selected.
+# Net N7467286 Selected.
+# Net CLK_AD+ Selected.
+# Net TCK Selected.
+# Net LED2 Selected.
+# Net TDO Selected.
+# Net LED1 Selected.
+# Net AD15 Selected.
+# Net AD5 Selected.
+# Net AD8 Selected.
+# Net AD10 Selected.
+# Net AD11 Selected.
+# Net AD9 Selected.
+# Net AD7 Selected.
+# Net VCCA_2V5 Selected.
+# Net AD3 Selected.
+# Net AD4 Selected.
+# Net AD1 Selected.
+# Net AD2 Selected.
+# Net AD0 Selected.
+# Net CLK2FPGA Selected.
+# Net GND Selected.
+# Net VCCIO_3V3 Selected.
+# Net DCLK Selected.
+# Net NCONFIG Selected.
+# Net CONF_DONE Selected.
+# Net NCSO Selected.
+# Net DATA0 Selected.
+# Net NCE Selected.
+# Net ASDO Selected.
+# Net I2S_LRCK Selected.
+# Net FPGA_UART2_TXD Selected.
+# Net I2S_SCK Selected.
+# Net A_MUTE Selected.
+# Net A_FMT Selected.
+# Net FPGA_SPI2_CS Selected.
+# Net I2S_BCK Selected.
+# Net FPGA_SPI_CS Selected.
+# Net FPGA_SPI_MOSI Selected.
+# Net I2S_DATA Selected.
+# Net NRST_FPGA Selected.
+# Net FPGA_UART_RXD Selected.
+# Net FPGA_SPI2_MISO Selected.
+# Net FPGA_SPI_SCLK Selected.
+# Net FPGA_SPI2_MOSI Selected.
+# Net FPGA_RST_CPU Selected.
+# Net FPGA_SPI_MISO Selected.
+# Net FPGA_RST_MCU Selected.
+# Net FPGA_SPI2_SCLK Selected.
+# All Selected Wires Unprotected.
+# All unprotected selected wires were deleted.
+# Current time = Wed Nov 24 14:09:27 2021
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- G:/github/PLL_FM_HW/FPGA/PCB\FPGA-V3.dsn
+# Nets 227 Connections 1164 Unroutes 914
+# Signal Layers 10 Power Layers 0
+# Wire Junctions 41, at vias 4 Total Vias 34
+# Percent Connected   21.48
+# Manhattan Length 12972.1918 Horizontal 2611.7961 Vertical 10360.3957
+# Routed Length 2446.8083 Horizontal 1522.8491 Vertical 1231.3012
+# Ratio Actual / Manhattan   0.1886
+# Unconnected Length 12190.6162 Horizontal 2864.0168 Vertical 9326.5994
+# All Components Unselected.
+# All Nets Unselected.
+# Current time = Wed Nov 24 14:09:27 2021
+# Nets Processed 229, Net Terminals 2373
+# Signal Connections Created 888
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'GND-L2' Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'SIGNAL-L3' Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'SIGNAL-L4' Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'GND-L5' Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'PWR-L6' Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'SIGNAL-L7' Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'SIGNAL-L8' Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'GND-L9' Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Total Conflicts: 33 (Cross: 0, Clear: 33, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- G:/github/PLL_FM_HW/FPGA/PCB\FPGA-V3.dsn
+# Nets 229 Connections 1164 Unroutes 900
+# Signal Layers 10 Power Layers 0
+# Wire Junctions 60, at vias 41 Total Vias 167
+# Percent Connected   17.01
+# Manhattan Length 13413.4620 Horizontal 2734.8608 Vertical 10678.6012
+# Routed Length 2588.7515 Horizontal 1617.8941 Vertical 1292.6592
+# Ratio Actual / Manhattan   0.1930
+# Unconnected Length 12373.4011 Horizontal 2944.4462 Vertical 9428.9549
+# Loading Do File C:/Users/ADMINI~1/AppData/Local/Temp/#Taaabjg09276.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+# Component U20 Selected.
+set route_diagonal 0
+grid wire 0.000100 (direction x) (offset 0.000000)
+grid wire 0.000100 (direction y) (offset 0.000000)
+grid via 0.000100 (direction x) (offset 0.000000)
+grid via 0.000100 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction 'GND-L2' vertical
+select layer 'GND-L2'
+unprotect layer_wires 'GND-L2'
+# Wires on layer 'GND-L2' were Unprotected.
+direction 'SIGNAL-L3' horizontal
+select layer 'SIGNAL-L3'
+unprotect layer_wires 'SIGNAL-L3'
+# Wires on layer 'SIGNAL-L3' were Unprotected.
+direction 'SIGNAL-L4' vertical
+select layer 'SIGNAL-L4'
+unprotect layer_wires 'SIGNAL-L4'
+# Wires on layer 'SIGNAL-L4' were Unprotected.
+direction 'GND-L5' horizontal
+select layer 'GND-L5'
+unprotect layer_wires 'GND-L5'
+# Wires on layer 'GND-L5' were Unprotected.
+direction 'PWR-L6' vertical
+select layer 'PWR-L6'
+unprotect layer_wires 'PWR-L6'
+# Wires on layer 'PWR-L6' were Unprotected.
+direction 'SIGNAL-L7' horizontal
+select layer 'SIGNAL-L7'
+unprotect layer_wires 'SIGNAL-L7'
+# Wires on layer 'SIGNAL-L7' were Unprotected.
+direction 'SIGNAL-L8' vertical
+select layer 'SIGNAL-L8'
+unprotect layer_wires 'SIGNAL-L8'
+# Wires on layer 'SIGNAL-L8' were Unprotected.
+direction 'GND-L9' horizontal
+select layer 'GND-L9'
+unprotect layer_wires 'GND-L9'
+# Wires on layer 'GND-L9' were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+fanout 1 (direction In_out) (location Anywhere) (pin_type power) (pin_type signal) (pin_type single)
+# Fanout in any direction.
+# Fanout inside and outside component outline.
+# Fanout..Signal Nets.
+# Fanout..Power Nets.
+# Fanout..Single Pin Nets.
+# Current time = Wed Nov 24 14:09:42 2021
+# 
+#         VIA                   TOP                        'GND-L2'                     'SIGNAL-L3'                     'SIGNAL-L4'                        'GND-L5'                        'PWR-L6'                     'SIGNAL-L7'                     'SIGNAL-L8'                        'GND-L9'                          BOTTOM          
+# 
+#         TOP  ------------------------------      'VIA03015-TOP-GND-L2'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'     
+#    'GND-L2'      'VIA03015-TOP-GND-L2'       ------------------------------      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'     
+# 'SIGNAL-L3'      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'       ------------------------------  'VIA03015-SIGNAL-L3-SIGNAL-L4'      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'     
+# 'SIGNAL-L4'      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'       'VIA03015-SIGNAL-L3-SIGNAL-L4'  ------------------------------      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'     
+#    'GND-L5'      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'       ------------------------------     'VIA03015-GND-L5-PWR-L6'         'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'     
+#    'PWR-L6'      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'          'VIA03015-GND-L5-PWR-L6'     ------------------------------      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'     
+# 'SIGNAL-L7'      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'       ------------------------------  'VIA03015-SIGNAL-L7-SIGNAL-L8'      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'     
+# 'SIGNAL-L8'      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'       'VIA03015-SIGNAL-L7-SIGNAL-L8'  ------------------------------      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'     
+#    'GND-L9'      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'       ------------------------------     'VIA03015-GND-L9-BOTTOM'   
+#      BOTTOM      'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'           'VIA03015-TOP-BOTTOM'          'VIA03015-GND-L9-BOTTOM'     ------------------------------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'GND-L2' Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'SIGNAL-L3' Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'SIGNAL-L4' Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'GND-L5' Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'PWR-L6' Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'SIGNAL-L7' Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'SIGNAL-L8' Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer 'GND-L9' Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.1000, Clearance= 0.1270
+# 
+# Wiring Statistics ----------------- G:/github/PLL_FM_HW/FPGA/PCB\FPGA-V3.dsn
+# Nets 229 Connections 1164 Unroutes 900
+# Signal Layers 10 Power Layers 0
+# Wire Junctions 60, at vias 41 Total Vias 167
+# Percent Connected   17.01
+# Manhattan Length 13413.4620 Horizontal 2734.8608 Vertical 10678.6012
+# Routed Length 2588.7515 Horizontal 1617.8941 Vertical 1292.6592
+# Ratio Actual / Manhattan   0.1930
+# Unconnected Length 12373.4011 Horizontal 2944.4462 Vertical 9428.9549
+# Start Fanout Pass 1 of 1
+# Attempts 216 Successes 216 Failures 0 Vias 383
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 31 (Cross: 0, Clear: 31, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 1
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- G:/github/PLL_FM_HW/FPGA/PCB\FPGA-V3.dsn
+# Nets 229 Connections 1164 Unroutes 900
+# Signal Layers 10 Power Layers 0
+# Wire Junctions 175, at vias 139 Total Vias 334
+# Percent Connected   17.35
+# Manhattan Length 13413.4620 Horizontal 2741.4202 Vertical 10672.0417
+# Routed Length 2713.4139 Horizontal 1706.0437 Vertical 1380.8088
+# Ratio Actual / Manhattan   0.2023
+# Unconnected Length 12382.8757 Horizontal 2951.0560 Vertical 9431.8197
+write routes (changed_only) (reset_changed) C:/Users/ADMINI~1/AppData/Local/Temp/#Taaabjh09276.tmp
+# Routing Written to File C:/Users/ADMINI~1/AppData/Local/Temp/#Taaabjh09276.tmp
+quit

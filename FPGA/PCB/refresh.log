@@ -1,0 +1,78 @@
+Tue Nov 23 16:07:33 2021				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Tue Nov 23 16:07:33 2021
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : FPGA-V2.brd                                   )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Tue Nov 23 16:07:34 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Tue Nov 23 16:07:34 2021				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design  = 'G:/github/PLL_FM_HW/FPGA/PCB/FPGA-V2.brd'
+Output design = ''
+
+Update mechanical symbols              = 'NO'
+Update format symbols                  = 'NO'
+Update package symbols                 = 'NO'
+Update shape/flash symbols             = 'NO'
+Update symbol padstacks                = 'NO'
+Preserve padstacks replaced on pins    = 'NO'
+Reset symbol text and size locations   = 'NO'
+Reset Pin Escapes (fanouts)            = 'NO'
+Ripup Etch                             = 'NO'
+Reset custom drill data                = 'NO'
+Symbol list file                       = 'C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaawn06004.tmp'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/local/pcb/symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/pcb_lib/symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/allegrolib/symbols 
+           G:/github/PLL_FM_HW/LIBS 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/local/pcb/padstacks 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/pcb_lib/symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/allegrolib/symbols 
+           G:/github/PLL_FM_HW/LIBS/via 
+           G:/github/PLL_FM_HW/LIBS 
+
+
+------ Symbol Refresh Messages ------
+
+'C1206'  symbol refreshed successfully.
+
+
+----- Symbol Update Summary ----
+
+Updated symbols: 1 out 1
+    Design updated.
+

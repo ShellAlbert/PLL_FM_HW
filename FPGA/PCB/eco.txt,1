@@ -1,0 +1,37 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/FPGA/PCB/FPGA-V3.brd                                    |
+|                                                    Thu Nov 25 17:18:54 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  I2S_BCK      pins DELETED FROM this net (pin now not on any net)
+                                 U20.Y4          36.5000 -45.900
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  I2S_DATA     pins DELETED FROM this net (pin now not on any net)
+                                 U20.AB5         38.5000 -44.900
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U20.AB7         38.5000 -42.900
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  I2S_LRCK     pins DELETED FROM this net (pin now not on any net)
+                                 U20.AA5         37.5000 -44.900
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U20.AA8         37.5000 -41.900
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  I2S_SCK      pins MOVED FROM this net (to net name listed on right)
+                                 U20.AA9         37.5000 -40.900
+                                                                        I2S_BCK
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U20.AB8         38.5000 -41.900
+|------------------------------------------------------------------------------|
+|       Nets changed          :       7                                        |
+|                                                                              |
+|   Total ECO changes reported:       7                                        |
+|------------------------------------------------------------------------------|

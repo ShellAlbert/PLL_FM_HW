@@ -1,0 +1,488 @@
+# Cadence Design Systems, Inc.
+# Allegro PCB Router Automatic Router
+# Allegro PCB Router v17-4-0 made 2021/02/21 at 12:48:59
+# Running on host 
+# 
+#            Command Line Parameters
+#            -----------------------
+# Design File Name : G:/github/PLL_FM_HW/FPGA/PCB\FPGA-V3.dsn
+# Initialization options:
+#   -do pasde.do
+# Status File Name : G:/github/PLL_FM_HW/FPGA/PCB\monitor.sts
+# -nog specified. Graphics not utilized.
+# Use Colormap In Design File.
+#
+#
+#
+#
+# do $/FPGA-V3_rules.do
+define (class _netgrp_ADC_DATA_BUS AD0 AD1 AD10 AD11 
+  AD12 AD13 AD14 AD15 
+  AD2 AD3 AD4 AD5 
+  AD6 AD7 AD8 AD9 )
+define (class _difpr_CLKO 'CLK_AD-' CLK_AD+ 'CLKO-' CLKO+ )
+define (pair (nets 'CLK_AD-' CLK_AD+ ))
+define (pair (nets 'CLKO-' CLKO+ ))
+define (group '_XPP_R333-1_U20-AB14'  (fromto R333-2 U20-AB14  )
+ )
+define (group '_XPP_R325-1_U20-AB15'  (fromto R325-2 U20-AB15  )
+ )
+define (group '_XPP_R147-1_U20-AA15'  (fromto U20-AA15 R147-2  )
+ )
+define (group '_XPP_R149-1_U20-AA14'  (fromto U20-AA14 R149-2  )
+ )
+define (group _REL_DELAY_MG_I2S
+  (fromto U24-1 U20-Y4  )
+  (fromto U24-2 U20-AB5  )
+  (fromto U24-3 U20-AA5  )
+  (fromto U24-16 U20-AB4  )
+ )
+define (group CLKO+
+  (fromto R167-1 U33-30  )
+  (fromto R167-2 U20-T2  )
+ )
+define (group 'CLKO-'
+  (fromto R169-1 U33-29  )
+  (fromto R169-2 U20-T1  )
+ )
+define (group_set _REL_DELAY_MG12)
+define (group_set _REL_DELAY_MG12 (add_group '_XPP_R147-1_U20-AA15'))
+define (group_set _REL_DELAY_MG12 (add_group '_XPP_R333-1_U20-AB14'))
+define (group_set _REL_DELAY_MG12 (add_group '_XPP_R149-1_U20-AA14'))
+define (group_set _REL_DELAY_MG12 (add_group '_XPP_R325-1_U20-AB15'))
+rule PCB (width 0.1000)
+rule PCB (clearance 0 (type buried_via_gap))
+rule PCB (clearance 0.1270 (type wire_wire))
+rule PCB (clearance 0.1270 (type wire_smd))
+rule PCB (clearance 0.1270 (type wire_pin))
+rule PCB (clearance 0.1270 (type wire_via))
+rule PCB (clearance 0.1270 (type smd_smd))
+rule PCB (clearance 0.1270 (type smd_pin))
+rule PCB (clearance 0.1270 (type smd_via))
+rule PCB (clearance 0.1270 (type pin_pin))
+rule PCB (clearance 0.1270 (type pin_via))
+rule PCB (clearance 0.1270 (type via_via))
+rule PCB (clearance 0.1270 (type test_test))
+rule PCB (clearance 0.1270 (type test_wire))
+rule PCB (clearance 0.1270 (type test_smd))
+rule PCB (clearance 0.1270 (type test_pin))
+rule PCB (clearance 0.1270 (type test_via))
+rule PCB (clearance 0 (type area_wire))
+rule PCB (clearance 0 (type area_smd))
+rule PCB (clearance 0 (type area_area))
+rule PCB (clearance 0 (type area_pin))
+rule PCB (clearance 0 (type area_via))
+rule PCB (clearance 0 (type area_test))
+rule PCB (clearance 0.1270 (type microvia_microvia))
+set microvia_microvia on
+rule PCB (clearance 0.1270 (type microvia_thrupin))
+set microvia_thrupin on
+rule PCB (clearance 0.1270 (type microvia_smdpin))
+set microvia_smdpin on
+rule PCB (clearance 0.1270 (type microvia_thruvia))
+set microvia_thruvia on
+rule PCB (clearance 0.1270 (type microvia_bbvia))
+set microvia_bbvia on
+rule PCB (clearance 0.1270 (type microvia_wire))
+set microvia_wire on
+rule PCB (clearance 0.1270 (type bbvia_bbvia))
+set bbvia_bbvia on
+rule PCB (clearance 0.1270 (type microvia_testpin))
+set microvia_testpin on
+rule PCB (clearance 0.1270 (type bbvia_thrupin))
+set bbvia_thrupin on
+rule PCB (clearance 0.1270 (type microvia_testvia))
+set microvia_testvia on
+rule PCB (clearance 0.1270 (type bbvia_smdpin))
+set bbvia_smdpin on
+rule PCB (clearance 0.1270 (type microvia_bondpad))
+set microvia_bondpad on
+rule PCB (clearance 0.1270 (type bbvia_thruvia))
+set bbvia_thruvia on
+rule PCB (clearance 0.1270 (type microvia_area))
+set microvia_area on
+rule PCB (clearance 0.1270 (type bbvia_wire))
+set bbvia_wire on
+rule PCB (clearance 0.2032 (type nhole_pin))
+set nhole_pin off
+rule PCB (clearance 0.2032 (type nhole_via))
+set nhole_via off
+rule PCB (clearance 0.1270 (type bbvia_area))
+set bbvia_area on
+rule PCB (clearance 0.2032 (type nhole_wire))
+set nhole_wire off
+rule PCB (clearance 0.2032 (type nhole_area))
+set nhole_area off
+rule PCB (clearance 0.2032 (type nhole_nhole))
+set nhole_nhole off
+rule PCB (clearance 0.2032 (type mhole_pin))
+set mhole_pin on
+rule PCB (clearance 0.1270 (type bbvia_testpin))
+set bbvia_testpin on
+rule PCB (clearance 0.2032 (type mhole_via))
+set mhole_via on
+rule PCB (clearance 0.1270 (type bbvia_testvia))
+set bbvia_testvia on
+rule PCB (clearance 0.2032 (type mhole_wire))
+set mhole_wire on
+rule PCB (clearance 0.2032 (type mhole_area))
+set mhole_area on
+rule PCB (clearance 0.2032 (type mhole_nhole))
+set mhole_nhole on
+rule PCB (clearance 0.2032 (type mhole_mhole))
+set mhole_mhole on
+rule PCB (clearance 0.1270 (type bbvia_bondpad))
+set bbvia_bondpad on
+rule class _difpr_CLKO (clearance 0.2286 (type wire_wire))
+rule class _difpr_CLKO (clearance 0.2286 (type wire_smd))
+rule class _difpr_CLKO (clearance 0.2286 (type wire_pin))
+rule class _difpr_CLKO (clearance 0.2286 (type wire_via))
+rule class _difpr_CLKO (clearance 0.2286 (type test_wire))
+rule class _difpr_CLKO (clearance 0.2286 (type microvia_wire))
+rule class _difpr_CLKO (clearance 0.2286 (type bbvia_wire))
+rule class _difpr_CLKO (clearance 0.2286 (type nhole_wire))
+rule net VDPL4 (clearance 0.3000 (type microvia_area))
+rule net VDPL4 (clearance 0.3000 (type bbvia_area))
+rule net VDPL3 (clearance 0.3000 (type microvia_area))
+rule net VDPL3 (clearance 0.3000 (type bbvia_area))
+rule net VDPL2 (clearance 0.3000 (type microvia_area))
+rule net VDPL2 (clearance 0.3000 (type bbvia_area))
+rule net VDPL1 (clearance 0.3000 (type microvia_area))
+rule net VDPL1 (clearance 0.3000 (type bbvia_area))
+rule net 2V5_FPGA_IN (clearance 0.3000 (type microvia_area))
+rule net 2V5_FPGA_IN (clearance 0.3000 (type bbvia_area))
+rule net 5V_FPGA_IN (clearance 0.3000 (type microvia_area))
+rule net 5V_FPGA_IN (clearance 0.3000 (type bbvia_area))
+rule net VBAT_IN (clearance 0.3000 (type microvia_area))
+rule net VBAT_IN (clearance 0.3000 (type bbvia_area))
+rule net 1V2_FPGA_PWR (clearance 0.3000 (type microvia_area))
+rule net 1V2_FPGA_PWR (clearance 0.3000 (type bbvia_area))
+rule net 1V2_FPGA (clearance 0.3000 (type microvia_area))
+rule net 1V2_FPGA (clearance 0.3000 (type bbvia_area))
+rule net 2V5_FPGA_PWR (clearance 0.3000 (type microvia_area))
+rule net 2V5_FPGA_PWR (clearance 0.3000 (type bbvia_area))
+rule net 2V5_FPGA (clearance 0.3000 (type microvia_area))
+rule net 2V5_FPGA (clearance 0.3000 (type bbvia_area))
+rule net 3V3_FPGA_PWR (clearance 0.3000 (type microvia_area))
+rule net 3V3_FPGA_PWR (clearance 0.3000 (type bbvia_area))
+rule net 3V3_FPGA (clearance 0.3000 (type microvia_area))
+rule net 3V3_FPGA (clearance 0.3000 (type bbvia_area))
+rule net 5V_FPGA_PWR (clearance 0.3000 (type microvia_area))
+rule net 5V_FPGA_PWR (clearance 0.3000 (type bbvia_area))
+rule net 5V_FPGA (clearance 0.3000 (type microvia_area))
+rule net 5V_FPGA (clearance 0.3000 (type bbvia_area))
+rule net 3V3_IF (clearance 0.3000 (type microvia_area))
+rule net 3V3_IF (clearance 0.3000 (type bbvia_area))
+rule net VCCINT_1V2 (clearance 0.3000 (type microvia_area))
+rule net VCCINT_1V2 (clearance 0.3000 (type bbvia_area))
+rule net ADC_3V3 (clearance 0.3000 (type microvia_area))
+rule net ADC_3V3 (clearance 0.3000 (type bbvia_area))
+rule net VCCA_2V5 (clearance 0.3000 (type microvia_area))
+rule net VCCA_2V5 (clearance 0.3000 (type bbvia_area))
+rule net GND (clearance 0.3000 (type wire_wire))
+rule net GND (clearance 0.1500 (type wire_smd))
+rule net GND (clearance 0.1500 (type wire_pin))
+rule net GND (clearance 0.1500 (type wire_via))
+rule net GND (clearance 0.5000 (type smd_pin))
+rule net GND (clearance 0.5000 (type pin_pin))
+rule net GND (clearance 0.5000 (type pin_via))
+rule net GND (clearance 0.3000 (type test_wire))
+rule net GND (clearance 0.5000 (type test_pin))
+rule net GND (clearance 0.5000 (type microvia_thrupin))
+rule net GND (clearance 0.3000 (type microvia_wire))
+rule net GND (clearance 0.5000 (type bbvia_thrupin))
+rule net GND (clearance 0.2250 (type microvia_area))
+rule net GND (clearance 0.1500 (type bbvia_wire))
+rule net GND (clearance 0.2250 (type bbvia_area))
+rule net GND (clearance 0.3000 (type nhole_wire))
+rule net VCCIO_3V3 (clearance 0.3000 (type microvia_area))
+rule net VCCIO_3V3 (clearance 0.3000 (type bbvia_area))
+rule PCB (clearance -1 same_net (type wire_wire))
+rule PCB (clearance -1 same_net (type wire_smd))
+rule PCB (clearance -1 same_net (type wire_pin))
+rule PCB (clearance -1 same_net (type wire_via))
+rule PCB (clearance -1 same_net (type smd_smd))
+rule PCB (clearance -1 same_net (type smd_pin))
+rule PCB (clearance -1 same_net (type smd_via))
+rule PCB (clearance -1 same_net (type pin_pin))
+rule PCB (clearance -1 same_net (type pin_via))
+rule PCB (clearance -1 same_net (type via_via))
+rule PCB (clearance -1 same_net (type test_test))
+rule PCB (clearance -1 same_net (type test_wire))
+rule PCB (clearance -1 same_net (type test_smd))
+rule PCB (clearance -1 same_net (type test_pin))
+rule PCB (clearance -1 same_net (type test_via))
+rule PCB (clearance 0 same_net (type area_wire))
+rule PCB (clearance 0 same_net (type area_smd))
+rule PCB (clearance 0 same_net (type area_area))
+rule PCB (clearance 0 same_net (type area_pin))
+rule PCB (clearance 0 same_net (type area_via))
+rule PCB (clearance 0 same_net (type area_test))
+rule PCB (clearance 0.1270 same_net (type microvia_microvia))
+set microvia_microvia same_net off
+rule PCB (clearance 0.1270 same_net (type microvia_thrupin))
+set microvia_thrupin same_net off
+rule PCB (clearance 0.1270 same_net (type microvia_smdpin))
+set microvia_smdpin same_net off
+rule PCB (clearance 0.1270 same_net (type microvia_thruvia))
+set microvia_thruvia same_net off
+rule PCB (clearance 0.1270 same_net (type microvia_bbvia))
+set microvia_bbvia same_net off
+rule PCB (clearance 0.1270 same_net (type microvia_wire))
+set microvia_wire same_net off
+rule PCB (clearance 0.1270 same_net (type microvia_testpin))
+set microvia_testpin same_net off
+rule PCB (clearance 0.1270 same_net (type microvia_testvia))
+set microvia_testvia same_net off
+rule PCB (clearance 0.1270 same_net (type microvia_bondpad))
+set microvia_bondpad same_net off
+rule PCB (clearance 0.1270 same_net (type microvia_area))
+set microvia_area same_net off
+rule PCB (clearance 0.2032 same_net (type nhole_pin))
+set nhole_pin same_net off
+rule PCB (clearance 0.2032 same_net (type nhole_via))
+set nhole_via same_net off
+rule PCB (clearance 0.2032 same_net (type nhole_wire))
+set nhole_wire same_net off
+rule PCB (clearance 0.2032 same_net (type nhole_area))
+set nhole_area same_net off
+rule PCB (clearance 0.2032 same_net (type nhole_nhole))
+set nhole_nhole same_net off
+rule PCB (clearance 0.1270 same_net (type bbvia_bbvia))
+set bbvia_bbvia same_net off
+rule PCB (clearance 0.1270 same_net (type bbvia_thrupin))
+set bbvia_thrupin same_net off
+rule PCB (clearance 0.1270 same_net (type bbvia_smdpin))
+set bbvia_smdpin same_net off
+rule PCB (clearance 0.1270 same_net (type bbvia_thruvia))
+set bbvia_thruvia same_net off
+rule PCB (clearance 0.1270 same_net (type bbvia_wire))
+set bbvia_wire same_net off
+rule PCB (clearance 0.1270 same_net (type bbvia_area))
+set bbvia_area same_net off
+rule PCB (clearance 0.1270 same_net (type bbvia_testpin))
+set bbvia_testpin same_net off
+rule PCB (clearance 0.1270 same_net (type bbvia_testvia))
+set bbvia_testvia same_net off
+rule PCB (clearance 0.1270 same_net (type bbvia_bondpad))
+set bbvia_bondpad same_net off
+rule pcb (tjunction on)(junction_type all)
+rule pcb (staggered_via on (min_gap 0))
+rule class _difpr_CLKO (tjunction on)(junction_type all)
+rule class _difpr_CLKO (staggered_via on (min_gap 0))
+circuit class _difpr_CLKO (use_via VIA_0D4_0D2 VIA_0D3_0D15 'VIA0402-TOP-GND-L2' 'VIA03015-TOP-GND-L2' 'VIA03015-GND-L5-PWR-L6' 'VIA03015-GND-L9-BOTTOM' 'VIA03015-SIGNAL-L3-SIGNAL-L4' 'VIA03015-SIGNAL-L7-SIGNAL-L8' 'VIA03015-TOP-BOTTOM' 'VIA0402-GND-L5-PWR-L6' 'VIA0402-GND-L9-BOTTOM' 'VIA0402-SIGNAL-L3-SIGNAL-L4' 'VIA0402-SIGNAL-L7-SIGNAL-L8' )
+rule pcb (via_at_smd off)
+rule PCB (turn_under_pad off)
+rule layer TOP (restricted_layer_length_factor 1)
+rule layer 'GND-L2' (restricted_layer_length_factor 1)
+rule layer 'SIGNAL-L3' (restricted_layer_length_factor 1)
+rule layer 'SIGNAL-L4' (restricted_layer_length_factor 1)
+rule layer 'GND-L5' (restricted_layer_length_factor 1)
+rule layer 'PWR-L6' (restricted_layer_length_factor 1)
+rule layer 'SIGNAL-L7' (restricted_layer_length_factor 1)
+rule layer 'SIGNAL-L8' (restricted_layer_length_factor 1)
+rule layer 'GND-L9' (restricted_layer_length_factor 1)
+rule layer BOTTOM (restricted_layer_length_factor 1)
+circuit group_set _REL_DELAY_MG12 (relative_length on (group '_XPP_R147-1_U20-AA15') (delta 0.00000) (tolerance 2.00000))
+circuit group_set _REL_DELAY_MG12 (relative_length on (group '_XPP_R333-1_U20-AB14') (delta 0.00000) (tolerance 2.00000))
+circuit group_set _REL_DELAY_MG12 (relative_length on (group '_XPP_R149-1_U20-AA14'))
+circuit group_set _REL_DELAY_MG12 (relative_length on (group '_XPP_R325-1_U20-AB15') (delta 0.00000) (tolerance 2.00000))
+circuit group _REL_DELAY_MG_I2S (relative_length on (fromto U24-1 U20-Y4 ) )
+circuit group _REL_DELAY_MG_I2S (relative_length on (fromto U24-2 U20-AB5 )  (delta 0.00000) (tolerance 2.00000))
+circuit group _REL_DELAY_MG_I2S (relative_length on (fromto U24-3 U20-AA5 )  (delta 0.00000) (tolerance 2.00000))
+circuit group _REL_DELAY_MG_I2S (relative_length on (fromto U24-16 U20-AB4 )  (delta 0.00000) (tolerance 2.00000))
+rule class _difpr_CLKO (diffpair_line_width 0.1000)
+rule class _difpr_CLKO (neck_down_gap 0.1092)
+rule class _difpr_CLKO (neck_down_width 0.1000)
+write colormap _notify.std
+# do C:/Users/ADMINI~1/AppData/Local/Temp/#Taaabjc09276.tmp
+unselect all routing
+select component U20
+set route_diagonal 0
+grid wire 0.000100 (direction x) (offset 0.000000)
+grid wire 0.000100 (direction y) (offset 0.000000)
+grid via 0.000100 (direction x) (offset 0.000000)
+grid via 0.000100 (direction y) (offset 0.000000)
+protect all wires
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+direction 'GND-L2' vertical
+select layer 'GND-L2'
+unprotect layer_wires 'GND-L2'
+direction 'SIGNAL-L3' horizontal
+select layer 'SIGNAL-L3'
+unprotect layer_wires 'SIGNAL-L3'
+direction 'SIGNAL-L4' vertical
+select layer 'SIGNAL-L4'
+unprotect layer_wires 'SIGNAL-L4'
+direction 'GND-L5' horizontal
+select layer 'GND-L5'
+unprotect layer_wires 'GND-L5'
+direction 'PWR-L6' vertical
+select layer 'PWR-L6'
+unprotect layer_wires 'PWR-L6'
+direction 'SIGNAL-L7' horizontal
+select layer 'SIGNAL-L7'
+unprotect layer_wires 'SIGNAL-L7'
+direction 'SIGNAL-L8' vertical
+select layer 'SIGNAL-L8'
+unprotect layer_wires 'SIGNAL-L8'
+direction 'GND-L9' horizontal
+select layer 'GND-L9'
+unprotect layer_wires 'GND-L9'
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+cost via -1
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+fanout 1 (direction In_out) (location Anywhere) (smart_via_grid one_wire_between) (pin_type power) (pin_type signal) (pin_type single)
+write routes (changed_only) (reset_changed) C:/Users/ADMINI~1/AppData/Local/Temp/#Taaabjd09276.tmp
+# do C:/Users/ADMINI~1/AppData/Local/Temp/#Taaabjf09276.tmp
+unselect all objects
+select net NSTATUS
+select net VCCINT_1V2
+select net IO8
+select net VDPL1
+select net VDPL3
+select net VDPL4
+select net VDPL2
+select net 2V5_FPGA_PWR
+select net VBAT_IN
+select net 1V2_FPGA_PWR
+select net 5V_FPGA_PWR
+select net 3V3_FPGA_PWR
+select net LED3
+select net MSEL3
+select net IO5
+select net IO2
+select net IO3
+select net IO4
+select net IO6
+select net MSEL1
+select net MSEL2
+select net MSEL0
+select net AD_RAND
+select net N7538451
+select net AD13
+select net TMS
+select net TDI
+select net 'CLK_AD-'
+select net N7467286
+select net CLK_AD+
+select net TCK
+select net LED2
+select net TDO
+select net LED1
+select net AD15
+select net AD5
+select net AD8
+select net AD10
+select net AD11
+select net AD9
+select net AD7
+select net VCCA_2V5
+select net AD3
+select net AD4
+select net AD1
+select net AD2
+select net AD0
+select net CLK2FPGA
+select net GND
+select net VCCIO_3V3
+select net DCLK
+select net NCONFIG
+select net CONF_DONE
+select net NCSO
+select net DATA0
+select net NCE
+select net ASDO
+select net I2S_LRCK
+select net FPGA_UART2_TXD
+select net I2S_SCK
+select net A_MUTE
+select net A_FMT
+select net FPGA_SPI2_CS
+select net I2S_BCK
+select net FPGA_SPI_CS
+select net FPGA_SPI_MOSI
+select net I2S_DATA
+select net NRST_FPGA
+select net FPGA_UART_RXD
+select net FPGA_SPI2_MISO
+select net FPGA_SPI_SCLK
+select net FPGA_SPI2_MOSI
+select net FPGA_RST_CPU
+select net FPGA_SPI_MISO
+select net FPGA_RST_MCU
+select net FPGA_SPI2_SCLK
+unprotect selected
+delete selected
+unprotect selected polygon
+delete selected polygon
+unselect all objects
+read route C:/Users/ADMINI~1/AppData/Local/Temp/#Taaabje09276.tmp
+# do C:/Users/ADMINI~1/AppData/Local/Temp/#Taaabjg09276.tmp
+unselect all routing
+select component U20
+set route_diagonal 0
+grid wire 0.000100 (direction x) (offset 0.000000)
+grid wire 0.000100 (direction y) (offset 0.000000)
+grid via 0.000100 (direction x) (offset 0.000000)
+grid via 0.000100 (direction y) (offset 0.000000)
+protect all wires
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+direction 'GND-L2' vertical
+select layer 'GND-L2'
+unprotect layer_wires 'GND-L2'
+direction 'SIGNAL-L3' horizontal
+select layer 'SIGNAL-L3'
+unprotect layer_wires 'SIGNAL-L3'
+direction 'SIGNAL-L4' vertical
+select layer 'SIGNAL-L4'
+unprotect layer_wires 'SIGNAL-L4'
+direction 'GND-L5' horizontal
+select layer 'GND-L5'
+unprotect layer_wires 'GND-L5'
+direction 'PWR-L6' vertical
+select layer 'PWR-L6'
+unprotect layer_wires 'PWR-L6'
+direction 'SIGNAL-L7' horizontal
+select layer 'SIGNAL-L7'
+unprotect layer_wires 'SIGNAL-L7'
+direction 'SIGNAL-L8' vertical
+select layer 'SIGNAL-L8'
+unprotect layer_wires 'SIGNAL-L8'
+direction 'GND-L9' horizontal
+select layer 'GND-L9'
+unprotect layer_wires 'GND-L9'
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+cost via -1
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+fanout 1 (direction In_out) (location Anywhere) (pin_type power) (pin_type signal) (pin_type single)
+write routes (changed_only) (reset_changed) C:/Users/ADMINI~1/AppData/Local/Temp/#Taaabjh09276.tmp
+quit -c

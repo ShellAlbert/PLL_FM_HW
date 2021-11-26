@@ -1,0 +1,6 @@
+INFO: Loaded existing device file 'G:\github\PLL_FM_HW\FPGA\PCB\devices.dml'
+INFO: Finished loading SigNoise device libraries
+INFO: Reading report definition file 'D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/signal/reports.dat'.
+INFO: Finished reading report definition file successfully.
+INFO: Reading report definition file 'D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/signal/custom_rep.dat'.
+INFO: Finished reading report definition file successfully.

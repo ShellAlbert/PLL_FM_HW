@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : MCU-V4.brd                                    )
 (    Software Version : 17.4S017                                      )
-(    Date/Time        : Fri Nov 19 10:52:02 2021                      )
+(    Date/Time        : Fri Nov 26 09:14:48 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -444,6 +444,7 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
+  CIRCLE     0.01000                                  DARK 
   CIRCLE     0.02000                                  DARK 
   CIRCLE     0.05000                                  DARK 
   CIRCLE     0.10000                                  DARK 

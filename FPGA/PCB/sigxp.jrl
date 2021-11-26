@@ -1,0 +1,49 @@
+\t (00:00:00) sigxp 17.4 S017 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Wed Sep  8 15:44:42 2021
+\t (00:00:00)         Host=BF-202007251750 User=Administrator Pid=1520 CPUs=16
+\t (00:00:00) CmdLine= sigxp -spawn -p G:\ZSY\MiniFMDemod\PCB C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaayl11480.tmp
+\t (00:00:00) 
+\t (00:00:00) Starting new design...
+\i (00:00:00) trapsize 1024
+\i (00:00:00) trapsize 994
+\i (00:00:00) trapsize 1028
+\i (00:00:00) trapsize 1080
+\i (00:00:01) trapsize 7191
+\i (00:00:01) trapsize 1438
+\t (00:00:02) Starting new design...
+\i (00:00:02) trapsize 7191
+\i (00:00:02) trapsize 7191
+\i (00:00:02) trapsize 7191
+   (00:00:02) Loading signal.cxt 
+   (00:00:02) Loading sigxp.cxt 
+   (00:00:02) Loading sxutil.cxt 
+   (00:00:02) Loading axlcore.cxt 
+   (00:00:02) Loading fputil.cxt 
+   (00:00:02) Beginning Autoplacement
+   (00:00:02) Finished Autoplacement
+\i (00:00:03) trapsize 38
+   (00:00:03) Loading skillExt.cxt 
+\i (00:00:03) sigxp background 
+\i (00:00:14) trapsize 25
+\i (00:00:14) zoom out 1 
+\i (00:00:14) setwindow sigxp
+\i (00:00:14) zoom out 5517.56 4231.80
+\i (00:00:14) trapsize 50
+\i (00:00:15) zoom in 1 
+\i (00:00:15) setwindow sigxp
+\i (00:00:15) zoom in 5508.59 4213.26
+\i (00:00:15) trapsize 25
+\i (00:00:15) zoom in 1 
+\i (00:00:15) setwindow sigxp
+\i (00:00:15) zoom in 5508.54 4213.26
+\i (00:00:15) trapsize 13
+\i (00:00:16) zoom out 1 
+\i (00:00:16) setwindow sigxp
+\i (00:00:16) zoom out 5517.97 4216.92
+\i (00:00:16) trapsize 25
+\i (00:00:16) zoom in 1 
+\i (00:00:16) setwindow sigxp
+\i (00:00:16) zoom in 5512.43 4217.98
+\i (00:00:16) trapsize 13
+\i (00:00:18) exit 
+\t (00:00:18)     Journal end - Wed Sep  8 15:45:00 2021
