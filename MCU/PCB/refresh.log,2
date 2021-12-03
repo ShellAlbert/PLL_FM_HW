@@ -1,9 +1,9 @@
-Fri Nov 19 10:48:25 2021				Page     1
+Fri Nov 19 10:49:18 2021				Page     1
 
 
  
 Update Symbols/Modules Logfile
-	Fri Nov 19 10:48:25 2021
+	Fri Nov 19 10:49:18 2021
 
 ------ Module Refresh Messages ------
 
@@ -19,12 +19,12 @@ SUMMARY:    Updated 0 out of 0 modules
 (                                                                     )
 (    Drawing          : MCU-V4.brd                                    )
 (    Software Version : 17.4S017                                      )
-(    Date/Time        : Fri Nov 19 10:48:26 2021                      )
+(    Date/Time        : Fri Nov 19 10:49:18 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Fri Nov 19 10:48:26 2021				Page     1
+Fri Nov 19 10:49:18 2021				Page     1
 
 
 ------ Symbol Refresh Directives ------
@@ -42,7 +42,7 @@ Reset symbol text and size locations   = 'NO'
 Reset Pin Escapes (fanouts)            = 'NO'
 Ripup Etch                             = 'NO'
 Reset custom drill data                = 'NO'
-Symbol list file                       = 'C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabb03668.tmp'
+Symbol list file                       = 'C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabx03668.tmp'
 
 
 ------ Library Paths ------
@@ -68,7 +68,7 @@ PADPATH =  .
 
 ------ Symbol Refresh Messages ------
 
-'R0402'  symbol refreshed successfully.
+'FPC-14P-0D5'  symbol refreshed successfully.
 
 
 ----- Symbol Update Summary ----

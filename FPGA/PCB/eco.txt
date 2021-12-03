@@ -2,60 +2,49 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  G:/github/PLL_FM_HW/FPGA/PCB/FPGA-V3.brd                                    |
-|                                                    Thu Nov 25 17:29:48 2021  |
+|  G:/github/PLL_FM_HW/FPGA/PCB/FPGA-V7.brd                                    |
+|                                                    Fri Dec  3 16:27:36 2021  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
+| COMPONENTS DELETED from design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|    ref des        |    device type      |   x   |   y                        |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  AUDIO_5V     pins ADDED TO this existing net (pins not previously on any net)
-                                 C642.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  GND          pins ADDED TO this existing net (pins not previously on any net)
-                                 C642.1                         
+ C117                CAP NP_C1206_DISCRETE_22UF/25V -1.1000 -19.600
+ C119                CAP NP_C1206_DISCRETE_22UF/25V 60.9000 -12.300
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  G:/github/PLL_FM_HW/FPGA/PCB/FPGA-V3.brd                                    |
-|                                                    Thu Nov 25 17:29:48 2021  |
+|  G:/github/PLL_FM_HW/FPGA/PCB/FPGA-V7.brd                                    |
+|                                                    Fri Dec  3 16:27:36 2021  |
 |------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
+| COMPONENTS CHANGED from one device type to another in design                 |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C642                CAP NP_C0805_DISCRETE_10UF 
+ C126                CAP NP_C0603_DISCRETE_10UF  6.9000 -21.400 CAP NP_C0603_DISCRETE_0.1UF/25V
+ C127                CAP NP_C0603_DISCRETE_10UF 17.4000 -22.800 CAP NP_C0603_DISCRETE_0.1UF/25V
+ C128                CAP NP_C0603_DISCRETE_10UF 29.5000 -22.800 CAP NP_C0603_DISCRETE_0.1UF/25V
+ C129                CAP NP_C0603_DISCRETE_10UF 39.8000 -22.800 CAP NP_C0603_DISCRETE_0.1UF/25V
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  G:/github/PLL_FM_HW/FPGA/PCB/FPGA-V3.brd                                    |
-|                                                    Thu Nov 25 17:29:48 2021  |
+|  G:/github/PLL_FM_HW/FPGA/PCB/FPGA-V7.brd                                    |
+|                                                    Fri Dec  3 16:27:36 2021  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C642.2                         PRIM_FILE      .\pstchip.dat
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
+ C126.2          6.9000 -21.400 PRIM_FILE      .\pstchip.dat
+ C127.2         17.4000 -22.800 PRIM_FILE      .\pstchip.dat
+ C128.2         29.5000 -22.800 PRIM_FILE      .\pstchip.dat
+ C129.2         39.8000 -22.800 PRIM_FILE      .\pstchip.dat
 |------------------------------------------------------------------------------|
-|  G:/github/PLL_FM_HW/FPGA/PCB/FPGA-V3.brd                                    |
-|                                                    Thu Nov 25 17:29:48 2021  |
-|------------------------------------------------------------------------------|
-| PIN PROPERTIES added to design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    pin_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C642.1                         CDS_PINID      \1\
- C642.2                         CDS_PINID      \2\
-|------------------------------------------------------------------------------|
-|       Nets changed          :       2                                        |
-|       Components added      :       1                                        |
-|       Pin property added    :       2                                        |
-|       Slot property added   :       1                                        |
+|       Components deleted    :       2                                        |
+|       Components changed    :       4                                        |
+|       Slot property added   :       4                                        |
 |                                                                              |
-|   Total ECO changes reported:       6                                        |
+|   Total ECO changes reported:      10                                        |
 |------------------------------------------------------------------------------|

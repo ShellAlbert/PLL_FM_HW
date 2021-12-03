@@ -1,6 +1,6 @@
 (ExpressProject "MiniFMDemod"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[11/25/21]")
+  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[12/03/21]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -90,6 +90,10 @@
       (Type "Log File")
       (LogFile "G:\github\PLL_FM_HW\Schematic\NETLIST\swp.log")))
   (PartMRUSelector
+    (TPS7A9201DSKR
+      (FullPartName "TPS7A9201DSKR.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FPGA\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
     (SMA-CONNECTOR
       (FullPartName "SMA-CONNECTOR.Normal")
       (LibraryName "G:\GITHUB\PLL_FM_HW\FPGA\SCHEMATIC\LIBRARY1.OLB")
@@ -193,10 +197,6 @@
       (FullPartName "MOSFET P.Normal")
       (LibraryName
          "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (MP1657GTF
-      (FullPartName "MP1657GTF.Normal")
-      (LibraryName "G:\ZSY\MINIFMDEMOD\LIBRARY1.OLB")
       (DeviceIndex "0")))
   (MPSSessionName "Administrator")
   (GlobalState
@@ -206,32 +206,11 @@
       (Path "Design Resources" ".\minifmdemod.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Path "Logs")
-      (Select "Design Resources" ".\minifmdemod.dsn"))
+      (Path "Logs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 321 0 742"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1272 28 764")
-        (Scroll "3557 4546")
-        (Zoom "480")
-        (Occurrence "/"))
-      (Path "G:\GITHUB\PLL_FM_HW\FPGA\SCHEMATIC\MINIFMDEMOD.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "11-FM-INPUT"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 0 0 5 1272 28 764")
-        (Scroll "4920 4344")
-        (Zoom "480")
-        (Occurrence "/"))
-      (Path "G:\GITHUB\PLL_FM_HW\FPGA\SCHEMATIC\MINIFMDEMOD.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "10-FMDEMOD")))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 742"))
+      (Tab 0)))
   (ISPCBBASICLICENSE "false"))

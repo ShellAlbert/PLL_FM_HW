@@ -1,75 +1,106 @@
-\t (01:21:53) allegro 17.4 S017 Windows SPB 64-bit Edition
-\t (01:21:53)     Journal start - Tue Nov 23 16:06:59 2021
-\t (01:21:53)         Host=BF-202007251750 User=Administrator Pid=6004 CPUs=16
-\t (01:21:53) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
-\t (01:21:53) 
-\d (01:21:53) Design opened: G:/github/PLL_FM_HW/LIBS/C1206.dra
-\i (01:21:53) trapsize 553
-\i (01:21:53) zoom in 1 
-\i (01:21:53) setwindow pcb
-\i (01:21:53) zoom in 1.1401 0.1094
-\i (01:21:53) trapsize 277
-\i (01:21:54) zoom in 1 
-\i (01:21:54) setwindow pcb
-\i (01:21:54) zoom in 3.5687 1.2656
-\i (01:21:54) trapsize 138
-\i (01:21:56) move 
-\t (01:21:56) Select element(s) to move.
-\i (01:21:57) setwindow form.find
-\i (01:21:57) FORM find all_off  
-\i (01:21:58) FORM find lines YES 
-\i (01:21:58) setwindow pcb
-\i (01:21:58) drag_start grid 3.0459 1.4676
-\i (01:21:59) drag_stop 3.6682 1.1357
-\i (01:22:00) prepopup 2.6614 1.4095
-\i (01:22:00) oops 
-\t (01:22:00) Select element(s) to move.
-\i (01:22:02) move 
-\t (01:22:02) Select element(s) to move.
-\i (01:22:03) pick grid 3.5299 1.3210
-\t (01:22:03) last pick:  3.5300 1.3200
-\t (01:22:03) last pick:  3.5300 1.3200
-\t (01:22:03) Element has no origin, using pick.
-\t (01:22:03) Pick new location for the element(s).
-\i (01:22:05) pick grid 2.5728 1.3127
-\t (01:22:05) last pick:  2.5700 1.3100
-\i (01:22:06) pick grid 3.4276 1.2214
-\t (01:22:06) last pick:  3.4300 1.2200
-\t (01:22:06) last pick:  3.4300 1.2200
-\t (01:22:06) Element has no origin, using pick.
-\t (01:22:06) Pick new location for the element(s).
-\i (01:22:09) pick grid 2.4428 1.2325
-\t (01:22:09) last pick:  2.4400 1.2300
-\i (01:22:09) zoom out 1 
-\i (01:22:09) setwindow pcb
-\i (01:22:09) zoom out 2.6448 1.3487
-\i (01:22:09) trapsize 277
-\i (01:22:10) zoom out 1 
-\i (01:22:10) setwindow pcb
-\i (01:22:10) zoom out 2.6447 1.3487
-\i (01:22:10) trapsize 553
-\i (01:22:10) zoom in 1 
-\i (01:22:10) setwindow pcb
-\i (01:22:10) zoom in 2.3681 1.0831
-\i (01:22:10) trapsize 277
-\i (01:22:10) prepopup 2.1800 1.0831
-\i (01:22:11) done 
-\i (01:22:11) zoom in 1 
-\i (01:22:11) setwindow pcb
-\i (01:22:11) zoom in 2.4953 1.3708
-\i (01:22:11) trapsize 138
-\i (01:22:12) zoom out 1 
-\i (01:22:12) setwindow pcb
-\i (01:22:12) zoom out 2.4704 1.4151
-\i (01:22:12) trapsize 277
-\i (01:22:13) save 
-\i (01:22:14) fillin yes 
-\t (01:22:14) Symbol 'c1206.psm' created.
-\i (01:22:17) opencd G:/github/PLL_FM_HW/FPGA/PCB/FPGA-V2.brd 
-\t (01:22:18) Opening existing design...
-\i (01:22:18) trapsize 552
-\i (01:22:18) trapsize 570
-\i (01:22:18) trapsize 575
-\i (01:22:18) trapsize 425
-\i (01:22:18) trapsize 425
-\t (01:22:18)     Journal end - Tue Nov 23 16:07:25 2021
+\t (01:20:57) allegro 17.4 S017 Windows SPB 64-bit Edition
+\t (01:20:57)     Journal start - Thu Nov 25 10:01:29 2021
+\t (01:20:57)         Host=BF-202007251750 User=Administrator Pid=9196 CPUs=16
+\t (01:20:57) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (01:20:57) 
+\d (01:20:57) Design opened: G:/github/PLL_FM_HW/LIBS/SMA.dra
+\i (01:20:57) trapsize 550
+\i (01:21:49) zoom in 1 
+\i (01:21:49) setwindow pcb
+\i (01:21:49) zoom in -1.3616 0.4330
+\i (01:21:49) trapsize 275
+\i (01:21:49) zoom in 1 
+\i (01:21:49) setwindow pcb
+\i (01:21:49) zoom in -1.3615 0.4330
+\i (01:21:49) trapsize 138
+\i (01:21:50) zoom out 1 
+\i (01:21:50) setwindow pcb
+\i (01:21:50) zoom out -0.0982 0.3394
+\i (01:21:50) trapsize 275
+\i (01:21:51) zoom out 1 
+\i (01:21:51) setwindow pcb
+\i (01:21:51) zoom out 0.4275 0.8734
+\i (01:21:51) trapsize 550
+\e (01:22:33) Command not found: xhilite
+\i (01:22:33) xname_flush 
+\e (01:22:33) No command active
+\i (01:22:33) done 
+\e (01:22:33) No command active
+\e (01:22:39) Command not found: xhilite
+\i (01:22:39) xname_flush 
+\e (01:22:39) No command active
+\i (01:22:39) done 
+\e (01:22:39) No command active
+\e (01:22:40) Command not found: xdehilite
+\i (01:22:40) xname_flush 
+\e (01:22:40) No command active
+\i (01:22:40) done 
+\e (01:22:40) No command active
+\e (01:22:43) Command not found: xhilite
+\i (01:22:43) xname_flush 
+\e (01:22:43) No command active
+\i (01:22:43) done 
+\e (01:22:43) No command active
+\e (01:22:43) Command not found: xdehilite
+\i (01:22:43) xname_flush 
+\e (01:22:43) No command active
+\i (01:22:43) done 
+\e (01:22:43) No command active
+\e (01:22:45) Command not found: xhilite
+\i (01:22:45) xname_flush 
+\e (01:22:45) No command active
+\i (01:22:45) done 
+\e (01:22:45) No command active
+\e (01:22:46) Command not found: xdehilite
+\i (01:22:46) xname_flush 
+\e (01:22:46) No command active
+\i (01:22:46) done 
+\e (01:22:46) No command active
+\e (01:22:50) Command not found: xhilite
+\i (01:22:50) xname_flush 
+\e (01:22:50) No command active
+\i (01:22:50) done 
+\e (01:22:50) No command active
+\e (01:22:51) Command not found: xdehilite
+\i (01:22:51) xname_flush 
+\e (01:22:51) No command active
+\i (01:22:51) done 
+\e (01:22:51) No command active
+\e (01:22:52) Command not found: xhilite
+\i (01:22:52) xname_flush 
+\e (01:22:52) No command active
+\i (01:22:52) done 
+\e (01:22:52) No command active
+\e (01:22:52) Command not found: xdehilite
+\i (01:22:52) xname_flush 
+\e (01:22:52) No command active
+\i (01:22:52) done 
+\e (01:22:52) No command active
+\e (01:22:53) Command not found: xhilite
+\i (01:22:53) xname_flush 
+\e (01:22:53) No command active
+\i (01:22:53) done 
+\e (01:22:53) No command active
+\e (01:22:53) Command not found: xdehilite
+\i (01:22:53) xname_flush 
+\e (01:22:53) No command active
+\i (01:22:53) done 
+\e (01:22:53) No command active
+\e (01:22:54) Command not found: xhilite
+\i (01:22:54) xname_flush 
+\e (01:22:54) No command active
+\i (01:22:54) done 
+\e (01:22:54) No command active
+\e (01:22:54) Command not found: xdehilite
+\i (01:22:54) xname_flush 
+\e (01:22:54) No command active
+\i (01:22:54) done 
+\e (01:22:54) No command active
+\i (01:25:08) opencd G:/github/PLL_FM_HW/FPGA/PCB/FPGA-V3.brd 
+\t (01:25:09) Opening existing design...
+\i (01:25:09) trapsize 1703
+\i (01:25:09) trapsize 1758
+\i (01:25:09) trapsize 1773
+\i (01:25:09) trapsize 1309
+\i (01:25:09) trapsize 1309
+\t (01:25:09)     Journal end - Thu Nov 25 10:05:41 2021
