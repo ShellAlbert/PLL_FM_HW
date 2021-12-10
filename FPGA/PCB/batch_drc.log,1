@@ -2,9 +2,9 @@
 (                                                                     )
 (    DRC Update                                                       )
 (                                                                     )
-(    Drawing          : FMDEMOD-57.brd                                )
+(    Drawing          : FPGA-V19.brd                                  )
 (    Software Version : 17.4S017                                      )
-(    Date/Time        : Tue Oct 26 10:23:36 2021                      )
+(    Date/Time        : Fri Dec 10 10:38:14 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,8 +20,8 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  372
+ ..... Total number of DRC errors  356
 
- ..... DRC update completed, total CPU time   0:00:02
+ ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************
 

@@ -1,6 +1,6 @@
 (ExpressProject "MiniFMDemod"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[12/03/21]")
+  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[12/10/21]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -206,11 +206,13 @@
       (Path "Design Resources" ".\minifmdemod.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Path "Logs"))
+      (Path "Logs")
+      (Select "Design Resources" ".\minifmdemod.dsn" "SCHEMATIC1"
+         "02-POWER_TREE"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 742"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 358 0 742"))
       (Tab 0)))
   (ISPCBBASICLICENSE "false"))

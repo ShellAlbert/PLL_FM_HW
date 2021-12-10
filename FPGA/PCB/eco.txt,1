@@ -2,55 +2,79 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  G:/github/PLL_FM_HW/FPGA/PCB/FPGA-V5.brd                                    |
-|                                                    Fri Dec  3 14:35:43 2021  |
+|  G:/github/PLL_FM_HW/FPGA/PCB/FPGA-V13.brd                                   |
+|                                                    Thu Dec  9 14:01:57 2021  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  N8200614     pins MOVED FROM this net (to net name listed on right)
-                                 C126.2           1.1000 -18.400
-                                                                 5V5_BUCK_5V_IN
-                                 L13.2            2.4000 -20.900
-                                                                 5V5_BUCK_5V_IN
+  ADC_3V3      pins ADDED TO this existing net (pins not previously on any net)
+                                 C673.2                         
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N8200858     pins MOVED FROM this net (to net name listed on right)
-                                 C127.2          66.6000 -30.900
-                                                                   4V0_BUCK_3V3
-                                 L14.2           64.6000 -30.900
-                                                                   4V0_BUCK_3V3
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N8201027     pins MOVED FROM this net (to net name listed on right)
-                                 C128.2          75.8830 -52.682
-                                                                3V3_BUCK_2V5_IN
-                                 L15.2           71.8370 -52.377
-                                                                3V3_BUCK_2V5_IN
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N8201165     pins MOVED FROM this net (to net name listed on right)
-                                 C129.2          64.6000 -22.100
-                                                                       2V0_FPGA
-                                 L16.2           67.9000 -27.400
-                                                                       2V0_FPGA
+  GND          pins ADDED TO this existing net (pins not previously on any net)
+                                 C673.1                         
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  G:/github/PLL_FM_HW/FPGA/PCB/FPGA-V5.brd                                    |
-|                                                    Fri Dec  3 14:35:43 2021  |
+|  G:/github/PLL_FM_HW/FPGA/PCB/FPGA-V13.brd                                   |
+|                                                    Thu Dec  9 14:01:57 2021  |
 |------------------------------------------------------------------------------|
-| COMPONENTS DELETED from design                                               |
+| COMPONENTS ADDED to design                                                   |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type      |   x   |   y                        |
+|    ref des        |    device type                                           |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J4                  HEADER-2X5P_HEADER-2X5P-1D27-SMD_HEADER-2X5P 82.3430 -39.525
- R129                R_R1206_DISCRETE_0    80.3800 -32.203
- R130                R_R1206_DISCRETE_0    88.4360 -32.203
- R131                R_R1206_DISCRETE_0    102.100 -32.500
- R132                R_R1206_DISCRETE_0    106.171 -32.203
+ C673                CAP NP_C0603_DISCRETE_10UF 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|       Nets changed          :       8                                        |
-|       Components deleted    :       5                                        |
+|  G:/github/PLL_FM_HW/FPGA/PCB/FPGA-V13.brd                                   |
+|                                                    Thu Dec  9 14:01:57 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENT PROPERTIES added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   ref  des   |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C215            9.5000 -59.900 NO_XNET_CONNEC TRUE
+ C216           10.6000 -59.900 NO_XNET_CONNEC TRUE
+ R162            8.0500 -48.880 NO_XNET_CONNEC TRUE
+ R192           35.2640 -60.309 NO_XNET_CONNEC true
+ R194           21.7740 -61.049 NO_XNET_CONNEC TRUE
+ R196           21.7740 -62.020 NO_XNET_CONNEC TRUE
+ R197           35.2640 -62.372 NO_XNET_CONNEC true
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/FPGA/PCB/FPGA-V13.brd                                   |
+|                                                    Thu Dec  9 14:01:57 2021  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C673.2                         PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/FPGA/PCB/FPGA-V13.brd                                   |
+|                                                    Thu Dec  9 14:01:57 2021  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C673.1                         CDS_PINID      \1\
+ C673.2                         CDS_PINID      \2\
+|------------------------------------------------------------------------------|
+|       Nets changed          :       2                                        |
+|       Components added      :       1                                        |
+|       Comp property added   :       7                                        |
+|       Pin property added    :       2                                        |
+|       Slot property added   :       1                                        |
 |                                                                              |
 |   Total ECO changes reported:      13                                        |
 |------------------------------------------------------------------------------|

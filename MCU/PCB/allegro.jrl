@@ -1,23 +1,69 @@
-\t (00:00:02) allegro 17.4 S017 Windows SPB 64-bit Edition
-\t (00:00:02)     Journal start - Mon Nov 29 13:49:59 2021
-\t (00:00:02)         Host=BF-202007251750 User=Administrator Pid=11852 CPUs=16
-\t (00:00:02) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
-\t (00:00:02) 
-   (00:00:02) Loading axlcore.cxt 
-\t (00:00:03) Opening existing design...
-\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "MCU-V4"
-\d (00:00:03) Design opened: G:/github/PLL_FM_HW/MCU/PCB/MCU-V4.brd
-\i (00:00:03) trapsize 10799
-\i (00:00:03) trapsize 11122
-\i (00:00:03) trapsize 11208
-\i (00:00:03) trapsize 8935
-\i (00:00:03) trapsize 9159
-\i (00:00:04) placementedit 
+\t (00:00:01) allegro 17.4 S017 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Fri Dec 10 10:28:56 2021
+\t (00:00:01)         Host=BF-202007251750 User=Administrator Pid=8852 CPUs=16
+\t (00:00:01) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:01) Opening existing design...
+\i (00:00:01) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "MCU-V4"
+\d (00:00:01) Design opened: G:/github/PLL_FM_HW/MCU/PCB/MCU-V4.brd
+\i (00:00:01) trapsize 10799
+\i (00:00:02) trapsize 11122
+\i (00:00:02) trapsize 11208
+\i (00:00:02) trapsize 8935
+\i (00:00:02) trapsize 9159
+\i (00:00:02) placementedit 
+\i (00:00:03) zoom in 1 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom in 24.4869 -44.2457
+\i (00:00:03) trapsize 4579
+\i (00:00:03) zoom in 1 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom in 23.8457 -43.6045
+\i (00:00:03) trapsize 2290
+\i (00:00:03) zoom in 1 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom in 23.2046 -43.1008
+\i (00:00:03) trapsize 1145
+\i (00:00:04) zoom out 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom out 20.3197 -38.0405
+\i (00:00:04) trapsize 2290
 \i (00:00:04) zoom in 1 
 \i (00:00:04) setwindow pcb
-\i (00:00:04) zoom in 9.1001 -13.1058
-\i (00:00:04) trapsize 4579
-\i (00:00:09) opencd G:/github/PLL_FM_HW/FPGA/PCB/FPGA-V3.brd 
-\t (00:00:09) Opening existing design...
-\i (00:00:09) trapsize 871
-\t (00:00:09)     Journal end - Mon Nov 29 13:50:07 2021
+\i (00:00:04) zoom in 17.9383 -39.8264
+\i (00:00:04) trapsize 1145
+\i (00:00:04) zoom in 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom in 17.9383 -39.8264
+\i (00:00:04) trapsize 572
+\i (00:00:05) zoom out 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom out 20.6173 -38.3495
+\i (00:00:05) trapsize 1145
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in 19.8158 -41.9672
+\i (00:00:06) trapsize 572
+\i (00:24:33) zoom out 1 
+\i (00:24:33) setwindow pcb
+\i (00:24:33) zoom out 20.4684 -42.8601
+\i (00:24:33) trapsize 1145
+\i (00:24:33) zoom out 1 
+\i (00:24:33) setwindow pcb
+\i (00:24:33) zoom out 20.4685 -42.8602
+\i (00:24:33) trapsize 2290
+\i (00:24:33) zoom out 1 
+\i (00:24:33) setwindow pcb
+\i (00:24:33) zoom out 21.6591 -42.4938
+\i (00:24:33) trapsize 4579
+\i (00:24:35) zoom out 1 
+\i (00:24:35) setwindow pcb
+\i (00:24:35) zoom out 41.1673 -47.1647
+\i (00:24:35) trapsize 9159
+\i (00:24:35) zoom in 1 
+\i (00:24:35) setwindow pcb
+\i (00:24:35) zoom in 34.3898 -18.0397
+\i (00:24:35) trapsize 4579
+\i (00:24:37) exit 
+\t (00:24:40)     Journal end - Fri Dec 10 10:53:35 2021

@@ -2,14 +2,18 @@
 (                                                                     )
 (    DRILL LEGEND                                                     )
 (                                                                     )
-(    Drawing          : FMDEMOD-57.brd                                )
+(    Drawing          : FPGA-V23.brd                                  )
 (    Software Version : 17.4S017                                      )
-(    Date/Time        : Tue Oct 26 10:55:47 2021                      )
+(    Date/Time        : Fri Dec 10 13:49:54 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 Begin processing of drill legend template file 'D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/text/nclegend/default-mm.dlt' ...
+WARNING(SPMHSK-47): Column type 'HoleSize' does not exist.
+WARNING(SPMHSK-47): Column type 'PlateStatus' does not exist.
+End of drill legend template file processing.
+Begin processing of drill legend template file 'D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/text/nclegend/default-mm - Copy.dlt' ...
 WARNING(SPMHSK-47): Column type 'HoleSize' does not exist.
 WARNING(SPMHSK-47): Column type 'PlateStatus' does not exist.
 End of drill legend template file processing.
