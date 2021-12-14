@@ -1,16 +1,16 @@
-{ Using PSTWRITER 17.4.0 d001Oct-21-2021 at 09:28:03 }
+{ Using PSTWRITER 17.4.0 d001Dec-14-2021 at 14:45:48 }
 
 INFO(ORCAP-36108): Starting the Swp file dumping process ...
 Loading netlist files ...
-Loading... G:\github\PLL_FM_HW\Schematic\NETLIST\pstchip.dat
+Loading... G:\github\PLL_FM_HW\FPGA\Schematic\NETLIST\pstchip.dat
 
-Loading... G:\github\PLL_FM_HW\Schematic\NETLIST\pstxprt.dat
+Loading... G:\github\PLL_FM_HW\FPGA\Schematic\NETLIST\pstxprt.dat
 
-Loading... G:\github\PLL_FM_HW\Schematic\NETLIST\pstxnet.dat
-packaging the design view...Loading physical design view ...Loading... G:\github\PLL_FM_HW\Schematic\NETLIST/funcview.dat
-Loading... G:\github\PLL_FM_HW\Schematic\NETLIST/compview.dat
-Loading... G:\github\PLL_FM_HW\Schematic\NETLIST/netview.dat
-Loading... G:\github\PLL_FM_HW\Schematic\NETLIST/pinview.dat
+Loading... G:\github\PLL_FM_HW\FPGA\Schematic\NETLIST\pstxnet.dat
+packaging the design view...Loading physical design view ...Loading... G:\github\PLL_FM_HW\FPGA\Schematic\NETLIST/funcview.dat
+Loading... G:\github\PLL_FM_HW\FPGA\Schematic\NETLIST/compview.dat
+Loading... G:\github\PLL_FM_HW\FPGA\Schematic\NETLIST/netview.dat
+Loading... G:\github\PLL_FM_HW\FPGA\Schematic\NETLIST/pinview.dat
 packaging the design view...
 Generating the design view difference...
 INFO(ORCAP-36103): Analyzing Gate and Pin Swaps ...
@@ -18,25 +18,13 @@ INFO(ORCAP-36103): Analyzing Gate and Pin Swaps ...
 Analyzing Refdes Changes ...
 
 Analyzing Instance Property Differences ...
-#1 WARNING(ORCAP-36013): Property "NO_XNET_CONNECTION" on Part "C123" is deleted from board.
-#2 WARNING(ORCAP-36013): Property "NO_XNET_CONNECTION" on Part "C109" is deleted from board.
-#3 WARNING(ORCAP-36013): Property "NO_XNET_CONNECTION" on Part "C111" is deleted from board.
-#4 WARNING(ORCAP-36013): Property "NO_XNET_CONNECTION" on Part "C108" is deleted from board.
-#5 WARNING(ORCAP-36013): Property "NO_XNET_CONNECTION" on Part "C122" is deleted from board.
-#6 WARNING(ORCAP-36013): Property "NO_XNET_CONNECTION" on Part "C281" is deleted from board.
-#7 WARNING(ORCAP-36013): Property "NO_XNET_CONNECTION" on Part "C272" is deleted from board.
-#8 WARNING(ORCAP-36013): Property "NO_XNET_CONNECTION" on Part "R105" is deleted from board.
-#9 WARNING(ORCAP-36013): Property "NO_XNET_CONNECTION" on Part "R104" is deleted from board.
-#10 WARNING(ORCAP-36013): Property "NO_XNET_CONNECTION" on Part "R197" is deleted from board.
-#11 WARNING(ORCAP-36013): Property "NO_XNET_CONNECTION" on Part "R194" is deleted from board.
-#12 WARNING(ORCAP-36013): Property "NO_XNET_CONNECTION" on Part "R196" is deleted from board.
-#13 WARNING(ORCAP-36013): Property "NO_XNET_CONNECTION" on Part "R169" is deleted from board.
-#14 WARNING(ORCAP-36013): Property "NO_XNET_CONNECTION" on Part "R167" is deleted from board.
-#15 WARNING(ORCAP-36013): Property "NO_XNET_CONNECTION" on Part "R192" is deleted from board.
-#16 WARNING(ORCAP-36013): Property "NO_XNET_CONNECTION" on Part "R113" is deleted from board.
-#17 WARNING(ORCAP-36013): Property "NO_XNET_CONNECTION" on Part "R110" is deleted from board.
-#18 WARNING(ORCAP-36013): Property "NO_XNET_CONNECTION" on Part "R109" is deleted from board.
-#19 WARNING(ORCAP-36013): Property "NO_XNET_CONNECTION" on Part "R211" is deleted from board.
+#1 WARNING(ORCAP-36013): Property "NO_XNET_CONNECTION" on Part "C63" is deleted from board.
+#2 WARNING(ORCAP-36013): Property "NO_XNET_CONNECTION" on Part "C64" is deleted from board.
+#3 WARNING(ORCAP-36013): Property "NO_XNET_CONNECTION" on Part "R52" is deleted from board.
+#4 WARNING(ORCAP-36013): Property "NO_XNET_CONNECTION" on Part "R60" is deleted from board.
+#5 WARNING(ORCAP-36013): Property "NO_XNET_CONNECTION" on Part "R62" is deleted from board.
+#6 WARNING(ORCAP-36013): Property "NO_XNET_CONNECTION" on Part "R64" is deleted from board.
+#7 WARNING(ORCAP-36013): Property "NO_XNET_CONNECTION" on Part "R65" is deleted from board.
 
 Analyzing Net Property Differences ...
 

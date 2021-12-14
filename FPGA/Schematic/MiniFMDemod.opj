@@ -1,6 +1,6 @@
 (ExpressProject "MiniFMDemod"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[12/10/21]")
+  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[12/14/21]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -31,11 +31,11 @@
     ("Allegro Netlist User Defined Property" "FALSE")
     (BOM_Scope "0")
     (BOM_Mode "0")
-    (BOM_Report_File "G:\ZSY\MINIFMDEMOD\MINIFMDEMOD.BOM")
+    (BOM_Report_File "G:\github\PLL_FM_HW\FPGA\Schematic\MINIFMDEMOD.BOM")
     (BOM_Merge_Include "FALSE")
     (BOM_Property_Combine_7.0
-       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}")
-    (BOM_Header "Item\tQuantity\tReference\tPart\tPCBFootprint")
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}\t{ZSYDesc}")
+    (BOM_Header "Item\tQuantity\tReference\tPart\tPCBFootprint\tDetails")
     (BOM_Include_File "G:\ZSY\MINIFMDEMOD\MINIFMDEMOD.INC")
     (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
     (BOM_One_Part_Per_Line "FALSE")
@@ -59,10 +59,10 @@
     (width_End "80")
     ("Allegro Backannotation Run Genfeed" "TRUE")
     ("Allegro Backannotation Board File"
-       "G:\github\PLL_FM_HW\PCB\FMDEMOD-57.brd")
+       "G:\github\PLL_FM_HW\FPGA\PCB\FPGA-FINAL-V1.brd")
     ("Allegro Backannotation Netlist Directory"
-       "G:\github\PLL_FM_HW\Schematic\NETLIST")
-    ("Allegro Backannotation Output File" "allegro\MINIFMDEMOD.swp")
+       "G:\github\PLL_FM_HW\FPGA\Schematic\NETLIST")
+    ("Allegro Backannotation Output File" "G:\github\PLL_FM_HW\FPGA\PCB\FM.swp")
     ("Allegro Backannotation Update Schematic" "TRUE")
     ("Allegro Backannotation View Output" "FALSE")
     ("Allegro Setup Output Warnings" "FALSE")
@@ -75,7 +75,10 @@
       (Type "Report")
       (DisplayName "MINIFMDEMOD.swp"))
     (File "g:\zsy\minifmdemod\minifmdemod.bom"
-      (Type "Report")))
+      (Type "Report"))
+    (File "..\pcb\fm.swp"
+      (Type "Report")
+      (DisplayName "FM.swp")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
@@ -88,7 +91,7 @@
   (Folder "Logs"
     (File ".\netlist\swp.log"
       (Type "Log File")
-      (LogFile "G:\github\PLL_FM_HW\Schematic\NETLIST\swp.log")))
+      (LogFile "G:\github\PLL_FM_HW\FPGA\Schematic\NETLIST\swp.log")))
   (PartMRUSelector
     (TPS7A9201DSKR
       (FullPartName "TPS7A9201DSKR.Normal")
@@ -206,13 +209,11 @@
       (Path "Design Resources" ".\minifmdemod.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Path "Logs")
-      (Select "Design Resources" ".\minifmdemod.dsn" "SCHEMATIC1"
-         "02-POWER_TREE"))
+      (Path "Logs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 358 0 742"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 491 0 663"))
       (Tab 0)))
   (ISPCBBASICLICENSE "false"))

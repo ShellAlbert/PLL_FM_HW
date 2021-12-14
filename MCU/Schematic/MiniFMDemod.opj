@@ -200,17 +200,14 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\minifmdemod.dsn")
-      (Path "Design Resources" ".\minifmdemod.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
       (Path "Logs")
-      (Select "Design Resources" ".\minifmdemod.dsn" "SCHEMATIC1"
-         "03-STM32_CORE"))
+      (Select "Design Resources" ".\minifmdemod.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 486 0 742"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 283 0 718"))
       (Tab 0)))
   (ISPCBBASICLICENSE "false"))

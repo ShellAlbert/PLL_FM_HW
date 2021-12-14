@@ -3,12 +3,12 @@
 <ConstraintDifferenceReport Path="file:///D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/consmgr/VDD/report/rc" Type="Constraint Difference Report">
 
   <RptSummary Col1="Layout" Col2="Schematic">
-    <Entry Name="Report time">Thu Dec  9 14:10:39 2021
+    <Entry Name="Report time">Tue Dec 14 14:46:24 2021
 </Entry>
     <Entry Name="Software version">17.4 (S017)</Entry>
-    <Entry Name="Layout">G:\github\PLL_FM_HW\FPGA\PCB\FPGA-V13.brd</Entry>
+    <Entry Name="Layout">G:\github\PLL_FM_HW\FPGA\PCB\FPGA-FINAL-V1.brd</Entry>
     <Entry Name="Schematic">G:\github\PLL_FM_HW\FPGA\Schematic\NETLIST\pstcmdb.dat</Entry>
-    <Entry Name="Baseline File">C:\Users\ADMINI~1\AppData\Local\Temp\#Taaaaaf03236.tmp</Entry>
+    <Entry Name="Baseline File">C:\Users\ADMINI~1\AppData\Local\Temp\Tmp000009b1.dcf</Entry>
     <Entry Name="Destination design updated">Yes</Entry>
     <Entry Name="Update Mode">Diff3</Entry>
     <Entry Name="Constraint Information">CrossSection, Electrical, Physical, Spacing, Same Net Spacing, NetClasses, Properties</Entry>
@@ -16,213 +16,125 @@
   </RptSummary>
 
   <Tree>
-    <Item Filter="0xd" Name="Summary" Ref="main-summary">
-      <Item Filter="0xc" Name="Constraint Sets [2]" Ref="16">
-        <Item Filter="0xc" Name="PhysicalCSets [2]" Ref="15">
-          <Item Filter="0xc" Name="INNER_DIFF_100_OHMS" Ref="12"/>
-          <Item Filter="0xc" Name="OUTER_DIFF_100_OHMS" Ref="13"/>
-        </Item>
+    <Item Filter="0x1b" Name="Summary" Ref="main-summary">
+      <Item Filter="0x1a" Name="DiffPairs [4]" Ref="24">
+        <Item Filter="0x1a" Name="AIN" Ref="1d"/>
+        <Item Filter="0x1a" Name="ENC" Ref="20"/>
+        <Item Filter="0x1a" Name="SOUT" Ref="1b"/>
+        <Item Filter="0x2" Name="TIN" Ref="1c"/>
       </Item>
-      <Item Filter="0x0" Name="MatchGroups [12]" Ref="14">
-        <Item Filter="0x0" Name="MG10" Ref="8"/>
-        <Item Filter="0x0" Name="MG11" Ref="c"/>
-        <Item Filter="0x0" Name="MG12" Ref="6"/>
-        <Item Filter="0x0" Name="MG4" Ref="b"/>
-        <Item Filter="0x0" Name="MG5" Ref="d"/>
-        <Item Filter="0x0" Name="MG6" Ref="10"/>
-        <Item Filter="0x0" Name="MG8" Ref="f"/>
-        <Item Filter="0x0" Name="MG9" Ref="e"/>
-        <Item Filter="0x0" Name="MG_DATA0-7" Ref="11"/>
-        <Item Filter="0x0" Name="MG_DATA8-15" Ref="9"/>
-        <Item Filter="0x0" Name="MG_SDRAM_ADDRESS" Ref="a"/>
-        <Item Filter="0x0" Name="MG_SD_BUS" Ref="7"/>
-      </Item>
-      <Item Filter="0x0" Name="NetGroups [5]" Ref="17">
-        <Item Filter="0x0" Name="NAND_BUS" Ref="5"/>
-        <Item Filter="0x0" Name="NG1" Ref="4"/>
-        <Item Filter="0x0" Name="NG_BANK" Ref="3"/>
-        <Item Filter="0x0" Name="SDRAM_CTRLS" Ref="2"/>
-        <Item Filter="0x0" Name="SD_CARD" Ref="1"/>
+      <Item Filter="0x2" Name="Xnets [8]" Ref="23">
+        <Item Filter="0x2" Name="AIN+" Ref="10"/>
+        <Item Filter="0x2" Name="ENC+" Ref="7"/>
+        <Item Filter="0x0" Name="N7587990" Ref="19"/>
+        <Item Filter="0x2" Name="SOUTN" Ref="1"/>
+        <Item Filter="0x0" Name="SOUTP" Ref="1a"/>
+        <Item Filter="0x2" Name="TINN" Ref="d"/>
+        <Item Filter="0x2" Name="TINP" Ref="4"/>
+        <Item Filter="0x0" Name="VCOM" Ref="18"/>
       </Item>
     </Item>
   </Tree>
 
   <Summaries>
     <MainSummary ID="main-summary">
-      <ChangedObject Filter="0xc" Name="Constraint Sets" ObjNumber="PhysicalCSet: 2" Ref="16"/>
-      <ChangedObject Filter="0x0" Name="MatchGroups" ObjNumber="12" Ref="14"/>
-      <ChangedObject Filter="0x0" Name="NetGroups" ObjNumber="5" Ref="17"/>
+      <ChangedObject Filter="0x1a" Name="DiffPairs" ObjNumber="4" Ref="24"/>
+      <ChangedObject Filter="0x2" Name="Xnets" ObjNumber="8" Ref="23"/>
     </MainSummary>
-    <GroupSummary ID="14" Name="MatchGroups">
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="MG10" Notes="1" Other="0" Ref="8" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="MG11" Notes="1" Other="0" Ref="c" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="MG12" Notes="1" Other="0" Ref="6" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="MG4" Notes="1" Other="0" Ref="b" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="MG5" Notes="1" Other="0" Ref="d" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="MG6" Notes="1" Other="0" Ref="10" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="MG8" Notes="1" Other="0" Ref="f" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="MG9" Notes="1" Other="0" Ref="e" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="MG_DATA0-7" Notes="1" Other="0" Ref="11" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="MG_DATA8-15" Notes="1" Other="0" Ref="9" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="MG_SDRAM_ADDRESS" Notes="1" Other="0" Ref="a" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="MG_SD_BUS" Notes="1" Other="0" Ref="7" Reference="0"/>
+    <GroupSummary ID="23" Name="Xnets">
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="7" Name="AIN+" Notes="0" Other="0" Ref="10" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="5" Name="ENC+" Notes="0" Other="0" Ref="7" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="N7587990" Notes="0" Other="0" Ref="19" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="2" Name="SOUTN" Notes="0" Other="0" Ref="1" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="SOUTP" Notes="0" Other="0" Ref="1a" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="2" Name="TINN" Notes="0" Other="0" Ref="d" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="2" Name="TINP" Notes="0" Other="0" Ref="4" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="VCOM" Notes="0" Other="0" Ref="18" Reference="0" Status="Deleted"/>
     </GroupSummary>
-    <ObjectSummary ID="8" Kind="MatchGroup" Name="MG10">
-      <Notes Filter="0x0" Type="Notes">
-        <Note Text="Not creating MatchGroup: &quot;MG10&quot;. Preserving deletion." Type="Warning"/>
-      </Notes>
+    <ObjectSummary ID="10" Kind="Xnet" Name="AIN+" Status="Created">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="AIN+"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="N7581387"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="N7581373"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="AIN-"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="VCOM"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="N7581277"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="N7581273"/>
+      </Associations>
     </ObjectSummary>
-    <ObjectSummary ID="c" Kind="MatchGroup" Name="MG11">
-      <Notes Filter="0x0" Type="Notes">
-        <Note Text="Not creating MatchGroup: &quot;MG11&quot;. Preserving deletion." Type="Warning"/>
-      </Notes>
+    <ObjectSummary ID="7" Kind="Xnet" Name="ENC+" Status="Created">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="ENC+"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="N7588005"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="N7587990"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="N7588017"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="ENC-"/>
+      </Associations>
     </ObjectSummary>
-    <ObjectSummary ID="6" Kind="MatchGroup" Name="MG12">
-      <Notes Filter="0x0" Type="Notes">
-        <Note Text="Not creating MatchGroup: &quot;MG12&quot;. Preserving deletion." Type="Warning"/>
-      </Notes>
+    <ObjectSummary ID="19" Kind="Xnet" Name="N7587990" Status="Deleted"/>
+    <ObjectSummary ID="1" Kind="Xnet" Name="SOUTN">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="SOUTP"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="N7579492"/>
+      </Associations>
     </ObjectSummary>
-    <ObjectSummary ID="b" Kind="MatchGroup" Name="MG4">
-      <Notes Filter="0x0" Type="Notes">
-        <Note Text="Not creating MatchGroup: &quot;MG4&quot;. Preserving deletion." Type="Warning"/>
-      </Notes>
+    <ObjectSummary ID="1a" Kind="Xnet" Name="SOUTP" Status="Deleted"/>
+    <ObjectSummary ID="d" Kind="Xnet" Name="TINN" Status="Created">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="N7581083"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="TINN"/>
+      </Associations>
     </ObjectSummary>
-    <ObjectSummary ID="d" Kind="MatchGroup" Name="MG5">
-      <Notes Filter="0x0" Type="Notes">
-        <Note Text="Not creating MatchGroup: &quot;MG5&quot;. Preserving deletion." Type="Warning"/>
-      </Notes>
+    <ObjectSummary ID="4" Kind="Xnet" Name="TINP" Status="Created">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="N7581076"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="TINP"/>
+      </Associations>
     </ObjectSummary>
-    <ObjectSummary ID="10" Kind="MatchGroup" Name="MG6">
-      <Notes Filter="0x0" Type="Notes">
-        <Note Text="Not creating MatchGroup: &quot;MG6&quot;. Preserving deletion." Type="Warning"/>
-      </Notes>
-    </ObjectSummary>
-    <ObjectSummary ID="f" Kind="MatchGroup" Name="MG8">
-      <Notes Filter="0x0" Type="Notes">
-        <Note Text="Not creating MatchGroup: &quot;MG8&quot;. Preserving deletion." Type="Warning"/>
-      </Notes>
-    </ObjectSummary>
-    <ObjectSummary ID="e" Kind="MatchGroup" Name="MG9">
-      <Notes Filter="0x0" Type="Notes">
-        <Note Text="Not creating MatchGroup: &quot;MG9&quot;. Preserving deletion." Type="Warning"/>
-      </Notes>
-    </ObjectSummary>
-    <ObjectSummary ID="11" Kind="MatchGroup" Name="MG_DATA0-7">
-      <Notes Filter="0x0" Type="Notes">
-        <Note Text="Not creating MatchGroup: &quot;MG_DATA0-7&quot;. Preserving deletion." Type="Warning"/>
-      </Notes>
-    </ObjectSummary>
-    <ObjectSummary ID="9" Kind="MatchGroup" Name="MG_DATA8-15">
-      <Notes Filter="0x0" Type="Notes">
-        <Note Text="Not creating MatchGroup: &quot;MG_DATA8-15&quot;. Preserving deletion." Type="Warning"/>
-      </Notes>
-    </ObjectSummary>
-    <ObjectSummary ID="a" Kind="MatchGroup" Name="MG_SDRAM_ADDRESS">
-      <Notes Filter="0x0" Type="Notes">
-        <Note Text="Not creating MatchGroup: &quot;MG_SDRAM_ADDRESS&quot;. Preserving deletion." Type="Warning"/>
-      </Notes>
-    </ObjectSummary>
-    <ObjectSummary ID="7" Kind="MatchGroup" Name="MG_SD_BUS">
-      <Notes Filter="0x0" Type="Notes">
-        <Note Text="Not creating MatchGroup: &quot;MG_SD_BUS&quot;. Preserving deletion." Type="Warning"/>
-      </Notes>
-    </ObjectSummary>
-    <GroupSummary ID="16" Name="Constraint Sets">
-      <ChangedObject Filter="0xc" Name="PhysicalCSets" ObjNumber="2" Ref="15"/>
+    <ObjectSummary ID="18" Kind="Xnet" Name="VCOM" Status="Deleted"/>
+    <GroupSummary ID="24" Name="DiffPairs">
+      <ChangedObject Attributes="0" Child="0" Filter="0x1a" Membership="2" Name="AIN" Notes="0" Other="0" Ref="1d" Reference="2" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x1a" Membership="2" Name="ENC" Notes="0" Other="0" Ref="20" Reference="2" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x1a" Membership="2" Name="SOUT" Notes="0" Other="0" Ref="1b" Reference="2" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="2" Name="TIN" Notes="0" Other="0" Ref="1c" Reference="0"/>
     </GroupSummary>
-    <GroupSummary ID="15" Name="PhysicalCSets">
-      <ChangedObject Attributes="2" Child="0" Filter="0xc" Membership="0" Name="INNER_DIFF_100_OHMS" Notes="0" Other="0" Ref="12" Reference="0"/>
-      <ChangedObject Attributes="2" Child="0" Filter="0xc" Membership="0" Name="OUTER_DIFF_100_OHMS" Notes="0" Other="0" Ref="13" Reference="0"/>
-    </GroupSummary>
-    <ObjectSummary ID="12" Kind="PhysicalCSet" Name="INNER_DIFF_100_OHMS">
-      <Attributes Filter="0xc" Type="Attributes">
-        <Attribute Filter="0xc" Name="MIN_LINE_WIDTH" Status="" Taken="Dst" Type="Scalar">
-          <Value>
-            <Dst>0.1092</Dst>
-            <Src>0.1000</Src>
-            <Base>0.1000</Base>
-          </Value>
-        </Attribute>
-        <Attribute Filter="0xc" Name="MIN_NECK_WIDTH" Status="" Taken="Dst" Type="Scalar">
-          <Value>
-            <Dst>0.1092</Dst>
-            <Src>0.1000</Src>
-            <Base>0.1000</Base>
-          </Value>
-        </Attribute>
-      </Attributes>
+    <ObjectSummary ID="1d" Kind="DiffPair" Name="AIN" Status="Deleted">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="AIN-"/>
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="AIN+"/>
+      </Associations>
+      <Associations Filter="0x18" Type="Reference">
+        <Reference Add="0" Filter="0x10" Kind="SpacingCSet" Name="INNER_DIFF_100_OHMS"/>
+        <Reference Add="0" Filter="0x8" Kind="PhysicalCSet" Name="INNER_DIFF_100_OHMS"/>
+      </Associations>
     </ObjectSummary>
-    <ObjectSummary ID="13" Kind="PhysicalCSet" Name="OUTER_DIFF_100_OHMS">
-      <Attributes Filter="0xc" Type="Attributes">
-        <Attribute Filter="0xc" Name="MIN_LINE_WIDTH" Status="" Taken="Dst" Type="Scalar">
-          <Value>
-            <Dst>0.1041</Dst>
-            <Src>0.1000</Src>
-            <Base>0.1000</Base>
-          </Value>
-        </Attribute>
-        <Attribute Filter="0xc" Name="MIN_NECK_WIDTH" Status="" Taken="Dst" Type="Scalar">
-          <Value>
-            <Dst>0.1041</Dst>
-            <Src>0.1000</Src>
-            <Base>0.1000</Base>
-          </Value>
-        </Attribute>
-      </Attributes>
+    <ObjectSummary ID="20" Kind="DiffPair" Name="ENC" Status="Deleted">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="ENC-"/>
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="ENC+"/>
+      </Associations>
+      <Associations Filter="0x18" Type="Reference">
+        <Reference Add="0" Filter="0x10" Kind="SpacingCSet" Name="INNER_DIFF_100_OHMS"/>
+        <Reference Add="0" Filter="0x8" Kind="PhysicalCSet" Name="INNER_DIFF_100_OHMS"/>
+      </Associations>
     </ObjectSummary>
-    <GroupSummary ID="17" Name="NetGroups">
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="NAND_BUS" Notes="1" Other="0" Ref="5" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="NG1" Notes="1" Other="0" Ref="4" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="NG_BANK" Notes="1" Other="0" Ref="3" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="SDRAM_CTRLS" Notes="1" Other="0" Ref="2" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="SD_CARD" Notes="1" Other="0" Ref="1" Reference="0"/>
-    </GroupSummary>
-    <ObjectSummary ID="5" Kind="NetGroup" Name="NAND_BUS">
-      <Notes Filter="0x0" Type="Notes">
-        <Note Text="Not creating NetGroup: &quot;NAND_BUS&quot;. Preserving deletion." Type="Warning"/>
-      </Notes>
+    <ObjectSummary ID="1b" Kind="DiffPair" Name="SOUT" Status="Deleted">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="0" Filter="0x40000000" Kind="Xnet" Name="SOUTP" Ref="1a"/>
+        <Reference Add="0" Filter="0x40000000" Kind="Xnet" Name="SOUTN" Ref="1"/>
+      </Associations>
+      <Associations Filter="0x18" Type="Reference">
+        <Reference Add="0" Filter="0x10" Kind="SpacingCSet" Name="OUTER_DIFF_100_OHMS"/>
+        <Reference Add="0" Filter="0x8" Kind="PhysicalCSet" Name="OUTER_DIFF_100_OHMS"/>
+      </Associations>
     </ObjectSummary>
-    <ObjectSummary ID="4" Kind="NetGroup" Name="NG1">
-      <Notes Filter="0x0" Type="Notes">
-        <Note Text="Not creating NetGroup: &quot;NG1&quot;. Preserving deletion." Type="Warning"/>
-      </Notes>
-    </ObjectSummary>
-    <ObjectSummary ID="3" Kind="NetGroup" Name="NG_BANK">
-      <Notes Filter="0x0" Type="Notes">
-        <Note Text="Not creating NetGroup: &quot;NG_BANK&quot;. Preserving deletion." Type="Warning"/>
-      </Notes>
-    </ObjectSummary>
-    <ObjectSummary ID="2" Kind="NetGroup" Name="SDRAM_CTRLS">
-      <Notes Filter="0x0" Type="Notes">
-        <Note Text="Not creating NetGroup: &quot;SDRAM_CTRLS&quot;. Preserving deletion." Type="Warning"/>
-      </Notes>
-    </ObjectSummary>
-    <ObjectSummary ID="1" Kind="NetGroup" Name="SD_CARD">
-      <Notes Filter="0x0" Type="Notes">
-        <Note Text="Not creating NetGroup: &quot;SD_CARD&quot;. Preserving deletion." Type="Warning"/>
-      </Notes>
+    <ObjectSummary ID="1c" Kind="DiffPair" Name="TIN">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="1" Filter="0x40000000" Kind="Xnet" Name="TINN" Ref="d"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Xnet" Name="TINP" Ref="4"/>
+      </Associations>
     </ObjectSummary>
   </Summaries>
-
-  <Notes>
-    <Note Ref="1" Text="Not creating NetGroup: &quot;SD_CARD&quot;. Preserving deletion. (NetGroup SD_CARD)" Type="Warning"/>
-    <Note Ref="2" Text="Not creating NetGroup: &quot;SDRAM_CTRLS&quot;. Preserving deletion. (NetGroup SDRAM_CTRLS)" Type="Warning"/>
-    <Note Ref="3" Text="Not creating NetGroup: &quot;NG_BANK&quot;. Preserving deletion. (NetGroup NG_BANK)" Type="Warning"/>
-    <Note Ref="4" Text="Not creating NetGroup: &quot;NG1&quot;. Preserving deletion. (NetGroup NG1)" Type="Warning"/>
-    <Note Ref="5" Text="Not creating NetGroup: &quot;NAND_BUS&quot;. Preserving deletion. (NetGroup NAND_BUS)" Type="Warning"/>
-    <Note Ref="6" Text="Not creating MatchGroup: &quot;MG12&quot;. Preserving deletion. (MatchGroup MG12)" Type="Warning"/>
-    <Note Ref="7" Text="Not creating MatchGroup: &quot;MG_SD_BUS&quot;. Preserving deletion. (MatchGroup MG_SD_BUS)" Type="Warning"/>
-    <Note Ref="8" Text="Not creating MatchGroup: &quot;MG10&quot;. Preserving deletion. (MatchGroup MG10)" Type="Warning"/>
-    <Note Ref="9" Text="Not creating MatchGroup: &quot;MG_DATA8-15&quot;. Preserving deletion. (MatchGroup MG_DATA8-15)" Type="Warning"/>
-    <Note Ref="a" Text="Not creating MatchGroup: &quot;MG_SDRAM_ADDRESS&quot;. Preserving deletion. (MatchGroup MG_SDRAM_ADDRESS)" Type="Warning"/>
-    <Note Ref="b" Text="Not creating MatchGroup: &quot;MG4&quot;. Preserving deletion. (MatchGroup MG4)" Type="Warning"/>
-    <Note Ref="c" Text="Not creating MatchGroup: &quot;MG11&quot;. Preserving deletion. (MatchGroup MG11)" Type="Warning"/>
-    <Note Ref="d" Text="Not creating MatchGroup: &quot;MG5&quot;. Preserving deletion. (MatchGroup MG5)" Type="Warning"/>
-    <Note Ref="e" Text="Not creating MatchGroup: &quot;MG9&quot;. Preserving deletion. (MatchGroup MG9)" Type="Warning"/>
-    <Note Ref="f" Text="Not creating MatchGroup: &quot;MG8&quot;. Preserving deletion. (MatchGroup MG8)" Type="Warning"/>
-    <Note Ref="10" Text="Not creating MatchGroup: &quot;MG6&quot;. Preserving deletion. (MatchGroup MG6)" Type="Warning"/>
-    <Note Ref="11" Text="Not creating MatchGroup: &quot;MG_DATA0-7&quot;. Preserving deletion. (MatchGroup MG_DATA0-7)" Type="Warning"/>
-  </Notes>
 
   <Layers>
     <Layer Name="TOP" Type="Conductor"/>

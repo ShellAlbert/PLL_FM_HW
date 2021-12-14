@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : FPGA-V13.brd                                  )
+(    Drawing          : FPGA-FINAL-V1.brd                             )
 (    Software Version : 17.4S017                                      )
-(    Date/Time        : Thu Dec  9 14:10:39 2021                      )
+(    Date/Time        : Tue Dec 14 14:46:24 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,15 +19,15 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         'G:/github/PLL_FM_HW/FPGA/Schematic/NETLIST'
 Design Directory:            'G:/github/PLL_FM_HW/FPGA/PCB'
-Old design name:             'G:/github/PLL_FM_HW/FPGA/PCB/FPGA-V13.brd'
-New design name:             'G:/github/PLL_FM_HW/FPGA/PCB/FPGA-V13.brd'
+Old design name:             'G:/github/PLL_FM_HW/FPGA/PCB/FPGA-FINAL-V1.brd'
+New design name:             'G:/github/PLL_FM_HW/FPGA/PCB/FPGA-FINAL-V1.brd'
 
-CmdLine: netrev -$ -i G:/github/PLL_FM_HW/FPGA/Schematic/NETLIST -y 1 -h -q netrev_constraint_report.xml G:/github/PLL_FM_HW/FPGA/PCB/#Taaaayv12716.tmp
+CmdLine: netrev -$ -i G:/github/PLL_FM_HW/FPGA/Schematic/NETLIST -y 1 -h -q netrev_constraint_report.xml G:/github/PLL_FM_HW/FPGA/PCB/#Taaaacn10632.tmp
 
 ------ Preparing to read pst files ------
 
 Starting to read G:/github/PLL_FM_HW/FPGA/Schematic/NETLIST/pstchip.dat 
-   Finished reading G:/github/PLL_FM_HW/FPGA/Schematic/NETLIST/pstchip.dat (00:00:00.28)
+   Finished reading G:/github/PLL_FM_HW/FPGA/Schematic/NETLIST/pstchip.dat (00:00:00.27)
 Starting to read G:/github/PLL_FM_HW/FPGA/Schematic/NETLIST/pstxprt.dat 
    Finished reading G:/github/PLL_FM_HW/FPGA/Schematic/NETLIST/pstxprt.dat (00:00:00.00)
 Starting to read G:/github/PLL_FM_HW/FPGA/Schematic/NETLIST/pstxnet.dat 
@@ -41,8 +41,8 @@ Starting to read G:/github/PLL_FM_HW/FPGA/Schematic/NETLIST/pstxnet.dat
 ===========================================================
 Start Constraint Diff3 Import
 	Constraint File:    G:/github/PLL_FM_HW/FPGA/Schematic/NETLIST/pstcmdb.dat
-	Allegro Baseline:   C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaaaf03236.tmp
-	Start time: Thu Dec  9 14:10:39 2021
+	Allegro Baseline:   C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaaaf12884.tmp
+	Start time: Tue Dec 14 14:46:24 2021
 ===========================================================
 
 
@@ -50,7 +50,7 @@ The constraint difference report file can be viewed using the following command:
 cdnFlowOOSMsg.exe -file file:///G:/github/PLL_FM_HW/FPGA/PCB/netrev_constraint_report.xml
 
 ===========================================================
-Finished Constraint Update	Time: Thu Dec  9 14:10:39 2021
+Finished Constraint Update	Time: Tue Dec 14 14:46:24 2021
 ===========================================================
 
 ------ Library Paths ------
@@ -80,7 +80,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Dec 9 14:10:39 2021
+netrev run on Dec 14 14:46:23 2021
    DESIGN NAME : 'MINIFMDEMOD'
    PACKAGING ON Apr 19 2021 16:22:31
 
@@ -105,6 +105,6 @@ netrev run on Dec 9 14:10:39 2021
  No oversight detected
  No warning detected
 
-cpu time      0:01:41
-elapsed time  0:00:00
+cpu time      0:02:06
+elapsed time  0:00:01
 
