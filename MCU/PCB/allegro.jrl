@@ -1,69 +1,72 @@
-\t (00:00:01) allegro 17.4 S017 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Fri Dec 10 10:28:56 2021
-\t (00:00:01)         Host=BF-202007251750 User=Administrator Pid=8852 CPUs=16
-\t (00:00:01) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
-\t (00:00:01) 
-   (00:00:01) Loading axlcore.cxt 
-\t (00:00:01) Opening existing design...
-\i (00:00:01) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "MCU-V4"
-\d (00:00:01) Design opened: G:/github/PLL_FM_HW/MCU/PCB/MCU-V4.brd
-\i (00:00:01) trapsize 10799
-\i (00:00:02) trapsize 11122
-\i (00:00:02) trapsize 11208
-\i (00:00:02) trapsize 8935
-\i (00:00:02) trapsize 9159
-\i (00:00:02) placementedit 
-\i (00:00:03) zoom in 1 
-\i (00:00:03) setwindow pcb
-\i (00:00:03) zoom in 24.4869 -44.2457
-\i (00:00:03) trapsize 4579
-\i (00:00:03) zoom in 1 
-\i (00:00:03) setwindow pcb
-\i (00:00:03) zoom in 23.8457 -43.6045
-\i (00:00:03) trapsize 2290
-\i (00:00:03) zoom in 1 
-\i (00:00:03) setwindow pcb
-\i (00:00:03) zoom in 23.2046 -43.1008
-\i (00:00:03) trapsize 1145
-\i (00:00:04) zoom out 1 
-\i (00:00:04) setwindow pcb
-\i (00:00:04) zoom out 20.3197 -38.0405
-\i (00:00:04) trapsize 2290
-\i (00:00:04) zoom in 1 
-\i (00:00:04) setwindow pcb
-\i (00:00:04) zoom in 17.9383 -39.8264
-\i (00:00:04) trapsize 1145
-\i (00:00:04) zoom in 1 
-\i (00:00:04) setwindow pcb
-\i (00:00:04) zoom in 17.9383 -39.8264
-\i (00:00:04) trapsize 572
-\i (00:00:05) zoom out 1 
-\i (00:00:05) setwindow pcb
-\i (00:00:05) zoom out 20.6173 -38.3495
-\i (00:00:05) trapsize 1145
-\i (00:00:06) zoom in 1 
-\i (00:00:06) setwindow pcb
-\i (00:00:06) zoom in 19.8158 -41.9672
-\i (00:00:06) trapsize 572
-\i (00:24:33) zoom out 1 
-\i (00:24:33) setwindow pcb
-\i (00:24:33) zoom out 20.4684 -42.8601
-\i (00:24:33) trapsize 1145
-\i (00:24:33) zoom out 1 
-\i (00:24:33) setwindow pcb
-\i (00:24:33) zoom out 20.4685 -42.8602
-\i (00:24:33) trapsize 2290
-\i (00:24:33) zoom out 1 
-\i (00:24:33) setwindow pcb
-\i (00:24:33) zoom out 21.6591 -42.4938
-\i (00:24:33) trapsize 4579
-\i (00:24:35) zoom out 1 
-\i (00:24:35) setwindow pcb
-\i (00:24:35) zoom out 41.1673 -47.1647
-\i (00:24:35) trapsize 9159
-\i (00:24:35) zoom in 1 
-\i (00:24:35) setwindow pcb
-\i (00:24:35) zoom in 34.3898 -18.0397
-\i (00:24:35) trapsize 4579
-\i (00:24:37) exit 
-\t (00:24:40)     Journal end - Fri Dec 10 10:53:35 2021
+\t (00:10:13) allegro 17.4 S017 Windows SPB 64-bit Edition
+\t (00:10:13)     Journal start - Wed Dec 15 09:04:26 2021
+\t (00:10:13)         Host=BF-202007251750 User=Administrator Pid=18544 CPUs=16
+\t (00:10:13) CmdLine= d:\zsy\cadence\cadence_spb_17.4-2019\tools\bin\allegro.exe G:\github\PLL_FM_HW\1.brd
+\t (00:10:13) 
+\d (00:10:13) Design opened: G:/github/PLL_FM_HW/MCU/PCB/MCU-V4.brd
+\i (00:10:13) placementedit 
+\i (00:10:17) prmed 
+\i (00:10:21) setwindow form.prmedit
+\i (00:10:21) FORM prmedit cancel  
+\i (00:10:21) setwindow pcb
+\i (00:10:21) placementedit 
+\i (00:10:23) prmed 
+\i (00:10:26) setwindow form.prmedit
+\i (00:10:26) FORM prmedit design  
+\i (00:10:38) FORM prmedit cancel  
+\i (00:10:38) setwindow pcb
+\i (00:10:38) placementedit 
+\i (00:10:40) zoom in 1 
+\i (00:10:40) setwindow pcb
+\i (00:10:40) zoom in 9.5854 -5.1954
+\i (00:10:40) trapsize 4467
+\i (00:10:40) zoom in 1 
+\i (00:10:40) setwindow pcb
+\i (00:10:40) zoom in 9.5854 -5.1954
+\i (00:10:40) trapsize 2234
+\i (00:10:50) zoom out 1 
+\i (00:10:50) setwindow pcb
+\i (00:10:50) zoom out 4.5373 -0.7727
+\i (00:10:50) trapsize 4467
+\i (00:10:50) zoom out 1 
+\i (00:10:50) setwindow pcb
+\i (00:10:50) zoom out 4.8053 -0.5046
+\i (00:10:50) trapsize 8935
+\i (00:10:50) zoom in 1 
+\i (00:10:50) setwindow pcb
+\i (00:10:50) zoom in 8.5579 -8.9033
+\i (00:10:50) trapsize 4467
+\i (00:10:51) zoom in 1 
+\i (00:10:51) setwindow pcb
+\i (00:10:51) zoom in 4.0905 -4.5252
+\i (00:10:51) trapsize 2234
+\i (00:10:52) zoom in 1 
+\i (00:10:52) setwindow pcb
+\i (00:10:52) zoom in 4.0906 -4.6145
+\i (00:10:52) trapsize 1117
+\i (00:10:53) zoom out 1 
+\i (00:10:53) setwindow pcb
+\i (00:10:53) zoom out 3.9343 -3.6764
+\i (00:10:53) trapsize 2234
+\i (00:10:54) zoom out 1 
+\i (00:10:54) setwindow pcb
+\i (00:10:54) zoom out 3.8895 -3.5870
+\i (00:10:54) trapsize 4467
+\i (00:10:55) zoom in 1 
+\i (00:10:55) setwindow pcb
+\i (00:10:55) zoom in 3.9788 -2.6042
+\i (00:10:55) trapsize 2234
+\i (00:10:55) zoom in 1 
+\i (00:10:55) setwindow pcb
+\i (00:10:55) zoom in 4.1575 -2.6042
+\i (00:10:55) trapsize 1117
+\i (00:11:04) xsection 
+\i (00:11:04) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged
+\i (00:11:04) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
+\i (00:11:29) QtSignal CCMQtXSectionDlg AddLayerDlg closed
+\i (00:11:29) placementedit 
+\i (00:11:44) new 
+\e (00:11:44) Do you want to save the changes you made to MCU-V4.brd?
+\i (00:11:45) fillin no 
+\i (00:11:57) newdrawfillin "1.brd" "Board"
+\t (00:11:57)     Journal end - Wed Dec 15 09:06:09 2021

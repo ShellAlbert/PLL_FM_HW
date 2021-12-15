@@ -93,6 +93,11 @@
       (Type "Log File")
       (LogFile "G:\github\PLL_FM_HW\FPGA\Schematic\NETLIST\swp.log")))
   (PartMRUSelector
+    ("DIODE TVS BI-DIR"
+      (FullPartName "DIODE TVS BI-DIR.Normal")
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (TPS7A9201DSKR
       (FullPartName "TPS7A9201DSKR.Normal")
       (LibraryName "G:\GITHUB\PLL_FM_HW\FPGA\SCHEMATIC\LIBRARY1.OLB")
@@ -195,11 +200,6 @@
     (AO3401A
       (FullPartName "AO3401A.Normal")
       (LibraryName "G:\ZSY\MINIFMDEMOD\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    ("MOSFET P"
-      (FullPartName "MOSFET P.Normal")
-      (LibraryName
-         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0")))
   (MPSSessionName "Administrator")
   (GlobalState
@@ -209,11 +209,43 @@
       (Path "Design Resources" ".\minifmdemod.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Path "Logs"))
+      (Path "Logs")
+      (Select "Design Resources" ".\minifmdemod.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 491 0 663"))
-      (Tab 0)))
-  (ISPCBBASICLICENSE "false"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 663"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1393 28 685")
+        (Scroll "32 292")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "G:\GITHUB\PLL_FM_HW\FPGA\SCHEMATIC\MINIFMDEMOD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "11-FM-INPUT"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1393 28 685")
+        (Scroll "0 37")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "G:\GITHUB\PLL_FM_HW\FPGA\SCHEMATIC\MINIFMDEMOD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "12-POWER_FPGA"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1393 28 685")
+        (Scroll "137 267")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "G:\GITHUB\PLL_FM_HW\FPGA\SCHEMATIC\MINIFMDEMOD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "10-FMDEMOD")))
+  (ISPCBBASICLICENSE "false")
+  (LastUsedLibraryBrowseDirectory "G:\github\PLL_FM_HW\MCU\Schematic"))

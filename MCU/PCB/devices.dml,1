@@ -1,2 +1,11 @@
 ("devices.dml" 
+ (PackagedDevice 
+  (R_R0201_DISCRETE_22_22 
+   (ESpice ".subckt R_R0201_DISCRETE_22_22 1 2
+R1 1 2  22
+.ends R_R0201_DISCRETE_22_22
+" ) 
+   (PinConnections 
+    (1 2 ) 
+    (2 1 ) ) ) ) 
  (LibraryVersion 136.2 ) ) 

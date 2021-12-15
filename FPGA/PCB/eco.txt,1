@@ -2,201 +2,22 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  G:/github/PLL_FM_HW/FPGA/PCB/FPGA-FINAL.brd                                 |
-|                                                    Tue Dec 14 14:45:03 2021  |
+|  G:/github/PLL_FM_HW/FPGA/PCB/FPGA-FINAL-V1.brd                              |
+|                                                    Tue Dec 14 14:46:24 2021  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  FPGA_UART_RXD net RENAMED (to net name listed on right)           FPGA_UART_TXD 
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FPGA_UART_TXD net RENAMED (to net name listed on right)           FPGA_UART_RXD 
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
-|------------------------------------------------------------------------------|
-|  G:/github/PLL_FM_HW/FPGA/PCB/FPGA-FINAL.brd                                 |
-|                                                    Tue Dec 14 14:45:03 2021  |
-|------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to design                                         |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- CAP NP_C0603_DISCRETE_100PF
- CAP NP_C0603_DISCRETE_150PF
- CAP NP_C1206_DISCRETE_22UF
- R_R0402_DISCRETE_1.15K
- R_R0402_DISCRETE_2.43K
- R_R0402_DISCRETE_2K
- R_R0402_DISCRETE_3.57K
- R_R0402_DISCRETE_10.5K
- R_R0402_DISCRETE_240K
- R_R0402_DISCRETE_328K
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  G:/github/PLL_FM_HW/FPGA/PCB/FPGA-FINAL.brd                                 |
-|                                                    Tue Dec 14 14:45:03 2021  |
-|------------------------------------------------------------------------------|
-| COMPONENTS CHANGED from one device type to another in design                 |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        | new device type     |   x   |   y   |  old  device type  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C75                 CAP NP_C0603_DISCRETE_100PF  6.7000 -12.700 CAP NP_C0603_DISCRETE_100PF/25V
- C76                 CAP NP_C0603_DISCRETE_150PF 17.2830 -12.700 CAP NP_C0603_DISCRETE_150PF/25V
- C77                 CAP NP_C0603_DISCRETE_100PF 29.2670 -12.700 CAP NP_C0603_DISCRETE_100PF/25V
- C78                 CAP NP_C0603_DISCRETE_100PF 39.4900 -12.700 CAP NP_C0603_DISCRETE_100PF/25V
- C79                 CAP NP_C0402_DISCRETE_0.1UF/50V 14.9000 -12.200 CAP NP_C0402_DISCRETE_0.1UF
- C80                 CAP NP_C0402_DISCRETE_0.1UF/50V 25.2670 -12.200 CAP NP_C0402_DISCRETE_0.1UF
- C81                 CAP NP_C0402_DISCRETE_0.1UF/50V 37.1430 -12.200 CAP NP_C0402_DISCRETE_0.1UF
- C82                 CAP NP_C0402_DISCRETE_0.1UF/50V 47.5050 -12.200 CAP NP_C0402_DISCRETE_0.1UF
- C84                 CAP NP_C0402_DISCRETE_1UF  8.3000 -14.400 CAP NP_C0402_DISCRETE_1UF/10V
- C85                 CAP NP_C0402_DISCRETE_1UF 18.8610 -14.400 CAP NP_C0402_DISCRETE_1UF/10V
- C86                 CAP NP_C0402_DISCRETE_1UF 30.7710 -14.400 CAP NP_C0402_DISCRETE_1UF/10V
- C87                 CAP NP_C0402_DISCRETE_1UF 41.1430 -14.400 CAP NP_C0402_DISCRETE_1UF/10V
- C103                CAP NP_C1206_DISCRETE_22UF 11.9000 -17.600 CAP NP_C1206_DISCRETE_22UF/25V
- C104                CAP NP_C1206_DISCRETE_22UF 22.4000 -20.000 CAP NP_C1206_DISCRETE_22UF/25V
- C105                CAP NP_C1206_DISCRETE_22UF 34.4000 -20.000 CAP NP_C1206_DISCRETE_22UF/25V
- C106                CAP NP_C1206_DISCRETE_22UF 44.7000 -17.600 CAP NP_C1206_DISCRETE_22UF/25V
- C115                CAP NP_C1206_DISCRETE_22UF 11.9000 -20.000 CAP NP_C1206_DISCRETE_22UF/25V
- C120                CAP NP_C1206_DISCRETE_22UF 44.7000 -20.000 CAP NP_C1206_DISCRETE_22UF/25V
- C124                CAP NP_C1206_DISCRETE_22UF 22.4000 -17.600 CAP NP_C1206_DISCRETE_22UF/25V
- C125                CAP NP_C1206_DISCRETE_22UF 34.4000 -17.600 CAP NP_C1206_DISCRETE_22UF/25V
- C645                CAP NP_C1206_DISCRETE_22UF 48.7000 -20.100 CAP NP_C1206_DISCRETE_22UF/25V
- C647                CAP NP_C1206_DISCRETE_22UF 38.3000 -20.100 CAP NP_C1206_DISCRETE_22UF/25V
- C651                CAP NP_C1206_DISCRETE_22UF 26.3050 -20.100 CAP NP_C1206_DISCRETE_22UF/25V
- C655                CAP NP_C1206_DISCRETE_22UF 15.9000 -20.100 CAP NP_C1206_DISCRETE_22UF/25V
- C674                CAP NP_C0402_DISCRETE_0.1UF 14.3000 -12.500 CAP NP_C0402_DISCRETE_0.1UF/50V
- C675                CAP NP_C0402_DISCRETE_0.1UF 24.7000 -12.500 CAP NP_C0402_DISCRETE_0.1UF/50V
- C676                CAP NP_C0402_DISCRETE_0.1UF 36.6000 -12.500 CAP NP_C0402_DISCRETE_0.1UF/50V
- C677                CAP NP_C0402_DISCRETE_0.1UF 46.9000 -12.500 CAP NP_C0402_DISCRETE_0.1UF/50V
- L18                 BEAD_FB0603_DISCRETE_BLM18SP102SN1D 40.3900 -29.300 BEAD_FB0603_DISCRETE_BEAD
- L21                 BEAD_FB0603_DISCRETE_BLM18SP102SN1D 39.6000 -52.300 BEAD_FB0603_DISCRETE_BEAD
- L22                 BEAD_FB0603_DISCRETE_BLM18SP102SN1D 19.7000 -57.500 BEAD_FB0603_DISCRETE_BEAD
- L35                 BEAD_FB0603_DISCRETE_BLM18SP102SN1D 37.8000 -33.600 BEAD_FB0603_DISCRETE_BEAD
- L36                 BEAD_FB0603_DISCRETE_BLM18SP102SN1D 20.4000 -26.200 BEAD_FB0603_DISCRETE_BEAD
- L37                 BEAD_FB0603_DISCRETE_BLM18SP102SN1D 37.4000 -28.100 BEAD_FB0603_DISCRETE_BEAD
- L38                 BEAD_FB0603_DISCRETE_BLM18SP102SN1D 34.4000 -34.100 BEAD_FB0603_DISCRETE_BEAD
- L39                 BEAD_FB0603_DISCRETE_BLM18SP102SN1D 21.9000 -34.000 BEAD_FB0603_DISCRETE_BEAD
- L40                 BEAD_FB0603_DISCRETE_BLM18SP102SN1D 33.6000 -43.000 BEAD_FB0603_DISCRETE_BEAD
- L41                 BEAD_FB0603_DISCRETE_BLM18SP102SN1D 21.6000 -43.100 BEAD_FB0603_DISCRETE_BEAD
- R75                 R_R0402_DISCRETE_328K  8.0000 -10.900 R_R0402_DISCRETE_294K
- R76                 R_R0402_DISCRETE_240K 18.5830 -10.900 R_R0402_DISCRETE_182K
- R77                 R_R0402_DISCRETE_180K 30.5670 -10.900 R_R0402_DISCRETE_127K
- R78                 R_R0402_DISCRETE_100K 40.7900 -10.900 R_R0402_DISCRETE_40.2K
- R381                R_R0402_DISCRETE_2.43K 38.1000 -23.600 R_R0402_DISCRETE_5.9K
- R382                R_R0402_DISCRETE_1.15K 38.6000 -22.610 R_R0402_DISCRETE_11.8K
- R384                R_R0402_DISCRETE_3.57K 26.1000 -23.600 R_R0402_DISCRETE_5.9K
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
-|------------------------------------------------------------------------------|
-|  G:/github/PLL_FM_HW/FPGA/PCB/FPGA-FINAL.brd                                 |
-|                                                    Tue Dec 14 14:45:03 2021  |
-|------------------------------------------------------------------------------|
-| COMPONENTS CHANGED from one device type to another in design                 |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        | new device type     |   x   |   y   |  old  device type  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R385                R_R0402_DISCRETE_1.15K 26.6000 -22.610 R_R0402_DISCRETE_11.8K
- R387                R_R0402_DISCRETE_10.5K 15.7000 -23.600 R_R0402_DISCRETE_5.9K
- R388                R_R0402_DISCRETE_2K   16.2000 -22.610 R_R0402_DISCRETE_11.8K
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   5  |
-|------------------------------------------------------------------------------|
-|  G:/github/PLL_FM_HW/FPGA/PCB/FPGA-FINAL.brd                                 |
-|                                                    Tue Dec 14 14:45:03 2021  |
-|------------------------------------------------------------------------------|
-| COMPONENT PROPERTIES added to design                                         |
+| COMPONENT PROPERTIES deleted from design                                     |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   ref  des   |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C215            9.5000 -59.900 NO_XNET_CONNEC TRUE
- C216           10.6000 -59.900 NO_XNET_CONNEC TRUE
- R162            8.0500 -48.880 NO_XNET_CONNEC TRUE
- R192           35.2640 -60.309 NO_XNET_CONNEC true
- R194           21.7740 -61.049 NO_XNET_CONNEC TRUE
- R196           21.7740 -62.020 NO_XNET_CONNEC TRUE
- R197           35.2640 -62.372 NO_XNET_CONNEC true
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   6  |
+ C63             9.5000 -59.900 NO_XNET_CONNEC 
+ C64            10.6000 -59.900 NO_XNET_CONNEC 
+ R52             8.0500 -48.880 NO_XNET_CONNEC 
+ R60            35.2640 -60.309 NO_XNET_CONNEC 
+ R62            21.7740 -61.049 NO_XNET_CONNEC 
+ R64            21.7740 -62.020 NO_XNET_CONNEC 
+ R65            35.2640 -62.372 NO_XNET_CONNEC 
 |------------------------------------------------------------------------------|
-|  G:/github/PLL_FM_HW/FPGA/PCB/FPGA-FINAL.brd                                 |
-|                                                    Tue Dec 14 14:45:03 2021  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C75.2           6.7000 -12.700 PRIM_FILE      .\pstchip.dat
- C76.2          17.2830 -12.700 PRIM_FILE      .\pstchip.dat
- C77.2          29.2670 -12.700 PRIM_FILE      .\pstchip.dat
- C78.2          39.4900 -12.700 PRIM_FILE      .\pstchip.dat
- C79.2          14.9000 -12.200 PRIM_FILE      .\pstchip.dat
- C80.2          25.2670 -12.200 PRIM_FILE      .\pstchip.dat
- C81.2          37.1430 -12.200 PRIM_FILE      .\pstchip.dat
- C82.2          47.5050 -12.200 PRIM_FILE      .\pstchip.dat
- C84.2           8.3000 -14.400 PRIM_FILE      .\pstchip.dat
- C85.2          18.8610 -14.400 PRIM_FILE      .\pstchip.dat
- C86.2          30.7710 -14.400 PRIM_FILE      .\pstchip.dat
- C87.2          41.1430 -14.400 PRIM_FILE      .\pstchip.dat
- C103.2         11.9000 -17.600 PRIM_FILE      .\pstchip.dat
- C104.2         22.4000 -20.000 PRIM_FILE      .\pstchip.dat
- C105.2         34.4000 -20.000 PRIM_FILE      .\pstchip.dat
- C106.2         44.7000 -17.600 PRIM_FILE      .\pstchip.dat
- C115.2         11.9000 -20.000 PRIM_FILE      .\pstchip.dat
- C120.2         44.7000 -20.000 PRIM_FILE      .\pstchip.dat
- C124.2         22.4000 -17.600 PRIM_FILE      .\pstchip.dat
- C125.2         34.4000 -17.600 PRIM_FILE      .\pstchip.dat
- C645.2         48.7000 -20.100 PRIM_FILE      .\pstchip.dat
- C647.2         38.3000 -20.100 PRIM_FILE      .\pstchip.dat
- C651.2         26.3050 -20.100 PRIM_FILE      .\pstchip.dat
- C655.2         15.9000 -20.100 PRIM_FILE      .\pstchip.dat
- C674.2         14.3000 -12.500 PRIM_FILE      .\pstchip.dat
- C675.2         24.7000 -12.500 PRIM_FILE      .\pstchip.dat
- C676.2         36.6000 -12.500 PRIM_FILE      .\pstchip.dat
- C677.2         46.9000 -12.500 PRIM_FILE      .\pstchip.dat
- L18.2          40.3900 -29.300 PRIM_FILE      .\pstchip.dat
- L21.2          39.6000 -52.300 PRIM_FILE      .\pstchip.dat
- L22.2          19.7000 -57.500 PRIM_FILE      .\pstchip.dat
- L35.2          37.8000 -33.600 PRIM_FILE      .\pstchip.dat
- L36.2          20.4000 -26.200 PRIM_FILE      .\pstchip.dat
- L37.2          37.4000 -28.100 PRIM_FILE      .\pstchip.dat
- L38.2          34.4000 -34.100 PRIM_FILE      .\pstchip.dat
- L39.2          21.9000 -34.000 PRIM_FILE      .\pstchip.dat
- L40.2          33.6000 -43.000 PRIM_FILE      .\pstchip.dat
- L41.2          21.6000 -43.100 PRIM_FILE      .\pstchip.dat
- R75.2           8.0000 -10.900 PRIM_FILE      .\pstchip.dat
- R76.2          18.5830 -10.900 PRIM_FILE      .\pstchip.dat
- R77.2          30.5670 -10.900 PRIM_FILE      .\pstchip.dat
- R78.2          40.7900 -10.900 PRIM_FILE      .\pstchip.dat
- R381.2         38.1000 -23.600 PRIM_FILE      .\pstchip.dat
- R382.2         38.6000 -22.610 PRIM_FILE      .\pstchip.dat
- R384.2         26.1000 -23.600 PRIM_FILE      .\pstchip.dat
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   7  |
-|------------------------------------------------------------------------------|
-|  G:/github/PLL_FM_HW/FPGA/PCB/FPGA-FINAL.brd                                 |
-|                                                    Tue Dec 14 14:45:03 2021  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R385.2         26.6000 -22.610 PRIM_FILE      .\pstchip.dat
- R387.2         15.7000 -23.600 PRIM_FILE      .\pstchip.dat
- R388.2         16.2000 -22.610 PRIM_FILE      .\pstchip.dat
-|------------------------------------------------------------------------------|
-|       Nets changed          :       2                                        |
-|       Comp definitions added:      10                                        |
-|       Components changed    :      48                                        |
-|       Comp property added   :       7                                        |
-|       Slot property added   :      48                                        |
+|       Comp property deleted :       7                                        |
 |                                                                              |
-|   Total ECO changes reported:     115                                        |
+|   Total ECO changes reported:       7                                        |
 |------------------------------------------------------------------------------|

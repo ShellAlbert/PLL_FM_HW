@@ -1,1001 +1,261 @@
-\t (00:00:06) allegro 17.4 S017 Windows SPB 64-bit Edition
-\t (00:00:06)     Journal start - Mon Dec 13 08:42:24 2021
-\t (00:00:06)         Host=BF-202007251750 User=Administrator Pid=7396 CPUs=16
-\t (00:00:06) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
-\t (00:00:06) 
-   (00:00:06) Loading axlcore.cxt 
-\t (00:00:07) Opening existing design...
-\i (00:00:08) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "FPGA-FINAL-V1"
-\d (00:00:08) Design opened: G:/github/PLL_FM_HW/FPGA/PCB/FPGA-FINAL-V1.brd
-\i (00:00:08) trapsize 9284
-\i (00:00:08) trapsize 9562
-\i (00:00:08) trapsize 9636
-\i (00:00:08) trapsize 7681
-\i (00:00:08) trapsize 7839
-\i (00:00:09) generaledit 
-\i (00:04:47) zoom in 1 
-\i (00:04:47) setwindow pcb
-\i (00:04:47) zoom in 73.2393 -72.6271
-\i (00:04:47) trapsize 3919
-\i (00:04:51) zoom out 1 
-\i (00:04:51) setwindow pcb
-\i (00:04:51) zoom out 61.9517 -70.1187
-\i (00:04:51) trapsize 7839
-\i (00:04:52) zoom in 1 
-\i (00:04:52) setwindow pcb
-\i (00:04:52) zoom in 73.2392 -70.7458
-\i (00:04:52) trapsize 3919
-\i (00:04:52) zoom in 1 
-\i (00:04:52) setwindow pcb
-\i (00:04:52) zoom in 73.2393 -70.7458
-\i (00:04:52) trapsize 1960
-\i (00:04:53) zoom out 1 
-\i (00:04:53) setwindow pcb
-\i (00:04:53) zoom out 67.3996 -72.6270
-\i (00:04:53) trapsize 3919
-\i (00:04:57) zoom out 1 
-\i (00:04:57) setwindow pcb
-\i (00:04:57) zoom out 69.4375 -73.1757
-\i (00:04:57) trapsize 7839
-\i (00:04:57) zoom out 1 
-\i (00:04:57) setwindow pcb
-\i (00:04:57) zoom out 73.8271 -76.6247
-\i (00:04:57) trapsize 15677
-\i (00:04:58) zoom in 1 
-\i (00:04:58) setwindow pcb
-\i (00:04:58) zoom in 9.5507 -81.6413
-\i (00:04:58) trapsize 7839
-\i (00:04:58) zoom in 1 
-\i (00:04:58) setwindow pcb
-\i (00:04:58) zoom in 12.6861 -80.8575
-\i (00:04:58) trapsize 3919
-\i (00:04:58) zoom in 1 
-\i (00:04:58) setwindow pcb
-\i (00:04:58) zoom in 18.4083 -79.9168
-\i (00:04:58) trapsize 1960
-\i (00:04:59) zoom out 1 
-\i (00:04:59) setwindow pcb
-\i (00:04:59) zoom out 19.4273 -80.7399
-\i (00:04:59) trapsize 3919
-\i (00:04:59) zoom out 1 
-\i (00:04:59) setwindow pcb
-\i (00:04:59) zoom out 19.3488 -80.8182
-\i (00:04:59) trapsize 7839
-\i (00:04:59) zoom out 1 
-\i (00:04:59) setwindow pcb
-\i (00:04:59) zoom out 19.3489 -81.1317
-\i (00:04:59) trapsize 15677
-\i (00:04:59) zoom in 1 
-\i (00:04:59) setwindow pcb
-\i (00:04:59) zoom in 21.5437 -31.9054
-\i (00:04:59) trapsize 7839
-\i (00:05:00) zoom in 1 
-\i (00:05:00) setwindow pcb
-\i (00:05:00) zoom in 21.2301 -31.5918
-\i (00:05:00) trapsize 3919
-\i (00:05:00) zoom in 1 
-\i (00:05:00) setwindow pcb
-\i (00:05:00) zoom in 21.2302 -31.5918
-\i (00:05:00) trapsize 1960
-\i (00:05:00) zoom out 1 
-\i (00:05:00) setwindow pcb
-\i (00:05:00) zoom out 21.2302 -31.6702
-\i (00:05:00) trapsize 3919
-\i (00:05:01) zoom out 1 
-\i (00:05:01) setwindow pcb
-\i (00:05:01) zoom out 21.5436 -32.4539
-\i (00:05:01) trapsize 7839
-\i (00:37:48) netin 
-\i (00:37:49) setwindow form.niparams
-\i (00:37:49) FORM niparams import  
-\t (00:37:49) Starting Cadence Logic Import...
-\t (00:37:52) Opening existing design...
-   (00:37:53) Loading signal.cxt 
-\i (00:37:53) setwindow pcb
-\i (00:37:53) trapsize 7839
-\i (00:37:54) generaledit 
-\i (00:37:55) zoom in 1 
-\i (00:37:55) setwindow pcb
-\i (00:37:55) zoom in 10.5696 -9.8788
-\i (00:37:55) trapsize 3919
-\i (00:37:55) zoom in 1 
-\i (00:37:55) setwindow pcb
-\i (00:37:55) zoom in 12.3725 -9.4085
-\i (00:37:55) trapsize 1960
-\i (00:37:55) save 
-\i (00:37:56) fillin yes 
-\i (00:37:56) generaledit 
-\i (00:37:57) color192 
-\i (00:37:57) generaledit 
-\i (00:37:59) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Top Pin 1
-\i (00:37:59) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
-\i (00:37:59) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:38:00) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Top Via 1
-\i (00:38:00) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 1
-\i (00:38:00) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:38:00) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Top Etch 1
-\i (00:38:00) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 2
-\i (00:38:00) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:38:01) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Bottom Etch 1
-\i (00:38:01) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 9 2
-\i (00:38:01) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:38:02) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Bottom Via 1
-\i (00:38:02) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 9 1
-\i (00:38:02) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:38:02) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Bottom Pin 1
-\i (00:38:02) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 9 0
-\i (00:38:02) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:38:03) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Signal-l4" Etch 1
-\i (00:38:03) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 3 2
-\i (00:38:03) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:38:04) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Signal-l4" Via 1
-\i (00:38:04) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 3 1
-\i (00:38:04) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:38:04) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Signal-l4" Pin 1
-\i (00:38:04) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 3 0
-\i (00:38:04) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:38:05) QtSignal CVDLayerTable CVDLayerTableHorzHeader clickedCheckBox Drc 1
-\i (00:38:05) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 3
-\i (00:38:07) QtSignal ColorVisibilityDialog CVDOkButton clicked
-\i (00:38:07) zoom out 1 
-\i (00:38:07) setwindow pcb
-\i (00:38:07) zoom out 19.5056 -5.6067
-\i (00:38:07) trapsize 3919
-\i (00:38:07) zoom in 1 
-\i (00:38:07) setwindow pcb
-\i (00:38:07) zoom in 24.2870 -27.3980
-\i (00:38:07) trapsize 1960
-\i (00:38:08) zoom in 1 
-\i (00:38:08) setwindow pcb
-\i (00:38:08) zoom in 25.1101 -27.5155
-\i (00:38:08) trapsize 980
-\i (00:38:08) zoom in 1 
-\i (00:38:08) setwindow pcb
-\i (00:38:08) zoom in 26.3250 -28.2406
-\i (00:38:08) trapsize 490
-\i (00:38:08) zoom in 1 
-\i (00:38:08) setwindow pcb
-\i (00:38:08) zoom in 25.1688 -28.4169
-\i (00:38:08) trapsize 245
-\i (00:38:08) zoom in 1 
-\i (00:38:08) setwindow pcb
-\i (00:38:08) zoom in 25.1689 -28.4168
-\i (00:38:08) trapsize 122
-\i (00:38:10) zoom out 1 
-\i (00:38:10) setwindow pcb
-\i (00:38:10) zoom out 24.5492 -27.9611
-\i (00:38:10) trapsize 245
-\i (00:38:10) zoom out 1 
-\i (00:38:10) setwindow pcb
-\i (00:38:10) zoom out 24.5442 -27.9612
-\i (00:38:10) trapsize 490
-\i (00:38:10) zoom in 1 
-\i (00:38:10) setwindow pcb
-\i (00:38:10) zoom in 31.4912 -27.2557
-\i (00:38:10) trapsize 245
-\i (00:38:11) zoom in 1 
-\i (00:38:11) setwindow pcb
-\i (00:38:11) zoom in 31.4912 -27.2557
-\i (00:38:11) trapsize 122
-\i (00:38:11) zoom out 1 
-\i (00:38:11) setwindow pcb
-\i (00:38:11) zoom out 29.7643 -26.9764
-\i (00:38:11) trapsize 245
-\i (00:38:11) zoom out 1 
-\i (00:38:11) setwindow pcb
-\i (00:38:11) zoom out 29.7545 -26.9863
-\i (00:38:11) trapsize 490
-\i (00:38:11) zoom out 1 
-\i (00:38:11) setwindow pcb
-\i (00:38:11) zoom out 29.7447 -27.0254
-\i (00:38:11) trapsize 980
-\i (00:38:11) zoom out 1 
-\i (00:38:11) setwindow pcb
-\i (00:38:11) zoom out 29.7447 -27.1626
-\i (00:38:11) trapsize 1960
-\i (00:38:12) zoom in 1 
-\i (00:38:12) setwindow pcb
-\i (00:38:12) zoom in 41.9730 -31.1211
-\i (00:38:12) trapsize 980
-\i (00:38:12) zoom in 1 
-\i (00:38:12) setwindow pcb
-\i (00:38:12) zoom in 41.9731 -31.1210
-\i (00:38:12) trapsize 490
-\i (00:38:12) zoom in 1 
-\i (00:38:12) setwindow pcb
-\i (00:38:12) zoom in 42.0025 -31.1406
-\i (00:38:12) trapsize 245
-\i (00:38:13) zoom out 1 
-\i (00:38:13) setwindow pcb
-\i (00:38:13) zoom out 41.4440 -30.3175
-\i (00:38:13) trapsize 490
-\i (00:38:13) zoom out 1 
-\i (00:38:13) setwindow pcb
-\i (00:38:13) zoom out 41.4441 -30.3175
-\i (00:38:13) trapsize 980
-\i (00:38:13) zoom out 1 
-\i (00:38:13) setwindow pcb
-\i (00:38:13) zoom out 41.4636 -30.4743
-\i (00:38:13) trapsize 1960
-\i (00:38:13) zoom in 1 
-\i (00:38:13) setwindow pcb
-\i (00:38:13) zoom in 41.7380 -37.1763
-\i (00:38:13) trapsize 980
-\i (00:38:13) zoom in 1 
-\i (00:38:13) setwindow pcb
-\i (00:38:13) zoom in 41.7184 -37.1763
-\i (00:38:13) trapsize 490
-\i (00:38:13) zoom in 1 
-\i (00:38:13) setwindow pcb
-\i (00:38:13) zoom in 41.7185 -37.1763
-\i (00:38:13) trapsize 245
-\i (00:38:15) save 
-\i (00:38:15) fillin yes 
-\i (00:38:16) generaledit 
-\i (00:38:16) save 
-\i (00:38:17) fillin yes 
-\i (00:38:17) save 
-\i (00:38:18) fillin yes 
-\i (00:38:18) zoom out 1 
-\i (00:38:18) setwindow pcb
-\i (00:38:18) zoom out 42.4093 -36.8774
-\i (00:38:18) trapsize 490
-\i (00:38:18) generaledit 
-\i (00:38:19) zoom in 1 
-\i (00:38:19) setwindow pcb
-\i (00:38:19) zoom in 38.4312 -39.8953
-\i (00:38:19) trapsize 245
-\i (00:38:19) zoom in 1 
-\i (00:38:19) setwindow pcb
-\i (00:38:19) zoom in 38.4313 -39.9638
-\i (00:38:19) trapsize 122
-\i (00:38:19) zoom in 1 
-\i (00:38:19) setwindow pcb
-\i (00:38:19) zoom in 38.4313 -39.9711
-\i (00:38:19) trapsize 61
-\i (00:38:20) zoom out 1 
-\i (00:38:20) setwindow pcb
-\i (00:38:20) zoom out 38.8599 -39.8277
-\i (00:38:20) trapsize 122
-\i (00:38:20) zoom out 1 
-\i (00:38:20) setwindow pcb
-\i (00:38:20) zoom out 38.8600 -39.8424
-\i (00:38:20) trapsize 245
-\i (00:38:20) zoom out 1 
-\i (00:38:20) setwindow pcb
-\i (00:38:20) zoom out 39.0314 -39.8817
-\i (00:38:20) trapsize 490
-\i (00:38:21) zoom out 1 
-\i (00:38:21) setwindow pcb
-\i (00:38:21) zoom out 39.0609 -39.8817
-\i (00:38:21) trapsize 980
-\i (00:38:23) zoom in 1 
-\i (00:38:23) setwindow pcb
-\i (00:38:23) zoom in 38.1986 -39.4505
-\i (00:38:23) trapsize 490
-\i (00:38:24) zoom in 1 
-\i (00:38:24) setwindow pcb
-\i (00:38:24) zoom in 38.2182 -39.3623
-\i (00:38:24) trapsize 245
-\i (00:38:24) zoom in 1 
-\i (00:38:24) setwindow pcb
-\i (00:38:24) zoom in 38.6788 -39.3084
-\i (00:38:24) trapsize 122
-\i (00:38:27) color192 
-\i (00:38:27) generaledit 
-\i (00:38:29) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry "Package geometry"
-\i (00:38:32) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Pin_Number" PkgGeo 1
-\i (00:38:32) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 12 0
-\i (00:38:32) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:38:33) QtSignal ColorVisibilityDialog CVDOkButton clicked
-\i (00:38:35) move 
-\t (00:38:35) Select element(s) to move.
-\i (00:38:35) setwindow form.find
-\i (00:38:35) FORM find all_off  
-\i (00:38:36) FORM find vias YES 
-\i (00:38:37) FORM find pins YES 
-\i (00:38:38) FORM find vias NO 
-\i (00:38:39) setwindow pcb
-\i (00:38:39) zoom out 1 
-\i (00:38:39) setwindow pcb
-\i (00:38:39) zoom out 38.3212 -38.8821
-\i (00:38:39) trapsize 245
-\i (00:38:39) zoom out 1 
-\i (00:38:39) setwindow pcb
-\i (00:38:39) zoom out 38.3212 -38.8821
-\i (00:38:39) trapsize 490
-\i (00:38:40) zoom in 1 
-\i (00:38:40) setwindow pcb
-\i (00:38:40) zoom in 38.5270 -38.6372
-\i (00:38:40) trapsize 245
-\i (00:38:42) setwindow form.find
-\i (00:38:42) FORM find vias YES 
-\i (00:38:43) setwindow pcb
-\i (00:38:43) prepopup 38.6348 -38.5098
-\i (00:38:44) done 
-\i (00:38:44) generaledit 
-\i (00:38:47) setwindow form.find
-\i (00:38:47) FORM find all_off  
-\i (00:38:48) FORM find pins YES 
-\i (00:48:48) setwindow pcb
-\i (00:48:48) xNet Fpga_Uart_Txd 
-\i (00:48:48) xNet Fpga_Uart2_Rxd 
-\i (00:48:48) xNet Gnd 
-\i (00:48:48) xrefdes J10 
-\i (00:48:48) xNet Fpga_Rst_Mcu 
-\i (00:48:48) xNet Fpga_Spi_Cs 
-\i (00:48:48) xNet Audio_Out 
-\i (00:48:48) xNet Fpga_Rst_Arm 
-\i (00:48:48) xNet Fpga_Spi_Sclk 
-\i (00:48:48) xNet Nrst_Fpga 
-\i (00:48:48) xNet Fpga_Spi_Miso 
-\i (00:48:48) xNet Fpga_Uart_Rxd 
-\i (00:48:48) xNet Fpga_Uart2_Txd 
-\i (00:48:48) xNet Fpga_Spi_Mosi 
-\i (00:48:48) xname_flush 
-\i (00:48:48) trapsize 3898
-\i (00:48:52) xNet '!' Fpga_Uart_Txd 
-\i (00:48:52) xNet '!' Fpga_Uart2_Rxd 
-\i (00:48:52) xNet '!' Gnd 
-\i (00:48:52) xrefdes '!' J10 
-\i (00:48:52) xNet '!' Fpga_Rst_Mcu 
-\i (00:48:52) xNet '!' Fpga_Spi_Cs 
-\i (00:48:52) xNet '!' Audio_Out 
-\i (00:48:52) xNet '!' Fpga_Rst_Arm 
-\i (00:48:52) xNet '!' Fpga_Spi_Sclk 
-\i (00:48:52) xNet '!' Nrst_Fpga 
-\i (00:48:52) xNet '!' Fpga_Spi_Miso 
-\i (00:48:52) xNet '!' Fpga_Uart_Rxd 
-\i (00:48:52) xNet '!' Fpga_Uart2_Txd 
-\i (00:48:52) xNet '!' Fpga_Spi_Mosi 
-\i (00:48:52) xname_flush '!' 
-\i (00:48:57) xrefdes C221 
-\i (00:48:57) xNet N7588017 
-\i (00:48:57) xrefdes R177 
-\i (00:48:57) xNet Clk_3V3 
-\i (00:48:57) xNet Io5 
-\i (00:48:57) xNet Vccio_3V3 
-\i (00:48:57) xNet Gnd 
-\i (00:48:57) xNet N7587990 
-\i (00:48:57) xNet Enc- 
-\i (00:48:57) xNet Fpga_Uart_Txd 
-\i (00:48:57) xNet Fpga_Uart2_Rxd 
-\i (00:48:57) xNet N7587454 
-\i (00:48:57) xNet Io6 
-\i (00:48:57) xrefdes C191 
-\i (00:48:57) xrefdes C210 
-\i (00:48:57) xNet N7588005 
-\i (00:48:57) xNet Io7 
-\i (00:48:57) xNet N7587591 
-\i (00:48:57) xNet N7586253 
-\i (00:48:57) xrefdes J10 
-\i (00:48:57) xNet Fpga_Rst_Mcu 
-\i (00:48:57) xNet Fpga_Spi_Cs 
-\i (00:48:57) xNet Audio_Out 
-\i (00:48:57) xrefdes R198 
-\i (00:48:57) xrefdes L21 
-\i (00:48:57) xNet Io8 
-\i (00:48:57) xrefdes C206 
-\i (00:48:57) xNet Io9 
-\i (00:48:57) xrefdes R197 
-\i (00:48:57) xNet Fpga_Rst_Arm 
-\i (00:48:57) xNet Fpga_Spi_Sclk 
-\i (00:48:57) xNet N7586806 
-\i (00:48:57) xNet Io10 
-\i (00:48:57) xrefdes C192 
-\i (00:48:57) xrefdes R166 
-\i (00:48:57) xNet Clk2fpga 
-\i (00:48:57) xNet N7586496 
-\i (00:48:57) xrefdes T3 
-\i (00:48:57) xNet Io1 
-\i (00:48:57) xNet Io11 
-\i (00:48:57) xNet N7587007 
-\i (00:48:57) xrefdes C662 
-\i (00:48:57) xNet Nrst_Fpga 
-\i (00:48:57) xNet Fpga_Spi_Miso 
-\i (00:48:57) xNet Io2 
-\i (00:48:57) xNet Io12 
-\i (00:48:57) xrefdes R188 
-\i (00:48:57) xNet Io3 
-\i (00:48:57) xrefdes C663 
-\i (00:48:57) xrefdes J12 
-\i (00:48:57) xrefdes R191 
-\i (00:48:57) xrefdes R192 
-\i (00:48:57) xNet Fpga_Uart_Rxd 
-\i (00:48:57) xNet Fpga_Uart2_Txd 
-\i (00:48:57) xNet Fpga_Spi_Mosi 
-\i (00:48:57) xrefdes U32 
-\i (00:48:57) xrefdes Y4 
-\i (00:48:57) xrefdes C193 
-\i (00:48:57) xNet Io4 
-\i (00:48:57) xrefdes C204 
-\i (00:48:57) xrefdes R185 
-\i (00:48:57) xNet Enc+ 
-\i (00:48:57) xname_flush 
-\i (00:49:06) xrefdes '!' C221 
-\i (00:49:06) xNet '!' N7588017 
-\i (00:49:06) xrefdes '!' R177 
-\i (00:49:06) xNet '!' Clk_3V3 
-\i (00:49:06) xNet '!' Io5 
-\i (00:49:06) xNet '!' Vccio_3V3 
-\i (00:49:06) xNet '!' Gnd 
-\i (00:49:06) xNet '!' N7587990 
-\i (00:49:06) xNet '!' Enc- 
-\i (00:49:06) xNet '!' Fpga_Uart_Txd 
-\i (00:49:06) xNet '!' Fpga_Uart2_Rxd 
-\i (00:49:06) xNet '!' N7587454 
-\i (00:49:06) xNet '!' Io6 
-\i (00:49:06) xrefdes '!' C191 
-\i (00:49:06) xrefdes '!' C210 
-\i (00:49:06) xNet '!' N7588005 
-\i (00:49:06) xNet '!' Io7 
-\i (00:49:06) xNet '!' N7587591 
-\i (00:49:06) xNet '!' N7586253 
-\i (00:49:06) xrefdes '!' J10 
-\i (00:49:06) xNet '!' Fpga_Rst_Mcu 
-\i (00:49:06) xNet '!' Fpga_Spi_Cs 
-\i (00:49:06) xNet '!' Audio_Out 
-\i (00:49:06) xrefdes '!' R198 
-\i (00:49:06) xrefdes '!' L21 
-\i (00:49:06) xNet '!' Io8 
-\i (00:49:06) xrefdes '!' C206 
-\i (00:49:06) xNet '!' Io9 
-\i (00:49:06) xrefdes '!' R197 
-\i (00:49:06) xNet '!' Fpga_Rst_Arm 
-\i (00:49:06) xNet '!' Fpga_Spi_Sclk 
-\i (00:49:06) xNet '!' N7586806 
-\i (00:49:06) xNet '!' Io10 
-\i (00:49:06) xrefdes '!' C192 
-\i (00:49:06) xrefdes '!' R166 
-\i (00:49:06) xNet '!' Clk2fpga 
-\i (00:49:06) xNet '!' N7586496 
-\i (00:49:06) xrefdes '!' T3 
-\i (00:49:06) xNet '!' Io1 
-\i (00:49:06) xNet '!' Io11 
-\i (00:49:06) xNet '!' N7587007 
-\i (00:49:06) xrefdes '!' C662 
-\i (00:49:06) xNet '!' Nrst_Fpga 
-\i (00:49:06) xNet '!' Fpga_Spi_Miso 
-\i (00:49:06) xNet '!' Io2 
-\i (00:49:06) xNet '!' Io12 
-\i (00:49:06) xrefdes '!' R188 
-\i (00:49:06) xNet '!' Io3 
-\i (00:49:06) xrefdes '!' C663 
-\i (00:49:06) xrefdes '!' J12 
-\i (00:49:06) xrefdes '!' R191 
-\i (00:49:06) xrefdes '!' R192 
-\i (00:49:06) xNet '!' Fpga_Uart_Rxd 
-\i (00:49:06) xNet '!' Fpga_Uart2_Txd 
-\i (00:49:06) xNet '!' Fpga_Spi_Mosi 
-\i (00:49:06) xrefdes '!' U32 
-\i (00:49:06) xrefdes '!' Y4 
-\i (00:49:06) xrefdes '!' C193 
-\i (00:49:06) xNet '!' Io4 
-\i (00:49:06) xrefdes '!' C204 
-\i (00:49:06) xrefdes '!' R185 
-\i (00:49:06) xNet '!' Enc+ 
-\i (00:49:06) xname_flush '!' 
-\i (00:49:07) xNet Io5 
-\i (00:49:07) xNet Io6 
-\i (00:49:07) xNet Gnd 
-\i (00:49:07) xNet Io7 
-\i (00:49:07) xNet Io8 
-\i (00:49:07) xNet Io9 
-\i (00:49:07) xNet Io10 
-\i (00:49:07) xNet Io1 
-\i (00:49:07) xNet Io11 
-\i (00:49:07) xNet Io2 
-\i (00:49:07) xNet Io12 
-\i (00:49:07) xNet Io3 
-\i (00:49:07) xrefdes J12 
-\i (00:49:07) xNet Io4 
-\i (00:49:07) xname_flush 
-\i (00:49:07) trapsize 3898
-\i (00:49:10) xNet '!' Io5 
-\i (00:49:10) xNet '!' Io6 
-\i (00:49:10) xNet '!' Gnd 
-\i (00:49:10) xNet '!' Io7 
-\i (00:49:10) xNet '!' Io8 
-\i (00:49:10) xNet '!' Io9 
-\i (00:49:10) xNet '!' Io10 
-\i (00:49:10) xNet '!' Io1 
-\i (00:49:10) xNet '!' Io11 
-\i (00:49:10) xNet '!' Io2 
-\i (00:49:10) xNet '!' Io12 
-\i (00:49:10) xNet '!' Io3 
-\i (00:49:10) xrefdes '!' J12 
-\i (00:49:10) xNet '!' Io4 
-\i (00:49:10) xname_flush '!' 
-\i (00:49:11) xNet Fpga_Uart_Txd 
-\i (00:49:11) xNet Fpga_Uart2_Rxd 
-\i (00:49:11) xNet Gnd 
-\i (00:49:11) xrefdes J10 
-\i (00:49:11) xNet Fpga_Rst_Mcu 
-\i (00:49:11) xNet Fpga_Spi_Cs 
-\i (00:49:11) xNet Audio_Out 
-\i (00:49:11) xNet Fpga_Rst_Arm 
-\i (00:49:11) xNet Fpga_Spi_Sclk 
-\i (00:49:11) xNet Nrst_Fpga 
-\i (00:49:11) xNet Fpga_Spi_Miso 
-\i (00:49:11) xNet Fpga_Uart_Rxd 
-\i (00:49:11) xNet Fpga_Uart2_Txd 
-\i (00:49:11) xNet Fpga_Spi_Mosi 
-\i (00:49:11) xname_flush 
-\i (00:49:11) trapsize 3898
-\i (00:49:17) xNet '!' Fpga_Uart_Txd 
-\i (00:49:17) xNet '!' Fpga_Uart2_Rxd 
-\i (00:49:17) xNet '!' Gnd 
-\i (00:49:17) xrefdes '!' J10 
-\i (00:49:17) xNet '!' Fpga_Rst_Mcu 
-\i (00:49:17) xNet '!' Fpga_Spi_Cs 
-\i (00:49:17) xNet '!' Audio_Out 
-\i (00:49:17) xNet '!' Fpga_Rst_Arm 
-\i (00:49:17) xNet '!' Fpga_Spi_Sclk 
-\i (00:49:17) xNet '!' Nrst_Fpga 
-\i (00:49:17) xNet '!' Fpga_Spi_Miso 
-\i (00:49:17) xNet '!' Fpga_Uart_Rxd 
-\i (00:49:17) xNet '!' Fpga_Uart2_Txd 
-\i (00:49:17) xNet '!' Fpga_Spi_Mosi 
-\i (00:49:17) xname_flush '!' 
-\i (00:49:18) xNet Io5 
-\i (00:49:18) xNet Io6 
-\i (00:49:18) xNet Gnd 
-\i (00:49:18) xNet Io7 
-\i (00:49:18) xNet Io8 
-\i (00:49:18) xNet Io9 
-\i (00:49:18) xNet Io10 
-\i (00:49:18) xNet Io1 
-\i (00:49:18) xNet Io11 
-\i (00:49:18) xNet Io2 
-\i (00:49:18) xNet Io12 
-\i (00:49:18) xNet Io3 
-\i (00:49:18) xrefdes J12 
-\i (00:49:18) xNet Io4 
-\i (00:49:18) xname_flush 
-\i (00:49:18) trapsize 3898
-\i (00:49:20) xNet '!' Io5 
-\i (00:49:20) xNet '!' Io6 
-\i (00:49:20) xNet '!' Gnd 
-\i (00:49:20) xNet '!' Io7 
-\i (00:49:20) xNet '!' Io8 
-\i (00:49:20) xNet '!' Io9 
-\i (00:49:20) xNet '!' Io10 
-\i (00:49:20) xNet '!' Io1 
-\i (00:49:20) xNet '!' Io11 
-\i (00:49:20) xNet '!' Io2 
-\i (00:49:20) xNet '!' Io12 
-\i (00:49:20) xNet '!' Io3 
-\i (00:49:20) xrefdes '!' J12 
-\i (00:49:20) xNet '!' Io4 
-\i (00:49:20) xname_flush '!' 
-\i (00:53:20) xNet Io5 
-\i (00:53:20) xNet Io6 
-\i (00:53:20) xNet Gnd 
-\i (00:53:20) xNet Io7 
-\i (00:53:20) xNet Io8 
-\i (00:53:20) xNet Io9 
-\i (00:53:20) xNet Io10 
-\i (00:53:20) xNet Io1 
-\i (00:53:20) xNet Io11 
-\i (00:53:20) xNet Io2 
-\i (00:53:20) xNet Io12 
-\i (00:53:20) xNet Io3 
-\i (00:53:20) xrefdes J12 
-\i (00:53:20) xNet Io4 
-\i (00:53:20) xname_flush 
-\i (00:53:20) trapsize 3898
-\i (00:53:22) xNet '!' Io5 
-\i (00:53:22) xNet '!' Io6 
-\i (00:53:22) xNet '!' Gnd 
-\i (00:53:22) xNet '!' Io7 
-\i (00:53:22) xNet '!' Io8 
-\i (00:53:22) xNet '!' Io9 
-\i (00:53:22) xNet '!' Io10 
-\i (00:53:22) xNet '!' Io1 
-\i (00:53:22) xNet '!' Io11 
-\i (00:53:22) xNet '!' Io2 
-\i (00:53:22) xNet '!' Io12 
-\i (00:53:22) xNet '!' Io3 
-\i (00:53:22) xrefdes '!' J12 
-\i (00:53:22) xNet '!' Io4 
-\i (00:53:22) xname_flush '!' 
-\i (00:56:17) zoom in 1 
-\i (00:56:17) setwindow pcb
-\i (00:56:17) zoom in 21.3742 -7.3274
-\i (00:56:17) trapsize 1949
-\i (00:56:17) zoom in 1 
-\i (00:56:17) setwindow pcb
-\i (00:56:17) zoom in 20.2439 -8.6136
-\i (00:56:17) trapsize 974
-\i (00:56:17) zoom in 1 
-\i (00:56:17) setwindow pcb
-\i (00:56:17) zoom in 20.1855 -8.8669
-\i (00:56:17) trapsize 487
-\i (00:56:19) zoom out 1 
-\i (00:56:19) setwindow pcb
-\i (00:56:19) zoom out 19.7958 -8.3601
-\i (00:56:19) trapsize 974
-\i (00:56:19) zoom out 1 
-\i (00:56:19) setwindow pcb
-\i (00:56:19) zoom out 20.2245 -8.4187
-\i (00:56:19) trapsize 1949
-\i (00:56:19) zoom out 1 
-\i (00:56:19) setwindow pcb
-\i (00:56:19) zoom out 20.6144 -8.5355
-\i (00:56:19) trapsize 3898
-\i (00:56:19) zoom out 1 
-\i (00:56:19) setwindow pcb
-\i (00:56:19) zoom out 24.6678 -10.0945
-\i (00:56:19) trapsize 7795
-\i (00:56:20) zoom in 1 
-\i (00:56:20) setwindow pcb
-\i (00:56:20) zoom in 27.3182 -50.7851
-\i (00:56:20) trapsize 3898
-\i (00:56:20) zoom in 1 
-\i (00:56:20) setwindow pcb
-\i (00:56:20) zoom in 27.3961 -51.1749
-\i (00:56:20) trapsize 1949
-\i (00:56:21) zoom in 1 
-\i (00:56:21) setwindow pcb
-\i (00:56:21) zoom in 21.5888 -52.1882
-\i (00:56:21) trapsize 974
-\i (00:56:21) zoom in 1 
-\i (00:56:21) setwindow pcb
-\i (00:56:21) zoom in 21.5888 -52.1882
-\i (00:56:21) trapsize 487
-\i (00:56:21) zoom out 1 
-\i (00:56:21) setwindow pcb
-\i (00:56:21) zoom out 21.6473 -52.0615
-\i (00:56:21) trapsize 974
-\i (00:56:21) zoom out 1 
-\i (00:56:21) setwindow pcb
-\i (00:56:21) zoom out 21.6473 -52.0616
-\i (00:56:21) trapsize 1949
-\i (00:56:22) zoom out 1 
-\i (00:56:22) setwindow pcb
-\i (00:56:22) zoom out 18.9970 -49.9179
-\i (00:56:22) trapsize 3898
-\i (00:56:22) open 
-\e (00:56:22) Do you want to save the changes you made to G:/github/PLL_FM_HW/FPGA/PCB/FPGA-FINAL-V1.brd?
-\i (00:56:24) fillin menu_cancel 
-\i (00:56:24) generaledit 
-\i (00:56:25) save 
-\i (00:56:25) fillin yes 
-\i (00:56:26) generaledit 
-\i (01:01:31) zoom in 1 
-\i (01:01:31) setwindow pcb
-\i (01:01:31) zoom in 22.7387 -55.8421
-\i (01:01:31) trapsize 1949
-\i (01:01:31) zoom in 1 
-\i (01:01:31) setwindow pcb
-\i (01:01:31) zoom in 22.6608 -55.7252
-\i (01:01:31) trapsize 974
-\i (01:01:31) save 
-\i (01:01:32) fillin yes 
-\i (01:01:32) generaledit 
-\i (01:01:32) zoom out 1 
-\i (01:01:32) setwindow pcb
-\i (01:01:32) zoom out 25.3891 -56.8165
-\i (01:01:32) trapsize 1949
-\i (01:01:33) zoom in 1 
-\i (01:01:33) setwindow pcb
-\i (01:01:33) zoom in 29.3646 -59.5837
-\i (01:01:33) trapsize 974
-\i (01:01:33) zoom in 1 
-\i (01:01:33) setwindow pcb
-\i (01:01:33) zoom in 29.3646 -59.1550
-\i (01:01:33) trapsize 487
-\i (01:01:34) zoom out 1 
-\i (01:01:34) setwindow pcb
-\i (01:01:34) zoom out 27.7082 -59.0283
-\i (01:01:34) trapsize 974
-\i (01:01:34) zoom out 1 
-\i (01:01:34) setwindow pcb
-\i (01:01:34) zoom out 27.7472 -59.4180
-\i (01:01:34) trapsize 1949
-\i (01:01:34) zoom out 1 
-\i (01:01:34) setwindow pcb
-\i (01:01:34) zoom out 28.3318 -59.9246
-\i (01:01:34) trapsize 3898
-\i (01:01:34) zoom out 1 
-\i (01:01:34) setwindow pcb
-\i (01:01:34) zoom out 30.1247 -61.8734
-\i (01:01:34) trapsize 7795
-\i (01:01:34) zoom in 1 
-\i (01:01:34) setwindow pcb
-\i (01:01:34) zoom in 15.0022 -6.9958
-\i (01:01:34) trapsize 3898
-\i (01:01:34) zoom in 1 
-\i (01:01:35) setwindow pcb
-\i (01:01:35) zoom in 14.5345 -6.6060
-\i (01:01:35) trapsize 1949
-\i (01:01:35) zoom in 1 
-\i (01:01:35) setwindow pcb
-\i (01:01:35) zoom in 14.5346 -6.5671
-\i (01:01:35) trapsize 974
-\i (01:01:35) zoom in 1 
-\i (01:01:35) setwindow pcb
-\i (01:01:35) zoom in 15.3531 -8.1651
-\i (01:01:35) trapsize 487
-\i (01:01:35) save 
-\i (01:01:36) fillin yes 
-\i (01:01:37) zoom in 1 
-\i (01:01:37) setwindow pcb
-\i (01:01:37) zoom in 15.4700 -9.4708
-\i (01:01:37) trapsize 244
-\i (01:01:37) generaledit 
-\i (01:01:37) zoom in 1 
-\i (01:01:37) setwindow pcb
-\i (01:01:37) zoom in 15.4701 -9.4707
-\i (01:01:37) trapsize 122
-\i (01:01:37) zoom out 1 
-\i (01:01:37) setwindow pcb
-\i (01:01:37) zoom out 15.7332 -8.8812
-\i (01:01:37) trapsize 244
-\i (01:01:37) zoom out 1 
-\i (01:01:37) setwindow pcb
-\i (01:01:37) zoom out 15.7722 -8.9006
-\i (01:01:37) trapsize 487
-\i (01:01:37) zoom out 1 
-\i (01:01:37) setwindow pcb
-\i (01:01:37) zoom out 15.9378 -9.1150
-\i (01:01:37) trapsize 974
-\i (01:02:13) xNet Fpga_Uart_Txd 
-\i (01:02:13) xNet Fpga_Uart2_Rxd 
-\i (01:02:13) xNet Gnd 
-\i (01:02:13) xrefdes J10 
-\i (01:02:13) xNet Fpga_Rst_Mcu 
-\i (01:02:13) xNet Fpga_Spi_Cs 
-\i (01:02:13) xNet Audio_Out 
-\i (01:02:13) xNet Fpga_Rst_Arm 
-\i (01:02:13) xNet Fpga_Spi_Sclk 
-\i (01:02:13) xNet Nrst_Fpga 
-\i (01:02:13) xNet Fpga_Spi_Miso 
-\i (01:02:13) xNet Fpga_Uart_Rxd 
-\i (01:02:13) xNet Fpga_Uart2_Txd 
-\i (01:02:13) xNet Fpga_Spi_Mosi 
-\i (01:02:13) xname_flush 
-\i (01:02:13) trapsize 3898
-\i (01:02:16) xNet '!' Fpga_Uart_Txd 
-\i (01:02:16) xNet '!' Fpga_Uart2_Rxd 
-\i (01:02:16) xNet '!' Gnd 
-\i (01:02:16) xrefdes '!' J10 
-\i (01:02:16) xNet '!' Fpga_Rst_Mcu 
-\i (01:02:16) xNet '!' Fpga_Spi_Cs 
-\i (01:02:16) xNet '!' Audio_Out 
-\i (01:02:16) xNet '!' Fpga_Rst_Arm 
-\i (01:02:16) xNet '!' Fpga_Spi_Sclk 
-\i (01:02:16) xNet '!' Nrst_Fpga 
-\i (01:02:16) xNet '!' Fpga_Spi_Miso 
-\i (01:02:16) xNet '!' Fpga_Uart_Rxd 
-\i (01:02:16) xNet '!' Fpga_Uart2_Txd 
-\i (01:02:16) xNet '!' Fpga_Spi_Mosi 
-\i (01:02:16) xname_flush '!' 
-\i (01:02:20) xNet Io5 
-\i (01:02:20) xNet Io6 
-\i (01:02:20) xNet Gnd 
-\i (01:02:20) xNet Io7 
-\i (01:02:20) xNet Io8 
-\i (01:02:20) xNet Io9 
-\i (01:02:20) xNet Io10 
-\i (01:02:20) xNet Io1 
-\i (01:02:20) xNet Io11 
-\i (01:02:20) xNet Io2 
-\i (01:02:20) xNet Io12 
-\i (01:02:20) xNet Io3 
-\i (01:02:20) xrefdes J12 
-\i (01:02:20) xNet Io4 
-\i (01:02:20) xname_flush 
-\i (01:02:20) trapsize 3898
-\i (01:02:21) xNet '!' Io5 
-\i (01:02:21) xNet '!' Io6 
-\i (01:02:21) xNet '!' Gnd 
-\i (01:02:21) xNet '!' Io7 
-\i (01:02:21) xNet '!' Io8 
-\i (01:02:21) xNet '!' Io9 
-\i (01:02:21) xNet '!' Io10 
-\i (01:02:21) xNet '!' Io1 
-\i (01:02:21) xNet '!' Io11 
-\i (01:02:21) xNet '!' Io2 
-\i (01:02:21) xNet '!' Io12 
-\i (01:02:21) xNet '!' Io3 
-\i (01:02:21) xrefdes '!' J12 
-\i (01:02:21) xNet '!' Io4 
-\i (01:02:21) xname_flush '!' 
-\i (01:02:22) xNet Fpga_Uart_Txd 
-\i (01:02:22) xNet Fpga_Uart2_Rxd 
-\i (01:02:22) xNet Gnd 
-\i (01:02:22) xrefdes J10 
-\i (01:02:22) xNet Fpga_Rst_Mcu 
-\i (01:02:22) xNet Fpga_Spi_Cs 
-\i (01:02:22) xNet Audio_Out 
-\i (01:02:22) xNet Fpga_Rst_Arm 
-\i (01:02:22) xNet Fpga_Spi_Sclk 
-\i (01:02:22) xNet Nrst_Fpga 
-\i (01:02:22) xNet Fpga_Spi_Miso 
-\i (01:02:22) xNet Fpga_Uart_Rxd 
-\i (01:02:22) xNet Fpga_Uart2_Txd 
-\i (01:02:22) xNet Fpga_Spi_Mosi 
-\i (01:02:22) xname_flush 
-\i (01:02:22) trapsize 3898
-\i (01:02:26) xNet '!' Fpga_Uart_Txd 
-\i (01:02:26) xNet '!' Fpga_Uart2_Rxd 
-\i (01:02:26) xNet '!' Gnd 
-\i (01:02:26) xrefdes '!' J10 
-\i (01:02:26) xNet '!' Fpga_Rst_Mcu 
-\i (01:02:26) xNet '!' Fpga_Spi_Cs 
-\i (01:02:26) xNet '!' Audio_Out 
-\i (01:02:26) xNet '!' Fpga_Rst_Arm 
-\i (01:02:26) xNet '!' Fpga_Spi_Sclk 
-\i (01:02:26) xNet '!' Nrst_Fpga 
-\i (01:02:26) xNet '!' Fpga_Spi_Miso 
-\i (01:02:26) xNet '!' Fpga_Uart_Rxd 
-\i (01:02:26) xNet '!' Fpga_Uart2_Txd 
-\i (01:02:26) xNet '!' Fpga_Spi_Mosi 
-\i (01:02:26) xname_flush '!' 
-\i (01:04:32) zoom in 1 
-\i (01:04:32) setwindow pcb
-\i (01:04:32) zoom in 8.5903 -6.0802
-\i (01:04:32) trapsize 1949
-\i (01:04:32) zoom in 1 
-\i (01:04:32) setwindow pcb
-\i (01:04:32) zoom in 8.5903 -6.0412
-\i (01:04:32) trapsize 974
-\i (01:04:32) zoom out 1 
-\i (01:04:32) setwindow pcb
-\i (01:04:32) zoom out 8.1226 -7.1520
-\i (01:04:32) trapsize 1949
-\i (01:04:33) zoom out 1 
-\i (01:04:33) setwindow pcb
-\i (01:04:33) zoom out 8.4734 -7.8924
-\i (01:04:33) trapsize 3898
-\i (01:04:33) zoom out 1 
-\i (01:04:33) setwindow pcb
-\i (01:04:33) zoom out 9.4088 -9.1397
-\i (01:04:33) trapsize 7795
-\i (01:04:33) zoom in 1 
-\i (01:04:33) setwindow pcb
-\i (01:04:33) zoom in 42.3042 -48.7388
-\i (01:04:33) trapsize 3898
-\i (01:04:35) zoom out 1 
-\i (01:04:35) setwindow pcb
-\i (01:04:35) zoom out 61.6361 -52.4804
-\i (01:04:35) trapsize 7795
-\i (01:04:37) zoom in 1 
-\i (01:04:37) setwindow pcb
-\i (01:04:37) zoom in 25.6226 11.9072
-\i (01:04:37) trapsize 3898
-\i (01:04:38) zoom in 1 
-\i (01:04:38) setwindow pcb
-\i (01:04:38) zoom in 24.2975 12.7646
-\i (01:04:38) trapsize 1949
-\i (01:04:38) zoom in 1 
-\i (01:04:38) setwindow pcb
-\i (01:04:38) zoom in 24.3755 12.0241
-\i (01:04:38) trapsize 974
-\i (01:04:38) zoom out 1 
-\i (01:04:38) setwindow pcb
-\i (01:04:38) zoom out 24.4340 8.3604
-\i (01:04:38) trapsize 1949
-\i (01:04:42) zoom out 1 
-\i (01:04:42) setwindow pcb
-\i (01:04:42) zoom out 25.4864 11.4395
-\i (01:04:42) trapsize 3898
-\i (01:04:43) zoom in 1 
-\i (01:04:43) setwindow pcb
-\i (01:04:43) zoom in 5.8427 -2.2799
-\i (01:04:43) trapsize 1949
-\i (01:04:44) zoom out 1 
-\i (01:04:44) setwindow pcb
-\i (01:04:44) zoom out 7.4018 0.3315
-\i (01:04:44) trapsize 3898
-\i (01:06:06) zoom out 1 
-\i (01:06:06) setwindow pcb
-\i (01:06:06) zoom out 3.7380 2.7479
-\i (01:06:06) trapsize 7795
-\i (01:13:25) xNet Gnd 
-\i (01:13:25) xrefdes Tp52 
-\i (01:13:25) xrefdes Tp51 
-\i (01:13:25) xname_flush 
-\i (01:13:25) trapsize 3898
-\i (01:13:27) xNet '!' Gnd 
-\i (01:13:27) xrefdes '!' Tp52 
-\i (01:13:27) xrefdes '!' Tp51 
-\i (01:13:27) xname_flush '!' 
-\i (01:17:20) xNet Gnd 
-\i (01:17:20) xrefdes Tp52 
-\i (01:17:20) xrefdes Tp51 
-\i (01:17:20) xname_flush 
-\i (01:17:20) trapsize 3898
-\i (01:17:23) xNet Gnd 
-\i (01:17:23) xname_flush 
-\i (01:17:23) trapsize 3898
-\i (01:17:23) xNet '!' Gnd 
-\i (01:17:23) xrefdes '!' Tp52 
-\i (01:17:23) xrefdes '!' Tp51 
-\i (01:17:23) xname_flush '!' 
-\i (01:19:38) zoom in 1 
-\i (01:19:38) setwindow pcb
-\i (01:19:38) zoom in 10.9288 -6.0022
-\i (01:19:38) trapsize 1949
-\i (01:19:38) zoom in 1 
-\i (01:19:38) setwindow pcb
-\i (01:19:38) zoom in 10.9288 -6.0022
-\i (01:19:38) trapsize 974
-\i (01:19:38) zoom out 1 
-\i (01:19:38) setwindow pcb
-\i (01:19:38) zoom out 9.8765 -6.4504
-\i (01:19:38) trapsize 1949
-\i (01:19:38) zoom out 1 
-\i (01:19:38) setwindow pcb
-\i (01:19:38) zoom out 9.8765 -6.4503
-\i (01:19:38) trapsize 3898
-\i (01:19:39) zoom out 1 
-\i (01:19:39) setwindow pcb
-\i (01:19:39) zoom out 9.8766 -6.4504
-\i (01:19:39) trapsize 7795
-\i (01:19:39) zoom in 1 
-\i (01:19:39) setwindow pcb
-\i (01:19:39) zoom in 42.7719 -44.8022
-\i (01:19:39) trapsize 3898
-\i (01:19:40) zoom out 1 
-\i (01:19:40) setwindow pcb
-\i (01:19:40) zoom out 43.2396 -54.5461
-\i (01:19:40) trapsize 7795
-\i (01:19:41) zoom out 1 
-\i (01:19:41) setwindow pcb
-\i (01:19:41) zoom out 43.3956 -54.5461
-\i (01:19:41) trapsize 15590
-\i (01:19:41) zoom in 1 
-\i (01:19:41) setwindow pcb
-\i (01:19:41) zoom in 35.6005 -62.6530
-\i (01:19:41) trapsize 7795
-\i (01:20:54) zoom out 1 
-\i (01:20:54) setwindow pcb
-\i (01:20:54) zoom out 32.0148 -52.9870
-\i (01:20:54) trapsize 15590
-\i (01:41:18) xrefdes C664 
-\i (01:41:18) xname_flush 
-\i (01:41:18) trapsize 272
-\i (01:50:37) xrefdes '!' C664 
-\i (01:50:37) xname_flush '!' 
-\i (01:51:48) xrefdes R69 
-\i (01:51:48) xname_flush 
-\i (01:51:48) trapsize 225
-\i (01:53:48) zoom out 1 
-\i (01:53:48) setwindow pcb
-\i (01:53:48) zoom out 8.2594 -9.2114
-\i (01:53:48) trapsize 449
-\i (01:53:49) zoom out 1 
-\i (01:53:49) setwindow pcb
-\i (01:53:49) zoom out 8.2775 -9.1843
-\i (01:53:49) trapsize 899
-\i (01:53:49) zoom in 1 
-\i (01:53:49) setwindow pcb
-\i (01:53:49) zoom in 9.0503 -9.0945
-\i (01:53:49) trapsize 449
-\i (01:53:49) zoom in 1 
-\i (01:53:49) setwindow pcb
-\i (01:53:49) zoom in 9.0503 -9.0945
-\i (01:53:49) trapsize 225
-\i (01:53:50) save 
-\i (01:53:50) fillin yes 
-\i (01:53:51) generaledit 
-\i (01:53:51) zoom out 1 
-\i (01:53:51) setwindow pcb
-\i (01:53:51) zoom out 7.2035 -8.6227
-\i (01:53:51) trapsize 449
-\i (01:53:51) zoom out 1 
-\i (01:53:51) setwindow pcb
-\i (01:53:51) zoom out 7.2305 -8.6676
-\i (01:53:51) trapsize 899
-\i (01:53:51) zoom out 1 
-\i (01:53:51) setwindow pcb
-\i (01:53:51) zoom out 7.3563 -8.8653
-\i (01:53:51) trapsize 1797
-\i (01:53:51) zoom out 1 
-\i (01:53:51) setwindow pcb
-\i (01:53:51) zoom out 7.6798 -9.1888
-\i (01:53:51) trapsize 3595
-\i (01:53:53) exit 
-\t (01:53:56)     Journal end - Mon Dec 13 10:36:14 2021
+\t (00:24:31) allegro 17.4 S017 Windows SPB 64-bit Edition
+\t (00:24:31)     Journal start - Tue Dec 14 17:28:32 2021
+\t (00:24:31)         Host=BF-202007251750 User=Administrator Pid=13116 CPUs=16
+\t (00:24:31) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (00:24:31) 
+\d (00:24:31) Design opened: G:/github/PLL_FM_HW/FPGA/PCB/FPGA-M1.brd
+\i (00:24:31) placementedit 
+\i (00:24:32) zoom in 1 
+\i (00:24:32) setwindow pcb
+\i (00:24:32) zoom in 32.9261 -5.7393
+\i (00:24:32) trapsize 4863
+\i (00:24:34) color192 
+\i (00:24:34) placementedit 
+\i (00:24:37) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Bottom Via 1
+\i (00:24:37) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 9 1
+\i (00:24:37) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:37) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Bottom Pin 1
+\i (00:24:37) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 9 0
+\i (00:24:37) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:38) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Bottom Etch 1
+\i (00:24:38) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 9 2
+\i (00:24:38) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:39) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Bottom Etch 0
+\i (00:24:39) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 9 2
+\i (00:24:39) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:39) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Bottom Via 0
+\i (00:24:39) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 9 1
+\i (00:24:39) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:40) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Bottom Pin 0
+\i (00:24:40) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 9 0
+\i (00:24:40) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:45) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Gnd-l2" Pin 1
+\i (00:24:45) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
+\i (00:24:45) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:45) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Gnd-l2" Via 1
+\i (00:24:45) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 1
+\i (00:24:45) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:46) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Gnd-l2" Etch 1
+\i (00:24:46) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 2
+\i (00:24:46) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:47) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Signal-l3" Etch 1
+\i (00:24:47) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 2 2
+\i (00:24:47) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:48) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Signal-l3" Via 1
+\i (00:24:48) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 2 1
+\i (00:24:48) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:48) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:49) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Signal-l3" Pin 1
+\i (00:24:49) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 2 0
+\i (00:24:49) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:49) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Signal-l4" Pin 1
+\i (00:24:49) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 3 0
+\i (00:24:49) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:50) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Signal-l4" Via 1
+\i (00:24:50) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 3 1
+\i (00:24:50) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:50) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Signal-l4" Etch 1
+\i (00:24:50) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 3 2
+\i (00:24:50) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:51) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Pwr-l6" Pin 1
+\i (00:24:51) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 0
+\i (00:24:51) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:52) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Pwr-l6" Via 1
+\i (00:24:52) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 1
+\i (00:24:52) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:52) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Pwr-l6" Etch 1
+\i (00:24:52) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 2
+\i (00:24:53) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:53) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Gnd-l5" Etch 1
+\i (00:24:53) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 2
+\i (00:24:53) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:53) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Gnd-l5" Via 1
+\i (00:24:53) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 1
+\i (00:24:53) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:54) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:55) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Gnd-l5" Pin 1
+\i (00:24:55) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 0
+\i (00:24:55) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:55) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Signal-l7" Pin 1
+\i (00:24:55) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 6 0
+\i (00:24:55) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:56) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Signal-l7" Via 1
+\i (00:24:56) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 6 1
+\i (00:24:56) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:57) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Signal-l7" Etch 1
+\i (00:24:57) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 6 2
+\i (00:24:57) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:57) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Signal-l8" Etch 1
+\i (00:24:57) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 7 2
+\i (00:24:57) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:58) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Signal-l8" Via 1
+\i (00:24:58) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 7 1
+\i (00:24:58) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:58) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Signal-l8" Pin 1
+\i (00:24:58) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 7 0
+\i (00:24:58) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:58) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Gnd-l9" Pin 1
+\i (00:24:58) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 8 0
+\i (00:24:59) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:24:59) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Gnd-l9" Via 1
+\i (00:24:59) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 8 1
+\i (00:24:59) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:25:00) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Gnd-l9" Etch 1
+\i (00:25:00) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 8 2
+\i (00:25:00) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:25:00) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Bottom Etch 1
+\i (00:25:00) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 9 2
+\i (00:25:00) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:25:01) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Bottom Via 1
+\i (00:25:01) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 9 1
+\i (00:25:01) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:25:01) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Bottom Pin 1
+\i (00:25:01) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 9 0
+\i (00:25:02) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:25:03) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Soldermask_Top" Pin 1
+\i (00:25:03) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 10 0
+\i (00:25:03) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:25:04) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Soldermask_Top" Via 1
+\i (00:25:04) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 10 1
+\i (00:25:04) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:25:04) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Soldermask_Bottom" Via 1
+\i (00:25:04) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 11 1
+\i (00:25:04) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:25:04) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Soldermask_Bottom" Pin 1
+\i (00:25:04) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 11 0
+\i (00:25:05) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:25:05) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Pastemask_Top" Pin 1
+\i (00:25:05) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 12 0
+\i (00:25:05) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:25:05) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Pastemask_Top" Via 1
+\i (00:25:05) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 12 1
+\i (00:25:05) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:25:06) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Pastemask_Bottom" Via 1
+\i (00:25:06) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 13 1
+\i (00:25:06) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:25:06) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Pastemask_Bottom" Pin 1
+\i (00:25:06) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 13 0
+\i (00:25:06) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:25:09) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry "Package geometry"
+\i (00:25:10) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry "Board geometry"
+\i (00:25:13) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Soldermask_Top" BrdGeo 1
+\i (00:25:13) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 17 0
+\i (00:25:13) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:25:13) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Soldermask_Bottom" BrdGeo +
+\i (00:25:13) QtSignal 1
+\i (00:25:13) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 16 0
+\i (00:25:13) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:25:18) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry "Package geometry"
+\i (00:25:18) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:25:19) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Silkscreen_Top" RefDes 1
+\i (00:25:19) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 2
+\i (00:25:19) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:25:21) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:25:25) create module 
+\i (00:25:26) setwindow form.find
+\i (00:25:26) FORM find all_on  
+\i (00:25:27) setwindow pcb
+\i (00:25:27) zoom in 1 
+\i (00:25:27) setwindow pcb
+\i (00:25:27) zoom in 5.2061 -4.5721
+\i (00:25:27) trapsize 2432
+\i (00:25:27) zoom in 1 
+\i (00:25:27) setwindow pcb
+\i (00:25:27) zoom in 5.3520 -4.5721
+\i (00:25:27) trapsize 1216
+\i (00:25:27) zoom in 1 
+\i (00:25:27) setwindow pcb
+\i (00:25:27) zoom in 5.4006 -4.8881
+\i (00:25:27) trapsize 608
+\i (00:25:28) zoom in 1 
+\i (00:25:28) setwindow pcb
+\i (00:25:28) zoom in 5.2060 -4.9124
+\i (00:25:28) trapsize 304
+\i (00:25:28) drag_start grid 4.7926 -4.7848
+\i (00:25:29) zoom out 1 
+\i (00:25:29) setwindow pcb
+\i (00:25:29) zoom out 5.5343 -5.6176
+\i (00:25:29) trapsize 608
+\i (00:25:29) zoom out 1 
+\i (00:25:29) setwindow pcb
+\i (00:25:29) zoom out 5.5341 -5.5932
+\i (00:25:29) trapsize 1216
+\i (00:25:29) zoom out 1 
+\i (00:25:29) setwindow pcb
+\i (00:25:29) zoom out 5.5342 -5.5932
+\i (00:25:29) trapsize 2432
+\i (00:25:29) zoom out 1 
+\i (00:25:29) setwindow pcb
+\i (00:25:29) zoom out 5.5342 -5.5932
+\i (00:25:29) trapsize 4863
+\i (00:25:29) zoom out 1 
+\i (00:25:29) setwindow pcb
+\i (00:25:29) zoom out 5.5342 -5.5933
+\i (00:25:29) trapsize 9726
+\i (00:25:30) zoom in 1 
+\i (00:25:30) setwindow pcb
+\i (00:25:30) zoom in 47.5522 -65.8971
+\i (00:25:30) trapsize 4863
+\i (00:25:31) zoom in 1 
+\i (00:25:31) setwindow pcb
+\i (00:25:31) zoom in 47.5522 -65.8971
+\i (00:25:31) trapsize 2432
+\i (00:25:31) zoom in 1 
+\i (00:25:31) setwindow pcb
+\i (00:25:31) zoom in 49.8379 -65.4594
+\i (00:25:31) trapsize 1216
+\i (00:25:31) zoom in 1 
+\i (00:25:31) setwindow pcb
+\i (00:25:31) zoom in 49.8379 -65.4593
+\i (00:25:31) trapsize 608
+\i (00:25:31) zoom in 1 
+\i (00:25:31) setwindow pcb
+\i (00:25:31) zoom in 49.9109 -65.4228
+\i (00:25:31) trapsize 304
+\i (00:25:33) drag_stop 51.2848 -65.2161
+\i (00:25:34) zoom out 1 
+\i (00:25:34) setwindow pcb
+\i (00:25:34) zoom out 51.6920 -64.7054
+\i (00:25:34) trapsize 608
+\i (00:25:34) zoom out 1 
+\i (00:25:34) setwindow pcb
+\i (00:25:34) zoom out 51.9109 -64.7419
+\i (00:25:34) trapsize 1216
+\i (00:25:34) zoom out 1 
+\i (00:25:34) setwindow pcb
+\i (00:25:34) zoom out 52.1540 -64.8879
+\i (00:25:34) trapsize 2432
+\i (00:25:34) zoom out 1 
+\i (00:25:34) setwindow pcb
+\i (00:25:34) zoom out 52.4459 -65.0337
+\i (00:25:34) trapsize 4863
+\i (00:25:35) zoom out 1 
+\i (00:25:35) setwindow pcb
+\i (00:25:35) zoom out 34.3548 -60.7541
+\i (00:25:35) trapsize 9726
+\i (00:25:35) zoom in 1 
+\i (00:25:35) setwindow pcb
+\i (00:25:35) zoom in 4.3974 -0.8394
+\i (00:25:35) trapsize 4863
+\i (00:25:35) zoom in 1 
+\i (00:25:35) setwindow pcb
+\i (00:25:35) zoom in 4.4946 -0.6448
+\i (00:25:35) trapsize 2432
+\i (00:25:35) zoom in 1 
+\i (00:25:35) setwindow pcb
+\i (00:25:35) zoom in 4.5919 -0.6448
+\i (00:25:35) trapsize 1216
+\i (00:25:36) zoom out 1 
+\i (00:25:36) setwindow pcb
+\i (00:25:36) zoom out -0.7090 -4.4380
+\i (00:25:36) trapsize 2432
+\i (00:25:39) pick 5 -5 
+\t (00:25:39) last pick:  5.0000 -5.0000
+\i (00:25:47) fillin "G:/github/PLL_FM_HW/module_fm.mdd"
+\i (00:25:47) placementedit 
+\i (00:25:51) opencd G:/github/PLL_FM_HW/MCU/PCB/MCU-V4.brd 
+\e (00:25:51) Do you want to save the changes you made to FPGA-M1.brd?
+\i (00:25:51) fillin no 
+\t (00:25:51) Opening existing design...
+\i (00:25:52) trapsize 8935
+\t (00:25:52)     Journal end - Tue Dec 14 17:29:53 2021
