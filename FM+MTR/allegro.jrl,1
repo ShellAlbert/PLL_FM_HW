@@ -1,0 +1,513 @@
+\t (00:00:12) allegro 17.4 S017 Windows SPB 64-bit Edition
+\t (00:00:12)     Journal start - Thu Dec 16 17:44:01 2021
+\t (00:00:12)         Host=BF-202007251750 User=Administrator Pid=3464 CPUs=16
+\t (00:00:12) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (00:00:12) 
+\d (00:00:12) Design opened: G:/github/PLL_FM_HW/FM+MTR/AB9.brd
+\i (00:00:13) generaledit 
+\i (00:00:15) color192 
+\i (00:00:15) generaledit 
+\i (00:00:17) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry "Package geometry"
+\i (00:00:19) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Silkscreen_Bottom" PkgGeo +
+\i (00:00:19) QtSignal 0
+\i (00:00:19) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 15 0
+\i (00:00:19) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:00:21) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:00:21) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Silkscreen_Bottom" RefDes +
+\i (00:00:21) QtSignal 0
+\i (00:00:21) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 2
+\i (00:00:21) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:00:23) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry "Board geometry"
+\i (00:00:24) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Silkscreen_Bottom" BrdGeo +
+\i (00:00:24) QtSignal 0
+\i (00:00:24) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 13 0
+\i (00:00:24) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:00:25) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Silkscreen_Top" BrdGeo 1
+\i (00:00:25) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 14 0
+\i (00:00:25) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:00:26) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Stack-Up"
+\i (00:00:28) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Pwr-l6" Pin 1
+\i (00:00:28) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 0
+\i (00:00:29) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:00:32) QtSignal CVDColorTable CVDColorButton3:17 clicked
+\i (00:00:33) QtSignal CVDLayerTable CVDLayerTableDelegate clickedColor "Pwr-l6" Pin
+\i (00:00:33) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 0
+\i (00:00:33) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:00:33) QtSignal CVDLayerTable CVDLayerTableDelegate clickedColor "Pwr-l6" Via
+\i (00:00:33) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 1
+\i (00:00:33) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:00:34) QtSignal CVDLayerTable CVDLayerTableDelegate clickedColor "Pwr-l6" Etch
+\i (00:00:34) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 2
+\i (00:00:34) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:00:35) QtSignal CVDColorTable CVDColorButton3:13 clicked
+\i (00:00:36) QtSignal CVDLayerTable CVDLayerTableDelegate clickedColor "Pwr-l6" Pin
+\i (00:00:36) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 0
+\i (00:00:36) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:00:37) QtSignal CVDLayerTable CVDLayerTableDelegate clickedColor "Pwr-l6" Via
+\i (00:00:37) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 1
+\i (00:00:37) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:00:37) QtSignal CVDLayerTable CVDLayerTableDelegate clickedColor "Pwr-l6" Etch
+\i (00:00:37) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 2
+\i (00:00:37) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:00:38) QtSignal CVDColorTable CVDColorButton2:13 clicked
+\i (00:00:39) QtSignal CVDColorTable CVDColorButton2:14 clicked
+\i (00:00:39) QtSignal CVDLayerTable CVDLayerTableDelegate clickedColor "Pwr-l6" Pin
+\i (00:00:39) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 0
+\i (00:00:40) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:00:40) QtSignal CVDLayerTable CVDLayerTableDelegate clickedColor "Pwr-l6" Via
+\i (00:00:40) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 1
+\i (00:00:40) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:00:40) QtSignal CVDLayerTable CVDLayerTableDelegate clickedColor "Pwr-l6" Etch
+\i (00:00:40) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 2
+\i (00:00:40) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:00:42) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Pwr-l6" Via 1
+\i (00:00:42) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 1
+\i (00:00:42) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:00:43) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Pwr-l6" Etch 1
+\i (00:00:43) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 2
+\i (00:00:43) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:00:44) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:00:45) zoom in 1 
+\i (00:00:45) setwindow pcb
+\i (00:00:45) zoom in 40.7181 -41.8280
+\i (00:00:45) trapsize 4876
+\i (00:00:45) zoom in 1 
+\i (00:00:45) setwindow pcb
+\i (00:00:45) zoom in 40.5231 -41.8280
+\i (00:00:45) trapsize 2438
+\i (00:00:45) zoom in 1 
+\i (00:00:45) setwindow pcb
+\i (00:00:45) zoom in 40.5231 -41.8280
+\i (00:00:45) trapsize 1219
+\i (00:00:45) zoom in 1 
+\i (00:00:45) setwindow pcb
+\i (00:00:45) zoom in 35.7449 -37.2935
+\i (00:00:45) trapsize 609
+\i (00:00:48) slide 
+\t (00:00:49) Pick element to slide.
+\i (00:00:49) zoom in 1 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) zoom in 38.1950 -39.7923
+\i (00:00:49) trapsize 305
+\i (00:00:50) pick grid 38.5668 -39.6277
+\t (00:00:50) last pick:  38.6000 -39.6000
+\t (00:00:50) last pick:  38.5471 -39.6471
+\t (00:00:50) Waiting for the destination pick.
+\i (00:00:51) pick grid 38.2499 -39.8654
+\t (00:00:51) last pick:  38.2000 -39.9000
+\t (00:00:51) No DRC errors detected.
+\t (00:00:51) Pick another element to slide.
+\i (00:00:51) pick grid 39.4688 -40.1823
+\t (00:00:51) last pick:  39.5000 -40.2000
+\t (00:00:51) last pick:  39.4688 -40.2000
+\t (00:00:51) Waiting for the destination pick.
+\i (00:00:53) pick grid 39.6821 -40.6516
+\t (00:00:53) last pick:  39.7000 -40.7000
+\t (00:00:53) No DRC errors detected.
+\t (00:00:53) Pick another element to slide.
+\i (00:00:53) zoom out 1 
+\i (00:00:53) setwindow pcb
+\i (00:00:53) zoom out 38.9142 -39.5424
+\i (00:00:53) trapsize 609
+\i (00:00:53) zoom in 1 
+\i (00:00:53) setwindow pcb
+\i (00:00:53) zoom in 39.0117 -39.7861
+\i (00:00:53) trapsize 305
+\i (00:00:54) prepopup 38.6460 -39.5545
+\i (00:00:54) done 
+\i (00:00:54) generaledit 
+\i (00:00:57) shape edit boundary 
+\i (00:00:57) pick grid 38.4205 -39.6154
+\t (00:00:57) last pick:  38.4000 -39.6000
+\i (00:00:57) pick grid 38.5242 -39.8897
+\t (00:00:57) last pick:  38.5000 -39.9000
+\t (00:00:57) Pick the edit starting point on the shape boundary.
+\i (00:00:59) zoom in 1 
+\i (00:00:59) setwindow pcb
+\i (00:00:59) zoom in 38.9630 -40.2980
+\i (00:00:59) trapsize 152
+\i (00:00:59) pick grid 39.0514 -39.3076
+\t (00:00:59) last pick:  39.1000 -39.3000
+\w (00:00:59) WARNING(SPMHGE-615): Nothing found ... pick selected shape boundary.
+\i (00:01:00) pick grid 38.4937 -39.8165
+\t (00:01:00) last pick:  38.5000 -39.8000
+\t (00:01:00) Pick the next vertex or the closing point on the shape.
+\i (00:01:01) zoom in 1 
+\i (00:01:01) setwindow pcb
+\i (00:01:01) zoom in 39.2617 -40.5509
+\i (00:01:01) trapsize 76
+\i (00:01:01) zoom in 1 
+\i (00:01:01) setwindow pcb
+\i (00:01:01) zoom in 39.2617 -40.5509
+\i (00:01:01) trapsize 38
+\i (00:01:01) zoom in 1 
+\i (00:01:01) setwindow pcb
+\i (00:01:01) zoom in 39.2617 -40.5509
+\i (00:01:01) trapsize 19
+\i (00:01:02) pick grid 39.2621 -40.5497
+\t (00:01:02) last pick:  39.3000 -40.5000
+\t (00:01:02) Pick the next vertex or the closing point on the shape.
+\i (00:01:03) zoom out 1 
+\i (00:01:03) setwindow pcb
+\i (00:01:03) zoom out 39.2507 -40.4911
+\i (00:01:03) trapsize 38
+\i (00:01:03) zoom out 1 
+\i (00:01:03) setwindow pcb
+\i (00:01:03) zoom out 39.2506 -40.4910
+\i (00:01:03) trapsize 76
+\i (00:01:03) zoom out 1 
+\i (00:01:03) setwindow pcb
+\i (00:01:03) zoom out 39.2491 -40.4940
+\i (00:01:03) trapsize 152
+\i (00:01:04) zoom out 1 
+\i (00:01:04) setwindow pcb
+\i (00:01:04) zoom out 39.6057 -40.0644
+\i (00:01:04) trapsize 305
+\i (00:01:06) pick grid 42.5555 -39.7170
+\t (00:01:06) last pick:  42.6000 -39.7000
+\t (00:01:06) Pick DONE or a start point on another shape or void boundary.
+\i (00:01:07) zoom out 1 
+\i (00:01:07) setwindow pcb
+\i (00:01:07) zoom out 38.9231 -40.5764
+\i (00:01:07) trapsize 609
+\i (00:01:07) pick grid 39.5935 -39.6134
+\t (00:01:07) last pick:  39.6000 -39.6000
+\i (00:01:07) shape edit boundary 
+\t (00:01:07) Pick the edit starting point on the shape or void boundary.
+\t (00:01:07) Pick the edit starting point on the shape boundary.
+\w (00:01:07) WARNING(SPMHGE-615): Nothing found ... pick selected shape boundary.
+\i (00:01:08) zoom in 1 
+\i (00:01:08) setwindow pcb
+\i (00:01:08) zoom in 40.8856 -39.6744
+\i (00:01:08) trapsize 305
+\i (00:01:08) zoom in 1 
+\i (00:01:08) setwindow pcb
+\i (00:01:08) zoom in 40.8856 -39.6744
+\i (00:01:08) trapsize 152
+\i (00:01:08) zoom out 1 
+\i (00:01:08) setwindow pcb
+\i (00:01:08) zoom out 39.1821 -39.9669
+\i (00:01:08) trapsize 305
+\i (00:01:10) pick grid 38.4204 -38.6871
+\t (00:01:10) last pick:  38.4000 -38.7000
+\t (00:01:10) Pick the next vertex or the closing point on the shape.
+\i (00:01:11) pick grid 40.0476 -40.4058
+\t (00:01:11) last pick:  40.0000 -40.4000
+\t (00:01:11) Pick DONE or a start point on another shape or void boundary.
+\i (00:01:12) pick grid 39.6271 -39.9060
+\t (00:01:12) last pick:  39.6000 -39.9000
+\i (00:01:12) shape edit boundary 
+\t (00:01:12) Pick the edit starting point on the shape or void boundary.
+\t (00:01:12) Pick the edit starting point on the shape boundary.
+\t (00:01:12) Pick the next vertex or the closing point on the shape.
+\i (00:01:15) pick grid 45.8559 -39.8877
+\t (00:01:15) last pick:  45.9000 -39.9000
+\t (00:01:15) Pick DONE or a start point on another shape or void boundary.
+\i (00:01:15) pick grid 42.4794 -40.4606
+\t (00:01:15) last pick:  42.5000 -40.5000
+\i (00:01:15) shape edit boundary 
+\t (00:01:15) Pick the edit starting point on the shape or void boundary.
+\t (00:01:15) Pick the edit starting point on the shape boundary.
+\w (00:01:15) WARNING(SPMHGE-615): Nothing found ... pick selected shape boundary.
+\i (00:01:17) pick grid 41.8273 -40.5094
+\t (00:01:17) last pick:  41.8000 -40.5000
+\t (00:01:17) Pick the next vertex or the closing point on the shape.
+\i (00:01:17) pick grid 45.5512 -40.5094
+\t (00:01:17) last pick:  45.6000 -40.5000
+\t (00:01:17) Pick DONE or a start point on another shape or void boundary.
+\i (00:01:18) zoom out 1 
+\i (00:01:18) setwindow pcb
+\i (00:01:18) zoom out 41.7176 -40.0035
+\i (00:01:18) trapsize 609
+\i (00:01:19) prepopup 45.4841 -40.3449
+\i (00:01:19) done 
+\i (00:01:19) generaledit 
+\i (00:01:20) zoom out 1 
+\i (00:01:20) setwindow pcb
+\i (00:01:20) zoom out 41.3763 -39.9548
+\i (00:01:20) trapsize 1219
+\i (00:01:20) zoom in 1 
+\i (00:01:20) setwindow pcb
+\i (00:01:20) zoom in 38.0607 -37.4439
+\i (00:01:20) trapsize 609
+\i (00:01:25) shape edit boundary 
+\i (00:01:25) pick grid 37.8657 -37.5048
+\t (00:01:25) last pick:  37.9000 -37.5000
+\t (00:01:25) Pick the edit starting point on the shape boundary.
+\i (00:01:25) zoom in 1 
+\i (00:01:25) setwindow pcb
+\i (00:01:25) zoom in 37.8657 -37.2610
+\i (00:01:25) trapsize 305
+\i (00:01:26) pick grid 37.6829 -36.7734
+\t (00:01:26) last pick:  37.7000 -36.8000
+\t (00:01:26) Pick the next vertex or the closing point on the shape.
+\i (00:01:27) zoom in 1 
+\i (00:01:27) setwindow pcb
+\i (00:01:27) zoom in 37.9084 -39.3149
+\i (00:01:27) trapsize 152
+\i (00:01:27) zoom in 1 
+\i (00:01:27) setwindow pcb
+\i (00:01:27) zoom in 37.8871 -39.3088
+\i (00:01:27) trapsize 76
+\i (00:01:28) pick grid 37.8825 -39.2479
+\t (00:01:28) last pick:  37.9000 -39.2000
+\t (00:01:28) Pick DONE or a start point on another shape or void boundary.
+\i (00:01:28) zoom out 1 
+\i (00:01:28) setwindow pcb
+\i (00:01:28) zoom out 37.9511 -39.1656
+\i (00:01:28) trapsize 152
+\i (00:01:29) zoom out 1 
+\i (00:01:29) setwindow pcb
+\i (00:01:29) zoom out 37.9816 -39.1473
+\i (00:01:29) trapsize 305
+\i (00:01:29) zoom out 1 
+\i (00:01:29) setwindow pcb
+\i (00:01:29) zoom out 37.9999 -39.1351
+\i (00:01:29) trapsize 609
+\i (00:01:29) zoom out 1 
+\i (00:01:29) setwindow pcb
+\i (00:01:29) zoom out 38.1339 -38.1355
+\i (00:01:29) trapsize 1219
+\i (00:01:29) zoom out 1 
+\i (00:01:29) setwindow pcb
+\i (00:01:29) zoom out 38.1339 -38.1355
+\i (00:01:29) trapsize 2438
+\i (00:01:30) zoom in 1 
+\i (00:01:30) setwindow pcb
+\i (00:01:30) zoom in 35.9398 -21.9967
+\i (00:01:30) trapsize 1219
+\i (00:01:31) zoom in 1 
+\i (00:01:31) setwindow pcb
+\i (00:01:31) zoom in 35.9398 -21.9967
+\i (00:01:31) trapsize 609
+\i (00:01:31) zoom in 1 
+\i (00:01:31) setwindow pcb
+\i (00:01:31) zoom in 35.9399 -21.9967
+\i (00:01:31) trapsize 305
+\i (00:01:31) pick grid 36.9151 -22.0820
+\t (00:01:31) last pick:  36.9000 -22.1000
+\i (00:01:31) shape edit boundary 
+\t (00:01:31) Pick the edit starting point on the shape or void boundary.
+\t (00:01:31) Pick the edit starting point on the shape boundary.
+\w (00:01:31) WARNING(SPMHGE-615): Nothing found ... pick selected shape boundary.
+\i (00:01:32) pick grid 36.9699 -21.9235
+\t (00:01:32) last pick:  37.0000 -21.9000
+\t (00:01:32) Pick the next vertex or the closing point on the shape.
+\i (00:01:33) pick grid 35.7815 -22.8560
+\t (00:01:33) last pick:  35.8000 -22.9000
+\t (00:01:33) Pick DONE or a start point on another shape or void boundary.
+\i (00:01:34) zoom out 1 
+\i (00:01:34) setwindow pcb
+\i (00:01:34) zoom out 36.4397 -22.7646
+\i (00:01:34) trapsize 609
+\i (00:01:34) zoom out 1 
+\i (00:01:34) setwindow pcb
+\i (00:01:34) zoom out 36.4641 -22.7646
+\i (00:01:34) trapsize 1219
+\i (00:01:35) prepopup 47.5320 -23.5203
+\i (00:01:35) done 
+\i (00:01:35) generaledit 
+\i (00:01:36) zoom in 1 
+\i (00:01:36) setwindow pcb
+\i (00:01:36) zoom in 36.8541 -21.4968
+\i (00:01:36) trapsize 609
+\i (00:01:36) zoom in 1 
+\i (00:01:36) setwindow pcb
+\i (00:01:36) zoom in 36.8419 -21.4846
+\i (00:01:36) trapsize 305
+\i (00:01:36) zoom in 1 
+\i (00:01:36) setwindow pcb
+\i (00:01:36) zoom in 36.8419 -21.4846
+\i (00:01:36) trapsize 152
+\i (00:01:37) zoom in 1 
+\i (00:01:37) setwindow pcb
+\i (00:01:37) zoom in 36.5463 -21.5364
+\i (00:01:37) trapsize 76
+\i (00:01:37) zoom out 1 
+\i (00:01:37) setwindow pcb
+\i (00:01:37) zoom out 36.4824 -21.6506
+\i (00:01:37) trapsize 152
+\i (00:01:37) zoom out 1 
+\i (00:01:37) setwindow pcb
+\i (00:01:37) zoom out 36.4823 -21.8152
+\i (00:01:37) trapsize 305
+\i (00:01:41) shape edit boundary 
+\i (00:01:41) pick grid 36.8115 -21.3947
+\t (00:01:41) last pick:  36.8000 -21.4000
+\t (00:01:41) Pick the edit starting point on the shape boundary.
+\i (00:01:41) zoom in 1 
+\i (00:01:41) setwindow pcb
+\i (00:01:41) zoom in 36.5555 -21.4983
+\i (00:01:41) trapsize 152
+\i (00:01:42) pick grid 36.3970 -21.4982
+\t (00:01:42) last pick:  36.4000 -21.5000
+\t (00:01:42) Pick the next vertex or the closing point on the shape.
+\i (00:01:43) pick grid 38.0517 -21.6079
+\t (00:01:43) last pick:  38.1000 -21.6000
+\t (00:01:43) Pick DONE or a start point on another shape or void boundary.
+\i (00:01:44) zoom out 1 
+\i (00:01:44) setwindow pcb
+\i (00:01:44) zoom out 36.5585 -21.2057
+\i (00:01:44) trapsize 305
+\i (00:01:44) zoom out 1 
+\i (00:01:44) setwindow pcb
+\i (00:01:44) zoom out 36.5525 -21.1996
+\i (00:01:44) trapsize 609
+\i (00:01:44) prepopup 36.3818 -21.7603
+\i (00:01:45) done 
+\i (00:01:45) generaledit 
+\i (00:01:45) zoom out 1 
+\i (00:01:45) setwindow pcb
+\i (00:01:45) zoom out 36.7353 -21.6871
+\i (00:01:45) trapsize 1219
+\i (00:01:46) save 
+\i (00:01:47) fillin yes 
+\i (00:01:48) generaledit 
+\i (00:01:50) island_delete 
+\t (00:01:50) No shape islands present on design!
+\i (00:01:50) generaledit 
+\i (00:01:52) island_delete 
+\t (00:01:52) No shape islands present on design!
+\i (00:01:52) generaledit 
+\i (00:01:55) status 
+\i (00:01:55) generaledit 
+\i (00:01:56) setwindow form.status
+\i (00:01:56) FORM status drc_update  
+\t (00:01:56) Running DRC, wait...
+\t (00:01:56) Performing DRC...
+\t (00:01:56) Multithreaded DRC update (16 threads).
+\t (00:01:56) DRC done; 1562 errors detected.
+\t (00:01:56) DRC done.
+\i (00:01:57) FORM status force_update  
+\t (00:01:57) Updating dynamic shape (1 of 29) A_5V_Fpga, Boundary/Signal-l8 @ (7.2000 -18.1000) ...
+\t (00:01:57) Updating dynamic shape (2 of 29) A_Gnd, Boundary/Bottom @ (19.8000 -55.9000) ...
+\t (00:01:57) Updating dynamic shape (3 of 29) A_1V2_Fpga, Boundary/Signal-l8 @ (33.1000 -25.1000) ...
+\t (00:01:57) Updating dynamic shape (4 of 29) A_Gnd, Boundary/Gnd-l9 @ (0.0000 0.0000) ...
+\t (00:01:57) Updating dynamic shape (5 of 29) A_Gnd, Boundary/Gnd-l5 @ (0.0000 0.0000) ...
+\t (00:01:57) Updating dynamic shape (6 of 29) A_Gnd, Boundary/Gnd-l2 @ (0.0000 0.0000) ...
+\t (00:01:57) Updating dynamic shape (7 of 29) A_Vccio_3V3, Boundary/Pwr-l6 @ (18.3000 -21.4000) ...
+\t (00:01:57) Updating dynamic shape (8 of 29) A_Vccint_1V2, Boundary/Pwr-l6 @ (18.3000 -28.3000) ...
+\t (00:01:57) Updating dynamic shape (9 of 29) A_Audio_5V, Boundary/Pwr-l6 @ (36.5000 -22.4000) ...
+\t (00:01:57) Updating dynamic shape (10 of 29) A_1V2_Fpga, Boundary/Pwr-l6 @ (40.0000 -18.7000) ...
+\t (00:01:57) Updating dynamic shape (11 of 29) A_2V5_Fpga, Boundary/Pwr-l6 @ (30.1000 -16.0000) ...
+\t (00:01:57) Updating dynamic shape (12 of 29) A_3V3_Fpga, Boundary/Pwr-l6 @ (17.8000 -18.6000) ...
+\t (00:01:57) Updating dynamic shape (13 of 29) A_5V_Fpga, Boundary/Pwr-l6 @ (7.7000 -15.9000) ...
+\t (00:01:57) Updating dynamic shape (14 of 29) A_2V0_Fpga, Boundary/Pwr-l6 @ (34.9000 -17.5000) ...
+\t (00:01:57) Updating dynamic shape (15 of 29) A_3V3_Buck_2V5_In, Boundary/Pwr-l6 @ (24.6000 -17.5000) ...
+\t (00:01:57) Updating dynamic shape (16 of 29) A_4V0_Buck_3V3, Boundary/Pwr-l6 @ (12.5000 -17.5000) ...
+\t (00:01:57) Updating dynamic shape (17 of 29) A_5V5_Buck_5V_In, Boundary/Pwr-l6 @ (2.0000 -17.5000) ...
+\t (00:01:57) Updating dynamic shape (18 of 29) A_3V3_If, Boundary/Pwr-l6 @ (10.5000 -37.9000) ...
+\t (00:01:57) Updating dynamic shape (19 of 29) A_Adc_3V3, Boundary/Pwr-l6 @ (27.7000 -54.3000) ...
+\t (00:01:57) Updating dynamic shape (20 of 29) A_Clk_3V3, Boundary/Pwr-l6 @ (31.0000 -59.0000) ...
+\t (00:01:57) Updating dynamic shape (21 of 29) B_5V_Mcu, Boundary/Pwr-l6 @ (52.5000 -28.1000) ...
+\t (00:01:57) Updating dynamic shape (22 of 29) B_3V3_Mcu, Boundary/Pwr-l6 @ (73.5000 -54.3000) ...
+\t (00:01:57) Updating dynamic shape (23 of 29) B_5V_Mcu, Boundary/Pwr-l6 @ (75.2000 -35.2660) ...
+\t (00:01:57) Updating dynamic shape (24 of 29) B_Gnd, Boundary/Gnd-l9 @ (51.0501 -0.0501) ...
+\t (00:01:57) Updating dynamic shape (25 of 29) B_Gnd, Boundary/Gnd-l5 @ (51.0501 -0.0501) ...
+\t (00:01:57) Updating dynamic shape (26 of 29) B_Gnd, Boundary/Gnd-l2 @ (51.0501 -0.0501) ...
+\t (00:01:57) Updating dynamic shape (27 of 29) B_Vbat_In, Boundary/Pwr-l6 @ (58.0470 -1.8000) ...
+\t (00:01:57) Updating dynamic shape (28 of 29) B_12V_Mtr, Boundary/Pwr-l6 @ (75.4690 -10.1060) ...
+\t (00:01:57) Updating dynamic shape (29 of 29) B_5V5_Mcu_Pwr, Boundary/Pwr-l6 @ (60.0100 -13.8040) ...
+\i (00:01:58) FORM status done  
+\i (00:01:59) setwindow pcb
+\i (00:01:59) zoom out 1 
+\i (00:01:59) setwindow pcb
+\i (00:01:59) zoom out 44.3659 -24.4907
+\i (00:01:59) trapsize 2438
+\i (00:01:59) zoom out 1 
+\i (00:01:59) setwindow pcb
+\i (00:01:59) zoom out 44.3171 -24.0032
+\i (00:01:59) trapsize 4876
+\i (00:01:59) zoom out 1 
+\i (00:01:59) setwindow pcb
+\i (00:01:59) zoom out 44.6097 -22.9304
+\i (00:01:59) trapsize 9752
+\i (00:01:59) zoom in 1 
+\i (00:01:59) setwindow pcb
+\i (00:01:59) zoom in 37.9786 -46.1391
+\i (00:01:59) trapsize 4876
+\i (00:01:59) zoom in 1 
+\i (00:01:59) setwindow pcb
+\i (00:01:59) zoom in 37.9787 -46.3341
+\i (00:01:59) trapsize 2438
+\i (00:02:02) save 
+\i (00:02:03) fillin yes 
+\i (00:02:03) generaledit 
+\i (00:02:06) save_as 
+\i (00:02:09) fillin "AB10.brd"
+\i (00:02:09) generaledit 
+\i (00:02:12) color192 
+\i (00:02:12) generaledit 
+\i (00:02:13) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Pwr-l6" Pin 0
+\i (00:02:13) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 0
+\i (00:02:13) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:02:13) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Pwr-l6" Via 0
+\i (00:02:13) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 1
+\i (00:02:13) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:02:14) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Pwr-l6" Etch 0
+\i (00:02:14) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 2
+\i (00:02:14) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:02:16) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Top Pin 1
+\i (00:02:16) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (00:02:16) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:02:17) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:02:17) zoom out 1 
+\i (00:02:17) setwindow pcb
+\i (00:02:17) zoom out 1.3130 -42.5310
+\i (00:02:17) trapsize 4876
+\i (00:02:18) zoom out 1 
+\i (00:02:18) setwindow pcb
+\i (00:02:18) zoom out 1.7031 -42.1409
+\i (00:02:18) trapsize 9752
+\i (00:02:18) zoom out 1 
+\i (00:02:18) setwindow pcb
+\i (00:02:18) zoom out 8.1391 -40.7757
+\i (00:02:18) trapsize 19503
+\i (00:02:18) save 
+\i (00:02:19) fillin yes 
+\i (00:02:19) generaledit 
+\i (00:02:21) artwork 
+\i (00:02:22) setwindow form.film_control
+\i (00:02:22) FORM film_control select_all  
+\i (00:02:22) FORM film_control create  
+\t (00:02:22) Checking db records
+\t (00:02:22)     checking for orphans...
+\t (00:02:22)     Checked   5 percent
+\t (00:02:22)     Checked  11 percent
+\t (00:02:22)     Checked  17 percent
+\t (00:02:22)     Checked  22 percent
+\t (00:02:22)     Checked  28 percent
+\t (00:02:22)     Checked  34 percent
+\t (00:02:22)     Checked  39 percent
+\t (00:02:22)     Checked  45 percent
+\t (00:02:22)     Checked  51 percent
+\t (00:02:22)     Checked  56 percent
+\t (00:02:22)     Checked  62 percent
+\t (00:02:22)     Checked  68 percent
+\t (00:02:22)     Checked  74 percent
+\t (00:02:22)     Checked  79 percent
+\t (00:02:22)     Checked  85 percent
+\t (00:02:22)     Checked  91 percent
+\t (00:02:22)     Checked  96 percent
+\t (00:02:22)     Checked 100 percent
+\t (00:02:22) Done dbdoctor.
+\t (00:02:22) Starting Create artwork films...
+\w (00:02:23) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:02:24) Artwork generated with warnings.
+\i (00:02:32) setwindow text
+\i (00:02:32) close
+\i (00:02:33) setwindow form.film_control
+\i (00:02:33) FORM film_control ok  
+\i (00:02:33) setwindow pcb
+\i (00:02:33) generaledit 
+\i (00:02:38) nctape_full 
+\i (00:02:39) setwindow form.nc_drill
+\i (00:02:39) FORM nc_drill execute  
+\t (00:02:39) Starting Generating NC Drill...
+\i (00:02:43) setwindow pcb
+\i (00:02:43) save 
+\i (00:02:44) fillin yes 
+   (00:02:44) Loading signal.cxt 
+\i (00:02:45) generaledit 
+\i (00:02:45) exit 
+\t (00:02:48)     Journal end - Thu Dec 16 17:46:37 2021

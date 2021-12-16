@@ -1,0 +1,49 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : AB10.brd                                      )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Thu Dec 16 17:46:11 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+WARNING: in SYMBOL PIN   refdes = A_TP2
+  pin# 1
+  symbol origin = (44.0000 -58.0000)
+  WARNING(SPMHA1-97): Illegal drill plating.
+Non-Plated hole has connected objects, consider changing to PLATED. Pad stack - THR_CIR_3D8X3D2_NP is NON_PLATED.
+
+
+WARNING: in SYMBOL PIN   refdes = A_TP1
+  pin# 1
+  symbol origin = (2.0000 -58.0000)
+  WARNING(SPMHA1-97): Illegal drill plating.
+Non-Plated hole has connected objects, consider changing to PLATED. Pad stack - THR_CIR_3D8X3D2_NP is NON_PLATED.
+
+
+WARNING: in SYMBOL PIN   refdes = B_TP1
+  pin# 1
+  symbol origin = (95.0000 -2.0000)
+  WARNING(SPMHA1-97): Illegal drill plating.
+Non-Plated hole has connected objects, consider changing to PLATED. Pad stack - THR_CIR_3D8X3D2_NP is NON_PLATED.
+
+
+WARNING: in SYMBOL PIN   refdes = B_TP2
+  pin# 1
+  symbol origin = (53.1000 -2.1000)
+  WARNING(SPMHA1-97): Illegal drill plating.
+Non-Plated hole has connected objects, consider changing to PLATED. Pad stack - THR_CIR_3D8X3D2_NP is NON_PLATED.
+
+
+WARNING: The following vias/pins have connections using non-plated padstacks
+         This may cause issues with your manufacturing process.
+
+  Pin/Via         Padstack                                   Location
+  -------------------------------------------------------------------------
+  B_TP2.1         THR_CIR_3D8X3D2_NP                       (53.1000 -2.1000)
+
+
+5 warnings, 0 errors detected, 0 errors could be fixed.

@@ -1,0 +1,923 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : AB9.brd                                       )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Thu Dec 16 17:21:28 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+
+ Can't open parameter file ... using default values:
+     DEVICE-TYPE        GERBER6X00
+     G-CODES            NO
+     STATIONS-PER-WHEEL 24
+     FILM-SIZE          24000 16000
+     COORDINATES        ABSOLUTE
+     OUTPUT-UNITS       INCHES
+     FORMAT             5.3
+     ABORT-ON-ERROR     abort film & continue
+     SUPPRESS-LEAD-ZEROES     YES
+     SUPPRESS-TRAIL-ZEROES    NO
+     OPTIMIZE           YES
+     SUPPRESS-EQUAL     YES
+     SCALE              1.0
+
+
+
+ WARNING: Generating english output data from a metric database
+ may cause slight roundoff error of coordinates in output file.
+
+
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < G:/github/PLL_FM_HW/FM+MTR/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Film contains objects with associated DRCs (604).
+           In the design editor view this film and enable visibility for the
+           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00430                                  DARK 
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00550                                  DARK 
+  CIRCLE     0.00591                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.00866                                  DARK 
+  CIRCLE     0.00984                                  DARK 
+  CIRCLE     0.01024                                  DARK 
+  CIRCLE     0.01181                                  DARK 
+  CIRCLE     0.01417                                  DARK 
+  CIRCLE     0.01496                                  DARK 
+  CIRCLE     0.01575                                  DARK 
+  CIRCLE     0.01654                                  DARK 
+  CIRCLE     0.01890                                  DARK 
+  CIRCLE     0.01969                                  DARK 
+  CIRCLE     0.02362                                  DARK 
+  CIRCLE     0.04724                                  DARK 
+  CIRCLE     0.05906                                  DARK 
+  CIRCLE     0.06693                                  DARK 
+  CIRCLE     0.14961                                  DARK 
+  RECTANGLE  0.00787     x 0.03150       0.000 NO     DARK 
+  RECTANGLE  0.00787     x 0.03150      90.000 NO     DARK 
+  RECTANGLE  0.00787     x 0.05906      90.000 NO     DARK 
+  RECTANGLE  0.00984     x 0.01378       0.000 NO     DARK 
+  RECTANGLE  0.00984     x 0.01378      90.000 NO     DARK 
+  RECTANGLE  0.00984     x 0.02756       0.000 NO     DARK 
+  RECTANGLE  0.00984     x 0.02756      90.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.02362       0.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.03150       0.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.05906       0.000 NO     DARK 
+  RECTANGLE  0.01969     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.01969     x 0.03937      90.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.01969       0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.01969      90.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.03937      90.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.01181       0.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.03937      90.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.07874       0.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.01575       0.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.01575      90.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.01969       0.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.01969      90.000 NO     DARK 
+  RECTANGLE  0.04724     x 0.01181       0.000 NO     DARK 
+  RECTANGLE  0.04724     x 0.01181      90.000 NO     DARK 
+  RECTANGLE  0.04724     x 0.02362      90.000 NO     DARK 
+  RECTANGLE  0.05118     x 0.02362       0.000 NO     DARK 
+  RECTANGLE  0.05906     x 0.01575       0.000 NO     DARK 
+  RECTANGLE  0.05906     x 0.01575      90.000 NO     DARK 
+  RECTANGLE  0.05906     x 0.03150      90.000 NO     DARK 
+  RECTANGLE  0.05906     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.05906     x 0.04724      90.000 NO     DARK 
+  RECTANGLE  0.06693     x 0.09449      90.000 NO     DARK 
+  RECTANGLE  0.07874     x 0.07874      90.000 NO     DARK 
+  RECTANGLE  0.07874     x 0.15748       0.000 NO     DARK 
+  RECTANGLE  0.07874     x 0.15748      90.000 NO     DARK 
+  RECTANGLE  0.08661     x 0.08661       0.000 NO     DARK 
+  RECTANGLE  0.12598     x 0.03543       0.000 NO     DARK 
+  RECTANGLE  0.19685     x 0.19685       0.000 NO     DARK 
+
+     TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < GND-L2 >
+     TO FILE < G:/github/PLL_FM_HW/FM+MTR/GND-L2.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Film contains objects with associated DRCs (4).
+           In the design editor view this film and enable visibility for the
+           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01181                                  DARK 
+  CIRCLE     0.01575                                  DARK 
+  CIRCLE     0.04724                                  DARK 
+  CIRCLE     0.06693                                  DARK 
+  CIRCLE     0.14961                                  DARK 
+
+     GND-L2 created with warnings
+
+
+================================================================
+     PROCESSING FILM < SIGNAL-L3 >
+     TO FILE < G:/github/PLL_FM_HW/FM+MTR/SIGNAL-L3.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Film contains objects with associated DRCs (195).
+           In the design editor view this film and enable visibility for the
+           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00430                                  DARK 
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00550                                  DARK 
+  CIRCLE     0.00591                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.01181                                  DARK 
+  CIRCLE     0.01575                                  DARK 
+  CIRCLE     0.04724                                  DARK 
+  CIRCLE     0.06693                                  DARK 
+  CIRCLE     0.14961                                  DARK 
+
+     SIGNAL-L3 created with warnings
+
+
+================================================================
+     PROCESSING FILM < SIGNAL-L4 >
+     TO FILE < G:/github/PLL_FM_HW/FM+MTR/SIGNAL-L4.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Film contains objects with associated DRCs (65).
+           In the design editor view this film and enable visibility for the
+           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00550                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.01181                                  DARK 
+  CIRCLE     0.01575                                  DARK 
+  CIRCLE     0.01969                                  DARK 
+  CIRCLE     0.04724                                  DARK 
+  CIRCLE     0.06693                                  DARK 
+  CIRCLE     0.14961                                  DARK 
+
+     SIGNAL-L4 created with warnings
+
+
+================================================================
+     PROCESSING FILM < GND-L5 >
+     TO FILE < G:/github/PLL_FM_HW/FM+MTR/GND-L5.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Film contains objects with associated DRCs (4).
+           In the design editor view this film and enable visibility for the
+           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01181                                  DARK 
+  CIRCLE     0.01575                                  DARK 
+  CIRCLE     0.04724                                  DARK 
+  CIRCLE     0.06693                                  DARK 
+  CIRCLE     0.14961                                  DARK 
+
+     GND-L5 created with warnings
+
+
+================================================================
+     PROCESSING FILM < PWR-L6 >
+     TO FILE < G:/github/PLL_FM_HW/FM+MTR/PWR-L6.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Film contains objects with associated DRCs (4).
+           In the design editor view this film and enable visibility for the
+           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
+    WARNING: Segment with same start and end points at
+	(41.8301 -38.6998) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.01181                                  DARK 
+  CIRCLE     0.01417                                  DARK 
+  CIRCLE     0.01496                                  DARK 
+  CIRCLE     0.01575                                  DARK 
+  CIRCLE     0.01969                                  DARK 
+  CIRCLE     0.02362                                  DARK 
+  CIRCLE     0.02756                                  DARK 
+  CIRCLE     0.04724                                  DARK 
+  CIRCLE     0.06693                                  DARK 
+  CIRCLE     0.14961                                  DARK 
+
+     PWR-L6 created with warnings
+
+
+================================================================
+     PROCESSING FILM < SIGNAL-L7 >
+     TO FILE < G:/github/PLL_FM_HW/FM+MTR/SIGNAL-L7.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Film contains objects with associated DRCs (220).
+           In the design editor view this film and enable visibility for the
+           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00550                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.01181                                  DARK 
+  CIRCLE     0.01417                                  DARK 
+  CIRCLE     0.01575                                  DARK 
+  CIRCLE     0.04724                                  DARK 
+  CIRCLE     0.06693                                  DARK 
+  CIRCLE     0.14961                                  DARK 
+
+     SIGNAL-L7 created with warnings
+
+
+================================================================
+     PROCESSING FILM < SIGNAL-L8 >
+     TO FILE < G:/github/PLL_FM_HW/FM+MTR/SIGNAL-L8.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Film contains objects with associated DRCs (204).
+           In the design editor view this film and enable visibility for the
+           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00550                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.01181                                  DARK 
+  CIRCLE     0.01417                                  DARK 
+  CIRCLE     0.01496                                  DARK 
+  CIRCLE     0.01575                                  DARK 
+  CIRCLE     0.04724                                  DARK 
+  CIRCLE     0.06693                                  DARK 
+  CIRCLE     0.14961                                  DARK 
+
+     SIGNAL-L8 created with warnings
+
+
+================================================================
+     PROCESSING FILM < GND-L9 >
+     TO FILE < G:/github/PLL_FM_HW/FM+MTR/GND-L9.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Film contains objects with associated DRCs (4).
+           In the design editor view this film and enable visibility for the
+           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01181                                  DARK 
+  CIRCLE     0.01575                                  DARK 
+  CIRCLE     0.04724                                  DARK 
+  CIRCLE     0.06693                                  DARK 
+  CIRCLE     0.14961                                  DARK 
+
+     GND-L9 created with warnings
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < G:/github/PLL_FM_HW/FM+MTR/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Film contains objects with associated DRCs (252).
+           In the design editor view this film and enable visibility for the
+           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00591                                  DARK 
+  CIRCLE     0.00630                                  DARK 
+  CIRCLE     0.00709                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.00866                                  DARK 
+  CIRCLE     0.01024                                  DARK 
+  CIRCLE     0.01102                                  DARK 
+  CIRCLE     0.01181                                  DARK 
+  CIRCLE     0.01260                                  DARK 
+  CIRCLE     0.01417                                  DARK 
+  CIRCLE     0.01496                                  DARK 
+  CIRCLE     0.01575                                  DARK 
+  CIRCLE     0.01654                                  DARK 
+  CIRCLE     0.01811                                  DARK 
+  CIRCLE     0.01969                                  DARK 
+  CIRCLE     0.03937                                  DARK 
+  CIRCLE     0.04724                                  DARK 
+  CIRCLE     0.05906                                  DARK 
+  CIRCLE     0.06693                                  DARK 
+  CIRCLE     0.14961                                  DARK 
+  RECTANGLE  0.00787     x 0.02362       0.000 NO     DARK 
+  RECTANGLE  0.00787     x 0.02362      90.000 NO     DARK 
+  RECTANGLE  0.00787     x 0.05906       0.000 NO     DARK 
+  RECTANGLE  0.01181     x 0.01969       0.000 NO     DARK 
+  RECTANGLE  0.01378     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.02362       0.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.02362      90.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.03150       0.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.03150      90.000 NO     DARK 
+  RECTANGLE  0.01969     x 0.01969      90.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.01969       0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.01969      45.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.01969      90.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.01969     135.000 NO     DARK 
+  RECTANGLE  0.02559     x 0.05315       0.000 NO     DARK 
+  RECTANGLE  0.02559     x 0.05315      90.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.03937      90.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.01575       0.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.01575      90.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.01969       0.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.01969      90.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.07874      90.000 NO     DARK 
+  RECTANGLE  0.03937     x 0.01181      90.000 NO     DARK 
+  RECTANGLE  0.04724     x 0.02362      90.000 NO     DARK 
+  RECTANGLE  0.05118     x 0.02362       0.000 NO     DARK 
+  RECTANGLE  0.05906     x 0.03150       0.000 NO     DARK 
+  RECTANGLE  0.05906     x 0.03150      90.000 NO     DARK 
+  RECTANGLE  0.07874     x 0.07874       0.000 NO     DARK 
+  RECTANGLE  0.08661     x 0.08661      90.000 NO     DARK 
+  RECTANGLE  0.12598     x 0.03543       0.000 NO     DARK 
+
+     BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < SILKSCREEN_TOP >
+     TO FILE < G:/github/PLL_FM_HW/FM+MTR/SILKSCREEN_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00079                                  DARK 
+  CIRCLE     0.00197                                  DARK 
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+
+     SILKSCREEN_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < SILKSCREEN_BOTTOM >
+     TO FILE < G:/github/PLL_FM_HW/FM+MTR/SILKSCREEN_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00079                                  DARK 
+  CIRCLE     0.00197                                  DARK 
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00591                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.01181                                  DARK 
+
+     SILKSCREEN_BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_TOP >
+     TO FILE < G:/github/PLL_FM_HW/FM+MTR/SOLDERMASK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.02835                                  DARK 
+  CIRCLE     0.05512                                  DARK 
+  CIRCLE     0.06299                                  DARK 
+  CIRCLE     0.07087                                  DARK 
+  CIRCLE     0.15748                                  DARK 
+  RECTANGLE  0.01181     x 0.06299      90.000 NO     DARK 
+  RECTANGLE  0.01378     x 0.01772       0.000 NO     DARK 
+  RECTANGLE  0.01378     x 0.01772      90.000 NO     DARK 
+  RECTANGLE  0.01378     x 0.03150       0.000 NO     DARK 
+  RECTANGLE  0.01378     x 0.03150      90.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.03543       0.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.03543      90.000 NO     DARK 
+  RECTANGLE  0.01969     x 0.02756       0.000 NO     DARK 
+  RECTANGLE  0.01969     x 0.03543       0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.04331       0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.04331      90.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.06299       0.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.02362       0.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.02362      90.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.04331       0.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.04331      90.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.01575       0.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.04331       0.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.04331      90.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.08268       0.000 NO     DARK 
+  RECTANGLE  0.03543     x 0.01969       0.000 NO     DARK 
+  RECTANGLE  0.03543     x 0.01969      90.000 NO     DARK 
+  RECTANGLE  0.03543     x 0.02362       0.000 NO     DARK 
+  RECTANGLE  0.03543     x 0.02362      90.000 NO     DARK 
+  RECTANGLE  0.05118     x 0.01575       0.000 NO     DARK 
+  RECTANGLE  0.05118     x 0.01575      90.000 NO     DARK 
+  RECTANGLE  0.05118     x 0.02756      90.000 NO     DARK 
+  RECTANGLE  0.05512     x 0.02756       0.000 NO     DARK 
+  RECTANGLE  0.06299     x 0.01969       0.000 NO     DARK 
+  RECTANGLE  0.06299     x 0.01969      90.000 NO     DARK 
+  RECTANGLE  0.06299     x 0.03543      90.000 NO     DARK 
+  RECTANGLE  0.06299     x 0.04331       0.000 NO     DARK 
+  RECTANGLE  0.06299     x 0.05118      90.000 NO     DARK 
+  RECTANGLE  0.07087     x 0.09843      90.000 NO     DARK 
+  RECTANGLE  0.08268     x 0.08268      90.000 NO     DARK 
+  RECTANGLE  0.08268     x 0.16142       0.000 NO     DARK 
+  RECTANGLE  0.08268     x 0.16142      90.000 NO     DARK 
+  RECTANGLE  0.09055     x 0.09055       0.000 NO     DARK 
+  RECTANGLE  0.12992     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.20079     x 0.20079       0.000 NO     DARK 
+
+     SOLDERMASK_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_BOTTOM >
+     TO FILE < G:/github/PLL_FM_HW/FM+MTR/SOLDERMASK_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.04331                                  DARK 
+  CIRCLE     0.05118                                  DARK 
+  CIRCLE     0.05512                                  DARK 
+  CIRCLE     0.06299                                  DARK 
+  CIRCLE     0.07087                                  DARK 
+  CIRCLE     0.15748                                  DARK 
+  RECTANGLE  0.01181     x 0.06299       0.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.02362       0.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.02756       0.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.02756      90.000 NO     DARK 
+  RECTANGLE  0.01772     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.01969     x 0.02756       0.000 NO     DARK 
+  RECTANGLE  0.01969     x 0.02756      90.000 NO     DARK 
+  RECTANGLE  0.01969     x 0.03543       0.000 NO     DARK 
+  RECTANGLE  0.01969     x 0.03543      90.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.02362      90.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.02362       0.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.02362      45.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.02362      90.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.02362     135.000 NO     DARK 
+  RECTANGLE  0.02953     x 0.05709       0.000 NO     DARK 
+  RECTANGLE  0.02953     x 0.05709      90.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.04331       0.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.04331      90.000 NO     DARK 
+  RECTANGLE  0.03543     x 0.01969       0.000 NO     DARK 
+  RECTANGLE  0.03543     x 0.01969      90.000 NO     DARK 
+  RECTANGLE  0.03543     x 0.02362       0.000 NO     DARK 
+  RECTANGLE  0.03543     x 0.02362      90.000 NO     DARK 
+  RECTANGLE  0.03543     x 0.08268      90.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.01575      90.000 NO     DARK 
+  RECTANGLE  0.05118     x 0.02756      90.000 NO     DARK 
+  RECTANGLE  0.05512     x 0.02756       0.000 NO     DARK 
+  RECTANGLE  0.06299     x 0.03543       0.000 NO     DARK 
+  RECTANGLE  0.06299     x 0.03543      90.000 NO     DARK 
+  RECTANGLE  0.08268     x 0.08268       0.000 NO     DARK 
+  RECTANGLE  0.09055     x 0.09055      90.000 NO     DARK 
+  RECTANGLE  0.12992     x 0.03937       0.000 NO     DARK 
+
+     SOLDERMASK_BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < PASTEMASK_TOP >
+     TO FILE < G:/github/PLL_FM_HW/FM+MTR/PASTEMASK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.02362                                  DARK 
+  CIRCLE     0.04724                                  DARK 
+  CIRCLE     0.06693                                  DARK 
+  RECTANGLE  0.00787     x 0.03150       0.000 NO     DARK 
+  RECTANGLE  0.00787     x 0.03150      90.000 NO     DARK 
+  RECTANGLE  0.00787     x 0.05906      90.000 NO     DARK 
+  RECTANGLE  0.00984     x 0.01378       0.000 NO     DARK 
+  RECTANGLE  0.00984     x 0.01378      90.000 NO     DARK 
+  RECTANGLE  0.00984     x 0.02756       0.000 NO     DARK 
+  RECTANGLE  0.00984     x 0.02756      90.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.02362       0.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.03150       0.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.05906       0.000 NO     DARK 
+  RECTANGLE  0.01969     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.01969     x 0.03937      90.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.01969       0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.01969      90.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.03937      90.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.01181       0.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.03937      90.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.07874       0.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.01575       0.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.01575      90.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.01969       0.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.01969      90.000 NO     DARK 
+  RECTANGLE  0.04724     x 0.01181       0.000 NO     DARK 
+  RECTANGLE  0.04724     x 0.01181      90.000 NO     DARK 
+  RECTANGLE  0.04724     x 0.02362      90.000 NO     DARK 
+  RECTANGLE  0.05118     x 0.02362       0.000 NO     DARK 
+  RECTANGLE  0.05906     x 0.01575       0.000 NO     DARK 
+  RECTANGLE  0.05906     x 0.01575      90.000 NO     DARK 
+  RECTANGLE  0.05906     x 0.03150      90.000 NO     DARK 
+  RECTANGLE  0.05906     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.05906     x 0.04724      90.000 NO     DARK 
+  RECTANGLE  0.06693     x 0.09449      90.000 NO     DARK 
+  RECTANGLE  0.07874     x 0.07874      90.000 NO     DARK 
+  RECTANGLE  0.07874     x 0.15748       0.000 NO     DARK 
+  RECTANGLE  0.07874     x 0.15748      90.000 NO     DARK 
+  RECTANGLE  0.08661     x 0.08661       0.000 NO     DARK 
+  RECTANGLE  0.12598     x 0.03543       0.000 NO     DARK 
+  RECTANGLE  0.19685     x 0.19685       0.000 NO     DARK 
+
+     PASTEMASK_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < PASTEMASK_BOTTOM >
+     TO FILE < G:/github/PLL_FM_HW/FM+MTR/PASTEMASK_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.04724                                  DARK 
+  CIRCLE     0.06693                                  DARK 
+  RECTANGLE  0.00787     x 0.02362       0.000 NO     DARK 
+  RECTANGLE  0.00787     x 0.02362      90.000 NO     DARK 
+  RECTANGLE  0.00787     x 0.05906       0.000 NO     DARK 
+  RECTANGLE  0.01181     x 0.01969       0.000 NO     DARK 
+  RECTANGLE  0.01378     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.02362       0.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.02362      90.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.03150       0.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.03150      90.000 NO     DARK 
+  RECTANGLE  0.01969     x 0.01969      90.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.01969       0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.01969      45.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.01969      90.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.01969     135.000 NO     DARK 
+  RECTANGLE  0.02559     x 0.05315       0.000 NO     DARK 
+  RECTANGLE  0.02559     x 0.05315      90.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.03937      90.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.01575       0.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.01575      90.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.01969       0.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.01969      90.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.07874      90.000 NO     DARK 
+  RECTANGLE  0.03937     x 0.01181      90.000 NO     DARK 
+  RECTANGLE  0.04724     x 0.02362      90.000 NO     DARK 
+  RECTANGLE  0.05118     x 0.02362       0.000 NO     DARK 
+  RECTANGLE  0.05906     x 0.03150       0.000 NO     DARK 
+  RECTANGLE  0.05906     x 0.03150      90.000 NO     DARK 
+  RECTANGLE  0.07874     x 0.07874       0.000 NO     DARK 
+  RECTANGLE  0.08661     x 0.08661      90.000 NO     DARK 
+  RECTANGLE  0.12598     x 0.03543       0.000 NO     DARK 
+
+     PASTEMASK_BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < DIMENSION >
+     TO FILE < G:/github/PLL_FM_HW/FM+MTR/DIMENSION.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: 0 width line found at (-8.0000 -65.5000) in MM
+           ... using undefined line width of 0.2000 MM
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 0.2000 MM
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00079                                  DARK 
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.03937                                  DARK 
+
+     DIMENSION created with warnings
+
+
+================================================================
+     PROCESSING FILM < VCUT >
+     TO FILE < G:/github/PLL_FM_HW/FM+MTR/VCUT.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+
+     VCUT created with warnings
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created with warnings
+        GND-L2 created with warnings
+        SIGNAL-L3 created with warnings
+        SIGNAL-L4 created with warnings
+        GND-L5 created with warnings
+        PWR-L6 created with warnings
+        SIGNAL-L7 created with warnings
+        SIGNAL-L8 created with warnings
+        GND-L9 created with warnings
+        BOTTOM created with warnings
+        SILKSCREEN_TOP created with warnings
+        SILKSCREEN_BOTTOM created with warnings
+        SOLDERMASK_TOP created with warnings
+        SOLDERMASK_BOTTOM created with warnings
+        PASTEMASK_TOP created with warnings
+        PASTEMASK_BOTTOM created with warnings
+        DIMENSION created with warnings
+        VCUT created with warnings
+
+ ARTWORK had warnings

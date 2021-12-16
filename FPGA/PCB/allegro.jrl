@@ -1,37 +1,21 @@
-\t (00:00:05) allegro 17.4 S017 Windows SPB 64-bit Edition
-\t (00:00:05)     Journal start - Thu Dec 16 08:48:50 2021
-\t (00:00:05)         Host=BF-202007251750 User=Administrator Pid=6196 CPUs=16
-\t (00:00:05) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
-\t (00:00:05) 
-   (00:00:05) Loading axlcore.cxt 
-\t (00:00:06) Opening existing design...
-\i (00:00:07) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "FPGA-M1"
-\d (00:00:07) Design opened: G:/github/PLL_FM_HW/FPGA/PCB/FPGA-M1.brd
-\i (00:00:07) trapsize 735
-\i (00:00:07) trapsize 757
-\i (00:00:07) trapsize 763
-\i (00:00:07) trapsize 608
-\i (00:00:07) trapsize 623
-\i (00:00:08) generaledit 
-\i (00:00:35) zoom out 1 
-\i (00:00:35) setwindow pcb
-\i (00:00:35) zoom out 32.4172 -64.0116
-\i (00:00:35) trapsize 1246
-\i (00:00:35) zoom out 1 
-\i (00:00:35) setwindow pcb
-\i (00:00:35) zoom out 32.5168 -64.2109
-\i (00:00:35) trapsize 2493
-\i (00:00:35) zoom out 1 
-\i (00:00:35) setwindow pcb
-\i (00:00:35) zoom out 33.3643 -65.2578
-\i (00:00:35) trapsize 4985
-\i (00:00:36) zoom out 1 
-\i (00:00:36) setwindow pcb
-\i (00:00:36) zoom out 34.1619 -69.6447
-\i (00:00:36) trapsize 9970
-\i (00:00:38) open 
-\i (00:00:43) fillin "G:/github/PLL_FM_HW/FM+MTR/AB8.brd"
-\i (00:00:43) cd "G:/github/PLL_FM_HW/FM+MTR"
-\t (00:00:43) Opening existing design...
-\i (00:00:44) trapsize 11976
-\t (00:00:44)     Journal end - Thu Dec 16 08:49:29 2021
+\t (00:00:02) allegro 17.4 S017 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Thu Dec 16 17:43:50 2021
+\t (00:00:02)         Host=BF-202007251750 User=Administrator Pid=3464 CPUs=16
+\t (00:00:02) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "FPGA-FINAL"
+\d (00:00:05) Design opened: G:/github/PLL_FM_HW/FPGA/PCB/FPGA-FINAL.brd
+\i (00:00:05) trapsize 5905
+\i (00:00:05) trapsize 6081
+\i (00:00:05) trapsize 6128
+\i (00:00:05) trapsize 4885
+\i (00:00:05) trapsize 5008
+\i (00:00:06) generaledit 
+\i (00:00:07) open 
+\i (00:00:12) fillin "G:/github/PLL_FM_HW/FM+MTR/AB9.brd"
+\i (00:00:12) cd "G:/github/PLL_FM_HW/FM+MTR"
+\t (00:00:12) Opening existing design...
+\i (00:00:12) trapsize 9752
+\t (00:00:12)     Journal end - Thu Dec 16 17:44:01 2021

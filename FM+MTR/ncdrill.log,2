@@ -1,0 +1,87 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC DRILL Log                                                     )
+(                                                                     )
+(    Drawing          : AB10.brd                                      )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Thu Dec 16 17:46:28 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file 'nc_param.txt' ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		2.5
+ MACHINE-OFFSET		x:0.00000	y:0.00000   (mm)
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		METRIC
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	NO
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		NO
+ TOOL-SELECT		NO
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		NO
+ SEPARATE-ROUTING	NO
+ OPTIMIZE_DRILLING	NO
+ ENHANCED_EXCELLON	NO
+ SCALE			1.000000
+
+
+
+ Drill files being output to directory 'G:/github/PLL_FM_HW/FM+MTR' ...
+
+
+
+     'AB10-9-10.drl' created for holes connecting GND-L9 and BOTTOM
+     --------------------------------------------------------------
+
+           Num     Size      +/- Tolerance     Plating   Quantity
+
+            1.   0.1500    0.0000/  0.0000      PLATED          1
+            2.   0.2000    0.0000/  0.0000      PLATED        132
+
+     ---- Total holes:                                        133
+
+     ---- Total head travel:              2.29 feet (0.70 meters)
+
+
+
+
+     'AB10-1-10.drl' created for holes connecting TOP and BOTTOM
+     -----------------------------------------------------------
+
+           Num     Size      +/- Tolerance     Plating   Quantity
+
+            1.   0.1500    0.0000/  0.0000      PLATED        463
+            2.   0.2000    0.0000/  0.0000      PLATED        725
+            3.   0.9000    0.0000/  0.0000      PLATED         44
+            4.   1.0000    0.0000/  0.0000      PLATED          1
+            5.   3.2000    0.0000/  0.0000  NON_PLATED          4
+
+     ---- Total holes:                                       1237
+
+     ---- Total head travel:              35.87 feet (10.93 meters)
+
+
+
+
+     'AB10-1-2.drl' created for holes connecting TOP and GND-L2
+     ----------------------------------------------------------
+
+           Num     Size      +/- Tolerance     Plating   Quantity
+
+            1.   0.2000    0.0000/  0.0000      PLATED         85
+
+     ---- Total holes:                                         85
+
+     ---- Total head travel:              2.06 feet (0.63 meters)
+

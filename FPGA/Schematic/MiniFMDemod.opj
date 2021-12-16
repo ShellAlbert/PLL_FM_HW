@@ -215,7 +215,7 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 361 0 639"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 761"))
       (Tab 0)))
   (ISPCBBASICLICENSE "false")
   (LastUsedLibraryBrowseDirectory "G:\github\PLL_FM_HW\MCU\Schematic"))
