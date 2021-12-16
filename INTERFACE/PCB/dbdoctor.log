@@ -1,0 +1,37 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : MCU-V4.brd                                    )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Mon Nov 29 11:41:06 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+WARNING: in SYMBOL PIN   refdes = TP1
+  pin# 1
+  symbol origin = (49.0000 -7.0000)
+  WARNING(SPMHA1-97): Illegal drill plating.
+Non-Plated hole has connected objects, consider changing to PLATED. Pad stack - THR_CIR_3D8X3D2_NP is NON_PLATED.
+
+
+WARNING: in SYMBOL PIN   refdes = TP2
+  pin# 1
+  symbol origin = (7.1000 -7.1000)
+  WARNING(SPMHA1-97): Illegal drill plating.
+Non-Plated hole has connected objects, consider changing to PLATED. Pad stack - THR_CIR_3D8X3D2_NP is NON_PLATED.
+
+
+WARNING: The following vias/pins have connections using non-plated padstacks
+         This may cause issues with your manufacturing process.
+
+  Pin/Via         Padstack                                   Location
+  -------------------------------------------------------------------------
+  TP2.1           THR_CIR_3D8X3D2_NP                       (7.1000 -7.1000)
+
+
+WARNING:   WARNING(SPMHDB-42): Run batch DRC to regenerate DRC errs.
+
+4 warnings, 0 errors detected, 0 errors could be fixed.

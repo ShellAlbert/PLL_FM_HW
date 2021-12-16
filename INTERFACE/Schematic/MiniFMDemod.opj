@@ -1,0 +1,236 @@
+(ExpressProject "MiniFMDemod"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[12/15/21]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library1.olb"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory" "G:\github\PLL_FM_HW\MCU\Schematic\NETLIST")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\minifmdemod.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" ".\allegro\minifmdemod.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "255")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "G:\ZSY\MINIFMDEMOD\MINIFMDEMOD.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}\t{ZSYDesc}")
+    (BOM_Header "Item\tQuantity\tReference\tPart\tPCBFootprint\tDetails")
+    (BOM_Include_File "G:\ZSY\MINIFMDEMOD\MINIFMDEMOD.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    ("Allegro Backannotation Run Genfeed" "TRUE")
+    ("Allegro Backannotation Board File"
+       "G:\github\PLL_FM_HW\MCU\PCB\MCU-V3.brd")
+    ("Allegro Backannotation Netlist Directory"
+       "G:\github\PLL_FM_HW\MCU\Schematic\NETLIST")
+    ("Allegro Backannotation Output File" "allegro\MINIFMDEMOD.swp")
+    ("Allegro Backannotation Update Schematic" "TRUE")
+    ("Allegro Backannotation View Output" "FALSE")
+    ("Allegro Setup Output Warnings" "FALSE")
+    (Backannotation_TAB "0"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\allegro\minifmdemod.swp"
+      (Type "Report")
+      (DisplayName "MINIFMDEMOD.swp"))
+    (File "g:\zsy\minifmdemod\minifmdemod.bom"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs"
+    (File ".\netlist\swp.log"
+      (Type "Log File")
+      (LogFile "G:\github\PLL_FM_HW\MCU\Schematic\NETLIST\swp.log")))
+  (PartMRUSelector
+    (GND
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (FPC-14P-0.5
+      (FullPartName "FPC-14P-0.5.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\MCU\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CONNECTOR-2X10P
+      (FullPartName "CONNECTOR-2X10P.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\MCU\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (HEADER-1X10
+      (FullPartName "HEADER-1X10.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (HEADER-1X4
+      (FullPartName "HEADER-1X4.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("T POINT R"
+      (FullPartName "T POINT R.Normal")
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("T POINT S"
+      (FullPartName "T POINT S.Normal")
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (TPS74601PBQWDRVRQ1
+      (FullPartName "TPS74601PBQWDRVRQ1.Normal")
+      (LibraryName "G:\ZSY\MINIFMDEMOD\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (MP2326GD
+      (FullPartName "MP2326GD.Normal")
+      (LibraryName "G:\ZSY\MINIFMDEMOD\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (HEADER-1X2
+      (FullPartName "HEADER-1X2.Normal")
+      (LibraryName "G:\ZSY\MINIFMDEMOD\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (HEADER-2X5P
+      (FullPartName "HEADER-2X5P.Normal")
+      (LibraryName "G:\ZSY\MINIFMDEMOD\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName
+         "C:\WORKTOOLS\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (AD8306AR
+      (FullPartName "AD8306AR.Normal")
+      (LibraryName "G:\ZSY\MINIFMDEMOD\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (EP4CE40F23I7
+      (FullPartName "EP4CE40F23I7I.Normal")
+      (LibraryName "G:\ZSY\MINIFMDEMOD\LIBRARY1.OLB")
+      (DeviceIndex "8"))
+    ("T POINT A"
+      (FullPartName "T POINT A.Normal")
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (BEAD
+      (FullPartName "BEAD.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName
+         "C:\WORKTOOLS\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (HEADER-2X4
+      (FullPartName "HEADER-2X4.Normal")
+      (LibraryName "G:\ZSY\MINIFMDEMOD\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (FUSE
+      (FullPartName "FUSE.Normal")
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "D:\MYSOFTSET\CADENCESPB172\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (AO3401A
+      (FullPartName "AO3401A.Normal")
+      (LibraryName "G:\ZSY\MINIFMDEMOD\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("MOSFET P"
+      (FullPartName "MOSFET P.Normal")
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (MP1657GTF
+      (FullPartName "MP1657GTF.Normal")
+      (LibraryName "G:\ZSY\MINIFMDEMOD\LIBRARY1.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "Administrator")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\minifmdemod.dsn")
+      (Path "Design Resources" ".\minifmdemod.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Path "Logs")
+      (Select "Design Resources" ".\minifmdemod.dsn" "SCHEMATIC1"
+         "07-IMX6_PERI3"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 285 0 663"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1308 28 685")
+        (Scroll "0 110")
+        (Zoom "106")
+        (Occurrence "/"))
+      (Path "G:\GITHUB\PLL_FM_HW\INTERFACE\SCHEMATIC\MINIFMDEMOD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "POWER_SUPPLY"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1308 28 685")
+        (Scroll "1272 2832")
+        (Zoom "848")
+        (Occurrence "/"))
+      (Path "G:\GITHUB\PLL_FM_HW\INTERFACE\SCHEMATIC\MINIFMDEMOD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "07-IMX6_PERI3")))
+  (ISPCBBASICLICENSE "false"))

@@ -1,0 +1,440 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    RENAME REFDES                                                    )
+(                                                                     )
+(    Drawing          : MCU-V3.brd                                    )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Thu Nov 18 09:36:01 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Renaming components on BOTH_SIDES on entire BOARD
+    Extents: (-299.0500,-291.0500) (753.0500,761.0500)
+
+Sequencing the reference designators SEQUENTIALLY
+Row processing direction : to the RIGHT, from the top down.
+
+OLD TP36    NEW TP1
+OLD TP35    NEW TP2
+OLD R49    NEW R1
+OLD R59    NEW R2
+OLD R58    NEW R3
+OLD C79    NEW C1
+OLD R156    NEW R4
+OLD R51    NEW R5
+OLD R62    NEW R6
+OLD R61    NEW R7
+OLD C80    NEW C2
+OLD C84    NEW C3
+OLD C85    NEW C4
+OLD R50    NEW R8
+OLD C69    NEW C5
+OLD R154    NEW R9
+OLD R52    NEW R10
+OLD C70    NEW C6
+OLD U11    NEW U1
+OLD L7    NEW L1
+OLD U12    NEW U2
+OLD L8    NEW L2
+OLD C88    NEW C7
+OLD C89    NEW C8
+OLD R57    NEW R11
+OLD R60    NEW R12
+OLD R69    NEW R13
+OLD R75    NEW R14
+OLD R70    NEW R15
+OLD R76    NEW R16
+OLD J16    NEW J1
+OLD C75    NEW C9
+OLD R86    NEW R17
+OLD C76    NEW C10
+OLD R87    NEW R18
+OLD C423    NEW C11
+OLD C103    NEW C12
+OLD C126    NEW C13
+OLD C443    NEW C14
+OLD C104    NEW C15
+OLD C127    NEW C16
+OLD C117    NEW C17
+OLD C131    NEW C18
+OLD C416    NEW C19
+OLD C115    NEW C20
+OLD R321    NEW R19
+OLD D41    NEW D1
+OLD C141    NEW C21
+OLD C142    NEW C22
+OLD C162    NEW C23
+OLD L17    NEW L3
+OLD D20    NEW D2
+OLD R181    NEW R20
+OLD J7    NEW J2
+OLD R320    NEW R21
+OLD C487    NEW C24
+OLD U39    NEW U3
+OLD D21    NEW D3
+OLD R186    NEW R22
+OLD C546    NEW C25
+OLD R309    NEW R23
+OLD U19    NEW U4
+OLD J24    NEW J3
+OLD C203    NEW C26
+OLD C513    NEW C27
+OLD D14    NEW D4
+OLD R140    NEW R24
+OLD Y3    NEW Y1
+OLD D15    NEW D5
+OLD R144    NEW R25
+OLD C527    NEW C28
+OLD R157    NEW R26
+OLD R153    NEW R27
+OLD D17    NEW D6
+OLD R150    NEW R28
+OLD D16    NEW D7
+OLD R145    NEW R29
+OLD C607    NEW C29
+OLD C591    NEW C30
+OLD C572    NEW C31
+OLD C574    NEW C32
+OLD C566    NEW C33
+OLD C567    NEW C34
+OLD C570    NEW C35
+OLD C569    NEW C36
+OLD C568    NEW C37
+OLD C571    NEW C38
+OLD R338    NEW R30
+OLD C596    NEW C39
+OLD R371    NEW R31
+OLD U42    NEW U5
+OLD C539    NEW C40
+OLD R342    NEW R32
+OLD R339    NEW R33
+OLD R340    NEW R34
+OLD R341    NEW R35
+OLD R372    NEW R36
+OLD R331    NEW R37
+OLD U47    NEW U6
+OLD R334    NEW R38
+OLD C601    NEW C41
+OLD U45    NEW U7
+OLD U46    NEW U8
+OLD U43    NEW U9
+OLD U44    NEW U10
+OLD R346    NEW R39
+OLD R324    NEW R40
+OLD R360    NEW R41
+OLD R361    NEW R42
+OLD R358    NEW R43
+OLD R359    NEW R44
+OLD C515    NEW C42
+OLD U41    NEW U11
+OLD R348    NEW R45
+OLD R332    NEW R46
+OLD C611    NEW C43
+OLD R349    NEW R47
+OLD R369    NEW R48
+OLD R368    NEW R49
+OLD C166    NEW C44
+OLD C169    NEW C45
+OLD R173    NEW R50
+OLD C644    NEW C46
+OLD C553    NEW C47
+OLD C609    NEW C48
+OLD C610    NEW C49
+OLD U51    NEW U12
+OLD U50    NEW U13
+OLD U53    NEW U14
+OLD U26    NEW U15
+OLD U27    NEW U16
+OLD C167    NEW C50
+OLD C170    NEW C51
+OLD C646    NEW C52
+OLD R172    NEW R51
+OLD R327    NEW R52
+OLD D47    NEW D8
+OLD D48    NEW D9
+OLD D44    NEW D10
+OLD D45    NEW D11
+OLD D52    NEW D12
+OLD D53    NEW D13
+OLD D42    NEW D14
+OLD J22    NEW J4
+OLD J23    NEW J5
+OLD TP37    NEW TP3
+OLD TP38    NEW TP4
+Sequencing the reference designators SEQUENTIALLY
+Row processing direction : to the LEFT, from the top down.
+
+Reference designator C1 already exists ... skipping to C2.
+Reference designator C2 already exists ... skipping to C3.
+Reference designator C3 already exists ... skipping to C4.
+Reference designator C4 already exists ... skipping to C5.
+Reference designator C5 already exists ... skipping to C6.
+Reference designator C6 already exists ... skipping to C7.
+Reference designator C7 already exists ... skipping to C8.
+Reference designator C8 already exists ... skipping to C9.
+Reference designator C9 already exists ... skipping to C10.
+Reference designator C10 already exists ... skipping to C11.
+Reference designator C11 already exists ... skipping to C12.
+Reference designator C12 already exists ... skipping to C13.
+Reference designator C13 already exists ... skipping to C14.
+Reference designator C14 already exists ... skipping to C15.
+Reference designator C15 already exists ... skipping to C16.
+Reference designator C16 already exists ... skipping to C17.
+Reference designator C17 already exists ... skipping to C18.
+Reference designator C18 already exists ... skipping to C19.
+Reference designator C19 already exists ... skipping to C20.
+Reference designator C20 already exists ... skipping to C21.
+Reference designator C21 already exists ... skipping to C22.
+Reference designator C22 already exists ... skipping to C23.
+Reference designator C23 already exists ... skipping to C24.
+Reference designator C24 already exists ... skipping to C25.
+Reference designator C25 already exists ... skipping to C26.
+Reference designator C26 already exists ... skipping to C27.
+Reference designator C27 already exists ... skipping to C28.
+Reference designator C28 already exists ... skipping to C29.
+Reference designator C29 already exists ... skipping to C30.
+Reference designator C30 already exists ... skipping to C31.
+Reference designator C31 already exists ... skipping to C32.
+Reference designator C32 already exists ... skipping to C33.
+Reference designator C33 already exists ... skipping to C34.
+Reference designator C34 already exists ... skipping to C35.
+Reference designator C35 already exists ... skipping to C36.
+Reference designator C36 already exists ... skipping to C37.
+Reference designator C37 already exists ... skipping to C38.
+Reference designator C38 already exists ... skipping to C39.
+Reference designator C39 already exists ... skipping to C40.
+Reference designator C40 already exists ... skipping to C41.
+Reference designator C41 already exists ... skipping to C42.
+Reference designator C42 already exists ... skipping to C43.
+Reference designator C43 already exists ... skipping to C44.
+Reference designator C44 already exists ... skipping to C45.
+Reference designator C45 already exists ... skipping to C46.
+Reference designator C46 already exists ... skipping to C47.
+Reference designator C47 already exists ... skipping to C48.
+Reference designator C48 already exists ... skipping to C49.
+Reference designator C49 already exists ... skipping to C50.
+Reference designator C50 already exists ... skipping to C51.
+Reference designator C51 already exists ... skipping to C52.
+Reference designator C52 already exists ... skipping to C53.
+OLD C63    NEW C53
+OLD C387    NEW C54
+OLD C61    NEW C55
+OLD C366    NEW C56
+OLD C374    NEW C57
+OLD C371    NEW C58
+OLD C413    NEW C59
+OLD C442    NEW C60
+OLD C441    NEW C61
+OLD C124    NEW C62
+OLD C116    NEW C63
+OLD C650    NEW C64
+OLD C435    NEW C65
+OLD C652    NEW C66
+OLD C436    NEW C67
+OLD C651    NEW C68
+OLD C422    NEW C69
+Reference designator TP1 already exists ... skipping to TP2.
+Reference designator TP2 already exists ... skipping to TP3.
+Reference designator TP3 already exists ... skipping to TP4.
+Reference designator TP4 already exists ... skipping to TP5.
+OLD TP63    NEW TP5
+OLD TP2    NEW TP6
+OLD TP1    NEW TP7
+OLD C138    NEW C70
+OLD C161    NEW C71
+OLD C156    NEW C72
+OLD C168    NEW C73
+OLD C427    NEW C74
+OLD C437    NEW C75
+Reference designator L1 already exists ... skipping to L2.
+Reference designator L2 already exists ... skipping to L3.
+Reference designator L3 already exists ... skipping to L4.
+OLD L13    NEW L4
+Reference designator R1 already exists ... skipping to R2.
+Reference designator R2 already exists ... skipping to R3.
+Reference designator R3 already exists ... skipping to R4.
+Reference designator R4 already exists ... skipping to R5.
+Reference designator R5 already exists ... skipping to R6.
+Reference designator R6 already exists ... skipping to R7.
+Reference designator R7 already exists ... skipping to R8.
+Reference designator R8 already exists ... skipping to R9.
+Reference designator R9 already exists ... skipping to R10.
+Reference designator R10 already exists ... skipping to R11.
+Reference designator R11 already exists ... skipping to R12.
+Reference designator R12 already exists ... skipping to R13.
+Reference designator R13 already exists ... skipping to R14.
+Reference designator R14 already exists ... skipping to R15.
+Reference designator R15 already exists ... skipping to R16.
+Reference designator R16 already exists ... skipping to R17.
+Reference designator R17 already exists ... skipping to R18.
+Reference designator R18 already exists ... skipping to R19.
+Reference designator R19 already exists ... skipping to R20.
+Reference designator R20 already exists ... skipping to R21.
+Reference designator R21 already exists ... skipping to R22.
+Reference designator R22 already exists ... skipping to R23.
+Reference designator R23 already exists ... skipping to R24.
+Reference designator R24 already exists ... skipping to R25.
+Reference designator R25 already exists ... skipping to R26.
+Reference designator R26 already exists ... skipping to R27.
+Reference designator R27 already exists ... skipping to R28.
+Reference designator R28 already exists ... skipping to R29.
+Reference designator R29 already exists ... skipping to R30.
+Reference designator R30 already exists ... skipping to R31.
+Reference designator R31 already exists ... skipping to R32.
+Reference designator R32 already exists ... skipping to R33.
+Reference designator R33 already exists ... skipping to R34.
+Reference designator R34 already exists ... skipping to R35.
+Reference designator R35 already exists ... skipping to R36.
+Reference designator R36 already exists ... skipping to R37.
+Reference designator R37 already exists ... skipping to R38.
+Reference designator R38 already exists ... skipping to R39.
+Reference designator R39 already exists ... skipping to R40.
+Reference designator R40 already exists ... skipping to R41.
+Reference designator R41 already exists ... skipping to R42.
+Reference designator R42 already exists ... skipping to R43.
+Reference designator R43 already exists ... skipping to R44.
+Reference designator R44 already exists ... skipping to R45.
+Reference designator R45 already exists ... skipping to R46.
+Reference designator R46 already exists ... skipping to R47.
+Reference designator R47 already exists ... skipping to R48.
+Reference designator R48 already exists ... skipping to R49.
+Reference designator R49 already exists ... skipping to R50.
+Reference designator R50 already exists ... skipping to R51.
+Reference designator R51 already exists ... skipping to R52.
+Reference designator R52 already exists ... skipping to R53.
+OLD R297    NEW R53
+Reference designator U1 already exists ... skipping to U2.
+Reference designator U2 already exists ... skipping to U3.
+Reference designator U3 already exists ... skipping to U4.
+Reference designator U4 already exists ... skipping to U5.
+Reference designator U5 already exists ... skipping to U6.
+Reference designator U6 already exists ... skipping to U7.
+Reference designator U7 already exists ... skipping to U8.
+Reference designator U8 already exists ... skipping to U9.
+Reference designator U9 already exists ... skipping to U10.
+Reference designator U10 already exists ... skipping to U11.
+Reference designator U11 already exists ... skipping to U12.
+Reference designator U12 already exists ... skipping to U13.
+Reference designator U13 already exists ... skipping to U14.
+Reference designator U14 already exists ... skipping to U15.
+Reference designator U15 already exists ... skipping to U16.
+Reference designator U16 already exists ... skipping to U17.
+OLD U37    NEW U17
+Reference designator D1 already exists ... skipping to D2.
+Reference designator D2 already exists ... skipping to D3.
+Reference designator D3 already exists ... skipping to D4.
+Reference designator D4 already exists ... skipping to D5.
+Reference designator D5 already exists ... skipping to D6.
+Reference designator D6 already exists ... skipping to D7.
+Reference designator D7 already exists ... skipping to D8.
+Reference designator D8 already exists ... skipping to D9.
+Reference designator D9 already exists ... skipping to D10.
+Reference designator D10 already exists ... skipping to D11.
+Reference designator D11 already exists ... skipping to D12.
+Reference designator D12 already exists ... skipping to D13.
+Reference designator D13 already exists ... skipping to D14.
+Reference designator D14 already exists ... skipping to D15.
+OLD D18    NEW D15
+OLD R298    NEW R54
+OLD R134    NEW R55
+OLD C154    NEW C76
+OLD R182    NEW R56
+OLD R180    NEW R57
+OLD C466    NEW C77
+OLD C461    NEW C78
+OLD C130    NEW C79
+OLD U38    NEW U18
+OLD R317    NEW R58
+OLD R308    NEW R59
+OLD R135    NEW R60
+OLD R299    NEW R61
+OLD U22    NEW U19
+OLD C163    NEW C80
+OLD L20    NEW L5
+OLD C158    NEW C81
+OLD C532    NEW C82
+OLD R291    NEW R62
+OLD U40    NEW U20
+OLD R315    NEW R63
+OLD R316    NEW R64
+OLD D40    NEW D16
+OLD C493    NEW C83
+OLD R323    NEW R65
+OLD C504    NEW C84
+OLD C472    NEW C85
+OLD C488    NEW C86
+OLD C494    NEW C87
+OLD C525    NEW C88
+OLD C503    NEW C89
+OLD R328    NEW R66
+OLD C495    NEW C90
+OLD C155    NEW C91
+OLD C160    NEW C92
+OLD R183    NEW R67
+OLD D19    NEW D17
+OLD R343    NEW R68
+OLD R344    NEW R69
+OLD C176    NEW C93
+OLD R374    NEW R70
+OLD D43    NEW D18
+OLD U21    NEW U21
+OLD C573    NEW C94
+OLD C136    NEW C95
+OLD C137    NEW C96
+OLD C460    NEW C97
+OLD C189    NEW C98
+OLD C157    NEW C99
+OLD C139    NEW C100
+OLD C159    NEW C101
+OLD C153    NEW C102
+OLD R345    NEW R71
+OLD R350    NEW R72
+OLD C655    NEW C103
+OLD C654    NEW C104
+OLD C653    NEW C105
+OLD C492    NEW C106
+OLD C656    NEW C107
+OLD C179    NEW C108
+OLD C657    NEW C109
+OLD C174    NEW C110
+OLD C196    NEW C111
+OLD C194    NEW C112
+OLD C592    NEW C113
+OLD R176    NEW R73
+OLD C177    NEW C114
+OLD R363    NEW R74
+OLD R347    NEW R75
+OLD R335    NEW R76
+OLD C190    NEW C115
+OLD C595    NEW C116
+OLD R170    NEW R77
+OLD C647    NEW C117
+OLD C603    NEW C118
+OLD C600    NEW C119
+OLD C606    NEW C120
+OLD U52    NEW U22
+OLD U25    NEW U23
+OLD U31    NEW U24
+OLD U28    NEW U25
+OLD U48    NEW U26
+OLD C185    NEW C121
+OLD C594    NEW C122
+OLD R378    NEW R78
+OLD R377    NEW R79
+OLD R189    NEW R80
+OLD R187    NEW R81
+OLD C645    NEW C123
+OLD D56    NEW D19
+OLD R171    NEW R82
+OLD D49    NEW D20
+OLD D50    NEW D21
+OLD D55    NEW D22
+OLD D54    NEW D23
+OLD D25    NEW D24
+OLD D22    NEW D25
+OLD R379    NEW R83
+OLD R178    NEW R84
+OLD R184    NEW R85
+OLD R370    NEW R86
+OLD R373    NEW R87

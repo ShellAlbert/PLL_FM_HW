@@ -1,0 +1,59 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    PLACEMENT LOG                                                    )
+(                                                                     )
+(    Drawing          : FMDEMOD-29.brd                                )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Mon Sep  6 14:21:20 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Autoplace G:/ZSY/MiniFMDemod/PCB/FMDEMOD-29.brd 
+ Save as G:/ZSY/MiniFMDemod/PCB/FMDEMOD-29.brd 
+
+ Will search while getting acceptable improvement
+ Will not scale complete graph edges
+ Start time Mon Sep  6 14:21:20 2021
+
+
+ 
+ 	 	 Placement Task Version 1.00 
+ 
+ 
+ Algorithm  : IC
+ Place within: board
+ Map grid points to: library origin
+ Place leftovers on bottom: YES
+ Allow component overlap: NO
+ Soft boundary: NO
+ Cluster: NO
+ No Rat: NO
+ Remove TAG: NO
+ Components at rotation of 0 degrees are weighted 50
+
+ Components at rotation of 90 degrees are weighted 0
+
+ Components at rotation of 180 degrees are weighted 0
+
+ Components at rotation of 270 degrees are weighted 0
+
+ Board direction of north is weighted 50
+
+ Board direction of east is weighted 50
+
+ Board direction of south is weighted 50
+
+ Board direction of west is weighted 50
+
+ Component mirroring weight is 50
+
+ Component straightness weight is 50
+
+ Warning: unplaced components are not PLACE TAGGED.
+
+ Warning : Positive Plane may result in a poor placement
+
+ Error: No Package Keepin was found
+ERROR(SPMHGE-458): Error see the message(s) above.

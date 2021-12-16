@@ -1,0 +1,27 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Unplaced Symbol Availability Check                               )
+(                                                                     )
+(    Drawing          : MCU-V3.brd                                    )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Thu Nov 18 11:01:28 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Current PSMPATH consists of:
+	.
+	symbols
+	..
+	../symbols
+	D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/local/pcb/symbols
+	D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/pcb_lib/symbols
+	D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/allegrolib/symbols
+	G:/github/PLL_FM_HW/LIBS
+
+
+All Symbols Found
+
+Total symbols placed:      277 out of 277
+
+

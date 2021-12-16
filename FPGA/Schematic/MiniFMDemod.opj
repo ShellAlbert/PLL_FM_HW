@@ -1,6 +1,6 @@
 (ExpressProject "MiniFMDemod"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[12/14/21]")
+  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[12/16/21]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -210,42 +210,12 @@
       (Path "Design Resources" "Library")
       (Path "Outputs")
       (Path "Logs")
-      (Select "Design Resources" ".\minifmdemod.dsn"))
+      (Select "Design Resources" ".\minifmdemod.dsn" "SCHEMATIC1" "11-FM-INPUT"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 663"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1393 28 685")
-        (Scroll "32 292")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "G:\GITHUB\PLL_FM_HW\FPGA\SCHEMATIC\MINIFMDEMOD.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "11-FM-INPUT"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1393 28 685")
-        (Scroll "0 37")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "G:\GITHUB\PLL_FM_HW\FPGA\SCHEMATIC\MINIFMDEMOD.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "12-POWER_FPGA"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1393 28 685")
-        (Scroll "137 267")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "G:\GITHUB\PLL_FM_HW\FPGA\SCHEMATIC\MINIFMDEMOD.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "10-FMDEMOD")))
+        (Placement "44 0 1 -1 -1 -1 -1 0 361 0 639"))
+      (Tab 0)))
   (ISPCBBASICLICENSE "false")
   (LastUsedLibraryBrowseDirectory "G:\github\PLL_FM_HW\MCU\Schematic"))

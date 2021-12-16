@@ -1,0 +1,410 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dangling Line, Via and Antenna Report                            )
+(                                                                     )
+(    Drawing          : MCU-V3.brd                                    )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Wed Nov 17 17:57:16 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Report methodology:
+  - Dangling lines have at least one end not connected.
+  - Dangling vias have one or no connection
+      - Plus are not a test, thieving or netshort property via.
+  - Antenna vias do not have connections on their start and end layers.
+      - Plus they are not a thieving vias.
+      - Optionally, VOLTAGE nets, testvias and through vias can be suppressed with
+        the environment variable report_antennavia.
+      - Section may be suppressed by variable report_noantennavia.
+  - Not part of the current partition.
+  - To suppress items in dangle report add the OK_DANGLE property to the via
+    or connect line.
+
+<< Dangling Lines >>  - Location marked with a star (*) is dangling.
+  Net                 Layer                  Length       Location
+  ------------------------------------------------------------------------------------------
+  N8196944             TOP                   0.0900      (10.6500 -8.2800) to *(10.6500 -8.1900)
+  N8196944             TOP                   0.0100     *(10.6500 -10.1300) to  (10.6500 -10.1200)
+  SMTR2_NFAULT         BOTTOM                0.0460     *(31.7610 -34.4540) to  (31.7610 -34.5000)
+
+
+<< Dangling Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  5V5_MCU_IN           VIA_0D3_0D15         (9.8445 -21.7000) TOP/BOTTOM 
+  VMTR                 VIA_0D4_0D2          (30.3700 -53.8000) TOP/BOTTOM 
+  VSMTR                VIA_0D4_0D2          (47.5100 -47.9270) TOP/BOTTOM 
+  VSMTR                VIA_0D4_0D2          (37.4100 -47.9270) TOP/BOTTOM 
+  VSMTR                VIA_0D4_0D2          (49.2000 -56.0000) TOP/BOTTOM 
+  SMTR2_PWM            VIA_0D3_0D15         (41.5500 -50.4500) TOP/BOTTOM 
+  SMTR2_PWM            VIA_0D3_0D15         (34.0080 -20.0900) TOP/BOTTOM 
+  SMTR1_PWM            VIA_0D3_0D15         (31.3530 -50.4500) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (12.2730 -52.1300) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (18.1900 -24.6000) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (28.2500 -32.7830) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (14.7000 -40.6000) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (23.9550 -26.9270) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (25.3000 -24.4000) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (21.4000 -45.2000) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (24.6000 -42.2000) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (14.0000 -33.9500) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (23.5910 -30.3660) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (25.7500 -35.0000) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (32.6890 -25.3330) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (9.1210 -36.6850) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (8.5690 -36.0990) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (9.8050 -36.7820) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (9.8040 -37.4420) TOP/BOTTOM 
+  3V3_MCU              VIA_0D3_0D15         (13.7060 -28.6490) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (32.8500 -35.0000) TOP/BOTTOM 
+  5V_MCU               VIA_0D4_0D2          (9.8270 -30.1000) TOP/BOTTOM 
+  5V_MCU               VIA_0D4_0D2          (9.8270 -28.7000) TOP/BOTTOM 
+  5V_MCU               VIA_0D4_0D2          (7.4500 -25.0140) TOP/BOTTOM 
+  5V_MCU               VIA_0D4_0D2          (9.1270 -27.0800) TOP/BOTTOM 
+  5V_MCU               VIA_0D4_0D2          (10.4230 -29.3800) TOP/BOTTOM 
+  5V_MCU               VIA_0D4_0D2          (10.4000 -31.2800) TOP/BOTTOM 
+  5V_MCU               VIA_0D4_0D2          (10.4230 -27.4800) TOP/BOTTOM 
+  5V_MCU               VIA_0D4_0D2          (8.5500 -25.0500) TOP/BOTTOM 
+  5V_MCU               VIA_0D4_0D2          (9.8270 -31.5000) TOP/BOTTOM 
+  Dummy Net            VIA_0D3_0D15         (35.0410 -30.8340) TOP/BOTTOM 
+
+
+<< Antenna Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  5V5_MCU_IN           VIA_0D3_0D15         (9.8445 -21.7000) TOP/BOTTOM 
+  VMTR                 VIA_0D4_0D2          (30.3700 -53.8000) TOP/BOTTOM 
+  VSMTR                VIA_0D4_0D2          (47.5100 -47.9270) TOP/BOTTOM 
+  VSMTR                VIA_0D4_0D2          (37.4100 -47.9270) TOP/BOTTOM 
+  VSMTR                VIA_0D4_0D2          (49.2000 -56.0000) TOP/BOTTOM 
+  N8197194             VIA_0D4_0D2          (32.9480 -10.2600) TOP/BOTTOM 
+  N8197194             VIA_0D4_0D2          (36.5730 -12.8900) TOP/BOTTOM 
+  N8196956             VIA_0D4_0D2          (17.0730 -12.8900) TOP/BOTTOM 
+  N8196956             VIA_0D4_0D2          (13.3480 -10.2600) TOP/BOTTOM 
+  N8197148             VIA_0D4_0D2          (34.4000 -13.5000) TOP/BOTTOM 
+  N8197148             VIA_0D4_0D2          (30.3500 -9.2000) TOP/BOTTOM 
+  VBAT_IN              VIA_0D4_0D2          (35.2700 -7.6540) TOP/BOTTOM 
+  VBAT_IN              VIA_0D4_0D2          (30.9460 -7.3200) TOP/BOTTOM 
+  VBAT_IN              VIA_0D4_0D2          (29.7500 -7.3100) TOP/BOTTOM 
+  VBAT_IN              VIA_0D4_0D2          (11.2730 -7.3200) TOP/BOTTOM 
+  VBAT_IN              VIA_0D4_0D2          (10.0730 -7.3200) TOP/BOTTOM 
+  VBAT_IN              VIA_0D4_0D2          (15.8650 -7.6610) TOP/BOTTOM 
+  12V_MTR              VIA_0D4_0D2          (31.5500 -14.3970) TOP/BOTTOM 
+  12V_MTR              VIA_0D4_0D2          (30.3000 -15.2730) TOP/BOTTOM 
+  5V5_MCU_PWR          VIA_0D4_0D2          (14.7390 -20.8080) TOP/BOTTOM 
+  5V5_MCU_PWR          VIA_0D4_0D2          (16.2480 -20.7300) TOP/BOTTOM 
+  5V5_MCU_PWR          VIA_0D4_0D2          (17.3360 -15.8000) TOP/BOTTOM 
+  5V5_MCU_PWR          VIA_0D4_0D2          (15.8300 -16.2130) TOP/BOTTOM 
+  5V5_MCU_PWR          VIA_0D4_0D2          (15.8260 -16.8720) TOP/BOTTOM 
+  5V5_MCU_PWR          VIA_0D4_0D2          (14.8000 -15.1270) TOP/BOTTOM 
+  5V5_MCU_PWR          VIA_0D4_0D2          (11.8500 -14.3970) TOP/BOTTOM 
+  5V5_MCU_PWR          VIA_0D4_0D2          (11.4000 -15.2930) TOP/BOTTOM 
+  N8196944             VIA_0D4_0D2          (10.6500 -9.2050) TOP/BOTTOM 
+  N8196944             VIA_0D4_0D2          (14.8000 -13.4000) TOP/BOTTOM 
+  PT100-3              VIA_0D3_0D15         (32.5080 -20.0900) TOP/BOTTOM 
+  PT100-1              VIA_0D3_0D15         (31.5080 -20.0900) TOP/BOTTOM 
+  PT100-2              VIA_0D3_0D15         (32.0080 -20.0900) TOP/BOTTOM 
+  MCU_LED4             VIA_0D3_0D15         (24.0040 -35.8920) TOP/BOTTOM 
+  MCU_LED4             VIA_0D4_0D2          (18.9500 -37.1500) TOP/BOTTOM 
+  MCU_LED3             VIA_0D3_0D15         (22.5000 -35.8920) TOP/BOTTOM 
+  MCU_LED3             VIA_0D4_0D2          (18.9500 -35.7500) TOP/BOTTOM 
+  NFAULT34             VIA_0D3_0D15         (46.3800 -53.6030) TOP/BOTTOM 
+  NFAULT34             VIA_0D3_0D15         (26.5080 -20.1760) TOP/BOTTOM 
+  NFAULT34             VIA_0D3_0D15         (18.6000 -21.3000) TOP/BOTTOM 
+  LIMIT_SW2            VIA_0D3_0D15         (19.2230 -26.3690) TOP/BOTTOM 
+  LIMIT_SW2            VIA_0D3_0D15         (11.2000 -48.6810) TOP/BOTTOM 
+  M3_PWM+              VIA_0D3_0D15         (41.8300 -47.7030) TOP/BOTTOM 
+  M3_PWM+              VIA_0D3_0D15         (25.0080 -21.8160) TOP/BOTTOM 
+  ENC1_A_BUF           VIA_0D3_0D15         (35.0250 -23.3700) TOP/BOTTOM 
+  ENC1_A_BUF           VIA_0D3_0D15         (21.3000 -48.4510) TOP/BOTTOM 
+  SMTR1_DEC0           VIA_0D3_0D15         (28.5040 -37.8000) TOP/BOTTOM 
+  SMTR1_DEC0           VIA_0D3_0D15         (36.6470 -51.9500) TOP/BOTTOM 
+  SMTR2_I0             VIA_0D3_0D15         (35.0250 -32.8700) TOP/BOTTOM 
+  SMTR2_I0             VIA_0D3_0D15         (46.7470 -50.9500) TOP/BOTTOM 
+  SMTR2_I1             VIA_0D3_0D15         (35.0250 -33.3700) TOP/BOTTOM 
+  SMTR2_I1             VIA_0D3_0D15         (46.7470 -51.4500) TOP/BOTTOM 
+  MCU_SPI2_MISO        VIA_0D3_0D15         (19.2230 -23.8740) TOP/BOTTOM 
+  MCU_SPI2_MISO        VIA_0D3_0D15         (13.7110 -26.6490) TOP/BOTTOM 
+  NFAULT12             VIA_0D3_0D15         (23.0080 -21.8440) TOP/BOTTOM 
+  NFAULT12             VIA_0D3_0D15         (36.2800 -53.6530) TOP/BOTTOM 
+  NFAULT12             VIA_0D3_0D15         (18.0000 -21.5000) TOP/BOTTOM 
+  ENC4_B_BUF           VIA_0D3_0D15         (26.0080 -21.8440) TOP/BOTTOM 
+  ENC4_B_BUF           VIA_0D3_0D15         (9.8000 -49.0000) TOP/BOTTOM 
+  ENC4_A_BUF           VIA_0D3_0D15         (27.0080 -21.8440) TOP/BOTTOM 
+  ENC4_A_BUF           VIA_0D3_0D15         (10.7000 -49.0000) TOP/BOTTOM 
+  MCU_SPI2_SCK         VIA_0D3_0D15         (13.7060 -26.1490) TOP/BOTTOM 
+  MCU_SPI2_SCK         VIA_0D3_0D15         (19.2230 -23.3690) TOP/BOTTOM 
+  LIMIT_SW3            VIA_0D3_0D15         (19.2230 -27.8690) TOP/BOTTOM 
+  LIMIT_SW3            VIA_0D3_0D15         (16.2500 -48.8500) TOP/BOTTOM 
+  ENC3_B_BUF           VIA_0D3_0D15         (19.2230 -26.8690) TOP/BOTTOM 
+  ENC3_B_BUF           VIA_0D3_0D15         (15.8000 -48.1000) TOP/BOTTOM 
+  ENC3_A_BUF           VIA_0D3_0D15         (19.2230 -27.3690) TOP/BOTTOM 
+  ENC3_A_BUF           VIA_0D3_0D15         (16.7000 -48.1000) TOP/BOTTOM 
+  SMTR1_M1             VIA_0D3_0D15         (25.5040 -37.8000) TOP/BOTTOM 
+  SMTR1_M1             VIA_0D3_0D15         (31.3530 -51.9500) TOP/BOTTOM 
+  NRST_MCU             VIA_0D3_0D15         (13.7060 -29.6490) TOP/BOTTOM 
+  SMTR1_NSLEEP         VIA_0D3_0D15         (30.0040 -37.8000) TOP/BOTTOM 
+  SMTR1_NSLEEP         VIA_0D3_0D15         (36.6470 -52.4500) TOP/BOTTOM 
+  MCU_SPI2_MOSI        VIA_0D3_0D15         (13.7150 -27.1420) TOP/BOTTOM 
+  MCU_SPI2_MOSI        VIA_0D3_0D15         (19.2360 -24.3690) TOP/BOTTOM 
+  SMTR2_ADEC           VIA_0D3_0D15         (35.0250 -31.8700) TOP/BOTTOM 
+  SMTR2_ADEC           VIA_0D3_0D15         (46.7470 -50.4500) TOP/BOTTOM 
+  N27735               VIA_0D4_0D2          (45.4335 -47.1325) TOP/BOTTOM 
+  N27735               VIA_0D4_0D2          (43.1300 -47.6530) TOP/BOTTOM 
+  N27735               VIA_0D4_0D2          (48.2000 -48.6000) TOP/BOTTOM 
+  M4_PWM-              VIA_0D3_0D15         (45.7300 -47.7030) TOP/BOTTOM 
+  M4_PWM-              VIA_0D3_0D15         (32.0600 -22.4700) TOP/BOTTOM 
+  SMTR1_TOFF_SEL       VIA_0D3_0D15         (26.0040 -37.8000) TOP/BOTTOM 
+  SMTR1_TOFF_SEL       VIA_0D3_0D15         (31.3530 -51.4500) TOP/BOTTOM 
+  N28117               VIA_0D4_0D2          (45.4000 -56.4000) TOP/BOTTOM 
+  N28117               VIA_0D4_0D2          (40.1660 -52.1580) TOP/BOTTOM 
+  SMTR1_NFAULT         VIA_0D3_0D15         (31.3530 -52.9500) TOP/BOTTOM 
+  LIMIT_SW4            VIA_0D3_0D15         (19.2230 -28.3690) TOP/BOTTOM 
+  LIMIT_SW4            VIA_0D3_0D15         (17.6000 -48.8000) TOP/BOTTOM 
+  SMTR1_DIR            VIA_0D3_0D15         (26.5040 -37.8000) TOP/BOTTOM 
+  SMTR1_DIR            VIA_0D3_0D15         (32.0000 -49.9000) TOP/BOTTOM 
+  N41862               VIA_0D4_0D2          (49.0000 -49.3000) TOP/BOTTOM 
+  N41862               VIA_0D4_0D2          (41.3000 -47.2000) TOP/BOTTOM 
+  SMTR2_TOFF_SEL       VIA_0D3_0D15         (33.0040 -37.6460) TOP/BOTTOM 
+  SMTR2_TOFF_SEL       VIA_0D3_0D15         (41.5500 -51.4500) TOP/BOTTOM 
+  N02906               VIA_0D4_0D2          (38.1000 -56.2000) TOP/BOTTOM 
+  N02906               VIA_0D4_0D2          (34.9800 -55.7570) TOP/BOTTOM 
+  M2_PWM+              VIA_0D3_0D15         (31.7300 -47.7030) TOP/BOTTOM 
+  M2_PWM+              VIA_0D3_0D15         (20.9770 -29.8690) TOP/BOTTOM 
+  SWDIO                VIA_0D3_0D15         (18.7670 -33.9500) TOP/BOTTOM 
+  SWDIO                VIA_0D3_0D15         (13.7290 -31.6490) TOP/BOTTOM 
+  M2_PWM-              VIA_0D3_0D15         (29.0080 -21.8440) TOP/BOTTOM 
+  M2_PWM-              VIA_0D3_0D15         (32.3800 -47.7030) TOP/BOTTOM 
+  N38076               VIA_0D3_0D15         (31.3530 -50.9500) TOP/BOTTOM 
+  N38076               VIA_0D4_0D2          (30.6000 -48.0000) TOP/BOTTOM 
+  M3_I_ADC             VIA_0D3_0D15         (37.0000 -26.3700) TOP/BOTTOM 
+  M3_I_ADC             VIA_0D3_0D15         (49.4670 -40.4160) TOP/BOTTOM 
+  N02684               VIA_0D4_0D2          (37.9500 -51.9500) TOP/BOTTOM 
+  N02684               VIA_0D4_0D2          (32.7000 -56.3000) TOP/BOTTOM 
+  N01539               VIA_0D4_0D2          (35.2800 -47.1750) TOP/BOTTOM 
+  N01539               VIA_0D4_0D2          (30.0000 -48.7000) TOP/BOTTOM 
+  N01539               VIA_0D4_0D2          (33.0300 -47.6530) TOP/BOTTOM 
+  MCU_UART1_TXD        VIA_0D3_0D15         (19.2230 -31.3690) TOP/BOTTOM 
+  MCU_UART1_TXD        VIA_0D3_0D15         (13.7060 -30.6490) TOP/BOTTOM 
+  MCU_UART1_RXD        VIA_0D3_0D15         (19.2230 -31.8690) TOP/BOTTOM 
+  MCU_UART1_RXD        VIA_0D3_0D15         (13.7060 -31.1490) TOP/BOTTOM 
+  MCU_UART3_TXD        VIA_0D3_0D15         (20.9770 -24.8690) TOP/BOTTOM 
+  MCU_UART3_TXD        VIA_0D3_0D15         (26.9000 -44.6500) TOP/BOTTOM 
+  MCU_UART3_RXD        VIA_0D3_0D15         (20.9770 -25.3690) TOP/BOTTOM 
+  MCU_UART3_RXD        VIA_0D3_0D15         (26.8670 -43.2500) TOP/BOTTOM 
+  N50111               VIA_0D4_0D2          (28.3000 -23.0000) TOP/BOTTOM 
+  N50111               VIA_0D4_0D2          (29.1640 -9.2020) TOP/BOTTOM 
+  N27979               VIA_0D4_0D2          (40.2000 -56.2000) TOP/BOTTOM 
+  N27979               VIA_0D4_0D2          (43.1300 -55.8000) TOP/BOTTOM 
+  MCU_UART4_TXD        VIA_0D3_0D15         (26.8670 -45.7500) TOP/BOTTOM 
+  MCU_UART4_TXD        VIA_0D3_0D15         (23.0040 -37.8000) TOP/BOTTOM 
+  MCU_UART4_RXD        VIA_0D3_0D15         (26.8670 -41.1500) TOP/BOTTOM 
+  MCU_UART4_RXD        VIA_0D3_0D15         (23.5040 -37.8000) TOP/BOTTOM 
+  N42300               VIA_0D3_0D15         (41.5500 -50.9500) TOP/BOTTOM 
+  N42300               VIA_0D4_0D2          (40.6000 -48.0000) TOP/BOTTOM 
+  GND                  VIA_0D3_0D15         (13.7060 -29.1490) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (49.5000 -54.1500) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (46.9170 -22.4200) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (46.9170 -24.4200) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (47.3000 -40.4160) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (46.9100 -41.1590) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (47.5600 -41.1590) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (48.8000 -46.3000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (46.4000 -57.4000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (46.4280 -12.8360) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (45.4190 -12.8370) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (45.9350 -12.9580) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (43.1500 -20.7000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (42.3000 -40.4160) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (42.5600 -41.1590) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (41.9100 -41.1590) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (43.1000 -57.7700) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (38.4540 -20.7000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (39.6500 -20.7000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (37.1000 -25.5700) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (39.0310 -29.5060) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (39.0310 -32.9860) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (37.4800 -41.1590) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (37.2000 -40.4160) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (38.9500 -47.3500) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (36.1380 -9.8860) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (35.7980 -10.3500) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (35.8330 -10.8830) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (34.1000 -25.2730) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (35.0300 -25.3700) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (36.8300 -41.1590) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (41.1360 -53.6500) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (35.6500 -58.6000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (31.5500 -9.4830) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (33.5080 -19.6670) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (33.2970 -23.1500) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (31.7290 -25.3330) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (31.6750 -26.5000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (33.5040 -38.1000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (31.8100 -41.1590) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (32.4600 -41.1590) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (32.1500 -40.4160) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (31.2540 -56.1200) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (31.5000 -57.7700) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (30.3500 -11.7070) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (30.3500 -14.4070) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (30.2900 -23.7270) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (30.1770 -25.7950) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (28.2500 -35.0000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (30.4500 -32.7830) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (29.3000 -46.6000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (25.2500 -27.0070) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (26.9070 -42.1950) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (22.5080 -19.7170) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (23.3700 -24.1700) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (24.4770 -45.2000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (21.2000 -34.0000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (21.6130 -42.2000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (18.9830 -45.2050) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (16.2230 -10.3520) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (16.2500 -10.8690) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (16.5370 -9.8860) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (17.7270 -22.2000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (16.2270 -22.2100) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (16.2270 -24.6000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (14.7270 -24.6070) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (13.2730 -24.5970) TOP/BOTTOM 
+  GND                  VIA_0D3_0D15         (13.7060 -27.6490) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (13.4000 -33.1000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (12.7000 -33.1110) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (14.0000 -35.7500) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (14.0000 -37.1500) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (13.8730 -41.9500) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (11.8500 -9.4830) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (10.6500 -11.7070) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (10.6500 -14.4070) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (9.3825 -25.2000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (12.1000 -40.2500) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (7.3730 -28.7000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (6.8730 -27.0900) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (7.3730 -31.5000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (7.3730 -30.1000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (7.9500 -34.4930) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (9.0000 -34.5000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (6.7730 -46.4700) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (48.8000 -13.0000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (48.8000 -12.2000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (48.8000 -13.8000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (48.8000 -14.6000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (48.8000 -15.4000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (34.4000 -6.4550) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (30.2890 -17.8390) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (14.7980 -6.4670) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (11.4000 -17.9000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (46.7000 -17.9000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (45.2000 -17.8940) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (39.4600 -6.5260) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (34.7500 -19.8760) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (35.9000 -19.8760) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (34.7500 -38.1000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (35.9000 -38.1000) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (20.0520 -6.5150) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (20.1000 -19.7700) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (21.2500 -19.7780) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (20.1050 -37.9960) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (21.2590 -37.9800) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (13.1530 -38.3030) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (11.7000 -38.3080) TOP/BOTTOM 
+  GND                  VIA_0D4_0D2          (7.9000 -38.2960) TOP/BOTTOM 
+  N33222               VIA_0D4_0D2          (29.2000 -49.3000) TOP/BOTTOM 
+  N33222               VIA_0D4_0D2          (37.0000 -49.7000) TOP/BOTTOM 
+  SMTR2_DEC1           VIA_0D3_0D15         (36.7790 -33.8700) TOP/BOTTOM 
+  SMTR2_DEC1           VIA_0D3_0D15         (46.7470 -52.9500) TOP/BOTTOM 
+  VBAT_ADC             VIA_0D4_0D2          (28.7230 -24.8450) TOP/BOTTOM 
+  VBAT_ADC             VIA_0D3_0D15         (30.0080 -21.8440) TOP/BOTTOM 
+  VBAT_ADC             VIA_0D4_0D2          (27.2770 -26.7550) TOP/BOTTOM 
+  SMTR2_NSLEEP         VIA_0D3_0D15         (36.7790 -34.3700) TOP/BOTTOM 
+  SMTR2_NSLEEP         VIA_0D3_0D15         (46.7470 -52.4500) TOP/BOTTOM 
+  SMTR2_M1             VIA_0D3_0D15         (32.5040 -37.6460) TOP/BOTTOM 
+  SMTR2_M1             VIA_0D3_0D15         (41.5500 -51.9500) TOP/BOTTOM 
+  M2_I_ADC             VIA_0D3_0D15         (37.0000 -27.8700) TOP/BOTTOM 
+  M2_I_ADC             VIA_0D3_0D15         (34.2670 -40.4160) TOP/BOTTOM 
+  M1_I_ADC             VIA_0D3_0D15         (37.0000 -27.3700) TOP/BOTTOM 
+  M1_I_ADC             VIA_0D3_0D15         (39.3670 -40.4160) TOP/BOTTOM 
+  SMTR2_PWM            VIA_0D3_0D15         (41.5500 -50.4500) TOP/BOTTOM 
+  SMTR2_PWM            VIA_0D3_0D15         (34.0080 -20.0900) TOP/BOTTOM 
+  SMTR1_PWM            VIA_0D3_0D15         (31.3530 -50.4500) TOP/BOTTOM 
+  M4_PWM+              VIA_0D3_0D15         (46.3800 -47.7030) TOP/BOTTOM 
+  M4_PWM+              VIA_0D3_0D15         (20.9770 -28.8690) TOP/BOTTOM 
+  SMTR2_NFAULT         VIA_0D3_0D15         (41.5500 -52.9500) TOP/BOTTOM 
+  SMTR2_M0             VIA_0D3_0D15         (32.0040 -37.6460) TOP/BOTTOM 
+  SMTR2_M0             VIA_0D3_0D15         (41.5500 -52.4500) TOP/BOTTOM 
+  SMTR2_DEC0           VIA_0D3_0D15         (36.7790 -34.8700) TOP/BOTTOM 
+  SMTR2_DEC0           VIA_0D3_0D15         (46.7470 -51.9500) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (12.2730 -52.1300) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (18.1900 -24.6000) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (28.2500 -32.7830) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (14.7000 -40.6000) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (23.9550 -26.9270) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (25.3000 -24.4000) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (21.4000 -45.2000) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (24.6000 -42.2000) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (14.0000 -33.9500) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (23.5910 -30.3660) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (25.7500 -35.0000) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (32.6890 -25.3330) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (9.1210 -36.6850) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (8.5690 -36.0990) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (9.8050 -36.7820) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (9.8040 -37.4420) TOP/BOTTOM 
+  3V3_MCU              VIA_0D3_0D15         (13.7060 -28.6490) TOP/BOTTOM 
+  3V3_MCU              VIA_0D4_0D2          (32.8500 -35.0000) TOP/BOTTOM 
+  MCU_SPI2_NSS         VIA_0D3_0D15         (19.2230 -22.8690) TOP/BOTTOM 
+  MCU_SPI2_NSS         VIA_0D3_0D15         (13.7060 -25.6490) TOP/BOTTOM 
+  ENC2_A_BUF           VIA_0D3_0D15         (22.7000 -49.1000) TOP/BOTTOM 
+  ENC2_A_BUF           VIA_0D3_0D15         (29.5040 -37.8000) TOP/BOTTOM 
+  M4_I_ADC             VIA_0D3_0D15         (37.0000 -26.8700) TOP/BOTTOM 
+  M4_I_ADC             VIA_0D3_0D15         (44.4670 -40.4160) TOP/BOTTOM 
+  SMTR1_M0             VIA_0D3_0D15         (24.9960 -37.8000) TOP/BOTTOM 
+  SMTR1_M0             VIA_0D3_0D15         (31.3530 -52.4500) TOP/BOTTOM 
+  SMTR1_DEC1           VIA_0D3_0D15         (30.5040 -37.8000) TOP/BOTTOM 
+  SMTR1_DEC1           VIA_0D3_0D15         (36.6470 -52.9500) TOP/BOTTOM 
+  NSLEEP12             VIA_0D3_0D15         (31.7300 -53.6530) TOP/BOTTOM 
+  NSLEEP34             VIA_0D3_0D15         (41.8300 -53.6530) TOP/BOTTOM 
+  5V_MCU               VIA_0D4_0D2          (9.8270 -30.1000) TOP/BOTTOM 
+  5V_MCU               VIA_0D4_0D2          (9.8270 -28.7000) TOP/BOTTOM 
+  5V_MCU               VIA_0D4_0D2          (7.4500 -25.0140) TOP/BOTTOM 
+  5V_MCU               VIA_0D4_0D2          (9.1270 -27.0800) TOP/BOTTOM 
+  5V_MCU               VIA_0D4_0D2          (10.4230 -29.3800) TOP/BOTTOM 
+  5V_MCU               VIA_0D4_0D2          (10.4000 -31.2800) TOP/BOTTOM 
+  5V_MCU               VIA_0D4_0D2          (10.4230 -27.4800) TOP/BOTTOM 
+  5V_MCU               VIA_0D4_0D2          (8.5500 -25.0500) TOP/BOTTOM 
+  5V_MCU               VIA_0D4_0D2          (9.8270 -31.5000) TOP/BOTTOM 
+  SMTR2_DIR            VIA_0D3_0D15         (35.0250 -31.3700) TOP/BOTTOM 
+  SMTR2_DIR            VIA_0D3_0D15         (42.1000 -49.9000) TOP/BOTTOM 
+  SMTR1_I1             VIA_0D3_0D15         (28.0000 -37.8000) TOP/BOTTOM 
+  SMTR1_I1             VIA_0D3_0D15         (36.6470 -51.4500) TOP/BOTTOM 
+  M1_PWM+              VIA_0D3_0D15         (35.6300 -47.7030) TOP/BOTTOM 
+  M1_PWM+              VIA_0D3_0D15         (20.9770 -29.3690) TOP/BOTTOM 
+  MCU_RST_CPU          VIA_0D3_0D15         (13.7060 -28.1490) TOP/BOTTOM 
+  MCU_RST_CPU          VIA_0D3_0D15         (30.5080 -20.0900) TOP/BOTTOM 
+  LIMIT_SW1            VIA_0D3_0D15         (19.2230 -25.8690) TOP/BOTTOM 
+  LIMIT_SW1            VIA_0D3_0D15         (9.3000 -48.6610) TOP/BOTTOM 
+  M1_PWM-              VIA_0D3_0D15         (29.5080 -21.8440) TOP/BOTTOM 
+  M1_PWM-              VIA_0D3_0D15         (36.2800 -47.7030) TOP/BOTTOM 
+  SWCLK                VIA_0D3_0D15         (22.5000 -35.2000) TOP/BOTTOM 
+  SWCLK                VIA_0D3_0D15         (15.7900 -34.6000) TOP/BOTTOM 
+  SWCLK                VIA_0D3_0D15         (13.7360 -32.1490) TOP/BOTTOM 
+  ENC2_B_BUF           VIA_0D3_0D15         (21.8000 -49.1000) TOP/BOTTOM 
+  ENC2_B_BUF           VIA_0D3_0D15         (29.0040 -37.7800) TOP/BOTTOM 
+  M3_PWM-              VIA_0D3_0D15         (42.4800 -47.7030) TOP/BOTTOM 
+  M3_PWM-              VIA_0D3_0D15         (25.5080 -21.8260) TOP/BOTTOM 
+  MCU_RST_FPGA         VIA_0D3_0D15         (13.7060 -30.1490) TOP/BOTTOM 
+  ENC1_B_BUF           VIA_0D3_0D15         (35.0250 -23.8700) TOP/BOTTOM 
+  ENC1_B_BUF           VIA_0D3_0D15         (23.2000 -47.9930) TOP/BOTTOM 
+  SMTR1_ADEC           VIA_0D3_0D15         (27.0000 -37.8000) TOP/BOTTOM 
+  SMTR1_ADEC           VIA_0D3_0D15         (36.6470 -50.4500) TOP/BOTTOM 
+  SMTR1_I0             VIA_0D3_0D15         (27.5040 -37.8000) TOP/BOTTOM 
+  SMTR1_I0             VIA_0D3_0D15         (36.6470 -50.9500) TOP/BOTTOM 
+
+<< Summary >>
+  Total dangling lines:       3
+  Total dangling vias:       36
+  Total antenna vias:       329
