@@ -1,6 +1,6 @@
 (ExpressProject "MiniFMDemod"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[12/16/21]")
+  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[12/17/21]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -210,12 +210,12 @@
       (Path "Design Resources" "Library")
       (Path "Outputs")
       (Path "Logs")
-      (Select "Design Resources" ".\minifmdemod.dsn" "SCHEMATIC1" "11-FM-INPUT"))
+      (Select "Outputs" ".\minifmdemod.bom"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 761"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 423 0 785"))
       (Tab 0)))
   (ISPCBBASICLICENSE "false")
   (LastUsedLibraryBrowseDirectory "G:\github\PLL_FM_HW\MCU\Schematic"))
