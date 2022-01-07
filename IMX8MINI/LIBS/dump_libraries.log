@@ -1,0 +1,205 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dump Library Log                                                 )
+(                                                                     )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Thu Dec 30 08:45:06 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+*** file: C:/Users/Administrator/Desktop/IMX8/8MMINILPD4-EVK-DESIGNFILES/8MMINILPD4-EVK-DESIGNFILES/SOM Board/LAY-31399_C/LAY-31399_C.brd ***
+
+
+
+  *** Creating all device files (see create_devices.log) ***
+
+
+  *** Creating padstacks. ***
+
+  VIA8D16 being dumped.
+
+  C045-020TENTED being dumped.
+
+  VIA8D16-BOTTOMMASK being dumped.
+
+  C020SXP being dumped.
+
+  VIA8D16-BOTTOMMASL being dumped.
+
+  C050SXP being dumped.
+
+  C015SXP being dumped.
+
+  C035SXP being dumped.
+
+  C040SXP_SM090 being dumped.
+
+  HOLE35N being dumped.
+
+  HOLE64N being dumped.
+
+  S122SXP being dumped.
+
+  S165SXP being dumped.
+
+  S185SXP being dumped.
+
+  C060-040T being dumped.
+
+  VIA10D18 being dumped.
+
+  C200-109T being dumped.
+
+  S060-040T being dumped.
+
+  R012X022S being dumped.
+
+  R033X031S being dumped.
+
+  R040X042S being dumped.
+
+  R040X024S being dumped.
+
+  R018X020S being dumped.
+
+  R014X027S being dumped.
+
+  R034X071S being dumped.
+
+  R028X033S being dumped.
+
+  R008X027S being dumped.
+
+  R027X008S being dumped.
+
+  R037X053S being dumped.
+
+  R008X028S being dumped.
+
+  R028X035S being dumped.
+
+  R043X075S being dumped.
+
+  R055X047S being dumped.
+
+  R042X087S being dumped.
+
+  R048X079S being dumped.
+
+  C010S being dumped.
+
+  C011S being dumped.
+
+  VIA8D16-SOLDMASK being dumped.
+
+  C025S being dumped.
+
+  S020S being dumped.
+
+  S012S being dumped.
+
+  S032S being dumped.
+
+  VIA10D18-MASKOPEN being dumped.
+
+
+  *** Creating package symbols (.dra and .psm) ***
+
+  con_3_ufl_r_smt being dumped.
+
+  fbga153_0p5_11p5x13 being dumped.
+
+  0201_cc being dumped.
+
+  0402_cc being dumped.
+
+  0603_cc being dumped.
+
+  0805_cc being dumped.
+
+  lqfn62_0p6_7p6x7p4 being dumped.
+
+  led_0603 being dumped.
+
+  dfn8_1p27_6x5mm_3p1 being dumped.
+
+  tpad_020 being dumped.
+
+  tpad_050 being dumped.
+
+  tpad_015 being dumped.
+
+  rc0402_25 being dumped.
+
+  ind_2016a being dumped.
+
+  con20_0p4_6p8x3p1_sm being dumped.
+
+  bga486_0p5_14x14 being dumped.
+
+  xtal2-3p2x1p5-sm being dumped.
+
+  xtlosc4_3p2x2p5mm_sm being dumped.
+
+  con100_0p4_22p8x3p1_sm being dumped.
+
+  testpoint_35mil being dumped.
+
+  con100_0p4_21p7x2p05_sm being dumped.
+
+  ind_sph2520 being dumped.
+
+  uqfn56_0p4_7x7_ep_s185 being dumped.
+
+  gndpoint256 being dumped.
+
+  hdr102 being dumped.
+
+  bga200_0p65x0p8_10p1x14p6 being dumped.
+
+  sc70_3 being dumped.
+
+
+  *** Creating mechanical symbols (.dra and .bsm) ***
+
+  fid_040 being dumped.
+
+  ul_box being dumped.
+
+  4_impedances_table being dumped.
+
+  imx845s-socket being dumped.
+
+  imx845s-dxf-0209 being dumped.
+
+  stackup-8layer being dumped.
+
+  nxp_copyright_small being dumped.
+
+  wireless-a being dumped.
+
+  nxp_logo_solid_small being dumped.
+
+
+  *** Creating format symbols (.dra and .osm) ***
+
+  js_title_block being dumped.
+
+  d_size_pg1 being dumped.
+
+  fab_notes_multi_rohs being dumped.
+
+
+
+*********************** Summary *********************
+ERRORs reported:                           0
+
+Number of padstacks dumped:               43
+Number of package symbols dumped:         27
+Number of mechanical symbols dumped:       9
+Number of format symbols dumped:           3
+
+Total number of symbols dumped:           39
+*****************************************************
+

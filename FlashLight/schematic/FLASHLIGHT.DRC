@@ -1,0 +1,329 @@
+Date and Time : 01/07/22 17:13:44
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+WARNING(ORCAP-1600): Net has fewer than two connections  UART3_TX 
+                    SCHEMATIC1, 2-MCU  (111.76, 88.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections UART3_TX 
+                    SCHEMATIC1, 4-SWITCH  (307.34, 91.44) 
+WARNING(ORCAP-1600): Net has fewer than two connections EMIT_SW1_BUF 
+                    SCHEMATIC1, 2-MCU  (144.78, 129.54) 
+WARNING(ORCAP-1600): Net has fewer than two connections EMIT_SW2_BUF 
+                    SCHEMATIC1, 2-MCU  (121.92, 132.08) 
+
+Checking For Unconnected Bus Nets
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Entire Design: FLASHLIGHT 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+INFO(ORCAP-36105): Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+INFO(ORCAP-36101): Checking Missing PCB Footprint Property  
+#1 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C104: SCHEMATIC1, 4-SWITCH (292.10, 165.10).
+#2 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R120: SCHEMATIC1, 1-PWR-ADC (111.76, 121.92).
+#3 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R116: SCHEMATIC1, 1-PWR-ADC (167.64, 114.30).
+#4 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D39: SCHEMATIC1, 1-PWR-ADC (76.20, 269.24).
+#5 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C73: SCHEMATIC1, 4-SWITCH (83.82, 259.08).
+#6 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C63: SCHEMATIC1, 4-SWITCH (27.94, 144.78).
+#7 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R88: SCHEMATIC1, 1-PWR-ADC (76.20, 190.50).
+#8 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C44: SCHEMATIC1, 1-PWR-ADC (17.78, 208.28).
+#9 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C36: SCHEMATIC1, 2-MCU (302.26, 127.00).
+#10 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R64: SCHEMATIC1, 2-MCU (375.92, 236.22).
+#11 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R49: SCHEMATIC1, 2-MCU (347.98, 180.34).
+#12 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R31: SCHEMATIC1, 1-PWR-ADC (114.30, 76.20).
+#13 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C9: SCHEMATIC1, 1-PWR-ADC (106.68, 60.96).
+#14 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R17: SCHEMATIC1, 1-PWR-ADC (154.94, 167.64).
+#15 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R4: SCHEMATIC1, 1-PWR-ADC (246.38, 182.88).
+#16 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C107: SCHEMATIC1, 1-PWR-ADC (238.76, 73.66).
+#17 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance L6: SCHEMATIC1, 2-MCU (81.28, 228.60).
+#18 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R146: SCHEMATIC1, 2-MCU (129.54, 271.78).
+#19 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R135: SCHEMATIC1, 2-MCU (185.42, 132.08).
+#20 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R121: SCHEMATIC1, 1-PWR-ADC (111.76, 139.70).
+#21 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D25: SCHEMATIC1, 4-SWITCH (93.98, 45.72).
+#22 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C60: SCHEMATIC1, 4-SWITCH (93.98, 144.78).
+#23 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C59: SCHEMATIC1, 4-SWITCH (27.94, 114.30).
+#24 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C45: SCHEMATIC1, 1-PWR-ADC (60.96, 213.36).
+#25 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R73: SCHEMATIC1, 2-MCU (119.38, 40.64).
+#26 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C31: SCHEMATIC1, 2-MCU (289.56, 228.60).
+#27 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R48: SCHEMATIC1, 2-MCU (322.58, 165.10).
+#28 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R14: SCHEMATIC1, 1-PWR-ADC (195.58, 256.54).
+#29 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R3: SCHEMATIC1, 1-PWR-ADC (195.58, 180.34).
+#30 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C106: SCHEMATIC1, 4-SWITCH (292.10, 226.06).
+#31 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R147: SCHEMATIC1, 2-MCU (139.70, 271.78).
+#32 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R134: SCHEMATIC1, 2-MCU (185.42, 114.30).
+#33 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R122: SCHEMATIC1, 1-PWR-ADC (142.24, 193.04).
+#34 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R119: SCHEMATIC1, 1-PWR-ADC (132.08, 147.32).
+#35 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D36: SCHEMATIC1, 1-PWR-ADC (86.36, 210.82).
+#36 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C75: SCHEMATIC1, 4-SWITCH (93.98, 259.08).
+#37 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C61: SCHEMATIC1, 4-SWITCH (99.06, 144.78).
+#38 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C58: SCHEMATIC1, 4-SWITCH (27.94, 99.06).
+#39 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R98: SCHEMATIC1, 3-CCS-CVS (5.30, 3.40).
+#40 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C46: SCHEMATIC1, 1-PWR-ADC (68.58, 213.36).
+#41 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R74: SCHEMATIC1, 2-MCU (119.38, 43.18).
+#42 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R58: SCHEMATIC1, 2-MCU (220.98, 266.70).
+#43 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C30: SCHEMATIC1, 2-MCU (386.08, 175.26).
+#44 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R15: SCHEMATIC1, 1-PWR-ADC (246.38, 259.08).
+#45 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R2: SCHEMATIC1, 1-PWR-ADC (195.58, 185.42).
+#46 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R157: SCHEMATIC1, 2-MCU (139.70, 86.36).
+#47 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C101: SCHEMATIC1, 4-SWITCH (337.82, 86.36).
+#48 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R144: SCHEMATIC1, 2-MCU (129.54, 251.46).
+#49 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C88: SCHEMATIC1, 2-MCU (195.58, 132.08).
+#50 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R123: SCHEMATIC1, 1-PWR-ADC (142.24, 210.82).
+#51 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R118: SCHEMATIC1, 1-PWR-ADC (190.50, 142.24).
+#52 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D37: SCHEMATIC1, 1-PWR-ADC (76.20, 210.82).
+#53 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D27: SCHEMATIC1, 4-SWITCH (127.00, 144.78).
+#54 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C74: SCHEMATIC1, 4-SWITCH (88.90, 259.08).
+#55 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R99: SCHEMATIC1, 3-CCS-CVS (3.80, 3.60).
+#56 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C47: SCHEMATIC1, 3-CCS-CVS (2.80, 1.80).
+#57 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R75: SCHEMATIC1, 2-MCU (119.38, 45.72).
+#58 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R69: SCHEMATIC1, 2-MCU (325.12, 111.76).
+#59 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C33: SCHEMATIC1, 2-MCU (246.38, 261.62).
+#60 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R59: SCHEMATIC1, 2-MCU (243.84, 266.70).
+#61 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C19: SCHEMATIC1, 1-PWR-ADC (238.76, 38.10).
+#62 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R1: SCHEMATIC1, 1-PWR-ADC (220.98, 193.04).
+#63 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R156: SCHEMATIC1, 2-MCU (134.62, 86.36).
+#64 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C100: SCHEMATIC1, 4-SWITCH (292.10, 48.26).
+#65 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C89: SCHEMATIC1, 2-MCU (38.10, 99.06).
+#66 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance BT1: SCHEMATIC1, 2-MCU (10.16, 96.52).
+#67 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R145: SCHEMATIC1, 2-MCU (139.70, 251.46).
+#68 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R124: SCHEMATIC1, 1-PWR-ADC (266.70, 264.16).
+#69 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C77: SCHEMATIC1, 1-PWR-ADC (152.40, 147.32).
+#70 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D34: SCHEMATIC1, 4-SWITCH (111.76, 259.08).
+#71 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D26: SCHEMATIC1, 4-SWITCH (86.36, 45.72).
+#72 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R108: SCHEMATIC1, 4-SWITCH (116.84, 116.84).
+#73 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C48: SCHEMATIC1, 3-CCS-CVS (3.90, 2.10).
+#74 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R68: SCHEMATIC1, 2-MCU (325.12, 119.38).
+#75 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C32: SCHEMATIC1, 2-MCU (307.34, 248.92).
+#76 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C20: SCHEMATIC1, 1-PWR-ADC (246.38, 38.10).
+#77 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C18: SCHEMATIC1, 1-PWR-ADC (309.88, 40.64).
+#78 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C4: SCHEMATIC1, 1-PWR-ADC (259.08, 243.84).
+#79 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C103: SCHEMATIC1, 4-SWITCH (337.82, 142.24).
+#80 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D46: SCHEMATIC1, 4-SWITCH (340.36, 35.56).
+#81 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C95: SCHEMATIC1, 4-SWITCH (337.82, 25.40).
+#82 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R125: SCHEMATIC1, 1-PWR-ADC (266.70, 241.30).
+#83 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D35: SCHEMATIC1, 4-SWITCH (106.68, 259.08).
+#84 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C76: SCHEMATIC1, 4-SWITCH (99.06, 259.08).
+#85 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R109: SCHEMATIC1, 4-SWITCH (121.92, 116.84).
+#86 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C49: SCHEMATIC1, 3-CCS-CVS (2.80, 4.50).
+#87 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R56: SCHEMATIC1, 2-MCU (233.68, 241.30).
+#88 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R29: SCHEMATIC1, 1-PWR-ADC (203.20, 66.04).
+#89 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R18: SCHEMATIC1, 1-PWR-ADC (154.94, 185.42).
+#90 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C5: SCHEMATIC1, 1-PWR-ADC (259.08, 266.70).
+#91 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C102: SCHEMATIC1, 4-SWITCH (292.10, 109.22).
+#92 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D45: SCHEMATIC1, 2-MCU (203.20, 132.08).
+#93 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D32: SCHEMATIC1, 4-SWITCH (121.92, 259.08).
+#94 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D29: SCHEMATIC1, 4-SWITCH (116.84, 144.78).
+#95 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R78: SCHEMATIC1, 1-PWR-ADC (172.72, 238.76).
+#96 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R57: SCHEMATIC1, 2-MCU (287.02, 246.38).
+#97 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C26: SCHEMATIC1, 2-MCU (289.56, 154.94).
+#98 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R28: SCHEMATIC1, 1-PWR-ADC (190.50, 73.66).
+#99 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R19: SCHEMATIC1, 1-PWR-ADC (337.82, 215.90).
+#100 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C6: SCHEMATIC1, 1-PWR-ADC (175.26, 187.96).
+#101 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D44: SCHEMATIC1, 2-MCU (309.88, 124.46).
+#102 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C79: SCHEMATIC1, 1-PWR-ADC (213.36, 144.78).
+#103 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D33: SCHEMATIC1, 4-SWITCH (116.84, 259.08).
+#104 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D28: SCHEMATIC1, 4-SWITCH (121.92, 144.78).
+#105 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R106: SCHEMATIC1, 4-SWITCH (106.68, 116.84).
+#106 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R81: SCHEMATIC1, 1-PWR-ADC (195.58, 266.70).
+#107 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R79: SCHEMATIC1, 1-PWR-ADC (195.58, 243.84).
+#108 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R54: SCHEMATIC1, 2-MCU (210.82, 233.68).
+#109 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C27: SCHEMATIC1, 2-MCU (307.34, 175.26).
+#110 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R27: SCHEMATIC1, 1-PWR-ADC (167.64, 45.72).
+#111 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C7: SCHEMATIC1, 1-PWR-ADC (325.12, 213.36).
+#112 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C84: SCHEMATIC1, 3-CCS-CVS (5.70, 3.50).
+#113 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D43: SCHEMATIC1, 1-PWR-ADC (66.04, 63.50).
+#114 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C78: SCHEMATIC1, 1-PWR-ADC (185.42, 114.30).
+#115 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J9: SCHEMATIC1, 5-CONNECTOR (2.90, 4.60).
+#116 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D30: SCHEMATIC1, 4-SWITCH (111.76, 144.78).
+#117 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R107: SCHEMATIC1, 4-SWITCH (111.76, 116.84).
+#118 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R92: SCHEMATIC1, 3-CCS-CVS (4.70, 1.40).
+#119 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R80: SCHEMATIC1, 1-PWR-ADC (172.72, 261.62).
+#120 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R55: SCHEMATIC1, 2-MCU (297.18, 238.76).
+#121 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R41: SCHEMATIC1, 2-MCU (210.82, 157.48).
+#122 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R26: SCHEMATIC1, 1-PWR-ADC (157.48, 88.90).
+#123 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J10: SCHEMATIC1, 5-CONNECTOR (2.40, 3.70).
+#124 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D54: SCHEMATIC1, 4-SWITCH (340.36, 172.72).
+#125 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C91: SCHEMATIC1, 2-MCU (99.06, 238.76).
+#126 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C85: SCHEMATIC1, 3-CCS-CVS (2.10, 1.00).
+#127 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D42: SCHEMATIC1, 1-PWR-ADC (152.40, 210.82).
+#128 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J8: SCHEMATIC1, 5-CONNECTOR (4.20, 4.60).
+#129 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D31: SCHEMATIC1, 4-SWITCH (106.68, 144.78).
+#130 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C68: SCHEMATIC1, 4-SWITCH (27.94, 213.36).
+#131 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R104: SCHEMATIC1, 4-SWITCH (86.36, 25.40).
+#132 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R93: SCHEMATIC1, 3-CCS-CVS (2.40, 0.90).
+#133 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C39: SCHEMATIC1, 1-PWR-ADC (60.96, 271.78).
+#134 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R83: SCHEMATIC1, 1-PWR-ADC (86.36, 248.92).
+#135 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R52: SCHEMATIC1, 2-MCU (233.68, 220.98).
+#136 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R40: SCHEMATIC1, 2-MCU (233.68, 167.64).
+#137 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R39: SCHEMATIC1, 2-MCU (233.68, 147.32).
+#138 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C13: SCHEMATIC1, 1-PWR-ADC (218.44, 78.74).
+#139 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D1: SCHEMATIC1, 1-PWR-ADC (20.32, 81.28).
+#140 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C1: SCHEMATIC1, 1-PWR-ADC (198.12, 172.72).
+#141 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D55: SCHEMATIC1, 4-SWITCH (340.36, 213.36).
+#142 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C90: SCHEMATIC1, 2-MCU (106.68, 238.76).
+#143 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C86: SCHEMATIC1, 3-CCS-CVS (2.10, 3.70).
+#144 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D41: SCHEMATIC1, 1-PWR-ADC (180.34, 142.24).
+#145 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J7: SCHEMATIC1, 5-CONNECTOR (5.20, 3.90).
+#146 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C69: SCHEMATIC1, 4-SWITCH (27.94, 228.60).
+#147 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R105: SCHEMATIC1, 4-SWITCH (93.98, 25.40).
+#148 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R90: SCHEMATIC1, 3-CCS-CVS (3.80, 0.90).
+#149 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C38: SCHEMATIC1, 1-PWR-ADC (68.58, 271.78).
+#150 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R82: SCHEMATIC1, 1-PWR-ADC (76.20, 248.92).
+#151 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R63: SCHEMATIC1, 2-MCU (345.44, 226.06).
+#152 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R53: SCHEMATIC1, 2-MCU (210.82, 231.14).
+#153 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R43: SCHEMATIC1, 2-MCU (287.02, 172.72).
+#154 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C12: SCHEMATIC1, 1-PWR-ADC (185.42, 45.72).
+#155 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R24: SCHEMATIC1, 1-PWR-ADC (53.34, 83.82).
+#156 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C2: SCHEMATIC1, 1-PWR-ADC (259.08, 190.50).
+#157 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D56: SCHEMATIC1, 4-SWITCH (340.36, 233.68).
+#158 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C87: SCHEMATIC1, 2-MCU (271.78, 129.54).
+#159 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D40: SCHEMATIC1, 1-PWR-ADC (165.10, 185.42).
+#160 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J6: SCHEMATIC1, 5-CONNECTOR (5.20, 3.30).
+#161 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R110: SCHEMATIC1, 4-SWITCH (127.00, 116.84).
+#162 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R102: SCHEMATIC1, 3-CCS-CVS (4.70, 4.30).
+#163 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R91: SCHEMATIC1, 3-CCS-CVS (5.30, 0.70).
+#164 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R62: SCHEMATIC1, 2-MCU (322.58, 226.06).
+#165 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R50: SCHEMATIC1, 2-MCU (322.58, 180.34).
+#166 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R42: SCHEMATIC1, 2-MCU (210.82, 160.02).
+#167 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D3: SCHEMATIC1, 1-PWR-ADC (177.80, 76.20).
+#168 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance L1: SCHEMATIC1, 1-PWR-ADC (200.66, 55.88).
+#169 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C11: SCHEMATIC1, 1-PWR-ADC (157.48, 78.74).
+#170 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R23: SCHEMATIC1, 1-PWR-ADC (30.48, 71.12).
+#171 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C3: SCHEMATIC1, 1-PWR-ADC (259.08, 218.44).
+#172 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R9: SCHEMATIC1, 1-PWR-ADC (220.98, 226.06).
+#173 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C109: SCHEMATIC1, 1-PWR-ADC (309.88, 76.20).
+#174 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R133: SCHEMATIC1, 2-MCU (261.62, 121.92).
+#175 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C80: SCHEMATIC1, 1-PWR-ADC (127.00, 129.54).
+#176 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J5: SCHEMATIC1, 5-CONNECTOR (5.20, 2.60).
+#177 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R113: SCHEMATIC1, 4-SWITCH (111.76, 231.14).
+#178 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C66: SCHEMATIC1, 4-SWITCH (83.82, 144.78).
+#179 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C57: SCHEMATIC1, 4-SWITCH (78.74, 48.26).
+#180 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R103: SCHEMATIC1, 3-CCS-CVS (4.40, 4.70).
+#181 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R96: SCHEMATIC1, 3-CCS-CVS (4.40, 1.10).
+#182 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R61: SCHEMATIC1, 2-MCU (322.58, 238.76).
+#183 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R51: SCHEMATIC1, 2-MCU (375.92, 167.64).
+#184 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C28: SCHEMATIC1, 2-MCU (246.38, 187.96).
+#185 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R45: SCHEMATIC1, 2-MCU (220.98, 193.04).
+#186 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C10: SCHEMATIC1, 1-PWR-ADC (127.00, 71.12).
+#187 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D2: SCHEMATIC1, 1-PWR-ADC (20.32, 58.42).
+#188 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q1: SCHEMATIC1, 1-PWR-ADC (50.80, 66.04).
+#189 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R22: SCHEMATIC1, 1-PWR-ADC (20.32, 40.64).
+#190 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R12: SCHEMATIC1, 1-PWR-ADC (195.58, 238.76).
+#191 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R8: SCHEMATIC1, 1-PWR-ADC (195.58, 213.36).
+#192 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C108: SCHEMATIC1, 1-PWR-ADC (246.38, 73.66).
+#193 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D50: SCHEMATIC1, 4-SWITCH (340.36, 55.88).
+#194 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R132: SCHEMATIC1, 2-MCU (213.36, 124.46).
+#195 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance L3: SCHEMATIC1, 1-PWR-ADC (251.46, 132.08).
+#196 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C81: SCHEMATIC1, 1-PWR-ADC (104.14, 124.46).
+#197 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J4: SCHEMATIC1, 5-CONNECTOR (2.40, 1.70).
+#198 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R112: SCHEMATIC1, 4-SWITCH (106.68, 231.14).
+#199 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C67: SCHEMATIC1, 4-SWITCH (78.74, 144.78).
+#200 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C56: SCHEMATIC1, 4-SWITCH (71.12, 48.26).
+#201 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q6: SCHEMATIC1, 3-CCS-CVS (5.20, 4.10).
+#202 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R100: SCHEMATIC1, 3-CCS-CVS (4.40, 3.80).
+#203 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R97: SCHEMATIC1, 3-CCS-CVS (2.40, 3.60).
+#204 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R60: SCHEMATIC1, 2-MCU (220.98, 274.32).
+#205 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C29: SCHEMATIC1, 2-MCU (327.66, 157.48).
+#206 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R44: SCHEMATIC1, 2-MCU (297.18, 165.10).
+#207 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Y2: SCHEMATIC1, 2-MCU (38.10, 15.24).
+#208 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R21: SCHEMATIC1, 1-PWR-ADC (332.74, 215.90).
+#209 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R13: SCHEMATIC1, 1-PWR-ADC (220.98, 248.92).
+#210 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D51: SCHEMATIC1, 4-SWITCH (340.36, 96.52).
+#211 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q7: SCHEMATIC1, 2-MCU (25.40, 91.44).
+#212 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R131: SCHEMATIC1, 2-MCU (233.68, 111.76).
+#213 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C82: SCHEMATIC1, 1-PWR-ADC (162.56, 213.36).
+#214 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance L2: SCHEMATIC1, 1-PWR-ADC (198.12, 124.46).
+#215 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R115: SCHEMATIC1, 4-SWITCH (121.92, 231.14).
+#216 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C64: SCHEMATIC1, 4-SWITCH (27.94, 160.02).
+#217 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C55: SCHEMATIC1, 4-SWITCH (27.94, 43.18).
+#218 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J3: SCHEMATIC1, 5-CONNECTOR (3.80, 1.40).
+#219 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R101: SCHEMATIC1, 3-CCS-CVS (4.70, 4.10).
+#220 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R94: SCHEMATIC1, 3-CCS-CVS (4.40, 2.40).
+#221 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C41: SCHEMATIC1, 1-PWR-ADC (17.78, 251.46).
+#222 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C35: SCHEMATIC1, 2-MCU (386.08, 129.54).
+#223 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R67: SCHEMATIC1, 2-MCU (375.92, 121.92).
+#224 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R47: SCHEMATIC1, 2-MCU (220.98, 200.66).
+#225 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R20: SCHEMATIC1, 1-PWR-ADC (342.90, 215.90).
+#226 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R10: SCHEMATIC1, 1-PWR-ADC (246.38, 236.22).
+#227 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R7: SCHEMATIC1, 1-PWR-ADC (195.58, 208.28).
+#228 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D52: SCHEMATIC1, 4-SWITCH (340.36, 116.84).
+#229 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R130: SCHEMATIC1, 2-MCU (213.36, 111.76).
+#230 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C83: SCHEMATIC1, 3-CCS-CVS (5.70, 0.80).
+#231 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C71: SCHEMATIC1, 4-SWITCH (27.94, 259.08).
+#232 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R114: SCHEMATIC1, 4-SWITCH (116.84, 231.14).
+#233 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C65: SCHEMATIC1, 4-SWITCH (88.90, 144.78).
+#234 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C54: SCHEMATIC1, 4-SWITCH (27.94, 27.94).
+#235 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R95: SCHEMATIC1, 3-CCS-CVS (4.70, 1.60).
+#236 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J2: SCHEMATIC1, 5-CONNECTOR (5.20, 1.60).
+#237 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C42: SCHEMATIC1, 1-PWR-ADC (17.78, 266.70).
+#238 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R70: SCHEMATIC1, 2-MCU (307.34, 111.76).
+#239 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R66: SCHEMATIC1, 2-MCU (347.98, 134.62).
+#240 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C34: SCHEMATIC1, 2-MCU (386.08, 243.84).
+#241 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R46: SCHEMATIC1, 2-MCU (243.84, 193.04).
+#242 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q4: SCHEMATIC1, 1-PWR-ADC (81.28, 50.80).
+#243 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R11: SCHEMATIC1, 1-PWR-ADC (195.58, 233.68).
+#244 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R6: SCHEMATIC1, 1-PWR-ADC (246.38, 210.82).
+#245 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D53: SCHEMATIC1, 4-SWITCH (340.36, 152.40).
+#246 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C105: SCHEMATIC1, 4-SWITCH (337.82, 203.20).
+#247 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance L4: SCHEMATIC1, 1-PWR-ADC (251.46, 137.16).
+#248 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R117: SCHEMATIC1, 1-PWR-ADC (200.66, 134.62).
+#249 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D38: SCHEMATIC1, 1-PWR-ADC (86.36, 269.24).
+#250 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C70: SCHEMATIC1, 4-SWITCH (27.94, 243.84).
+#251 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C62: SCHEMATIC1, 4-SWITCH (27.94, 129.54).
+#252 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q5: SCHEMATIC1, 3-CCS-CVS (5.20, 1.40).
+#253 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R89: SCHEMATIC1, 1-PWR-ADC (86.36, 190.50).
+#254 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C43: SCHEMATIC1, 1-PWR-ADC (17.78, 193.04).
+#255 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R65: SCHEMATIC1, 2-MCU (325.12, 134.62).
+#256 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Y1: SCHEMATIC1, 2-MCU (35.56, 43.18).
+#257 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R30: SCHEMATIC1, 1-PWR-ADC (114.30, 58.42).
+#258 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C8: SCHEMATIC1, 1-PWR-ADC (99.06, 60.96).
+#259 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R16: SCHEMATIC1, 1-PWR-ADC (195.58, 261.62).
+#260 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R5: SCHEMATIC1, 1-PWR-ADC (220.98, 200.66).
+
+Checking Name Property for Hierarchical Instances  
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. Q4,S  S  VBAT
+                    SCHEMATIC1, 1-PWR-ADC  (78.74, 55.88) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. Q4,S  S  VBAT
+                    SCHEMATIC1, 1-PWR-ADC  (78.74, 53.34) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. Q4,S  S  VBAT
+                    SCHEMATIC1, 1-PWR-ADC  (78.74, 50.80) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. Q4,D  D  VSYS
+                    SCHEMATIC1, 1-PWR-ADC  (88.90, 58.42) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. Q4,D  D  VSYS
+                    SCHEMATIC1, 1-PWR-ADC  (88.90, 53.34) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. Q4,D  D  VSYS
+                    SCHEMATIC1, 1-PWR-ADC  (88.90, 50.80) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. Q4,D  D  VSYS
+                    SCHEMATIC1, 1-PWR-ADC  (88.90, 55.88) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------

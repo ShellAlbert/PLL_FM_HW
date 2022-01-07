@@ -1,0 +1,19 @@
+("netlist\\pstdmlmodels.dat" 
+ (PackagedDevice 
+  ("DEFAULT_CAPACITOR_2.2e+07pF_2_1" 
+   (ESpice ".subckt DEFAULT_CAPACITOR_2.2e+07pF_2_1 1 2
+C1 1 2 2.2e-05
+.ends DEFAULT_CAPACITOR_2.2e+07pF_2_1
+" ) 
+   (PinConnections 
+    (1 2 ) 
+    (2 1 ) ) ) 
+  (DEFAULT_RESISTOR_10000OHM_2_1 
+   (ESpice ".subckt DEFAULT_RESISTOR_10000OHM_2_1 1 2
+R1 1 2 10000
+.ends DEFAULT_RESISTOR_10000OHM_2_1
+" ) 
+   (PinConnections 
+    (1 2 ) 
+    (2 1 ) ) ) ) 
+ (LibraryVersion 136.2 ) ) 

@@ -1,0 +1,45 @@
+\t (00:00:01) allegro 17.4 S017 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Thu Dec 30 09:06:00 2021
+\t (00:00:01)         Host=BF-202007251750 User=Administrator Pid=544 CPUs=16
+\t (00:00:01) CmdLine= d:\zsy\cadence\cadence_spb_17.4-2019\tools\bin\allegro.exe G:\github\PLL_FM_HW\IMX8MINI\LIBS\gndpoint256.dra
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:01) Opening existing design...
+\i (00:00:01) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged gndpoint256
+\d (00:00:01) Design opened: G:/github/PLL_FM_HW/IMX8MINI/LIBS/gndpoint256.dra
+\i (00:00:01) trapsize 10089
+\i (00:00:01) trapsize 10391
+\i (00:00:01) trapsize 10089
+\i (00:00:01) trapsize 10858
+\i (00:00:01) trapsize 18805
+\i (00:00:01) trapsize 18346
+\i (00:00:01) generaledit 
+\i (00:00:03) zoom in 1 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom in -4.7446 -5.1116
+\i (00:00:03) trapsize 9173
+\i (00:00:03) zoom in 1 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom in -12.8170 -5.1115
+\i (00:00:03) trapsize 4587
+\i (00:00:03) zoom in 1 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom in -12.8170 -5.1115
+\i (00:00:03) trapsize 2293
+\i (00:00:03) zoom in 1 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom in 1.7224 1.0803
+\i (00:00:03) trapsize 1147
+\i (00:00:07) create symbol 
+\i (00:00:10) fillin "gndpoint256.psm"
+\t (00:00:10) Creating package symbol 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/gndpoint256.psm'.
+\t (00:00:10) Starting Create symbol...
+\i (00:00:10) generaledit 
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 6.0108 -0.9607
+\i (00:00:11) trapsize 2293
+\i (00:00:14) exit 
+\e (00:00:14) Do you want to save the changes you made to gndpoint256.dra?
+\i (00:00:15) fillin no 
+\t (00:00:18)     Journal end - Thu Dec 30 09:06:18 2021

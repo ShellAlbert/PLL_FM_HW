@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : MCU-V4.brd                                    )
 (    Software Version : 17.4S017                                      )
-(    Date/Time        : Mon Nov 29 11:41:06 2021                      )
+(    Date/Time        : Tue Dec 28 16:44:26 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -32,6 +32,4 @@ WARNING: The following vias/pins have connections using non-plated padstacks
   TP2.1           THR_CIR_3D8X3D2_NP                       (7.1000 -7.1000)
 
 
-WARNING:   WARNING(SPMHDB-42): Run batch DRC to regenerate DRC errs.
-
-4 warnings, 0 errors detected, 0 errors could be fixed.
+3 warnings, 0 errors detected, 0 errors could be fixed.

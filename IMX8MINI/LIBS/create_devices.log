@@ -1,0 +1,73 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Create_devices LOG file                                          )
+(                                                                     )
+(    Drawing          : LAY-31399_C.brd                               )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Thu Dec 30 08:45:07 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/sdinbdg4-16g_vfbga_153p_fbga153.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/mimx8mm_bga486p_bga486_0p5_14x1.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/cap_np_0402_cc_discrete_065mm.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/cap_np_0201_cc_discrete_033m_1.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/cap_np_0201_cc_discrete_033m_2.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/res_0201_cc_discrete_026mm_4_2.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/res_0201_cc_discrete_026mm_4_3.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/res_0201_cc_discrete_026mm_4_4.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/bd71847mwv_uqfn56_uqfn56_0p4_7x.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/inductor_ind_sph2520_discrete_1.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/inductor_ind_sph2520_discrete_2.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/mt53d512m32d2ds_bga200p_bga200_.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/res_0402_cc_discrete_04mm_470.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/res_0402_cc_discrete_04mm_4_1.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/res_0402_cc_discrete_04mm_4_2.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/testloop_tpad_015_io_01mm_211-.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/cap_np_0201_cc_discrete_033mm.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/res_0402_cc_discrete_040mm_47.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/res_rc0402_25_discrete_045mm_.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/res_rc0402_25_discrete_045m_1.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/cap_np_0603_cc_discrete_1016mm.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/conn_hdr_10x2_con20_0p4_6p8x3p1.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/nmos_nx3008nbk_sc70_3_ic_11mm_.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/cap_np_0402_cc_discrete_06mm_1.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/cap_np_0201_cc_discrete_039mm_.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/cap_np_0603_cc_discrete_09mm_1.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/res_0201_cc_discrete_025mm_470.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/res_0201_cc_discrete_026mm_470.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/res_0201_cc_discrete_026mm_4_1.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/res_0201_cc_discrete_026mm_47.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/res_0201_cc_discrete_026mm__1.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/led_led_0603_ic_08mm_370-7667.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/res_0402_cc_discrete_04mm_470-.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/mount_hole_gndpoint256_ic_0005.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/conn_hdr_2x1_hdr102_io_871mm_.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/cap_np_0402_cc_discrete_055mm.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/hdr_2x50_m_con100_0p4_21p7x2p05.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/testloop_tpad_050_io_01mm_211-.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/mt25ql256aba1ew9_9p_dfn8_1p27_6.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/cap_np_0201_cc_discrete_035m_1.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/hdr_2x50_m_con100_0p4_22p8x3p1_.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/cap_np_0201_cc_discrete_033mm_.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/res_0402_cc_discrete_045mm_47.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/res_0402_cc_discrete_045mm__1.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/inductor_ind_2016a_discrete_12.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/cap_np_0603_cc_discrete_1mm_150.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/cap_np_0402_cc_discrete_065mm_.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/cap_np_0201_cc_discrete_035mm_.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/cap_np_0805_cc_discrete_145mm_.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/ufl_con_3_ufl_r_smt_io_14mm_21.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/inductor_ind_2016a_discrete_1mm.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/inductor_0402_cc_discrete_055m.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/ind_0402_cc_discrete_045mm_180.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/lbee5kl1pj_qfn62_lqfn62_0p6_7p6.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/xtal_13y_xtlosc4_3p2x2p5mm_sm_i.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/xtal_xtal2-3p2x1p5-sm_ic_09mm_.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/tpointr_testpoint_35mil_ic_0.txt': written successfully.
+Device file 'G:/github/PLL_FM_HW/IMX8MINI/LIBS/testloop_tpad_020_io_01mm_211-.txt': written successfully.
+
+  Created device files: 58
+

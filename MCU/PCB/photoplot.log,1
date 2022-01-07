@@ -4,10 +4,15 @@
 (                                                                     )
 (    Drawing          : MCU-V4.brd                                    )
 (    Software Version : 17.4S017                                      )
-(    Date/Time        : Fri Nov 19 10:43:55 2021                      )
+(    Date/Time        : Fri Nov 19 10:52:02 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
+
+
+ ******************************************
+ WARNING: DRC OUT OF DATE on this layout.
+ ******************************************
 
  ---- Photoplot outline rectangle not found; using drawing extents.
 
@@ -43,7 +48,7 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
-    WARNING: Film contains objects with associated DRCs (29).
+    WARNING: Film contains objects with associated DRCs (31).
            In the design editor view this film and enable visibility for the
            associated DRC layer. Verify the DRCs are approved exceptions to your rules.
 
@@ -123,7 +128,7 @@ Results from parameter file ...
   CIRCLE     1.20000                                  DARK 
   CIRCLE     3.80000                                  DARK 
 
-     GND-L2 created.
+     GND-L2 created with warnings
 
 
 ================================================================
@@ -157,7 +162,7 @@ Results from parameter file ...
   CIRCLE     1.20000                                  DARK 
   CIRCLE     3.80000                                  DARK 
 
-     SIGNAL-L3 created.
+     SIGNAL-L3 created with warnings
 
 
 ================================================================
@@ -190,7 +195,7 @@ Results from parameter file ...
   CIRCLE     1.20000                                  DARK 
   CIRCLE     3.80000                                  DARK 
 
-     SIGNAL-L4 created.
+     SIGNAL-L4 created with warnings
 
 
 ================================================================
@@ -220,7 +225,7 @@ Results from parameter file ...
   CIRCLE     1.20000                                  DARK 
   CIRCLE     3.80000                                  DARK 
 
-     GND-L5 created.
+     GND-L5 created with warnings
 
 
 ================================================================
@@ -252,7 +257,7 @@ Results from parameter file ...
   CIRCLE     1.20000                                  DARK 
   CIRCLE     3.80000                                  DARK 
 
-     PWR-L6 created.
+     PWR-L6 created with warnings
 
 
 ================================================================
@@ -285,7 +290,7 @@ Results from parameter file ...
   CIRCLE     1.20000                                  DARK 
   CIRCLE     3.80000                                  DARK 
 
-     SIGNAL-L7 created.
+     SIGNAL-L7 created with warnings
 
 
 ================================================================
@@ -317,7 +322,7 @@ Results from parameter file ...
   CIRCLE     1.20000                                  DARK 
   CIRCLE     3.80000                                  DARK 
 
-     SIGNAL-L8 created.
+     SIGNAL-L8 created with warnings
 
 
 ================================================================
@@ -347,7 +352,7 @@ Results from parameter file ...
   CIRCLE     1.20000                                  DARK 
   CIRCLE     3.80000                                  DARK 
 
-     GND-L9 created.
+     GND-L9 created with warnings
 
 
 ================================================================
@@ -444,7 +449,7 @@ Results from parameter file ...
   CIRCLE     0.10000                                  DARK 
   CIRCLE     0.20000                                  DARK 
 
-     SILKSCREEN_TOP created.
+     SILKSCREEN_TOP created with warnings
 
 
 ================================================================
@@ -473,7 +478,7 @@ Results from parameter file ...
   CIRCLE     0.05000                                  DARK 
   CIRCLE     0.10000                                  DARK 
 
-     SILKSCREEN_BOTTOM created.
+     SILKSCREEN_BOTTOM created with warnings
 
 
 ================================================================
@@ -527,7 +532,7 @@ Results from parameter file ...
   RECTANGLE  2.30000     x 2.30000       0.000 NO     DARK 
   RECTANGLE  3.30000     x 1.00000       0.000 NO     DARK 
 
-     SOLDERMASK_TOP created.
+     SOLDERMASK_TOP created with warnings
 
 
 ================================================================
@@ -578,7 +583,7 @@ Results from parameter file ...
   RECTANGLE  2.30000     x 2.30000      90.000 NO     DARK 
   RECTANGLE  3.30000     x 1.00000       0.000 NO     DARK 
 
-     SOLDERMASK_BOTTOM created.
+     SOLDERMASK_BOTTOM created with warnings
 
 
 ================================================================
@@ -630,7 +635,7 @@ Results from parameter file ...
   RECTANGLE  2.20000     x 2.20000       0.000 NO     DARK 
   RECTANGLE  3.20000     x 0.90000       0.000 NO     DARK 
 
-     PASTEMASK_TOP created.
+     PASTEMASK_TOP created with warnings
 
 
 ================================================================
@@ -678,7 +683,7 @@ Results from parameter file ...
   RECTANGLE  2.20000     x 2.20000      90.000 NO     DARK 
   RECTANGLE  3.20000     x 0.90000       0.000 NO     DARK 
 
-     PASTEMASK_BOTTOM created.
+     PASTEMASK_BOTTOM created with warnings
 
 
 ================================================================
@@ -744,28 +749,28 @@ Results from parameter file ...
   ---------------------------------------------------------
   CIRCLE     0.25400                                  DARK 
 
-     OUTLINE created.
+     OUTLINE created with warnings
 
 
 ------------------------------------------------------
  SUMMARY:
         TOP created with warnings
-        GND-L2 created.
-        SIGNAL-L3 created.
-        SIGNAL-L4 created.
-        GND-L5 created.
-        PWR-L6 created.
-        SIGNAL-L7 created.
-        SIGNAL-L8 created.
-        GND-L9 created.
+        GND-L2 created with warnings
+        SIGNAL-L3 created with warnings
+        SIGNAL-L4 created with warnings
+        GND-L5 created with warnings
+        PWR-L6 created with warnings
+        SIGNAL-L7 created with warnings
+        SIGNAL-L8 created with warnings
+        GND-L9 created with warnings
         BOTTOM created with warnings
-        SILKSCREEN_TOP created.
-        SILKSCREEN_BOTTOM created.
-        SOLDERMASK_TOP created.
-        SOLDERMASK_BOTTOM created.
-        PASTEMASK_TOP created.
-        PASTEMASK_BOTTOM created.
+        SILKSCREEN_TOP created with warnings
+        SILKSCREEN_BOTTOM created with warnings
+        SOLDERMASK_TOP created with warnings
+        SOLDERMASK_BOTTOM created with warnings
+        PASTEMASK_TOP created with warnings
+        PASTEMASK_BOTTOM created with warnings
         DIMENSION created with warnings
-        OUTLINE created.
+        OUTLINE created with warnings
 
  ARTWORK had warnings

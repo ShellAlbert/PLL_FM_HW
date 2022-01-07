@@ -1,0 +1,1215 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : LDVMPU.brd                                    )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Thu Dec 30 09:01:05 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+ERROR:   Could not find symbol:  U1 / MIMX8MM_BGA486P_BGA486_0P5_14X14_IC__MIMX8MM6DVTLZAA / BGA486_0P5_14X14
+ERROR:   Could not find symbol:  U2 / MT53D512M32D2DS_BGA200P_BGA200_0P65X0P8_10P1X14P6_IC_(S1+S2)_MT53D512M32D2DS-053 WT:D / BGA200_0P65X0P8_10P1X14P6
+ERROR:   Could not find symbol:  U4 / SDINBDG4-16G_VFBGA_153P_FBGA153_0P5_11P5X13_IC_SDINBDG4-16G-I1 / FBGA153_0P5_11P5X13
+ERROR:   Could not find symbol:  J5 / HDR_2X50_M_CON100_0P4_22P8X3P1_SM_IO_DF40C-100DS-0.4V(51) / CON100_0P4_22P8X3P1_SM
+ERROR:   Could not find symbol:  J4 / HDR_2X50_M_CON100_0P4_21P7X2P05_SM_IO_DF40C-100DP-0.4V(51) / CON100_0P4_21P7X2P05_SM
+ERROR:   Could not find symbol:  U6 / LBEE5KL1PJ_QFN62_LQFN62_0P6_7P6X7P4_IC_LBEE5KL1PJ / LQFN62_0P6_7P6X7P4
+ERROR:   Could not find symbol:  U8 / BD71847MWV_UQFN56_UQFN56_0P4_7X7_EP_S185_IC_BD71847MWV / UQFN56_0P4_7X7_EP_S185
+ERROR:   Could not find symbol:  J7 / CONN_HDR_10X2_CON20_0P4_6P8X3P1_SM_IO_DF40C-20DS-0.4V(51) / CON20_0P4_6P8X3P1_SM
+ERROR:   Could not find symbol:  U5 / MT25QL256ABA1EW9_9P_DFN8_1P27_6X5MM_3P1_IC_MT25QU256ABA1EW7-0SIT / DFN8_1P27_6X5MM_3P1
+ERROR:   Could not find symbol:  Y1 / XTAL_13Y_XTLOSC4_3P2X2P5MM_SM_IC_24MHZ / XTLOSC4_3P2X2P5MM_SM
+ERROR:   Could not find symbol:  J2 / UFL_CON_3_UFL_R_SMT_IO_MXC3N2001 / CON_3_UFL_R_SMT
+ERROR:   Could not find symbol:  Q1 / NMOS_NX3008NBK_SC70_3_IC_NX3008NBKW,115 / SC70_3
+ERROR:   Could not find symbol:  C133 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C136 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C138 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C17 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C21 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C132 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C131 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C23 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C244 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C264 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C3 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C30 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C235 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C371 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C372 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C241 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C374 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C370 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C376 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C378 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C379 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C380 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C381 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C382 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C384 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C392 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C373 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C394 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C400 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C5 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C6 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C8 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C9 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C375 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C10 / CAP_NP_0402_CC_DISCRETE_2.2UF / 0402_CC
+ERROR:   Could not find symbol:  C11 / CAP_NP_0402_CC_DISCRETE_2.2UF / 0402_CC
+ERROR:   Could not find symbol:  C12 / CAP_NP_0402_CC_DISCRETE_2.2UF / 0402_CC
+ERROR:   Could not find symbol:  C393 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C405 / CAP_NP_0402_CC_DISCRETE_2.2UF / 0402_CC
+ERROR:   Could not find symbol:  C105 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C106 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C108 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C109 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C110 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C111 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C112 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C113 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C115 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C117 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C118 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C119 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C130 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C139 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C20 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C247 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C99 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C266 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C33 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C55 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C88 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C89 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C123 / CAP_NP_0201_CC_DISCRETE_12PF / 0201_CC
+ERROR:   Could not find symbol:  C124 / CAP_NP_0201_CC_DISCRETE_12PF / 0201_CC
+ERROR:   Could not find symbol:  C127 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C13 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C14 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C18 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C234 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C260 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C2 / CAP_NP_0402_CC_DISCRETE_2.2UF / 0402_CC
+ERROR:   Could not find symbol:  C360 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C363 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C137 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C141 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C144 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C15 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C265 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C248 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C251 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C253 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C254 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C255 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C256 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C267 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C272 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C273 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C333 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C337 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C35 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C36 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C48 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C54 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C61 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C65 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C74 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C78 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C90 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C91 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C92 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C93 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C94 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C95 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C140 / CAP_NP_0805_CC_DISCRETE_47UF / 0805_CC
+ERROR:   Could not find symbol:  C142 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C275 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C283 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C285 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C129 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C303 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C304 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C311 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C312 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C351 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C318 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C324 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C325 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C403 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C404 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C143 / CAP_NP_0201_CC_DISCRETE_0.1UF / 0201_CC
+ERROR:   Could not find symbol:  C145 / CAP_NP_0201_CC_DISCRETE_0.1UF / 0201_CC
+ERROR:   Could not find symbol:  C146 / CAP_NP_0201_CC_DISCRETE_0.1UF / 0201_CC
+ERROR:   Could not find symbol:  C147 / CAP_NP_0201_CC_DISCRETE_0.1UF / 0201_CC
+ERROR:   Could not find symbol:  C148 / CAP_NP_0201_CC_DISCRETE_0.1UF / 0201_CC
+ERROR:   Could not find symbol:  C245 / CAP_NP_0201_CC_DISCRETE_18PF / 0201_CC
+ERROR:   Could not find symbol:  C298 / CAP_NP_0201_CC_DISCRETE_18PF / 0201_CC
+ERROR:   Could not find symbol:  C299 / CAP_NP_0201_CC_DISCRETE_18PF / 0201_CC
+ERROR:   Could not find symbol:  C268 / CAP_NP_0201_CC_DISCRETE_2200PF / 0201_CC
+ERROR:   Could not find symbol:  C279 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C281 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C295 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C301 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C306 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C307 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C316 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C128 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C365 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C401 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C402 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C391 / CAP_NP_0201_CC_DISCRETE_1UF_ / 0201_CC
+ERROR:   Could not find symbol:  D1 / LED_LED_0603_IC_LED GREEN / LED_0603
+ERROR:   Could not find symbol:  C16 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C114 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C104 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  J6 / CONN_HDR_2X1_HDR102_IO_HDR 1X2 TH / HDR102
+ERROR:   Could not find symbol:  C101 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  L10 / INDUCTOR_IND_SPH2520_DISCRETE_0.47UH_20% / IND_SPH2520
+ERROR:   Could not find symbol:  L15 / INDUCTOR_IND_SPH2520_DISCRETE_0.47UH_20% / IND_SPH2520
+ERROR:   Could not find symbol:  L5 / INDUCTOR_IND_SPH2520_DISCRETE_0.47UH_20% / IND_SPH2520
+ERROR:   Could not find symbol:  L6 / INDUCTOR_IND_SPH2520_DISCRETE_0.47UH_20% / IND_SPH2520
+ERROR:   Could not find symbol:  L11 / INDUCTOR_IND_SPH2520_DISCRETE_1UH / IND_SPH2520
+ERROR:   Could not find symbol:  L13 / INDUCTOR_IND_2016A_DISCRETE_0.47UH / IND_2016A
+ERROR:   Could not find symbol:  L2 / INDUCTOR_IND_2016A_DISCRETE_1.5UH / IND_2016A
+ERROR:   Could not find symbol:  L3 / INDUCTOR_0402_CC_DISCRETE_2.2NH / 0402_CC
+ERROR:   Could not find symbol:  L4 / IND_0402_CC_DISCRETE_1.3NH / 0402_CC
+ERROR:   Could not find symbol:  C317 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  QZ2 / XTAL_XTAL2-3P2X1P5-SM_IC_32.768KHZ / XTAL2-3P2X1P5-SM
+ERROR:   Could not find symbol:  R10 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R11 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R12 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R13 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R133 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R14 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R15 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R16 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R17 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R100 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R113 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R129 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R130 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R131 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R132 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R134 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R102 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R103 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R106 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R135 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R20 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R21 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R61 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R108 / RES_0201_CC_DISCRETE_30K / 0201_CC
+ERROR:   Could not find symbol:  R109 / RES_0201_CC_DISCRETE_30K / 0201_CC
+ERROR:   Could not find symbol:  R111 / RES_0402_CC_DISCRETE_0_1% / 0402_CC
+ERROR:   Could not find symbol:  R136 / RES_0402_CC_DISCRETE_0_1% / 0402_CC
+ERROR:   Could not find symbol:  R114 / RES_0402_CC_DISCRETE_0 / 0402_CC
+ERROR:   Could not find symbol:  R44 / RES_0402_CC_DISCRETE_0 / 0402_CC
+ERROR:   Could not find symbol:  R48 / RES_0402_CC_DISCRETE_0 / 0402_CC
+ERROR:   Could not find symbol:  R51 / RES_0402_CC_DISCRETE_0 / 0402_CC
+ERROR:   Could not find symbol:  R52 / RES_0402_CC_DISCRETE_0 / 0402_CC
+ERROR:   Could not find symbol:  R54 / RES_0402_CC_DISCRETE_0 / 0402_CC
+ERROR:   Could not find symbol:  R115 / RES_RC0402_25_DISCRETE_0 / RC0402_25
+ERROR:   Could not find symbol:  R116 / RES_RC0402_25_DISCRETE_0 / RC0402_25
+ERROR:   Could not find symbol:  R127 / RES_RC0402_25_DISCRETE_0 / RC0402_25
+ERROR:   Could not find symbol:  R55 / RES_RC0402_25_DISCRETE_0 / RC0402_25
+ERROR:   Could not find symbol:  R117 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R118 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R119 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R120 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R121 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R122 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R123 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R124 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R18 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R23 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R4 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R125 / RES_0201_CC_DISCRETE_1K / 0201_CC
+ERROR:   Could not find symbol:  R26 / RES_0402_CC_DISCRETE_510K / 0402_CC
+ERROR:   Could not find symbol:  R28 / RES_0402_CC_DISCRETE_8.2K / 0402_CC
+ERROR:   Could not find symbol:  R29 / RES_0201_CC_DISCRETE_200 / 0201_CC
+ERROR:   Could not find symbol:  R30 / RES_0201_CC_DISCRETE_200 / 0201_CC
+ERROR:   Could not find symbol:  R37 / RES_0402_CC_DISCRETE_10K / 0402_CC
+ERROR:   Could not find symbol:  R47 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R71 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R72 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R75 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R76 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R79 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R95 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R97 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R5 / RES_0201_CC_DISCRETE_240 OHM / 0201_CC
+ERROR:   Could not find symbol:  R6 / RES_0201_CC_DISCRETE_240 OHM / 0201_CC
+ERROR:   Could not find symbol:  R7 / RES_0201_CC_DISCRETE_240 OHM / 0201_CC
+ERROR:   Could not find symbol:  R57 / RES_0201_CC_DISCRETE_1M / 0201_CC
+ERROR:   Could not find symbol:  R8 / RES_0402_CC_DISCRETE_150 / 0402_CC
+ERROR:   Could not find symbol:  R9 / RES_0402_CC_DISCRETE_150 / 0402_CC
+ERROR:   Could not find symbol:  C100 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C1 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C287 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C323 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  TP14 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP15 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP18 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP19 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP2 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP20 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP21 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP3 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP34 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP36 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP37 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP38 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP39 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP4 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP5 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP52 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP10 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP16 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP17 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP22 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP23 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP24 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP25 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP26 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP27 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP28 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP29 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP30 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP31 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP32 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP33 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP51 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP53 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP6 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP7 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP8 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP9 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP35 / TESTLOOP_TPAD_015_IO_TPAD_015 / TPAD_015
+ERROR:   Could not find symbol:  TP40 / TESTLOOP_TPAD_015_IO_TPAD_015 / TPAD_015
+ERROR:   Could not find symbol:  TP48 / TESTLOOP_TPAD_015_IO_TPAD_015 / TPAD_015
+ERROR:   Could not find symbol:  TP49 / TESTLOOP_TPAD_015_IO_TPAD_015 / TPAD_015
+ERROR:   Could not find symbol:  TP50 / TESTLOOP_TPAD_015_IO_TPAD_015 / TPAD_015
+ERROR:   Could not find symbol:  TP44 / TESTLOOP_TPAD_050_IO_TPAD_050 / TPAD_050
+ERROR:   Could not find symbol:  TP45 / TESTLOOP_TPAD_050_IO_TPAD_050 / TPAD_050
+ERROR:   Could not find symbol:  TP46 / TESTLOOP_TPAD_050_IO_TPAD_050 / TPAD_050
+ERROR:   Could not find symbol:  TP47 / TESTLOOP_TPAD_050_IO_TPAD_050 / TPAD_050
+ERROR:   Could not find symbol:  TP13 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP12 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP11 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP1 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  BH3 / MOUNT_HOLE_GNDPOINT256_IC_MOUNTING HOLE / GNDPOINT256
+ERROR:   Could not find symbol:  BH2 / MOUNT_HOLE_GNDPOINT256_IC_MOUNTING HOLE / GNDPOINT256
+ERROR:   Could not find symbol:  BH1 / MOUNT_HOLE_GNDPOINT256_IC_MOUNTING HOLE / GNDPOINT256
+
+
+Placed 0 of 293 applicable (293 total) symbols.
+
+-----------------------------------------------------------------------
+
+State: Placing on layer TOP
+
+ERROR:   Could not find symbol:  U1 / MIMX8MM_BGA486P_BGA486_0P5_14X14_IC__MIMX8MM6DVTLZAA / BGA486_0P5_14X14
+ERROR:   Could not find symbol:  U2 / MT53D512M32D2DS_BGA200P_BGA200_0P65X0P8_10P1X14P6_IC_(S1+S2)_MT53D512M32D2DS-053 WT:D / BGA200_0P65X0P8_10P1X14P6
+ERROR:   Could not find symbol:  U4 / SDINBDG4-16G_VFBGA_153P_FBGA153_0P5_11P5X13_IC_SDINBDG4-16G-I1 / FBGA153_0P5_11P5X13
+ERROR:   Could not find symbol:  J5 / HDR_2X50_M_CON100_0P4_22P8X3P1_SM_IO_DF40C-100DS-0.4V(51) / CON100_0P4_22P8X3P1_SM
+ERROR:   Could not find symbol:  J4 / HDR_2X50_M_CON100_0P4_21P7X2P05_SM_IO_DF40C-100DP-0.4V(51) / CON100_0P4_21P7X2P05_SM
+ERROR:   Could not find symbol:  U6 / LBEE5KL1PJ_QFN62_LQFN62_0P6_7P6X7P4_IC_LBEE5KL1PJ / LQFN62_0P6_7P6X7P4
+ERROR:   Could not find symbol:  U8 / BD71847MWV_UQFN56_UQFN56_0P4_7X7_EP_S185_IC_BD71847MWV / UQFN56_0P4_7X7_EP_S185
+ERROR:   Could not find symbol:  J7 / CONN_HDR_10X2_CON20_0P4_6P8X3P1_SM_IO_DF40C-20DS-0.4V(51) / CON20_0P4_6P8X3P1_SM
+ERROR:   Could not find symbol:  U5 / MT25QL256ABA1EW9_9P_DFN8_1P27_6X5MM_3P1_IC_MT25QU256ABA1EW7-0SIT / DFN8_1P27_6X5MM_3P1
+ERROR:   Could not find symbol:  Y1 / XTAL_13Y_XTLOSC4_3P2X2P5MM_SM_IC_24MHZ / XTLOSC4_3P2X2P5MM_SM
+ERROR:   Could not find symbol:  J2 / UFL_CON_3_UFL_R_SMT_IO_MXC3N2001 / CON_3_UFL_R_SMT
+ERROR:   Could not find symbol:  Q1 / NMOS_NX3008NBK_SC70_3_IC_NX3008NBKW,115 / SC70_3
+ERROR:   Could not find symbol:  C133 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C136 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C138 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C17 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C21 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C132 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C131 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C23 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C244 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C264 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C3 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C30 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C235 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C371 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C372 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C241 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C374 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C370 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C376 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C378 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C379 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C380 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C381 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C382 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C384 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C392 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C373 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C394 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C400 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C5 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C6 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C8 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C9 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C375 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C10 / CAP_NP_0402_CC_DISCRETE_2.2UF / 0402_CC
+ERROR:   Could not find symbol:  C11 / CAP_NP_0402_CC_DISCRETE_2.2UF / 0402_CC
+ERROR:   Could not find symbol:  C12 / CAP_NP_0402_CC_DISCRETE_2.2UF / 0402_CC
+ERROR:   Could not find symbol:  C393 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C405 / CAP_NP_0402_CC_DISCRETE_2.2UF / 0402_CC
+ERROR:   Could not find symbol:  C105 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C106 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C108 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C109 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C110 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C111 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C112 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C113 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C115 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C117 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C118 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C119 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C130 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C139 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C20 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C247 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C99 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C266 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C33 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C55 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C88 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C89 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C123 / CAP_NP_0201_CC_DISCRETE_12PF / 0201_CC
+ERROR:   Could not find symbol:  C124 / CAP_NP_0201_CC_DISCRETE_12PF / 0201_CC
+ERROR:   Could not find symbol:  C127 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C13 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C14 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C18 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C234 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C260 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C2 / CAP_NP_0402_CC_DISCRETE_2.2UF / 0402_CC
+ERROR:   Could not find symbol:  C360 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C363 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C137 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C141 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C144 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C15 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C265 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C248 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C251 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C253 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C254 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C255 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C256 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C267 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C272 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C273 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C333 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C337 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C35 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C36 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C48 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C54 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C61 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C65 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C74 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C78 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C90 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C91 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C92 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C93 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C94 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C95 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C140 / CAP_NP_0805_CC_DISCRETE_47UF / 0805_CC
+ERROR:   Could not find symbol:  C142 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C275 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C283 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C285 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C129 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C303 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C304 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C311 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C312 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C351 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C318 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C324 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C325 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C403 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C404 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C143 / CAP_NP_0201_CC_DISCRETE_0.1UF / 0201_CC
+ERROR:   Could not find symbol:  C145 / CAP_NP_0201_CC_DISCRETE_0.1UF / 0201_CC
+ERROR:   Could not find symbol:  C146 / CAP_NP_0201_CC_DISCRETE_0.1UF / 0201_CC
+ERROR:   Could not find symbol:  C147 / CAP_NP_0201_CC_DISCRETE_0.1UF / 0201_CC
+ERROR:   Could not find symbol:  C148 / CAP_NP_0201_CC_DISCRETE_0.1UF / 0201_CC
+ERROR:   Could not find symbol:  C245 / CAP_NP_0201_CC_DISCRETE_18PF / 0201_CC
+ERROR:   Could not find symbol:  C298 / CAP_NP_0201_CC_DISCRETE_18PF / 0201_CC
+ERROR:   Could not find symbol:  C299 / CAP_NP_0201_CC_DISCRETE_18PF / 0201_CC
+ERROR:   Could not find symbol:  C268 / CAP_NP_0201_CC_DISCRETE_2200PF / 0201_CC
+ERROR:   Could not find symbol:  C279 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C281 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C295 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C301 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C306 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C307 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C316 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C128 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C365 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C401 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C402 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C391 / CAP_NP_0201_CC_DISCRETE_1UF_ / 0201_CC
+ERROR:   Could not find symbol:  D1 / LED_LED_0603_IC_LED GREEN / LED_0603
+ERROR:   Could not find symbol:  C16 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C114 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C104 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  J6 / CONN_HDR_2X1_HDR102_IO_HDR 1X2 TH / HDR102
+ERROR:   Could not find symbol:  C101 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  L10 / INDUCTOR_IND_SPH2520_DISCRETE_0.47UH_20% / IND_SPH2520
+ERROR:   Could not find symbol:  L15 / INDUCTOR_IND_SPH2520_DISCRETE_0.47UH_20% / IND_SPH2520
+ERROR:   Could not find symbol:  L5 / INDUCTOR_IND_SPH2520_DISCRETE_0.47UH_20% / IND_SPH2520
+ERROR:   Could not find symbol:  L6 / INDUCTOR_IND_SPH2520_DISCRETE_0.47UH_20% / IND_SPH2520
+ERROR:   Could not find symbol:  L11 / INDUCTOR_IND_SPH2520_DISCRETE_1UH / IND_SPH2520
+ERROR:   Could not find symbol:  L13 / INDUCTOR_IND_2016A_DISCRETE_0.47UH / IND_2016A
+ERROR:   Could not find symbol:  L2 / INDUCTOR_IND_2016A_DISCRETE_1.5UH / IND_2016A
+ERROR:   Could not find symbol:  L3 / INDUCTOR_0402_CC_DISCRETE_2.2NH / 0402_CC
+ERROR:   Could not find symbol:  L4 / IND_0402_CC_DISCRETE_1.3NH / 0402_CC
+ERROR:   Could not find symbol:  C317 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  QZ2 / XTAL_XTAL2-3P2X1P5-SM_IC_32.768KHZ / XTAL2-3P2X1P5-SM
+ERROR:   Could not find symbol:  R10 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R11 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R12 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R13 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R133 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R14 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R15 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R16 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R17 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R100 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R113 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R129 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R130 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R131 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R132 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R134 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R102 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R103 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R106 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R135 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R20 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R21 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R61 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R108 / RES_0201_CC_DISCRETE_30K / 0201_CC
+ERROR:   Could not find symbol:  R109 / RES_0201_CC_DISCRETE_30K / 0201_CC
+ERROR:   Could not find symbol:  R111 / RES_0402_CC_DISCRETE_0_1% / 0402_CC
+ERROR:   Could not find symbol:  R136 / RES_0402_CC_DISCRETE_0_1% / 0402_CC
+ERROR:   Could not find symbol:  R114 / RES_0402_CC_DISCRETE_0 / 0402_CC
+ERROR:   Could not find symbol:  R44 / RES_0402_CC_DISCRETE_0 / 0402_CC
+ERROR:   Could not find symbol:  R48 / RES_0402_CC_DISCRETE_0 / 0402_CC
+ERROR:   Could not find symbol:  R51 / RES_0402_CC_DISCRETE_0 / 0402_CC
+ERROR:   Could not find symbol:  R52 / RES_0402_CC_DISCRETE_0 / 0402_CC
+ERROR:   Could not find symbol:  R54 / RES_0402_CC_DISCRETE_0 / 0402_CC
+ERROR:   Could not find symbol:  R115 / RES_RC0402_25_DISCRETE_0 / RC0402_25
+ERROR:   Could not find symbol:  R116 / RES_RC0402_25_DISCRETE_0 / RC0402_25
+ERROR:   Could not find symbol:  R127 / RES_RC0402_25_DISCRETE_0 / RC0402_25
+ERROR:   Could not find symbol:  R55 / RES_RC0402_25_DISCRETE_0 / RC0402_25
+ERROR:   Could not find symbol:  R117 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R118 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R119 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R120 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R121 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R122 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R123 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R124 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R18 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R23 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R4 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R125 / RES_0201_CC_DISCRETE_1K / 0201_CC
+ERROR:   Could not find symbol:  R26 / RES_0402_CC_DISCRETE_510K / 0402_CC
+ERROR:   Could not find symbol:  R28 / RES_0402_CC_DISCRETE_8.2K / 0402_CC
+ERROR:   Could not find symbol:  R29 / RES_0201_CC_DISCRETE_200 / 0201_CC
+ERROR:   Could not find symbol:  R30 / RES_0201_CC_DISCRETE_200 / 0201_CC
+ERROR:   Could not find symbol:  R37 / RES_0402_CC_DISCRETE_10K / 0402_CC
+ERROR:   Could not find symbol:  R47 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R71 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R72 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R75 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R76 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R79 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R95 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R97 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R5 / RES_0201_CC_DISCRETE_240 OHM / 0201_CC
+ERROR:   Could not find symbol:  R6 / RES_0201_CC_DISCRETE_240 OHM / 0201_CC
+ERROR:   Could not find symbol:  R7 / RES_0201_CC_DISCRETE_240 OHM / 0201_CC
+ERROR:   Could not find symbol:  R57 / RES_0201_CC_DISCRETE_1M / 0201_CC
+ERROR:   Could not find symbol:  R8 / RES_0402_CC_DISCRETE_150 / 0402_CC
+ERROR:   Could not find symbol:  R9 / RES_0402_CC_DISCRETE_150 / 0402_CC
+ERROR:   Could not find symbol:  C100 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C1 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C287 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C323 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  TP14 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP15 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP18 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP19 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP2 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP20 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP21 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP3 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP34 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP36 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP37 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP38 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP39 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP4 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP5 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP52 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP10 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP16 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP17 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP22 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP23 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP24 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP25 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP26 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP27 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP28 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP29 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP30 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP31 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP32 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP33 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP51 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP53 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP6 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP7 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP8 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP9 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP35 / TESTLOOP_TPAD_015_IO_TPAD_015 / TPAD_015
+ERROR:   Could not find symbol:  TP40 / TESTLOOP_TPAD_015_IO_TPAD_015 / TPAD_015
+ERROR:   Could not find symbol:  TP48 / TESTLOOP_TPAD_015_IO_TPAD_015 / TPAD_015
+ERROR:   Could not find symbol:  TP49 / TESTLOOP_TPAD_015_IO_TPAD_015 / TPAD_015
+ERROR:   Could not find symbol:  TP50 / TESTLOOP_TPAD_015_IO_TPAD_015 / TPAD_015
+ERROR:   Could not find symbol:  TP44 / TESTLOOP_TPAD_050_IO_TPAD_050 / TPAD_050
+ERROR:   Could not find symbol:  TP45 / TESTLOOP_TPAD_050_IO_TPAD_050 / TPAD_050
+ERROR:   Could not find symbol:  TP46 / TESTLOOP_TPAD_050_IO_TPAD_050 / TPAD_050
+ERROR:   Could not find symbol:  TP47 / TESTLOOP_TPAD_050_IO_TPAD_050 / TPAD_050
+ERROR:   Could not find symbol:  TP13 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP12 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP11 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP1 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  BH3 / MOUNT_HOLE_GNDPOINT256_IC_MOUNTING HOLE / GNDPOINT256
+ERROR:   Could not find symbol:  BH2 / MOUNT_HOLE_GNDPOINT256_IC_MOUNTING HOLE / GNDPOINT256
+ERROR:   Could not find symbol:  BH1 / MOUNT_HOLE_GNDPOINT256_IC_MOUNTING HOLE / GNDPOINT256
+
+
+Placed 0 of 293 applicable (293 total) symbols.
+
+-----------------------------------------------------------------------
+
+State: Placing on layer TOP
+
+ERROR:   Could not find symbol:  U1 / MIMX8MM_BGA486P_BGA486_0P5_14X14_IC__MIMX8MM6DVTLZAA / BGA486_0P5_14X14
+ERROR:   Could not find symbol:  U2 / MT53D512M32D2DS_BGA200P_BGA200_0P65X0P8_10P1X14P6_IC_(S1+S2)_MT53D512M32D2DS-053 WT:D / BGA200_0P65X0P8_10P1X14P6
+ERROR:   Could not find symbol:  U4 / SDINBDG4-16G_VFBGA_153P_FBGA153_0P5_11P5X13_IC_SDINBDG4-16G-I1 / FBGA153_0P5_11P5X13
+ERROR:   Could not find symbol:  J5 / HDR_2X50_M_CON100_0P4_22P8X3P1_SM_IO_DF40C-100DS-0.4V(51) / CON100_0P4_22P8X3P1_SM
+ERROR:   Could not find symbol:  J4 / HDR_2X50_M_CON100_0P4_21P7X2P05_SM_IO_DF40C-100DP-0.4V(51) / CON100_0P4_21P7X2P05_SM
+ERROR:   Could not find symbol:  U6 / LBEE5KL1PJ_QFN62_LQFN62_0P6_7P6X7P4_IC_LBEE5KL1PJ / LQFN62_0P6_7P6X7P4
+ERROR:   Could not find symbol:  U8 / BD71847MWV_UQFN56_UQFN56_0P4_7X7_EP_S185_IC_BD71847MWV / UQFN56_0P4_7X7_EP_S185
+ERROR:   Could not find symbol:  J7 / CONN_HDR_10X2_CON20_0P4_6P8X3P1_SM_IO_DF40C-20DS-0.4V(51) / CON20_0P4_6P8X3P1_SM
+ERROR:   Could not find symbol:  U5 / MT25QL256ABA1EW9_9P_DFN8_1P27_6X5MM_3P1_IC_MT25QU256ABA1EW7-0SIT / DFN8_1P27_6X5MM_3P1
+ERROR:   Could not find symbol:  Y1 / XTAL_13Y_XTLOSC4_3P2X2P5MM_SM_IC_24MHZ / XTLOSC4_3P2X2P5MM_SM
+ERROR:   Could not find symbol:  J2 / UFL_CON_3_UFL_R_SMT_IO_MXC3N2001 / CON_3_UFL_R_SMT
+ERROR:   Could not find symbol:  Q1 / NMOS_NX3008NBK_SC70_3_IC_NX3008NBKW,115 / SC70_3
+ERROR:   Could not find symbol:  C133 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C136 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C138 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C17 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C21 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C132 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C131 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C23 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C244 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C264 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C3 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C30 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C235 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C371 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C372 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C241 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C374 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C370 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C376 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C378 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C379 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C380 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C381 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C382 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C384 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C392 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C373 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C394 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C400 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C5 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C6 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C8 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C9 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C375 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C10 / CAP_NP_0402_CC_DISCRETE_2.2UF / 0402_CC
+ERROR:   Could not find symbol:  C11 / CAP_NP_0402_CC_DISCRETE_2.2UF / 0402_CC
+ERROR:   Could not find symbol:  C12 / CAP_NP_0402_CC_DISCRETE_2.2UF / 0402_CC
+ERROR:   Could not find symbol:  C393 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C405 / CAP_NP_0402_CC_DISCRETE_2.2UF / 0402_CC
+ERROR:   Could not find symbol:  C105 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C106 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C108 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C109 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C110 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C111 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C112 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C113 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C115 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C117 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C118 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C119 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C130 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C139 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C20 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C247 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C99 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C266 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C33 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C55 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C88 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C89 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C123 / CAP_NP_0201_CC_DISCRETE_12PF / 0201_CC
+ERROR:   Could not find symbol:  C124 / CAP_NP_0201_CC_DISCRETE_12PF / 0201_CC
+ERROR:   Could not find symbol:  C127 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C13 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C14 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C18 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C234 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C260 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C2 / CAP_NP_0402_CC_DISCRETE_2.2UF / 0402_CC
+ERROR:   Could not find symbol:  C360 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C363 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C137 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C141 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C144 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C15 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C265 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C248 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C251 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C253 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C254 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C255 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C256 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C267 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C272 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C273 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C333 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C337 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C35 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C36 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C48 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C54 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C61 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C65 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C74 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C78 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C90 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C91 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C92 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C93 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C94 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C95 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C140 / CAP_NP_0805_CC_DISCRETE_47UF / 0805_CC
+ERROR:   Could not find symbol:  C142 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C275 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C283 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C285 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C129 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C303 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C304 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C311 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C312 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C351 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C318 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C324 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C325 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C403 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C404 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C143 / CAP_NP_0201_CC_DISCRETE_0.1UF / 0201_CC
+ERROR:   Could not find symbol:  C145 / CAP_NP_0201_CC_DISCRETE_0.1UF / 0201_CC
+ERROR:   Could not find symbol:  C146 / CAP_NP_0201_CC_DISCRETE_0.1UF / 0201_CC
+ERROR:   Could not find symbol:  C147 / CAP_NP_0201_CC_DISCRETE_0.1UF / 0201_CC
+ERROR:   Could not find symbol:  C148 / CAP_NP_0201_CC_DISCRETE_0.1UF / 0201_CC
+ERROR:   Could not find symbol:  C245 / CAP_NP_0201_CC_DISCRETE_18PF / 0201_CC
+ERROR:   Could not find symbol:  C298 / CAP_NP_0201_CC_DISCRETE_18PF / 0201_CC
+ERROR:   Could not find symbol:  C299 / CAP_NP_0201_CC_DISCRETE_18PF / 0201_CC
+ERROR:   Could not find symbol:  C268 / CAP_NP_0201_CC_DISCRETE_2200PF / 0201_CC
+ERROR:   Could not find symbol:  C279 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C281 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C295 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C301 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C306 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C307 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C316 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C128 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C365 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C401 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C402 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C391 / CAP_NP_0201_CC_DISCRETE_1UF_ / 0201_CC
+ERROR:   Could not find symbol:  D1 / LED_LED_0603_IC_LED GREEN / LED_0603
+ERROR:   Could not find symbol:  C16 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C114 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C104 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  J6 / CONN_HDR_2X1_HDR102_IO_HDR 1X2 TH / HDR102
+ERROR:   Could not find symbol:  C101 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  L10 / INDUCTOR_IND_SPH2520_DISCRETE_0.47UH_20% / IND_SPH2520
+ERROR:   Could not find symbol:  L15 / INDUCTOR_IND_SPH2520_DISCRETE_0.47UH_20% / IND_SPH2520
+ERROR:   Could not find symbol:  L5 / INDUCTOR_IND_SPH2520_DISCRETE_0.47UH_20% / IND_SPH2520
+ERROR:   Could not find symbol:  L6 / INDUCTOR_IND_SPH2520_DISCRETE_0.47UH_20% / IND_SPH2520
+ERROR:   Could not find symbol:  L11 / INDUCTOR_IND_SPH2520_DISCRETE_1UH / IND_SPH2520
+ERROR:   Could not find symbol:  L13 / INDUCTOR_IND_2016A_DISCRETE_0.47UH / IND_2016A
+ERROR:   Could not find symbol:  L2 / INDUCTOR_IND_2016A_DISCRETE_1.5UH / IND_2016A
+ERROR:   Could not find symbol:  L3 / INDUCTOR_0402_CC_DISCRETE_2.2NH / 0402_CC
+ERROR:   Could not find symbol:  L4 / IND_0402_CC_DISCRETE_1.3NH / 0402_CC
+ERROR:   Could not find symbol:  C317 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  QZ2 / XTAL_XTAL2-3P2X1P5-SM_IC_32.768KHZ / XTAL2-3P2X1P5-SM
+ERROR:   Could not find symbol:  R10 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R11 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R12 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R13 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R133 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R14 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R15 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R16 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R17 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R100 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R113 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R129 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R130 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R131 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R132 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R134 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R102 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R103 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R106 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R135 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R20 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R21 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R61 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R108 / RES_0201_CC_DISCRETE_30K / 0201_CC
+ERROR:   Could not find symbol:  R109 / RES_0201_CC_DISCRETE_30K / 0201_CC
+ERROR:   Could not find symbol:  R111 / RES_0402_CC_DISCRETE_0_1% / 0402_CC
+ERROR:   Could not find symbol:  R136 / RES_0402_CC_DISCRETE_0_1% / 0402_CC
+ERROR:   Could not find symbol:  R114 / RES_0402_CC_DISCRETE_0 / 0402_CC
+ERROR:   Could not find symbol:  R44 / RES_0402_CC_DISCRETE_0 / 0402_CC
+ERROR:   Could not find symbol:  R48 / RES_0402_CC_DISCRETE_0 / 0402_CC
+ERROR:   Could not find symbol:  R51 / RES_0402_CC_DISCRETE_0 / 0402_CC
+ERROR:   Could not find symbol:  R52 / RES_0402_CC_DISCRETE_0 / 0402_CC
+ERROR:   Could not find symbol:  R54 / RES_0402_CC_DISCRETE_0 / 0402_CC
+ERROR:   Could not find symbol:  R115 / RES_RC0402_25_DISCRETE_0 / RC0402_25
+ERROR:   Could not find symbol:  R116 / RES_RC0402_25_DISCRETE_0 / RC0402_25
+ERROR:   Could not find symbol:  R127 / RES_RC0402_25_DISCRETE_0 / RC0402_25
+ERROR:   Could not find symbol:  R55 / RES_RC0402_25_DISCRETE_0 / RC0402_25
+ERROR:   Could not find symbol:  R117 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R118 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R119 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R120 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R121 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R122 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R123 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R124 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R18 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R23 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R4 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R125 / RES_0201_CC_DISCRETE_1K / 0201_CC
+ERROR:   Could not find symbol:  R26 / RES_0402_CC_DISCRETE_510K / 0402_CC
+ERROR:   Could not find symbol:  R28 / RES_0402_CC_DISCRETE_8.2K / 0402_CC
+ERROR:   Could not find symbol:  R29 / RES_0201_CC_DISCRETE_200 / 0201_CC
+ERROR:   Could not find symbol:  R30 / RES_0201_CC_DISCRETE_200 / 0201_CC
+ERROR:   Could not find symbol:  R37 / RES_0402_CC_DISCRETE_10K / 0402_CC
+ERROR:   Could not find symbol:  R47 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R71 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R72 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R75 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R76 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R79 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R95 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R97 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R5 / RES_0201_CC_DISCRETE_240 OHM / 0201_CC
+ERROR:   Could not find symbol:  R6 / RES_0201_CC_DISCRETE_240 OHM / 0201_CC
+ERROR:   Could not find symbol:  R7 / RES_0201_CC_DISCRETE_240 OHM / 0201_CC
+ERROR:   Could not find symbol:  R57 / RES_0201_CC_DISCRETE_1M / 0201_CC
+ERROR:   Could not find symbol:  R8 / RES_0402_CC_DISCRETE_150 / 0402_CC
+ERROR:   Could not find symbol:  R9 / RES_0402_CC_DISCRETE_150 / 0402_CC
+ERROR:   Could not find symbol:  C100 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C1 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C287 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C323 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  TP14 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP15 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP18 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP19 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP2 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP20 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP21 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP3 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP34 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP36 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP37 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP38 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP39 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP4 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP5 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP52 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP10 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP16 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP17 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP22 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP23 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP24 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP25 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP26 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP27 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP28 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP29 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP30 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP31 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP32 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP33 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP51 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP53 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP6 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP7 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP8 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP9 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP35 / TESTLOOP_TPAD_015_IO_TPAD_015 / TPAD_015
+ERROR:   Could not find symbol:  TP40 / TESTLOOP_TPAD_015_IO_TPAD_015 / TPAD_015
+ERROR:   Could not find symbol:  TP48 / TESTLOOP_TPAD_015_IO_TPAD_015 / TPAD_015
+ERROR:   Could not find symbol:  TP49 / TESTLOOP_TPAD_015_IO_TPAD_015 / TPAD_015
+ERROR:   Could not find symbol:  TP50 / TESTLOOP_TPAD_015_IO_TPAD_015 / TPAD_015
+ERROR:   Could not find symbol:  TP44 / TESTLOOP_TPAD_050_IO_TPAD_050 / TPAD_050
+ERROR:   Could not find symbol:  TP45 / TESTLOOP_TPAD_050_IO_TPAD_050 / TPAD_050
+ERROR:   Could not find symbol:  TP46 / TESTLOOP_TPAD_050_IO_TPAD_050 / TPAD_050
+ERROR:   Could not find symbol:  TP47 / TESTLOOP_TPAD_050_IO_TPAD_050 / TPAD_050
+ERROR:   Could not find symbol:  TP13 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP12 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP11 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP1 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  BH3 / MOUNT_HOLE_GNDPOINT256_IC_MOUNTING HOLE / GNDPOINT256
+ERROR:   Could not find symbol:  BH2 / MOUNT_HOLE_GNDPOINT256_IC_MOUNTING HOLE / GNDPOINT256
+ERROR:   Could not find symbol:  BH1 / MOUNT_HOLE_GNDPOINT256_IC_MOUNTING HOLE / GNDPOINT256
+
+
+Placed 0 of 293 applicable (293 total) symbols.
+
+-----------------------------------------------------------------------
+
+State: Placing on layer TOP
+
+ERROR:   Could not find symbol:  U1 / MIMX8MM_BGA486P_BGA486_0P5_14X14_IC__MIMX8MM6DVTLZAA / BGA486_0P5_14X14
+ERROR:   Could not find symbol:  U2 / MT53D512M32D2DS_BGA200P_BGA200_0P65X0P8_10P1X14P6_IC_(S1+S2)_MT53D512M32D2DS-053 WT:D / BGA200_0P65X0P8_10P1X14P6
+ERROR:   Could not find symbol:  U4 / SDINBDG4-16G_VFBGA_153P_FBGA153_0P5_11P5X13_IC_SDINBDG4-16G-I1 / FBGA153_0P5_11P5X13
+ERROR:   Could not find symbol:  J5 / HDR_2X50_M_CON100_0P4_22P8X3P1_SM_IO_DF40C-100DS-0.4V(51) / CON100_0P4_22P8X3P1_SM
+ERROR:   Could not find symbol:  J4 / HDR_2X50_M_CON100_0P4_21P7X2P05_SM_IO_DF40C-100DP-0.4V(51) / CON100_0P4_21P7X2P05_SM
+ERROR:   Could not find symbol:  U6 / LBEE5KL1PJ_QFN62_LQFN62_0P6_7P6X7P4_IC_LBEE5KL1PJ / LQFN62_0P6_7P6X7P4
+ERROR:   Could not find symbol:  U8 / BD71847MWV_UQFN56_UQFN56_0P4_7X7_EP_S185_IC_BD71847MWV / UQFN56_0P4_7X7_EP_S185
+ERROR:   Could not find symbol:  J7 / CONN_HDR_10X2_CON20_0P4_6P8X3P1_SM_IO_DF40C-20DS-0.4V(51) / CON20_0P4_6P8X3P1_SM
+ERROR:   Could not find symbol:  U5 / MT25QL256ABA1EW9_9P_DFN8_1P27_6X5MM_3P1_IC_MT25QU256ABA1EW7-0SIT / DFN8_1P27_6X5MM_3P1
+ERROR:   Could not find symbol:  Y1 / XTAL_13Y_XTLOSC4_3P2X2P5MM_SM_IC_24MHZ / XTLOSC4_3P2X2P5MM_SM
+ERROR:   Could not find symbol:  J2 / UFL_CON_3_UFL_R_SMT_IO_MXC3N2001 / CON_3_UFL_R_SMT
+ERROR:   Could not find symbol:  Q1 / NMOS_NX3008NBK_SC70_3_IC_NX3008NBKW,115 / SC70_3
+ERROR:   Could not find symbol:  C133 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C136 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C138 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C17 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C21 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C132 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C131 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C23 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C244 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C264 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C3 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C30 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C235 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C371 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C372 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C241 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C374 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C370 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C376 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C378 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C379 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C380 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C381 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C382 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C384 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C392 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C373 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C394 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C400 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C5 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C6 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C8 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C9 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C375 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C10 / CAP_NP_0402_CC_DISCRETE_2.2UF / 0402_CC
+ERROR:   Could not find symbol:  C11 / CAP_NP_0402_CC_DISCRETE_2.2UF / 0402_CC
+ERROR:   Could not find symbol:  C12 / CAP_NP_0402_CC_DISCRETE_2.2UF / 0402_CC
+ERROR:   Could not find symbol:  C393 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C405 / CAP_NP_0402_CC_DISCRETE_2.2UF / 0402_CC
+ERROR:   Could not find symbol:  C105 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C106 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C108 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C109 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C110 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C111 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C112 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C113 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C115 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C117 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C118 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C119 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C130 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C139 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C20 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C247 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C99 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C266 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C33 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C55 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C88 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C89 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C123 / CAP_NP_0201_CC_DISCRETE_12PF / 0201_CC
+ERROR:   Could not find symbol:  C124 / CAP_NP_0201_CC_DISCRETE_12PF / 0201_CC
+ERROR:   Could not find symbol:  C127 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C13 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C14 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C18 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C234 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C260 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C2 / CAP_NP_0402_CC_DISCRETE_2.2UF / 0402_CC
+ERROR:   Could not find symbol:  C360 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C363 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C137 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C141 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C144 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C15 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C265 / CAP_NP_0402_CC_DISCRETE_10UF / 0402_CC
+ERROR:   Could not find symbol:  C248 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C251 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C253 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C254 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C255 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C256 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C267 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C272 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C273 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C333 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C337 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C35 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C36 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C48 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C54 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C61 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C65 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C74 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C78 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C90 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C91 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C92 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C93 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C94 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C95 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C140 / CAP_NP_0805_CC_DISCRETE_47UF / 0805_CC
+ERROR:   Could not find symbol:  C142 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C275 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C283 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C285 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C129 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C303 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C304 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C311 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C312 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C351 / CAP_NP_0402_CC_DISCRETE_4.7UF / 0402_CC
+ERROR:   Could not find symbol:  C318 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C324 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C325 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C403 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C404 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C143 / CAP_NP_0201_CC_DISCRETE_0.1UF / 0201_CC
+ERROR:   Could not find symbol:  C145 / CAP_NP_0201_CC_DISCRETE_0.1UF / 0201_CC
+ERROR:   Could not find symbol:  C146 / CAP_NP_0201_CC_DISCRETE_0.1UF / 0201_CC
+ERROR:   Could not find symbol:  C147 / CAP_NP_0201_CC_DISCRETE_0.1UF / 0201_CC
+ERROR:   Could not find symbol:  C148 / CAP_NP_0201_CC_DISCRETE_0.1UF / 0201_CC
+ERROR:   Could not find symbol:  C245 / CAP_NP_0201_CC_DISCRETE_18PF / 0201_CC
+ERROR:   Could not find symbol:  C298 / CAP_NP_0201_CC_DISCRETE_18PF / 0201_CC
+ERROR:   Could not find symbol:  C299 / CAP_NP_0201_CC_DISCRETE_18PF / 0201_CC
+ERROR:   Could not find symbol:  C268 / CAP_NP_0201_CC_DISCRETE_2200PF / 0201_CC
+ERROR:   Could not find symbol:  C279 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C281 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C295 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C301 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C306 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C307 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C316 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C128 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C365 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C401 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C402 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  C391 / CAP_NP_0201_CC_DISCRETE_1UF_ / 0201_CC
+ERROR:   Could not find symbol:  D1 / LED_LED_0603_IC_LED GREEN / LED_0603
+ERROR:   Could not find symbol:  C16 / CAP_NP_0201_CC_DISCRETE_1UF / 0201_CC
+ERROR:   Could not find symbol:  C114 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C104 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  J6 / CONN_HDR_2X1_HDR102_IO_HDR 1X2 TH / HDR102
+ERROR:   Could not find symbol:  C101 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  L10 / INDUCTOR_IND_SPH2520_DISCRETE_0.47UH_20% / IND_SPH2520
+ERROR:   Could not find symbol:  L15 / INDUCTOR_IND_SPH2520_DISCRETE_0.47UH_20% / IND_SPH2520
+ERROR:   Could not find symbol:  L5 / INDUCTOR_IND_SPH2520_DISCRETE_0.47UH_20% / IND_SPH2520
+ERROR:   Could not find symbol:  L6 / INDUCTOR_IND_SPH2520_DISCRETE_0.47UH_20% / IND_SPH2520
+ERROR:   Could not find symbol:  L11 / INDUCTOR_IND_SPH2520_DISCRETE_1UH / IND_SPH2520
+ERROR:   Could not find symbol:  L13 / INDUCTOR_IND_2016A_DISCRETE_0.47UH / IND_2016A
+ERROR:   Could not find symbol:  L2 / INDUCTOR_IND_2016A_DISCRETE_1.5UH / IND_2016A
+ERROR:   Could not find symbol:  L3 / INDUCTOR_0402_CC_DISCRETE_2.2NH / 0402_CC
+ERROR:   Could not find symbol:  L4 / IND_0402_CC_DISCRETE_1.3NH / 0402_CC
+ERROR:   Could not find symbol:  C317 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  QZ2 / XTAL_XTAL2-3P2X1P5-SM_IC_32.768KHZ / XTAL2-3P2X1P5-SM
+ERROR:   Could not find symbol:  R10 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R11 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R12 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R13 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R133 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R14 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R15 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R16 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R17 / RES_0201_CC_DISCRETE_4.7K / 0201_CC
+ERROR:   Could not find symbol:  R100 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R113 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R129 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R130 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R131 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R132 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R134 / RES_RC0402_25_DISCRETE_0_1% / RC0402_25
+ERROR:   Could not find symbol:  R102 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R103 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R106 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R135 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R20 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R21 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R61 / RES_0201_CC_DISCRETE_100K / 0201_CC
+ERROR:   Could not find symbol:  R108 / RES_0201_CC_DISCRETE_30K / 0201_CC
+ERROR:   Could not find symbol:  R109 / RES_0201_CC_DISCRETE_30K / 0201_CC
+ERROR:   Could not find symbol:  R111 / RES_0402_CC_DISCRETE_0_1% / 0402_CC
+ERROR:   Could not find symbol:  R136 / RES_0402_CC_DISCRETE_0_1% / 0402_CC
+ERROR:   Could not find symbol:  R114 / RES_0402_CC_DISCRETE_0 / 0402_CC
+ERROR:   Could not find symbol:  R44 / RES_0402_CC_DISCRETE_0 / 0402_CC
+ERROR:   Could not find symbol:  R48 / RES_0402_CC_DISCRETE_0 / 0402_CC
+ERROR:   Could not find symbol:  R51 / RES_0402_CC_DISCRETE_0 / 0402_CC
+ERROR:   Could not find symbol:  R52 / RES_0402_CC_DISCRETE_0 / 0402_CC
+ERROR:   Could not find symbol:  R54 / RES_0402_CC_DISCRETE_0 / 0402_CC
+ERROR:   Could not find symbol:  R115 / RES_RC0402_25_DISCRETE_0 / RC0402_25
+ERROR:   Could not find symbol:  R116 / RES_RC0402_25_DISCRETE_0 / RC0402_25
+ERROR:   Could not find symbol:  R127 / RES_RC0402_25_DISCRETE_0 / RC0402_25
+ERROR:   Could not find symbol:  R55 / RES_RC0402_25_DISCRETE_0 / RC0402_25
+ERROR:   Could not find symbol:  R117 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R118 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R119 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R120 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R121 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R122 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R123 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R124 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R18 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R23 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R4 / RES_0201_CC_DISCRETE_10K / 0201_CC
+ERROR:   Could not find symbol:  R125 / RES_0201_CC_DISCRETE_1K / 0201_CC
+ERROR:   Could not find symbol:  R26 / RES_0402_CC_DISCRETE_510K / 0402_CC
+ERROR:   Could not find symbol:  R28 / RES_0402_CC_DISCRETE_8.2K / 0402_CC
+ERROR:   Could not find symbol:  R29 / RES_0201_CC_DISCRETE_200 / 0201_CC
+ERROR:   Could not find symbol:  R30 / RES_0201_CC_DISCRETE_200 / 0201_CC
+ERROR:   Could not find symbol:  R37 / RES_0402_CC_DISCRETE_10K / 0402_CC
+ERROR:   Could not find symbol:  R47 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R71 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R72 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R75 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R76 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R79 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R95 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R97 / RES_0402_CC_DISCRETE_10K_5% / 0402_CC
+ERROR:   Could not find symbol:  R5 / RES_0201_CC_DISCRETE_240 OHM / 0201_CC
+ERROR:   Could not find symbol:  R6 / RES_0201_CC_DISCRETE_240 OHM / 0201_CC
+ERROR:   Could not find symbol:  R7 / RES_0201_CC_DISCRETE_240 OHM / 0201_CC
+ERROR:   Could not find symbol:  R57 / RES_0201_CC_DISCRETE_1M / 0201_CC
+ERROR:   Could not find symbol:  R8 / RES_0402_CC_DISCRETE_150 / 0402_CC
+ERROR:   Could not find symbol:  R9 / RES_0402_CC_DISCRETE_150 / 0402_CC
+ERROR:   Could not find symbol:  C100 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C1 / CAP_NP_0201_CC_DISCRETE_0.22UF / 0201_CC
+ERROR:   Could not find symbol:  C287 / CAP_NP_0603_CC_DISCRETE_22UF / 0603_CC
+ERROR:   Could not find symbol:  C323 / CAP_NP_0603_CC_DISCRETE_10UF / 0603_CC
+ERROR:   Could not find symbol:  TP14 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP15 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP18 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP19 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP2 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP20 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP21 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP3 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP34 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP36 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP37 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP38 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP39 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP4 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP5 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP52 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP10 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP16 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP17 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP22 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP23 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP24 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP25 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP26 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP27 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP28 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP29 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP30 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP31 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP32 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP33 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP51 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP53 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP6 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP7 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP8 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP9 / T POINT R_TESTPOINT_35MIL_IC_TP_35MIL / TESTPOINT_35MIL
+ERROR:   Could not find symbol:  TP35 / TESTLOOP_TPAD_015_IO_TPAD_015 / TPAD_015
+ERROR:   Could not find symbol:  TP40 / TESTLOOP_TPAD_015_IO_TPAD_015 / TPAD_015
+ERROR:   Could not find symbol:  TP48 / TESTLOOP_TPAD_015_IO_TPAD_015 / TPAD_015
+ERROR:   Could not find symbol:  TP49 / TESTLOOP_TPAD_015_IO_TPAD_015 / TPAD_015
+ERROR:   Could not find symbol:  TP50 / TESTLOOP_TPAD_015_IO_TPAD_015 / TPAD_015
+ERROR:   Could not find symbol:  TP44 / TESTLOOP_TPAD_050_IO_TPAD_050 / TPAD_050
+ERROR:   Could not find symbol:  TP45 / TESTLOOP_TPAD_050_IO_TPAD_050 / TPAD_050
+ERROR:   Could not find symbol:  TP46 / TESTLOOP_TPAD_050_IO_TPAD_050 / TPAD_050
+ERROR:   Could not find symbol:  TP47 / TESTLOOP_TPAD_050_IO_TPAD_050 / TPAD_050
+ERROR:   Could not find symbol:  TP13 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP12 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP11 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  TP1 / TESTLOOP_TPAD_020_IO_TPAD_020 / TPAD_020
+ERROR:   Could not find symbol:  BH3 / MOUNT_HOLE_GNDPOINT256_IC_MOUNTING HOLE / GNDPOINT256
+ERROR:   Could not find symbol:  BH2 / MOUNT_HOLE_GNDPOINT256_IC_MOUNTING HOLE / GNDPOINT256
+ERROR:   Could not find symbol:  BH1 / MOUNT_HOLE_GNDPOINT256_IC_MOUNTING HOLE / GNDPOINT256
+
+
+Placed 0 of 293 applicable (293 total) symbols.
+
+-----------------------------------------------------------------------
+

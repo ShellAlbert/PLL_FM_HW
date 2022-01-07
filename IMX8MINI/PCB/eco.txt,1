@@ -1,0 +1,2500 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  2G_RF_FILTER pins ADDED TO this new net
+                                 U6.20          U6.22          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  32K_CLKIN    pins ADDED TO this new net
+                                 R115.2         U6.15          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ANT_IN0      pins ADDED TO this new net
+                                 L4.1           R44.2          U6.24          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BOOT_MODE0   pins ADDED TO this new net
+                                 J4.98          R47.1          U1.G26         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BOOT_MODE1   pins ADDED TO this new net
+                                 J4.100         R79.1          U1.G27         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BT_REG_ON    pins ADDED TO this new net
+                                 U1.U27         U6.40          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BT_WAKE_DEV  pins ADDED TO this new net
+                                 U1.U26         U6.26          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BT_WAKE_HOST pins ADDED TO this new net
+                                 U1.W27         U6.17          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CLKIN1       pins ADDED TO this new net
+                                 J4.94          TP20.1         U1.H27         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CLKIN2       pins ADDED TO this new net
+                                 J4.96          TP21.1         U1.J27         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CLKOUT1      pins ADDED TO this new net
+                                 J4.64          U1.H26         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CLKOUT2      pins ADDED TO this new net
+                                 J4.66          U1.J26         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CLK_32K_OUT  pins ADDED TO this new net
+                                 R100.1         U8.29          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CSI_CKN      pins ADDED TO this new net
+                                 J4.45          U1.A16         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CSI_CKP      pins ADDED TO this new net
+                                 J4.47          U1.B16         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  CSI_DN0      pins ADDED TO this new net
+                                 J4.33          U1.A14         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CSI_DN1      pins ADDED TO this new net
+                                 J4.39          U1.A15         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CSI_DN2      pins ADDED TO this new net
+                                 J4.51          U1.A17         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CSI_DN3      pins ADDED TO this new net
+                                 J4.57          U1.A18         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CSI_DP0      pins ADDED TO this new net
+                                 J4.35          U1.B14         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CSI_DP1      pins ADDED TO this new net
+                                 J4.41          U1.B15         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CSI_DP2      pins ADDED TO this new net
+                                 J4.53          U1.B17         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CSI_DP3      pins ADDED TO this new net
+                                 J4.59          U1.B18         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_CA0_A   pins ADDED TO this new net
+                                 U1.J6          U2.R2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_CA0_B   pins ADDED TO this new net
+                                 U1.W6          U2.H2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_CA1_A   pins ADDED TO this new net
+                                 U1.K6          U2.P2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_CA1_B   pins ADDED TO this new net
+                                 U1.V6          U2.J2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_CA2_A   pins ADDED TO this new net
+                                 U1.E4          U2.R9          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_CA2_B   pins ADDED TO this new net
+                                 U1.AC4         U2.H9          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_CA3_A   pins ADDED TO this new net
+                                 U1.D5          U2.R10         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  DRAM_CA3_B   pins ADDED TO this new net
+                                 U1.AD5         U2.H10         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_CA4_A   pins ADDED TO this new net
+                                 U1.N4          U2.R11         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_CA4_B   pins ADDED TO this new net
+                                 U1.R4          U2.H11         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_CA5_A   pins ADDED TO this new net
+                                 U1.N5          U2.P11         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_CA5_B   pins ADDED TO this new net
+                                 U1.R5          U2.J11         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_CKE0_A  pins ADDED TO this new net
+                                 R121.2         U1.F4          U2.P4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_CKE0_B  pins ADDED TO this new net
+                                 R123.2         U1.AB4         U2.J4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_CKE1_A  pins ADDED TO this new net
+                                 R122.2         U1.F5          U2.P5          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_CKE1_B  pins ADDED TO this new net
+                                 R124.2         U1.AB5         U2.J5          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_CK_C_A  pins ADDED TO this new net
+                                 R8.2           U1.L1          U2.P9          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_CK_C_B  pins ADDED TO this new net
+                                 R9.2           U1.U1          U2.J9          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_CK_T_A  pins ADDED TO this new net
+                                 R8.1           U1.L2          U2.P8          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_CK_T_B  pins ADDED TO this new net
+                                 R9.1           U1.U2          U2.J8          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA0_A pins ADDED TO this new net
+                                 U1.A5          U2.AA11        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA0_B pins ADDED TO this new net
+                                 U1.AB2         U2.B2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  DRAM_DATA1_A pins ADDED TO this new net
+                                 U1.B5          U2.Y11         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA1_B pins ADDED TO this new net
+                                 U1.AA2         U2.C2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA2_A pins ADDED TO this new net
+                                 U1.D2          U2.V11         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA2_B pins ADDED TO this new net
+                                 U1.W1          U2.F2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA3_A pins ADDED TO this new net
+                                 U1.D1          U2.U11         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA3_B pins ADDED TO this new net
+                                 U1.W2          U2.E2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA4_A pins ADDED TO this new net
+                                 U1.C1          U2.U9          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA4_B pins ADDED TO this new net
+                                 U1.V2          U2.E4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA5_A pins ADDED TO this new net
+                                 U1.B1          U2.V9          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA5_B pins ADDED TO this new net
+                                 U1.V1          U2.F4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA6_A pins ADDED TO this new net
+                                 U1.A3          U2.Y9          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA6_B pins ADDED TO this new net
+                                 U1.AC1         U2.B4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA7_A pins ADDED TO this new net
+                                 U1.B4          U2.AA9         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA7_B pins ADDED TO this new net
+                                 U1.AC2         U2.C4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA8_A pins ADDED TO this new net
+                                 U1.F2          U2.AA2         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  DRAM_DATA8_B pins ADDED TO this new net
+                                 U1.AG5         U2.B11         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA9_A pins ADDED TO this new net
+                                 U1.G2          U2.Y2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA9_B pins ADDED TO this new net
+                                 U1.AF5         U2.C11         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA10_A pins ADDED TO this new net
+                                 U1.J1          U2.V4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA10_B pins ADDED TO this new net
+                                 U1.AD2         U2.E11         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA11_A pins ADDED TO this new net
+                                 U1.J2          U2.V2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA11_B pins ADDED TO this new net
+                                 U1.AD1         U2.F11         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA12_A pins ADDED TO this new net
+                                 U1.K2          U2.U2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA12_B pins ADDED TO this new net
+                                 U1.AE1         U2.F9          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA13_A pins ADDED TO this new net
+                                 U1.K1          U2.U4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA13_B pins ADDED TO this new net
+                                 U1.AF1         U2.E9          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA14_A pins ADDED TO this new net
+                                 U1.E1          U2.AA4         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA14_B pins ADDED TO this new net
+                                 U1.AG3         U2.C9          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA15_A pins ADDED TO this new net
+                                 U1.E2          U2.Y4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DATA15_B pins ADDED TO this new net
+                                 U1.AF4         U2.B9          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  DRAM_DMI0_A  pins ADDED TO this new net
+                                 U1.A4          U2.Y10         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DMI0_B  pins ADDED TO this new net
+                                 U1.AB1         U2.C3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DMI1_A  pins ADDED TO this new net
+                                 U1.F1          U2.Y3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_DMI1_B  pins ADDED TO this new net
+                                 U1.AG4         U2.C10         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_NCS0_A  pins ADDED TO this new net
+                                 U1.K4          U2.R4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_NCS0_B  pins ADDED TO this new net
+                                 U1.V4          U2.H4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_NCS1_A  pins ADDED TO this new net
+                                 U1.J4          U2.R3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_NCS1_B  pins ADDED TO this new net
+                                 U1.W4          U2.H3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_NRESET  pins ADDED TO this new net
+                                 R4.2           U1.R1          U2.T11         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_SDQS0_C_A pins ADDED TO this new net
+                                 U1.B2          U2.V10         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_SDQS0_C_B pins ADDED TO this new net
+                                 U1.Y1          U2.E3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_SDQS0_T_A pins ADDED TO this new net
+                                 U1.A2          U2.W10         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_SDQS0_T_B pins ADDED TO this new net
+                                 U1.AA1         U2.D3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_SDQS1_C_A pins ADDED TO this new net
+                                 U1.H1          U2.V3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_SDQS1_C_B pins ADDED TO this new net
+                                 U1.AF2         U2.E10         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  DRAM_SDQS1_T_A pins ADDED TO this new net
+                                 U1.G1          U2.W3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_SDQS1_T_B pins ADDED TO this new net
+                                 U1.AG2         U2.D10         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_VREF    pins ADDED TO this new net
+                                 TP37.1         U1.P1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_ZQ0     pins ADDED TO this new net
+                                 R5.2           U2.A5          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DRAM_ZQ1     pins ADDED TO this new net
+                                 R6.2           U2.A8          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DSI_CKN      pins ADDED TO this new net
+                                 J4.15          U1.A11         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DSI_CKP      pins ADDED TO this new net
+                                 J4.17          U1.B11         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DSI_DN0      pins ADDED TO this new net
+                                 J4.3           U1.A9          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DSI_DN1      pins ADDED TO this new net
+                                 J4.9           U1.A10         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DSI_DN2      pins ADDED TO this new net
+                                 J4.21          U1.A12         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DSI_DN3      pins ADDED TO this new net
+                                 J4.27          U1.A13         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DSI_DP0      pins ADDED TO this new net
+                                 J4.5           U1.B9          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DSI_DP1      pins ADDED TO this new net
+                                 J4.11          U1.B10         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DSI_DP2      pins ADDED TO this new net
+                                 J4.23          U1.B12         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DSI_DP3      pins ADDED TO this new net
+                                 J4.29          U1.B13         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  ECSPI2_MISO  pins ADDED TO this new net
+                                 J4.16          U1.A8          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ECSPI2_MOSI  pins ADDED TO this new net
+                                 J4.18          U1.B8          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ECSPI2_SCLK  pins ADDED TO this new net
+                                 J4.14          U1.E6          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ECSPI2_SS0   pins ADDED TO this new net
+                                 J4.12          U1.A6          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  EMMC_VDDIM   pins ADDED TO this new net
+                                 C136.1         C137.1         U4.C2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ENET_MDC     pins ADDED TO this new net
+                                 J7.18          U1.AC27        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ENET_MDIO    pins ADDED TO this new net
+                                 J7.20          U1.AB27        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ENET_RD0     pins ADDED TO this new net
+                                 J7.8           U1.AE27        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ENET_RD1     pins ADDED TO this new net
+                                 J7.10          U1.AD27        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ENET_RD2     pins ADDED TO this new net
+                                 J7.12          U1.AD26        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ENET_RD3     pins ADDED TO this new net
+                                 J7.14          U1.AC26        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ENET_RXC     pins ADDED TO this new net
+                                 J7.4           U1.AE26        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ENET_RX_CTL  pins ADDED TO this new net
+                                 J7.2           U1.AF27        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ENET_TD0     pins ADDED TO this new net
+                                 J7.9           U1.AG26        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ENET_TD1     pins ADDED TO this new net
+                                 J7.11          U1.AF26        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  ENET_TD2     pins ADDED TO this new net
+                                 J7.13          U1.AG25        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ENET_TD3     pins ADDED TO this new net
+                                 J7.15          U1.AF25        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ENET_TXC     pins ADDED TO this new net
+                                 J7.5           U1.AG24        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ENET_TX_CTL  pins ADDED TO this new net
+                                 J7.1           U1.AF24        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this new net
+                                 BH1.1          BH2.1          BH3.1          
+                                 C1.2           C2.2           C3.2           
+                                 C5.2           C6.2           C8.2           
+                                 C9.2           C10.2          C11.2          
+                                 C12.2          C13.1          C14.1          
+                                 C15.2          C16.2          C17.2          
+                                 C18.1          C20.2          C21.2          
+                                 C23.2          C30.2          C33.2          
+                                 C35.2          C36.2          C48.2          
+                                 C54.2          C55.2          C61.2          
+                                 C65.2          C74.2          C78.2          
+                                 C88.2          C89.2          C90.2          
+                                 C91.2          C92.2          C93.2          
+                                 C94.2          C95.2          C99.2          
+                                 C100.2         C101.2         C104.2         
+                                 C105.2         C106.2         C108.2         
+                                 C109.2         C110.2         C111.2         
+                                 C112.2         C113.2         C114.2         
+                                 C115.2         C117.2         C118.2         
+                                 C119.2         C123.2         C124.2         
+                                 C127.2         C128.2         C129.2         
+                                 C130.2         C131.2         C132.2         
+                                 C133.2         C136.2         C137.2         
+                                 C138.2         C139.2         C140.2         
+                                 C141.2         C142.1         C143.2         
+                                 C144.2         C145.2         C146.2         
+                                 C147.2         C148.2         C234.1         
+                                 C235.2         C241.2         C244.2         
+                                 C245.2         C247.2         C248.2         
+                                 C251.2         C253.2         C254.2         
+                                 C255.2         C256.2         C260.2         
+                                 C264.2         C265.2         C266.2         
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  10  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 C267.2         C268.2         C272.1         
+                                 C273.2         C275.2         C279.1         
+                                 C281.1         C283.2         C285.2         
+                                 C287.2         C295.1         C298.2         
+                                 C299.2         C301.1         C303.2         
+                                 C304.2         C306.1         C307.1         
+                                 C311.2         C312.2         C316.1         
+                                 C317.2         C318.2         C323.1         
+                                 C324.2         C325.2         C333.2         
+                                 C337.2         C351.2         C360.2         
+                                 C363.2         C365.2         C370.2         
+                                 C371.2         C372.2         C373.2         
+                                 C374.2         C375.2         C376.2         
+                                 C378.2         C379.2         C380.2         
+                                 C381.2         C382.2         C384.2         
+                                 C391.2         C392.2         C393.2         
+                                 C394.2         C400.2         C401.1         
+                                 C402.1         C403.2         C404.2         
+                                 C405.2         J2.2           J2.3           
+                                 J4.1           J4.7           J4.8           
+                                 J4.13          J4.19          J4.20          
+                                 J4.25          J4.31          J4.32          
+                                 J4.37          J4.43          J4.44          
+                                 J4.49          J4.55          J4.61          
+                                 J4.67          J4.68          J4.73          
+                                 J4.79          J4.80          J4.87          
+                                 J4.92          J4.97          J5.9           
+                                 J5.10          J5.11          J5.12          
+                                 J5.13          J5.14          J5.15          
+                                 J5.16          J5.17          J5.18          
+                                 J5.19          J5.20          J5.47          
+                                 J5.48          J5.60          J5.61          
+                                 J5.72          J5.75          J5.84          
+                                 J5.89          J5.96          J6.2           
+                                 J7.3           J7.6           J7.7           
+                                 J7.16          J7.17          L3.2           
+                                 L4.2           Q1.2           R4.1           
+                                 R7.1           R18.2          R23.2          
+                                 R28.2          R29.2          R30.2          
+                                 R103.2         R121.1         R122.1         
+                                 R123.1         R124.1         R135.2         
+                                 TP44.1         TP45.1         TP46.1         
+                                 TP47.1         U1.A1          U1.A27         
+                                 U1.AA7         U1.AA9         U1.AA10        
+                                 U1.AA13        U1.AA15        U1.AA18        
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  11  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 U1.AA19        U1.AA21        U1.AB3         
+                                 U1.AB25        U1.AC3         U1.AC25        
+                                 U1.AE2         U1.AE5         U1.AE6         
+                                 U1.AE9         U1.AE10        U1.AE13        
+                                 U1.AE14        U1.AE15        U1.AE18        
+                                 U1.AE19        U1.AE22        U1.AE23        
+                                 U1.AF3         U1.AG1         U1.AG27        
+                                 U1.B3          U1.B26         U1.C2          
+                                 U1.C5          U1.C6          U1.C9          
+                                 U1.C10         U1.C13         U1.C14         
+                                 U1.C15         U1.C18         U1.C19         
+                                 U1.C22         U1.C23         U1.E3          
+                                 U1.E25         U1.F3          U1.F25         
+                                 U1.G7          U1.G9          U1.G10         
+                                 U1.G13         U1.G15         U1.G18         
+                                 U1.G19         U1.G21         U1.H2          
+                                 U1.H18         U1.J3          U1.J7          
+                                 U1.J21         U1.J25         U1.K3          
+                                 U1.K7          U1.K20         U1.K21         
+                                 U1.K25         U1.L12         U1.L16         
+                                 U1.M12         U1.M16         U1.N3          
+                                 U1.N7          U1.N12         U1.N16         
+                                 U1.N21         U1.N25         U1.P3          
+                                 U1.P13         U1.P15         U1.P21         
+                                 U1.P25         U1.R3          U1.R7          
+                                 U1.R12         U1.R16         U1.R20         
+                                 U1.R21         U1.R25         U1.T12         
+                                 U1.T16         U1.U12         U1.U16         
+                                 U1.V3          U1.V7          U1.V21         
+                                 U1.V25         U1.W3          U1.W7          
+                                 U1.W21         U1.W25         U1.Y2          
+                                 U1.Y13         U1.Y18         U2.A3          
+                                 U2.A10         U2.AB3         U2.AB5         
+                                 U2.AB8         U2.AB10        U2.C1          
+                                 U2.C5          U2.C8          U2.C12         
+                                 U2.D2          U2.D4          U2.D9          
+                                 U2.D11         U2.E1          U2.E5          
+                                 U2.E8          U2.E12         U2.G1          
+                                 U2.G3          U2.G5          U2.G8          
+                                 U2.G10         U2.G12         U2.J1          
+                                 U2.J3          U2.J10         U2.J12         
+                                 U2.K2          U2.K4          U2.K9          
+                                 U2.K11         U2.N2          U2.N4          
+                                 U2.N9          U2.N11         U2.P1          
+                                 U2.P3          U2.P10         U2.P12         
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  12  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 U2.T1          U2.T3          U2.T5          
+                                 U2.T8          U2.T10         U2.T12         
+                                 U2.V1          U2.V5          U2.V8          
+                                 U2.V12         U2.W2          U2.W4          
+                                 U2.W9          U2.W11         U2.Y1          
+                                 U2.Y5          U2.Y8          U2.Y12         
+                                 U4.A6          U4.C4          U4.E7          
+                                 U4.G5          U4.H10         U4.J5          
+                                 U4.K8          U4.N2          U4.N5          
+                                 U4.P4          U4.P6          U5.4           
+                                 U5.9           U6.1           U6.2           
+                                 U6.5           U6.14          U6.19          
+                                 U6.21          U6.23          U6.25          
+                                 U6.35          U6.38          U6.43          
+                                 U6.50          U6.51          U6.52          
+                                 U6.53          U6.54          U6.55          
+                                 U6.56          U6.57          U6.58          
+                                 U6.59          U6.60          U6.61          
+                                 U6.62          U8.12          U8.57          
+                                 U8.58          U8.59          U8.60          
+                                 U8.61          Y1.2           Y1.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO1_IO01   pins ADDED TO this new net
+                                 J5.64          U1.AF14        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO1_IO05   pins ADDED TO this new net
+                                 J5.62          U1.AF12        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO1_IO06   pins ADDED TO this new net
+                                 J5.58          U1.AG11        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO1_IO07   pins ADDED TO this new net
+                                 J5.56          U1.AF11        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO1_IO08   pins ADDED TO this new net
+                                 J5.54          U1.AG10        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO1_IO09   pins ADDED TO this new net
+                                 J5.52          U1.AF10        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO1_IO10   pins ADDED TO this new net
+                                 J5.50          U1.AD10        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO1_IO11   pins ADDED TO this new net
+                                 J5.46          U1.AC10        
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  13  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GPIO1_IO12   pins ADDED TO this new net
+                                 J5.44          U1.AB10        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO1_IO13   pins ADDED TO this new net
+                                 J5.42          U1.AD9         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO1_IO14   pins ADDED TO this new net
+                                 J5.40          U1.AC9         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO1_IO15   pins ADDED TO this new net
+                                 J5.38          U1.AB9         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  I2C1_SCL     pins ADDED TO this new net
+                                 R10.2          R48.1          U1.E9          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  I2C1_SDA     pins ADDED TO this new net
+                                 R11.2          R54.1          U1.F9          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  I2C2_SCL     pins ADDED TO this new net
+                                 J4.22          R12.2          U1.D10         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  I2C2_SDA     pins ADDED TO this new net
+                                 J4.24          R13.2          U1.D9          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  I2C3_SCL     pins ADDED TO this new net
+                                 J4.26          R14.2          U1.E10         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  I2C3_SDA     pins ADDED TO this new net
+                                 J4.28          R15.2          U1.F10         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  I2C4_SCL     pins ADDED TO this new net
+                                 J4.30          R16.2          U1.D13         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  I2C4_SDA     pins ADDED TO this new net
+                                 J4.34          R17.2          U1.E13         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  INTLDO_1V5   pins ADDED TO this new net
+                                 C273.1         TP52.1         U8.11          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  JTAG_MOD     pins ADDED TO this new net
+                                 R23.1          U1.D27         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  JTAG_NTRST   pins ADDED TO this new net
+                                 J4.60          TP1.1          U1.C27         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  14  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  JTAG_TCK     pins ADDED TO this new net
+                                 J4.62          R18.1          TP4.1          
+                                 U1.F26         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  JTAG_TDI     pins ADDED TO this new net
+                                 J4.54          TP2.1          U1.E27         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  JTAG_TDO     pins ADDED TO this new net
+                                 J4.52          TP5.1          U1.E26         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  JTAG_TMS     pins ADDED TO this new net
+                                 J4.58          TP3.1          U1.F27         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LDO5_VOUT    pins ADDED TO this new net
+                                 U8.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  M.2_32K_OUT  pins ADDED TO this new net
+                                 J5.37          R116.2         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N102135237   pins ADDED TO this new net
+                                 R28.1          U1.D19         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N102271152   pins ADDED TO this new net
+                                 R7.2           U1.P2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N106370682   pins ADDED TO this new net
+                                 R108.1         U1.F22         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N106370752   pins ADDED TO this new net
+                                 R29.1          U1.E19         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N106651228   pins ADDED TO this new net
+                                 L5.1           U8.19          U8.20          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N106658448   pins ADDED TO this new net
+                                 L6.1           U8.21          U8.22          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N106678828   pins ADDED TO this new net
+                                 L15.1          U8.35          U8.36          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N106678929   pins ADDED TO this new net
+                                 L11.1          U8.49          U8.50          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N106679105   pins ADDED TO this new net
+                                 L10.1          U8.33          U8.34          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  15  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N106679133   pins ADDED TO this new net
+                                 L13.1          U8.51          U8.52          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N106740715   pins ADDED TO this new net
+                                 R114.1         U8.25          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N106742973   pins ADDED TO this new net
+                                 R54.2          U8.27          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N106742988   pins ADDED TO this new net
+                                 R48.2          U8.26          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N106743010   pins ADDED TO this new net
+                                 R55.2          R106.2         U8.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N106743238   pins ADDED TO this new net
+                                 R51.2          U8.15          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N106743319   pins ADDED TO this new net
+                                 R52.2          U8.16          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N106743947   pins ADDED TO this new net
+                                 R111.1         U8.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N106795449   pins ADDED TO this new net
+                                 R61.2          R127.2         U8.40          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N107005929   pins ADDED TO this new net
+                                 TP15.1         U1.N2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N107176498   pins ADDED TO this new net
+                                 C245.1         U1.R22         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N107212730   pins ADDED TO this new net
+                                 R109.1         U1.F23         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N107212757   pins ADDED TO this new net
+                                 R30.1          U1.E22         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N107222690   pins ADDED TO this new net
+                                 TP18.1         U4.K5          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N108072637   pins ADDED TO this new net
+                                 D1.C           Q1.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  16  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N108250870   pins ADDED TO this new net
+                                 C268.1         U1.D15         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1080029511  pins ADDED TO this new net
+                                 D1.A           R125.2         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N25159428    pins ADDED TO this new net
+                                 TP11.1         U6.18          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N25159456    pins ADDED TO this new net
+                                 TP14.1         U6.46          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N25638698    pins ADDED TO this new net
+                                 TP12.1         U6.47          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N25638708    pins ADDED TO this new net
+                                 TP13.1         U6.48          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  NC1          pins ADDED TO this new net
+                                 U1.J18         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  NVCC_1V8     pins ADDED TO this new net
+                                 C3.1           C5.1           C13.2          
+                                 C18.2          C21.1          C23.1          
+                                 C105.1         C106.1         C108.1         
+                                 C109.1         C130.1         C131.1         
+                                 C132.1         C133.1         C138.1         
+                                 C139.1         C144.1         C145.1         
+                                 C146.1         C147.1         C148.1         
+                                 C241.1         C266.1         C317.1         
+                                 C318.1         C370.1         C371.1         
+                                 C372.1         C384.1         C404.1         
+                                 J5.22          J5.24          J5.26          
+                                 J5.28          J5.30          J5.32          
+                                 J5.34          J5.36          L13.2          
+                                 R10.1          R11.1          R12.1          
+                                 R13.1          R14.1          R15.1          
+                                 R16.1          R17.1          R37.1          
+                                 R47.2          R79.2          R106.1         
+                                 R117.1         R118.1         TP26.1         
+                                 U1.AB13        U1.J11         U1.J12         
+                                 U1.J13         U1.L19         U1.M19         
+                                 U1.T19         U1.U19         U1.V19         
+                                 U1.V20         U1.W12         U2.F1          
+                                 U2.F12         U2.G4          U2.G9          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  17  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 U2.T4          U2.T9          U2.U1          
+                                 U2.U12         U4.C6          U4.M4          
+                                 U4.N4          U4.P3          U4.P5          
+                                 U5.8           U6.12          U6.16          
+                                 U6.36          U6.37          U6.42          
+                                 U8.43          U8.54          U8.56          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  NVCC_3V3     pins ADDED TO this new net
+                                 C6.1           C8.1           C14.2          
+                                 C30.1          C127.1         C128.1         
+                                 C129.1         C142.2         C143.1         
+                                 C260.1         C264.1         C311.1         
+                                 C312.1         C403.1         J5.21          
+                                 J5.23          J5.25          J5.27          
+                                 J5.29          J5.31          J5.33          
+                                 J5.35          L11.2          R71.2          
+                                 R72.2          R75.2          R76.2          
+                                 R95.2          R97.2          R125.1         
+                                 TP25.1         U1.H10         U1.K19         
+                                 U1.W17         U1.W18         U1.Y10         
+                                 U4.E6          U4.F5          U4.J10         
+                                 U4.K9          U6.41          U8.1           
+                                 U8.7           U8.46          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  NVCC_DRAM_1V1 pins ADDED TO this new net
+                                 C88.1          C89.1          C90.1          
+                                 C91.1          C92.1          C93.1          
+                                 C94.1          C95.1          C110.1         
+                                 C111.1         C112.1         C113.1         
+                                 C114.1         C115.1         C117.1         
+                                 C118.1         C119.1         C324.1         
+                                 C325.1         C373.1         C374.1         
+                                 C375.1         C376.1         C378.1         
+                                 C379.1         C380.1         C381.1         
+                                 C382.1         L15.2          R5.1           
+                                 R6.1           TP27.1         U1.K8          
+                                 U1.K9          U1.L9          U1.M9          
+                                 U1.N8          U1.N9          U1.P7          
+                                 U1.R8          U1.R9          U1.T9          
+                                 U1.U9          U1.V8          U1.V9          
+                                 U2.A4          U2.A9          U2.AA3         
+                                 U2.AA5         U2.AA8         U2.AA10        
+                                 U2.AB4         U2.AB9         U2.B3          
+                                 U2.B5          U2.B8          U2.B10         
+                                 U2.D1          U2.D5          U2.D8          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  18  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 U2.D12         U2.F3          U2.F5          
+                                 U2.F8          U2.F10         U2.G2          
+                                 U2.H1          U2.H5          U2.H8          
+                                 U2.H12         U2.K1          U2.K3          
+                                 U2.K10         U2.K12         U2.N1          
+                                 U2.N3          U2.N10         U2.N12         
+                                 U2.R1          U2.R5          U2.R8          
+                                 U2.R12         U2.T2          U2.U3          
+                                 U2.U5          U2.U8          U2.U10         
+                                 U2.W1          U2.W5          U2.W8          
+                                 U2.W12         U8.38          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  NVCC_ENET    pins ADDED TO this new net
+                                 C2.1           C392.1         J7.19          
+                                 U1.W22         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  NVCC_SD2     pins ADDED TO this new net
+                                 C17.1          C365.1         R119.1         
+                                 R120.1         R133.1         TP33.1         
+                                 U1.V22         U8.55          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  NVCC_SNVS_1V8 pins ADDED TO this new net
+                                 C272.2         C333.1         C391.1         
+                                 R20.1          R21.1          R61.1          
+                                 R102.1         TP28.1         U1.J22         
+                                 U8.10          U8.28          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ONOFF        pins ADDED TO this new net
+                                 J4.46          R21.2          TP7.1          
+                                 U1.A25         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PCIE_CLKN    pins ADDED TO this new net
+                                 J4.75          U1.A21         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PCIE_CLKP    pins ADDED TO this new net
+                                 J4.77          U1.B21         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PCIE_RXN     pins ADDED TO this new net
+                                 J4.63          U1.A19         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PCIE_RXP     pins ADDED TO this new net
+                                 J4.65          U1.B19         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PCIE_TXN     pins ADDED TO this new net
+                                 J4.69          U1.A20         
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  19  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  PCIE_TXP     pins ADDED TO this new net
+                                 J4.71          U1.B20         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PDM_CLK      pins ADDED TO this new net
+                                 J5.65          U1.AC15        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PDM_DATA0    pins ADDED TO this new net
+                                 J5.67          U1.AD18        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PDM_DATA1    pins ADDED TO this new net
+                                 J5.69          U1.AC14        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PDM_DATA2    pins ADDED TO this new net
+                                 J5.71          U1.AD13        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PDM_DATA3    pins ADDED TO this new net
+                                 J5.73          U1.AC13        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PMIC_NINT    pins ADDED TO this new net
+                                 U1.AF13        U8.39          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PMIC_ON_REQ  pins ADDED TO this new net
+                                 J4.48          R51.1          TP6.1          
+                                 U1.A24         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PMIC_STBY_REQ pins ADDED TO this new net
+                                 R52.1          TP10.1         U1.E24         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  POR_B        pins ADDED TO this new net
+                                 J4.50          R20.2          R114.2         
+                                 TP9.1          U1.B24         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PWM_1V1      pins ADDED TO this new net
+                                 L2.1           U6.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  QSPIA_DATA0  pins ADDED TO this new net
+                                 TP16.1         U1.P23         U5.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  QSPIA_DATA1  pins ADDED TO this new net
+                                 U1.K24         U5.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  QSPIA_DATA2  pins ADDED TO this new net
+                                 U1.K23         U5.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  QSPIA_DATA3  pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  20  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 U1.N23         U5.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  QSPIA_NSS0   pins ADDED TO this new net
+                                 R37.2          U1.N24         U5.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  QSPIA_SCLK   pins ADDED TO this new net
+                                 TP17.1         U1.N22         U5.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  REF_CLK_32K  pins ADDED TO this new net
+                                 R115.1         R116.1         U1.AG14        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RF_ANT0      pins ADDED TO this new net
+                                 J2.1           L3.1           R44.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RTC_RESET_B  pins ADDED TO this new net
+                                 R102.2         R111.2         TP8.1          
+                                 U1.F24         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI1_MCLK    pins ADDED TO this new net
+                                 J5.98          U1.AB18        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI1_RXC     pins ADDED TO this new net
+                                 J5.76          U1.AF16        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI1_RXD0    pins ADDED TO this new net
+                                 J5.78          U1.AG15        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI1_RXD1    pins ADDED TO this new net
+                                 J5.80          R76.1          U1.AF15        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI1_RXD2    pins ADDED TO this new net
+                                 J5.82          R75.1          U1.AG17        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI1_RXD3    pins ADDED TO this new net
+                                 J5.86          U1.AF17        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI1_RXD4    pins ADDED TO this new net
+                                 J5.88          U1.AG18        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI1_RXD5    pins ADDED TO this new net
+                                 J5.90          R72.1          U1.AF18        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI1_RXD6    pins ADDED TO this new net
+                                 J5.92          R71.1          U1.AG19        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  21  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  SAI1_RXD7    pins ADDED TO this new net
+                                 J5.94          U1.AF19        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI1_RXFS    pins ADDED TO this new net
+                                 J5.74          U1.AG16        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI1_TXC     pins ADDED TO this new net
+                                 J5.81          U1.AC18        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI1_TXD0    pins ADDED TO this new net
+                                 J5.83          U1.AG20        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI1_TXD1    pins ADDED TO this new net
+                                 J5.85          U1.AF20        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI1_TXD2    pins ADDED TO this new net
+                                 J5.87          U1.AG21        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI1_TXD3    pins ADDED TO this new net
+                                 J5.91          R97.1          U1.AF21        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI1_TXD4    pins ADDED TO this new net
+                                 J5.93          U1.AG22        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI1_TXD5    pins ADDED TO this new net
+                                 J5.95          R95.1          U1.AF22        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI1_TXD6    pins ADDED TO this new net
+                                 J5.97          U1.AG23        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI1_TXD7    pins ADDED TO this new net
+                                 J5.99          U1.AF23        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI1_TXFS    pins ADDED TO this new net
+                                 J5.100         U1.AB19        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI2_MCLK    pins ADDED TO this new net
+                                 J5.66          U1.AD19        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI2_RXC     pins ADDED TO this new net
+                                 J5.79          U1.AB22        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI2_RXD     pins ADDED TO this new net
+                                 R132.2         U1.AC24        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  22  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  SAI2_RXD_RES pins ADDED TO this new net
+                                 R132.1         U6.34          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI2_RXFS    pins ADDED TO this new net
+                                 J5.68          U1.AC19        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI2_TXC     pins ADDED TO this new net
+                                 R129.2         U1.AD22        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI2_TXC_RES pins ADDED TO this new net
+                                 R129.1         U6.31          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI2_TXD     pins ADDED TO this new net
+                                 R131.2         U1.AC22        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI2_TXD_RES pins ADDED TO this new net
+                                 R131.1         U6.33          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI2_TXFS    pins ADDED TO this new net
+                                 R130.2         U1.AD23        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI2_TXFS_RES pins ADDED TO this new net
+                                 R130.1         U6.32          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI3_MCLK    pins ADDED TO this new net
+                                 J5.41          U1.AD6         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI3_RXC     pins ADDED TO this new net
+                                 J5.53          U1.AG7         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI3_RXD     pins ADDED TO this new net
+                                 J5.55          U1.AF7         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI3_RXFS    pins ADDED TO this new net
+                                 J5.51          U1.AG8         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI3_TXC     pins ADDED TO this new net
+                                 J5.45          U1.AG6         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI3_TXD     pins ADDED TO this new net
+                                 J5.49          U1.AF6         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI3_TXFS    pins ADDED TO this new net
+                                 J5.43          U1.AC6         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  23  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  SAI5_MCLK    pins ADDED TO this new net
+                                 J5.77          U1.AD15        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAI5_RXFS    pins ADDED TO this new net
+                                 J5.70          U1.AB15        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD1_CLK      pins ADDED TO this new net
+                                 TP48.1         U1.V26         U6.11          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD1_CMD      pins ADDED TO this new net
+                                 TP49.1         U1.V27         U6.10          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD1_DATA0    pins ADDED TO this new net
+                                 TP50.1         U1.Y27         U6.9           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD1_DATA1    pins ADDED TO this new net
+                                 U1.Y26         U6.8           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD1_DATA2    pins ADDED TO this new net
+                                 U1.T27         U6.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD1_DATA3    pins ADDED TO this new net
+                                 U1.T26         U6.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD1_STROBE   pins ADDED TO this new net
+                                 J4.70          U1.R24         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD2_CLK      pins ADDED TO this new net
+                                 J4.76          U1.W23         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD2_CMD      pins ADDED TO this new net
+                                 J4.78          R120.2         U1.W24         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD2_DATA0    pins ADDED TO this new net
+                                 J4.84          R119.2         U1.AB23        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD2_DATA1    pins ADDED TO this new net
+                                 J4.82          U1.AB24        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD2_DATA2    pins ADDED TO this new net
+                                 J4.72          U1.V24         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD2_DATA3    pins ADDED TO this new net
+                                 J4.74          U1.V23         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  24  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  SD2_NCD      pins ADDED TO this new net
+                                 J4.88          U1.AA26        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD2_NRST     pins ADDED TO this new net
+                                 J4.90          R133.2         U1.AB26        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD2_VSEL     pins ADDED TO this new net
+                                 U1.AG12        U8.45          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD2_WP       pins ADDED TO this new net
+                                 J4.86          U1.AA27        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD3_CLK      pins ADDED TO this new net
+                                 TP34.1         U1.R26         U4.M6          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD3_CMD      pins ADDED TO this new net
+                                 R118.2         TP35.1         U1.R27         
+                                 U4.M5          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD3_DATA0    pins ADDED TO this new net
+                                 R117.2         TP36.1         U1.M26         
+                                 U4.A3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD3_DATA1    pins ADDED TO this new net
+                                 U1.L26         U4.A4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD3_DATA2    pins ADDED TO this new net
+                                 U1.K26         U4.A5          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD3_DATA3    pins ADDED TO this new net
+                                 U1.N26         U4.B2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD3_DATA4    pins ADDED TO this new net
+                                 U1.N27         U4.B3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD3_DATA5    pins ADDED TO this new net
+                                 U1.M27         U4.B4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD3_DATA6    pins ADDED TO this new net
+                                 U1.L27         U4.B5          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD3_DATA7    pins ADDED TO this new net
+                                 U1.K27         U4.B6          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD3_STROBE   pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  25  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 TP40.1         U1.P27         U4.H5          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SPDIF_EXT_CLK pins ADDED TO this new net
+                                 J5.63          U1.AF8         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SPDIF_RX     pins ADDED TO this new net
+                                 J5.59          U1.AG9         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SPDIF_TX     pins ADDED TO this new net
+                                 J5.57          U1.AF9         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SYS_NRST     pins ADDED TO this new net
+                                 J5.39          R127.1         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SYS_STATUS   pins ADDED TO this new net
+                                 Q1.1           U1.P26         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TESTMODE     pins ADDED TO this new net
+                                 R134.1         R135.1         U1.D26         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TEST_MODE    pins ADDED TO this new net
+                                 J4.56          R134.2         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TS_RES_EXT   pins ADDED TO this new net
+                                 R103.1         U1.J24         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TS_TEST_OUT  pins ADDED TO this new net
+                                 TP19.1         U1.J23         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UART1_CTS    pins ADDED TO this new net
+                                 U1.E18         U6.30          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UART1_RTS    pins ADDED TO this new net
+                                 U1.D18         U6.29          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UART1_RXD    pins ADDED TO this new net
+                                 U1.E14         U6.28          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UART1_TXD    pins ADDED TO this new net
+                                 U1.F13         U6.27          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UART2_RXD    pins ADDED TO this new net
+                                 J4.36          U1.F15         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UART2_TXD    pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  26  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 J4.38          U1.E15         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UART3_CTS    pins ADDED TO this new net
+                                 J4.10          U1.A7          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UART3_RTS    pins ADDED TO this new net
+                                 J4.2           U1.B6          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UART3_RXD    pins ADDED TO this new net
+                                 J4.4           U1.D6          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UART3_TXD    pins ADDED TO this new net
+                                 J4.6           U1.B7          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UART4_RXD    pins ADDED TO this new net
+                                 J4.40          U1.F19         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UART4_TXD    pins ADDED TO this new net
+                                 J4.42          U1.F18         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB1_DN      pins ADDED TO this new net
+                                 J4.83          U1.A22         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB1_DP      pins ADDED TO this new net
+                                 J4.85          U1.B22         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB1_ID      pins ADDED TO this new net
+                                 J4.89          U1.D22         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB1_VBUS    pins ADDED TO this new net
+                                 C393.1         J4.81          R108.2         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB2_DN      pins ADDED TO this new net
+                                 J4.93          U1.A23         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB2_DP      pins ADDED TO this new net
+                                 J4.95          U1.B23         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB2_ID      pins ADDED TO this new net
+                                 J4.99          U1.D23         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB2_VBUS    pins ADDED TO this new net
+                                 C394.1         J4.91          R109.2         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VDDA_1V8     pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  27  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 C99.1          C100.1         C101.1         
+                                 C104.1         C265.1         C267.1         
+                                 C363.1         C400.1         TP32.1         
+                                 U1.AA14        U1.G14         U1.H13         
+                                 U1.H15         U1.N19         U1.N20         
+                                 U1.P5          U1.P19         U1.R19         
+                                 U1.Y15         U8.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VDD_ARM_0V9  pins ADDED TO this new net
+                                 C33.1          C35.1          C36.1          
+                                 C248.1         C251.1         C253.1         
+                                 C283.1         C287.1         L6.2           
+                                 TP23.1         U1.R13         U1.R15         
+                                 U1.T13         U1.T14         U1.T15         
+                                 U1.U13         U1.U15         U1.V13         
+                                 U1.V15         U1.V16         U1.W13         
+                                 U1.W14         U1.W15         U1.W16         
+                                 U8.24          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VDD_DRAM&PU_0V9 pins ADDED TO this new net
+                                 C20.1          C48.1          C54.1          
+                                 C55.1          C61.1          C65.1          
+                                 C74.1          C78.1          C303.1         
+                                 C304.1         L10.2          TP24.1         
+                                 U1.J10         U1.K12         U1.K13         
+                                 U1.L10         U1.L11         U1.L13         
+                                 U1.M13         U1.M14         U1.N10         
+                                 U1.N11         U1.P9          U1.P12         
+                                 U1.R10         U1.R11         U1.U10         
+                                 U1.U11         U1.V12         U1.W10         
+                                 U1.W11         U8.30          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VDD_MIPI_1V2 pins ADDED TO this new net
+                                 C244.1         C405.1         R136.1         
+                                 U1.J15         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VDD_PHY_0V9  pins ADDED TO this new net
+                                 C1.1           C360.1         TP30.1         
+                                 U1.J14         U8.42          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VDD_PHY_1V2  pins ADDED TO this new net
+                                 C351.1         R136.2         TP31.1         
+                                 U8.44          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VDD_SNVS_0V8 pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  28  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 C9.1           C337.1         R113.1         
+                                 TP29.1         U1.K22         U8.8           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VDD_SOC_0V8  pins ADDED TO this new net
+                                 C15.1          C16.1          C234.2         
+                                 C235.1         C247.1         C254.1         
+                                 C255.1         C256.1         C275.1         
+                                 C285.1         L5.2           TP22.1         
+                                 U1.J16         U1.J17         U1.K15         
+                                 U1.K16         U1.L15         U1.L17         
+                                 U1.L18         U1.M15         U1.N13         
+                                 U1.N15         U1.N17         U1.N18         
+                                 U1.P16         U1.R17         U1.R18         
+                                 U1.U17         U1.U18         U8.17          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VSYS_5V      pins ADDED TO this new net
+                                 C10.1          C11.1          C12.1          
+                                 C279.2         C281.2         C295.2         
+                                 C301.2         C306.2         C307.2         
+                                 C316.2         C323.2         C401.2         
+                                 C402.2         J5.1           J5.2           
+                                 J5.3           J5.4           J5.5           
+                                 J5.6           J5.7           J5.8           
+                                 J6.1           TP51.1         U8.5           
+                                 U8.9           U8.18          U8.23          
+                                 U8.31          U8.32          U8.37          
+                                 U8.41          U8.47          U8.48          
+                                 U8.53          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  WDOG_B       pins ADDED TO this new net
+                                 R55.1          TP53.1         U1.AG13        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  WIFI_1V1     pins ADDED TO this new net
+                                 C140.1         C141.1         L2.2           
+                                 U6.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  WL_REG_ON    pins ADDED TO this new net
+                                 U1.R23         U6.39          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  WL_WAKE_HOST pins ADDED TO this new net
+                                 U1.W26         U6.13          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  XIN_32K      pins ADDED TO this new net
+                                 C298.1         QZ2.2          R57.1          
+                                 U8.14          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  29  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  XOUT_32K     pins ADDED TO this new net
+                                 C299.1         QZ2.1          R57.2          
+                                 U8.13          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  XTALI_24M    pins ADDED TO this new net
+                                 C123.1         R26.1          TP38.1         
+                                 U1.B27         Y1.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  XTALI_32K    pins ADDED TO this new net
+                                 R100.2         TP39.1         U1.A26         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  XTALO_24M    pins ADDED TO this new net
+                                 C124.1         R26.2          U1.C26         
+                                 Y1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  XTALO_32K    pins ADDED TO this new net
+                                 R113.2         U1.B25         
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  30  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| NET PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|     net  name   |   property   |                    value                    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ GND                      VOLTAGE 0
+ NVCC_3V3                 VOLTAGE 3.3V
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  31  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ BD71847MWV_UQFN56_UQFN56_0P4_7X7_EP_S185_IC_BD71847MWV
+ CAP_NP_0201_CC_DISCRETE_0.1UF
+ CAP_NP_0201_CC_DISCRETE_0.22UF
+ CAP_NP_0201_CC_DISCRETE_1UF
+ CAP_NP_0201_CC_DISCRETE_1UF_
+ CAP_NP_0201_CC_DISCRETE_12PF
+ CAP_NP_0201_CC_DISCRETE_18PF
+ CAP_NP_0201_CC_DISCRETE_2200PF
+ CAP_NP_0402_CC_DISCRETE_2.2UF
+ CAP_NP_0402_CC_DISCRETE_4.7UF
+ CAP_NP_0402_CC_DISCRETE_10UF
+ CAP_NP_0603_CC_DISCRETE_10UF
+ CAP_NP_0603_CC_DISCRETE_22UF
+ CAP_NP_0805_CC_DISCRETE_47UF
+ CONN_HDR_2X1_HDR102_IO_HDR 1X2 TH
+ CONN_HDR_10X2_CON20_0P4_6P8X3P1_SM_IO_DF40C-20DS-0.4V(51)
+ HDR_2X50_M_CON100_0P4_21P7X2P05_SM_IO_DF40C-100DP-0.4V(51)
+ HDR_2X50_M_CON100_0P4_22P8X3P1_SM_IO_DF40C-100DS-0.4V(51)
+ INDUCTOR_0402_CC_DISCRETE_2.2NH
+ INDUCTOR_IND_2016A_DISCRETE_0.47UH
+ INDUCTOR_IND_2016A_DISCRETE_1.5UH
+ INDUCTOR_IND_SPH2520_DISCRETE_0.47UH_20%
+ INDUCTOR_IND_SPH2520_DISCRETE_1UH
+ IND_0402_CC_DISCRETE_1.3NH
+ LBEE5KL1PJ_QFN62_LQFN62_0P6_7P6X7P4_IC_LBEE5KL1PJ
+ LED_LED_0603_IC_LED GREEN
+ MIMX8MM_BGA486P_BGA486_0P5_14X14_IC__MIMX8MM6DVTLZAA
+ MOUNT_HOLE_GNDPOINT256_IC_MOUNTING HOLE
+ MT25QL256ABA1EW9_9P_DFN8_1P27_6X5MM_3P1_IC_MT25QU256ABA1EW7-0SIT
+ MT53D512M32D2DS_BGA200P_BGA200_0P65X0P8_10P1X14P6_IC_(S1+S2)_MT53D512M32D2DS-053 WT:D
+ NMOS_NX3008NBK_SC70_3_IC_NX3008NBKW,115
+ RES_0201_CC_DISCRETE_1K
+ RES_0201_CC_DISCRETE_1M
+ RES_0201_CC_DISCRETE_4.7K
+ RES_0201_CC_DISCRETE_10K
+ RES_0201_CC_DISCRETE_30K
+ RES_0201_CC_DISCRETE_100K
+ RES_0201_CC_DISCRETE_240 OHM
+ RES_0201_CC_DISCRETE_200
+ RES_0402_CC_DISCRETE_0_1%
+ RES_0402_CC_DISCRETE_8.2K
+ RES_0402_CC_DISCRETE_10K
+ RES_0402_CC_DISCRETE_10K_5%
+ RES_0402_CC_DISCRETE_510K
+ RES_0402_CC_DISCRETE_0
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  32  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ RES_0402_CC_DISCRETE_150
+ RES_RC0402_25_DISCRETE_0_1%
+ RES_RC0402_25_DISCRETE_0
+ SDINBDG4-16G_VFBGA_153P_FBGA153_0P5_11P5X13_IC_SDINBDG4-16G-I1
+ T POINT R_TESTPOINT_35MIL_IC_TP_35MIL
+ TESTLOOP_TPAD_015_IO_TPAD_015
+ TESTLOOP_TPAD_020_IO_TPAD_020
+ TESTLOOP_TPAD_050_IO_TPAD_050
+ UFL_CON_3_UFL_R_SMT_IO_MXC3N2001
+ XTAL_13Y_XTLOSC4_3P2X2P5MM_SM_IC_24MHZ
+ XTAL_XTAL2-3P2X1P5-SM_IC_32.768KHZ
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  33  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ BH1                 MOUNT_HOLE_GNDPOINT256_IC_MOUNTING HOLE 
+ BH2                 MOUNT_HOLE_GNDPOINT256_IC_MOUNTING HOLE 
+ BH3                 MOUNT_HOLE_GNDPOINT256_IC_MOUNTING HOLE 
+ C1                  CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C2                  CAP_NP_0402_CC_DISCRETE_2.2UF 
+ C3                  CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C5                  CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C6                  CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C8                  CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C9                  CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C10                 CAP_NP_0402_CC_DISCRETE_2.2UF 
+ C11                 CAP_NP_0402_CC_DISCRETE_2.2UF 
+ C12                 CAP_NP_0402_CC_DISCRETE_2.2UF 
+ C13                 CAP_NP_0402_CC_DISCRETE_4.7UF 
+ C14                 CAP_NP_0402_CC_DISCRETE_4.7UF 
+ C15                 CAP_NP_0201_CC_DISCRETE_1UF 
+ C16                 CAP_NP_0201_CC_DISCRETE_1UF 
+ C17                 CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C18                 CAP_NP_0402_CC_DISCRETE_4.7UF 
+ C20                 CAP_NP_0402_CC_DISCRETE_10UF 
+ C21                 CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C23                 CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C30                 CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C33                 CAP_NP_0402_CC_DISCRETE_10UF 
+ C35                 CAP_NP_0201_CC_DISCRETE_1UF 
+ C36                 CAP_NP_0201_CC_DISCRETE_1UF 
+ C48                 CAP_NP_0201_CC_DISCRETE_1UF 
+ C54                 CAP_NP_0201_CC_DISCRETE_1UF 
+ C55                 CAP_NP_0402_CC_DISCRETE_10UF 
+ C61                 CAP_NP_0201_CC_DISCRETE_1UF 
+ C65                 CAP_NP_0201_CC_DISCRETE_1UF 
+ C74                 CAP_NP_0201_CC_DISCRETE_1UF 
+ C78                 CAP_NP_0201_CC_DISCRETE_1UF 
+ C88                 CAP_NP_0402_CC_DISCRETE_10UF 
+ C89                 CAP_NP_0402_CC_DISCRETE_10UF 
+ C90                 CAP_NP_0201_CC_DISCRETE_1UF 
+ C91                 CAP_NP_0201_CC_DISCRETE_1UF 
+ C92                 CAP_NP_0201_CC_DISCRETE_1UF 
+ C93                 CAP_NP_0201_CC_DISCRETE_1UF 
+ C94                 CAP_NP_0201_CC_DISCRETE_1UF 
+ C95                 CAP_NP_0201_CC_DISCRETE_1UF 
+ C99                 CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C100                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C101                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C104                CAP_NP_0201_CC_DISCRETE_0.22UF 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  34  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C105                CAP_NP_0402_CC_DISCRETE_10UF 
+ C106                CAP_NP_0402_CC_DISCRETE_10UF 
+ C108                CAP_NP_0402_CC_DISCRETE_10UF 
+ C109                CAP_NP_0402_CC_DISCRETE_10UF 
+ C110                CAP_NP_0402_CC_DISCRETE_10UF 
+ C111                CAP_NP_0402_CC_DISCRETE_10UF 
+ C112                CAP_NP_0402_CC_DISCRETE_10UF 
+ C113                CAP_NP_0402_CC_DISCRETE_10UF 
+ C114                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C115                CAP_NP_0402_CC_DISCRETE_10UF 
+ C117                CAP_NP_0402_CC_DISCRETE_10UF 
+ C118                CAP_NP_0402_CC_DISCRETE_10UF 
+ C119                CAP_NP_0402_CC_DISCRETE_10UF 
+ C123                CAP_NP_0201_CC_DISCRETE_12PF 
+ C124                CAP_NP_0201_CC_DISCRETE_12PF 
+ C127                CAP_NP_0402_CC_DISCRETE_4.7UF 
+ C128                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C129                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C130                CAP_NP_0402_CC_DISCRETE_10UF 
+ C131                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C132                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C133                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C136                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C137                CAP_NP_0201_CC_DISCRETE_1UF 
+ C138                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C139                CAP_NP_0402_CC_DISCRETE_10UF 
+ C140                CAP_NP_0805_CC_DISCRETE_47UF 
+ C141                CAP_NP_0201_CC_DISCRETE_1UF 
+ C142                CAP_NP_0603_CC_DISCRETE_22UF 
+ C143                CAP_NP_0201_CC_DISCRETE_0.1UF 
+ C144                CAP_NP_0201_CC_DISCRETE_1UF 
+ C145                CAP_NP_0201_CC_DISCRETE_0.1UF 
+ C146                CAP_NP_0201_CC_DISCRETE_0.1UF 
+ C147                CAP_NP_0201_CC_DISCRETE_0.1UF 
+ C148                CAP_NP_0201_CC_DISCRETE_0.1UF 
+ C234                CAP_NP_0402_CC_DISCRETE_4.7UF 
+ C235                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C241                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C244                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C245                CAP_NP_0201_CC_DISCRETE_18PF 
+ C247                CAP_NP_0402_CC_DISCRETE_10UF 
+ C248                CAP_NP_0201_CC_DISCRETE_1UF 
+ C251                CAP_NP_0201_CC_DISCRETE_1UF 
+ C253                CAP_NP_0201_CC_DISCRETE_1UF 
+ C254                CAP_NP_0201_CC_DISCRETE_1UF 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  35  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C255                CAP_NP_0201_CC_DISCRETE_1UF 
+ C256                CAP_NP_0201_CC_DISCRETE_1UF 
+ C260                CAP_NP_0402_CC_DISCRETE_4.7UF 
+ C264                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C265                CAP_NP_0402_CC_DISCRETE_10UF 
+ C266                CAP_NP_0402_CC_DISCRETE_10UF 
+ C267                CAP_NP_0201_CC_DISCRETE_1UF 
+ C268                CAP_NP_0201_CC_DISCRETE_2200PF 
+ C272                CAP_NP_0201_CC_DISCRETE_1UF 
+ C273                CAP_NP_0201_CC_DISCRETE_1UF 
+ C275                CAP_NP_0603_CC_DISCRETE_22UF 
+ C279                CAP_NP_0603_CC_DISCRETE_10UF 
+ C281                CAP_NP_0603_CC_DISCRETE_10UF 
+ C283                CAP_NP_0603_CC_DISCRETE_22UF 
+ C285                CAP_NP_0603_CC_DISCRETE_22UF 
+ C287                CAP_NP_0603_CC_DISCRETE_22UF 
+ C295                CAP_NP_0603_CC_DISCRETE_10UF 
+ C298                CAP_NP_0201_CC_DISCRETE_18PF 
+ C299                CAP_NP_0201_CC_DISCRETE_18PF 
+ C301                CAP_NP_0603_CC_DISCRETE_10UF 
+ C303                CAP_NP_0603_CC_DISCRETE_22UF 
+ C304                CAP_NP_0603_CC_DISCRETE_22UF 
+ C306                CAP_NP_0603_CC_DISCRETE_10UF 
+ C307                CAP_NP_0603_CC_DISCRETE_10UF 
+ C311                CAP_NP_0603_CC_DISCRETE_22UF 
+ C312                CAP_NP_0603_CC_DISCRETE_22UF 
+ C316                CAP_NP_0603_CC_DISCRETE_10UF 
+ C317                CAP_NP_0603_CC_DISCRETE_22UF 
+ C318                CAP_NP_0603_CC_DISCRETE_22UF 
+ C323                CAP_NP_0603_CC_DISCRETE_10UF 
+ C324                CAP_NP_0603_CC_DISCRETE_22UF 
+ C325                CAP_NP_0603_CC_DISCRETE_22UF 
+ C333                CAP_NP_0201_CC_DISCRETE_1UF 
+ C337                CAP_NP_0201_CC_DISCRETE_1UF 
+ C351                CAP_NP_0402_CC_DISCRETE_4.7UF 
+ C360                CAP_NP_0402_CC_DISCRETE_4.7UF 
+ C363                CAP_NP_0402_CC_DISCRETE_4.7UF 
+ C365                CAP_NP_0603_CC_DISCRETE_10UF 
+ C370                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C371                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C372                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C373                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C374                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C375                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C376                CAP_NP_0201_CC_DISCRETE_0.22UF 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  36  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C378                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C379                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C380                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C381                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C382                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C384                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C391                CAP_NP_0201_CC_DISCRETE_1UF_ 
+ C392                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C393                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C394                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C400                CAP_NP_0201_CC_DISCRETE_0.22UF 
+ C401                CAP_NP_0603_CC_DISCRETE_10UF 
+ C402                CAP_NP_0603_CC_DISCRETE_10UF 
+ C403                CAP_NP_0603_CC_DISCRETE_22UF 
+ C404                CAP_NP_0603_CC_DISCRETE_22UF 
+ C405                CAP_NP_0402_CC_DISCRETE_2.2UF 
+ D1                  LED_LED_0603_IC_LED GREEN 
+ J2                  UFL_CON_3_UFL_R_SMT_IO_MXC3N2001 
+ J4                  HDR_2X50_M_CON100_0P4_21P7X2P05_SM_IO_DF40C-100DP-0.4V(51) 
+ J5                  HDR_2X50_M_CON100_0P4_22P8X3P1_SM_IO_DF40C-100DS-0.4V(51) 
+ J6                  CONN_HDR_2X1_HDR102_IO_HDR 1X2 TH 
+ J7                  CONN_HDR_10X2_CON20_0P4_6P8X3P1_SM_IO_DF40C-20DS-0.4V(51) 
+ L2                  INDUCTOR_IND_2016A_DISCRETE_1.5UH 
+ L3                  INDUCTOR_0402_CC_DISCRETE_2.2NH 
+ L4                  IND_0402_CC_DISCRETE_1.3NH 
+ L5                  INDUCTOR_IND_SPH2520_DISCRETE_0.47UH_20% 
+ L6                  INDUCTOR_IND_SPH2520_DISCRETE_0.47UH_20% 
+ L10                 INDUCTOR_IND_SPH2520_DISCRETE_0.47UH_20% 
+ L11                 INDUCTOR_IND_SPH2520_DISCRETE_1UH 
+ L13                 INDUCTOR_IND_2016A_DISCRETE_0.47UH 
+ L15                 INDUCTOR_IND_SPH2520_DISCRETE_0.47UH_20% 
+ Q1                  NMOS_NX3008NBK_SC70_3_IC_NX3008NBKW,115 
+ QZ2                 XTAL_XTAL2-3P2X1P5-SM_IC_32.768KHZ 
+ R4                  RES_0201_CC_DISCRETE_10K 
+ R5                  RES_0201_CC_DISCRETE_240 OHM 
+ R6                  RES_0201_CC_DISCRETE_240 OHM 
+ R7                  RES_0201_CC_DISCRETE_240 OHM 
+ R8                  RES_0402_CC_DISCRETE_150 
+ R9                  RES_0402_CC_DISCRETE_150 
+ R10                 RES_0201_CC_DISCRETE_4.7K 
+ R11                 RES_0201_CC_DISCRETE_4.7K 
+ R12                 RES_0201_CC_DISCRETE_4.7K 
+ R13                 RES_0201_CC_DISCRETE_4.7K 
+ R14                 RES_0201_CC_DISCRETE_4.7K 
+ R15                 RES_0201_CC_DISCRETE_4.7K 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  37  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R16                 RES_0201_CC_DISCRETE_4.7K 
+ R17                 RES_0201_CC_DISCRETE_4.7K 
+ R18                 RES_0201_CC_DISCRETE_10K 
+ R20                 RES_0201_CC_DISCRETE_100K 
+ R21                 RES_0201_CC_DISCRETE_100K 
+ R23                 RES_0201_CC_DISCRETE_10K 
+ R26                 RES_0402_CC_DISCRETE_510K 
+ R28                 RES_0402_CC_DISCRETE_8.2K 
+ R29                 RES_0201_CC_DISCRETE_200 
+ R30                 RES_0201_CC_DISCRETE_200 
+ R37                 RES_0402_CC_DISCRETE_10K 
+ R44                 RES_0402_CC_DISCRETE_0 
+ R47                 RES_0402_CC_DISCRETE_10K_5% 
+ R48                 RES_0402_CC_DISCRETE_0 
+ R51                 RES_0402_CC_DISCRETE_0 
+ R52                 RES_0402_CC_DISCRETE_0 
+ R54                 RES_0402_CC_DISCRETE_0 
+ R55                 RES_RC0402_25_DISCRETE_0 
+ R57                 RES_0201_CC_DISCRETE_1M 
+ R61                 RES_0201_CC_DISCRETE_100K 
+ R71                 RES_0402_CC_DISCRETE_10K_5% 
+ R72                 RES_0402_CC_DISCRETE_10K_5% 
+ R75                 RES_0402_CC_DISCRETE_10K_5% 
+ R76                 RES_0402_CC_DISCRETE_10K_5% 
+ R79                 RES_0402_CC_DISCRETE_10K_5% 
+ R95                 RES_0402_CC_DISCRETE_10K_5% 
+ R97                 RES_0402_CC_DISCRETE_10K_5% 
+ R100                RES_RC0402_25_DISCRETE_0_1% 
+ R102                RES_0201_CC_DISCRETE_100K 
+ R103                RES_0201_CC_DISCRETE_100K 
+ R106                RES_0201_CC_DISCRETE_100K 
+ R108                RES_0201_CC_DISCRETE_30K 
+ R109                RES_0201_CC_DISCRETE_30K 
+ R111                RES_0402_CC_DISCRETE_0_1% 
+ R113                RES_RC0402_25_DISCRETE_0_1% 
+ R114                RES_0402_CC_DISCRETE_0 
+ R115                RES_RC0402_25_DISCRETE_0 
+ R116                RES_RC0402_25_DISCRETE_0 
+ R117                RES_0201_CC_DISCRETE_10K 
+ R118                RES_0201_CC_DISCRETE_10K 
+ R119                RES_0201_CC_DISCRETE_10K 
+ R120                RES_0201_CC_DISCRETE_10K 
+ R121                RES_0201_CC_DISCRETE_10K 
+ R122                RES_0201_CC_DISCRETE_10K 
+ R123                RES_0201_CC_DISCRETE_10K 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  38  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R124                RES_0201_CC_DISCRETE_10K 
+ R125                RES_0201_CC_DISCRETE_1K 
+ R127                RES_RC0402_25_DISCRETE_0 
+ R129                RES_RC0402_25_DISCRETE_0_1% 
+ R130                RES_RC0402_25_DISCRETE_0_1% 
+ R131                RES_RC0402_25_DISCRETE_0_1% 
+ R132                RES_RC0402_25_DISCRETE_0_1% 
+ R133                RES_0201_CC_DISCRETE_4.7K 
+ R134                RES_RC0402_25_DISCRETE_0_1% 
+ R135                RES_0201_CC_DISCRETE_100K 
+ R136                RES_0402_CC_DISCRETE_0_1% 
+ TP1                 TESTLOOP_TPAD_020_IO_TPAD_020 
+ TP2                 TESTLOOP_TPAD_020_IO_TPAD_020 
+ TP3                 TESTLOOP_TPAD_020_IO_TPAD_020 
+ TP4                 TESTLOOP_TPAD_020_IO_TPAD_020 
+ TP5                 TESTLOOP_TPAD_020_IO_TPAD_020 
+ TP6                 T POINT R_TESTPOINT_35MIL_IC_TP_35MIL 
+ TP7                 T POINT R_TESTPOINT_35MIL_IC_TP_35MIL 
+ TP8                 T POINT R_TESTPOINT_35MIL_IC_TP_35MIL 
+ TP9                 T POINT R_TESTPOINT_35MIL_IC_TP_35MIL 
+ TP10                T POINT R_TESTPOINT_35MIL_IC_TP_35MIL 
+ TP11                TESTLOOP_TPAD_020_IO_TPAD_020 
+ TP12                TESTLOOP_TPAD_020_IO_TPAD_020 
+ TP13                TESTLOOP_TPAD_020_IO_TPAD_020 
+ TP14                TESTLOOP_TPAD_020_IO_TPAD_020 
+ TP15                TESTLOOP_TPAD_020_IO_TPAD_020 
+ TP16                T POINT R_TESTPOINT_35MIL_IC_TP_35MIL 
+ TP17                T POINT R_TESTPOINT_35MIL_IC_TP_35MIL 
+ TP18                TESTLOOP_TPAD_020_IO_TPAD_020 
+ TP19                TESTLOOP_TPAD_020_IO_TPAD_020 
+ TP20                TESTLOOP_TPAD_020_IO_TPAD_020 
+ TP21                TESTLOOP_TPAD_020_IO_TPAD_020 
+ TP22                T POINT R_TESTPOINT_35MIL_IC_TP_35MIL 
+ TP23                T POINT R_TESTPOINT_35MIL_IC_TP_35MIL 
+ TP24                T POINT R_TESTPOINT_35MIL_IC_TP_35MIL 
+ TP25                T POINT R_TESTPOINT_35MIL_IC_TP_35MIL 
+ TP26                T POINT R_TESTPOINT_35MIL_IC_TP_35MIL 
+ TP27                T POINT R_TESTPOINT_35MIL_IC_TP_35MIL 
+ TP28                T POINT R_TESTPOINT_35MIL_IC_TP_35MIL 
+ TP29                T POINT R_TESTPOINT_35MIL_IC_TP_35MIL 
+ TP30                T POINT R_TESTPOINT_35MIL_IC_TP_35MIL 
+ TP31                T POINT R_TESTPOINT_35MIL_IC_TP_35MIL 
+ TP32                T POINT R_TESTPOINT_35MIL_IC_TP_35MIL 
+ TP33                T POINT R_TESTPOINT_35MIL_IC_TP_35MIL 
+ TP34                TESTLOOP_TPAD_020_IO_TPAD_020 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  39  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ TP35                TESTLOOP_TPAD_015_IO_TPAD_015 
+ TP36                TESTLOOP_TPAD_020_IO_TPAD_020 
+ TP37                TESTLOOP_TPAD_020_IO_TPAD_020 
+ TP38                TESTLOOP_TPAD_020_IO_TPAD_020 
+ TP39                TESTLOOP_TPAD_020_IO_TPAD_020 
+ TP40                TESTLOOP_TPAD_015_IO_TPAD_015 
+ TP44                TESTLOOP_TPAD_050_IO_TPAD_050 
+ TP45                TESTLOOP_TPAD_050_IO_TPAD_050 
+ TP46                TESTLOOP_TPAD_050_IO_TPAD_050 
+ TP47                TESTLOOP_TPAD_050_IO_TPAD_050 
+ TP48                TESTLOOP_TPAD_015_IO_TPAD_015 
+ TP49                TESTLOOP_TPAD_015_IO_TPAD_015 
+ TP50                TESTLOOP_TPAD_015_IO_TPAD_015 
+ TP51                T POINT R_TESTPOINT_35MIL_IC_TP_35MIL 
+ TP52                TESTLOOP_TPAD_020_IO_TPAD_020 
+ TP53                T POINT R_TESTPOINT_35MIL_IC_TP_35MIL 
+ U1                  MIMX8MM_BGA486P_BGA486_0P5_14X14_IC__MIMX8MM6DVTLZAA 
+ U2                  MT53D512M32D2DS_BGA200P_BGA200_0P65X0P8_10P1X14P6_IC_(S1+S2)_MT53D512M32D2DS-053 WT:D 
+ U4                  SDINBDG4-16G_VFBGA_153P_FBGA153_0P5_11P5X13_IC_SDINBDG4-16G-I1 
+ U5                  MT25QL256ABA1EW9_9P_DFN8_1P27_6X5MM_3P1_IC_MT25QU256ABA1EW7-0SIT 
+ U6                  LBEE5KL1PJ_QFN62_LQFN62_0P6_7P6X7P4_IC_LBEE5KL1PJ 
+ U8                  BD71847MWV_UQFN56_UQFN56_0P4_7X7_EP_S185_IC_BD71847MWV 
+ Y1                  XTAL_13Y_XTLOSC4_3P2X2P5MM_SM_IC_24MHZ 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  40  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENT PROPERTIES added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   ref  des   |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C142                           SIGNAL_MODEL   DEFAULT_CAPACITOR_2.2e+07pF_2_1
+ C275                           SIGNAL_MODEL   DEFAULT_CAPACITOR_2.2e+07pF_2_1
+ C283                           SIGNAL_MODEL   DEFAULT_CAPACITOR_2.2e+07pF_2_1
+ C285                           SIGNAL_MODEL   DEFAULT_CAPACITOR_2.2e+07pF_2_1
+ C287                           SIGNAL_MODEL   DEFAULT_CAPACITOR_2.2e+07pF_2_1
+ C303                           SIGNAL_MODEL   DEFAULT_CAPACITOR_2.2e+07pF_2_1
+ C304                           SIGNAL_MODEL   DEFAULT_CAPACITOR_2.2e+07pF_2_1
+ C311                           SIGNAL_MODEL   DEFAULT_CAPACITOR_2.2e+07pF_2_1
+ C312                           SIGNAL_MODEL   DEFAULT_CAPACITOR_2.2e+07pF_2_1
+ C317                           SIGNAL_MODEL   DEFAULT_CAPACITOR_2.2e+07pF_2_1
+ C318                           SIGNAL_MODEL   DEFAULT_CAPACITOR_2.2e+07pF_2_1
+ C324                           SIGNAL_MODEL   DEFAULT_CAPACITOR_2.2e+07pF_2_1
+ C325                           SIGNAL_MODEL   DEFAULT_CAPACITOR_2.2e+07pF_2_1
+ C403                           SIGNAL_MODEL   DEFAULT_CAPACITOR_2.2e+07pF_2_1
+ C404                           SIGNAL_MODEL   DEFAULT_CAPACITOR_2.2e+07pF_2_1
+ R100                           SIGNAL_MODEL   DEFAULT_RESISTOR_10000OHM_2_1
+ R111                           SIGNAL_MODEL   DEFAULT_RESISTOR_10000OHM_2_1
+ R113                           SIGNAL_MODEL   DEFAULT_RESISTOR_10000OHM_2_1
+ R129                           SIGNAL_MODEL   DEFAULT_RESISTOR_10000OHM_2_1
+ R130                           SIGNAL_MODEL   DEFAULT_RESISTOR_10000OHM_2_1
+ R131                           SIGNAL_MODEL   DEFAULT_RESISTOR_10000OHM_2_1
+ R132                           SIGNAL_MODEL   DEFAULT_RESISTOR_10000OHM_2_1
+ R134                           SIGNAL_MODEL   DEFAULT_RESISTOR_10000OHM_2_1
+ R136                           SIGNAL_MODEL   DEFAULT_RESISTOR_10000OHM_2_1
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  41  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ BH1.1                          PRIM_FILE      .\pstchip.dat
+ BH2.1                          PRIM_FILE      .\pstchip.dat
+ BH3.1                          PRIM_FILE      .\pstchip.dat
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ C5.2                           PRIM_FILE      .\pstchip.dat
+ C6.2                           PRIM_FILE      .\pstchip.dat
+ C8.2                           PRIM_FILE      .\pstchip.dat
+ C9.2                           PRIM_FILE      .\pstchip.dat
+ C10.2                          PRIM_FILE      .\pstchip.dat
+ C11.2                          PRIM_FILE      .\pstchip.dat
+ C12.2                          PRIM_FILE      .\pstchip.dat
+ C13.2                          PRIM_FILE      .\pstchip.dat
+ C14.2                          PRIM_FILE      .\pstchip.dat
+ C15.2                          PRIM_FILE      .\pstchip.dat
+ C16.2                          PRIM_FILE      .\pstchip.dat
+ C17.2                          PRIM_FILE      .\pstchip.dat
+ C18.2                          PRIM_FILE      .\pstchip.dat
+ C20.2                          PRIM_FILE      .\pstchip.dat
+ C21.2                          PRIM_FILE      .\pstchip.dat
+ C23.2                          PRIM_FILE      .\pstchip.dat
+ C30.2                          PRIM_FILE      .\pstchip.dat
+ C33.2                          PRIM_FILE      .\pstchip.dat
+ C35.2                          PRIM_FILE      .\pstchip.dat
+ C36.2                          PRIM_FILE      .\pstchip.dat
+ C48.2                          PRIM_FILE      .\pstchip.dat
+ C54.2                          PRIM_FILE      .\pstchip.dat
+ C55.2                          PRIM_FILE      .\pstchip.dat
+ C61.2                          PRIM_FILE      .\pstchip.dat
+ C65.2                          PRIM_FILE      .\pstchip.dat
+ C74.2                          PRIM_FILE      .\pstchip.dat
+ C78.2                          PRIM_FILE      .\pstchip.dat
+ C88.2                          PRIM_FILE      .\pstchip.dat
+ C89.2                          PRIM_FILE      .\pstchip.dat
+ C90.2                          PRIM_FILE      .\pstchip.dat
+ C91.2                          PRIM_FILE      .\pstchip.dat
+ C92.2                          PRIM_FILE      .\pstchip.dat
+ C93.2                          PRIM_FILE      .\pstchip.dat
+ C94.2                          PRIM_FILE      .\pstchip.dat
+ C95.2                          PRIM_FILE      .\pstchip.dat
+ C99.2                          PRIM_FILE      .\pstchip.dat
+ C100.2                         PRIM_FILE      .\pstchip.dat
+ C101.2                         PRIM_FILE      .\pstchip.dat
+ C104.2                         PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  42  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C105.2                         PRIM_FILE      .\pstchip.dat
+ C106.2                         PRIM_FILE      .\pstchip.dat
+ C108.2                         PRIM_FILE      .\pstchip.dat
+ C109.2                         PRIM_FILE      .\pstchip.dat
+ C110.2                         PRIM_FILE      .\pstchip.dat
+ C111.2                         PRIM_FILE      .\pstchip.dat
+ C112.2                         PRIM_FILE      .\pstchip.dat
+ C113.2                         PRIM_FILE      .\pstchip.dat
+ C114.2                         PRIM_FILE      .\pstchip.dat
+ C115.2                         PRIM_FILE      .\pstchip.dat
+ C117.2                         PRIM_FILE      .\pstchip.dat
+ C118.2                         PRIM_FILE      .\pstchip.dat
+ C119.2                         PRIM_FILE      .\pstchip.dat
+ C123.2                         PRIM_FILE      .\pstchip.dat
+ C124.2                         PRIM_FILE      .\pstchip.dat
+ C127.2                         PRIM_FILE      .\pstchip.dat
+ C128.2                         PRIM_FILE      .\pstchip.dat
+ C129.2                         PRIM_FILE      .\pstchip.dat
+ C130.2                         PRIM_FILE      .\pstchip.dat
+ C131.2                         PRIM_FILE      .\pstchip.dat
+ C132.2                         PRIM_FILE      .\pstchip.dat
+ C133.2                         PRIM_FILE      .\pstchip.dat
+ C136.2                         PRIM_FILE      .\pstchip.dat
+ C137.2                         PRIM_FILE      .\pstchip.dat
+ C138.2                         PRIM_FILE      .\pstchip.dat
+ C139.2                         PRIM_FILE      .\pstchip.dat
+ C140.2                         PRIM_FILE      .\pstchip.dat
+ C141.2                         PRIM_FILE      .\pstchip.dat
+ C142.2                         PRIM_FILE      .\pstchip.dat
+ C143.2                         PRIM_FILE      .\pstchip.dat
+ C144.2                         PRIM_FILE      .\pstchip.dat
+ C145.2                         PRIM_FILE      .\pstchip.dat
+ C146.2                         PRIM_FILE      .\pstchip.dat
+ C147.2                         PRIM_FILE      .\pstchip.dat
+ C148.2                         PRIM_FILE      .\pstchip.dat
+ C234.2                         PRIM_FILE      .\pstchip.dat
+ C235.2                         PRIM_FILE      .\pstchip.dat
+ C241.2                         PRIM_FILE      .\pstchip.dat
+ C244.2                         PRIM_FILE      .\pstchip.dat
+ C245.2                         PRIM_FILE      .\pstchip.dat
+ C247.2                         PRIM_FILE      .\pstchip.dat
+ C248.2                         PRIM_FILE      .\pstchip.dat
+ C251.2                         PRIM_FILE      .\pstchip.dat
+ C253.2                         PRIM_FILE      .\pstchip.dat
+ C254.2                         PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  43  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C255.2                         PRIM_FILE      .\pstchip.dat
+ C256.2                         PRIM_FILE      .\pstchip.dat
+ C260.2                         PRIM_FILE      .\pstchip.dat
+ C264.2                         PRIM_FILE      .\pstchip.dat
+ C265.2                         PRIM_FILE      .\pstchip.dat
+ C266.2                         PRIM_FILE      .\pstchip.dat
+ C267.2                         PRIM_FILE      .\pstchip.dat
+ C268.2                         PRIM_FILE      .\pstchip.dat
+ C272.2                         PRIM_FILE      .\pstchip.dat
+ C273.2                         PRIM_FILE      .\pstchip.dat
+ C275.2                         PRIM_FILE      .\pstchip.dat
+ C279.2                         PRIM_FILE      .\pstchip.dat
+ C281.2                         PRIM_FILE      .\pstchip.dat
+ C283.2                         PRIM_FILE      .\pstchip.dat
+ C285.2                         PRIM_FILE      .\pstchip.dat
+ C287.2                         PRIM_FILE      .\pstchip.dat
+ C295.2                         PRIM_FILE      .\pstchip.dat
+ C298.2                         PRIM_FILE      .\pstchip.dat
+ C299.2                         PRIM_FILE      .\pstchip.dat
+ C301.2                         PRIM_FILE      .\pstchip.dat
+ C303.2                         PRIM_FILE      .\pstchip.dat
+ C304.2                         PRIM_FILE      .\pstchip.dat
+ C306.2                         PRIM_FILE      .\pstchip.dat
+ C307.2                         PRIM_FILE      .\pstchip.dat
+ C311.2                         PRIM_FILE      .\pstchip.dat
+ C312.2                         PRIM_FILE      .\pstchip.dat
+ C316.2                         PRIM_FILE      .\pstchip.dat
+ C317.2                         PRIM_FILE      .\pstchip.dat
+ C318.2                         PRIM_FILE      .\pstchip.dat
+ C323.2                         PRIM_FILE      .\pstchip.dat
+ C324.2                         PRIM_FILE      .\pstchip.dat
+ C325.2                         PRIM_FILE      .\pstchip.dat
+ C333.2                         PRIM_FILE      .\pstchip.dat
+ C337.2                         PRIM_FILE      .\pstchip.dat
+ C351.2                         PRIM_FILE      .\pstchip.dat
+ C360.2                         PRIM_FILE      .\pstchip.dat
+ C363.2                         PRIM_FILE      .\pstchip.dat
+ C365.2                         PRIM_FILE      .\pstchip.dat
+ C370.2                         PRIM_FILE      .\pstchip.dat
+ C371.2                         PRIM_FILE      .\pstchip.dat
+ C372.2                         PRIM_FILE      .\pstchip.dat
+ C373.2                         PRIM_FILE      .\pstchip.dat
+ C374.2                         PRIM_FILE      .\pstchip.dat
+ C375.2                         PRIM_FILE      .\pstchip.dat
+ C376.2                         PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  44  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C378.2                         PRIM_FILE      .\pstchip.dat
+ C379.2                         PRIM_FILE      .\pstchip.dat
+ C380.2                         PRIM_FILE      .\pstchip.dat
+ C381.2                         PRIM_FILE      .\pstchip.dat
+ C382.2                         PRIM_FILE      .\pstchip.dat
+ C384.2                         PRIM_FILE      .\pstchip.dat
+ C391.2                         PRIM_FILE      .\pstchip.dat
+ C392.2                         PRIM_FILE      .\pstchip.dat
+ C393.2                         PRIM_FILE      .\pstchip.dat
+ C394.2                         PRIM_FILE      .\pstchip.dat
+ C400.2                         PRIM_FILE      .\pstchip.dat
+ C401.2                         PRIM_FILE      .\pstchip.dat
+ C402.2                         PRIM_FILE      .\pstchip.dat
+ C403.2                         PRIM_FILE      .\pstchip.dat
+ C404.2                         PRIM_FILE      .\pstchip.dat
+ C405.2                         PRIM_FILE      .\pstchip.dat
+ D1.C                           PRIM_FILE      .\pstchip.dat
+ J2.3                           PRIM_FILE      .\pstchip.dat
+ J4.99                          PRIM_FILE      .\pstchip.dat
+ J5.99                          PRIM_FILE      .\pstchip.dat
+ J6.2                           PRIM_FILE      .\pstchip.dat
+ J7.9                           PRIM_FILE      .\pstchip.dat
+ L2.2                           PRIM_FILE      .\pstchip.dat
+ L3.2                           PRIM_FILE      .\pstchip.dat
+ L4.2                           PRIM_FILE      .\pstchip.dat
+ L5.2                           PRIM_FILE      .\pstchip.dat
+ L6.2                           PRIM_FILE      .\pstchip.dat
+ L10.2                          PRIM_FILE      .\pstchip.dat
+ L11.2                          PRIM_FILE      .\pstchip.dat
+ L13.2                          PRIM_FILE      .\pstchip.dat
+ L15.2                          PRIM_FILE      .\pstchip.dat
+ Q1.2                           PRIM_FILE      .\pstchip.dat
+ QZ2.2                          PRIM_FILE      .\pstchip.dat
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R6.2                           PRIM_FILE      .\pstchip.dat
+ R7.2                           PRIM_FILE      .\pstchip.dat
+ R8.2                           PRIM_FILE      .\pstchip.dat
+ R9.2                           PRIM_FILE      .\pstchip.dat
+ R10.2                          PRIM_FILE      .\pstchip.dat
+ R11.2                          PRIM_FILE      .\pstchip.dat
+ R12.2                          PRIM_FILE      .\pstchip.dat
+ R13.2                          PRIM_FILE      .\pstchip.dat
+ R14.2                          PRIM_FILE      .\pstchip.dat
+ R15.2                          PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  45  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R16.2                          PRIM_FILE      .\pstchip.dat
+ R17.2                          PRIM_FILE      .\pstchip.dat
+ R18.2                          PRIM_FILE      .\pstchip.dat
+ R20.2                          PRIM_FILE      .\pstchip.dat
+ R21.2                          PRIM_FILE      .\pstchip.dat
+ R23.2                          PRIM_FILE      .\pstchip.dat
+ R26.2                          PRIM_FILE      .\pstchip.dat
+ R28.2                          PRIM_FILE      .\pstchip.dat
+ R29.2                          PRIM_FILE      .\pstchip.dat
+ R30.2                          PRIM_FILE      .\pstchip.dat
+ R37.2                          PRIM_FILE      .\pstchip.dat
+ R44.2                          PRIM_FILE      .\pstchip.dat
+ R47.2                          PRIM_FILE      .\pstchip.dat
+ R48.2                          PRIM_FILE      .\pstchip.dat
+ R51.2                          PRIM_FILE      .\pstchip.dat
+ R52.2                          PRIM_FILE      .\pstchip.dat
+ R54.2                          PRIM_FILE      .\pstchip.dat
+ R55.2                          PRIM_FILE      .\pstchip.dat
+ R57.2                          PRIM_FILE      .\pstchip.dat
+ R61.2                          PRIM_FILE      .\pstchip.dat
+ R71.2                          PRIM_FILE      .\pstchip.dat
+ R72.2                          PRIM_FILE      .\pstchip.dat
+ R75.2                          PRIM_FILE      .\pstchip.dat
+ R76.2                          PRIM_FILE      .\pstchip.dat
+ R79.2                          PRIM_FILE      .\pstchip.dat
+ R95.2                          PRIM_FILE      .\pstchip.dat
+ R97.2                          PRIM_FILE      .\pstchip.dat
+ R100.2                         PRIM_FILE      .\pstchip.dat
+ R102.2                         PRIM_FILE      .\pstchip.dat
+ R103.2                         PRIM_FILE      .\pstchip.dat
+ R106.2                         PRIM_FILE      .\pstchip.dat
+ R108.2                         PRIM_FILE      .\pstchip.dat
+ R109.2                         PRIM_FILE      .\pstchip.dat
+ R111.2                         PRIM_FILE      .\pstchip.dat
+ R113.2                         PRIM_FILE      .\pstchip.dat
+ R114.2                         PRIM_FILE      .\pstchip.dat
+ R115.2                         PRIM_FILE      .\pstchip.dat
+ R116.2                         PRIM_FILE      .\pstchip.dat
+ R117.2                         PRIM_FILE      .\pstchip.dat
+ R118.2                         PRIM_FILE      .\pstchip.dat
+ R119.2                         PRIM_FILE      .\pstchip.dat
+ R120.2                         PRIM_FILE      .\pstchip.dat
+ R121.2                         PRIM_FILE      .\pstchip.dat
+ R122.2                         PRIM_FILE      .\pstchip.dat
+ R123.2                         PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  46  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R124.2                         PRIM_FILE      .\pstchip.dat
+ R125.2                         PRIM_FILE      .\pstchip.dat
+ R127.2                         PRIM_FILE      .\pstchip.dat
+ R129.2                         PRIM_FILE      .\pstchip.dat
+ R130.2                         PRIM_FILE      .\pstchip.dat
+ R131.2                         PRIM_FILE      .\pstchip.dat
+ R132.2                         PRIM_FILE      .\pstchip.dat
+ R133.2                         PRIM_FILE      .\pstchip.dat
+ R134.2                         PRIM_FILE      .\pstchip.dat
+ R135.2                         PRIM_FILE      .\pstchip.dat
+ R136.2                         PRIM_FILE      .\pstchip.dat
+ TP1.1                          PRIM_FILE      .\pstchip.dat
+ TP2.1                          PRIM_FILE      .\pstchip.dat
+ TP3.1                          PRIM_FILE      .\pstchip.dat
+ TP4.1                          PRIM_FILE      .\pstchip.dat
+ TP5.1                          PRIM_FILE      .\pstchip.dat
+ TP6.1                          PRIM_FILE      .\pstchip.dat
+ TP7.1                          PRIM_FILE      .\pstchip.dat
+ TP8.1                          PRIM_FILE      .\pstchip.dat
+ TP9.1                          PRIM_FILE      .\pstchip.dat
+ TP10.1                         PRIM_FILE      .\pstchip.dat
+ TP11.1                         PRIM_FILE      .\pstchip.dat
+ TP12.1                         PRIM_FILE      .\pstchip.dat
+ TP13.1                         PRIM_FILE      .\pstchip.dat
+ TP14.1                         PRIM_FILE      .\pstchip.dat
+ TP15.1                         PRIM_FILE      .\pstchip.dat
+ TP16.1                         PRIM_FILE      .\pstchip.dat
+ TP17.1                         PRIM_FILE      .\pstchip.dat
+ TP18.1                         PRIM_FILE      .\pstchip.dat
+ TP19.1                         PRIM_FILE      .\pstchip.dat
+ TP20.1                         PRIM_FILE      .\pstchip.dat
+ TP21.1                         PRIM_FILE      .\pstchip.dat
+ TP22.1                         PRIM_FILE      .\pstchip.dat
+ TP23.1                         PRIM_FILE      .\pstchip.dat
+ TP24.1                         PRIM_FILE      .\pstchip.dat
+ TP25.1                         PRIM_FILE      .\pstchip.dat
+ TP26.1                         PRIM_FILE      .\pstchip.dat
+ TP27.1                         PRIM_FILE      .\pstchip.dat
+ TP28.1                         PRIM_FILE      .\pstchip.dat
+ TP29.1                         PRIM_FILE      .\pstchip.dat
+ TP30.1                         PRIM_FILE      .\pstchip.dat
+ TP31.1                         PRIM_FILE      .\pstchip.dat
+ TP32.1                         PRIM_FILE      .\pstchip.dat
+ TP33.1                         PRIM_FILE      .\pstchip.dat
+ TP34.1                         PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  47  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ TP35.1                         PRIM_FILE      .\pstchip.dat
+ TP36.1                         PRIM_FILE      .\pstchip.dat
+ TP37.1                         PRIM_FILE      .\pstchip.dat
+ TP38.1                         PRIM_FILE      .\pstchip.dat
+ TP39.1                         PRIM_FILE      .\pstchip.dat
+ TP40.1                         PRIM_FILE      .\pstchip.dat
+ TP44.1                         PRIM_FILE      .\pstchip.dat
+ TP45.1                         PRIM_FILE      .\pstchip.dat
+ TP46.1                         PRIM_FILE      .\pstchip.dat
+ TP47.1                         PRIM_FILE      .\pstchip.dat
+ TP48.1                         PRIM_FILE      .\pstchip.dat
+ TP49.1                         PRIM_FILE      .\pstchip.dat
+ TP50.1                         PRIM_FILE      .\pstchip.dat
+ TP51.1                         PRIM_FILE      .\pstchip.dat
+ TP52.1                         PRIM_FILE      .\pstchip.dat
+ TP53.1                         PRIM_FILE      .\pstchip.dat
+ U1.AA27                        PRIM_FILE      .\pstchip.dat
+ U1.AB9                         PRIM_FILE      .\pstchip.dat
+ U1.AF9                         PRIM_FILE      .\pstchip.dat
+ U1.AF24                        PRIM_FILE      .\pstchip.dat
+ U1.B13                         PRIM_FILE      .\pstchip.dat
+ U1.B18                         PRIM_FILE      .\pstchip.dat
+ U1.B20                         PRIM_FILE      .\pstchip.dat
+ U1.F18                         PRIM_FILE      .\pstchip.dat
+ U1.F23                         PRIM_FILE      .\pstchip.dat
+ U1.J23                         PRIM_FILE      .\pstchip.dat
+ U1.N11                         PRIM_FILE      .\pstchip.dat
+ U1.P1                          PRIM_FILE      .\pstchip.dat
+ U1.R27                         PRIM_FILE      .\pstchip.dat
+ U1.W3                          PRIM_FILE      .\pstchip.dat
+ U2.A5                          PRIM_FILE      .\pstchip.dat
+ U2.Y8                          PRIM_FILE      .\pstchip.dat
+ U4.K10                         PRIM_FILE      .\pstchip.dat
+ U4.P6                          PRIM_FILE      .\pstchip.dat
+ U5.3                           PRIM_FILE      .\pstchip.dat
+ U6.18                          PRIM_FILE      .\pstchip.dat
+ U8.13                          PRIM_FILE      .\pstchip.dat
+ U8.37                          PRIM_FILE      .\pstchip.dat
+ U8.41                          PRIM_FILE      .\pstchip.dat
+ Y1.4                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  48  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd                                 |
+|                                                    Thu Dec 30 08:59:25 2021  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Nets changed          :    1556                                        |
+|       Net property added    :       2                                        |
+|       Comp definitions added:      56                                        |
+|       Components added      :     293                                        |
+|       Comp property added   :      24                                        |
+|       Slot property added   :     310                                        |
+|                                                                              |
+|   Total ECO changes reported:    2241                                        |
+|------------------------------------------------------------------------------|

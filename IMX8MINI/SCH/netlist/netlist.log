@@ -1,0 +1,14 @@
+{ Using PSTWRITER 17.4.0 d001Dec-30-2021 at 08:43:19 }
+
+#1 WARNING(ORCAP-36038): "No_connect" property on Pin "U6.48" ignored for U6: 8MMINILPD4-CPU, Page10 WIFI&Bluetooth (4.60, 2.50). Connecting pin to net "N25638708".
+#2 WARNING(ORCAP-36038): "No_connect" property on Pin "U6.47" ignored for U6: 8MMINILPD4-CPU, Page10 WIFI&Bluetooth (4.60, 2.50). Connecting pin to net "N25638698".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... G:\github\PLL_FM_HW\IMX8MINI\SCH\netlist\pstchip.dat
+
+Loading... G:\github\PLL_FM_HW\IMX8MINI\SCH\netlist\pstchip.dat
+
+Loading... G:\github\PLL_FM_HW\IMX8MINI\SCH\netlist\pstxprt.dat
+
+Loading... G:\github\PLL_FM_HW\IMX8MINI\SCH\netlist\pstxnet.dat
+packaging the design view...

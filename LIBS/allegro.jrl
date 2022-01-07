@@ -1,30 +1,360 @@
-\t (05:02:33) allegro 17.4 S017 Windows SPB 64-bit Edition
-\t (05:02:33)     Journal start - Thu Dec  9 13:41:05 2021
-\t (05:02:33)         Host=BF-202007251750 User=Administrator Pid=3612 CPUs=16
-\t (05:02:33) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
-\t (05:02:33) 
-\d (05:02:33) Design opened: G:/github/PLL_FM_HW/LIBS/TP_SMD_CIR_1D2.dra
-\i (05:02:33) trapsize 383
-\i (05:02:33) zoom out 1 
-\i (05:02:33) setwindow pcb
-\i (05:02:33) zoom out -0.4845 0.7665
-\i (05:02:33) trapsize 767
-\i (05:02:33) zoom in 1 
-\i (05:02:33) setwindow pcb
-\i (05:02:33) zoom in -0.0090 -0.3379
-\i (05:02:33) trapsize 383
-\i (05:02:36) move 
-\t (05:02:36) Select element(s) to move.
-\i (05:02:42) prepopup -0.4308 1.2804
-\i (05:02:42) done 
-\i (05:02:44) save 
-\i (05:02:45) fillin yes 
-\t (05:02:45) Symbol 'tp_smd_cir_1d2.psm' created.
-\i (05:02:51) opencd G:/github/PLL_FM_HW/FPGA/PCB/FPGA-V13.brd 
-\t (05:02:52) Opening existing design...
-\i (05:02:52) trapsize 1842
-\i (05:02:52) trapsize 1901
-\i (05:02:52) trapsize 1917
-\i (05:02:52) trapsize 1416
-\i (05:02:52) trapsize 1416
-\t (05:02:52)     Journal end - Thu Dec  9 13:41:25 2021
+\t (02:22:09) allegro 17.4 S017 Windows SPB 64-bit Edition
+\t (02:22:09)     Journal start - Wed Dec 29 12:06:31 2021
+\t (02:22:09)         Host=BF-202007251750 User=Administrator Pid=10436 CPUs=16
+\t (02:22:09) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (02:22:09) 
+\d (02:22:09) Design opened: G:/github/PLL_FM_HW/LIBS/SCREW-4D2-3D2.dra
+\i (02:22:09) trapsize 767
+\i (02:22:09) generaledit 
+\i (02:22:09) zoom in 1 
+\i (02:22:09) setwindow pcb
+\i (02:22:09) zoom in 0.2748 -0.8014
+\i (02:22:09) trapsize 384
+\i (02:22:09) zoom in 1 
+\i (02:22:09) setwindow pcb
+\i (02:22:09) zoom in 0.2748 -0.8014
+\i (02:22:09) trapsize 192
+\i (02:22:10) zoom out 1 
+\i (02:22:10) setwindow pcb
+\i (02:22:10) zoom out 0.1368 0.4335
+\i (02:22:10) trapsize 384
+\i (02:22:11) zoom out 1 
+\i (02:22:11) setwindow pcb
+\i (02:22:11) zoom out 0.3285 0.0807
+\i (02:22:11) trapsize 767
+\i (02:22:11) zoom out 1 
+\i (02:22:11) setwindow pcb
+\i (02:22:11) zoom out 0.3592 0.0654
+\i (02:22:11) trapsize 1534
+\i (02:22:11) zoom out 1 
+\i (02:22:11) setwindow pcb
+\i (02:22:11) zoom out 0.9115 -0.8244
+\i (02:22:11) trapsize 3068
+\i (03:52:14) zoom in 1 
+\i (03:52:14) setwindow pcb
+\i (03:52:14) zoom in 1.9546 1.0778
+\i (03:52:14) trapsize 1534
+\i (03:52:14) zoom in 1 
+\i (03:52:14) setwindow pcb
+\i (03:52:14) zoom in 1.9546 1.1085
+\i (03:52:14) trapsize 767
+\i (03:52:14) zoom in 1 
+\i (03:52:14) setwindow pcb
+\i (03:52:14) zoom in 1.7552 0.5716
+\i (03:52:14) trapsize 384
+\i (03:52:14) zoom in 1 
+\i (03:52:14) setwindow pcb
+\i (03:52:14) zoom in 1.3717 0.4565
+\i (03:52:14) trapsize 192
+\i (03:52:15) zoom out 1 
+\i (03:52:15) setwindow pcb
+\i (03:52:15) zoom out 1.6172 0.3721
+\i (03:52:15) trapsize 384
+\i (03:52:15) zoom out 1 
+\i (03:52:15) setwindow pcb
+\i (03:52:15) zoom out 1.6939 0.3415
+\i (03:52:15) trapsize 767
+\i (04:30:27) dimension edit 
+\i (04:30:28) prepopup 0.6507 3.4403
+\i (04:30:30) pop dyn_option_select @:@Parameters 
+\i (04:30:33) setwindow form.draft_parms
+\i (04:30:33) FORM draft_parms text  
+\i (04:30:58) FORM draft_parms dual_dimensions YES 
+\i (04:31:00) FORM draft_parms second_units Mils 
+\i (04:31:03) FORM draft_parms apply  
+\w (04:31:03) WARNING(SPMHDI-45): Applying global parameter changes to existing dimensioning ...
+\i (04:31:03) FORM draft_parms done  
+\i (04:31:09) setwindow pcb
+\i (04:31:09) add line 
+\i (04:31:12) setwindow form.mini
+\i (04:31:12) FORM mini subclass SILKSCREEN_TOP 
+\i (04:31:15) FORM mini line_width 0.1000 
+\i (04:31:16) setwindow pcb
+\i (04:31:16) pick grid -3.6906 -3.1715
+\t (04:31:16) last pick:  -3.6910 -3.1710
+\e (04:31:19) Command not found: IX 10
+\i (04:31:21) ipick 10 
+\t (04:31:21) last pick:  6.3090 -3.1710
+\i (04:31:23) ipick 0 5 
+\t (04:31:23) last pick:  6.3090 1.8290
+\i (04:31:25) ipick -10 
+\t (04:31:25) last pick:  -3.6910 1.8290
+\i (04:31:26) ipick 0 -5 
+\t (04:31:26) last pick:  -3.6910 -3.1710
+\i (04:31:27) done 
+\i (04:31:27) generaledit 
+\i (04:31:28) dimension edit 
+\i (04:31:29) prepopup -1.9265 4.9437
+\i (04:31:30) pop dyn_option_select '@:@Linear dimension' 
+\t (04:31:30) Pick an element or point to dimension ...
+\i (04:31:31) zoom out 1 
+\i (04:31:31) setwindow pcb
+\i (04:31:31) zoom out -1.2362 1.8909
+\i (04:31:31) trapsize 1534
+\i (04:31:32) pick grid 6.4341 -0.1034
+\t (04:31:32) last pick:  6.4340 -0.1030
+\t (04:31:32) Pick location for the dimension value.
+\i (04:31:33) zoom out 1 
+\i (04:31:33) setwindow pcb
+\i (04:31:33) zoom out 3.9796 -0.9318
+\i (04:31:33) trapsize 3068
+\i (04:31:36) pick grid 22.5724 -7.6815
+\t (04:31:36) last pick:  22.5720 -7.6810
+\t (04:31:36) Pick an element or point to dimension ...
+\i (04:31:37) zoom out 1 
+\i (04:31:37) setwindow pcb
+\i (04:31:37) zoom out 1.7093 -3.6930
+\i (04:31:37) trapsize 6136
+\i (04:31:37) zoom in 1 
+\i (04:31:37) setwindow pcb
+\i (04:31:37) zoom in -1.6042 -3.9384
+\i (04:31:37) trapsize 3068
+\i (04:31:38) pick grid 2.6298 1.9523
+\t (04:31:38) last pick:  2.6300 1.9520
+\t (04:31:38) Pick an element or point to dimension ...
+\t (04:31:38) Pick location for the dimension value.
+\i (04:31:40) pick grid 25.7633 13.7339
+\t (04:31:40) last pick:  25.7630 13.7340
+\t (04:31:40) Pick an element or point to dimension ...
+\i (04:31:41) prepopup -12.8948 3.0569
+\i (04:31:41) done 
+\i (04:31:41) generaledit 
+\i (04:31:42) zoom out 1 
+\i (04:31:42) setwindow pcb
+\i (04:31:42) zoom out -12.5880 -9.3996
+\i (04:31:42) trapsize 6136
+\i (04:31:42) zoom in 1 
+\i (04:31:42) setwindow pcb
+\i (04:31:42) zoom in 11.3433 3.6091
+\i (04:31:42) trapsize 3068
+\i (04:32:38) dimension edit 
+\t (04:32:38) Pick an element or point to dimension ...
+\i (04:32:38) prepopup -9.0289 21.5882
+\i (04:32:41) pop dyn_option_select '@:@Leader line' 
+\t (04:32:41) Pick point or element for leader origin ...
+\i (04:32:42) zoom in 1 
+\i (04:32:42) setwindow pcb
+\i (04:32:42) zoom in -6.5744 0.5410
+\i (04:32:42) trapsize 1534
+\i (04:32:42) zoom in 1 
+\i (04:32:42) setwindow pcb
+\i (04:32:42) zoom in -5.6847 0.2036
+\i (04:32:42) trapsize 767
+\i (04:32:43) pick grid -3.7211 0.1269
+\t (04:32:43) last pick:  -3.7210 0.1270
+\i (04:32:43) pick grid -7.4949 -0.4714
+\t (04:32:43) last pick:  -7.4950 -0.4710
+\i (04:32:44) pick grid -6.6051 -2.4350
+\t (04:32:44) last pick:  -6.6050 -2.4350
+\i (04:32:44) prepopup -5.3165 -1.7293
+\i (04:32:45) done 
+\i (04:32:46) generaledit 
+\i (04:32:46) zoom out 1 
+\i (04:32:46) setwindow pcb
+\i (04:32:46) zoom out -2.4325 0.5411
+\i (04:32:46) trapsize 1534
+\i (04:33:03) prepopup 0.4822 6.0943
+\i (04:33:05) dimension edit 
+\t (04:33:05) Pick point or element for leader origin ...
+\i (04:33:05) prepopup -8.2926 10.4203
+\i (04:33:07) pop dyn_option_select @:@Parameters 
+\i (04:33:08) setwindow form.draft_parms
+\i (04:33:08) FORM draft_parms lines  
+\i (04:33:09) FORM draft_parms text  
+\i (04:33:10) FORM draft_parms lines  
+\i (04:33:10) FORM draft_parms balloons  
+\i (04:33:11) FORM draft_parms tolerancing  
+\i (04:33:12) FORM draft_parms cancel  
+\t (04:33:12) Pick point or element for leader origin ...
+\i (04:33:13) setwindow pcb
+\i (04:33:13) prepopup -7.6482 6.3704
+\i (04:33:31) dimension edit 
+\t (04:33:31) Pick point or element for leader origin ...
+\i (04:33:32) prepopup -8.6300 7.4136
+\i (04:33:34) pop dyn_option_select '@:@Leader line' 
+\i (04:33:35) pick grid -3.8745 -1.8214
+\t (04:33:35) last pick:  -3.8740 -1.8210
+\i (04:33:36) pick grid -9.8880 4.1921
+\t (04:33:36) last pick:  -9.8880 4.1920
+\i (04:33:37) prepopup -8.7834 6.8920
+\i (04:33:41) pop dyn_option_select '@:@Edit leaders' 
+\i (04:33:43) pick grid -8.1698 2.5660
+\t (04:33:43) last pick:  -8.1700 2.5660
+\i (04:33:45) prepopup -6.6051 3.9160
+\i (04:33:46) oops 
+\t (04:33:46) last pick:  -9.8880 4.1920
+\i (04:33:46) prepopup -6.2062 4.7443
+\i (04:33:47) done 
+\i (04:33:47) generaledit 
+\i (04:33:49) save 
+\i (04:33:49) fillin yes 
+\t (04:33:50) Symbol 'screw-4d2-3d2.psm' created.
+\i (04:33:50) generaledit 
+\i (04:34:46) dimension edit 
+\i (04:34:46) prepopup -9.5812 8.7329
+\i (04:34:49) pop dyn_option_select '@:@Balloon leader' 
+\t (04:34:49) Pick point or element for leader origin ...
+\i (04:34:50) pick grid -3.2915 1.8603
+\t (04:34:50) last pick:  -3.2910 1.8600
+\i (04:34:51) pick grid -9.8880 8.3340
+\t (04:34:51) last pick:  -9.8880 8.3340
+\t (04:34:51) Add dimension value on the 'Options' tab.
+\i (04:34:52) zoom out 1 
+\i (04:34:52) setwindow pcb
+\i (04:34:52) zoom out -5.1938 1.5842
+\i (04:34:52) trapsize 3068
+\i (04:34:52) prepopup -9.1822 10.6045
+\i (04:34:53) next 
+\t (04:34:53) Pick an element or point to dimension ...
+\i (04:34:54) pick grid 3.5811 -3.2634
+\t (04:34:54) last pick:  3.5810 -3.2630
+\i (04:34:55) pick grid -9.4891 -12.9586
+\t (04:34:55) last pick:  -9.4890 -12.9590
+\t (04:34:55) Add dimension value on the 'Options' tab.
+\i (04:34:55) prepopup -0.3461 -10.2586
+\i (04:34:56) next 
+\t (04:34:56) Pick an element or point to dimension ...
+\i (04:34:58) pick grid 6.4651 -1.9748
+\t (04:34:58) last pick:  6.4650 -1.9750
+\i (04:34:58) prepopup 15.0558 -11.8541
+\i (04:35:02) next 
+\t (04:35:02) Pick an element or point to dimension ...
+\i (04:35:03) prepopup 14.3194 6.6159
+\i (04:35:03) done 
+\i (04:35:04) generaledit 
+\i (04:37:56) dimension edit 
+\t (04:37:56) Pick point or element for leader origin ...
+\i (04:37:56) prepopup -17.0980 16.6793
+\i (04:37:58) pop dyn_option_select '@:@Align dimensions' 
+\i (04:37:59) pick grid -9.9186 10.2976
+\t (04:37:59) last pick:  -9.9190 10.2980
+\i (04:38:00) pick grid -4.3960 -9.9518
+\t (04:38:00) last pick:  -4.3960 -9.9520
+\i (04:38:03) setwindow form.als_hv_prompt
+\i (04:38:03) FORM als_hv_prompt horz  
+\i (04:38:03) setwindow pcb
+\i (04:38:03) prepopup -19.3683 0.0502
+\i (04:38:04) done 
+\i (04:38:05) generaledit 
+\i (04:38:05) save 
+\i (04:38:06) fillin yes 
+\t (04:38:06) Symbol 'screw-4d2-3d2.psm' created.
+\i (04:38:06) generaledit 
+\i (04:38:50) dimension edit 
+\i (04:38:51) prepopup -17.4048 16.2498
+\i (04:38:54) pop dyn_option_select '@:@Move text' 
+\i (04:38:55) pick grid -8.8141 9.0090
+\t (04:38:55) last pick:  -8.8140 9.0090
+\i (04:38:56) pick grid -12.9867 7.0455
+\t (04:38:56) last pick:  -12.9870 7.0460
+\i (04:38:56) prepopup -9.9186 17.7838
+\i (04:38:57) done 
+\i (04:38:57) generaledit 
+\i (04:38:59) dimension edit 
+\i (04:38:59) prepopup -14.0912 18.8883
+\i (04:39:02) pop dyn_option_select '@:@Change text' 
+\i (04:39:03) pick grid -12.6799 7.7204
+\t (04:39:03) last pick:  -12.6800 7.7200
+\i (04:39:11) setwindow form.mini
+\i (04:39:11) FORM mini dim_value YAY 
+\i (04:39:12) setwindow pcb
+\i (04:39:12) prepopup -8.9368 17.9679
+\i (04:39:13) done 
+\i (04:39:13) generaledit 
+\i (04:39:13) zoom out 1 
+\i (04:39:13) setwindow pcb
+\i (04:39:13) zoom out -5.6846 17.4156
+\i (04:39:13) trapsize 6136
+\i (04:45:54) dimension edit 
+\i (04:45:54) prepopup -24.7069 19.9929
+\i (04:45:56) pop dyn_option_select '@:@Delete dimensions' 
+\i (04:45:57) pick grid 5.9742 10.4204
+\t (04:45:57) last pick:  5.9740 10.4200
+\i (04:45:57) pick grid dbl 5.9742 10.5431
+\t (04:45:57) last pick:  5.9740 10.5430
+\w (04:45:57) WARNING(SPMHDI-55): No dimension found.
+\i (04:45:58) pick grid -9.3663 9.4386
+\t (04:45:58) last pick:  -9.3660 9.4390
+\i (04:45:58) pick grid dbl -9.4891 9.4386
+\t (04:45:58) last pick:  -9.4890 9.4390
+\w (04:45:58) WARNING(SPMHDI-55): No dimension found.
+\i (04:45:58) pick grid -9.3663 4.2842
+\t (04:45:58) last pick:  -9.3660 4.2840
+\i (04:45:58) pick grid dbl -9.3663 4.2842
+\t (04:45:58) last pick:  -9.3660 4.2840
+\w (04:45:58) WARNING(SPMHDI-55): No dimension found.
+\i (04:45:59) pick grid -5.5619 -9.4609
+\t (04:45:59) last pick:  -5.5620 -9.4610
+\i (04:45:59) pick grid dbl -5.5619 -9.4609
+\t (04:45:59) last pick:  -5.5620 -9.4610
+\w (04:45:59) WARNING(SPMHDI-55): No dimension found.
+\i (04:45:59) zoom in 1 
+\i (04:45:59) setwindow pcb
+\i (04:45:59) zoom in -5.8073 -4.3065
+\i (04:45:59) trapsize 3068
+\i (04:45:59) zoom in 1 
+\i (04:45:59) setwindow pcb
+\i (04:45:59) zoom in -5.8073 -4.3064
+\i (04:45:59) trapsize 1534
+\i (04:46:00) pick grid -5.8687 -0.6247
+\t (04:46:00) last pick:  -5.8690 -0.6250
+\i (04:46:00) pick grid dbl -5.8687 -0.5020
+\t (04:46:00) last pick:  -5.8690 -0.5020
+\w (04:46:00) WARNING(SPMHDI-55): No dimension found.
+\i (04:46:01) pick grid -3.9051 -0.5327
+\t (04:46:01) last pick:  -3.9050 -0.5330
+\w (04:46:01) WARNING(SPMHDI-55): No dimension found.
+\i (04:46:01) pick grid dbl -3.9051 -0.5327
+\t (04:46:01) last pick:  -3.9050 -0.5330
+\w (04:46:01) WARNING(SPMHDI-55): No dimension found.
+\i (04:46:01) pick grid -3.0153 -2.8031
+\t (04:46:01) last pick:  -3.0150 -2.8030
+\w (04:46:01) WARNING(SPMHDI-55): No dimension found.
+\i (04:46:02) pick grid 12.2945 -4.0610
+\t (04:46:02) last pick:  12.2950 -4.0610
+\w (04:46:02) WARNING(SPMHDI-55): No dimension found.
+\i (04:46:02) pick grid 12.2638 -3.5087
+\t (04:46:02) last pick:  12.2640 -3.5090
+\i (04:46:02) pick grid 12.2638 -3.3246
+\t (04:46:02) last pick:  12.2640 -3.3250
+\w (04:46:02) WARNING(SPMHDI-55): No dimension found.
+\i (04:46:02) pick grid dbl 12.2638 -3.2940
+\t (04:46:02) last pick:  12.2640 -3.2940
+\i (04:46:03) zoom out 1 
+\i (04:46:03) setwindow pcb
+\i (04:46:03) zoom out 3.7959 -4.9507
+\i (04:46:03) trapsize 3068
+\i (04:46:03) prepopup 8.5821 -1.4531
+\i (04:46:03) pop dyn_option_select '@:@Leader line' 
+\t (04:46:03) Pick point or element for leader origin ...
+\i (04:46:04) prepopup 8.5207 3.8240
+\i (04:46:04) done 
+\i (04:46:05) generaledit 
+\i (04:46:05) delete 
+\i (04:46:07) setwindow form.find
+\i (04:46:07) FORM find all_off  
+\i (04:46:08) FORM find lines YES 
+\i (04:46:08) setwindow pcb
+\i (04:46:08) zoom in 1 
+\i (04:46:08) setwindow pcb
+\i (04:46:08) zoom in 10.4230 0.2037
+\i (04:46:08) trapsize 1534
+\i (04:46:09) pick grid 6.4038 0.9093
+\t (04:46:09) last pick:  6.4040 0.9090
+\t (04:46:09) Line "Board Geometry/Silkscreen_Top"
+\i (04:46:09) pick grid dbl 6.4038 0.9093
+\t (04:46:09) last pick:  6.4040 0.9090
+\i (04:46:09) prepopup 6.0356 0.2957
+\i (04:46:10) done 
+\i (04:46:10) generaledit 
+\i (04:46:10) save 
+\i (04:46:11) fillin yes 
+\t (04:46:11) Symbol 'screw-4d2-3d2.psm' created.
+\i (04:46:12) generaledit 
+\i (04:46:17) opencd 'C:/Users/Administrator/Desktop/IMX8/8MMINILPD4-EVK-DESIGNFILES/8MMINILPD4-EVK-DESIGNFILES/SOM Board/LAY-31399_C/LAY-31399_C_ZSY.brd' 
+\t (04:46:17) Opening existing design...
+\i (04:46:18) trapsize 1056
+\i (04:46:18) trapsize 1090
+\i (04:46:18) trapsize 1099
+\i (04:46:18) trapsize 1099
+\t (04:46:18)     Journal end - Wed Dec 29 14:30:40 2021

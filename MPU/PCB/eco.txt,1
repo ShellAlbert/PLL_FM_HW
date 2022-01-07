@@ -1,0 +1,792 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/MPU/PCB/FMDEMOD-Long.brd                                |
+|                                                    Wed Dec 22 13:45:56 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ A1                  ERA-2SM_ERA-2SM_ERA-2SM  8.5700 -18.511
+ C61                 CAP NP_C1206_DISCRETE_22UF/50V  2.0420 -101.97
+ C62                 CAP NP_C1206_DISCRETE_22UF/50V 10.2020 -100.40
+ C63                 CAP NP_C1206_DISCRETE_22UF/50V 12.2330 -101.97
+ C64                 CAP NP_C1206_DISCRETE_22UF/50V 20.4290 -100.40
+ C65                 CAP NP_C1206_DISCRETE_22UF/50V 22.5380 -101.97
+ C66                 CAP NP_C1206_DISCRETE_22UF/50V 30.6990 -100.40
+ C67                 CAP NP_C1206_DISCRETE_22UF/50V 32.7620 -101.97
+ C68                 CAP NP_C1206_DISCRETE_22UF/50V 40.9460 -100.40
+ C69                 CAP NP_C0402_DISCRETE_15NF  7.1380 -102.58
+ C70                 CAP NP_C0402_DISCRETE_15NF 17.3300 -102.58
+ C71                 CAP NP_C0402_DISCRETE_15NF 27.5760 -102.58
+ C72                 CAP NP_C0402_DISCRETE_15NF 37.9040 -102.58
+ C75                 CAP NP_C0603_DISCRETE_100PF/25V  1.3700 -106.34
+ C76                 CAP NP_C0603_DISCRETE_150PF/25V 11.5830 -106.34
+ C77                 CAP NP_C0603_DISCRETE_100PF/25V 21.8670 -106.34
+ C78                 CAP NP_C0603_DISCRETE_100PF/25V 32.0900 -106.34
+ C79                 CAP NP_C0402_DISCRETE_0.1UF 10.3790 -105.52
+ C80                 CAP NP_C0402_DISCRETE_0.1UF 20.5510 -105.52
+ C81                 CAP NP_C0402_DISCRETE_0.1UF 30.7430 -105.52
+ C82                 CAP NP_C0402_DISCRETE_0.1UF 41.0950 -105.52
+ C84                 CAP NP_C0402_DISCRETE_1UF/10V  2.9360 -107.93
+ C85                 CAP NP_C0402_DISCRETE_1UF/10V 13.1610 -107.93
+ C86                 CAP NP_C0402_DISCRETE_1UF/10V 23.3710 -107.93
+ C87                 CAP NP_C0402_DISCRETE_1UF/10V 33.7430 -107.93
+ C88                 CAP NP_C0603_DISCRETE_0.1UF  6.9810 -107.87
+ C89                 CAP NP_C0603_DISCRETE_0.1UF 17.1750 -107.87
+ C90                 CAP NP_C0603_DISCRETE_0.1UF 27.4200 -107.87
+ C91                 CAP NP_C0603_DISCRETE_0.1UF 37.7290 -107.87
+ C103                CAP NP_C1206_DISCRETE_22UF/25V  1.4230 -109.99
+ C104                CAP NP_C1206_DISCRETE_22UF/25V 11.7780 -109.99
+ C105                CAP NP_C1206_DISCRETE_22UF/25V 22.0520 -109.99
+ C106                CAP NP_C1206_DISCRETE_22UF/25V 32.2400 -109.99
+ C115                CAP NP_C1206_DISCRETE_22UF/25V 10.3010 -114.52
+ C116                CAP NP_C0603_DISCRETE_0.1UF/25V 14.1040 -115.71
+ C117                CAP NP_C1206_DISCRETE_22UF/25V 20.2390 -114.52
+ C118                CAP NP_C0603_DISCRETE_0.1UF/25V 24.4130 -115.71
+ C119                CAP NP_C1206_DISCRETE_22UF/25V 30.5610 -114.52
+ C120                CAP NP_C1206_DISCRETE_22UF/25V 35.9630 -114.52
+ C124                CAP NP_C1206_DISCRETE_22UF/25V 13.3480 -118.04
+ C125                CAP NP_C1206_DISCRETE_22UF/25V 23.6220 -118.04
+ C126                CAP NP_C0603_DISCRETE_0.1UF/25V  9.8890 -116.67
+ C127                CAP NP_C0603_DISCRETE_0.1UF/25V 18.1470 -116.67
+ C128                CAP NP_C0603_DISCRETE_0.1UF/25V 28.2160 -116.67
+ C129                CAP NP_C0603_DISCRETE_0.1UF/25V 35.7750 -116.67
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/MPU/PCB/FMDEMOD-Long.brd                                |
+|                                                    Wed Dec 22 13:45:56 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C130                CAP NP_C0603_DISCRETE_0.1UF 10.0920 -122.27
+ C131                CAP NP_C0603_DISCRETE_0.1UF 13.4790 -122.27
+ C132                CAP NP_C0603_DISCRETE_0.1UF 19.7750 -121.47
+ C133                CAP NP_C0603_DISCRETE_0.1UF 23.5680 -122.27
+ C134                CAP NP_C0603_DISCRETE_0.1UF 29.8960 -121.47
+ C135                CAP NP_C0603_DISCRETE_0.1UF 31.3260 -122.27
+ C136                CAP NP_C0402_DISCRETE_0.1UF 96.6000 -45.400
+ C137                CAP NP_C0603_DISCRETE_10UF 96.9000 -46.700
+ C138                CAP NP_C0402_DISCRETE_0.1UF 96.6000 -31.700
+ C139                CAP NP_C0603_DISCRETE_1UF 117.000 -31.100
+ C140                CAP NP_C0805_DISCRETE_10UF 43.0500 -28.486
+ C141                CAP NP_C0402_DISCRETE_0.1UF 115.270 -34.700
+ C142                CAP NP_C0402_DISCRETE_0.1UF 116.380 -34.700
+ C143                CAP NP_C0402_DISCRETE_0.1UF  7.0700 -15.815
+ C144                CAP NP_C0402_DISCRETE_0.1UF 40.0140 -133.19
+ C145                CAP NP_C0402_DISCRETE_0.1UF  9.2680 -132.97
+ C146                CAP NP_C0402_DISCRETE_0.1UF 10.2370 -132.97
+ C147                CAP NP_C0402_DISCRETE_0.1UF  7.4520 -135.88
+ C148                CAP NP_C0805_DISCRETE_10UF 15.0500 -25.367
+ C149                CAP NP_C0402_DISCRETE_0.1UF  8.0430 -21.557
+ C150                CAP NP_C0402_DISCRETE_0.1UF  7.4520 -136.82
+ C151                CAP NP_C0402_DISCRETE_0.1UF 35.6000 -137.30
+ C152                CAP NP_C0805_DISCRETE_10UF 56.8600 -53.127
+ C153                CAP NP_C0402_DISCRETE_0.1UF 110.900 -48.210
+ C154                CAP NP_C0402_DISCRETE_0.1UF 115.339 -25.666
+ C155                CAP NP_C0603_DISCRETE_1UF 118.100 -25.700
+ C156                CAP NP_C0603_DISCRETE_10UF 96.9000 -30.700
+ C157                CAP NP_C0402_DISCRETE_0.01UF 116.380 -32.430
+ C158                CAP NP_C0402_DISCRETE_0.1UF 97.9000 -30.000
+ C159                CAP NP_C0603_DISCRETE_1UF 118.300 -31.100
+ C160                CAP NP_C0402_DISCRETE_0.1UF 117.500 -25.800
+ C161                CAP NP_C0603_DISCRETE_10UF 110.400 -30.000
+ C162                CAP NP_C0402_DISCRETE_0.1UF 119.600 -31.400
+ C163                CAP NP_C0402_DISCRETE_0.1UF 114.770 -31.440
+ C164                CAP NP_C0402_DISCRETE_0.01UF 11.3720 -34.409
+ C165                CAP NP_C0603_DISCRETE_10UF 13.2530 -34.559
+ C166                CAP NP_C0603_DISCRETE_2.2UF 119.200 -54.300
+ C167                CAP NP_C0603_DISCRETE_2.2UF 115.300 -54.300
+ C168                CAP NP_C0402_DISCRETE_0.1UF 110.700 -31.300
+ C169                CAP NP_C0603_DISCRETE_2.2UF 123.000 -54.300
+ C170                CAP NP_C0603_DISCRETE_2.2UF 126.900 -54.300
+ C171                CAP NP_C0402_DISCRETE_0.01UF  7.8920 -29.534
+ C172                CAP NP_C0402_DISCRETE_0.01UF  8.8640 -29.534
+ C173                CAP NP_C0402_DISCRETE_0.01UF  9.8370 -29.534
+ C174                CAP NP_C0603_DISCRETE_10UF 108.100 -50.400
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/MPU/PCB/FMDEMOD-Long.brd                                |
+|                                                    Wed Dec 22 13:45:56 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C175                CAP NP_C0402_DISCRETE_0.01UF 12.3620 -35.192
+ C176                CAP NP_C0402_DISCRETE_0.1UF 113.600 -42.000
+ C177                CAP NP_C0603_DISCRETE_0.1UF 109.500 -51.200
+ C178                CAP NP_C0603_DISCRETE_0.1UF 121.500 -50.100
+ C179                CAP NP_C0603_DISCRETE_4.7UF 116.862 -50.832
+ C180                CAP NP_C0603_DISCRETE_4.7UF 124.561 -50.832
+ C181                CAP NP_C0603_DISCRETE_0.1UF 129.200 -50.100
+ C184                CAP NP_C0402_DISCRETE_0.1UF 13.5630 -36.830
+ C185                CAP NP_C0603_DISCRETE_2.2UF 105.700 -52.300
+ C186                CAP NP_C0603_DISCRETE_10UF 37.9190 -145.01
+ C187                CAP NP_C0603_DISCRETE_4.7UF 121.500 -52.700
+ C188                CAP NP_C0603_DISCRETE_4.7UF 129.200 -52.700
+ C189                CAP NP_C0603_DISCRETE_10UF 110.400 -45.900
+ C190                CAP NP_C0603_DISCRETE_2.2UF 112.700 -52.300
+ C191                CAP NP_C0603_DISCRETE_10UF 31.7900 -147.20
+ C192                CAP NP_C0402_DISCRETE_0.1UF 35.3000 -146.55
+ C193                CAP NP_C0402_DISCRETE_0.1UF 39.6690 -146.55
+ C194                CAP NP_C0603_DISCRETE_0.1UF 118.435 -50.032
+ C196                CAP NP_C0603_DISCRETE_0.1UF 126.142 -50.032
+ C198                CAP NP_C0402_DISCRETE_0.1UF 26.2560 -146.96
+ C199                CAP NP_C0402_DISCRETE_0.1UF 29.0470 -147.72
+ C200                CAP NP_C0805_DISCRETE_10UF 19.3640 -146.84
+ C201                CAP NP_C0402_DISCRETE_0.1UF 16.7290 -148.12
+ C202                CAP NP_C0402_DISCRETE_0.1UF 20.0060 -147.15
+ C203                CAP NP_C0402_DISCRETE_0.1UF 114.100 -38.600
+ C204                CAP NP_C0603_DISCRETE_10UF 31.7900 -148.50
+ C205                CAP NP_C0603_DISCRETE_10UF 28.7360 -148.99
+ C206                CAP NP_C0402_DISCRETE_0.1UF 32.1000 -149.50
+ C207                CAP NP_C0603_DISCRETE_10UF 16.2270 -148.96
+ C208                CAP NP_C0402_DISCRETE_0.1UF 18.1150 -150.26
+ C209                CAP NP_C0402_DISCRETE_0.1UF 28.0530 -150.76
+ C210                CAP NP_C0402_DISCRETE_0.1UF 29.0390 -151.96
+ C211                CAP NP_C0402_DISCRETE_0.01UF 12.5380 -152.53
+ C212                CAP NP_C0402_DISCRETE_0.1UF 13.5110 -152.53
+ C213                CAP NP_C0402_DISCRETE_0.1UF 16.1660 -151.54
+ C214                CAP NP_C0603_DISCRETE_10UF 14.0260 -153.32
+ C215                CAP NP_C0402_DISCRETE_0.01UF  8.4000 -58.929
+ C216                CAP NP_C0402_DISCRETE_0.01UF  9.4540 -58.929
+ C217                CAP NP_C0402_DISCRETE_0.1UF 16.9830 -154.39
+ C218                CAP NP_C0402_DISCRETE_0.1UF 29.2180 -154.21
+ C219                CAP NP_C0402_DISCRETE_1UF 18.5240 -59.756
+ C220                CAP NP_C0402_DISCRETE_8.2PF 21.7740 -59.756
+ C221                CAP NP_C0402_DISCRETE_0.1UF 38.0420 -62.932
+ C222                CAP NP_C0402_DISCRETE_8.2PF 19.4200 -61.033
+ C242                CAP NP_C0402_DISCRETE_2.2UF 20.2090 -157.96
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/MPU/PCB/FMDEMOD-Long.brd                                |
+|                                                    Wed Dec 22 13:45:56 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C243                CAP NP_C0402_DISCRETE_1UF 18.5240 -62.696
+ C244                CAP NP_C0402_DISCRETE_8.2PF 20.7840 -63.196
+ C364                CAP NP_C0603_DISCRETE_0.1UF/50V 14.9680 -100.38
+ C365                CAP NP_C0603_DISCRETE_0.1UF/50V 13.6880 -100.38
+ C366                CAP NP_C0603_DISCRETE_0.1UF/50V 12.3920 -100.38
+ C367                CAP NP_C0603_DISCRETE_0.1UF/50V 41.2190 -100.39
+ C368                CAP NP_C0603_DISCRETE_0.1UF/50V 39.8870 -100.39
+ C369                CAP NP_C0603_DISCRETE_0.1UF/50V 38.5530 -100.39
+ C370                CAP NP_C0603_DISCRETE_0.1UF/25V 10.8580 -100.39
+ C371                CAP NP_C0603_DISCRETE_0.1UF/25V  9.5610 -100.39
+ C372                CAP NP_C0603_DISCRETE_0.1UF/25V  8.2680 -100.39
+ C373                CAP NP_C0603_DISCRETE_0.1UF/25V  4.7920 -100.39
+ C374                CAP NP_C0603_DISCRETE_0.1UF/25V  3.4940 -100.39
+ C375                CAP NP_C0603_DISCRETE_0.1UF/25V  2.2030 -100.39
+ C376                CAP NP_C0603_DISCRETE_0.1UF/50V 35.5050 -100.39
+ C377                CAP NP_C0603_DISCRETE_0.1UF/50V 34.2100 -100.39
+ C378                CAP NP_C0603_DISCRETE_0.1UF/50V 32.9290 -100.39
+ C379                CAP NP_C0603_DISCRETE_0.1UF/50V 31.3500 -100.39
+ C380                CAP NP_C0603_DISCRETE_0.1UF/50V 30.0620 -100.39
+ C381                CAP NP_C0603_DISCRETE_0.1UF/50V 28.7800 -100.39
+ C382                CAP NP_C0603_DISCRETE_0.1UF/50V 25.2880 -100.39
+ C383                CAP NP_C0603_DISCRETE_0.1UF/50V 23.9950 -100.39
+ C384                CAP NP_C0603_DISCRETE_0.1UF/50V 22.7000 -100.39
+ C385                CAP NP_C0603_DISCRETE_0.1UF/50V 21.0790 -100.39
+ C386                CAP NP_C0603_DISCRETE_0.1UF/50V 19.7850 -100.39
+ C387                CAP NP_C0603_DISCRETE_0.1UF/50V 18.4780 -100.39
+ C413                CAP NP_C0603_DISCRETE_0.1UF/25V 11.7660 -109.71
+ C414                CAP NP_C0603_DISCRETE_0.1UF/25V 22.0380 -109.77
+ C415                CAP NP_C0603_DISCRETE_0.1UF/25V 32.2290 -109.79
+ C416                CAP NP_C0603_DISCRETE_0.1UF/25V  1.4160 -109.80
+ C420                CAP NP_C0603_DISCRETE_0.1UF/25V 22.0380 -111.05
+ C421                CAP NP_C0603_DISCRETE_0.1UF/25V 32.2290 -111.06
+ C422                CAP NP_C0603_DISCRETE_0.1UF/25V 11.7660 -111.07
+ C423                CAP NP_C0603_DISCRETE_0.1UF/25V  1.4160 -111.08
+ C426                CAP NP_C0603_DISCRETE_0.1UF/25V 22.0380 -112.32
+ C427                CAP NP_C0603_DISCRETE_0.1UF/25V  1.4160 -112.37
+ C428                CAP NP_C0603_DISCRETE_0.1UF/25V 32.2290 -112.37
+ C429                CAP NP_C0603_DISCRETE_0.1UF/25V 11.7660 -112.46
+ C432                CAP NP_C0603_DISCRETE_0.1UF/25V 35.5890 -114.50
+ C433                CAP NP_C0603_DISCRETE_0.1UF/25V 34.2890 -114.50
+ C434                CAP NP_C0603_DISCRETE_0.1UF/25V 32.9840 -114.50
+ C435                CAP NP_C0603_DISCRETE_0.1UF/25V 10.5590 -114.51
+ C436                CAP NP_C0603_DISCRETE_0.1UF/25V  9.2450 -114.51
+ C437                CAP NP_C0603_DISCRETE_0.1UF/25V  7.9520 -114.51
+ C438                CAP NP_C0603_DISCRETE_0.1UF/25V 30.7830 -114.51
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/MPU/PCB/FMDEMOD-Long.brd                                |
+|                                                    Wed Dec 22 13:45:56 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C439                CAP NP_C0603_DISCRETE_0.1UF/25V 29.4930 -114.51
+ C440                CAP NP_C0603_DISCRETE_0.1UF/25V 28.2010 -114.51
+ C441                CAP NP_C0603_DISCRETE_0.1UF/25V 20.5240 -114.51
+ C442                CAP NP_C0603_DISCRETE_0.1UF/25V 19.1670 -114.51
+ C443                CAP NP_C0603_DISCRETE_0.1UF/25V 17.8150 -114.51
+ C445                CAP NP_C0603_DISCRETE_0.1UF/25V 22.0320 -116.16
+ C446                CAP NP_C0603_DISCRETE_10UF 36.6320 -121.45
+ C447                CAP NP_C0402_DISCRETE_0.1UF 32.9960 -121.76
+ C448                CAP NP_C0402_DISCRETE_0.1UF 32.0350 -121.76
+ C449                CAP NP_C0603_DISCRETE_10UF 30.9340 -121.45
+ C450                CAP NP_C0402_DISCRETE_0.1UF 29.6060 -121.76
+ C451                CAP NP_C0402_DISCRETE_0.1UF 28.6290 -121.76
+ C452                CAP NP_C0402_DISCRETE_0.1UF 25.3360 -121.76
+ C453                CAP NP_C0402_DISCRETE_0.1UF 24.3590 -121.76
+ C454                CAP NP_C0603_DISCRETE_10UF 23.3320 -121.45
+ C455                CAP NP_C0603_DISCRETE_10UF 20.9130 -121.45
+ C456                CAP NP_C0402_DISCRETE_0.1UF 19.5810 -121.76
+ C457                CAP NP_C0402_DISCRETE_0.1UF 18.6050 -121.76
+ C458                CAP NP_C0402_DISCRETE_0.1UF 15.1520 -121.76
+ C459                CAP NP_C0402_DISCRETE_0.1UF 14.2010 -121.76
+ C460                CAP NP_C0402_DISCRETE_0.1UF 90.7000 -41.200
+ C461                CAP NP_C0603_DISCRETE_10UF  7.7830 -123.12
+ C462                CAP NP_C0603_DISCRETE_10UF 37.0410 -124.75
+ C463                CAP NP_C0603_DISCRETE_10UF 31.7080 -123.95
+ C464                CAP NP_C0603_DISCRETE_10UF 19.1910 -124.75
+ C465                CAP NP_C0603_DISCRETE_10UF 14.0790 -123.95
+ C466                CAP NP_C0603_DISCRETE_10UF  7.7830 -124.46
+ C467                CAP NP_C0603_DISCRETE_10UF 32.6780 -126.09
+ C468                CAP NP_C0603_DISCRETE_10UF 36.4600 -125.35
+ C469                CAP NP_C0603_DISCRETE_10UF 33.9730 -126.96
+ C470                CAP NP_C0402_DISCRETE_0.1UF 16.8880 -126.14
+ C471                CAP NP_C0402_DISCRETE_0.1UF 15.8100 -126.64
+ C472                CAP NP_C0402_DISCRETE_0.1UF 105.590 -27.130
+ C473                CAP NP_C0402_DISCRETE_0.1UF 29.0700 -126.39
+ C474                CAP NP_C0603_DISCRETE_10UF 32.6780 -127.45
+ C478                CAP NP_C0402_DISCRETE_0.1UF 13.8320 -127.13
+ C479                CAP NP_C0402_DISCRETE_0.1UF 109.800 -48.210
+ C480                CAP NP_C0402_DISCRETE_0.1UF 38.3100 -128.13
+ C481                CAP NP_C0402_DISCRETE_0.1UF 31.8100 -128.63
+ C482                CAP NP_C0402_DISCRETE_0.1UF 28.0660 -128.37
+ C483                CAP NP_C0402_DISCRETE_0.1UF 19.0640 -128.39
+ C484                CAP NP_C0402_DISCRETE_0.1UF 18.0710 -128.39
+ C485                CAP NP_C0402_DISCRETE_0.1UF 30.8080 -129.63
+ C486                CAP NP_C0402_DISCRETE_0.1UF 23.8120 -129.64
+ C487                CAP NP_C0402_DISCRETE_0.1UF 115.000 -35.700
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/MPU/PCB/FMDEMOD-Long.brd                                |
+|                                                    Wed Dec 22 13:45:56 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C488                CAP NP_C0603_DISCRETE_10UF 11.5940 -25.078
+ C489                CAP NP_C0603_DISCRETE_10UF 25.8450 -130.54
+ C490                CAP NP_C0402_DISCRETE_0.1UF 16.5710 -130.37
+ C491                CAP NP_C0402_DISCRETE_0.1UF 35.1650 -129.64
+ C492                CAP NP_C0805_DISCRETE_10UF 152.400 -37.210
+ C493                CAP NP_C0805_DISCRETE_10UF 150.600 -37.210
+ C494                CAP NP_C0805_DISCRETE_10UF 148.800 -37.210
+ C495                CAP NP_C0805_DISCRETE_10UF 147.000 -37.210
+ C498                CAP NP_C0402_DISCRETE_0.1UF 14.8110 -130.63
+ C499                CAP NP_C0402_DISCRETE_0.1UF 22.8140 -130.63
+ C500                CAP NP_C0402_DISCRETE_0.1UF 31.8120 -130.64
+ C501                CAP NP_C0402_DISCRETE_0.1UF 18.8330 -130.14
+ C502                CAP NP_C0402_DISCRETE_0.1UF 21.0730 -130.39
+ C503                CAP NP_C0603_DISCRETE_10UF 11.0440 -131.37
+ C504                CAP NP_C0402_DISCRETE_0.1UF 114.100 -36.300
+ C505                CAP NP_C0402_DISCRETE_0.1UF 13.8210 -131.13
+ C506                CAP NP_C0402_DISCRETE_0.1UF 18.8330 -131.13
+ C507                CAP NP_C0402_DISCRETE_0.1UF 46.8360 -38.797
+ C508                CAP NP_C0402_DISCRETE_0.1UF 35.4010 -131.56
+ C509                CAP NP_C0402_DISCRETE_0.1UF 26.8100 -132.63
+ C510                CAP NP_C0402_DISCRETE_0.1UF 13.8310 -132.13
+ C511                CAP NP_C0402_DISCRETE_0.1UF 18.8330 -132.13
+ C512                CAP NP_C0402_DISCRETE_0.1UF 32.8130 -132.63
+ C513                CAP NP_C0402_DISCRETE_22PF 106.000 -37.500
+ C514                CAP NP_C0402_DISCRETE_0.1UF 28.6270 -133.58
+ C516                CAP NP_C0603_DISCRETE_10UF 23.3340 -132.97
+ C517                CAP NP_C0603_DISCRETE_10UF 22.3260 -133.77
+ C518                CAP NP_C0402_DISCRETE_0.1UF 26.8100 -133.63
+ C519                CAP NP_C0402_DISCRETE_0.1UF 31.8120 -133.63
+ C520                CAP NP_C0402_DISCRETE_0.1UF 18.8330 -133.13
+ C521                CAP NP_C0402_DISCRETE_0.1UF 13.8310 -133.14
+ C522                CAP NP_C0402_DISCRETE_0.1UF 26.8100 -134.63
+ C523                CAP NP_C0402_DISCRETE_0.1UF 13.8360 -134.13
+ C524                CAP NP_C0402_DISCRETE_0.1UF 31.8120 -134.63
+ C525                CAP NP_C0402_DISCRETE_0.1UF 115.200 -38.600
+ C526                CAP NP_C0402_DISCRETE_0.1UF 18.8330 -134.13
+ C527                CAP NP_C0402_DISCRETE_22PF 106.500 -40.200
+ C529                CAP NP_C0402_DISCRETE_0.1UF 26.8100 -135.63
+ C530                CAP NP_C0603_DISCRETE_10UF 23.3340 -134.98
+ C531                CAP NP_C0603_DISCRETE_10UF 22.3260 -135.78
+ C532                CAP NP_C0402_DISCRETE_0.1UF 114.700 -42.000
+ C533                CAP NP_C0402_DISCRETE_0.1UF 13.8360 -135.13
+ C534                CAP NP_C0402_DISCRETE_0.1UF 18.8330 -135.13
+ C535                CAP NP_C0805_DISCRETE_10UF 147.000 -40.210
+ C536                CAP NP_C0805_DISCRETE_10UF 148.800 -40.210
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/MPU/PCB/FMDEMOD-Long.brd                                |
+|                                                    Wed Dec 22 13:45:56 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C537                CAP NP_C0805_DISCRETE_10UF 150.600 -40.210
+ C538                CAP NP_C0805_DISCRETE_10UF 152.400 -40.210
+ C540                CAP NP_C0603_DISCRETE_10UF 37.2860 -135.80
+ C541                CAP NP_C0402_DISCRETE_0.1UF 35.4010 -135.95
+ C542                CAP NP_C0402_DISCRETE_0.1UF 26.8120 -136.63
+ C543                CAP NP_C0402_DISCRETE_0.1UF 18.8330 -136.13
+ C544                CAP NP_C0402_DISCRETE_0.1UF 31.8120 -136.63
+ C545                CAP NP_C0402_DISCRETE_0.1UF 13.8360 -136.13
+ C546                CAP NP_C0402_DISCRETE_0.1UF 108.700 -30.600
+ C548                CAP NP_C0402_DISCRETE_0.1UF 27.8060 -137.63
+ C549                CAP NP_C0402_DISCRETE_0.1UF 13.8360 -137.13
+ C550                CAP NP_C0402_DISCRETE_0.1UF 18.8330 -137.14
+ C551                CAP NP_C0603_DISCRETE_10UF 38.8960 -137.96
+ C552                CAP NP_C0402_DISCRETE_0.1UF 36.3910 -137.81
+ C553                CAP NP_C0402_DISCRETE_0.1UF 101.800 -27.900
+ C554                CAP NP_C0402_DISCRETE_0.1UF 24.5730 -138.37
+ C555                CAP NP_C0402_DISCRETE_0.1UF 23.5690 -138.37
+ C556                CAP NP_C0402_DISCRETE_0.1UF 22.5710 -138.37
+ C557                CAP NP_C0402_DISCRETE_0.1UF 21.5740 -138.37
+ C558                CAP NP_C0402_DISCRETE_0.1UF 20.5730 -138.37
+ C559                CAP NP_C0402_DISCRETE_0.1UF 14.8340 -138.13
+ C561                CAP NP_C0402_DISCRETE_0.1UF 33.0730 -138.39
+ C562                CAP NP_C0402_DISCRETE_0.1UF 14.8340 -139.09
+ C563                CAP NP_C0402_DISCRETE_0.1UF 29.8170 -139.63
+ C564                CAP NP_C0402_DISCRETE_0.1UF 26.8240 -139.63
+ C565                CAP NP_C0402_DISCRETE_0.1UF 18.8300 -139.13
+ C566                CAP NP_C0402_DISCRETE_0.1UF 115.500 -45.300
+ C567                CAP NP_C0402_DISCRETE_0.1UF 117.200 -41.600
+ C568                CAP NP_C0402_DISCRETE_0.1UF 126.600 -45.300
+ C569                CAP NP_C0402_DISCRETE_0.1UF 128.300 -41.600
+ C570                CAP NP_C0402_DISCRETE_0.1UF 122.900 -45.300
+ C571                CAP NP_C0402_DISCRETE_0.1UF 124.600 -41.600
+ C572                CAP NP_C0402_DISCRETE_0.1UF 119.200 -45.300
+ C573                CAP NP_C0402_DISCRETE_0.1UF 95.4000 -43.900
+ C574                CAP NP_C0402_DISCRETE_0.1UF 120.900 -41.600
+ C575                CAP NP_C0603_DISCRETE_10UF 25.0580 -139.21
+ C577                CAP NP_C0402_DISCRETE_0.1UF 15.8310 -140.13
+ C578                CAP NP_C0402_DISCRETE_0.1UF 25.8340 -140.13
+ C579                CAP NP_C0402_DISCRETE_0.1UF 18.5710 -141.37
+ C580                CAP NP_C0402_DISCRETE_0.1UF 28.8270 -141.13
+ C581                CAP NP_C0402_DISCRETE_0.1UF 13.8280 -141.13
+ C582                CAP NP_C0402_DISCRETE_0.1UF 14.8180 -142.63
+ C583                CAP NP_C0402_DISCRETE_0.1UF 28.0690 -142.38
+ C584                CAP NP_C0402_DISCRETE_0.1UF 26.0720 -142.38
+ C585                CAP NP_C0402_DISCRETE_0.1UF 25.0660 -142.38
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/MPU/PCB/FMDEMOD-Long.brd                                |
+|                                                    Wed Dec 22 13:45:56 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C586                CAP NP_C0402_DISCRETE_0.1UF 21.0700 -142.38
+ C587                CAP NP_C0402_DISCRETE_0.1UF 20.0720 -142.38
+ C588                CAP NP_C0402_DISCRETE_0.1UF 18.0680 -142.38
+ C589                CAP NP_C0402_DISCRETE_0.1UF 16.5710 -143.37
+ C590                CAP NP_C0603_DISCRETE_10UF 99.3000 -50.400
+ C592                CAP NP_C0603_DISCRETE_0.1UF 100.700 -51.200
+ C593                CAP NP_C0402_DISCRETE_0.1UF 12.8050 -144.13
+ C594                CAP NP_C0603_DISCRETE_2.2UF 103.900 -52.300
+ C595                CAP NP_C0603_DISCRETE_2.2UF 96.9000 -52.300
+ C597                CAP NP_C0402_DISCRETE_0.1UF 23.5870 -147.36
+ C598                CAP NP_C0402_DISCRETE_0.1UF 22.6120 -147.36
+ C599                CAP NP_C0402_DISCRETE_0.1UF 21.5430 -147.36
+ C600                CAP NP_C0402_DISCRETE_0.1UF 123.370 -22.270
+ C602                CAP NP_C0402_DISCRETE_0.1UF 17.2690 -149.90
+ C603                CAP NP_C0402_DISCRETE_0.1UF 123.370 -33.370
+ C604                CAP NP_C0402_DISCRETE_0.1UF  9.4140 -150.97
+ C605                CAP NP_C0402_DISCRETE_33PF  3.5630 -149.98
+ C606                CAP NP_C0402_DISCRETE_0.1UF 97.9000 -28.400
+ C608                CAP NP_C0402_DISCRETE_0.1UF 27.1850 -151.53
+ C609                CAP NP_C0402_DISCRETE_0.1UF 123.370 -25.970
+ C610                CAP NP_C0402_DISCRETE_0.1UF 123.370 -29.670
+ C612                CAP NP_C0402_DISCRETE_0.1UF 29.1210 -152.88
+ C613                CAP NP_C0402_DISCRETE_0.1UF 28.2380 -155.04
+ C614                CAP NP_C0402_DISCRETE_0.1UF 16.9890 -154.67
+ C615                CAP NP_C0603_DISCRETE_10UF  3.5580 -53.255
+ C616                CAP NP_C0402_DISCRETE_0.1UF 28.2380 -155.99
+ C617                CAP NP_C0402_DISCRETE_2.2UF  3.1890 -50.674
+ C637                CAP NP_C0402_DISCRETE_0.1UF 25.6340 -158.33
+ C638                CAP NP_C0402_DISCRETE_0.1UF 21.9700 -158.33
+ C639                CAP NP_C0402_DISCRETE_0.1UF 20.9930 -158.33
+ C640                CAP NP_C0402_DISCRETE_0.1UF 19.1210 -158.33
+ C641                CAP NP_C0603_DISCRETE_10UF  3.4990 -51.972
+ C642                CAP NP_C0805_DISCRETE_22UF 120.400 -63.100
+ C643                CAP NP_C0805_DISCRETE_22UF 104.200 -63.100
+ C644                CAP NP_C0603_DISCRETE_10UF 127.500 -27.700
+ C645                CAP NP_C0603_DISCRETE_10UF 122.070 -23.500
+ C646                CAP NP_C0603_DISCRETE_10UF 122.070 -27.200
+ C647                CAP NP_C0603_DISCRETE_10UF 122.070 -30.900
+ C648                CAP NP_C0805_DISCRETE_22UF 105.500 -61.840
+ C649                CAP NP_C0805_DISCRETE_22UF 121.700 -61.840
+ D11                 LED_LED0402_LED       35.4320 -123.77
+ D12                 LED_LED0402_LED        6.9330 -123.95
+ D13                 LED_LED0402_LED       37.4530 -126.78
+ D14                 LED_LED0402_LED       99.5000 -33.600
+ D15                 LED_LED0402_LED       100.700 -33.600
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/MPU/PCB/FMDEMOD-Long.brd                                |
+|                                                    Wed Dec 22 13:45:56 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ D16                 LED_LED0402_LED       100.500 -48.200
+ D17                 LED_LED0402_LED       96.8000 -48.200
+ D18                 1N4148WT_SOD-523F_1N4148WT 112.800 -26.600
+ D19                 LED_LED0402_LED       101.700 -33.200
+ D20                 LED_LED0402_LED       109.600 -44.100
+ D21                 LED_LED0402_LED       109.600 -42.900
+ D22                 DIODE BI-DIR TRIG_DF1006_ESD5451X 96.8000 -20.600
+ D24                 DIODE BI-DIR TRIG_DF1006_ESD5451X 130.382 -26.420
+ D25                 DIODE BI-DIR TRIG_DF1006_ESD5451X 98.2000 -20.600
+ D40                 1N4148WT_SOD-523F_1N4148WT 116.200 -34.800
+ D41                 LED_LED0402_BLUE      119.700 -17.610
+ D42                 LED_LED0402_BLUE      121.100 -70.000
+ D43                 LED_LED0402_LED       105.000 -48.200
+ D44                 DIODE BI-DIR TRIG_DF1006_ESD5451X 126.284 -26.280
+ D45                 DIODE BI-DIR TRIG_DF1006_ESD5451X 125.684 -23.390
+ D47                 DIODE BI-DIR TRIG_DF1006_ESD5451X 125.684 -21.570
+ D48                 DIODE BI-DIR TRIG_DF1006_ESD5451X 125.684 -19.700
+ D49                 DIODE BI-DIR TRIG_DF1006_ESD5451X 126.284 -33.670
+ D50                 DIODE BI-DIR TRIG_DF1006_ESD5451X 126.284 -31.800
+ D52                 DIODE BI-DIR TRIG_DF1006_ESD5451X 126.284 -29.970
+ D53                 DIODE BI-DIR TRIG_DF1006_ESD5451X 125.684 -27.090
+ D54                 DIODE BI-DIR TRIG_DF1006_ESD5451X 100.900 -20.600
+ D55                 DIODE BI-DIR TRIG_DF1006_ESD5451X 102.200 -20.600
+ D56                 LED_LED0402_BLUE      104.300 -57.800
+ J4                  HEADER-2X5P_HEADER-2X5P-1D27-SMD_HEADER-2X5P  9.7430 -125.72
+ J7                  HEADER1X6_1_SH1D0-SMD-VER-6P_HEADER1X6 112.140 -19.600
+ J9                  FPC-14P-0.5_FPC-14P-0D5_FPC-14P-0.5 38.9250 -145.59
+ J14                 HEADER-1X10_SH1D0-SMD-VER-10P_HEADER-1X10 131.484 -32.670
+ J15                 HEADER1X6_1_SH1D0-SMD-VER-6P_HEADER1X6 103.200 -19.600
+ J16                 HEADER-1X4_SH1D0-SMD-VER-4P_HEADER-1X4 119.600 -19.605
+ J18                 HEADER-1X10_SH1D0-SMD-VER-10P_HEADER-1X10 99.1000 -63.600
+ J19                 HEADER-1X10_SH1D0-SMD-VER-10P_HEADER-1X10 115.300 -63.600
+ J20                 HEADER-1X4_SH1D0-SMD-VER-4P_HEADER-1X4 98.9000 -39.200
+ L7                  INDUCTOR_CD54-IND-2P_DISCRETE_4.7UH/2A  9.6270 -109.04
+ L8                  INDUCTOR_CD54-IND-2P_DISCRETE_4.7UH/2A 19.8240 -109.04
+ L9                  INDUCTOR_CD54-IND-2P_DISCRETE_2.2UH/2A 30.0650 -109.04
+ L10                 INDUCTOR_CD54-IND-2P_DISCRETE_2.2UH/2A 40.3730 -109.04
+ L13                 BEAD_FB0603_DISCRETE_BLM18SP102SN1D  6.5020 -116.67
+ L14                 BEAD_FB0603_DISCRETE_BLM18SP102SN1D 14.4040 -116.67
+ L15                 BEAD_FB0603_DISCRETE_BLM18SP102SN1D 24.4370 -116.67
+ L16                 BEAD_FB0603_DISCRETE_BLM18SP102SN1D 32.1850 -116.67
+ L17                 BEAD_FB0603_DISCRETE_BLM18SP102SN1D 118.600 -33.400
+ L18                 BEAD_FB0603_DISCRETE_BEAD 35.6410 -127.64
+ L19                 INDUCTOR_L0805_DISCRETE_1UH/100MA 12.4850 -19.543
+ L20                 BEAD_FB0402_DISCRETE_MPZ1005D330ET000 113.600 -31.430
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  10  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/MPU/PCB/FMDEMOD-Long.brd                                |
+|                                                    Wed Dec 22 13:45:56 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ L21                 BEAD_FB0603_DISCRETE_BEAD 34.0000 -147.70
+ L22                 BEAD_FB0603_DISCRETE_BEAD 14.0260 -152.04
+ L35                 BEAD_FB0603_DISCRETE_BEAD 33.9780 -124.74
+ L36                 BEAD_FB0603_DISCRETE_BEAD 17.0490 -123.13
+ L37                 BEAD_FB0603_DISCRETE_BEAD 30.4210 -125.80
+ L38                 BEAD_FB0603_DISCRETE_BEAD 29.2720 -130.20
+ L39                 BEAD_FB0603_DISCRETE_BEAD 16.0100 -131.21
+ L40                 BEAD_FB0603_DISCRETE_BEAD 28.7000 -138.49
+ L41                 BEAD_FB0603_DISCRETE_BEAD 16.9270 -139.21
+ R49                 R_R0402_DISCRETE_100K  2.6700 -102.58
+ R50                 R_R0402_DISCRETE_DNP   4.8960 -102.58
+ R51                 R_R0402_DISCRETE_100K 12.8830 -102.58
+ R52                 R_R0402_DISCRETE_DNP  14.9920 -102.58
+ R53                 R_R0402_DISCRETE_100K 23.1670 -102.58
+ R54                 R_R0402_DISCRETE_DNP  25.3720 -102.58
+ R55                 R_R0402_DISCRETE_100K 33.3900 -102.58
+ R56                 R_R0402_DISCRETE_DNP  35.6110 -102.58
+ R57                 R_R0402_DISCRETE_100K  8.9510 -103.93
+ R58                 R_R0402_DISCRETE_787K  9.4040 -102.94
+ R59                 R_R0402_DISCRETE_DNP  10.8790 -103.93
+ R60                 R_R0402_DISCRETE_100K 19.0900 -103.93
+ R61                 R_R0402_DISCRETE_499K 19.5670 -102.94
+ R62                 R_R0402_DISCRETE_DNP  21.0510 -103.93
+ R63                 R_R0402_DISCRETE_100K 29.2450 -103.93
+ R64                 R_R0402_DISCRETE_180K 29.7430 -102.94
+ R65                 R_R0402_DISCRETE_DNP  31.2430 -103.93
+ R66                 R_R0402_DISCRETE_100K 39.6240 -103.93
+ R67                 R_R0402_DISCRETE_180K 40.1050 -102.94
+ R68                 R_R0402_DISCRETE_DNP  41.5950 -103.93
+ R69                 R_R0402_DISCRETE_40.2K  1.6800 -104.07
+ R70                 R_R0402_DISCRETE_40.2K 11.8930 -104.07
+ R71                 R_R0402_DISCRETE_40.2K 22.1770 -104.07
+ R72                 R_R0402_DISCRETE_40.2K 32.4000 -104.07
+ R75                 R_R0402_DISCRETE_294K  2.6700 -104.55
+ R76                 R_R0402_DISCRETE_182K 12.8830 -104.55
+ R77                 R_R0402_DISCRETE_127K 23.1670 -104.55
+ R78                 R_R0402_DISCRETE_40.2K 33.3900 -104.55
+ R86                 R_R0603_DISCRETE_0     1.3760 -106.87
+ R87                 R_R0603_DISCRETE_0    11.6020 -106.87
+ R88                 R_R0603_DISCRETE_0    21.8010 -106.87
+ R89                 R_R0603_DISCRETE_0    32.1870 -106.87
+ R119                R_R1206_DISCRETE_0    87.9000 -34.600
+ R129                R_R1206_DISCRETE_0     7.7800 -118.40
+ R130                R_R1206_DISCRETE_0    15.8360 -118.40
+ R131                R_R1206_DISCRETE_0    25.9340 -118.40
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  11  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/MPU/PCB/FMDEMOD-Long.brd                                |
+|                                                    Wed Dec 22 13:45:56 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R132                R_R1206_DISCRETE_0    33.5710 -118.40
+ R133                R_R0402_DISCRETE_1K   10.1680 -123.45
+ R134                R_R0402_DISCRETE_0    104.400 -32.200
+ R135                R_R0402_DISCRETE_DNP  105.400 -32.200
+ R136                R_R0402_DISCRETE_1K   35.4420 -124.80
+ R137                R_R0402_DISCRETE_1K   37.4630 -125.75
+ R138                R_R1206_DISCRETE_DNP  44.6000 -126.30
+ R139                R_R0603_DISCRETE_10K  39.9410 -129.00
+ R140                R_R0402_DISCRETE_1K   99.0000 -36.800
+ R142                R_R0402_DISCRETE_49.9 10.2510 -15.313
+ R144                R_R0402_DISCRETE_1K   100.200 -36.800
+ R145                R_R0402_DISCRETE_1K   99.3000 -48.210
+ R146                R_R0402_DISCRETE_10K  39.0140 -133.19
+ R148                R_R0603_DISCRETE_39   13.0710 -17.733
+ R150                R_R0402_DISCRETE_1K   98.0000 -48.210
+ R151                R_R0402_DISCRETE_5.1K 39.5000 -137.30
+ R153                R_R0402_DISCRETE_10K  97.6000 -43.200
+ R154                R_R0402_DISCRETE_12K  113.149 -24.610
+ R156                R_R0402_DISCRETE_68K  115.339 -24.610
+ R157                R_R0402_DISCRETE_10K  100.400 -44.300
+ R161                R_R0603_DISCRETE_10   13.2530 -35.842
+ R162                R_R0603_DISCRETE_51    7.8240 -31.140
+ R166                R_R0402_DISCRETE_1K   36.5690 -147.05
+ R167                R_R0402_DISCRETE_100  24.2960 -147.15
+ R169                R_R0402_DISCRETE_100  24.2960 -148.13
+ R170                R_R3216_DISCRETE_0.47 114.000 -57.300
+ R171                R_R3216_DISCRETE_0.47 117.900 -57.300
+ R172                R_R3216_DISCRETE_0.47 121.800 -57.300
+ R173                R_R3216_DISCRETE_0.47 125.700 -57.300
+ R174                R_R0402_DISCRETE_25   29.0390 -149.98
+ R176                R_R0402_DISCRETE_0    112.200 -54.400
+ R177                R_R0402_DISCRETE_100  30.0290 -150.44
+ R178                R_R0402_DISCRETE_0    108.300 -58.200
+ R180                R_R0402_DISCRETE_10K  113.900 -43.000
+ R181                R_R0402_DISCRETE_1K   106.300 -43.600
+ R182                R_R0402_DISCRETE_10K  116.600 -41.000
+ R183                R_R0402_DISCRETE_1K   103.300 -32.200
+ R184                R_R0402_DISCRETE_0    109.800 -58.200
+ R185                R_R0402_DISCRETE_33   37.8000 -153.20
+ R186                R_R0402_DISCRETE_1K   106.300 -42.400
+ R187                R_R0402_DISCRETE_10K  95.9000 -25.400
+ R188                R_R0402_DISCRETE_100  32.3040 -154.18
+ R189                R_R0402_DISCRETE_10K  98.1000 -25.400
+ R191                R_R0402_DISCRETE_49.9 39.9620 -61.070
+ R192                R_R0402_DISCRETE_33   39.0320 -61.403
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  12  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/MPU/PCB/FMDEMOD-Long.brd                                |
+|                                                    Wed Dec 22 13:45:56 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R193                R_R0402_DISCRETE_DNP  17.5340 -61.249
+ R194                R_R0402_DISCRETE_33   21.7740 -60.749
+ R195                R_R0402_DISCRETE_DNP  18.5240 -61.720
+ R196                R_R0402_DISCRETE_33   21.7740 -61.720
+ R197                R_R0402_DISCRETE_33   39.0320 -63.466
+ R198                R_R0402_DISCRETE_49.9 39.9620 -63.224
+ R231                R_R1206_DISCRETE_0    44.6160 -99.712
+ R287                R_R1206_DISCRETE_0    35.1780 -118.40
+ R288                R_R1206_DISCRETE_0    27.5450 -118.40
+ R289                R_R1206_DISCRETE_0    17.4520 -118.40
+ R290                R_R1206_DISCRETE_0     9.3930 -118.40
+ R291                R_R0603_DISCRETE_560  109.470 -27.780
+ R292                R_R0402_DISCRETE_DNP  28.5700 -125.20
+ R293                R_R0402_DISCRETE_10K  22.0710 -124.39
+ R294                R_R0402_DISCRETE_0    21.0720 -124.39
+ R295                R_R0402_DISCRETE_DNP  21.0710 -126.40
+ R297                R_R0603_DISCRETE_1K,1% 105.990 -24.460
+ R298                R_R0603_DISCRETE_1K,1% 108.490 -24.460
+ R299                R_R0603_DISCRETE_1K,1% 111.050 -24.460
+ R304                R_R0402_DISCRETE_51.1K 27.0840 -126.83
+ R305                R_R0402_DISCRETE_40.2K 25.6040 -127.82
+ R306                R_R0402_DISCRETE_51.1K 24.6270 -127.82
+ R307                R_R0402_DISCRETE_DNP  23.8120 -127.63
+ R308                R_R0402_DISCRETE_DNP  14.9180 -19.033
+ R309                R_R0402_DISCRETE_10K  106.400 -32.200
+ R310                R_R0402_DISCRETE_DNP  19.5690 -128.38
+ R311                R_R0402_DISCRETE_0    22.8220 -128.13
+ R313                R_R0402_DISCRETE_0    19.8330 -129.13
+ R314                R_R0402_DISCRETE_DNP  23.8930 -130.14
+ R315                R_R0402_DISCRETE_51.1K  8.8890 -130.08
+ R316                R_R0402_DISCRETE_40.2K  7.3930 -131.07
+ R317                R_R0402_DISCRETE_51.1K  6.3970 -131.07
+ R319                R_R0402_DISCRETE_0    24.8830 -131.63
+ R320                R_R0603_DISCRETE_560  114.500 -42.400
+ R321                R_R0402_DISCRETE_4.7K 117.000 -17.600
+ R323                R_R0402_DISCRETE_10K  115.200 -36.300
+ R327                R_R0402_DISCRETE_6.8K 121.100 -67.700
+ R328                R_R0402_DISCRETE_10K  97.9000 -36.800
+ R339                R_R0402_DISCRETE_10   116.200 -43.100
+ R340                R_R0402_DISCRETE_10   127.300 -43.100
+ R341                R_R0402_DISCRETE_10   123.600 -43.100
+ R342                R_R0402_DISCRETE_10   119.900 -43.100
+ R343                R_R0402_DISCRETE_0    107.300 -49.200
+ R344                R_R0402_DISCRETE_DNP  108.400 -49.200
+ R351                R_R0402_DISCRETE_10K  21.5720 -141.37
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  13  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/MPU/PCB/FMDEMOD-Long.brd                                |
+|                                                    Wed Dec 22 13:45:56 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R352                R_R0402_DISCRETE_1K   31.8300 -141.13
+ R353                R_R0402_DISCRETE_1K   31.8300 -142.13
+ R355                R_R0402_DISCRETE_10K  15.5720 -143.37
+ R356                R_R0402_DISCRETE_1K   31.8300 -143.13
+ R357                R_R0402_DISCRETE_10K  27.1890 -146.81
+ R358                R_R0402_DISCRETE_2.05K,1% 126.600 -46.700
+ R359                R_R0402_DISCRETE_2.05K,1% 122.900 -46.700
+ R360                R_R0402_DISCRETE_2.05K,1% 119.200 -46.700
+ R361                R_R0402_DISCRETE_2.05K,1% 115.500 -46.700
+ R362                R_R0402_DISCRETE_10K  27.6890 -148.46
+ R363                R_R0402_DISCRETE_0    103.800 -54.400
+ R364                R_R0603_DISCRETE_10   10.4290 -151.28
+ R365                R_R0402_DISCRETE_51    6.8840 -150.97
+ R366                R_R0402_DISCRETE_51    5.6090 -150.97
+ R367                R_R0402_DISCRETE_51    2.3060 -149.98
+ R370                R_R0402_DISCRETE_0    99.5000 -58.200
+ R373                R_R0402_DISCRETE_0    101.400 -58.200
+ R374                R_R0402_DISCRETE_1K   104.300 -49.200
+ R375                R_R0402_DISCRETE_10K  32.8990 -153.38
+ R377                R_R0402_DISCRETE_10K  100.900 -25.400
+ R378                R_R0402_DISCRETE_10K  102.900 -25.400
+ R379                R_R0402_DISCRETE_6.8K 104.900 -56.800
+ T2                  ADT2-1T+_0_SM-22_ETC1-1T-2TR 10.5220 -22.984
+ T3                  ADT2-1T+_0_SM-22_ETC1-1T-2TR 41.5280 -53.139
+ T4                  ADT2-1T+_0_SM-22_ETC1-1T-2TR 11.5100 -59.502
+ TP1                 T POINT R_TP_SMD_CIR_1D0_T POINT R 104.422 -30.072
+ TP2                 T POINT R_TP_SMD_CIR_1D0_T POINT R 101.419 -30.072
+ TP3                 T POINT R_TP_THR_CIR_1D7_1D0_T POINT R  8.7130 -13.138
+ TP4                 T POINT R_TP_SMD_CIR_1D0_T POINT R 99.4150 -28.970
+ TP11                T POINT R_TP_SMD_CIR_2D0_T POINT R 11.0740 -124.67
+ TP12                T POINT R_TP_SMD_CIR_2D0_T POINT R  5.7410 -126.32
+ TP13                T POINT S_TP_SMD_CIR_1D2_T POINT S 35.4370 -140.33
+ TP14                T POINT S_TP_SMD_CIR_1D2_T POINT S 40.1870 -141.56
+ TP15                T POINT S_TP_SMD_CIR_1D2_T POINT S 38.7050 -142.71
+ TP16                T POINT S_TP_SMD_CIR_1D2_T POINT S 40.8990 -143.37
+ TP17                T POINT S_TP_SMD_CIR_1D2_T POINT S 26.1860 -144.76
+ TP18                T POINT S_TP_SMD_CIR_1D2_T POINT S 40.6550 -145.08
+ TP19                T POINT S_TP_SMD_CIR_1D2_T POINT S 39.3210 -146.45
+ TP20                T POINT S_TP_SMD_CIR_1D2_T POINT S 26.1200 -146.81
+ TP21                T POINT S_TP_SMD_CIR_1D2_T POINT S 40.3650 -148.12
+ TP22                T POINT S_TP_SMD_CIR_1D2_T POINT S 26.1320 -148.47
+ TP23                T POINT S_TP_SMD_CIR_1D2_T POINT S 11.9770 -148.53
+ TP24                T POINT S_TP_SMD_CIR_1D2_T POINT S 40.3170 -150.33
+ TP25                T POINT S_TP_SMD_CIR_1D2_T POINT S 35.4830 -150.49
+ TP26                T POINT S_TP_SMD_CIR_1D2_T POINT S 32.8890 -154.49
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  14  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/MPU/PCB/FMDEMOD-Long.brd                                |
+|                                                    Wed Dec 22 13:45:56 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U11                 MP2326GD_QFN-14_MP2326GD  6.1670 -105.52
+ U12                 MP2326GD_QFN-14_MP2326GD 16.3600 -105.52
+ U13                 MP2326GD_QFN-14_MP2326GD 26.6050 -105.52
+ U14                 MP2326GD_QFN-14_MP2326GD 36.9300 -105.52
+ U18                 TPA711_MSOP-8-PAD_TPA711 41.2170 -30.253
+ U19                 STM32F103VET6_LQFP-100_STM32F103VET6 103.660 -38.310
+ U20                 EP4CE40F23I7_6_FBGA-484_EP4CE40F23I7 18.0240 -44.742
+ U21                 SGM2028-3.3_SOT-23-5_SGM2028-3.3 118.330 -28.590
+ U22                 MCP6001T-I/OT_SOT-23-5_ MCP6001T-I/OT 114.690 -28.590
+ U23                 SGM2028-3.3_SOT-23-5_SGM2028-3.3 13.6050 -29.290
+ U24                 PCM1754_SSOP-16_PCM1754 40.9510 -19.422
+ U25                 SN74LVC2G34DRL_SOT-23-6_SN74LVC2G34DBVR 102.600 -25.500
+ U26                 DRV8848PWPR_HTSSOP-16_DRV8848PWPR 117.650 -53.640
+ U27                 DRV8848PWPR_HTSSOP-16_DRV8848PWPR 125.350 -53.640
+ U28                 DRV8846RGER_VQFN-24_DRV8846RGER 108.810 -54.540
+ U29                 SGM2028-3.3_SOT-23-5_SGM2028-3.3 56.5300 -46.818
+ U30                 AD8306AR_0_SO-16_AD8306AR 11.5290 -52.641
+ U31                 SN74LVC2G34DRL_SOT-23-6_SN74LVC2G34DBVR 97.7000 -25.500
+ U32                 SN74LVC2G34DBV_SOT-23-6_SN74LVC2G34DBVR 34.5980 -152.60
+ U33                 LTC2207_QFN-48_LTC2207 28.0260 -54.714
+ U36                 TPS74601PBQWDRVRQ1_WSON-6_TPS74601PBQWDRVRQ1 26.7380 -124.59
+ U37                 MCP6001T-I/OT_SOT-23-5_ MCP6001T-I/OT 110.170 -27.380
+ U38                 TPS74601PBQWDRVRQ1_WSON-6_TPS74601PBQWDRVRQ1 14.1500 -23.513
+ U39                 TL431AIDBZT_SOT-23-3_TL431AIDBZT 113.800 -39.900
+ U40                 TL431AIDBZT_SOT-23-3_TL431AIDBZT 107.010 -25.865
+ U43                 AD8226ARMZ_MSOP-8_AD8226ARMZ 125.450 -48.800
+ U44                 AD8226ARMZ_MSOP-8_AD8226ARMZ 121.760 -48.800
+ U45                 AD8226ARMZ_MSOP-8_AD8226ARMZ 118.010 -48.800
+ U46                 AD8226ARMZ_MSOP-8_AD8226ARMZ 114.300 -48.800
+ U48                 DRV8846RGER_VQFN-24_DRV8846RGER 100.000 -54.540
+ U49                 EPCS4SI8N_0_SO-8_EPCQ16ASI8N 32.6450 -146.18
+ U50                 SN74LVC2G34DRL_SOT-23-6_SN74LVC2G34DBVR 124.284 -25.770
+ U51                 SN74LVC2G34DRL_SOT-23-6_SN74LVC2G34DBVR 124.284 -22.070
+ U52                 SN74LVC2G34DRL_SOT-23-6_SN74LVC2G34DBVR 124.284 -33.170
+ U53                 SN74LVC2G34DRL_SOT-23-6_SN74LVC2G34DBVR 124.284 -29.470
+ Y3                  CRYSTAL_CRY5032_8MHZ  110.100 -36.300
+ Y4                  OSCILLATOR_TSX-3225-4P_KC3225A49.1520C30E00 36.9690 -148.20
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  15  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/MPU/PCB/FMDEMOD-Long.brd                                |
+|                                                    Wed Dec 22 13:45:56 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Components deleted    :     622                                        |
+|                                                                              |
+|   Total ECO changes reported:     622                                        |
+|------------------------------------------------------------------------------|

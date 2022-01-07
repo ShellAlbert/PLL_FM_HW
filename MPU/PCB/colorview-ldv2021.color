@@ -1,0 +1,7 @@
+#  View replacement method:
+#  Complete
+
+color -globvis off
+color -vis "ETCH/TOP"
+color -vis "PIN/TOP"
+color -vis "VIA CLASS/TOP"

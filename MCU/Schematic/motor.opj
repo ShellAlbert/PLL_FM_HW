@@ -9,7 +9,7 @@
         (DisplayName ".\library1.olb")))
     ("Allegro Netlist Directory" "G:\github\PLL_FM_HW\MCU\Schematic\NETLIST")
     (DOCKED "TRUE")
-    (DOCKING_POSITION "59420")
+    (DOCKING_POSITION "59423")
     (NoModify)
     (File ".\motor.dsn"
       (Type "Schematic Design")
@@ -210,11 +210,11 @@
       (Path "Design Resources" "Library")
       (Path "Outputs")
       (Path "Logs")
-      (Select "Design Resources" ".\motor.dsn"))
+      (Select "Design Resources" ".\motor.dsn" "SCHEMATIC1" "03-STM32_CORE"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 663"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 267 0 244"))
       (Tab 0)))
   (ISPCBBASICLICENSE "false"))

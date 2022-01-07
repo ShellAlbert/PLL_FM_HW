@@ -1,0 +1,49 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    IPC-D-356                                                        )
+(                                                                     )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Tue Dec 28 15:59:42 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Warning: String VIA03015-GND-L9-BOTTOM exceeds record length on line 45 at column 0
+Warning: String VIA0402-GND-L9-BOTTOM exceeds record length on line 46 at column 0
+Warning: String VIA03015-SIGNAL-L7-SIGNAL-L8 exceeds record length on line 47 at column 0
+Warning: String VIA0402-SIGNAL-L7-SIGNAL-L8 exceeds record length on line 48 at column 0
+Warning: String VIA03015-GND-L5-PWR-L6 exceeds record length on line 49 at column 0
+Warning: String VIA0402-GND-L5-PWR-L6 exceeds record length on line 50 at column 0
+Warning: String VIA03015-SIGNAL-L3-SIGNAL-L4 exceeds record length on line 51 at column 0
+Warning: String VIA0402-SIGNAL-L3-SIGNAL-L4 exceeds record length on line 52 at column 0
+Warning: String THR_CIR_2D0_1D0_NO_PM exceeds record length on line 62 at column 0
+Warning: Found a mechanical pin at location (53.5000 -53.0000) with no drill - skipping.
+Warning: Found a mechanical pin at location (53.5000 -53.0000) with no drill - skipping.
+Warning: Found a mechanical pin at location (53.5000 -35.0000) with no drill - skipping.
+Warning: Found a mechanical pin at location (53.5000 -18.0000) with no drill - skipping.
+Warning: Found a mechanical pin at location (2.0000 -53.0000) with no drill - skipping.
+Warning: Found a mechanical pin at location (2.0000 -35.0000) with no drill - skipping.
+Warning: Found a mechanical pin at location (2.0000 -18.0000) with no drill - skipping.
+Warning: Found a mechanical pin at location (2.0000 -53.0000) with no drill - skipping.
+Warning: Found a mechanical pin at location (2.0000 -18.0000) with no drill - skipping.
+Warning: Found a mechanical pin at location (2.0000 -35.0000) with no drill - skipping.
+Warning: Found a mechanical pin at location (53.5000 -18.0000) with no drill - skipping.
+Warning: Found a mechanical pin at location (38.0000 -2.0000) with no drill - skipping.
+Warning: Found a mechanical pin at location (28.0000 -2.0000) with no drill - skipping.
+Warning: Found a mechanical pin at location (18.0000 -2.0000) with no drill - skipping.
+Warning: Found a mechanical pin at location (38.0000 -67.5000) with no drill - skipping.
+Warning: Found a mechanical pin at location (18.0000 -2.0000) with no drill - skipping.
+Warning: Found a mechanical pin at location (28.0000 -2.0000) with no drill - skipping.
+Warning: Found a mechanical pin at location (38.0000 -2.0000) with no drill - skipping.
+Warning: Found a mechanical pin at location (53.5000 -35.0000) with no drill - skipping.
+Warning: Found a mechanical pin at location (18.0000 -67.5000) with no drill - skipping.
+Warning: Found a mechanical pin at location (28.0000 -67.5000) with no drill - skipping.
+Warning: Found a mechanical pin at location (28.0000 -67.5000) with no drill - skipping.
+Warning: Found a mechanical pin at location (18.0000 -67.5000) with no drill - skipping.
+Warning: Found a mechanical pin at location (38.0000 -67.5000) with no drill - skipping.
+
+
+------------------------------------------
+SUMMARY:
+  Errors:       0
+  Warnings:    33

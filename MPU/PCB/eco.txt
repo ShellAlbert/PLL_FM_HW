@@ -1,0 +1,30 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/MPU/PCB/FMDEMOD-Long.brd                                |
+|                                                    Wed Dec 22 13:58:00 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ TP27                T POINT R_SCREW-M3_T POINT R  2.9000 -57.200
+ TP28                T POINT R_SCREW-M3_T POINT R 64.5000 -54.100
+ TP29                T POINT R_SCREW-M3_T POINT R  3.0000 -117.00
+ TP30                T POINT R_SCREW-M3_T POINT R 40.0000 -117.00
+ TP31                T POINT R_SCREW-M3_T POINT R 46.0000 -83.000
+ TP32                T POINT R_SCREW-M3_T POINT R 83.0000 -83.000
+ TP33                T POINT R_SCREW-M3_T POINT R 46.0000 -117.00
+ TP34                T POINT R_SCREW-M3_T POINT R 83.0000 -117.00
+ TP35                T POINT R_SCREW-M3_T POINT R 95.1000 -7.1000
+ TP36                T POINT R_SCREW-M3_T POINT R 130.900 -7.1000
+ TP39                T POINT R_SCREW-M3_T POINT R 40.0000 -157.00
+ TP40                T POINT R_SCREW-M3_T POINT R  3.0000 -157.00
+ TP41                T POINT R_SCREW-M3_T POINT R  3.0000 -123.00
+ TP42                T POINT R_SCREW-M3_T POINT R 40.0000 -123.00
+|------------------------------------------------------------------------------|
+|       Components deleted    :      14                                        |
+|                                                                              |
+|   Total ECO changes reported:      14                                        |
+|------------------------------------------------------------------------------|

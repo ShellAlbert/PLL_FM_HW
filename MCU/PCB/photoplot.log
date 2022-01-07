@@ -4,15 +4,10 @@
 (                                                                     )
 (    Drawing          : MCU-V4.brd                                    )
 (    Software Version : 17.4S017                                      )
-(    Date/Time        : Mon Nov 29 11:41:06 2021                      )
+(    Date/Time        : Tue Dec 28 16:44:26 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
-
-
- ******************************************
- WARNING: DRC OUT OF DATE on this layout.
- ******************************************
 
  ---- Photoplot outline rectangle not found; using drawing extents.
 
@@ -34,7 +29,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < TOP >
-     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/TOP.art > ...
+     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/Gerber_ZSY/TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -48,7 +43,7 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
-    WARNING: Film contains objects with associated DRCs (31).
+    WARNING: Film contains objects with associated DRCs (30).
            In the design editor view this film and enable visibility for the
            associated DRC layer. Verify the DRCs are approved exceptions to your rules.
 
@@ -103,7 +98,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < GND-L2 >
-     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/GND-L2.art > ...
+     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/Gerber_ZSY/GND-L2.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -128,12 +123,12 @@ Results from parameter file ...
   CIRCLE     1.20000                                  DARK 
   CIRCLE     3.80000                                  DARK 
 
-     GND-L2 created with warnings
+     GND-L2 created.
 
 
 ================================================================
      PROCESSING FILM < SIGNAL-L3 >
-     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/SIGNAL-L3.art > ...
+     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/Gerber_ZSY/SIGNAL-L3.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -162,12 +157,12 @@ Results from parameter file ...
   CIRCLE     1.20000                                  DARK 
   CIRCLE     3.80000                                  DARK 
 
-     SIGNAL-L3 created with warnings
+     SIGNAL-L3 created.
 
 
 ================================================================
      PROCESSING FILM < SIGNAL-L4 >
-     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/SIGNAL-L4.art > ...
+     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/Gerber_ZSY/SIGNAL-L4.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -195,12 +190,12 @@ Results from parameter file ...
   CIRCLE     1.20000                                  DARK 
   CIRCLE     3.80000                                  DARK 
 
-     SIGNAL-L4 created with warnings
+     SIGNAL-L4 created.
 
 
 ================================================================
      PROCESSING FILM < GND-L5 >
-     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/GND-L5.art > ...
+     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/Gerber_ZSY/GND-L5.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -225,12 +220,12 @@ Results from parameter file ...
   CIRCLE     1.20000                                  DARK 
   CIRCLE     3.80000                                  DARK 
 
-     GND-L5 created with warnings
+     GND-L5 created.
 
 
 ================================================================
      PROCESSING FILM < PWR-L6 >
-     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/PWR-L6.art > ...
+     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/Gerber_ZSY/PWR-L6.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -257,12 +252,12 @@ Results from parameter file ...
   CIRCLE     1.20000                                  DARK 
   CIRCLE     3.80000                                  DARK 
 
-     PWR-L6 created with warnings
+     PWR-L6 created.
 
 
 ================================================================
      PROCESSING FILM < SIGNAL-L7 >
-     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/SIGNAL-L7.art > ...
+     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/Gerber_ZSY/SIGNAL-L7.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -290,12 +285,12 @@ Results from parameter file ...
   CIRCLE     1.20000                                  DARK 
   CIRCLE     3.80000                                  DARK 
 
-     SIGNAL-L7 created with warnings
+     SIGNAL-L7 created.
 
 
 ================================================================
      PROCESSING FILM < SIGNAL-L8 >
-     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/SIGNAL-L8.art > ...
+     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/Gerber_ZSY/SIGNAL-L8.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -322,12 +317,12 @@ Results from parameter file ...
   CIRCLE     1.20000                                  DARK 
   CIRCLE     3.80000                                  DARK 
 
-     SIGNAL-L8 created with warnings
+     SIGNAL-L8 created.
 
 
 ================================================================
      PROCESSING FILM < GND-L9 >
-     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/GND-L9.art > ...
+     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/Gerber_ZSY/GND-L9.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -352,12 +347,12 @@ Results from parameter file ...
   CIRCLE     1.20000                                  DARK 
   CIRCLE     3.80000                                  DARK 
 
-     GND-L9 created with warnings
+     GND-L9 created.
 
 
 ================================================================
      PROCESSING FILM < BOTTOM >
-     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/BOTTOM.art > ...
+     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/Gerber_ZSY/BOTTOM.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -424,7 +419,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < SILKSCREEN_TOP >
-     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/SILKSCREEN_TOP.art > ...
+     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/Gerber_ZSY/SILKSCREEN_TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -449,12 +444,12 @@ Results from parameter file ...
   CIRCLE     0.10000                                  DARK 
   CIRCLE     0.20000                                  DARK 
 
-     SILKSCREEN_TOP created with warnings
+     SILKSCREEN_TOP created.
 
 
 ================================================================
      PROCESSING FILM < SILKSCREEN_BOTTOM >
-     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/SILKSCREEN_BOTTOM.art > ...
+     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/Gerber_ZSY/SILKSCREEN_BOTTOM.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -478,12 +473,12 @@ Results from parameter file ...
   CIRCLE     0.05000                                  DARK 
   CIRCLE     0.10000                                  DARK 
 
-     SILKSCREEN_BOTTOM created with warnings
+     SILKSCREEN_BOTTOM created.
 
 
 ================================================================
      PROCESSING FILM < SOLDERMASK_TOP >
-     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/SOLDERMASK_TOP.art > ...
+     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/Gerber_ZSY/SOLDERMASK_TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -532,12 +527,12 @@ Results from parameter file ...
   RECTANGLE  2.30000     x 2.30000       0.000 NO     DARK 
   RECTANGLE  3.30000     x 1.00000       0.000 NO     DARK 
 
-     SOLDERMASK_TOP created with warnings
+     SOLDERMASK_TOP created.
 
 
 ================================================================
      PROCESSING FILM < SOLDERMASK_BOTTOM >
-     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/SOLDERMASK_BOTTOM.art > ...
+     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/Gerber_ZSY/SOLDERMASK_BOTTOM.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -583,12 +578,12 @@ Results from parameter file ...
   RECTANGLE  2.30000     x 2.30000      90.000 NO     DARK 
   RECTANGLE  3.30000     x 1.00000       0.000 NO     DARK 
 
-     SOLDERMASK_BOTTOM created with warnings
+     SOLDERMASK_BOTTOM created.
 
 
 ================================================================
      PROCESSING FILM < PASTEMASK_TOP >
-     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/PASTEMASK_TOP.art > ...
+     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/Gerber_ZSY/PASTEMASK_TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -635,12 +630,12 @@ Results from parameter file ...
   RECTANGLE  2.20000     x 2.20000       0.000 NO     DARK 
   RECTANGLE  3.20000     x 0.90000       0.000 NO     DARK 
 
-     PASTEMASK_TOP created with warnings
+     PASTEMASK_TOP created.
 
 
 ================================================================
      PROCESSING FILM < PASTEMASK_BOTTOM >
-     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/PASTEMASK_BOTTOM.art > ...
+     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/Gerber_ZSY/PASTEMASK_BOTTOM.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -683,12 +678,12 @@ Results from parameter file ...
   RECTANGLE  2.20000     x 2.20000      90.000 NO     DARK 
   RECTANGLE  3.20000     x 0.90000       0.000 NO     DARK 
 
-     PASTEMASK_BOTTOM created with warnings
+     PASTEMASK_BOTTOM created.
 
 
 ================================================================
      PROCESSING FILM < DIMENSION >
-     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/DIMENSION.art > ...
+     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/Gerber_ZSY/DIMENSION.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -727,7 +722,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < OUTLINE >
-     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/OUTLINE.art > ...
+     TO FILE < G:/github/PLL_FM_HW/MCU/PCB/Gerber_ZSY/OUTLINE.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -749,28 +744,28 @@ Results from parameter file ...
   ---------------------------------------------------------
   CIRCLE     0.25400                                  DARK 
 
-     OUTLINE created with warnings
+     OUTLINE created.
 
 
 ------------------------------------------------------
  SUMMARY:
         TOP created with warnings
-        GND-L2 created with warnings
-        SIGNAL-L3 created with warnings
-        SIGNAL-L4 created with warnings
-        GND-L5 created with warnings
-        PWR-L6 created with warnings
-        SIGNAL-L7 created with warnings
-        SIGNAL-L8 created with warnings
-        GND-L9 created with warnings
+        GND-L2 created.
+        SIGNAL-L3 created.
+        SIGNAL-L4 created.
+        GND-L5 created.
+        PWR-L6 created.
+        SIGNAL-L7 created.
+        SIGNAL-L8 created.
+        GND-L9 created.
         BOTTOM created with warnings
-        SILKSCREEN_TOP created with warnings
-        SILKSCREEN_BOTTOM created with warnings
-        SOLDERMASK_TOP created with warnings
-        SOLDERMASK_BOTTOM created with warnings
-        PASTEMASK_TOP created with warnings
-        PASTEMASK_BOTTOM created with warnings
+        SILKSCREEN_TOP created.
+        SILKSCREEN_BOTTOM created.
+        SOLDERMASK_TOP created.
+        SOLDERMASK_BOTTOM created.
+        PASTEMASK_TOP created.
+        PASTEMASK_BOTTOM created.
         DIMENSION created with warnings
-        OUTLINE created with warnings
+        OUTLINE created.
 
  ARTWORK had warnings

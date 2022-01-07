@@ -1,0 +1,3107 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.4.0 d001Dec-30-2021 at 08:43:20 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='IMX8MINI';
+ POST_TIME='Apr 19 2021 16:22:31';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ BH1 'MOUNT_HOLE_GNDPOINT256_IC_MOUNTING HOLE':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107880904@FCL_MISC.MOUNT_HOLE.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107880904@fcl_misc.\mount_hole.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page13_ins107880904@fcl_misc.\mount_hole.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ BH2 'MOUNT_HOLE_GNDPOINT256_IC_MOUNTING HOLE':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107880911@FCL_MISC.MOUNT_HOLE.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107880911@fcl_misc.\mount_hole.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page13_ins107880911@fcl_misc.\mount_hole.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ BH3 'MOUNT_HOLE_GNDPOINT256_IC_MOUNTING HOLE':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107880918@FCL_MISC.MOUNT_HOLE.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107880918@fcl_misc.\mount_hole.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page13_ins107880918@fcl_misc.\mount_hole.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C1 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108254080@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108254080@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins108254080@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 'CAP_NP_0402_CC_DISCRETE_2.2UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108025117@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108025117@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108025117@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C100 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108248688@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108248688@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins108248688@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C101 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108248708@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108248708@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins108248708@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C104 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108248821@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108248821@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins108248821@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C105 'CAP_NP_0402_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS101478056@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins101478056@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins101478056@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C106 'CAP_NP_0402_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS101459798@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins101459798@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins101459798@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C108 'CAP_NP_0402_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS101459789@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins101459789@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins101459789@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C109 'CAP_NP_0402_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106779633@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106779633@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins106779633@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'CAP_NP_0402_CC_DISCRETE_2.2UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108025105@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108025105@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108025105@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C110 'CAP_NP_0402_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS102980662@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins102980662@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins102980662@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C111 'CAP_NP_0402_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS102980585@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins102980585@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins102980585@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C112 'CAP_NP_0402_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS102980601@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins102980601@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins102980601@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C113 'CAP_NP_0402_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106784439@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106784439@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins106784439@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C114 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107795113@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107795113@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107795113@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C115 'CAP_NP_0402_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS101479730@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins101479730@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins101479730@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C117 'CAP_NP_0402_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS101463133@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins101463133@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins101463133@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C118 'CAP_NP_0402_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106800054@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106800054@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins106800054@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C119 'CAP_NP_0402_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106800037@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106800037@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins106800037@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C12 'CAP_NP_0402_CC_DISCRETE_2.2UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108025129@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108025129@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108025129@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C123 'CAP_NP_0201_CC_DISCRETE_12PF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108231262@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108231262@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins108231262@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C124 'CAP_NP_0201_CC_DISCRETE_12PF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108231274@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108231274@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins108231274@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C127 'CAP_NP_0402_CC_DISCRETE_4.7UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108019542@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108019542@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page9_ins108019542@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C128 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107973171@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107973171@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page9_ins107973171@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C129 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107973183@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107973183@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page9_ins107973183@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C13 'CAP_NP_0402_CC_DISCRETE_4.7UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108026145@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108026145@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108026145@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C130 'CAP_NP_0402_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107973639@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107973639@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page9_ins107973639@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C131 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107973663@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107973663@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page9_ins107973663@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C132 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107973651@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107973651@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page9_ins107973651@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C133 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107974076@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107974076@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page9_ins107974076@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C136 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107974284@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107974284@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page9_ins107974284@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C137 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107974549@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107974549@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page9_ins107974549@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C138 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107974977@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107974977@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page9_ins107974977@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C139 'CAP_NP_0402_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107974965@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107974965@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page9_ins107974965@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C14 'CAP_NP_0402_CC_DISCRETE_4.7UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108025714@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108025714@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108025714@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C140 'CAP_NP_0805_CC_DISCRETE_47UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108731263@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108731263@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page10_ins108731263@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C141 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108731295@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108731295@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page10_ins108731295@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C142 'CAP_NP_0603_CC_DISCRETE_22UF':
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1';
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108024109@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108024109@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page10_ins108024109@fcl_capacitor.\cap_np.normal\(chips)',
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C143 'CAP_NP_0201_CC_DISCRETE_0.1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107970053@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107970053@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page10_ins107970053@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C144 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107969067@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107969067@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page10_ins107969067@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C145 'CAP_NP_0201_CC_DISCRETE_0.1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107970336@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107970336@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page10_ins107970336@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C146 'CAP_NP_0201_CC_DISCRETE_0.1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107970348@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107970348@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page10_ins107970348@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C147 'CAP_NP_0201_CC_DISCRETE_0.1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107970501@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107970501@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page10_ins107970501@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C148 'CAP_NP_0201_CC_DISCRETE_0.1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108137529@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108137529@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page10_ins108137529@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C15 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106771035@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106771035@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins106771035@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C16 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106771012@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106771012@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins106771012@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C17 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107198227@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107198227@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107198227@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C18 'CAP_NP_0402_CC_DISCRETE_4.7UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108026157@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108026157@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108026157@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP_NP_0402_CC_DISCRETE_2.2UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108166512@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108166512@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page13_ins108166512@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C20 'CAP_NP_0402_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106952127@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106952127@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins106952127@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C21 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107200587@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107200587@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107200587@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C23 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108255008@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108255008@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins108255008@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C234 'CAP_NP_0402_CC_DISCRETE_4.7UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108246289@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108246289@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins108246289@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C235 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108246197@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108246197@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins108246197@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C241 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108249831@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108249831@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins108249831@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C244 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108251832@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108251832@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins108251832@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C245 'CAP_NP_0201_CC_DISCRETE_18PF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107967352@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107967352@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page6_ins107967352@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C247 'CAP_NP_0402_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106771534@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106771534@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins106771534@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C248 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108740321@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108740321@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins108740321@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C251 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108740345@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108740345@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins108740345@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C253 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108740333@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108740333@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins108740333@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C254 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107354659@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107354659@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107354659@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C255 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107354670@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107354670@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107354670@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C256 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107355745@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107355745@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107355745@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C260 'CAP_NP_0402_CC_DISCRETE_4.7UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108018918@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108018918@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins108018918@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C264 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107231218@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107231218@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107231218@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C265 'CAP_NP_0402_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108248746@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108248746@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins108248746@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C266 'CAP_NP_0402_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106624726@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106624726@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins106624726@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C267 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107545828@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107545828@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107545828@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C268 'CAP_NP_0201_CC_DISCRETE_2200PF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108250823@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108250823@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins108250823@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C272 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107985373@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107985373@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins107985373@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C273 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107985108@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107985108@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins107985108@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C275 'CAP_NP_0603_CC_DISCRETE_22UF':
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1';
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106658825@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106658825@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins106658825@fcl_capacitor.\cap_np.normal\(chips)',
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C279 'CAP_NP_0603_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108024586@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108024586@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108024586@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C281 'CAP_NP_0603_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108024598@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108024598@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108024598@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C283 'CAP_NP_0603_CC_DISCRETE_22UF':
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1';
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106659706@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106659706@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins106659706@fcl_capacitor.\cap_np.normal\(chips)',
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C285 'CAP_NP_0603_CC_DISCRETE_22UF':
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1';
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106658814@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106658814@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins106658814@fcl_capacitor.\cap_np.normal\(chips)',
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C287 'CAP_NP_0603_CC_DISCRETE_22UF':
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1';
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106659717@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106659717@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins106659717@fcl_capacitor.\cap_np.normal\(chips)',
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C295 'CAP_NP_0603_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108024622@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108024622@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108024622@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C298 'CAP_NP_0201_CC_DISCRETE_18PF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107971785@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107971785@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins107971785@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C299 'CAP_NP_0201_CC_DISCRETE_18PF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107972065@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107972065@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins107972065@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107200631@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107200631@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107200631@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C30 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107361187@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107361187@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107361187@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C301 'CAP_NP_0603_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108024634@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108024634@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108024634@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C303 'CAP_NP_0603_CC_DISCRETE_22UF':
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1';
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106679064@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106679064@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins106679064@fcl_capacitor.\cap_np.normal\(chips)',
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C304 'CAP_NP_0603_CC_DISCRETE_22UF':
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1';
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106679075@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106679075@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins106679075@fcl_capacitor.\cap_np.normal\(chips)',
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C306 'CAP_NP_0603_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108024658@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108024658@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108024658@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C307 'CAP_NP_0603_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108118726@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108118726@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108118726@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C311 'CAP_NP_0603_CC_DISCRETE_22UF':
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1';
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106678981@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106678981@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins106678981@fcl_capacitor.\cap_np.normal\(chips)',
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C312 'CAP_NP_0603_CC_DISCRETE_22UF':
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1';
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106678992@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106678992@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins106678992@fcl_capacitor.\cap_np.normal\(chips)',
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C316 'CAP_NP_0603_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108024646@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108024646@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108024646@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C317 'CAP_NP_0603_CC_DISCRETE_22UF':
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1';
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106679194@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106679194@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins106679194@fcl_capacitor.\cap_np.normal\(chips)',
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C318 'CAP_NP_0603_CC_DISCRETE_22UF':
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1';
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106679183@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106679183@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins106679183@fcl_capacitor.\cap_np.normal\(chips)',
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C323 'CAP_NP_0603_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108024670@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108024670@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108024670@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C324 'CAP_NP_0603_CC_DISCRETE_22UF':
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1';
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106678882@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106678882@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins106678882@fcl_capacitor.\cap_np.normal\(chips)',
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C325 'CAP_NP_0603_CC_DISCRETE_22UF':
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1';
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106678893@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106678893@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins106678893@fcl_capacitor.\cap_np.normal\(chips)',
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C33 'CAP_NP_0402_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108740246@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108740246@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins108740246@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C333 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107983443@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107983443@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins107983443@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C337 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107983455@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107983455@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins107983455@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C35 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108740309@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108740309@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins108740309@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C351 'CAP_NP_0402_CC_DISCRETE_4.7UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108026728@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108026728@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108026728@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C36 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108740283@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108740283@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins108740283@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C360 'CAP_NP_0402_CC_DISCRETE_4.7UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108026704@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108026704@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108026704@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C363 'CAP_NP_0402_CC_DISCRETE_4.7UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108026716@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108026716@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108026716@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C365 'CAP_NP_0603_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108160375@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108160375@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108160375@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C370 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106796337@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106796337@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins106796337@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C371 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106796626@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106796626@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins106796626@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C372 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106796916@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106796916@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins106796916@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C373 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106803263@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106803263@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins106803263@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C374 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106803274@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106803274@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins106803274@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C375 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106803285@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106803285@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins106803285@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C376 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106803296@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106803296@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins106803296@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C378 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106801483@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106801483@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins106801483@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C379 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106801494@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106801494@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins106801494@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C380 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106801509@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106801509@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins106801509@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C381 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106803945@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106803945@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins106803945@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C382 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106804635@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106804635@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins106804635@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C384 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106808111@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106808111@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins106808111@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C391 'CAP_NP_0201_CC_DISCRETE_1UF_':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107372080@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107372080@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107372080@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C392 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107198835@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107198835@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107198835@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C393 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108125391@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108125391@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page7_ins108125391@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C394 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108125712@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108125712@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page7_ins108125712@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C400 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108122601@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108122601@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins108122601@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C401 'CAP_NP_0603_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108182785@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108182785@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page13_ins108182785@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C402 'CAP_NP_0603_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108183273@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108183273@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page13_ins108183273@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C403 'CAP_NP_0603_CC_DISCRETE_22UF':
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1';
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108183667@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108183667@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page13_ins108183667@fcl_capacitor.\cap_np.normal\(chips)',
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C404 'CAP_NP_0603_CC_DISCRETE_22UF':
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1';
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108184028@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108184028@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page13_ins108184028@fcl_capacitor.\cap_np.normal\(chips)',
+ SIGNAL_MODEL='DEFAULT_CAPACITOR_2.2e+07pF_2_1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C405 'CAP_NP_0402_CC_DISCRETE_2.2UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108750576@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108750576@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins108750576@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C48 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107331815@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107331815@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107331815@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107200642@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107200642@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107200642@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C54 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106771246@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106771246@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins106771246@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C55 'CAP_NP_0402_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107330561@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107330561@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107330561@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107361165@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107361165@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107361165@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C61 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107333063@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107333063@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107333063@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C65 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108123600@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108123600@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins108123600@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C74 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107334314@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107334314@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107334314@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C78 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107335565@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107335565@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107335565@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107648281@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107648281@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107648281@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C88 'CAP_NP_0402_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107224076@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107224076@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107224076@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C89 'CAP_NP_0402_CC_DISCRETE_10UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107223861@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107223861@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107223861@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107203242@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107203242@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107203242@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C90 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107223965@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107223965@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107223965@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C91 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107223976@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107223976@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107223976@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C92 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107224008@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107224008@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107224008@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C93 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107223931@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107223931@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107223931@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C94 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107525491@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107525491@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107525491@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C95 'CAP_NP_0201_CC_DISCRETE_1UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107526494@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107526494@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107526494@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C99 'CAP_NP_0201_CC_DISCRETE_0.22UF':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108248676@FCL_CAPACITOR.CAP_NP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108248676@fcl_capacitor.\cap_np.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins108248676@fcl_capacitor.\cap_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'LED_LED_0603_IC_LED GREEN':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108003121@FCL_OPTICAL.LED.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108003121@fcl_optical.\led.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page6_ins108003121@fcl_optical.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'UFL_CON_3_UFL_R_SMT_IO_MXC3N2001':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106407502@FCL_CONNECTOR.UFL.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106407502@fcl_connector.\ufl.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page10_ins106407502@fcl_connector.\ufl.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'HDR_2X50_M_CON100_0P4_21P7X2P05_SM_IO_DF40C-100DP-0.4V(51)':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107773612@FCL_CONNECTOR.HDR_2X50_M.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107773612@fcl_connector.\hdr_2x50_m.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page13_ins107773612@fcl_connector.\hdr_2x50_m.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 'HDR_2X50_M_CON100_0P4_22P8X3P1_SM_IO_DF40C-100DS-0.4V(51)':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108089251@FCL_CONNECTOR.HDR_2X50_M.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108089251@fcl_connector.\hdr_2x50_m.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page13_ins108089251@fcl_connector.\hdr_2x50_m.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J6 'CONN_HDR_2X1_HDR102_IO_HDR 1X2 TH':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107918732@FCL_CONNECTOR.CONN_HDR_2X1.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107918732@fcl_connector.\conn_hdr_2x1.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins107918732@fcl_connector.\conn_hdr_2x1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J7 'CONN_HDR_10X2_CON20_0P4_6P8X3P1_SM_IO_DF40C-20DS-0.4V(51)':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108144091@FCL_CONNECTOR.CONN_HDR_10X2.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108144091@fcl_connector.\conn_hdr_10x2.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page13_ins108144091@fcl_connector.\conn_hdr_10x2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L10 'INDUCTOR_IND_SPH2520_DISCRETE_0.47UH_20%':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108551555@FCL_INDUCTOR.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108551555@fcl_inductor.\inductor.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108551555@fcl_inductor.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L11 'INDUCTOR_IND_SPH2520_DISCRETE_1UH':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106679224@FCL_INDUCTOR.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106679224@fcl_inductor.\inductor.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins106679224@fcl_inductor.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L13 'INDUCTOR_IND_2016A_DISCRETE_0.47UH':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106679234@FCL_INDUCTOR.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106679234@fcl_inductor.\inductor.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins106679234@fcl_inductor.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L15 'INDUCTOR_IND_SPH2520_DISCRETE_0.47UH_20%':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106678817@FCL_INDUCTOR.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106678817@fcl_inductor.\inductor.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins106678817@fcl_inductor.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L2 'INDUCTOR_IND_2016A_DISCRETE_1.5UH':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108731250@FCL_INDUCTOR.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108731250@fcl_inductor.\inductor.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page10_ins108731250@fcl_inductor.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L3 'INDUCTOR_0402_CC_DISCRETE_2.2NH':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106399878@FCL_INDUCTOR.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106399878@fcl_inductor.\inductor.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page10_ins106399878@fcl_inductor.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L4 'IND_0402_CC_DISCRETE_1.3NH':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106400058@FCL_INDUCTOR.IND.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106400058@fcl_inductor.\ind.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page10_ins106400058@fcl_inductor.\ind.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L5 'INDUCTOR_IND_SPH2520_DISCRETE_0.47UH_20%':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106653965@FCL_INDUCTOR.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106653965@fcl_inductor.\inductor.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins106653965@fcl_inductor.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L6 'INDUCTOR_IND_SPH2520_DISCRETE_0.47UH_20%':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106658658@FCL_INDUCTOR.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106658658@fcl_inductor.\inductor.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins106658658@fcl_inductor.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q1 'NMOS_NX3008NBK_SC70_3_IC_NX3008NBKW,115':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108072562@FCL_SEMICONDUCTOR.NMOS_NX3008NBK.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108072562@fcl_semiconductor.\nmos_nx3008nbk.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page6_ins108072562@fcl_semiconductor.\nmos_nx3008nbk.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ QZ2 'XTAL_XTAL2-3P2X1P5-SM_IC_32.768KHZ':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106743460@FCL_XTAL_OSC.XTAL.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106743460@fcl_xtal_osc.\xtal.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins106743460@fcl_xtal_osc.\xtal.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'RES_0201_CC_DISCRETE_4.7K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107967181@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107967181@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page6_ins107967181@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R100 'RES_RC0402_25_DISCRETE_0_1%':
+ SIGNAL_MODEL='DEFAULT_RESISTOR_10000OHM_2_1';
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107160668@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107160668@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins107160668@fcl_resistor.\res.normal\(chips)',
+ SIGNAL_MODEL='DEFAULT_RESISTOR_10000OHM_2_1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R102 'RES_0201_CC_DISCRETE_100K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107971581@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107971581@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins107971581@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R103 'RES_0201_CC_DISCRETE_100K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107971267@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107971267@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins107971267@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R106 'RES_0201_CC_DISCRETE_100K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107985533@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107985533@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins107985533@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R108 'RES_0201_CC_DISCRETE_30K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107967756@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107967756@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page7_ins107967756@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R109 'RES_0201_CC_DISCRETE_30K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107967766@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107967766@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page7_ins107967766@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'RES_0201_CC_DISCRETE_4.7K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107967201@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107967201@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page6_ins107967201@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R111 'RES_0402_CC_DISCRETE_0_1%':
+ SIGNAL_MODEL='DEFAULT_RESISTOR_10000OHM_2_1';
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108129227@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108129227@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108129227@fcl_resistor.\res.normal\(chips)',
+ SIGNAL_MODEL='DEFAULT_RESISTOR_10000OHM_2_1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R113 'RES_RC0402_25_DISCRETE_0_1%':
+ SIGNAL_MODEL='DEFAULT_RESISTOR_10000OHM_2_1';
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107865334@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107865334@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins107865334@fcl_resistor.\res.normal\(chips)',
+ SIGNAL_MODEL='DEFAULT_RESISTOR_10000OHM_2_1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R114 'RES_0402_CC_DISCRETE_0':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107458500@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107458500@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins107458500@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R115 'RES_RC0402_25_DISCRETE_0':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107637013@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107637013@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page10_ins107637013@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R116 'RES_RC0402_25_DISCRETE_0':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107637072@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107637072@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page13_ins107637072@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R117 'RES_0201_CC_DISCRETE_10K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107983888@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107983888@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page9_ins107983888@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R118 'RES_0201_CC_DISCRETE_10K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107984040@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107984040@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page9_ins107984040@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R119 'RES_0201_CC_DISCRETE_10K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107984220@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107984220@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page6_ins107984220@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R12 'RES_0201_CC_DISCRETE_4.7K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107967191@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107967191@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page6_ins107967191@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R120 'RES_0201_CC_DISCRETE_10K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107984408@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107984408@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page6_ins107984408@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R121 'RES_0201_CC_DISCRETE_10K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107987307@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107987307@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107987307@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R122 'RES_0201_CC_DISCRETE_10K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107989066@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107989066@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107989066@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R123 'RES_0201_CC_DISCRETE_10K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107989360@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107989360@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107989360@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R124 'RES_0201_CC_DISCRETE_10K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107989375@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107989375@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107989375@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R125 'RES_0201_CC_DISCRETE_1K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108002946@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108002946@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page6_ins108002946@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R127 'RES_RC0402_25_DISCRETE_0':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108008850@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108008850@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108008850@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R129 'RES_RC0402_25_DISCRETE_0_1%':
+ SIGNAL_MODEL='DEFAULT_RESISTOR_10000OHM_2_1';
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108371976@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108371976@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page10_ins108371976@fcl_resistor.\res.normal\(chips)',
+ SIGNAL_MODEL='DEFAULT_RESISTOR_10000OHM_2_1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R13 'RES_0201_CC_DISCRETE_4.7K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107967211@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107967211@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page6_ins107967211@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R130 'RES_RC0402_25_DISCRETE_0_1%':
+ SIGNAL_MODEL='DEFAULT_RESISTOR_10000OHM_2_1';
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108372291@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108372291@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page10_ins108372291@fcl_resistor.\res.normal\(chips)',
+ SIGNAL_MODEL='DEFAULT_RESISTOR_10000OHM_2_1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R131 'RES_RC0402_25_DISCRETE_0_1%':
+ SIGNAL_MODEL='DEFAULT_RESISTOR_10000OHM_2_1';
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108372313@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108372313@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page10_ins108372313@fcl_resistor.\res.normal\(chips)',
+ SIGNAL_MODEL='DEFAULT_RESISTOR_10000OHM_2_1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R132 'RES_RC0402_25_DISCRETE_0_1%':
+ SIGNAL_MODEL='DEFAULT_RESISTOR_10000OHM_2_1';
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108372335@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108372335@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page10_ins108372335@fcl_resistor.\res.normal\(chips)',
+ SIGNAL_MODEL='DEFAULT_RESISTOR_10000OHM_2_1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R133 'RES_0201_CC_DISCRETE_4.7K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108489864@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108489864@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page6_ins108489864@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R134 'RES_RC0402_25_DISCRETE_0_1%':
+ SIGNAL_MODEL='DEFAULT_RESISTOR_10000OHM_2_1';
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108617568@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108617568@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins108617568@fcl_resistor.\res.normal\(chips)',
+ SIGNAL_MODEL='DEFAULT_RESISTOR_10000OHM_2_1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R135 'RES_0201_CC_DISCRETE_100K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108634398@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108634398@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins108634398@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R136 'RES_0402_CC_DISCRETE_0_1%':
+ SIGNAL_MODEL='DEFAULT_RESISTOR_10000OHM_2_1';
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108750540@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108750540@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins108750540@fcl_resistor.\res.normal\(chips)',
+ SIGNAL_MODEL='DEFAULT_RESISTOR_10000OHM_2_1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R14 'RES_0201_CC_DISCRETE_4.7K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107967231@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107967231@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page6_ins107967231@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R15 'RES_0201_CC_DISCRETE_4.7K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107967221@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107967221@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page6_ins107967221@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R16 'RES_0201_CC_DISCRETE_4.7K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107967251@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107967251@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page6_ins107967251@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R17 'RES_0201_CC_DISCRETE_4.7K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107967241@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107967241@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page6_ins107967241@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R18 'RES_0201_CC_DISCRETE_10K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107971414@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107971414@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins107971414@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R20 'RES_0201_CC_DISCRETE_100K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107971572@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107971572@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins107971572@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R21 'RES_0201_CC_DISCRETE_100K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107971563@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107971563@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins107971563@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R23 'RES_0201_CC_DISCRETE_10K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107971178@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107971178@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins107971178@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R26 'RES_0402_CC_DISCRETE_510K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108355689@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108355689@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins108355689@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R28 'RES_0402_CC_DISCRETE_8.2K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108229802@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108229802@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page7_ins108229802@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R29 'RES_0201_CC_DISCRETE_200':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108795850@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108795850@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page7_ins108795850@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R30 'RES_0201_CC_DISCRETE_200':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108795879@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108795879@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page7_ins108795879@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R37 'RES_0402_CC_DISCRETE_10K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS98684567@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins98684567@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page9_ins98684567@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'RES_0201_CC_DISCRETE_10K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107965011@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107965011@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107965011@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R44 'RES_0402_CC_DISCRETE_0':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106400361@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106400361@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page10_ins106400361@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R47 'RES_0402_CC_DISCRETE_10K_5%':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107726688@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107726688@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page11_ins107726688@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R48 'RES_0402_CC_DISCRETE_0':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106743904@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106743904@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins106743904@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'RES_0201_CC_DISCRETE_240 OHM':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107966779@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107966779@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107966779@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R51 'RES_0402_CC_DISCRETE_0':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108129199@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108129199@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108129199@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R52 'RES_0402_CC_DISCRETE_0':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106743309@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106743309@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins106743309@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R54 'RES_0402_CC_DISCRETE_0':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106743917@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106743917@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins106743917@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R55 'RES_RC0402_25_DISCRETE_0':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108224504@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108224504@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108224504@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R57 'RES_0201_CC_DISCRETE_1M':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107985789@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107985789@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins107985789@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'RES_0201_CC_DISCRETE_240 OHM':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107966789@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107966789@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107966789@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R61 'RES_0201_CC_DISCRETE_100K':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107985607@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107985607@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins107985607@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'RES_0201_CC_DISCRETE_240 OHM':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107966040@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107966040@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107966040@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R71 'RES_0402_CC_DISCRETE_10K_5%':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107039242@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107039242@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page11_ins107039242@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R72 'RES_0402_CC_DISCRETE_10K_5%':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107038957@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107038957@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page11_ins107038957@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R75 'RES_0402_CC_DISCRETE_10K_5%':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107038770@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107038770@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page11_ins107038770@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R76 'RES_0402_CC_DISCRETE_10K_5%':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107039167@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107039167@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page11_ins107039167@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R79 'RES_0402_CC_DISCRETE_10K_5%':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107726680@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107726680@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page11_ins107726680@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'RES_0402_CC_DISCRETE_150':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS101385713@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins101385713@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins101385713@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'RES_0402_CC_DISCRETE_150':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS101385735@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins101385735@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins101385735@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R95 'RES_0402_CC_DISCRETE_10K_5%':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107045433@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107045433@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page11_ins107045433@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R97 'RES_0402_CC_DISCRETE_10K_5%':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107045551@FCL_RESISTOR.RES.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107045551@fcl_resistor.\res.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page11_ins107045551@fcl_resistor.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP1 'TESTLOOP_TPAD_020_IO_TPAD_020':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108624111@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108624111@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins108624111@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP10 'T POINT R_TESTPOINT_35MIL_IC_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108490174@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108490174@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins108490174@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP11 'TESTLOOP_TPAD_020_IO_TPAD_020':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106399778@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106399778@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page10_ins106399778@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP12 'TESTLOOP_TPAD_020_IO_TPAD_020':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106400145@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106400145@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page10_ins106400145@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP13 'TESTLOOP_TPAD_020_IO_TPAD_020':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106399819@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106399819@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page10_ins106399819@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP14 'TESTLOOP_TPAD_020_IO_TPAD_020':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106400428@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106400428@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page10_ins106400428@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP15 'TESTLOOP_TPAD_020_IO_TPAD_020':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107005923@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107005923@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins107005923@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP16 'T POINT R_TESTPOINT_35MIL_IC_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108612392@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108612392@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page9_ins108612392@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP17 'T POINT R_TESTPOINT_35MIL_IC_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108612412@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108612412@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page9_ins108612412@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP18 'TESTLOOP_TPAD_020_IO_TPAD_020':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107222684@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107222684@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page9_ins107222684@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP19 'TESTLOOP_TPAD_020_IO_TPAD_020':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107322698@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107322698@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins107322698@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP2 'TESTLOOP_TPAD_020_IO_TPAD_020':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107622293@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107622293@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins107622293@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP20 'TESTLOOP_TPAD_020_IO_TPAD_020':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107704495@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107704495@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins107704495@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP21 'TESTLOOP_TPAD_020_IO_TPAD_020':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107704501@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107704501@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins107704501@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP22 'T POINT R_TESTPOINT_35MIL_IC_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107801893@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107801893@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins107801893@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP23 'T POINT R_TESTPOINT_35MIL_IC_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107801950@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107801950@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins107801950@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP24 'T POINT R_TESTPOINT_35MIL_IC_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107801973@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107801973@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins107801973@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP25 'T POINT R_TESTPOINT_35MIL_IC_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107801996@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107801996@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins107801996@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP26 'T POINT R_TESTPOINT_35MIL_IC_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107802022@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107802022@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins107802022@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP27 'T POINT R_TESTPOINT_35MIL_IC_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107802051@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107802051@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins107802051@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP28 'T POINT R_TESTPOINT_35MIL_IC_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107802074@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107802074@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins107802074@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP29 'T POINT R_TESTPOINT_35MIL_IC_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107802097@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107802097@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins107802097@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP3 'TESTLOOP_TPAD_020_IO_TPAD_020':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107622299@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107622299@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins107622299@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP30 'T POINT R_TESTPOINT_35MIL_IC_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107860244@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107860244@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins107860244@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP31 'T POINT R_TESTPOINT_35MIL_IC_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107802136@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107802136@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins107802136@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP32 'T POINT R_TESTPOINT_35MIL_IC_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107802155@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107802155@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins107802155@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP33 'T POINT R_TESTPOINT_35MIL_IC_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107802175@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107802175@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins107802175@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP34 'TESTLOOP_TPAD_020_IO_TPAD_020':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108612304@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108612304@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page9_ins108612304@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP35 'TESTLOOP_TPAD_015_IO_TPAD_015':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108612290@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108612290@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page9_ins108612290@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP36 'TESTLOOP_TPAD_020_IO_TPAD_020':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108612264@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108612264@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page9_ins108612264@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP37 'TESTLOOP_TPAD_020_IO_TPAD_020':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108601282@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108601282@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins108601282@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP38 'TESTLOOP_TPAD_020_IO_TPAD_020':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108126584@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108126584@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins108126584@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP39 'TESTLOOP_TPAD_020_IO_TPAD_020':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108126553@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108126553@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins108126553@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP4 'TESTLOOP_TPAD_020_IO_TPAD_020':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107622305@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107622305@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins107622305@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP40 'TESTLOOP_TPAD_015_IO_TPAD_015':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108612371@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108612371@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page9_ins108612371@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP44 'TESTLOOP_TPAD_050_IO_TPAD_050':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108165804@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108165804@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108165804@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP45 'TESTLOOP_TPAD_050_IO_TPAD_050':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108165811@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108165811@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108165811@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP46 'TESTLOOP_TPAD_050_IO_TPAD_050':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108165825@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108165825@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108165825@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP47 'TESTLOOP_TPAD_050_IO_TPAD_050':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108165818@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108165818@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108165818@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP48 'TESTLOOP_TPAD_015_IO_TPAD_015':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108276957@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108276957@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page10_ins108276957@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP49 'TESTLOOP_TPAD_015_IO_TPAD_015':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108277037@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108277037@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page10_ins108277037@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP5 'TESTLOOP_TPAD_020_IO_TPAD_020':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107622311@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107622311@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins107622311@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP50 'TESTLOOP_TPAD_015_IO_TPAD_015':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108277051@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108277051@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page10_ins108277051@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP51 'T POINT R_TESTPOINT_35MIL_IC_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108277087@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108277087@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page13_ins108277087@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP52 'TESTLOOP_TPAD_020_IO_TPAD_020':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108490012@FCL_CONNECTOR.TESTLOOP.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108490012@fcl_connector.\testloop.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108490012@fcl_connector.\testloop.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP53 'T POINT R_TESTPOINT_35MIL_IC_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108519621@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108519621@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108519621@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP6 'T POINT R_TESTPOINT_35MIL_IC_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108490168@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108490168@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins108490168@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP7 'T POINT R_TESTPOINT_35MIL_IC_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107161990@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107161990@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins107161990@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP8 'T POINT R_TESTPOINT_35MIL_IC_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107456976@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107456976@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins107456976@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP9 'T POINT R_TESTPOINT_35MIL_IC_TP_35MIL':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107457600@FCL_MISC.T POINT R.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107457600@fcl_misc.\t point r.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins107457600@fcl_misc.\t point r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'MIMX8MM_BGA486P_BGA486_0P5_14X14_IC__MIMX8MM6DVTLZAA':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS104876328@FCL_IC_FREESCALE.MIMX8MM_BGA486PA.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins104876328@fcl_ic_freescale.\mimx8mm_bga486pa.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins104876328@fcl_ic_freescale.\mimx8mm_bga486pa.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS104890594@FCL_IC_FREESCALE.MIMX8MM_BGA486PB.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins104890594@fcl_ic_freescale.\mimx8mm_bga486pb.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page7_ins104890594@fcl_ic_freescale.\mimx8mm_bga486pb.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106629711@FCL_IC_FREESCALE.MIMX8MM_BGA486PC.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106629711@fcl_ic_freescale.\mimx8mm_bga486pc.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page7_ins106629711@fcl_ic_freescale.\mimx8mm_bga486pc.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS104890500@FCL_IC_FREESCALE.MIMX8MM_BGA486PD.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins104890500@fcl_ic_freescale.\mimx8mm_bga486pd.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page7_ins104890500@fcl_ic_freescale.\mimx8mm_bga486pd.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+SECTION_NUMBER 5
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS104889996@FCL_IC_FREESCALE.MIMX8MM_BGA486PE.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins104889996@fcl_ic_freescale.\mimx8mm_bga486pe.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page7_ins104889996@fcl_ic_freescale.\mimx8mm_bga486pe.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='E';
+
+SECTION_NUMBER 6
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106371019@FCL_IC_FREESCALE.MIMX8MM_BGA486PF.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106371019@fcl_ic_freescale.\mimx8mm_bga486pf.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page6_ins106371019@fcl_ic_freescale.\mimx8mm_bga486pf.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='F';
+
+SECTION_NUMBER 7
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS104889200@FCL_IC_FREESCALE.MIMX8MM_BGA486PG.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins104889200@fcl_ic_freescale.\mimx8mm_bga486pg.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page6_ins104889200@fcl_ic_freescale.\mimx8mm_bga486pg.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='G';
+
+SECTION_NUMBER 8
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS104888648@FCL_IC_FREESCALE.MIMX8MM_BGA486PH.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins104888648@fcl_ic_freescale.\mimx8mm_bga486ph.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page6_ins104888648@fcl_ic_freescale.\mimx8mm_bga486ph.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='H';
+
+SECTION_NUMBER 9
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS104888912@FCL_IC_FREESCALE.MIMX8MM_BGA486PI.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins104888912@fcl_ic_freescale.\mimx8mm_bga486pi.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page6_ins104888912@fcl_ic_freescale.\mimx8mm_bga486pi.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='I';
+
+SECTION_NUMBER 10
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS104888798@FCL_IC_FREESCALE.MIMX8MM_BGA486PJ.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins104888798@fcl_ic_freescale.\mimx8mm_bga486pj.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page6_ins104888798@fcl_ic_freescale.\mimx8mm_bga486pj.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='J';
+
+SECTION_NUMBER 11
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS104877162@FCL_IC_FREESCALE.MIMX8MM_BGA486PK.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins104877162@fcl_ic_freescale.\mimx8mm_bga486pk.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page6_ins104877162@fcl_ic_freescale.\mimx8mm_bga486pk.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='K';
+
+SECTION_NUMBER 12
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS104889807@FCL_IC_FREESCALE.MIMX8MM_BGA486PL.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins104889807@fcl_ic_freescale.\mimx8mm_bga486pl.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins104889807@fcl_ic_freescale.\mimx8mm_bga486pl.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='L';
+
+SECTION_NUMBER 13
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106461663@FCL_IC_FREESCALE.MIMX8MM_BGA486PM.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106461663@fcl_ic_freescale.\mimx8mm_bga486pm.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins106461663@fcl_ic_freescale.\mimx8mm_bga486pm.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='M';
+
+SECTION_NUMBER 14
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS104885296@FCL_IC_FREESCALE.MIMX8MM_BGA486PN.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins104885296@fcl_ic_freescale.\mimx8mm_bga486pn.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins104885296@fcl_ic_freescale.\mimx8mm_bga486pn.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='N';
+
+PART_NAME
+ U2 'MT53D512M32D2DS_BGA200P_BGA200_0P65X0P8_10P1X14P6_IC_(S1+S2)_MT53D512M32D2DS-053 WT:D':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108426317@FCL_IC4.MT53D512M32D2DS_BGA200PA.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108426317@fcl_ic4.\mt53d512m32d2ds_bga200pa.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins108426317@fcl_ic4.\mt53d512m32d2ds_bga200pa.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108427156@FCL_IC4.MT53D512M32D2DS_BGA200PB.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108427156@fcl_ic4.\mt53d512m32d2ds_bga200pb.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page1_ins108427156@fcl_ic4.\mt53d512m32d2ds_bga200pb.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+PART_NAME
+ U4 'SDINBDG4-16G_VFBGA_153P_FBGA153_0P5_11P5X13_IC_SDINBDG4-16G-I1':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108312753@FCL_IC3.SDINBDG4-16G_VFBGA_153PA.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108312753@fcl_ic3.\sdinbdg4-16g_vfbga_153pa.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page9_ins108312753@fcl_ic3.\sdinbdg4-16g_vfbga_153pa.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108313400@FCL_IC3.SDINBDG4-16G_VFBGA_153PB.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108313400@fcl_ic3.\sdinbdg4-16g_vfbga_153pb.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page9_ins108313400@fcl_ic3.\sdinbdg4-16g_vfbga_153pb.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+PART_NAME
+ U5 'MT25QL256ABA1EW9_9P_DFN8_1P27_6X5MM_3P1_IC_MT25QU256ABA1EW7-0SIT':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS107701632@FCL_IC2.MT25QL256ABA1EW9_9P.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins107701632@fcl_ic2.\mt25ql256aba1ew9_9p.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page9_ins107701632@fcl_ic2.\mt25ql256aba1ew9_9p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U6 'LBEE5KL1PJ_QFN62_LQFN62_0P6_7P6X7P4_IC_LBEE5KL1PJ':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106400183@FCL_IC5.LBEE5KL1PJ_QFN62.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106400183@fcl_ic5.\lbee5kl1pj_qfn62.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page10_ins106400183@fcl_ic5.\lbee5kl1pj_qfn62.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U8 'BD71847MWV_UQFN56_UQFN56_0P4_7X7_EP_S185_IC_BD71847MWV':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108486676@FCL_IC3.BD71847MWV_UQFN56A.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108486676@fcl_ic3.\bd71847mwv_uqfn56a.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108486676@fcl_ic3.\bd71847mwv_uqfn56a.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108487848@FCL_IC3.BD71847MWV_UQFN56B.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108487848@fcl_ic3.\bd71847mwv_uqfn56b.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108487848@fcl_ic3.\bd71847mwv_uqfn56b.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS108488999@FCL_IC3.BD71847MWV_UQFN56C.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins108488999@fcl_ic3.\bd71847mwv_uqfn56c.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page12_ins108488999@fcl_ic3.\bd71847mwv_uqfn56c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+PART_NAME
+ Y1 'XTAL_13Y_XTLOSC4_3P2X2P5MM_SM_IC_24MHZ':;
+
+SECTION_NUMBER 1
+ '@IMX8MINI.8MMINILPD4-CPU(SCH_1):INS106758785@FCL_XTAL_OSC.XTAL_13Y.NORMAL(CHIPS)':
+ C_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):ins106758785@fcl_xtal_osc.\xtal_13y.normal\(chips)',
+ P_PATH='@imx8mini.\8mminilpd4-cpu\(sch_1):page8_ins106758785@fcl_xtal_osc.\xtal_13y.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

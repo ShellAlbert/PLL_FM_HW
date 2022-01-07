@@ -1,162 +1,19 @@
-\t (00:00:02) allegro 17.4 S017 Windows SPB 64-bit Edition
-\t (00:00:02)     Journal start - Thu Dec 16 17:50:06 2021
-\t (00:00:02)         Host=BF-202007251750 User=Administrator Pid=14512 CPUs=16
-\t (00:00:02) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
-\t (00:00:02) 
-   (00:00:02) Loading axlcore.cxt 
-\t (00:00:05) Opening existing design...
-\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged AB10
-\d (00:00:05) Design opened: G:/github/PLL_FM_HW/FM+MTR/AB10.brd
-\i (00:00:05) trapsize 23572
-\i (00:00:05) trapsize 24278
-\i (00:00:05) trapsize 24466
-\i (00:00:06) trapsize 19503
-\i (00:00:06) trapsize 19992
-\i (00:00:06) generaledit 
-\i (00:00:07) zoom in 1 
-\i (00:00:07) setwindow pcb
-\i (00:00:07) zoom in 27.1423 -32.7573
-\i (00:00:07) trapsize 9996
-\i (00:00:07) zoom in 1 
-\i (00:00:07) setwindow pcb
-\i (00:00:07) zoom in 27.1423 -32.7572
-\i (00:00:07) trapsize 4998
-\i (00:00:07) zoom out 1 
-\i (00:00:07) setwindow pcb
-\i (00:00:07) zoom out 30.7409 -23.7608
-\i (00:00:07) trapsize 9996
-\i (00:00:11) nctape_full 
-\i (00:00:18) setwindow form.nc_drill
-\i (00:00:18) FORM nc_drill parameters  
-\i (00:00:21) setwindow form.nc_parameters
-\i (00:00:21) FORM nc_parameters suppress_lead_zeroes YES 
-\i (00:00:24) FORM nc_parameters suppress_trail_zeroes YES 
-\i (00:00:25) FORM nc_parameters suppress_lead_zeroes YES 
-\i (00:00:25) FORM nc_parameters suppress_equal YES 
-\i (00:00:26) FORM nc_parameters enhanced_format YES 
-\i (00:00:34) FORM nc_parameters done  
-\i (00:00:35) setwindow form.nc_drill
-\i (00:00:35) FORM nc_drill execute  
-\t (00:00:35) Starting Generating NC Drill...
-\i (00:01:31) setwindow pcb
-\i (00:01:31) color192 
-\i (00:01:32) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
-\i (00:01:33) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
-\i (00:01:34) QtSignal CVDLayerTable CVDLayerTableHorzHeader clickedCheckBox Mfg 1
-\i (00:01:34) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
-\i (00:01:34) zoom out 1 
-\i (00:01:34) setwindow pcb
-\i (00:01:34) zoom out -22.2379 -64.9443
-\i (00:01:34) trapsize 19992
-\i (00:01:35) zoom out 1 
-\i (00:01:35) setwindow pcb
-\i (00:01:35) zoom out 55.3310 -52.5492
-\i (00:01:35) trapsize 39984
-\i (00:01:35) zoom out 1 
-\i (00:01:35) setwindow pcb
-\i (00:01:35) zoom out -38.3545 9.6295
-\i (00:01:35) trapsize 71474
-\i (00:01:36) zoom in 1 
-\i (00:01:36) setwindow pcb
-\i (00:01:36) zoom in 18.2954 -96.6402
-\i (00:01:36) trapsize 35737
-\i (00:01:36) zoom in 1 
-\i (00:01:36) setwindow pcb
-\i (00:01:36) zoom in -140.3773 -95.9255
-\i (00:01:36) trapsize 17869
-\i (00:01:37) zoom in 1 
-\i (00:01:37) setwindow pcb
-\i (00:01:37) zoom in 31.8755 -49.1099
-\i (00:01:37) trapsize 8934
-\i (00:01:37) zoom in 1 
-\i (00:01:37) setwindow pcb
-\i (00:01:37) zoom in 31.8756 -49.1099
-\i (00:01:37) trapsize 4467
-\i (00:01:37) zoom in 1 
-\i (00:01:37) setwindow pcb
-\i (00:01:37) zoom in 31.8756 -49.1098
-\i (00:01:37) trapsize 2234
-\i (00:01:37) zoom in 1 
-\i (00:01:37) setwindow pcb
-\i (00:01:37) zoom in 31.8756 -49.1098
-\i (00:01:37) trapsize 1117
-\i (00:01:39) zoom out 1 
-\i (00:01:39) setwindow pcb
-\i (00:01:39) zoom out 24.2591 -44.7096
-\i (00:01:39) trapsize 2234
-\i (00:01:39) zoom out 1 
-\i (00:01:39) setwindow pcb
-\i (00:01:39) zoom out 24.4378 -44.6203
-\i (00:01:39) trapsize 4467
-\i (00:01:39) zoom in 1 
-\i (00:01:39) setwindow pcb
-\i (00:01:39) zoom in 4.2463 -56.9496
-\i (00:01:39) trapsize 2234
-\i (00:01:39) zoom in 1 
-\i (00:01:39) setwindow pcb
-\i (00:01:39) zoom in 3.9783 -57.5749
-\i (00:01:39) trapsize 1117
-\i (00:01:39) zoom in 1 
-\i (00:01:39) setwindow pcb
-\i (00:01:39) zoom in 3.9336 -57.6642
-\i (00:01:39) trapsize 558
-\i (00:01:39) zoom in 1 
-\i (00:01:39) setwindow pcb
-\i (00:01:39) zoom in 3.9225 -57.7200
-\i (00:01:39) trapsize 279
-\i (00:01:40) zoom out 1 
-\i (00:01:40) setwindow pcb
-\i (00:01:40) zoom out 5.0559 -58.0048
-\i (00:01:40) trapsize 558
-\i (00:01:40) zoom out 1 
-\i (00:01:40) setwindow pcb
-\i (00:01:40) zoom out 4.9890 -57.8819
-\i (00:01:40) trapsize 1117
-\i (00:01:40) zoom out 1 
-\i (00:01:40) setwindow pcb
-\i (00:01:40) zoom out 4.9889 -57.8820
-\i (00:01:40) trapsize 2234
-\i (00:01:40) zoom out 1 
-\i (00:01:40) setwindow pcb
-\i (00:01:40) zoom out 4.9889 -57.8819
-\i (00:01:40) trapsize 4467
-\i (00:01:43) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Stack-Up"
-\i (00:01:44) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Areas
-\i (00:01:44) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
-\i (00:01:45) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry "Board geometry"
-\i (00:01:47) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Dimension BrdGeo 1
-\i (00:01:47) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 6 0
-\i (00:01:47) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:01:47) zoom out 1 
-\i (00:01:47) setwindow pcb
-\i (00:01:47) zoom out 5.9717 -51.8959
-\i (00:01:47) trapsize 8934
-\i (00:01:47) zoom out 1 
-\i (00:01:47) setwindow pcb
-\i (00:01:47) zoom out 5.9716 -53.5041
-\i (00:01:47) trapsize 17869
-\i (00:01:47) zoom out 1 
-\i (00:01:47) setwindow pcb
-\i (00:01:47) zoom out 9.5454 -59.5794
-\i (00:01:47) trapsize 35737
-\i (00:01:49) QtSignal ColorVisibilityDialog CVDOkButton clicked
-\i (00:01:49) zoom in 1 
-\i (00:01:49) setwindow pcb
-\i (00:01:49) zoom in 101.9239 -108.8971
-\i (00:01:49) trapsize 17869
-\i (00:01:51) save 
-\i (00:01:52) fillin yes 
-\i (00:01:52) generaledit 
-\i (00:01:57) nctape_full 
-\i (00:02:01) setwindow form.nc_drill
-\i (00:02:01) FORM nc_drill auto_tool_select YES 
-\i (00:02:01) FORM nc_drill optimize YES 
-\i (00:02:04) FORM nc_drill parameters  
-\i (00:02:21) setwindow form.nc_parameters
-\i (00:02:21) FORM nc_parameters done  
-\i (00:02:22) setwindow form.nc_drill
-\i (00:02:22) FORM nc_drill execute  
-\t (00:02:22) Starting Generating NC Drill...
-\i (00:03:38) setwindow pcb
-\i (00:03:38) exit 
-\t (00:03:42)     Journal end - Thu Dec 16 17:53:46 2021
+\t (00:00:06) allegro 17.4 S017 Windows SPB 64-bit Edition
+\t (00:00:06)     Journal start - Thu Dec 23 08:34:50 2021
+\t (00:00:06)         Host=BF-202007251750 User=Administrator Pid=8208 CPUs=16
+\t (00:00:06) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (00:00:06) 
+   (00:00:06) Loading axlcore.cxt 
+\t (00:00:07) Opening existing design...
+\i (00:00:08) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged AB10
+\d (00:00:08) Design opened: G:/github/PLL_FM_HW/FM+MTR/AB10.brd
+\i (00:00:08) trapsize 21597
+\i (00:00:08) trapsize 22243
+\i (00:00:08) trapsize 22415
+\i (00:00:08) trapsize 17869
+\i (00:00:08) trapsize 18317
+\i (00:00:09) generaledit 
+\i (00:00:19) opencd G:/github/PLL_FM_HW/MPU/PCB/FMDEMOD-Long.brd 
+\t (00:00:19) Opening existing design...
+\i (00:00:20) trapsize 4861
+\t (00:00:20)     Journal end - Thu Dec 23 08:35:04 2021
