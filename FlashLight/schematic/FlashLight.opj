@@ -199,12 +199,13 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\flashlight.dsn")
       (Path "Design Resources" ".\flashlight.dsn" "SCHEMATIC1")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 342 0 681"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 681"))
       (Tab 0)))
   (MPSSessionName "Administrator")
   (LastUsedLibraryBrowseDirectory
