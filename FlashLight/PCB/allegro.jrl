@@ -1,0 +1,143 @@
+\t (00:00:45) allegro 17.4 S017 Windows SPB 64-bit Edition
+\t (00:00:45)     Journal start - Tue Jan 11 09:31:41 2022
+\t (00:00:45)         Host=BF-202007251750 User=Administrator Pid=11060 CPUs=16
+\t (00:00:45) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (00:00:45) 
+\t (00:00:45) Starting new design...
+\i (00:00:45) trapsize 51939
+\i (00:00:45) trapsize 51939
+\i (00:00:45) generaledit 
+\i (00:00:50) define grid 
+\t (00:00:50) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:00:52) setwindow form.grid
+\i (00:00:52) FORM grid non_etch non_etch_x_grids 0.1 
+\i (00:00:53) FORM grid non_etch non_etch_y_grids 0.1 
+\i (00:00:54) FORM grid all_etch all_etch_x_grids 0.1 
+\i (00:00:55) FORM grid all_etch all_etch_y_grids 0.1 
+\i (00:00:55) FORM grid all_etch all_etch_x_offset 0.0000 
+\i (00:00:55) FORM grid all_etch all_etch_y_offset 0.0000 
+\i (00:00:56) FORM grid top subclass_x_grids 0.1000 
+\i (00:00:56) FORM grid top subclass_x_grids 0.1000 
+\i (00:00:56) FORM grid done  
+\i (00:01:01) setwindow pcb
+\i (00:01:01) shape add rect 
+\i (00:01:06) pick 0 0 
+\t (00:01:06) last pick:  0.0000 0.0000
+   (00:01:06) WARNING(SPMHA2-118): 'DESIGN_OUTLINE' and 'CUTOUT' are the preferred subclasses for defining an outline. Use these subclasses instead of the 'OUTLINE' subclass. [help]
+\i (00:01:08) fillin confirm
+\i (00:01:09) zoom in 1 
+\i (00:01:09) setwindow pcb
+\i (00:01:09) zoom in -20.3524 -64.0741
+\i (00:01:09) trapsize 25969
+\i (00:01:09) zoom in 1 
+\i (00:01:09) setwindow pcb
+\i (00:01:09) zoom in -3.2126 -55.2445
+\i (00:01:09) trapsize 12985
+\i (00:01:10) pick grid 65.8661 -54.4654
+\t (00:01:10) last pick:  65.9000 -54.5000
+\i (00:01:10) prepopup 95.9907 -17.8485
+\i (00:01:11) done 
+\i (00:01:11) generaledit 
+\i (00:01:12) save 
+\i (00:01:12) generaledit 
+\i (00:01:16) shape add rect 
+\i (00:01:20) setwindow form.mini
+\i (00:01:20) FORM mini subclass DESIGN_OUTLINE 
+\i (00:01:22) setwindow pcb
+\i (00:01:22) pick grid -2.4335 3.1868
+\t (00:01:22) last pick:  -2.4000 3.2000
+\i (00:01:23) pick grid 67.9437 -57.5817
+\t (00:01:23) last pick:  67.9000 -57.6000
+\i (00:01:23) prepopup 103.0024 -5.1234
+\i (00:01:24) done 
+\i (00:01:24) generaledit 
+\i (00:01:25) save 
+\i (00:01:25) fillin yes 
+\i (00:01:26) generaledit 
+\i (00:01:28) netin 
+\i (00:01:31) setwindow form.niparams
+\i (00:01:31) FORM niparams capture_netlist YES 
+\i (00:01:32) FORM niparams browse  
+\i (00:01:37) fillin "G:/github/PLL_FM_HW/FlashLight/schematic/NETLIST"
+\i (00:01:38) FORM niparams import  
+\t (00:01:38) Starting Cadence Logic Import...
+\e (00:01:38) ERROR(SPMHGE-268): netrev had errors, use Viewlog to review the log file.
+\i (00:01:52) setwindow text
+\i (00:01:52) close
+\i (00:01:54) setwindow form.niparams
+\i (00:01:54) FORM niparams five_dot_x YES 
+\i (00:01:55) fillin yes 
+\i (00:01:57) FORM niparams browse  
+\i (00:02:02) fillin "G:/github/PLL_FM_HW/FlashLight/schematic/NETLIST"
+\i (00:02:02) FORM niparams import  
+\t (00:02:02) Starting Cadence Logic Import...
+\e (00:02:03) ERROR(SPMHGE-268): netrev had errors, use Viewlog to review the log file.
+\i (00:02:07) setwindow text
+\i (00:02:07) close
+\i (00:02:08) setwindow pcb
+\i (00:02:08) generaledit 
+\i (00:02:09) save 
+\i (00:02:10) fillin yes 
+\i (00:02:10) generaledit 
+\i (00:02:41) netin 
+\i (00:02:43) setwindow form.niparams
+\i (00:02:43) FORM niparams capture_netlist YES 
+\i (00:02:45) fillin yes 
+\i (00:02:47) FORM niparams other  
+\i (00:02:49) FORM niparams cadence  
+\i (00:02:55) FORM niparams browse  
+\i (00:02:58) fillin "G:/github/PLL_FM_HW/FlashLight/schematic/NETLIST"
+\i (00:03:00) FORM niparams import  
+\t (00:03:00) Starting Cadence Logic Import...
+\e (00:03:01) ERROR(SPMHGE-268): netrev had errors, use Viewlog to review the log file.
+\i (00:04:24) setwindow pcb
+\i (00:04:24) xname_flush 
+\i (00:04:24) xname_flush 
+\i (00:04:26) xname_flush 
+\i (00:04:26) xname_flush 
+\i (00:04:28) xname_flush 
+\i (00:04:28) xname_flush 
+\i (00:04:29) xname_flush 
+\i (00:04:31) xname_flush 
+\i (00:04:31) xname_flush 
+\i (00:04:32) xname_flush 
+\i (00:04:33) xname_flush 
+\i (00:04:35) xname_flush 
+\i (00:04:36) xname_flush 
+\i (00:04:38) xname_flush 
+\i (00:04:39) xname_flush 
+\i (00:04:40) xname_flush 
+\i (00:04:41) xname_flush 
+\i (00:04:42) xname_flush 
+\i (00:04:43) xname_flush 
+\i (00:04:50) xname_flush '!' 
+\i (00:04:57) xname_flush 
+\i (00:04:59) xname_flush '!' 
+\i (00:05:16) xname_flush 
+\i (00:05:19) xname_flush 
+\i (00:05:39) xname_flush '!' 
+\i (00:05:40) xname_flush 
+\i (00:05:41) xname_flush 
+\i (00:05:41) xname_flush 
+\i (00:05:42) xname_flush 
+\i (00:05:44) xname_flush 
+\i (00:05:44) xname_flush 
+\i (00:05:56) xname_flush '!' 
+\i (00:06:01) xname_flush 
+\i (00:06:01) xname_flush 
+\i (00:06:02) xname_flush 
+\i (00:06:02) xname_flush 
+\i (00:06:17) xname_flush '!' 
+\i (00:06:31) xname_flush 
+\i (00:06:40) xname_flush '!' 
+\i (00:06:42) xname_flush 
+\i (00:06:42) xname_flush 
+\i (00:06:43) xname_flush 
+\i (00:06:44) xname_flush 
+\i (00:06:59) xname_flush '!' 
+\i (00:07:19) setwindow text
+\i (00:07:19) close
+\i (00:07:21) setwindow form.niparams
+\i (00:07:21) FORM niparams import  
+\t (00:07:21) Starting Cadence Logic Import...
+\e (00:07:22) ERROR(SPMHGE-268): netrev had errors, use Viewlog to review the log file.

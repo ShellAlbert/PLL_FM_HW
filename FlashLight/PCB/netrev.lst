@@ -1,0 +1,283 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : FLASHLIGHT_V1.brd                             )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Tue Jan 11 09:38:18 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'G:/github/PLL_FM_HW/FlashLight/schematic/NETLIST'
+Design Directory:            'G:/github/PLL_FM_HW/FlashLight/PCB'
+Old design name:             'G:/github/PLL_FM_HW/FlashLight/PCB/FLASHLIGHT_V1.brd'
+New design name:             'G:/github/PLL_FM_HW/FlashLight/PCB/FLASHLIGHT_V1.brd'
+
+CmdLine: netrev -$ -i G:/github/PLL_FM_HW/FlashLight/schematic/NETLIST -y 1 -h -q netrev_constraint_report.xml G:/github/PLL_FM_HW/FlashLight/PCB/#Taaaaca11060.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read G:/github/PLL_FM_HW/FlashLight/schematic/NETLIST/pstchip.dat 
+   Finished reading G:/github/PLL_FM_HW/FlashLight/schematic/NETLIST/pstchip.dat (00:00:00.01)
+Starting to read G:/github/PLL_FM_HW/FlashLight/schematic/NETLIST/pstxprt.dat 
+   Finished reading G:/github/PLL_FM_HW/FlashLight/schematic/NETLIST/pstxprt.dat (00:00:00.00)
+Starting to read G:/github/PLL_FM_HW/FlashLight/schematic/NETLIST/pstxnet.dat 
+   Finished reading G:/github/PLL_FM_HW/FlashLight/schematic/NETLIST/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'CR2032' used by RefDes BT1 for device 'BATTERY_CR2032_CR2032-3V' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old symbols.
+
+#2   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'CAP-SMD-8X9D7MM' used by RefDes C13 for device 'CAP NP_CAP-SMD-8X9D7MM_47UF' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old 
+
+#3   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'CAP-SMD-8X9D7MM' used by RefDes C81 for device 'CAP NP_CAP-SMD-8X9D7MM_22UF' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old 
+
+#4   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'SOD-123' used by RefDes D1 for device 'DIODE ZENER_SOD-123_BZT52C36V' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old symbols
+
+#5   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'DFN-1006DN' used by RefDes D25 for device 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migra
+
+#6   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'SOD-123' used by RefDes D43 for device 'DIODE ZENER_SOD-123_BZT52C5V1' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old symbol
+
+#7   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'FPC-0D5MM-6P-HON' used by RefDes J10 for device 'HEADER1X6_FPC-0D5MM-6P-HON_HEADER1X6' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to mi
+
+#8   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'SMD-SH1D0-6P-HOR' used by RefDes J11 for device 'HEADER1X6_SMD-SH1D0-6P-HOR_HEADER1X6' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to mi
+
+#9   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'SMD-SH1D0-8P-HOR' used by RefDes J2 for device 'HEADER1X8_SMD-SH1D0-8P-HOR_HEADER1X8' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to mig
+
+#10  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'SMD-SH1D0-4P-HOR' used by RefDes J3 for device 'HEADER1X4_SMD-SH1D0-4P-HOR_HEADER1X4' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to mig
+
+#11  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'SMD-SH1D0-16P-HOR' used by RefDes J4 for device 'HEADER1X16_SMD-SH1D0-16P-HOR_HEADER1X16' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to
+
+#12  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'SMD-PH2D0-4P-HOR' used by RefDes J7 for device 'HEADER1X4_SMD-PH2D0-4P-HOR_HEADER1X4' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to mig
+
+#13  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'IND-5D7X5D2X1D8' used by RefDes L1 for device 'INDUCTOR_IND-5D7X5D2X1D8_10UH' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old
+
+#14  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'L1206' used by RefDes L3 for device 'INDUCTOR_L1206_1UH' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old symbols.
+
+#15  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'SOP-8' used by RefDes Q4 for device 'NCE55P05S_1_SOP-8_NCE55P05S' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old symbols.
+
+#16  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'SOT-323' used by RefDes Q7 for device 'BAT54CW_0_SOT-323_BAT54CW' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old symbols.
+
+#17  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'R2010' used by RefDes R43 for device 'R_R2010_0.2' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old symbols.
+
+#18  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'MSOP-10' used by RefDes U1 for device 'SGM58031_MSOP-10_SGM58031' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old symbols.
+
+#19  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'SOP-8' used by RefDes U10 for device 'GD25Q40E_SOP-8_GD25Q40E' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old symbols.
+
+#20  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'SOT23-3' used by RefDes U12 for device 'SM712_SOT23-3_SM712' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old symbols.
+
+#21  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'SOIC-14' used by RefDes U2 for device 'SGM8968-4_SOIC-14_SGM8968-4' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old symbols.
+
+#1   ERROR(SPMHNI-191): Device/Symbol check error detected.
+
+ERROR(SPMHNI-195): Symbol 'SOIC-8' for device 'SGM6230_SOIC-8_SGM6230' is missing pin '9'.
+
+#22  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'XTDFN-1X1-6L' used by RefDes U38 for device 'SGM7SZ08YXDM6G/TR_XTDFN-1X1-6L_SGM7SZ08YXDM6G/TR' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoct
+
+#23  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'LQFP64' used by RefDes U6 for device 'GD32F303RE_LQFP64_GD32F303RGT6' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old symbols
+
+#24  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'SOP8-PP' used by RefDes U7 for device 'AS4950_SOP8-PP_AS4950' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old symbols.
+
+#25  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'CRY-SMD-3D2X2D5MM-4P' used by RefDes Y1 for device 'CRYSTAL_CRY-SMD-3D2X2D5MM-4P_8MHZ' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to mi
+
+#26  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'CRY-SMD-3D2X1D5MM-2P' used by RefDes Y2 for device 'CRYSTAL_CRY-SMD-3D2X1D5MM-2P_32.768KHZ' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor 
+
+------ Library Paths ------
+MODULEPATH =  . 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/local/pcb/symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/pcb_lib/symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/allegrolib/symbols 
+           G:/github/PLL_FM_HW/IMX8MINI/LIBS 
+           G:/github/PLL_FM_HW/LIBS 
+
+PADPATH =  G:/github/PLL_FM_HW/IMX8MINI/LIBS 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/local/pcb/padstacks 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/pcb_lib/symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/allegrolib/symbols 
+           G:/github/PLL_FM_HW/LIBS/via 
+           G:/github/PLL_FM_HW/LIBS 
+
+
+------ Summary Statistics ------
+
+
+#2   Run stopped because errors were detected
+
+netrev run on Jan 11 9:38:18 2022
+   DESIGN NAME : 'FLASHLIGHT'
+   PACKAGING ON Apr 19 2021 16:22:31
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+  2 errors detected
+ No oversight detected
+ 26 warnings detected
+
+cpu time      0:01:00
+elapsed time  0:00:00
+
