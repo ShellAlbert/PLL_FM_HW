@@ -1,6 +1,7 @@
-{ Using PSTWRITER 17.4.0 d001Jan-11-2022 at 09:38:12 }
+{ Using PSTWRITER 17.4.0 d001Jan-11-2022 at 17:46:56 }
 
 #1 WARNING(ORCAP-36005): Net " UART3_TX" is renamed to "UART3_TX".
+#2 WARNING(ORCAP-36006): Part Name "GD25Q40E_SOP8-150MIL_GD25Q40ETIG  " is renamed to "GD25Q40E_SOP8-150MIL_GD25Q40ETIG".
 INFO(ORCAP-36080): Scanning netlist files ...
 
 Loading... G:\github\PLL_FM_HW\FlashLight\schematic\NETLIST\pstchip.dat

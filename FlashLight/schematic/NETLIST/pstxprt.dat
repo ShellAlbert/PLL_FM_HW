@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.4.0 d001Jan-11-2022 at 09:38:13 }
+{ Using PSTWRITER 17.4.0 d001Jan-11-2022 at 17:46:57 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='FLASHLIGHT';
@@ -168,7 +168,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C13 'CAP NP_CAP-SMD-8X9D7MM_47UF':;
+ C13 'CAP NP_C2220_47UF':;
 
 SECTION_NUMBER 1
  '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS7839@DISCRETE.CAP NP.NORMAL(CHIPS)':
@@ -878,7 +878,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C79 'CAP NP_CAP-SMD-8X9D7MM_47UF':;
+ C79 'CAP NP_C2220_47UF':;
 
 SECTION_NUMBER 1
  '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9287389@DISCRETE.CAP NP.NORMAL(CHIPS)':
@@ -908,7 +908,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C81 'CAP NP_CAP-SMD-8X9D7MM_22UF':;
+ C81 'CAP NP_C2220_47UF':;
 
 SECTION_NUMBER 1
  '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9292161@DISCRETE.CAP NP.NORMAL(CHIPS)':
@@ -998,7 +998,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C9 'CAP NP_CAP-SMD-8X9D7MM_22UF':;
+ C9 'CAP NP_C2220_47UF':;
 
 SECTION_NUMBER 1
  '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS6696@DISCRETE.CAP NP.NORMAL(CHIPS)':
@@ -1038,12 +1038,12 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- D1 'DIODE ZENER_SOD-123_BZT52C36V':;
+ D1 'DIODE ZENER_0_SOD-123_BZT52C36V':;
 
 SECTION_NUMBER 1
- '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS3462@DISCRETE.DIODE ZENER.NORMAL(CHIPS)':
- C_PATH='@flashlight.schematic1(sch_1):ins3462@discrete.\diode zener.normal\(chips)',
- P_PATH='@flashlight.schematic1(sch_1):page1_ins3462@discrete.\diode zener.normal\(chips)',
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS3462@FLASHLIGHT.DIODE ZENER_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins3462@flashlight.\diode zener_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins3462@flashlight.\diode zener_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1108,12 +1108,12 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- D3 'DIODE ZENER_DO-214AC_SS35':;
+ D3 'DIODE ZENER_0_DO-214AC_SS35':;
 
 SECTION_NUMBER 1
- '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS8125@DISCRETE.DIODE ZENER.NORMAL(CHIPS)':
- C_PATH='@flashlight.schematic1(sch_1):ins8125@discrete.\diode zener.normal\(chips)',
- P_PATH='@flashlight.schematic1(sch_1):page1_ins8125@discrete.\diode zener.normal\(chips)',
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS8125@FLASHLIGHT.DIODE ZENER_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins8125@flashlight.\diode zener_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins8125@flashlight.\diode zener_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1228,62 +1228,62 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- D40 'DIODE ZENER_DO-214AC_SMAJ3.3A':;
+ D40 'DIODE ZENER_0_DO-214AC_SMAJ3.3A':;
 
 SECTION_NUMBER 1
- '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9284665@DISCRETE.DIODE ZENER.NORMAL(CHIPS)':
- C_PATH='@flashlight.schematic1(sch_1):ins9284665@discrete.\diode zener.normal\(chips)',
- P_PATH='@flashlight.schematic1(sch_1):page1_ins9284665@discrete.\diode zener.normal\(chips)',
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9284665@FLASHLIGHT.DIODE ZENER_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9284665@flashlight.\diode zener_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9284665@flashlight.\diode zener_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- D41 'DIODE ZENER_DO-214AC_SS35':;
+ D41 'DIODE ZENER_0_DO-214AC_SS35':;
 
 SECTION_NUMBER 1
- '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9286921@DISCRETE.DIODE ZENER.NORMAL(CHIPS)':
- C_PATH='@flashlight.schematic1(sch_1):ins9286921@discrete.\diode zener.normal\(chips)',
- P_PATH='@flashlight.schematic1(sch_1):page1_ins9286921@discrete.\diode zener.normal\(chips)',
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9286921@FLASHLIGHT.DIODE ZENER_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9286921@flashlight.\diode zener_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9286921@flashlight.\diode zener_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- D42 'DIODE ZENER_DO-214AC_SMAJ3.3A':;
+ D42 'DIODE ZENER_0_DO-214AC_SMAJ3.3A':;
 
 SECTION_NUMBER 1
- '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9293160@DISCRETE.DIODE ZENER.NORMAL(CHIPS)':
- C_PATH='@flashlight.schematic1(sch_1):ins9293160@discrete.\diode zener.normal\(chips)',
- P_PATH='@flashlight.schematic1(sch_1):page1_ins9293160@discrete.\diode zener.normal\(chips)',
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9293160@FLASHLIGHT.DIODE ZENER_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9293160@flashlight.\diode zener_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9293160@flashlight.\diode zener_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- D43 'DIODE ZENER_SOD-123_BZT52C5V1':;
+ D43 'DIODE ZENER_0_SOD-123_BZT52C5V1':;
 
 SECTION_NUMBER 1
- '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9300150@DISCRETE.DIODE ZENER.NORMAL(CHIPS)':
- C_PATH='@flashlight.schematic1(sch_1):ins9300150@discrete.\diode zener.normal\(chips)',
- P_PATH='@flashlight.schematic1(sch_1):page1_ins9300150@discrete.\diode zener.normal\(chips)',
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9300150@FLASHLIGHT.DIODE ZENER_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9300150@flashlight.\diode zener_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9300150@flashlight.\diode zener_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- D44 'DIODE ZENER_DO-214AC_SMAJ3.3A':;
+ D44 'DIODE ZENER_0_DO-214AC_SMAJ3.3A':;
 
 SECTION_NUMBER 1
- '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9305307@DISCRETE.DIODE ZENER.NORMAL(CHIPS)':
- C_PATH='@flashlight.schematic1(sch_1):ins9305307@discrete.\diode zener.normal\(chips)',
- P_PATH='@flashlight.schematic1(sch_1):page1_ins9305307@discrete.\diode zener.normal\(chips)',
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9305307@FLASHLIGHT.DIODE ZENER_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9305307@flashlight.\diode zener_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9305307@flashlight.\diode zener_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- D45 'DIODE ZENER_DO-214AC_SMAJ3.3A':;
+ D45 'DIODE ZENER_0_DO-214AC_SMAJ3.3A':;
 
 SECTION_NUMBER 1
- '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9308392@DISCRETE.DIODE ZENER.NORMAL(CHIPS)':
- C_PATH='@flashlight.schematic1(sch_1):ins9308392@discrete.\diode zener.normal\(chips)',
- P_PATH='@flashlight.schematic1(sch_1):page1_ins9308392@discrete.\diode zener.normal\(chips)',
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9308392@FLASHLIGHT.DIODE ZENER_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9308392@flashlight.\diode zener_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9308392@flashlight.\diode zener_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1378,92 +1378,92 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- J10 'HEADER1X6_FPC-0D5MM-6P-HON_HEADER1X6':;
+ J10 'HEADER1X6_0_FPC-0D5MM-6P-HON_HEADER1X6':;
 
 SECTION_NUMBER 1
- '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9334725@LIBRARY1.HEADER1X6.NORMAL(CHIPS)':
- C_PATH='@flashlight.schematic1(sch_1):ins9334725@library1.\header1x6.normal\(chips)',
- P_PATH='@flashlight.schematic1(sch_1):page1_ins9334725@library1.\header1x6.normal\(chips)',
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9334725@FLASHLIGHT.HEADER1X6_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9334725@flashlight.\header1x6_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9334725@flashlight.\header1x6_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- J11 'HEADER1X6_SMD-SH1D0-6P-HOR_HEADER1X6':;
+ J11 'HEADER1X6_0_SMD-SH1D0-6P-HOR_HEADER1X6':;
 
 SECTION_NUMBER 1
- '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9426503@LIBRARY1.HEADER1X6.NORMAL(CHIPS)':
- C_PATH='@flashlight.schematic1(sch_1):ins9426503@library1.\header1x6.normal\(chips)',
- P_PATH='@flashlight.schematic1(sch_1):page1_ins9426503@library1.\header1x6.normal\(chips)',
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9426503@FLASHLIGHT.HEADER1X6_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9426503@flashlight.\header1x6_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9426503@flashlight.\header1x6_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- J12 'HEADER1X6_SMD-SH1D0-6P-HOR_HEADER1X6':;
+ J12 'HEADER1X6_0_SMD-SH1D0-6P-HOR_HEADER1X6':;
 
 SECTION_NUMBER 1
- '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9427007@LIBRARY1.HEADER1X6.NORMAL(CHIPS)':
- C_PATH='@flashlight.schematic1(sch_1):ins9427007@library1.\header1x6.normal\(chips)',
- P_PATH='@flashlight.schematic1(sch_1):page1_ins9427007@library1.\header1x6.normal\(chips)',
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9427007@FLASHLIGHT.HEADER1X6_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9427007@flashlight.\header1x6_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9427007@flashlight.\header1x6_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- J2 'HEADER1X8_SMD-SH1D0-8P-HOR_HEADER1X8':;
+ J2 'HEADER1X8_0_SMD-SH1D0-8P-HOR_HEADER1X8':;
 
 SECTION_NUMBER 1
- '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS44774@LIBRARY1.HEADER1X8.NORMAL(CHIPS)':
- C_PATH='@flashlight.schematic1(sch_1):ins44774@library1.\header1x8.normal\(chips)',
- P_PATH='@flashlight.schematic1(sch_1):page1_ins44774@library1.\header1x8.normal\(chips)',
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS44774@FLASHLIGHT.HEADER1X8_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins44774@flashlight.\header1x8_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins44774@flashlight.\header1x8_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- J3 'HEADER1X4_SMD-SH1D0-4P-HOR_HEADER1X4':;
+ J3 'HEADER1X4_0_SMD-SH1D0-4P-HOR_HEADER1X4':;
 
 SECTION_NUMBER 1
- '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9259118@LIBRARY1.HEADER1X4.NORMAL(CHIPS)':
- C_PATH='@flashlight.schematic1(sch_1):ins9259118@library1.\header1x4.normal\(chips)',
- P_PATH='@flashlight.schematic1(sch_1):page1_ins9259118@library1.\header1x4.normal\(chips)',
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9259118@FLASHLIGHT.HEADER1X4_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9259118@flashlight.\header1x4_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9259118@flashlight.\header1x4_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- J4 'HEADER1X16_SMD-SH1D0-16P-HOR_HEADER1X16':;
+ J4 'HEADER1X16_0_SMD-SH1D0-16P-HOR_HEADER1X16':;
 
 SECTION_NUMBER 1
- '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9277778@LIBRARY1.HEADER1X16.NORMAL(CHIPS)':
- C_PATH='@flashlight.schematic1(sch_1):ins9277778@library1.\header1x16.normal\(chips)',
- P_PATH='@flashlight.schematic1(sch_1):page1_ins9277778@library1.\header1x16.normal\(chips)',
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9277778@FLASHLIGHT.HEADER1X16_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9277778@flashlight.\header1x16_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9277778@flashlight.\header1x16_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- J7 'HEADER1X4_SMD-PH2D0-4P-HOR_HEADER1X4':;
+ J7 'HEADER1X4_0_SMD-PH2D0-4P-HOR_HEADER1X4':;
 
 SECTION_NUMBER 1
- '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9281471@LIBRARY1.HEADER1X4.NORMAL(CHIPS)':
- C_PATH='@flashlight.schematic1(sch_1):ins9281471@library1.\header1x4.normal\(chips)',
- P_PATH='@flashlight.schematic1(sch_1):page1_ins9281471@library1.\header1x4.normal\(chips)',
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9281471@FLASHLIGHT.HEADER1X4_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9281471@flashlight.\header1x4_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9281471@flashlight.\header1x4_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- J8 'HEADER1X6_SMD-SH1D0-6P-HOR_HEADER1X6':;
+ J8 'HEADER1X6_0_SMD-SH1D0-6P-HOR_HEADER1X6':;
 
 SECTION_NUMBER 1
- '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9282100@LIBRARY1.HEADER1X6.NORMAL(CHIPS)':
- C_PATH='@flashlight.schematic1(sch_1):ins9282100@library1.\header1x6.normal\(chips)',
- P_PATH='@flashlight.schematic1(sch_1):page1_ins9282100@library1.\header1x6.normal\(chips)',
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9282100@FLASHLIGHT.HEADER1X6_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9282100@flashlight.\header1x6_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9282100@flashlight.\header1x6_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- J9 'HEADER1X4_SMD-PH2D0-4P-HOR_HEADER1X4':;
+ J9 'HEADER1X4_0_SMD-PH2D0-4P-HOR_HEADER1X4':;
 
 SECTION_NUMBER 1
- '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9282726@LIBRARY1.HEADER1X4.NORMAL(CHIPS)':
- C_PATH='@flashlight.schematic1(sch_1):ins9282726@library1.\header1x4.normal\(chips)',
- P_PATH='@flashlight.schematic1(sch_1):page1_ins9282726@library1.\header1x4.normal\(chips)',
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9282726@FLASHLIGHT.HEADER1X4_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9282726@flashlight.\header1x4_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9282726@flashlight.\header1x4_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -2938,7 +2938,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- U1 'SGM58031_MSOP-10_SGM58031':;
+ U1 'SGM58031_MSOP-10_SGM58031XMS10G/TR':;
 
 SECTION_NUMBER 1
  '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS56@LIBRARY1.SGM58031.NORMAL(CHIPS)':
@@ -2948,7 +2948,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- U10 'GD25Q40E_SOP-8_GD25Q40E':;
+ U10 'GD25Q40E_SOP8-150MIL_GD25Q40ETIG':;
 
 SECTION_NUMBER 1
  '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS30957@LIBRARY1.GD25Q40E.NORMAL(CHIPS)':
@@ -2968,7 +2968,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- U12 'SM712_SOT23-3_SM712':;
+ U12 'SM712_SOT-23-3_SM712':;
 
 SECTION_NUMBER 1
  '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS37136@LIBRARY1.SM712.NORMAL(CHIPS)':
@@ -2978,7 +2978,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- U13 'SM712_SOT23-3_SM712':;
+ U13 'SM712_SOT-23-3_SM712':;
 
 SECTION_NUMBER 1
  '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS37226@LIBRARY1.SM712.NORMAL(CHIPS)':
@@ -3055,7 +3055,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- U2 'SGM8968-4_SOIC-14_SGM8968-4':;
+ U2 'SGM8968-4_SOIC-14_SGM8968-4XS14G/TR':;
 
 SECTION_NUMBER 1
  '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS107@LIBRARY1.SGM8968-4A.NORMAL(CHIPS)':
@@ -3186,7 +3186,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- U3 'SGM6230_SOIC-8_SGM6230':;
+ U3 'SGM6230_SOIC-8-EPAD_SGM6230':;
 
 SECTION_NUMBER 1
  '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS6545@LIBRARY1.SGM6230.NORMAL(CHIPS)':
@@ -3226,7 +3226,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- U33 'SGM6230_SOIC-8_SGM6230':;
+ U33 'SGM6230_SOIC-8-EPAD_SGM6230':;
 
 SECTION_NUMBER 1
  '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9286492@LIBRARY1.SGM6230.NORMAL(CHIPS)':
@@ -3366,7 +3366,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- U8 'SGM8968-4_SOIC-14_SGM8968-4':;
+ U8 'SGM8968-4_SOIC-14_SGM8968-4XS14G/TR':;
 
 SECTION_NUMBER 1
  '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS20405@LIBRARY1.SGM8968-4A.NORMAL(CHIPS)':

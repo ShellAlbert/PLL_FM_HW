@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.4.0 d001Jan-11-2022 at 09:38:13}
+{ Using PSTWRITER 17.4.0 d001Jan-11-2022 at 17:46:57}
 primitive 'BATTERY_CR2032_CR2032-3V';
   pin
     '+':
@@ -120,7 +120,7 @@ primitive 'CAP NP_C0402_10NF';
     VALUE='10nF';
   end_body;
 end_primitive;
-primitive 'CAP NP_CAP-SMD-8X9D7MM_47UF';
+primitive 'CAP NP_C2220_47UF';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -131,7 +131,7 @@ primitive 'CAP NP_CAP-SMD-8X9D7MM_47UF';
   end_pin;
   body
     PART_NAME='CAP NP';
-    JEDEC_TYPE='CAP-SMD-8X9D7MM';
+    JEDEC_TYPE='C2220';
     VALUE='47uF';
   end_body;
 end_primitive;
@@ -165,22 +165,7 @@ primitive 'CAP NP_C0805_10UF';
     VALUE='10uF';
   end_body;
 end_primitive;
-primitive 'CAP NP_CAP-SMD-8X9D7MM_22UF';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CAP NP';
-    JEDEC_TYPE='CAP-SMD-8X9D7MM';
-    VALUE='22uF';
-  end_body;
-end_primitive;
-primitive 'DIODE ZENER_SOD-123_BZT52C36V';
+primitive 'DIODE ZENER_0_SOD-123_BZT52C36V';
   pin
     'ANODE':
       PIN_NUMBER='(2)';
@@ -190,7 +175,7 @@ primitive 'DIODE ZENER_SOD-123_BZT52C36V';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='DIODE ZENER';
+    PART_NAME='DIODE ZENER_0';
     JEDEC_TYPE='SOD-123';
     VALUE='BZT52C36V';
   end_body;
@@ -225,7 +210,7 @@ primitive 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C';
     VALUE='ESD4.5V88D-C';
   end_body;
 end_primitive;
-primitive 'DIODE ZENER_DO-214AC_SS35';
+primitive 'DIODE ZENER_0_DO-214AC_SS35';
   pin
     'ANODE':
       PIN_NUMBER='(2)';
@@ -235,7 +220,7 @@ primitive 'DIODE ZENER_DO-214AC_SS35';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='DIODE ZENER';
+    PART_NAME='DIODE ZENER_0';
     JEDEC_TYPE='DO-214AC';
     VALUE='SS35';
   end_body;
@@ -255,7 +240,7 @@ primitive 'LED_LED0402_BLUE';
     VALUE='BLUE';
   end_body;
 end_primitive;
-primitive 'DIODE ZENER_DO-214AC_SMAJ3.3A';
+primitive 'DIODE ZENER_0_DO-214AC_SMAJ3.3A';
   pin
     'ANODE':
       PIN_NUMBER='(2)';
@@ -265,12 +250,12 @@ primitive 'DIODE ZENER_DO-214AC_SMAJ3.3A';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='DIODE ZENER';
+    PART_NAME='DIODE ZENER_0';
     JEDEC_TYPE='DO-214AC';
     VALUE='SMAJ3.3A';
   end_body;
 end_primitive;
-primitive 'DIODE ZENER_SOD-123_BZT52C5V1';
+primitive 'DIODE ZENER_0_SOD-123_BZT52C5V1';
   pin
     'ANODE':
       PIN_NUMBER='(2)';
@@ -280,66 +265,12 @@ primitive 'DIODE ZENER_SOD-123_BZT52C5V1';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='DIODE ZENER';
+    PART_NAME='DIODE ZENER_0';
     JEDEC_TYPE='SOD-123';
     VALUE='BZT52C5V1';
   end_body;
 end_primitive;
-primitive 'HEADER1X6_FPC-0D5MM-6P-HON_HEADER1X6';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    '3':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    '4':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    '5':
-      PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-    '6':
-      PIN_NUMBER='(6)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='Header1x6';
-    JEDEC_TYPE='FPC-0D5MM-6P-HON';
-    VALUE='Header1x6';
-  end_body;
-end_primitive;
-primitive 'HEADER1X6_SMD-SH1D0-6P-HOR_HEADER1X6';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    '3':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    '4':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    '5':
-      PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-    '6':
-      PIN_NUMBER='(6)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='Header1x6';
-    JEDEC_TYPE='SMD-SH1D0-6P-HOR';
-    VALUE='Header1x6';
-  end_body;
-end_primitive;
-primitive 'HEADER1X8_SMD-SH1D0-8P-HOR_HEADER1X8';
+primitive 'HEADER1X6_0_FPC-0D5MM-6P-HON_HEADER1X6';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -367,12 +298,12 @@ primitive 'HEADER1X8_SMD-SH1D0-8P-HOR_HEADER1X8';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='Header1x8';
-    JEDEC_TYPE='SMD-SH1D0-8P-HOR';
-    VALUE='Header1x8';
+    PART_NAME='Header1x6_0';
+    JEDEC_TYPE='FPC-0D5MM-6P-HON';
+    VALUE='Header1x6';
   end_body;
 end_primitive;
-primitive 'HEADER1X4_SMD-SH1D0-4P-HOR_HEADER1X4';
+primitive 'HEADER1X6_0_SMD-SH1D0-6P-HOR_HEADER1X6';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -386,14 +317,92 @@ primitive 'HEADER1X4_SMD-SH1D0-4P-HOR_HEADER1X4';
     '4':
       PIN_NUMBER='(4)';
       PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    '6':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    '7':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    '8':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='Header1x4';
+    PART_NAME='Header1x6_0';
+    JEDEC_TYPE='SMD-SH1D0-6P-HOR';
+    VALUE='Header1x6';
+  end_body;
+end_primitive;
+primitive 'HEADER1X8_0_SMD-SH1D0-8P-HOR_HEADER1X8';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    '6':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    '7':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    '8':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    '9':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+    '10':
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Header1x8_0';
+    JEDEC_TYPE='SMD-SH1D0-8P-HOR';
+    VALUE='Header1x8';
+  end_body;
+end_primitive;
+primitive 'HEADER1X4_0_SMD-SH1D0-4P-HOR_HEADER1X4';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    '6':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Header1x4_0';
     JEDEC_TYPE='SMD-SH1D0-4P-HOR';
     VALUE='Header1x4';
   end_body;
 end_primitive;
-primitive 'HEADER1X16_SMD-SH1D0-16P-HOR_HEADER1X16';
+primitive 'HEADER1X16_0_SMD-SH1D0-16P-HOR_HEADER1X16';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -443,14 +452,20 @@ primitive 'HEADER1X16_SMD-SH1D0-16P-HOR_HEADER1X16';
     '16':
       PIN_NUMBER='(16)';
       PINUSE='UNSPEC';
+    '17':
+      PIN_NUMBER='(17)';
+      PINUSE='UNSPEC';
+    '18':
+      PIN_NUMBER='(18)';
+      PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='Header1x16';
+    PART_NAME='Header1x16_0';
     JEDEC_TYPE='SMD-SH1D0-16P-HOR';
     VALUE='Header1x16';
   end_body;
 end_primitive;
-primitive 'HEADER1X4_SMD-PH2D0-4P-HOR_HEADER1X4';
+primitive 'HEADER1X4_0_SMD-PH2D0-4P-HOR_HEADER1X4';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -464,9 +479,15 @@ primitive 'HEADER1X4_SMD-PH2D0-4P-HOR_HEADER1X4';
     '4':
       PIN_NUMBER='(4)';
       PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    '6':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='Header1x4';
+    PART_NAME='Header1x4_0';
     JEDEC_TYPE='SMD-PH2D0-4P-HOR';
     VALUE='Header1x4';
   end_body;
@@ -1053,7 +1074,7 @@ primitive 'R_R0402_1.25K';
     VALUE='1.25K';
   end_body;
 end_primitive;
-primitive 'SGM58031_MSOP-10_SGM58031';
+primitive 'SGM58031_MSOP-10_SGM58031XMS10G/TR';
   pin
     'ADDR':
       PIN_NUMBER='(1)';
@@ -1089,10 +1110,10 @@ primitive 'SGM58031_MSOP-10_SGM58031';
   body
     PART_NAME='SGM58031';
     JEDEC_TYPE='MSOP-10';
-    VALUE='SGM58031';
+    VALUE='SGM58031XMS10G/TR';
   end_body;
 end_primitive;
-primitive 'GD25Q40E_SOP-8_GD25Q40E';
+primitive 'GD25Q40E_SOP8-150MIL_GD25Q40ETIG';
   pin
     'CS#':
       PIN_NUMBER='(1)';
@@ -1121,8 +1142,8 @@ primitive 'GD25Q40E_SOP-8_GD25Q40E';
   end_pin;
   body
     PART_NAME='GD25Q40E';
-    JEDEC_TYPE='SOP-8';
-    VALUE='GD25Q40E';
+    JEDEC_TYPE='SOP8-150MIL';
+    VALUE='GD25Q40ETIG';
   end_body;
 end_primitive;
 primitive 'UN3490E_SO-8_UN3490E';
@@ -1158,7 +1179,7 @@ primitive 'UN3490E_SO-8_UN3490E';
     VALUE='UN3490E';
   end_body;
 end_primitive;
-primitive 'SM712_SOT23-3_SM712';
+primitive 'SM712_SOT-23-3_SM712';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -1172,7 +1193,7 @@ primitive 'SM712_SOT23-3_SM712';
   end_pin;
   body
     PART_NAME='SM712';
-    JEDEC_TYPE='SOT23-3';
+    JEDEC_TYPE='SOT-23-3';
     VALUE='SM712';
   end_body;
 end_primitive;
@@ -1251,7 +1272,7 @@ primitive 'CJ431_0_SOT-23-3_CJ431';
     VALUE='CJ431';
   end_body;
 end_primitive;
-primitive 'SGM8968-4_SOIC-14_SGM8968-4';
+primitive 'SGM8968-4_SOIC-14_SGM8968-4XS14G/TR';
   pin
     '+VS':
       PIN_NUMBER='(4,0,0,0)';
@@ -1299,7 +1320,7 @@ primitive 'SGM8968-4_SOIC-14_SGM8968-4';
   body
     PART_NAME='SGM8968-4';
     JEDEC_TYPE='SOIC-14';
-    VALUE='SGM8968-4';
+    VALUE='SGM8968-4XS14G/TR';
   end_body;
 end_primitive;
 primitive 'SGM2028_SOT-23-5_SGM2028-3.3';
@@ -1326,7 +1347,7 @@ primitive 'SGM2028_SOT-23-5_SGM2028-3.3';
     VALUE='SGM2028-3.3';
   end_body;
 end_primitive;
-primitive 'SGM6230_SOIC-8_SGM6230';
+primitive 'SGM6230_SOIC-8-EPAD_SGM6230';
   pin
     'BS':
       PIN_NUMBER='(1)';
@@ -1358,7 +1379,7 @@ primitive 'SGM6230_SOIC-8_SGM6230';
   end_pin;
   body
     PART_NAME='SGM6230';
-    JEDEC_TYPE='SOIC-8';
+    JEDEC_TYPE='SOIC-8-EPAD';
     VALUE='SGM6230';
   end_body;
 end_primitive;
