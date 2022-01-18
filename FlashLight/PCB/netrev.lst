@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : FLASHLIGHT_V1.brd                             )
+(    Drawing          : FLASHLIGHT_V23.brd                            )
 (    Software Version : 17.4S017                                      )
-(    Date/Time        : Tue Jan 11 17:47:22 2022                      )
+(    Date/Time        : Tue Jan 18 16:11:54 2022                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,10 +19,10 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         'G:/github/PLL_FM_HW/FlashLight/schematic/NETLIST'
 Design Directory:            'G:/github/PLL_FM_HW/FlashLight/PCB'
-Old design name:             'G:/github/PLL_FM_HW/FlashLight/PCB/FLASHLIGHT_V1.brd'
-New design name:             'G:/github/PLL_FM_HW/FlashLight/PCB/FLASHLIGHT_V1.brd'
+Old design name:             'G:/github/PLL_FM_HW/FlashLight/PCB/FLASHLIGHT_V23.brd'
+New design name:             'G:/github/PLL_FM_HW/FlashLight/PCB/FLASHLIGHT_V23.brd'
 
-CmdLine: netrev -$ -i G:/github/PLL_FM_HW/FlashLight/schematic/NETLIST -y 1 -h -q netrev_constraint_report.xml G:/github/PLL_FM_HW/FlashLight/PCB/#Taaacgd11060.tmp
+CmdLine: netrev -$ -i G:/github/PLL_FM_HW/FlashLight/schematic/NETLIST -y 1 -h -q netrev_constraint_report.xml G:/github/PLL_FM_HW/FlashLight/PCB/#Taaaaxy24380.tmp
 
 ------ Preparing to read pst files ------
 
@@ -35,19 +35,6 @@ Starting to read G:/github/PLL_FM_HW/FlashLight/schematic/NETLIST/pstxnet.dat
 
 ------ Oversights/Warnings/Errors ------
 
-
-#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
-WARNING(SPMHNI-194): Symbol 'CR2032' used by RefDes BT1 for device 'BATTERY_CR2032_CR2032-3V' not found. 
-The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
-
-Set the correct library path if not set or use dbdoctor to migrate old symbols.
-
-#2   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
-ERROR(SPMHNI-196): Symbol 'CRY-SMD-3D2X2D5MM-4P' for device 'CRYSTAL_CRY-SMD-3D2X2D5MM-4P_8MHZ' has extra pin '4'.
-
-ERROR(SPMHNI-196): Symbol 'CRY-SMD-3D2X2D5MM-4P' for device 'CRYSTAL_CRY-SMD-3D2X2D5MM-4P_8MHZ' has extra pin '3'.
 
 ------ Library Paths ------
 MODULEPATH =  . 
@@ -78,7 +65,7 @@ PADPATH =  G:/github/PLL_FM_HW/IMX8MINI/LIBS
 ------ Summary Statistics ------
 
 
-netrev run on Jan 11 17:47:22 2022
+netrev run on Jan 18 16:11:54 2022
    DESIGN NAME : 'FLASHLIGHT'
    PACKAGING ON Apr 19 2021 16:22:31
 
@@ -101,8 +88,8 @@ netrev run on Jan 11 17:47:22 2022
 
  No error detected
  No oversight detected
-  2 warnings detected
+ No warning detected
 
-cpu time      0:01:12
+cpu time      0:00:54
 elapsed time  0:00:00
 

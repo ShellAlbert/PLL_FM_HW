@@ -1,6 +1,6 @@
 (ExpressProject "FlashLight"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[01/11/22]")
+  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[01/18/22]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -97,7 +97,17 @@
     ("Allegro Setup Part Type Length" "255")
     ("Allegro Netlist Combine Property String" "PCB Footprint")
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
-    ("Allegro Netlist User Defined Property" "FALSE"))
+    ("Allegro Netlist User Defined Property" "FALSE")
+    ("Allegro Backannotation Run Genfeed" "TRUE")
+    ("Allegro Backannotation Board File"
+       "G:\github\PLL_FM_HW\FlashLight\PCB\FLASHLIGHT_V23.brd")
+    ("Allegro Backannotation Netlist Directory"
+       "G:\github\PLL_FM_HW\FlashLight\schematic\NETLIST")
+    ("Allegro Backannotation Output File" "allegro\FLASHLIGHT.swp")
+    ("Allegro Backannotation Update Schematic" "TRUE")
+    ("Allegro Backannotation View Output" "FALSE")
+    ("Allegro Setup Output Warnings" "FALSE")
+    (Backannotation_TAB "0"))
   (Folder "Layout")
   (Folder "Outputs"
     (File ".\flashlight.drc"
@@ -112,7 +122,22 @@
       (DisplayName "pstxprt.dat"))
     (File ".\netlist\pstchip.dat"
       (Type "Report")
-      (DisplayName "pstchip.dat")))
+      (DisplayName "pstchip.dat"))
+    (File ".\netlist\pinview.dat"
+      (Type "Report")
+      (DisplayName "pinView.dat"))
+    (File ".\netlist\netview.dat"
+      (Type "Report")
+      (DisplayName "netView.dat"))
+    (File ".\netlist\funcview.dat"
+      (Type "Report")
+      (DisplayName "funcView.dat"))
+    (File ".\netlist\compview.dat"
+      (Type "Report")
+      (DisplayName "compView.dat"))
+    (File ".\allegro\flashlight.swp"
+      (Type "Report")
+      (DisplayName "FLASHLIGHT.swp")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
@@ -122,11 +147,28 @@
       (Sort User))
     (Folder "Include Files"
       (Sort User)))
-  (Folder "Logs")
+  (Folder "Logs"
+    (File ".\netlist\swp.log"
+      (Type "Log File")
+      (LogFile "G:\github\PLL_FM_HW\FlashLight\schematic\NETLIST\swp.log")))
   (PartMRUSelector
     (GND
       (LibraryName
          "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("T POINT A"
+      (FullPartName "T POINT A.Normal")
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("TEST POINT"
+      (FullPartName "TEST POINT.Normal")
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CRYSTAL
+      (FullPartName "CRYSTAL.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\LIBRARY1.OLB")
       (DeviceIndex "0"))
     (SGM7SZ08YXDM6G/TR
       (FullPartName "SGM7SZ08YXDM6G/TR.Normal")
@@ -218,33 +260,21 @@
     (SM712
       (FullPartName "SM712.Normal")
       (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (UN3490E
-      (FullPartName "UN3490E.Normal")
-      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    ("DIODE TVS"
-      (FullPartName "DIODE TVS.Normal")
-      (LibraryName
-         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    ("DIODE TVS BI-DIR"
-      (FullPartName "DIODE TVS BI-DIR.Normal")
-      (LibraryName
-         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\flashlight.dsn")
       (Path "Design Resources" ".\flashlight.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\flashlight.dsn" "SCHEMATIC1" "2-MCU"))
+      (Path "Logs")
+      (Select "Design Resources" ".\flashlight.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 535"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 407 0 695"))
       (Tab 0)))
   (MPSSessionName "Administrator")
   (LastUsedLibraryBrowseDirectory

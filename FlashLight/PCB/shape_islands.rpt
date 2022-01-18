@@ -1,0 +1,25 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Island Report                                              )
+(                                                                     )
+(    Drawing          : FLASHLIGHT_V19.brd                            )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Tue Jan 18 13:45:05 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Total islands on design: 8
+
+
+  <<<  ETCH  >>>
+
+    Layer = VCC-4
+	Point on shape: (35.6502 -18.6072)  Net: VDD33
+	Point on shape: (34.2125 -17.9726)  Net: VDD33
+	Point on shape: (32.0449 -19.3402)  Net: VDD33
+	Point on shape: (27.2761 -22.7137)  Net: VDD33
+	Point on shape: (25.3712 -22.7137)  Net: VDD33
+	Point on shape: (22.1961 -22.7137)  Net: VDD33
+	Point on shape: (27.3010 -25.3002)  Net: VDD33
+	Point on shape: (35.7141 -21.7137)  Net: VDD33

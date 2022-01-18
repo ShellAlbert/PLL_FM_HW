@@ -1,46 +1,169 @@
-\t (08:16:16) allegro 17.4 S017 Windows SPB 64-bit Edition
-\t (08:16:16)     Journal start - Tue Jan 11 17:47:13 2022
-\t (08:16:16)         Host=BF-202007251750 User=Administrator Pid=11060 CPUs=16
-\t (08:16:16) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
-\t (08:16:16) 
-\d (08:16:16) Design opened: G:/github/PLL_FM_HW/FlashLight/PCB/FLASHLIGHT_V1.brd
-\i (08:16:16) trapsize 12985
-\i (08:16:16) generaledit 
-\i (08:16:18) design sync back_annotate 
-\t (08:16:18) > Generating Physical Netlist
-\t (08:16:18) Starting genfeedformat...
-\t (08:16:19) > Generating Physical Netlist successful
-\t (08:16:19) > Generating Differences
-\t (08:16:19) > Generating Differences successful
-\t (08:16:19) > Displaying differences output
-\t (08:16:19) > Displaying differences output successful
-\i (08:16:19) QtSignal DesignSyncDialog preview_controls keyPressEvent 16777216 0 false 1 ""
-\i (08:16:19) QtSignal DesignSyncDialog sch_comboBox EditingFinished "G:\github\PLL_FM_HW\FlashLight\schematic\NETLIST"
-\i (08:16:21) QtSignal DesignSyncDialog cancel_button clicked
-\i (08:16:21) generaledit 
-\i (08:16:23) netin 
-\i (08:16:24) setwindow form.niparams
-\i (08:16:24) FORM niparams import  
-\t (08:16:24) Starting Cadence Logic Import...
-\w (08:16:25) WARNING(SPMHGE-269): netrev had warnings, use Viewlog to review the log file.
-\t (08:16:25) Opening existing design...
-\i (08:16:25) setwindow pcb
-\i (08:16:25) trapsize 12985
-\i (08:16:27) generaledit 
-\i (08:16:36) setwindow text
-\i (08:16:36) close
-\i (08:16:38) setwindow pcb
-\i (08:16:38) save 
-\i (08:16:38) fillin yes 
-\i (08:16:39) generaledit 
-\i (08:31:44) xrefdes Bt1 
-\t (08:31:44) Can not select unplaced component BT1.
-\t (08:31:44) Can not select unplaced component BT1.
-\i (08:31:44) xname_flush 
-\i (08:32:12) xrefdes '!' Bt1 
-\t (08:32:12) Can not select unplaced component BT1.
-\t (08:32:12) Can not select unplaced component BT1.
-\i (08:32:12) xname_flush '!' 
-\i (08:33:37) new 
-\i (08:33:51) newdrawfillin "CR1220.dra" "Package Symbol"
-\t (08:33:51)     Journal end - Tue Jan 11 18:04:48 2022
+\t (00:00:02) allegro 17.4 S017 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Tue Jan 18 16:49:26 2022
+\t (00:00:02)         Host=BF-202007251750 User=Administrator Pid=5944 CPUs=16
+\t (00:00:02) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "FLASHLIGHT_V23"
+\d (00:00:05) Design opened: G:/github/PLL_FM_HW/FlashLight/PCB/FLASHLIGHT_V23.brd
+\i (00:00:05) trapsize 245
+\i (00:00:05) trapsize 253
+\i (00:00:05) trapsize 255
+\i (00:00:05) trapsize 203
+\i (00:00:05) trapsize 208
+\i (00:00:06) generaledit 
+\i (00:00:38) zoom out 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom out 39.1024 -2.8112
+\i (00:00:38) trapsize 416
+\i (00:00:38) zoom out 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom out 39.1024 -2.8111
+\i (00:00:38) trapsize 832
+\i (00:00:38) zoom out 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom out 37.5384 0.7161
+\i (00:00:38) trapsize 1664
+\i (00:00:39) zoom in 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in 31.8148 -0.2821
+\i (00:00:39) trapsize 832
+\i (00:00:39) zoom in 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in 31.7815 -0.2821
+\i (00:00:39) trapsize 416
+\i (00:00:39) zoom out 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom out 33.2540 0.2753
+\i (00:00:39) trapsize 832
+\i (00:00:39) zoom out 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom out 33.6534 0.2753
+\i (00:00:39) trapsize 1664
+\i (00:00:39) zoom out 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom out 33.9196 0.1756
+\i (00:00:39) trapsize 3328
+\i (00:00:40) zoom out 1 
+\i (00:00:40) setwindow pcb
+\i (00:00:40) zoom out 40.7080 0.1090
+\i (00:00:40) trapsize 6655
+\i (00:00:40) zoom in 1 
+\i (00:00:40) setwindow pcb
+\i (00:00:40) zoom in 48.9606 -7.4780
+\i (00:00:40) trapsize 3328
+\i (00:00:49) zoom in 1 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) zoom in 16.7492 -9.2749
+\i (00:00:49) trapsize 1664
+\i (00:00:49) zoom in 1 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) zoom in 16.7160 -9.2749
+\i (00:00:49) trapsize 832
+\i (00:00:51) zoom out 1 
+\i (00:00:51) setwindow pcb
+\i (00:00:51) zoom out 23.9369 -9.5411
+\i (00:00:51) trapsize 1664
+\i (00:00:51) zoom out 1 
+\i (00:00:51) setwindow pcb
+\i (00:00:51) zoom out 24.1033 -9.4080
+\i (00:00:51) trapsize 3328
+\i (00:00:52) zoom in 1 
+\i (00:00:52) setwindow pcb
+\i (00:00:52) zoom in 30.0931 -21.5206
+\i (00:00:52) trapsize 1664
+\i (00:00:52) zoom in 1 
+\i (00:00:52) setwindow pcb
+\i (00:00:52) zoom in 22.5726 -19.9566
+\i (00:00:52) trapsize 832
+\i (00:00:52) zoom in 1 
+\i (00:00:52) setwindow pcb
+\i (00:00:52) zoom in 22.5726 -19.9566
+\i (00:00:52) trapsize 416
+\i (00:00:53) zoom in 1 
+\i (00:00:53) setwindow pcb
+\i (00:00:53) zoom in 22.0901 -18.4591
+\i (00:00:53) trapsize 208
+\i (00:00:53) zoom in 1 
+\i (00:00:53) setwindow pcb
+\i (00:00:53) zoom in 22.0943 -18.4550
+\i (00:00:53) trapsize 104
+\i (00:00:54) zoom out 1 
+\i (00:00:54) setwindow pcb
+\i (00:00:54) zoom out 22.0714 -18.5964
+\i (00:00:54) trapsize 208
+\i (00:00:54) zoom out 1 
+\i (00:00:54) setwindow pcb
+\i (00:00:54) zoom out 22.0798 -18.6796
+\i (00:00:54) trapsize 416
+\i (00:00:54) zoom in 1 
+\i (00:00:54) setwindow pcb
+\i (00:00:54) zoom in 20.5490 -17.8975
+\i (00:00:54) trapsize 208
+\i (00:00:54) zoom in 1 
+\i (00:00:54) setwindow pcb
+\i (00:00:54) zoom in 20.5532 -17.9100
+\i (00:00:54) trapsize 104
+\i (00:00:55) zoom out 1 
+\i (00:00:55) setwindow pcb
+\i (00:00:55) zoom out 20.6260 -18.0680
+\i (00:00:55) trapsize 208
+\i (00:00:55) zoom out 1 
+\i (00:00:55) setwindow pcb
+\i (00:00:55) zoom out 20.6551 -18.1179
+\i (00:00:55) trapsize 416
+\i (00:00:55) zoom out 1 
+\i (00:00:55) setwindow pcb
+\i (00:00:55) zoom out 20.6717 -18.1595
+\i (00:00:55) trapsize 832
+\i (00:00:56) zoom in 1 
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom in 20.2723 -16.7784
+\i (00:00:56) trapsize 416
+\i (00:00:56) zoom in 1 
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom in 20.2723 -16.7617
+\i (00:00:56) trapsize 208
+\i (00:00:57) zoom out 1 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom out 20.3305 -17.0155
+\i (00:00:57) trapsize 416
+\i (00:00:57) zoom out 1 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom out 20.3804 -17.0736
+\i (00:00:57) trapsize 832
+\i (00:00:57) zoom out 1 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom out 20.5800 -17.1735
+\i (00:00:57) trapsize 1664
+\i (00:00:58) zoom out 1 
+\i (00:00:58) setwindow pcb
+\i (00:00:58) zoom out 23.3753 -14.6445
+\i (00:00:58) trapsize 3328
+\i (00:00:59) zoom out 1 
+\i (00:00:59) setwindow pcb
+\i (00:00:59) zoom out 41.2781 -24.1616
+\i (00:00:59) trapsize 6655
+\i (00:02:02) rename param 
+\i (00:02:02) generaledit 
+\i (00:02:05) setwindow form.rename
+\i (00:02:05) FORM rename more  
+\i (00:02:13) setwindow form.rename_more
+\i (00:02:13) FORM rename_more top_comp_des  
+\i (00:02:14) FORM rename_more bottom_comp_des  
+\i (00:02:41) FORM rename_more preserve_prefix YES 
+\i (00:02:46) FORM rename_more close  
+\i (00:02:48) setwindow form.rename
+\i (00:02:48) FORM rename rename  
+\i (00:02:48) setwindow pcb
+\i (00:02:48) rename execute 
+\i (00:02:48) generaledit 
+\i (00:03:03) setwindow form.rename
+\i (00:03:03) FORM rename close  
+\i (00:03:04) setwindow pcb
+\i (00:03:04) save 
+\i (00:03:05) fillin yes 
+\i (00:03:05) generaledit 
+\i (00:03:06) exit 
+\t (00:03:09)     Journal end - Tue Jan 18 16:52:33 2022

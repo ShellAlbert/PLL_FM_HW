@@ -1,6 +1,6 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.4.0 d001Jan-11-2022 at 17:46:57}
-primitive 'BATTERY_CR2032_CR2032-3V';
+{ Using PSTWRITER 17.4.0 d001Jan-18-2022 at 16:53:27}
+primitive 'BATTERY_C0805_CR1220-3V';
   pin
     '+':
       PIN_NUMBER='(1)';
@@ -11,8 +11,8 @@ primitive 'BATTERY_CR2032_CR2032-3V';
   end_pin;
   body
     PART_NAME='BATTERY';
-    JEDEC_TYPE='CR2032';
-    VALUE='CR2032-3V';
+    JEDEC_TYPE='C0805';
+    VALUE='CR1220-3V';
   end_body;
 end_primitive;
 primitive 'CAP NP_C0402_0.1UF';
@@ -90,7 +90,7 @@ primitive 'CAP NP_C0603_10UF';
     VALUE='10uF';
   end_body;
 end_primitive;
-primitive 'CAP NP_C0402_5.6NF';
+primitive 'CAP NP_C0603_5.6NF';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -101,11 +101,11 @@ primitive 'CAP NP_C0402_5.6NF';
   end_pin;
   body
     PART_NAME='CAP NP';
-    JEDEC_TYPE='C0402';
+    JEDEC_TYPE='C0603';
     VALUE='5.6nF';
   end_body;
 end_primitive;
-primitive 'CAP NP_C0402_10NF';
+primitive 'CAP NP_C1210_10UF';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -116,7 +116,22 @@ primitive 'CAP NP_C0402_10NF';
   end_pin;
   body
     PART_NAME='CAP NP';
-    JEDEC_TYPE='C0402';
+    JEDEC_TYPE='C1210';
+    VALUE='10uF';
+  end_body;
+end_primitive;
+primitive 'CAP NP_C0603_10NF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='C0603';
     VALUE='10nF';
   end_body;
 end_primitive;
@@ -240,21 +255,6 @@ primitive 'LED_LED0402_BLUE';
     VALUE='BLUE';
   end_body;
 end_primitive;
-primitive 'DIODE ZENER_0_DO-214AC_SMAJ3.3A';
-  pin
-    'ANODE':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'CATHODE':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='DIODE ZENER_0';
-    JEDEC_TYPE='DO-214AC';
-    VALUE='SMAJ3.3A';
-  end_body;
-end_primitive;
 primitive 'DIODE ZENER_0_SOD-123_BZT52C5V1';
   pin
     'ANODE':
@@ -268,39 +268,6 @@ primitive 'DIODE ZENER_0_SOD-123_BZT52C5V1';
     PART_NAME='DIODE ZENER_0';
     JEDEC_TYPE='SOD-123';
     VALUE='BZT52C5V1';
-  end_body;
-end_primitive;
-primitive 'HEADER1X6_0_FPC-0D5MM-6P-HON_HEADER1X6';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    '3':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    '4':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    '5':
-      PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-    '6':
-      PIN_NUMBER='(6)';
-      PINUSE='UNSPEC';
-    '7':
-      PIN_NUMBER='(7)';
-      PINUSE='UNSPEC';
-    '8':
-      PIN_NUMBER='(8)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='Header1x6_0';
-    JEDEC_TYPE='FPC-0D5MM-6P-HON';
-    VALUE='Header1x6';
   end_body;
 end_primitive;
 primitive 'HEADER1X6_0_SMD-SH1D0-6P-HOR_HEADER1X6';
@@ -334,45 +301,6 @@ primitive 'HEADER1X6_0_SMD-SH1D0-6P-HOR_HEADER1X6';
     PART_NAME='Header1x6_0';
     JEDEC_TYPE='SMD-SH1D0-6P-HOR';
     VALUE='Header1x6';
-  end_body;
-end_primitive;
-primitive 'HEADER1X8_0_SMD-SH1D0-8P-HOR_HEADER1X8';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    '3':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    '4':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    '5':
-      PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-    '6':
-      PIN_NUMBER='(6)';
-      PINUSE='UNSPEC';
-    '7':
-      PIN_NUMBER='(7)';
-      PINUSE='UNSPEC';
-    '8':
-      PIN_NUMBER='(8)';
-      PINUSE='UNSPEC';
-    '9':
-      PIN_NUMBER='(9)';
-      PINUSE='UNSPEC';
-    '10':
-      PIN_NUMBER='(10)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='Header1x8_0';
-    JEDEC_TYPE='SMD-SH1D0-8P-HOR';
-    VALUE='Header1x8';
   end_body;
 end_primitive;
 primitive 'HEADER1X4_0_SMD-SH1D0-4P-HOR_HEADER1X4';
@@ -1074,6 +1002,30 @@ primitive 'R_R0402_1.25K';
     VALUE='1.25K';
   end_body;
 end_primitive;
+primitive 'TEST POINT_SCREW-3D5-2D5_TEST POINT';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='TEST POINT';
+    JEDEC_TYPE='SCREW-3D5-2D5';
+    VALUE='TEST POINT';
+  end_body;
+end_primitive;
+primitive 'T POINT A_TP_SMD_CIR_2D0_T POINT A';
+  pin
+    'TP':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='T POINT A';
+    JEDEC_TYPE='TP_SMD_CIR_2D0';
+    VALUE='T POINT A';
+  end_body;
+end_primitive;
 primitive 'SGM58031_MSOP-10_SGM58031XMS10G/TR';
   pin
     'ADDR':
@@ -1671,21 +1623,6 @@ primitive 'AS4950_SOP8-PP_AS4950';
     VALUE='AS4950';
   end_body;
 end_primitive;
-primitive 'CRYSTAL_CRY-SMD-3D2X2D5MM-4P_8MHZ';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CRYSTAL';
-    JEDEC_TYPE='CRY-SMD-3D2X2D5MM-4P';
-    VALUE='8MHz';
-  end_body;
-end_primitive;
 primitive 'CRYSTAL_CRY-SMD-3D2X1D5MM-2P_32.768KHZ';
   pin
     '1':
@@ -1699,6 +1636,27 @@ primitive 'CRYSTAL_CRY-SMD-3D2X1D5MM-2P_32.768KHZ';
     PART_NAME='CRYSTAL';
     JEDEC_TYPE='CRY-SMD-3D2X1D5MM-2P';
     VALUE='32.768KHz';
+  end_body;
+end_primitive;
+primitive 'CRYSTAL_1_CRY-SMD-3D2X2D5MM-4P_8MHZ';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CRYSTAL_1';
+    JEDEC_TYPE='CRY-SMD-3D2X2D5MM-4P';
+    VALUE='8MHz';
   end_body;
 end_primitive;
 END.

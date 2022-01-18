@@ -1,0 +1,80 @@
+Wed Jan 12 09:02:55 2022				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Wed Jan 12 09:02:55 2022
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : FLASHLIGHT_V1.brd                             )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Wed Jan 12 09:02:56 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Wed Jan 12 09:02:56 2022				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design  = 'G:/github/PLL_FM_HW/FlashLight/PCB/FLASHLIGHT_V1.brd'
+Output design = ''
+
+Update mechanical symbols              = 'NO'
+Update format symbols                  = 'NO'
+Update package symbols                 = 'NO'
+Update shape/flash symbols             = 'NO'
+Update symbol padstacks                = 'NO'
+Preserve padstacks replaced on pins    = 'NO'
+Reset symbol text and size locations   = 'NO'
+Reset Pin Escapes (fanouts)            = 'NO'
+Ripup Etch                             = 'NO'
+Reset custom drill data                = 'NO'
+Symbol list file                       = 'C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaace14412.tmp'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/local/pcb/symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/pcb_lib/symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/allegrolib/symbols 
+           G:/github/PLL_FM_HW/IMX8MINI/LIBS 
+           G:/github/PLL_FM_HW/LIBS 
+
+PADPATH =  G:/github/PLL_FM_HW/IMX8MINI/LIBS 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/local/pcb/padstacks 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/pcb_lib/symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/allegrolib/symbols 
+           G:/github/PLL_FM_HW/LIBS/via 
+           G:/github/PLL_FM_HW/LIBS 
+
+
+------ Symbol Refresh Messages ------
+
+'SMD-SH1D0-16P-HOR'  symbol refreshed successfully.
+
+
+----- Symbol Update Summary ----
+
+Updated symbols: 1 out 1
+    Design updated.
+
