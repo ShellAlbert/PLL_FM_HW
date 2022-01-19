@@ -269,12 +269,12 @@
       (Path "Design Resources" "Library")
       (Path "Outputs")
       (Path "Logs")
-      (Select "Design Resources" ".\flashlight.dsn"))
+      (Select "Design Resources" ".\flashlight.dsn" "SCHEMATIC1" "5-CONNECTOR"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 407 0 695"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 695"))
       (Tab 0)))
   (MPSSessionName "Administrator")
   (LastUsedLibraryBrowseDirectory
