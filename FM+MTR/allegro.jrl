@@ -1,33 +1,21 @@
-\t (01:10:04) allegro 17.4 S017 Windows SPB 64-bit Edition
-\t (01:10:04)     Journal start - Wed Jan 19 11:15:06 2022
-\t (01:10:04)         Host=BF-202007251750 User=Administrator Pid=11808 CPUs=16
-\t (01:10:04) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
-\t (01:10:04) 
-\d (01:10:04) Design opened: G:/github/PLL_FM_HW/FM+MTR/AB10.brd
-\i (01:10:04) generaledit 
-\i (01:10:06) zoom in 1 
-\i (01:10:06) setwindow pcb
-\i (01:10:06) zoom in -36.0225 -4.5438
-\i (01:10:06) trapsize 8934
-\i (01:10:13) plctxt out 
-\i (01:10:15) setwindow form.plctxt
-\i (01:10:15) FORM plctxt body_center YES 
-\i (01:10:16) FORM plctxt symbol_origin YES 
-\i (01:10:17) FORM plctxt body_center YES 
-\i (01:10:18) FORM plctxt symbol_origin YES 
-\i (01:10:18) FORM plctxt body_center YES 
-\i (01:10:20) FORM plctxt browse  
-\i (01:10:27) fillin "C:/Users/Administrator/Desktop/SMT/CXX/place_txt.txt"
-\i (01:10:29) FORM plctxt execute  
-\t (01:10:29) Starting Place symbols by text file...
-\i (01:10:39) setwindow pcb
-\i (01:10:39) reports 'Component Report' 
-\i (01:10:41) generaledit 
-\i (01:10:45) setwindow text
-\i (01:10:45) save
-\i (01:11:00) fillin "C:/Users/Administrator/Desktop/SMT/CXX/COMPONENT_REPORT.htm"
-\t (01:11:00) COMPONENT_REPORT.htm: is text save file
-\i (01:11:02) close
-\i (01:11:04) setwindow pcb
-\i (01:11:04) exit 
-\t (01:11:07)     Journal end - Wed Jan 19 11:16:08 2022
+\t (00:00:02) allegro 17.4 S017 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Wed Jan 19 13:43:28 2022
+\t (00:00:02)         Host=BF-202007251750 User=Administrator Pid=7980 CPUs=16
+\t (00:00:02) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged AB10
+\d (00:00:03) Design opened: G:/github/PLL_FM_HW/FM+MTR/AB10.brd
+\i (00:00:03) trapsize 21597
+\i (00:00:03) trapsize 22243
+\i (00:00:03) trapsize 22415
+\i (00:00:03) trapsize 17869
+\i (00:00:03) trapsize 18317
+\i (00:00:04) generaledit 
+\i (00:01:03) open 
+\i (00:01:09) fillin "G:/github/PLL_FM_HW/FlashLight/PCB/FLASHLIGHT_V23.brd"
+\i (00:01:09) cd "G:/github/PLL_FM_HW/FlashLight/PCB"
+\t (00:01:09) Opening existing design...
+\i (00:01:09) trapsize 3296
+\t (00:01:09)     Journal end - Wed Jan 19 13:44:35 2022
