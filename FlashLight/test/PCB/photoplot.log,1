@@ -1,0 +1,269 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : TEST.brd                                      )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Thu Feb 17 10:27:26 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          MM
+    FILM-SIZE             2400000 1600000
+    FORMAT                2.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < G:/github/PLL_FM_HW/FlashLight/test/PCB/Gerber_ZSY/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.30000                                  DARK 
+  CIRCLE     0.50000                                  DARK 
+  CIRCLE     0.80000                                  DARK 
+  CIRCLE     1.20000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  RECTANGLE  0.50000     x 1.20000       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 1.80000       0.000 NO     DARK 
+  RECTANGLE  1.50000     x 1.20000       0.000 NO     DARK 
+  RECTANGLE  1.50000     x 1.20000      90.000 NO     DARK 
+
+     TOP created.
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < G:/github/PLL_FM_HW/FlashLight/test/PCB/Gerber_ZSY/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.30000                                  DARK 
+  CIRCLE     0.80000                                  DARK 
+  CIRCLE     1.20000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+
+     BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < SILKSCREEN_TOP >
+     TO FILE < G:/github/PLL_FM_HW/FlashLight/test/PCB/Gerber_ZSY/SILKSCREEN_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10000                                  DARK 
+  CIRCLE     0.16000                                  DARK 
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.30000                                  DARK 
+
+     SILKSCREEN_TOP created.
+
+
+================================================================
+     PROCESSING FILM < SILKSCREEN_BOTTOM >
+     TO FILE < G:/github/PLL_FM_HW/FlashLight/test/PCB/Gerber_ZSY/SILKSCREEN_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10000                                  DARK 
+  CIRCLE     0.16000                                  DARK 
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.25000                                  DARK 
+  CIRCLE     0.30000                                  DARK 
+  CIRCLE     0.50000                                  DARK 
+
+     SILKSCREEN_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < DRILL_INFO >
+     TO FILE < G:/github/PLL_FM_HW/FlashLight/test/PCB/Gerber_ZSY/DRILL_INFO.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: 0 width line found at (-2.5000 -48.0000)
+           ... using undefined line width of 0.2000
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 0.2000
+
+    WARNING: text composed 0 width line found at (-9.0559 -25.1875)
+           ... using undefined line width of 0.2000
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 0.2000
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.25000                                  DARK 
+
+     DRILL_INFO created with warnings
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_TOP >
+     TO FILE < G:/github/PLL_FM_HW/FlashLight/test/PCB/Gerber_ZSY/SOLDERMASK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     1.40000                                  DARK 
+  CIRCLE     1.80000                                  DARK 
+  RECTANGLE  0.60000     x 1.30000       0.000 NO     DARK 
+  RECTANGLE  0.90000     x 1.90000       0.000 NO     DARK 
+  RECTANGLE  1.60000     x 1.30000       0.000 NO     DARK 
+  RECTANGLE  1.60000     x 1.30000      90.000 NO     DARK 
+
+     SOLDERMASK_TOP created.
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_BOTTOM >
+     TO FILE < G:/github/PLL_FM_HW/FlashLight/test/PCB/Gerber_ZSY/SOLDERMASK_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     1.40000                                  DARK 
+  CIRCLE     1.80000                                  DARK 
+
+     SOLDERMASK_BOTTOM created.
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created.
+        BOTTOM created.
+        SILKSCREEN_TOP created.
+        SILKSCREEN_BOTTOM created.
+        DRILL_INFO created with warnings
+        SOLDERMASK_TOP created.
+        SOLDERMASK_BOTTOM created.
+
+ ARTWORK had warnings

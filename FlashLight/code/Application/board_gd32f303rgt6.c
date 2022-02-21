@@ -10,38 +10,6 @@
 //global variable board-layer defination.
 ZBoardStruct	gBrdFlashLight;
 
-
-//COM0,COM1,COM2,COM3,COM4.
-static rcu_periph_enum COM_CLK[COMn] =
-{
-	COM0_CLK, COM1_CLK, COM2_CLK, COM3_CLK, COM4_CLK
-};
-
-
-static uint32_t COM_TX_PIN[COMn] =
-{
-	COM0_TX_PIN, COM1_TX_PIN, COM2_TX_PIN, COM3_TX_PIN, COM4_TX_PIN
-};
-
-
-static uint32_t COM_RX_PIN[COMn] =
-{
-	COM0_RX_PIN, COM1_RX_PIN, COM2_RX_PIN, COM3_RX_PIN, COM4_RX_PIN
-};
-
-
-static uint32_t COM_GPIO_PORT[COMn + 1] =
-{
-	COM0_GPIO_PORT, COM1_GPIO_PORT, COM2_GPIO_PORT, COM3_GPIO_PORT, COM4_GPIO_PORT1, COM4_GPIO_PORT2
-};
-
-
-static rcu_periph_enum COM_GPIO_CLK[COMn + 1] =
-{
-	COM0_GPIO_CLK, COM1_GPIO_CLK, COM2_GPIO_CLK, COM3_GPIO_CLK, COM4_GPIO_CLK1, COM4_GPIO_CLK2
-};
-
-
 //keys.
 static uint32_t KEY_PORT[KEYn] =
 {
@@ -117,11 +85,9 @@ static uint8_t	KEY_IRQn[KEYn] =
 };
 
 
-void zboard_low_init(void)
+//LED1/2 to indicate system working status.
+static void zled12_init(void)
 {
-	uint8_t 		i;
-
-	//1.initial LEDs.
 	//LED1:PB3 
 	//LED2:PA15
 	//enable the led clock.
@@ -135,8 +101,14 @@ void zboard_low_init(void)
 	//set bit to off LEDs.
 	zled_on_off(1, 0);
 	zled_on_off(2, 0);
+}
 
-	//2.initial KEYs.
+
+//initial all Keys to EXTI mode.
+static void zkeys_exti_init(void)
+{
+	uint8_t 		i;
+
 	for (i = 0; i < KEY_MAX; i++) {
 		/* enable the key clock */
 		rcu_periph_clock_enable(KEY_CLK[i]);
@@ -161,8 +133,16 @@ void zboard_low_init(void)
 		exti_interrupt_flag_clear(KEY_EXTI_LINE[i]);
 	}
 
-	//3.initial USARTx and UARTx.
-	//3.1.USART0_TX:PA9,USART0_RX:PA10
+}
+
+
+//USART0: For Debug TTL-USB. (3.3V TTL Level)
+static void zusart0_debug_init(void)
+{
+	//USART0_TX:PA9,USART0_RX:PA10
+
+	/* USART0 interrupt configuration */
+	nvic_irq_enable(USART0_IRQn, 0, 0);
 
 	/* enable GPIO clock */
 	rcu_periph_clock_enable(RCU_GPIOA);
@@ -180,8 +160,13 @@ void zboard_low_init(void)
 	usart_receive_config(USART0, USART_RECEIVE_ENABLE);
 	usart_transmit_config(USART0, USART_TRANSMIT_ENABLE);
 	usart_enable(USART0);
+}
 
-	//3.2.USART1_TX:PA2,USART1_RX:PA3
+
+//USART1: To communicate with Laser Distance Module. (RS422,Full duplex)
+static void zusart1_distance_init(void)
+{
+	//USART1_TX:PA2,USART1_RX:PA3
 
 	/* enable GPIO clock */
 	rcu_periph_clock_enable(RCU_GPIOA);
@@ -199,8 +184,13 @@ void zboard_low_init(void)
 	usart_receive_config(USART1, USART_RECEIVE_ENABLE);
 	usart_transmit_config(USART1, USART_TRANSMIT_ENABLE);
 	usart_enable(USART1);
+}
 
-	//3.3.USART2_TX:PB10,USART2_RX:PB11
+
+//USART2: To communicate with Display module. (3.3V TTL Level)
+static void zusart2_oled_init(void)
+{
+	//USART2_TX:PB10,USART2_RX:PB11
 
 	/* enable GPIO clock */
 	rcu_periph_clock_enable(RCU_GPIOB);
@@ -218,8 +208,13 @@ void zboard_low_init(void)
 	usart_receive_config(USART2, USART_RECEIVE_ENABLE);
 	usart_transmit_config(USART2, USART_TRANSMIT_ENABLE);
 	usart_enable(USART2);
+}
 
-	//3.4.UART3_TX:PC10,UART3_RX:PC11
+
+//UART3: To communicate with WiFi-UART module. (3.3V TTL Level)
+static void zuart3_wifi_init(void)
+{
+	//UART3_TX:PC10,UART3_RX:PC11
 
 	/* enable GPIO clock */
 	rcu_periph_clock_enable(RCU_GPIOC);
@@ -237,8 +232,13 @@ void zboard_low_init(void)
 	usart_receive_config(UART3, USART_RECEIVE_ENABLE);
 	usart_transmit_config(UART3, USART_TRANSMIT_ENABLE);
 	usart_enable(UART3);
+}
 
-	//3.5.UART4_TX:PC12,UART4_RX:PD12
+
+//UART4: To communicate with Laser Module. (3.3V TTL Level)
+static void zuart4_laser_init(void)
+{
+	//UART4_TX:PC12,UART4_RX:PD2
 
 	/* enable GPIO clock */
 	rcu_periph_clock_enable(RCU_GPIOC);
@@ -249,7 +249,7 @@ void zboard_low_init(void)
 
 	/* connect port to USARTx_Tx & USARTx_Rx*/
 	gpio_init(GPIOC, GPIO_MODE_AF_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_12);
-	gpio_init(GPIOD, GPIO_MODE_IN_FLOATING, GPIO_OSPEED_50MHZ, GPIO_PIN_12);
+	gpio_init(GPIOD, GPIO_MODE_IN_FLOATING, GPIO_OSPEED_50MHZ, GPIO_PIN_2);
 
 	/* UART4 configure */
 	usart_deinit(UART4);
@@ -258,6 +258,301 @@ void zboard_low_init(void)
 	usart_transmit_config(UART4, USART_TRANSMIT_ENABLE);
 	usart_enable(UART4);
 }
+
+
+//MCU SoC ADC0.
+//use Timer1 to trigger ADC0 periodic conversation (DMA0-CH0).
+//ADC012_IN13:PC0
+//ADC012_IN12:PC1
+//ADC012_IN11:PC2
+//ADC012_IN10:PC3
+static void zmcu_soc_adc0_init(void)
+{
+
+	/* enable GPIOA clock */
+	rcu_periph_clock_enable(RCU_GPIOA);
+
+	/* enable ADC0 clock */
+	rcu_periph_clock_enable(RCU_ADC0);
+
+	/* enable DMA0 clock */
+	rcu_periph_clock_enable(RCU_DMA0);
+
+	/* enable timer1 clock */
+	rcu_periph_clock_enable(RCU_TIMER1);
+
+	/* config ADC clock */
+	rcu_adc_clock_config(RCU_CKADC_CKAPB2_DIV4);
+
+	/* config the GPIO as analog mode */
+	//ADC012_IN13:PC0
+	//ADC012_IN12:PC1
+	//ADC012_IN11:PC2
+	//ADC012_IN10:PC3
+	gpio_init(GPIOC, GPIO_MODE_AIN, GPIO_OSPEED_MAX, GPIO_PIN_0 | GPIO_PIN_1 | GPIO_PIN_2 | GPIO_PIN_3);
+
+	//configure the TIMER peripheral
+
+	/* TIMER1 configuration */
+	timer_initpara.prescaler = 8399;
+	timer_initpara.alignedmode = TIMER_COUNTER_EDGE;
+	timer_initpara.counterdirection = TIMER_COUNTER_UP;
+	timer_initpara.period = 9999;
+	timer_initpara.clockdivision = TIMER_CKDIV_DIV1;
+	timer_initpara.repetitioncounter = 0;
+	timer_init(TIMER1, &timer_initpara);
+
+	/* CH0 configuration in PWM mode1 */
+	timer_ocintpara.ocpolarity = TIMER_OC_POLARITY_HIGH;
+	timer_ocintpara.outputstate = TIMER_CCX_ENABLE;
+	timer_channel_output_config(TIMER1, TIMER_CH_1, &timer_ocintpara);
+
+	timer_channel_output_pulse_value_config(TIMER1, TIMER_CH_1, 3999);
+	timer_channel_output_mode_config(TIMER1, TIMER_CH_1, TIMER_OC_MODE_PWM1);
+	timer_channel_output_shadow_config(TIMER1, TIMER_CH_1, TIMER_OC_SHADOW_DISABLE);
+
+	//configure the DMA peripheral
+
+	/* ADC DMA_channel configuration */
+	dma_deinit(DMA0, DMA_CH0);
+
+	/* initialize DMA data mode */
+	dma_data_parameter.periph_addr = (uint32_t) (&ADC_RDATA(ADC0));
+	dma_data_parameter.periph_inc = DMA_PERIPH_INCREASE_DISABLE;
+	dma_data_parameter.memory_addr = (uint32_t) (&gBrdFlashLight.iMCUADC);
+	dma_data_parameter.memory_inc = DMA_MEMORY_INCREASE_ENABLE;
+	dma_data_parameter.periph_width = DMA_PERIPHERAL_WIDTH_32BIT;
+	dma_data_parameter.memory_width = DMA_MEMORY_WIDTH_32BIT;
+	dma_data_parameter.direction = DMA_PERIPHERAL_TO_MEMORY;
+	dma_data_parameter.number = 4;
+	dma_data_parameter.priority = DMA_PRIORITY_HIGH;
+	dma_init(DMA0, DMA_CH0, &dma_data_parameter);
+
+	dma_circulation_enable(DMA0, DMA_CH0);
+
+	/* enable DMA channel */
+	dma_channel_enable(DMA0, DMA_CH0);
+
+	//configure the ADC peripheral
+
+	/* ADC continous function enable */
+	adc_special_function_config(ADC0, ADC_SCAN_MODE, ENABLE);
+	adc_special_function_config(ADC0, ADC_CONTINUOUS_MODE, DISABLE);
+
+	/* ADC trigger config */
+	adc_external_trigger_source_config(ADC0, ADC_REGULAR_CHANNEL, ADC0_1_EXTTRIG_REGULAR_T1_CH1);
+
+	/* ADC data alignment config */
+	adc_data_alignment_config(ADC0, ADC_DATAALIGN_RIGHT);
+
+	/* ADC mode config */
+	adc_mode_config(ADC_DAUL_REGULAL_PARALLEL);
+
+	/* ADC channel length config */
+	adc_channel_length_config(ADC0, ADC_REGULAR_CHANNEL, 4);
+
+	/* ADC regular channel config */
+	adc_regular_channel_config(ADC0, 10, ADC_CHANNEL_10, ADC_SAMPLETIME_55POINT5);
+	adc_regular_channel_config(ADC0, 11, ADC_CHANNEL_11, ADC_SAMPLETIME_55POINT5);
+	adc_regular_channel_config(ADC0, 12, ADC_CHANNEL_12, ADC_SAMPLETIME_55POINT5);
+	adc_regular_channel_config(ADC0, 13, ADC_CHANNEL_13, ADC_SAMPLETIME_55POINT5);
+
+
+	/* ADC external trigger enable */
+	adc_external_trigger_config(ADC0, ADC_REGULAR_CHANNEL, ENABLE);
+
+	/* enable ADC interface */
+	adc_enable(ADC0);
+	delay_1ms(1);
+
+	/* ADC calibration and reset calibration */
+	adc_calibration_enable(ADC0);
+
+	/* ADC DMA function enable */
+	adc_dma_mode_enable(ADC0);
+
+	/* enable TIMER1 */
+	timer_enable(TIMER1);
+
+}
+
+
+//Timer3 to output pwm to drive brush DC motor.
+static void ztimer3_bdcm_init(void)
+{
+	timer_oc_parameter_struct timer_ocintpara;
+	timer_parameter_struct timer_initpara;
+
+	//Configure the GPIO ports.
+	rcu_periph_clock_enable(RCU_GPIOB);
+	rcu_periph_clock_enable(RCU_AF);
+
+	//Configure PB6 PB7(TIMER3 CH0 CH1) as alternate function.
+	gpio_init(GPIOB, GPIO_MODE_AF_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_6);
+	gpio_init(GPIOB, GPIO_MODE_AF_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_7);
+
+	//Configure the TIMER peripheral.
+
+	/* -----------------------------------------------------------------------
+	TIMER3 configuration: generate 2 PWM signals with 2 different duty cycles:
+	TIMER3CLK = SystemCoreClock / 120 = 1MHz
+
+	TIMER3 channel0 duty cycle = (4000/ 16000)* 100  = 25%
+	TIMER3 channel1 duty cycle = (8000/ 16000)* 100  = 50%
+	----------------------------------------------------------------------- */
+	rcu_periph_clock_enable(RCU_TIMER3);
+
+	timer_deinit(TIMER3);
+
+	/* TIMER1 configuration */
+	timer_initpara.prescaler = 119;
+	timer_initpara.alignedmode = TIMER_COUNTER_EDGE;
+	timer_initpara.counterdirection = TIMER_COUNTER_UP;
+	timer_initpara.period = 15999;
+	timer_initpara.clockdivision = TIMER_CKDIV_DIV1;
+	timer_initpara.repetitioncounter = 0;
+	timer_init(TIMER3, &timer_initpara);
+
+	/* CH0 and CH1 configuration in PWM mode */
+	timer_ocintpara.outputstate = TIMER_CCX_ENABLE;
+	timer_ocintpara.outputnstate = TIMER_CCXN_DISABLE;
+	timer_ocintpara.ocpolarity = TIMER_OC_POLARITY_HIGH;
+	timer_ocintpara.ocnpolarity = TIMER_OCN_POLARITY_HIGH;
+	timer_ocintpara.ocidlestate = TIMER_OC_IDLE_STATE_LOW;
+	timer_ocintpara.ocnidlestate = TIMER_OCN_IDLE_STATE_LOW;
+
+	timer_channel_output_config(TIMER3, TIMER_CH_0, &timer_ocintpara);
+	timer_channel_output_config(TIMER3, TIMER_CH_1, &timer_ocintpara);
+
+	/* CH0 configuration in PWM mode0,duty cycle 25% */
+	timer_channel_output_pulse_value_config(TIMER3, TIMER_CH_0, 3999);
+	timer_channel_output_mode_config(TIMER3, TIMER_CH_0, TIMER_OC_MODE_PWM0);
+	timer_channel_output_shadow_config(TIMER3, TIMER_CH_0, TIMER_OC_SHADOW_DISABLE);
+
+	/* CH1 configuration in PWM mode0,duty cycle 50% */
+	timer_channel_output_pulse_value_config(TIMER3, TIMER_CH_1, 7999);
+	timer_channel_output_mode_config(TIMER3, TIMER_CH_1, TIMER_OC_MODE_PWM0);
+	timer_channel_output_shadow_config(TIMER3, TIMER_CH_1, TIMER_OC_SHADOW_DISABLE);
+
+	/* auto-reload preload enable */
+	timer_auto_reload_shadow_enable(TIMER3);
+
+	/* auto-reload preload enable */
+	timer_enable(TIMER3);
+}
+
+
+//Timer7 to output pwm to drive brush DC motor.
+static void ztimer7_bdcm_init(void)
+{
+	timer_oc_parameter_struct timer_ocintpara;
+	timer_parameter_struct timer_initpara;
+
+	//Configure the GPIO ports.
+	rcu_periph_clock_enable(RCU_GPIOC);
+	rcu_periph_clock_enable(RCU_AF);
+
+	//Configure PC6 PC7(TIMER7 CH0 CH1) as alternate function.
+	gpio_init(GPIOC, GPIO_MODE_AF_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_6);
+	gpio_init(GPIOC, GPIO_MODE_AF_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_7);
+
+	//Configure the TIMER peripheral.
+
+	/* -----------------------------------------------------------------------
+	TIMER7 configuration: generate 2 PWM signals with 2 different duty cycles:
+	TIMER7CLK = SystemCoreClock / 120 = 1MHz
+
+	TIMER7 channel0 duty cycle = (4000/ 16000)* 100  = 25%
+	TIMER7 channel1 duty cycle = (8000/ 16000)* 100  = 50%
+	----------------------------------------------------------------------- */
+	rcu_periph_clock_enable(RCU_TIMER7);
+
+	timer_deinit(TIMER7);
+
+	/* TIMER1 configuration */
+	timer_initpara.prescaler = 119;
+	timer_initpara.alignedmode = TIMER_COUNTER_EDGE;
+	timer_initpara.counterdirection = TIMER_COUNTER_UP;
+	timer_initpara.period = 15999;
+	timer_initpara.clockdivision = TIMER_CKDIV_DIV1;
+	timer_initpara.repetitioncounter = 0;
+	timer_init(TIMER7, &timer_initpara);
+
+	/* CH0 and CH1 configuration in PWM mode */
+	timer_ocintpara.outputstate = TIMER_CCX_ENABLE;
+	timer_ocintpara.outputnstate = TIMER_CCXN_DISABLE;
+	timer_ocintpara.ocpolarity = TIMER_OC_POLARITY_HIGH;
+	timer_ocintpara.ocnpolarity = TIMER_OCN_POLARITY_HIGH;
+	timer_ocintpara.ocidlestate = TIMER_OC_IDLE_STATE_LOW;
+	timer_ocintpara.ocnidlestate = TIMER_OCN_IDLE_STATE_LOW;
+
+	timer_channel_output_config(TIMER7, TIMER_CH_0, &timer_ocintpara);
+	timer_channel_output_config(TIMER7, TIMER_CH_1, &timer_ocintpara);
+
+	/* CH0 configuration in PWM mode0,duty cycle 25% */
+	timer_channel_output_pulse_value_config(TIMER7, TIMER_CH_0, 3999);
+	timer_channel_output_mode_config(TIMER7, TIMER_CH_0, TIMER_OC_MODE_PWM0);
+	timer_channel_output_shadow_config(TIMER7, TIMER_CH_0, TIMER_OC_SHADOW_DISABLE);
+
+	/* CH1 configuration in PWM mode0,duty cycle 50% */
+	timer_channel_output_pulse_value_config(TIMER7, TIMER_CH_1, 7999);
+	timer_channel_output_mode_config(TIMER7, TIMER_CH_1, TIMER_OC_MODE_PWM0);
+	timer_channel_output_shadow_config(TIMER7, TIMER_CH_1, TIMER_OC_SHADOW_DISABLE);
+
+	/* auto-reload preload enable */
+	timer_auto_reload_shadow_enable(TIMER7);
+
+	/* auto-reload preload enable */
+	timer_enable(TIMER7);
+}
+
+
+//integrates all low-level components initialization.
+void zboard_low_init(void)
+{
+	//configure the TIMER peripheral
+	timer_oc_parameter_struct timer_ocintpara;
+	timer_parameter_struct timer_initpara;
+
+	//configure the DMA peripheral
+	dma_parameter_struct dma_data_parameter;
+
+	//first initial global variables.
+	gBrdFlashLight.sUsart0.fsm = FSM_PREPARE;
+
+	//LED1/2 to indicate system working status.
+	zled12_init();
+
+	//initial all Keys to EXTI mode.
+	zkeys_exti_init();
+
+	//USART0: For Debug TTL-USB. (3.3V TTL Level)
+	zusart0_debug_init();
+
+	//USART1: To communicate with Laser Distance Module. (RS422,Full duplex)
+	zusart1_distance_init();
+
+	//USART2: To communicate with Display module. (3.3V TTL Level)
+	zusart2_oled_init();
+
+	//UART3: To communicate with WiFi-UART module. (3.3V TTL Level)
+	zuart3_wifi_init();
+
+	//UART4: To communicate with Laser Module. (3.3V TTL Level)
+	zuart4_laser_init();
+
+
+	//MCU SoC ADC0.
+	//use Timer1 to trigger ADC0 periodic conversation (DMA0-CH0).
+	zmcu_soc_adc0_init();
+
+	//Timer3 to output pwm to drive brush DC motor.
+	ztimer3_bdcm_init();
+
+	//Timer7 to output pwm to drive brush DC motor.
+	ztimer7_bdcm_init();
+}
+
 
 void zled_on_off(uint8_t iLed, uint8_t iOn)
 {
@@ -292,49 +587,6 @@ void zled_toggle(uint8_t iLed)
 		default:
 			break;
 	}
-
-}
-
-
-/* configure COM port */
-void zcom_init(uint32_t com)
-{
-	uint32_t		com_id = 0U;
-
-	if (COM0 == com) {
-		com_id				= 0U;
-	}
-	else if (COM1 == com) {
-		com_id				= 1U;
-	}
-	else if (COM2 == com) {
-		com_id				= 2U;
-	}
-	else if (COM3 == com) {
-		com_id				= 3U;
-	}
-	else if (COM4 == com) {
-		com_id				= 4U;
-	}
-
-	/* enable GPIO clock */
-	rcu_periph_clock_enable(COM_GPIO_CLK[com_id]);
-
-	/* enable USART clock */
-	rcu_periph_clock_enable(COM_CLK[com_id]);
-
-	/* connect port to USARTx_Tx */
-	gpio_init(COM_GPIO_PORT[com_id], GPIO_MODE_AF_PP, GPIO_OSPEED_50MHZ, COM_TX_PIN[com_id]);
-
-	/* connect port to USARTx_Rx */
-	gpio_init(COM_GPIO_PORT[com_id], GPIO_MODE_IN_FLOATING, GPIO_OSPEED_50MHZ, COM_RX_PIN[com_id]);
-
-	/* USART configure */
-	usart_deinit(com);
-	usart_baudrate_set(com, 115200U);
-	usart_receive_config(com, USART_RECEIVE_ENABLE);
-	usart_transmit_config(com, USART_TRANSMIT_ENABLE);
-	usart_enable(com);
 
 }
 

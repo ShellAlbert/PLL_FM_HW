@@ -1,194 +1,21 @@
-\t (00:01:09) allegro 17.4 S017 Windows SPB 64-bit Edition
-\t (00:01:09)     Journal start - Wed Jan 19 13:44:35 2022
-\t (00:01:09)         Host=BF-202007251750 User=Administrator Pid=7980 CPUs=16
-\t (00:01:09) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
-\t (00:01:09) 
-\d (00:01:09) Design opened: G:/github/PLL_FM_HW/FlashLight/PCB/FLASHLIGHT_V23.brd
-\i (00:01:09) generaledit 
-\i (00:01:10) zoom out 1 
-\i (00:01:10) setwindow pcb
-\i (00:01:10) zoom out 31.9563 -26.2415
-\i (00:01:10) trapsize 6593
-\i (00:01:12) color192 
-\i (00:01:12) generaledit 
-\i (00:01:13) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Top Pin 1
-\i (00:01:13) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
-\i (00:01:13) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:01:14) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Top Via 1
-\i (00:01:14) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 1
-\i (00:01:14) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:01:14) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Top Etch 1
-\i (00:01:14) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 2
-\i (00:01:15) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:01:15) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Signal-3" Etch 1
-\i (00:01:15) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 2 2
-\i (00:01:15) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:01:16) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Vcc-4" Etch 1
-\i (00:01:16) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 3 2
-\i (00:01:16) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:01:16) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Signal-6" Etch 1
-\i (00:01:16) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 2
-\i (00:01:16) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:01:17) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Bottom Etch 1
-\i (00:01:17) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 7 2
-\i (00:01:17) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:01:18) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Bottom Via 1
-\i (00:01:18) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 7 1
-\i (00:01:18) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:01:19) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Bottom Pin 1
-\i (00:01:19) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 7 0
-\i (00:01:19) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:01:20) QtSignal ColorVisibilityDialog CVDOkButton clicked
-\i (00:01:20) zoom in 1 
-\i (00:01:20) setwindow pcb
-\i (00:01:20) zoom in 38.9445 -49.3157
-\i (00:01:20) trapsize 3296
-\i (00:01:20) zoom out 1 
-\i (00:01:20) setwindow pcb
-\i (00:01:20) zoom out 41.2519 -50.5683
-\i (00:01:20) trapsize 6593
-\i (00:01:21) zoom in 1 
-\i (00:01:21) setwindow pcb
-\i (00:01:21) zoom in 39.4060 -20.2422
-\i (00:01:21) trapsize 3296
-\i (00:30:04) zoom out 1 
-\i (00:30:04) setwindow pcb
-\i (00:30:04) zoom out 33.8023 -10.4850
-\i (00:30:04) trapsize 6593
-\i (00:30:05) zoom in 1 
-\i (00:30:05) setwindow pcb
-\i (00:30:05) zoom in 25.4956 -28.0215
-\i (00:30:05) trapsize 3296
-\i (00:30:05) zoom in 1 
-\i (00:30:05) setwindow pcb
-\i (00:30:05) zoom in 25.1001 -28.8126
-\i (00:30:05) trapsize 1648
-\i (00:30:05) zoom out 1 
-\i (00:30:05) setwindow pcb
-\i (00:30:05) zoom out 24.4738 -30.9551
-\i (00:30:05) trapsize 3296
-\i (00:30:06) zoom out 1 
-\i (00:30:06) setwindow pcb
-\i (00:30:06) zoom out 24.3420 -31.6144
-\i (00:30:06) trapsize 6593
-\i (00:30:07) save 
-\i (00:30:08) fillin yes 
-\i (00:30:08) generaledit 
-\i (00:34:37) zoom in 1 
-\i (00:34:37) setwindow pcb
-\i (00:34:37) zoom in 33.3080 -18.6929
-\i (00:34:37) trapsize 3296
-\i (00:34:37) zoom out 1 
-\i (00:34:37) setwindow pcb
-\i (00:34:37) zoom out 34.3628 -12.1661
-\i (00:34:37) trapsize 6593
-\i (00:34:38) zoom in 1 
-\i (00:34:38) setwindow pcb
-\i (00:34:38) zoom in 34.0992 -43.0197
-\i (00:34:38) trapsize 3296
-\i (00:34:45) zoom out 1 
-\i (00:34:45) setwindow pcb
-\i (00:34:45) zoom out 24.8695 -43.5471
-\i (00:34:45) trapsize 6593
-\i (00:34:46) zoom in 1 
-\i (00:34:46) setwindow pcb
-\i (00:34:46) zoom in 15.2442 -4.2550
-\i (00:34:46) trapsize 3296
-\i (00:34:46) zoom in 1 
-\i (00:34:46) setwindow pcb
-\i (00:34:46) zoom in 15.2443 -4.2550
-\i (00:34:46) trapsize 1648
-\i (00:34:46) zoom in 1 
-\i (00:34:46) setwindow pcb
-\i (00:34:46) zoom in 22.9907 -3.2990
-\i (00:34:46) trapsize 824
-\i (00:34:48) zoom out 1 
-\i (00:34:48) setwindow pcb
-\i (00:34:48) zoom out 21.0294 -3.0847
-\i (00:34:48) trapsize 1648
-\i (00:34:48) zoom in 1 
-\i (00:34:48) setwindow pcb
-\i (00:34:48) zoom in 23.8311 -8.5237
-\i (00:34:48) trapsize 824
-\i (00:34:48) zoom in 1 
-\i (00:34:48) setwindow pcb
-\i (00:34:48) zoom in 23.8970 -8.6885
-\i (00:34:48) trapsize 412
-\i (00:34:48) zoom in 1 
-\i (00:34:48) setwindow pcb
-\i (00:34:48) zoom in 23.9217 -8.7214
-\i (00:34:48) trapsize 206
-\i (00:34:50) zoom out 1 
-\i (00:34:50) setwindow pcb
-\i (00:34:50) zoom out 23.7116 -8.3505
-\i (00:34:50) trapsize 412
-\i (00:34:50) zoom out 1 
-\i (00:34:50) setwindow pcb
-\i (00:34:50) zoom out 23.7116 -8.3505
-\i (00:34:50) trapsize 824
-\i (00:34:50) zoom out 1 
-\i (00:34:50) setwindow pcb
-\i (00:34:50) zoom out 23.9588 -8.2187
-\i (00:34:50) trapsize 1648
-\i (00:34:51) zoom in 1 
-\i (00:34:51) setwindow pcb
-\i (00:34:51) zoom in 25.7718 -14.7125
-\i (00:34:51) trapsize 824
-\i (00:34:51) zoom in 1 
-\i (00:34:51) setwindow pcb
-\i (00:34:51) zoom in 25.7882 -14.7290
-\i (00:34:51) trapsize 412
-\i (00:34:52) zoom out 1 
-\i (00:34:52) setwindow pcb
-\i (00:34:52) zoom out 24.3296 -13.4187
-\i (00:34:52) trapsize 824
-\i (00:34:52) zoom out 1 
-\i (00:34:52) setwindow pcb
-\i (00:34:52) zoom out 24.3297 -13.4187
-\i (00:34:52) trapsize 1648
-\i (00:34:52) zoom in 1 
-\i (00:34:52) setwindow pcb
-\i (00:34:52) zoom in 36.4602 -20.5717
-\i (00:34:52) trapsize 824
-\i (00:34:52) zoom in 1 
-\i (00:34:52) setwindow pcb
-\i (00:34:52) zoom in 36.4602 -20.5717
-\i (00:34:52) trapsize 412
-\i (00:34:53) zoom out 1 
-\i (00:34:53) setwindow pcb
-\i (00:34:53) zoom out 34.8533 -18.7175
-\i (00:34:53) trapsize 824
-\i (00:34:53) zoom out 1 
-\i (00:34:53) setwindow pcb
-\i (00:34:53) zoom out 34.8533 -18.7174
-\i (00:34:53) trapsize 1648
-\i (00:34:54) zoom in 1 
-\i (00:34:54) setwindow pcb
-\i (00:34:54) zoom in 37.4245 -24.3212
-\i (00:34:54) trapsize 824
-\i (00:34:55) zoom out 1 
-\i (00:34:55) setwindow pcb
-\i (00:34:55) zoom out 35.2654 -24.0245
-\i (00:34:55) trapsize 1648
-\i (00:34:56) zoom out 1 
-\i (00:34:56) setwindow pcb
-\i (00:34:56) zoom out 35.6280 -24.2223
-\i (00:34:56) trapsize 3296
-\i (00:34:56) zoom in 1 
-\i (00:34:56) setwindow pcb
-\i (00:34:56) zoom in 50.0000 -26.8595
-\i (00:34:56) trapsize 1648
-\i (00:34:56) zoom in 1 
-\i (00:34:56) setwindow pcb
-\i (00:34:56) zoom in 50.0000 -26.8595
-\i (00:34:56) trapsize 824
-\i (00:34:57) zoom out 1 
-\i (00:34:57) setwindow pcb
-\i (00:34:57) zoom out 49.9176 -26.5299
-\i (00:34:57) trapsize 1648
-\i (00:34:58) zoom out 1 
-\i (00:34:58) setwindow pcb
-\i (00:34:58) zoom out 50.1813 -26.1672
-\i (00:34:58) trapsize 3296
-\i (00:35:00) exit 
-\t (00:35:04)     Journal end - Wed Jan 19 14:18:30 2022
+\t (00:00:02) allegro 17.4 S017 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Wed Jan 19 15:51:17 2022
+\t (00:00:02)         Host=BF-202007251750 User=Administrator Pid=6764 CPUs=16
+\t (00:00:02) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "FLASHLIGHT_V23"
+\d (00:00:05) Design opened: G:/github/PLL_FM_HW/FlashLight/PCB/FLASHLIGHT_V23.brd
+\i (00:00:05) trapsize 7968
+\i (00:00:05) trapsize 8207
+\i (00:00:05) trapsize 8270
+\i (00:00:05) trapsize 6593
+\i (00:00:05) trapsize 6758
+\i (00:00:06) generaledit 
+\i (00:00:12) open 
+\i (00:00:19) fillin "G:/github/PLL_FM_HW/IMX8MINI/PCB/LDVMPU.brd"
+\i (00:00:19) cd "G:/github/PLL_FM_HW/IMX8MINI/PCB"
+\t (00:00:19) Opening existing design...
+\i (00:00:19) trapsize 4755
+\t (00:00:19)     Journal end - Wed Jan 19 15:51:34 2022

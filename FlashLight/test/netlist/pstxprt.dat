@@ -1,0 +1,230 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.4.0 d001Feb-17-2022 at 09:17:19 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='TEST';
+ POST_TIME='Apr 19 2021 16:22:31';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ J1 'HEADER1X6_0_SMD-SH1D0-6P-HOR_HEADER1X6':;
+
+SECTION_NUMBER 1
+ '@TEST.SCHEMATIC1(SCH_1):INS9516420@FLASHLIGHT.HEADER1X6_0.NORMAL(CHIPS)':
+ C_PATH='@test.schematic1(sch_1):ins9516420@flashlight.\header1x6_0.normal\(chips)',
+ P_PATH='@test.schematic1(sch_1):page1_ins9516420@flashlight.\header1x6_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J10 'HEADER1X6_0_SMD-SH1D0-6P-HOR_HEADER1X6':;
+
+SECTION_NUMBER 1
+ '@TEST.SCHEMATIC1(SCH_1):INS9518179@FLASHLIGHT.HEADER1X6_0.NORMAL(CHIPS)':
+ C_PATH='@test.schematic1(sch_1):ins9518179@flashlight.\header1x6_0.normal\(chips)',
+ P_PATH='@test.schematic1(sch_1):page1_ins9518179@flashlight.\header1x6_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J11 'HEADER1X5_1_XH2D54-5P-DEG90_HEADER1X5':;
+
+SECTION_NUMBER 1
+ '@TEST.SCHEMATIC1(SCH_1):INS9518768@TEST.HEADER1X5_1.NORMAL(CHIPS)':
+ C_PATH='@test.schematic1(sch_1):ins9518768@test.\header1x5_1.normal\(chips)',
+ P_PATH='@test.schematic1(sch_1):page1_ins9518768@test.\header1x5_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J12 'HEADER1X5_1_XH2D54-5P-DEG90_HEADER1X5':;
+
+SECTION_NUMBER 1
+ '@TEST.SCHEMATIC1(SCH_1):INS9523133@TEST.HEADER1X5_1.NORMAL(CHIPS)':
+ C_PATH='@test.schematic1(sch_1):ins9523133@test.\header1x5_1.normal\(chips)',
+ P_PATH='@test.schematic1(sch_1):page1_ins9523133@test.\header1x5_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'HEADER1X16_0_SMD-SH1D0-16P-HOR_HEADER1X16':;
+
+SECTION_NUMBER 1
+ '@TEST.SCHEMATIC1(SCH_1):INS9515575@FLASHLIGHT.HEADER1X16_0.NORMAL(CHIPS)':
+ C_PATH='@test.schematic1(sch_1):ins9515575@flashlight.\header1x16_0.normal\(chips)',
+ P_PATH='@test.schematic1(sch_1):page1_ins9515575@flashlight.\header1x16_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R138 'RESISTOR VAR_VR-BLUEWHITE_5K':;
+
+SECTION_NUMBER 1
+ '@TEST.SCHEMATIC1(SCH_1):INS9516264@DISCRETE.RESISTOR VAR.NORMAL(CHIPS)':
+ C_PATH='@test.schematic1(sch_1):ins9516264@discrete.\resistor var.normal\(chips)',
+ P_PATH='@test.schematic1(sch_1):page1_ins9516264@discrete.\resistor var.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R139 'RESISTOR VAR_VR-BLUEWHITE_5K':;
+
+SECTION_NUMBER 1
+ '@TEST.SCHEMATIC1(SCH_1):INS9516460@DISCRETE.RESISTOR VAR.NORMAL(CHIPS)':
+ C_PATH='@test.schematic1(sch_1):ins9516460@discrete.\resistor var.normal\(chips)',
+ P_PATH='@test.schematic1(sch_1):page1_ins9516460@discrete.\resistor var.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW1 'SW SPST_RISYM-3X6X2D5_RISYM-SW':;
+
+SECTION_NUMBER 1
+ '@TEST.SCHEMATIC1(SCH_1):INS9516637@DISCRETE.SW SPST.NORMAL(CHIPS)':
+ C_PATH='@test.schematic1(sch_1):ins9516637@discrete.\sw spst.normal\(chips)',
+ P_PATH='@test.schematic1(sch_1):page1_ins9516637@discrete.\sw spst.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW10 'SW SPST_RISYM-3X6X2D5_RISYM-SW':;
+
+SECTION_NUMBER 1
+ '@TEST.SCHEMATIC1(SCH_1):INS9516837@DISCRETE.SW SPST.NORMAL(CHIPS)':
+ C_PATH='@test.schematic1(sch_1):ins9516837@discrete.\sw spst.normal\(chips)',
+ P_PATH='@test.schematic1(sch_1):page1_ins9516837@discrete.\sw spst.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW11 'SW SPST_RISYM-3X6X2D5_RISYM-SW':;
+
+SECTION_NUMBER 1
+ '@TEST.SCHEMATIC1(SCH_1):INS9516859@DISCRETE.SW SPST.NORMAL(CHIPS)':
+ C_PATH='@test.schematic1(sch_1):ins9516859@discrete.\sw spst.normal\(chips)',
+ P_PATH='@test.schematic1(sch_1):page1_ins9516859@discrete.\sw spst.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW12 'SW SPST_RISYM-3X6X2D5_RISYM-SW':;
+
+SECTION_NUMBER 1
+ '@TEST.SCHEMATIC1(SCH_1):INS9516881@DISCRETE.SW SPST.NORMAL(CHIPS)':
+ C_PATH='@test.schematic1(sch_1):ins9516881@discrete.\sw spst.normal\(chips)',
+ P_PATH='@test.schematic1(sch_1):page1_ins9516881@discrete.\sw spst.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW13 'SW SPST_RISYM-3X6X2D5_RISYM-SW':;
+
+SECTION_NUMBER 1
+ '@TEST.SCHEMATIC1(SCH_1):INS9516903@DISCRETE.SW SPST.NORMAL(CHIPS)':
+ C_PATH='@test.schematic1(sch_1):ins9516903@discrete.\sw spst.normal\(chips)',
+ P_PATH='@test.schematic1(sch_1):page1_ins9516903@discrete.\sw spst.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW14 'SW SPST_RISYM-3X6X2D5_RISYM-SW':;
+
+SECTION_NUMBER 1
+ '@TEST.SCHEMATIC1(SCH_1):INS9516925@DISCRETE.SW SPST.NORMAL(CHIPS)':
+ C_PATH='@test.schematic1(sch_1):ins9516925@discrete.\sw spst.normal\(chips)',
+ P_PATH='@test.schematic1(sch_1):page1_ins9516925@discrete.\sw spst.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW15 'SW SPST_RISYM-3X6X2D5_RISYM-SW':;
+
+SECTION_NUMBER 1
+ '@TEST.SCHEMATIC1(SCH_1):INS9516947@DISCRETE.SW SPST.NORMAL(CHIPS)':
+ C_PATH='@test.schematic1(sch_1):ins9516947@discrete.\sw spst.normal\(chips)',
+ P_PATH='@test.schematic1(sch_1):page1_ins9516947@discrete.\sw spst.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW2 'SW SPST_RISYM-3X6X2D5_RISYM-SW':;
+
+SECTION_NUMBER 1
+ '@TEST.SCHEMATIC1(SCH_1):INS9516661@DISCRETE.SW SPST.NORMAL(CHIPS)':
+ C_PATH='@test.schematic1(sch_1):ins9516661@discrete.\sw spst.normal\(chips)',
+ P_PATH='@test.schematic1(sch_1):page1_ins9516661@discrete.\sw spst.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW3 'SW SPST_RISYM-3X6X2D5_RISYM-SW':;
+
+SECTION_NUMBER 1
+ '@TEST.SCHEMATIC1(SCH_1):INS9516683@DISCRETE.SW SPST.NORMAL(CHIPS)':
+ C_PATH='@test.schematic1(sch_1):ins9516683@discrete.\sw spst.normal\(chips)',
+ P_PATH='@test.schematic1(sch_1):page1_ins9516683@discrete.\sw spst.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW4 'SW SPST_RISYM-3X6X2D5_RISYM-SW':;
+
+SECTION_NUMBER 1
+ '@TEST.SCHEMATIC1(SCH_1):INS9516705@DISCRETE.SW SPST.NORMAL(CHIPS)':
+ C_PATH='@test.schematic1(sch_1):ins9516705@discrete.\sw spst.normal\(chips)',
+ P_PATH='@test.schematic1(sch_1):page1_ins9516705@discrete.\sw spst.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW5 'SW SPST_RISYM-3X6X2D5_RISYM-SW':;
+
+SECTION_NUMBER 1
+ '@TEST.SCHEMATIC1(SCH_1):INS9516727@DISCRETE.SW SPST.NORMAL(CHIPS)':
+ C_PATH='@test.schematic1(sch_1):ins9516727@discrete.\sw spst.normal\(chips)',
+ P_PATH='@test.schematic1(sch_1):page1_ins9516727@discrete.\sw spst.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW6 'SW SPST_RISYM-3X6X2D5_RISYM-SW':;
+
+SECTION_NUMBER 1
+ '@TEST.SCHEMATIC1(SCH_1):INS9516749@DISCRETE.SW SPST.NORMAL(CHIPS)':
+ C_PATH='@test.schematic1(sch_1):ins9516749@discrete.\sw spst.normal\(chips)',
+ P_PATH='@test.schematic1(sch_1):page1_ins9516749@discrete.\sw spst.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW7 'SW SPST_RISYM-3X6X2D5_RISYM-SW':;
+
+SECTION_NUMBER 1
+ '@TEST.SCHEMATIC1(SCH_1):INS9516771@DISCRETE.SW SPST.NORMAL(CHIPS)':
+ C_PATH='@test.schematic1(sch_1):ins9516771@discrete.\sw spst.normal\(chips)',
+ P_PATH='@test.schematic1(sch_1):page1_ins9516771@discrete.\sw spst.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW8 'SW SPST_RISYM-3X6X2D5_RISYM-SW':;
+
+SECTION_NUMBER 1
+ '@TEST.SCHEMATIC1(SCH_1):INS9516793@DISCRETE.SW SPST.NORMAL(CHIPS)':
+ C_PATH='@test.schematic1(sch_1):ins9516793@discrete.\sw spst.normal\(chips)',
+ P_PATH='@test.schematic1(sch_1):page1_ins9516793@discrete.\sw spst.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW9 'SW SPST_RISYM-3X6X2D5_RISYM-SW':;
+
+SECTION_NUMBER 1
+ '@TEST.SCHEMATIC1(SCH_1):INS9516815@DISCRETE.SW SPST.NORMAL(CHIPS)':
+ C_PATH='@test.schematic1(sch_1):ins9516815@discrete.\sw spst.normal\(chips)',
+ P_PATH='@test.schematic1(sch_1):page1_ins9516815@discrete.\sw spst.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

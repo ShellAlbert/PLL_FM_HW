@@ -65,8 +65,15 @@ void EXTI1_IRQHandler(void);
 void EXTI2_IRQHandler(void);
 void EXTI3_IRQHandler(void);
 void EXTI4_IRQHandler(void);
+/* this function handles external lines 5 to 9 interrupt request */
 void EXTI5_9_IRQHandler(void);
 /* this function handles external lines 10 to 15 interrupt request */
 void EXTI10_15_IRQHandler(void);
+
+void USART0_IRQHandler(void);
+void USART1_IRQHandler(void);
+void USART2_IRQHandler(void);
+void UART3_IRQHandler(void);
+void UART4_IRQHandler(void);
 
 #endif /* GD32F30X_IT_H */

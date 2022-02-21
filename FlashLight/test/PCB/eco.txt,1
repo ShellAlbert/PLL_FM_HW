@@ -1,0 +1,90 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/FlashLight/test/PCB/TEST.brd                            |
+|                                                    Thu Feb 17 08:55:46 2022  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GND          pins MOVED FROM this net (to net name listed on right)
+                                 J2.16            4.5000 -7.6000
+                                                                         IO_SET
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  IO_CON_FLASH pins MOVED FROM this net (to net name listed on right)
+                                 J2.3            17.5000 -7.6000
+                                                                        IO_LEFT
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  IO_DAY_NIGHT pins MOVED FROM this net (to net name listed on right)
+                                 J2.2            18.5000 -7.6000
+                                                                       IO_RIGHT
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  IO_DOWN      pins MOVED FROM this net (to net name listed on right)
+                                 J2.12            8.5000 -7.6000
+                                                                    IO_SHOT_SW2
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  IO_FL_ADD    pins MOVED FROM this net (to net name listed on right)
+                                 J2.10           10.5000 -7.6000
+                                                                 IO_LASER_MODE4
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  IO_FL_SUB    pins MOVED FROM this net (to net name listed on right)
+                                 J2.11            9.5000 -7.6000
+                                                                 IO_LASER_MODE3
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  IO_LASER_MODE1 pins MOVED FROM this net (to net name listed on right)
+                                 J2.8            12.5000 -7.6000
+                                                                 IO_LASER_MODE2
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  IO_LASER_MODE2 pins MOVED FROM this net (to net name listed on right)
+                                 J2.9            11.5000 -7.6000
+                                                                 IO_LASER_MODE1
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  IO_LASER_MODE3 pins MOVED FROM this net (to net name listed on right)
+                                 J2.6            14.5000 -7.6000
+                                                                      IO_FL_SUB
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  IO_LASER_MODE4 pins MOVED FROM this net (to net name listed on right)
+                                 J2.7            13.5000 -7.6000
+                                                                      IO_FL_ADD
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  IO_LEFT      pins MOVED FROM this net (to net name listed on right)
+                                 J2.14            6.5000 -7.6000
+                                                                   IO_CON_FLASH
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  IO_RIGHT     pins MOVED FROM this net (to net name listed on right)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  G:/github/PLL_FM_HW/FlashLight/test/PCB/TEST.brd                            |
+|                                                    Thu Feb 17 08:55:46 2022  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 J2.15            5.5000 -7.6000
+                                                                   IO_DAY_NIGHT
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  IO_SET       pins MOVED FROM this net (to net name listed on right)
+                                 J2.1            19.5000 -7.6000
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  IO_SHOT_SW1  pins MOVED FROM this net (to net name listed on right)
+                                 J2.4            16.5000 -7.6000
+                                                                          IO_UP
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  IO_SHOT_SW2  pins MOVED FROM this net (to net name listed on right)
+                                 J2.5            15.5000 -7.6000
+                                                                        IO_DOWN
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  IO_UP        pins MOVED FROM this net (to net name listed on right)
+                                 J2.13            7.5000 -7.6000
+                                                                    IO_SHOT_SW1
+|------------------------------------------------------------------------------|
+|       Nets changed          :      16                                        |
+|                                                                              |
+|   Total ECO changes reported:      16                                        |
+|------------------------------------------------------------------------------|

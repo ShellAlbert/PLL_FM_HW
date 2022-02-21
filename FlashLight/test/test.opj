@@ -1,0 +1,287 @@
+(ExpressProject "FlashLight"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[02/17/22]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library1.olb"
+        (Type "Schematic Library")
+        (DisplayName ".\library1.olb")))
+    ("Allegro Netlist Directory" "G:\github\PLL_FM_HW\FlashLight\test\netlist")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\test.dsn"
+      (Type "Schematic Design")
+      (DisplayName ".\test.DSN"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "TRUE")
+    (DRC_View_Output_Type "2")
+    (DRC_Preserved_Waived "FALSE")
+    (RUN_Online_Rules "TRUE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Check_Single_Node_Nets_Online "TRUE")
+    (DRC_Check_No_Driving_Source_Online "FALSE")
+    (DRC_Check_Duplicate_NetNames_Online "TRUE")
+    (DRC_Check_Off-Page_Connectors_Online "FALSE")
+    (DRC_Check_Ports_Online "FALSE")
+    (DRC_Check_Unconnected_Nets_Online "FALSE")
+    (DRC_Check_Floating_Pins_Online "FALSE")
+    (DRC_Run_Electrical_Reports "TRUE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility_Online "FALSE")
+    (DRC_Check_PCB_Footprint_Property_Online "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync_Online "FALSE")
+    (DRC_Check_Incorrect_PinGroup_Assignment_Online "TRUE")
+    (DRC_Check_Missing_Pin_Numbers_Online "TRUE")
+    (DRC_Check_Device_With_No_Pins_Online "FALSE")
+    (DRC_Check_Power_Ground_Short_Online "FALSE")
+    (DRC_Check_Name_Prop_For_HierBlocks_Online "FALSE")
+    (DRC_Run_Physical_Reports "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Run_Simulation_Rules "TRUE")
+    (DRC_Check_Pspice_Model_Lib_Path_Online "FALSE")
+    (DRC_Run_Custom_Rules "FALSE")
+    (DRC_Report_File "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\FLASHLIGHT.DRC")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\FLASHLIGHT.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}\t{ZSYDesc}")
+    (BOM_Header "Item\tQuantity\tReference\tPart\tPCBFootprint\tDetail")
+    (BOM_Include_File "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\FLASHLIGHT.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" ".\allegro\flashlight.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "255")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    ("Allegro Backannotation Run Genfeed" "TRUE")
+    ("Allegro Backannotation Board File"
+       "G:\github\PLL_FM_HW\FlashLight\PCB\FLASHLIGHT_V23.brd")
+    ("Allegro Backannotation Netlist Directory"
+       "G:\github\PLL_FM_HW\FlashLight\schematic\NETLIST")
+    ("Allegro Backannotation Output File" "allegro\FLASHLIGHT.swp")
+    ("Allegro Backannotation Update Schematic" "TRUE")
+    ("Allegro Backannotation View Output" "FALSE")
+    ("Allegro Setup Output Warnings" "FALSE")
+    (Backannotation_TAB "0"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\flashlight.drc"
+      (Type "Report")
+      (DisplayName ".\flashlight.drc"))
+    (File ".\flashlight.bom"
+      (Type "Report")
+      (DisplayName ".\flashlight.bom"))
+    (File ".\netlist\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\netlist\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\netlist\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\netlist\pinview.dat"
+      (Type "Report")
+      (DisplayName "pinView.dat"))
+    (File ".\netlist\netview.dat"
+      (Type "Report")
+      (DisplayName "netView.dat"))
+    (File ".\netlist\funcview.dat"
+      (Type "Report")
+      (DisplayName "funcView.dat"))
+    (File ".\netlist\compview.dat"
+      (Type "Report")
+      (DisplayName "compView.dat"))
+    (File ".\allegro\flashlight.swp"
+      (Type "Report")
+      (DisplayName "FLASHLIGHT.swp")))
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs"
+    (File ".\netlist\swp.log"
+      (Type "Log File")
+      (LogFile "G:\github\PLL_FM_HW\FlashLight\schematic\NETLIST\swp.log")))
+  (PartMRUSelector
+    (Header1x5
+      (FullPartName "Header1x5.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\TEST\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("SW SPST"
+      (FullPartName "SW SPST.Normal")
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("RESISTOR VAR"
+      (FullPartName "RESISTOR VAR.Normal")
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("T POINT A"
+      (FullPartName "T POINT A.Normal")
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("TEST POINT"
+      (FullPartName "TEST POINT.Normal")
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CRYSTAL
+      (FullPartName "CRYSTAL.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (SGM7SZ08YXDM6G/TR
+      (FullPartName "SGM7SZ08YXDM6G/TR.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (BEAD
+      (FullPartName "BEAD.Normal")
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (BAT54CW
+      (FullPartName "BAT54CW.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("DIODE SCHOTTKY"
+      (FullPartName "DIODE SCHOTTKY.Normal")
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (BATTERY
+      (FullPartName "BATTERY.Normal")
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (Header1x6
+      (FullPartName "Header1x6.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (Header1x16
+      (FullPartName "Header1x16.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("DIODE TS BI-DIR"
+      (FullPartName "DIODE TS BI-DIR.Normal")
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (Header1x4
+      (FullPartName "Header1x4.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (CJ431
+      (FullPartName "CJ431.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (TL431
+      (FullPartName "TL431.Normal")
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\REGULATOR.OLB")
+      (DeviceIndex "0"))
+    (SGM8968-2
+      (FullPartName "SGM8968-2B.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "1"))
+    (VCC_ARROW
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (Header1x8
+      (FullPartName "Header1x8.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\LIBRARY1.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\test.dsn")
+      (Path "Design Resources" ".\test.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\library1.olb")
+      (Path "Outputs")
+      (Path "Logs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 695"))
+      (Tab 0)))
+  (MPSSessionName "Administrator")
+  (LastUsedLibraryBrowseDirectory
+     "D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\capture\library")
+  (ISPCBBASICLICENSE "false"))

@@ -284,3 +284,73 @@ void EXTI10_15_IRQHandler(void)
 }
 
 
+/*!
+	\brief		this function handles USART RBNE interrupt request and TBE interrupt request
+	\param[in]	none
+	\param[out] none
+	\retval 	none
+*/
+void USART0_IRQHandler(void)
+{
+	if (RESET != usart_interrupt_flag_get(USART0, USART_INT_FLAG_RBNE)) {
+		/* receive one data */
+		gBrdFlashLight.sUsart0.rxbuffer[gBrdFlashLight.sUsart0.rxcount++] = usart_data_receive(USART0);
+
+		//after received all expected data disable Receive IRQ.
+		if (gBrdFlashLight.sUsart0.rxcount == gBrdFlashLight.sUsart0.rx_size) {
+			usart_interrupt_disable(USART0, USART_INT_RBNE);
+		}
+	}
+
+	if (RESET != usart_interrupt_flag_get(USART0, USART_INT_FLAG_TBE)) {
+		/* transmit one data */
+		usart_data_transmit(USART0, gBrdFlashLight.sUsart0.txbuffer[gBrdFlashLight.sUsart0.txcount++]);
+
+		//after transmit all expected data disable Transmit IRQ.
+		if (gBrdFlashLight.sUsart0.txcount == gBrdFlashLight.sUsart0.tx_size) {
+			usart_interrupt_disable(USART0, USART_INT_TBE);
+		}
+	}
+}
+
+
+void USART1_IRQHandler(void)
+{
+	if (RESET != usart_interrupt_flag_get(USART1, USART_INT_FLAG_RBNE)) {
+		/* receive one data */
+		gBrdFlashLight.sUsart1.rxbuffer[gBrdFlashLight.sUsart1.rxcount++] = usart_data_receive(USART1);
+
+		//after received all expected data disable Receive IRQ.
+		if (gBrdFlashLight.sUsart1.rxcount == gBrdFlashLight.sUsart1.rx_size) {
+			usart_interrupt_disable(USART1, USART_INT_RBNE);
+		}
+	}
+
+	if (RESET != usart_interrupt_flag_get(USART1, USART_INT_FLAG_TBE)) {
+		/* transmit one data */
+		usart_data_transmit(USART1, gBrdFlashLight.sUsart1.txbuffer[gBrdFlashLight.sUsart1.txcount++]);
+
+		//after transmit all expected data disable Transmit IRQ.
+		if (gBrdFlashLight.sUsart1.txcount == gBrdFlashLight.sUsart1.tx_size) {
+			usart_interrupt_disable(USART1, USART_INT_TBE);
+		}
+	}
+}
+
+
+void USART2_IRQHandler(void)
+{
+
+}
+
+
+void UART3_IRQHandler(void)
+{
+}
+
+
+void UART4_IRQHandler(void)
+{
+}
+
+

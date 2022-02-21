@@ -1,0 +1,12 @@
+{ Using PSTWRITER 17.4.0 d001Feb-17-2022 at 09:17:19 }
+
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... G:\github\PLL_FM_HW\FlashLight\test\netlist\pstchip.dat
+
+Loading... G:\github\PLL_FM_HW\FlashLight\test\netlist\pstchip.dat
+
+Loading... G:\github\PLL_FM_HW\FlashLight\test\netlist\pstxprt.dat
+
+Loading... G:\github\PLL_FM_HW\FlashLight\test\netlist\pstxnet.dat
+packaging the design view...

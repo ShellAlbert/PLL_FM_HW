@@ -1,0 +1,67 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC DRILL Log                                                     )
+(                                                                     )
+(    Drawing          : TEST.brd                                      )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Thu Feb 17 10:35:05 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file 'nc_param.txt' ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		2.5
+ MACHINE-OFFSET		x:0.00000	y:0.00000   (mm)
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		METRIC
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	YES
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		YES
+ TOOL-SELECT		YES
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		NO
+ SEPARATE-ROUTING	NO
+ OPTIMIZE_DRILLING	YES
+ ENHANCED_EXCELLON	YES
+ SCALE			1.000000
+
+ WARNING(SPMHMF-368): Cannot find NC Drill tool file 'nc_tools.txt'
+ WARNING(SPMHMF-369): ... will auto-generate tool file 'nc_tools_auto.txt'.
+
+
+     Auto-generating tool file 'nc_tools_auto.txt' ...
+
+           Size  Plating  Tool        + Tolerance  - Tolerance
+
+         0.5000  P        T01            0.000000     0.000000
+         0.9000  P        T02            0.000000     0.000000
+         1.0000  P        T03            0.000000     0.000000
+
+
+Drill files being output to directory 'G:/github/PLL_FM_HW/FlashLight/test/PCB/Gerber_ZSY' ...
+
+
+
+     'TEST-1-2.drl' created for holes connecting TOP and BOTTOM
+     ----------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T01    1.   0.5000    0.0000/  0.0000      PLATED         36
+     T02    2.   0.9000    0.0000/  0.0000      PLATED         10
+     T03    3.   1.0000    0.0000/  0.0000      PLATED          6
+
+     ---- Total holes:                                         52
+
+     ---- Total head travel:              1.32 feet (0.40 meters)
+
