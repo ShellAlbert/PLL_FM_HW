@@ -74,7 +74,7 @@
     (DRC_Report_File "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\FLASHLIGHT.DRC")
     (BOM_Scope "0")
     (BOM_Mode "0")
-    (BOM_Report_File "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\FLASHLIGHT.BOM")
+    (BOM_Report_File "G:\github\PLL_FM_HW\FlashLight\test\test.BOM")
     (BOM_Merge_Include "FALSE")
     (BOM_Property_Combine_7.0
        "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}\t{ZSYDesc}")
@@ -140,7 +140,9 @@
       (DisplayName "compView.dat"))
     (File ".\allegro\flashlight.swp"
       (Type "Report")
-      (DisplayName "FLASHLIGHT.swp")))
+      (DisplayName "FLASHLIGHT.swp"))
+    (File ".\test.bom"
+      (Type "Report")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
@@ -274,12 +276,13 @@
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\library1.olb")
       (Path "Outputs")
-      (Path "Logs"))
+      (Path "Logs")
+      (Select "Design Resources" ".\test.dsn" "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 695"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 285 0 695"))
       (Tab 0)))
   (MPSSessionName "Administrator")
   (LastUsedLibraryBrowseDirectory
