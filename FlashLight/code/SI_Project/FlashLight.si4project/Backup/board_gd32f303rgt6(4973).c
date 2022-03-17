@@ -9,8 +9,8 @@
 
 //global variable board-layer defination.
 ZBoardStruct	gBrdFlashLight;
-int8_t			iGblFlag = 0;
-int8_t			iGblKeyFlag = 0;
+int8_t iGblFlag=0;
+int8_t iGblKeyFlag=0;
 
 //keys.
 static uint32_t KEY_PORT[KEYn] =
@@ -113,86 +113,34 @@ static void zled12_init(void)
 
 
 //initial all Keys to EXTI mode.
-//PA0:LASER_MODE4, PA1:Day_Night, PA6:LASER_MODE1, PA7:LASER_MODE3, PA8:FL_ADD, PA11:FL_SUB
-//PB0:LEFT_SW, PB1:RIGHT_SW, PB4:CON_Flash, PB5:SET_SW
-//PC4:UP_SW, PC5:DOWN_SW, PC8:SHOT_SW2, PC9:SHOT_SW1, PC13:LASER_MODE2
 static void zkeys_exti_init(void)
 {
-	rcu_periph_clock_enable(RCU_AF);
-	rcu_periph_clock_enable(RCU_GPIOA);
-	rcu_periph_clock_enable(RCU_GPIOB);
-	rcu_periph_clock_enable(RCU_GPIOC);
-	gpio_init(GPIOA, GPIO_MODE_IN_FLOATING, GPIO_OSPEED_50MHZ, GPIO_PIN_0); //PA0:LASER_MODE4
-	gpio_init(GPIOA, GPIO_MODE_IN_FLOATING, GPIO_OSPEED_50MHZ, GPIO_PIN_1); //PA1:Day_Night
-	gpio_init(GPIOA, GPIO_MODE_IN_FLOATING, GPIO_OSPEED_50MHZ, GPIO_PIN_6); //PA6:LASER_MODE1
-	gpio_init(GPIOA, GPIO_MODE_IN_FLOATING, GPIO_OSPEED_50MHZ, GPIO_PIN_7); //PA7:LASER_MODE3
-	gpio_init(GPIOA, GPIO_MODE_IN_FLOATING, GPIO_OSPEED_50MHZ, GPIO_PIN_8); //PA8:FL_ADD
-	gpio_init(GPIOA, GPIO_MODE_IN_FLOATING, GPIO_OSPEED_50MHZ, GPIO_PIN_11); //PA11:FL_SUB
+	uint8_t 		i;
 
-	gpio_init(GPIOB, GPIO_MODE_IN_FLOATING, GPIO_OSPEED_50MHZ, GPIO_PIN_0); //PB0:LEFT_SW
-	gpio_init(GPIOB, GPIO_MODE_IN_FLOATING, GPIO_OSPEED_50MHZ, GPIO_PIN_1); //PB1:RIGHT_SW
-	gpio_init(GPIOB, GPIO_MODE_IN_FLOATING, GPIO_OSPEED_50MHZ, GPIO_PIN_4); //PB4:CON_Flash
-	gpio_init(GPIOB, GPIO_MODE_IN_FLOATING, GPIO_OSPEED_50MHZ, GPIO_PIN_5); //PB5:SET_SW
+	for (i = 0; i < KEY_MAX; i++) {
+		/* enable the key clock */
+		rcu_periph_clock_enable(KEY_CLK[i]);
+		rcu_periph_clock_enable(RCU_AF);
 
-	gpio_init(GPIOC, GPIO_MODE_IN_FLOATING, GPIO_OSPEED_50MHZ, GPIO_PIN_4); //PC4:UP_SW
-	gpio_init(GPIOC, GPIO_MODE_IN_FLOATING, GPIO_OSPEED_50MHZ, GPIO_PIN_5); //PC5:DOWN_SW
-	gpio_init(GPIOC, GPIO_MODE_IN_FLOATING, GPIO_OSPEED_50MHZ, GPIO_PIN_8); //PC8:SHOT_SW2
-	gpio_init(GPIOC, GPIO_MODE_IN_FLOATING, GPIO_OSPEED_50MHZ, GPIO_PIN_9); //PC9:SHOT_SW1
-	gpio_init(GPIOC, GPIO_MODE_IN_FLOATING, GPIO_OSPEED_50MHZ, GPIO_PIN_13); //PC13:LASER_MODE2
+		/* configure button pin as input */
+		gpio_init(KEY_PORT[i], GPIO_MODE_IN_FLOATING, GPIO_OSPEED_50MHZ, KEY_PIN[i]);
 
-	//key will be connected to EXTI line with interrupt.
+		//key will be connected to EXTI line with interrupt.
 
-	/* enable and set key EXTI interrupt to the lowest priority */
-	nvic_irq_enable(EXTI0_IRQn, 2U, 0U);
-	nvic_irq_enable(EXTI1_IRQn, 2U, 0U);
-	nvic_irq_enable(EXTI4_IRQn, 2U, 0U);
-	nvic_irq_enable(EXTI5_9_IRQn, 2U, 0U);
-	nvic_irq_enable(EXTI10_15_IRQn, 2U, 0U);
+		/* enable and set key EXTI interrupt to the lowest priority */
+		nvic_irq_enable(KEY_IRQn[i], 2U, 0U);
 
-	/* connect key EXTI line to key GPIO pin */
-	gpio_exti_source_select(GPIO_PORT_SOURCE_GPIOA, GPIO_PIN_SOURCE_0);
-	gpio_exti_source_select(GPIO_PORT_SOURCE_GPIOA, GPIO_PIN_SOURCE_1);
-	gpio_exti_source_select(GPIO_PORT_SOURCE_GPIOA, GPIO_PIN_SOURCE_6);
-	gpio_exti_source_select(GPIO_PORT_SOURCE_GPIOA, GPIO_PIN_SOURCE_7);
-	gpio_exti_source_select(GPIO_PORT_SOURCE_GPIOA, GPIO_PIN_SOURCE_8);
-	gpio_exti_source_select(GPIO_PORT_SOURCE_GPIOA, GPIO_PIN_SOURCE_11);
+		/* connect key EXTI line to key GPIO pin */
+		gpio_exti_source_select(KEY_PORT_SOURCE[i], KEY_PIN_SOURCE[i]);
 
-	gpio_exti_source_select(GPIO_PORT_SOURCE_GPIOB, GPIO_PIN_SOURCE_0);
-	gpio_exti_source_select(GPIO_PORT_SOURCE_GPIOB, GPIO_PIN_SOURCE_1);
-	gpio_exti_source_select(GPIO_PORT_SOURCE_GPIOB, GPIO_PIN_SOURCE_4);
-	gpio_exti_source_select(GPIO_PORT_SOURCE_GPIOB, GPIO_PIN_SOURCE_5);
+		/* configure key EXTI line */
+		//Y=~A in schematic,so here is rising edge.
+		exti_init(KEY_EXTI_LINE[i], EXTI_INTERRUPT, EXTI_TRIG_RISING);
 
-	gpio_exti_source_select(GPIO_PORT_SOURCE_GPIOC, GPIO_PIN_SOURCE_4);
-	gpio_exti_source_select(GPIO_PORT_SOURCE_GPIOC, GPIO_PIN_SOURCE_5);
-	gpio_exti_source_select(GPIO_PORT_SOURCE_GPIOC, GPIO_PIN_SOURCE_8);
-	gpio_exti_source_select(GPIO_PORT_SOURCE_GPIOC, GPIO_PIN_SOURCE_9);
-	gpio_exti_source_select(GPIO_PORT_SOURCE_GPIOC, GPIO_PIN_SOURCE_13);
+		//exti_init(KEY_EXTI_LINE[i], EXTI_INTERRUPT, EXTI_TRIG_FALLING);
+		exti_interrupt_flag_clear(KEY_EXTI_LINE[i]);
+	}
 
-	nvic_priority_group_set(NVIC_PRIGROUP_PRE2_SUB2);
-
-	/* configure key EXTI line */
-	//Y=~A in schematic,so here is rising edge.
-	exti_init(EXTI_0, EXTI_INTERRUPT, EXTI_TRIG_RISING);
-	exti_init(EXTI_1, EXTI_INTERRUPT, EXTI_TRIG_RISING);
-	exti_init(EXTI_4, EXTI_INTERRUPT, EXTI_TRIG_RISING);
-	exti_init(EXTI_5, EXTI_INTERRUPT, EXTI_TRIG_RISING);
-	exti_init(EXTI_6, EXTI_INTERRUPT, EXTI_TRIG_RISING);
-	exti_init(EXTI_7, EXTI_INTERRUPT, EXTI_TRIG_RISING);
-	exti_init(EXTI_8, EXTI_INTERRUPT, EXTI_TRIG_RISING);
-	exti_init(EXTI_9, EXTI_INTERRUPT, EXTI_TRIG_RISING);
-	exti_init(EXTI_11, EXTI_INTERRUPT, EXTI_TRIG_RISING);
-	exti_init(EXTI_13, EXTI_INTERRUPT, EXTI_TRIG_RISING);
-
-	exti_interrupt_flag_clear(EXTI_0);
-	exti_interrupt_flag_clear(EXTI_1);
-	exti_interrupt_flag_clear(EXTI_4);
-	exti_interrupt_flag_clear(EXTI_5);
-	exti_interrupt_flag_clear(EXTI_6);
-	exti_interrupt_flag_clear(EXTI_7);
-	exti_interrupt_flag_clear(EXTI_8);
-	exti_interrupt_flag_clear(EXTI_9);
-	exti_interrupt_flag_clear(EXTI_11);
-	exti_interrupt_flag_clear(EXTI_13);
 }
 
 
@@ -458,34 +406,20 @@ static void ztimer2_schedule_task_init(void)
 	timer_deinit(TIMER2);
 
 	/* TIMER2 configuration */
-	timer_initpara.prescaler = 1200 - 1;			//IRC 120M/1200=100KHz.Prescale maximum is 65536.
+	timer_initpara.prescaler = 1200-1; //IRC 120M/1200=100KHz.Prescale maximum is 65536.
 	timer_initpara.alignedmode = TIMER_COUNTER_EDGE;
 	timer_initpara.counterdirection = TIMER_COUNTER_UP;
-	timer_initpara.period = 1000 - 1;				//100KHz/1000=100Hz,1/100Hz=0.01s=10mS
+	timer_initpara.period = 1000-1; //100KHz/1000=100Hz,1/100Hz=0.01s=10mS
 	timer_initpara.clockdivision = TIMER_CKDIV_DIV1;
 	timer_initpara.repetitioncounter = 0;
 	timer_init(TIMER2, &timer_initpara);
 
-	//close TIME2_CH0/CH1 to release PB4/PB5 pins.
-	/* CH0 and CH1 configuration in PWM mode */
-	timer_ocintpara.outputstate = TIMER_CCX_DISABLE;
-	timer_ocintpara.outputnstate = TIMER_CCXN_DISABLE;
-	timer_ocintpara.ocpolarity = TIMER_OC_POLARITY_LOW;
-	timer_ocintpara.ocnpolarity = TIMER_OCN_POLARITY_LOW;
-	timer_ocintpara.ocidlestate = TIMER_OC_IDLE_STATE_LOW;
-	timer_ocintpara.ocnidlestate = TIMER_OCN_IDLE_STATE_LOW;
-
-	timer_channel_output_config(TIMER2, TIMER_CH_0, &timer_ocintpara);
-	timer_channel_output_config(TIMER2, TIMER_CH_1, &timer_ocintpara);
-
-
 	/* auto-reload preload enable */
-	timer_auto_reload_shadow_enable(TIMER2);
-	timer_interrupt_flag_clear(TIMER2, TIMER_INT_FLAG_UP);
-
-	/*interrupt enable */
-	timer_interrupt_enable(TIMER2, TIMER_INT_UP);
-	nvic_irq_enable(TIMER2_IRQn, 2U, 0U);
+    timer_auto_reload_shadow_enable(TIMER2);
+    timer_interrupt_flag_clear(TIMER2,TIMER_INT_FLAG_UP);
+    /*interrupt enable */
+    timer_interrupt_enable(TIMER2,TIMER_INT_UP);
+	nvic_irq_enable(TIMER2_IRQn,2U,0U);
 	timer_enable(TIMER2);
 
 }
@@ -519,10 +453,10 @@ static void ztimer3_bdcm_init(void)
 	timer_deinit(TIMER3);
 
 	/* TIMER1 configuration */
-	timer_initpara.prescaler = 120 - 1; 			//IRC 120M/120=1MHz.Prescale maximum is 65536.
+	timer_initpara.prescaler = 120-1; //IRC 120M/120=1MHz.Prescale maximum is 65536.
 	timer_initpara.alignedmode = TIMER_COUNTER_EDGE;
 	timer_initpara.counterdirection = TIMER_COUNTER_UP;
-	timer_initpara.period = 10 - 1; 				//1MHz/10=100kHz
+	timer_initpara.period = 10-1; //1MHz/10=100kHz
 	timer_initpara.clockdivision = TIMER_CKDIV_DIV1;
 	timer_initpara.repetitioncounter = 0;
 	timer_init(TIMER3, &timer_initpara);
@@ -541,13 +475,12 @@ static void ztimer3_bdcm_init(void)
 	/* CH0 configuration in PWM mode0,duty cycle 25% */
 	//timer_channel_output_pulse_value_config(TIMER3, TIMER_CH_0, 40); //period/pwm=100/40=25%
 	//set PWM to 0 to close channel output.
-	timer_channel_output_pulse_value_config(TIMER3, TIMER_CH_0, 10); //period/pwm=100/100=0%
+	timer_channel_output_pulse_value_config(TIMER3, TIMER_CH_0, 10);//period/pwm=100/100=0%
 	timer_channel_output_mode_config(TIMER3, TIMER_CH_0, TIMER_OC_MODE_PWM0);
 	timer_channel_output_shadow_config(TIMER3, TIMER_CH_0, TIMER_OC_SHADOW_DISABLE);
 
 	/* CH1 configuration in PWM mode0,duty cycle 50% */
-	timer_channel_output_pulse_value_config(TIMER3, TIMER_CH_1, 5); //period/pwm=100/50=50%
-
+	timer_channel_output_pulse_value_config(TIMER3, TIMER_CH_1, 5);//period/pwm=100/50=50%
 	//set PWM to 0 to close channel output.
 	//timer_channel_output_pulse_value_config(TIMER3, TIMER_CH_1, 100);//period/pwm=100/100=0%
 	timer_channel_output_mode_config(TIMER3, TIMER_CH_1, TIMER_OC_MODE_PWM0);
@@ -589,10 +522,10 @@ static void ztimer7_bdcm_init(void)
 	timer_deinit(TIMER7);
 
 	/* TIMER1 configuration */
-	timer_initpara.prescaler = 120 - 1; 			//IRC 120M/120=1MHz.Prescale maximum is 65536.
+	timer_initpara.prescaler = 120-1; //IRC 120M/120=1MHz.Prescale maximum is 65536.
 	timer_initpara.alignedmode = TIMER_COUNTER_EDGE;
 	timer_initpara.counterdirection = TIMER_COUNTER_UP;
-	timer_initpara.period = 10 - 1; 				//1MHz/10=100kHz
+	timer_initpara.period = 10-1; //1MHz/10=100kHz
 	timer_initpara.clockdivision = TIMER_CKDIV_DIV1;
 	timer_initpara.repetitioncounter = 0;
 	timer_init(TIMER7, &timer_initpara);
@@ -609,8 +542,7 @@ static void ztimer7_bdcm_init(void)
 	timer_channel_output_config(TIMER7, TIMER_CH_1, &timer_ocintpara);
 
 	/* CH0 configuration in PWM mode0,duty cycle 25% */
-	timer_channel_output_pulse_value_config(TIMER7, TIMER_CH_0, 5); //period/pwm=10/5=50%
-
+	timer_channel_output_pulse_value_config(TIMER7, TIMER_CH_0, 5);//period/pwm=10/5=50%
 	//set PWM to 0 to close channel output.
 	//timer_channel_output_pulse_value_config(TIMER7, TIMER_CH_0, 10);//period/pwm=100/100=0%
 	timer_channel_output_mode_config(TIMER7, TIMER_CH_0, TIMER_OC_MODE_PWM0);
@@ -619,7 +551,7 @@ static void ztimer7_bdcm_init(void)
 	/* CH1 configuration in PWM mode0,duty cycle 50% */
 	//timer_channel_output_pulse_value_config(TIMER7, TIMER_CH_1, 5);//period/pwm=10/5=50%
 	//set PWM to 0 to close channel output.
-	timer_channel_output_pulse_value_config(TIMER7, TIMER_CH_1, 10); //period/pwm=10/10=0%
+	timer_channel_output_pulse_value_config(TIMER7, TIMER_CH_1, 10);//period/pwm=10/10=0%
 	timer_channel_output_mode_config(TIMER7, TIMER_CH_1, TIMER_OC_MODE_PWM0);
 	timer_channel_output_shadow_config(TIMER7, TIMER_CH_1, TIMER_OC_SHADOW_DISABLE);
 
@@ -627,8 +559,8 @@ static void ztimer7_bdcm_init(void)
 	timer_auto_reload_shadow_enable(TIMER7);
 
 	/*TIMER7 primary output function enable Only Advanced Timer0 and Timer7 needed.*/
-	timer_primary_output_config(TIMER7, ENABLE);
-
+    timer_primary_output_config(TIMER7,ENABLE);
+	
 	/* auto-reload preload enable */
 	timer_enable(TIMER7);
 }
@@ -652,27 +584,35 @@ void zboard_low_init(void)
 	//LED1/2 to indicate system working status.
 	zled12_init();
 
-	//initial all Keys to EXTI mode.
-	zkeys_exti_init();
-
 	//Timer7 to output pwm to drive brush DC motor.
 	ztimer7_bdcm_init();
 
+
+	//initial all Keys to EXTI mode.
+	zkeys_exti_init();
+
 	//USART0: For Debug TTL-USB. (3.3V TTL Level)
 	//zusart0_debug_init();
+
 	//USART1: To communicate with Laser Distance Module. (RS422,Full duplex)
 	//zusart1_distance_init();
+
 	//USART2: To communicate with Display module. (3.3V TTL Level)
 	//zusart2_oled_init();
+
 	//UART3: To communicate with WiFi-UART module. (3.3V TTL Level)
 	//zuart3_wifi_init();
+
 	//UART4: To communicate with Laser Module. (3.3V TTL Level)
 	//zuart4_laser_init();
+
+
 	//MCU SoC ADC0.
 	//use Timer1 to trigger ADC0 periodic conversation (DMA0-CH0).
 	//zmcu_soc_adc0_init();
-	ztimer2_schedule_task_init();
 
+	ztimer2_schedule_task_init();
+	
 	//Timer3 to output pwm to drive brush DC motor.
 	ztimer3_bdcm_init();
 
