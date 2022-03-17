@@ -15,6 +15,8 @@ extern "C"
 #include <stdio.h>
 #include "gd32f30x.h"
 
+extern int8_t iGblFlag;
+
 #define 	ARRAYNUM(arr_nanme) 	(uint32_t)(sizeof(arr_nanme) / sizeof(*(arr_nanme)))
 
 	//finite state machine for uart.
@@ -319,6 +321,9 @@ extern "C"
 	//MCU SoC ADC0.
 	//use Timer1 to trigger ADC0 periodic conversation (DMA0-CH0).
 	static void zmcu_soc_adc0_init(void);
+
+	//use Timer2 to schedule Tasks.
+	static void ztimer2_schedule_task_init(void);
 	
 	//Timer3 to output pwm to drive brush DC motor.
 	static void ztimer3_bdcm_init(void);

@@ -1,0 +1,15 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Compose Shapes                                                   )
+(                                                                     )
+(    Drawing          : zpad_soldermask_shape.dra                     )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Thu Mar  3 16:34:10 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+current class name(ETCH)
+Find smallest gap failed. Be cautious, this may not be an error
+Retrieve closedLoop with segments (nil) failed
+A total of 1 shapes were created.

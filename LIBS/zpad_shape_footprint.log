@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : zpad_shape_footprint.dra                      )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Thu Mar  3 17:10:20 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = G:/github/PLL_FM_HW/LIBS
+    Name      = zpad_shape_footprint.psm
+    User      = Administrator
+    Machine   = BF-202007251750
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

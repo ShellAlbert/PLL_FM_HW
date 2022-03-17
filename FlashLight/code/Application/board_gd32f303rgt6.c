@@ -9,6 +9,7 @@
 
 //global variable board-layer defination.
 ZBoardStruct	gBrdFlashLight;
+int8_t iGblFlag=0;
 
 //keys.
 static uint32_t KEY_PORT[KEYn] =
@@ -88,6 +89,12 @@ static uint8_t	KEY_IRQn[KEYn] =
 //LED1/2 to indicate system working status.
 static void zled12_init(void)
 {
+	//PA15 was assigned to JTDI according to the Datasheet.
+	//So here we remap to disable JTAG and enable SWD.
+	//must enable AFIO clock before operate it.
+	rcu_periph_clock_enable(RCU_AF);
+	gpio_pin_remap_config(GPIO_SWJ_SWDPENABLE_REMAP, ENABLE);
+
 	//LED1:PB3 
 	//LED2:PA15
 	//enable the led clock.
@@ -99,8 +106,8 @@ static void zled12_init(void)
 	gpio_init(GPIOA, GPIO_MODE_OUT_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_15);
 
 	//set bit to off LEDs.
-	zled_on_off(1, 0);
-	zled_on_off(2, 0);
+	gpio_bit_reset(GPIOB, GPIO_PIN_3);
+	gpio_bit_reset(GPIOA, GPIO_PIN_15);
 }
 
 
@@ -268,6 +275,10 @@ static void zuart4_laser_init(void)
 //ADC012_IN10:PC3
 static void zmcu_soc_adc0_init(void)
 {
+	timer_oc_parameter_struct timer_ocintpara;
+	timer_parameter_struct timer_initpara;
+
+	dma_parameter_struct dma_data_parameter;
 
 	/* enable GPIOA clock */
 	rcu_periph_clock_enable(RCU_GPIOA);
@@ -315,6 +326,7 @@ static void zmcu_soc_adc0_init(void)
 
 	/* ADC DMA_channel configuration */
 	dma_deinit(DMA0, DMA_CH0);
+
 
 	/* initialize DMA data mode */
 	dma_data_parameter.periph_addr = (uint32_t) (&ADC_RDATA(ADC0));
@@ -373,6 +385,41 @@ static void zmcu_soc_adc0_init(void)
 
 	/* enable TIMER1 */
 	timer_enable(TIMER1);
+
+}
+
+
+//use Timer2 to schedule Tasks.
+static void ztimer2_schedule_task_init(void)
+{
+	/* ---------------------------------------------------------------
+		TIMER2 Configuration: 
+		TIMER2CLK = SystemCoreClock / 1200 = 100KHz,
+		1/100Hz=0.01s=10ms
+		--------------------------------------------------------------- */
+	timer_oc_parameter_struct timer_ocintpara;
+	timer_parameter_struct timer_initpara;
+
+	rcu_periph_clock_enable(RCU_TIMER2);
+
+	timer_deinit(TIMER2);
+
+	/* TIMER2 configuration */
+	timer_initpara.prescaler = 1200-1; //IRC 120M/1200=100KHz.Prescale maximum is 65536.
+	timer_initpara.alignedmode = TIMER_COUNTER_EDGE;
+	timer_initpara.counterdirection = TIMER_COUNTER_UP;
+	timer_initpara.period = 65535-1; //100KHz/65535=1.5Hz
+	timer_initpara.clockdivision = TIMER_CKDIV_DIV1;
+	timer_initpara.repetitioncounter = 0;
+	timer_init(TIMER2, &timer_initpara);
+
+	/* auto-reload preload enable */
+    timer_auto_reload_shadow_enable(TIMER2);
+    timer_interrupt_flag_clear(TIMER2,TIMER_INT_FLAG_UP);
+    /*interrupt enable */
+    timer_interrupt_enable(TIMER2,TIMER_INT_UP);
+	nvic_irq_enable(TIMER2_IRQn,2U,0U);
+	timer_enable(TIMER2);
 
 }
 
@@ -510,6 +557,8 @@ static void ztimer7_bdcm_init(void)
 //integrates all low-level components initialization.
 void zboard_low_init(void)
 {
+#if 1
+
 	//configure the TIMER peripheral
 	timer_oc_parameter_struct timer_ocintpara;
 	timer_parameter_struct timer_initpara;
@@ -524,33 +573,36 @@ void zboard_low_init(void)
 	zled12_init();
 
 	//initial all Keys to EXTI mode.
-	zkeys_exti_init();
+	//zkeys_exti_init();
 
 	//USART0: For Debug TTL-USB. (3.3V TTL Level)
-	zusart0_debug_init();
+	//zusart0_debug_init();
 
 	//USART1: To communicate with Laser Distance Module. (RS422,Full duplex)
-	zusart1_distance_init();
+	//zusart1_distance_init();
 
 	//USART2: To communicate with Display module. (3.3V TTL Level)
-	zusart2_oled_init();
+	//zusart2_oled_init();
 
 	//UART3: To communicate with WiFi-UART module. (3.3V TTL Level)
-	zuart3_wifi_init();
+	//zuart3_wifi_init();
 
 	//UART4: To communicate with Laser Module. (3.3V TTL Level)
-	zuart4_laser_init();
+	//zuart4_laser_init();
 
 
 	//MCU SoC ADC0.
 	//use Timer1 to trigger ADC0 periodic conversation (DMA0-CH0).
-	zmcu_soc_adc0_init();
+	//zmcu_soc_adc0_init();
 
+	ztimer2_schedule_task_init();
+	
 	//Timer3 to output pwm to drive brush DC motor.
-	ztimer3_bdcm_init();
+	//ztimer3_bdcm_init();
 
 	//Timer7 to output pwm to drive brush DC motor.
-	ztimer7_bdcm_init();
+	//ztimer7_bdcm_init();
+#endif
 }
 
 

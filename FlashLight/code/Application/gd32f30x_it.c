@@ -148,7 +148,50 @@ void PendSV_Handler(void)
 */
 void SysTick_Handler(void)
 {
+	//SysTick is an independent Clock from AHB Prescaler.
+	//It is different from other TIMERx.
 	delay_decrement();
+}
+
+
+/*!
+	\brief		this function handles TIMER1 interrupt request.
+	\param[in]	none
+	\param[out] none
+	\retval 	none
+*/
+void TIMER1_IRQHandler(void)
+{
+
+}
+
+
+/*!
+	\brief		this function handles TIMER2 interrupt request.
+	\param[in]	none
+	\param[out] none
+	\retval 	none
+*/
+void TIMER2_IRQHandler(void)
+{
+    if(SET == timer_interrupt_flag_get(TIMER2,TIMER_INT_FLAG_UP)){
+        /* clear channel 0 interrupt bit */
+        timer_interrupt_flag_clear(TIMER2,TIMER_INT_FLAG_UP);
+
+		iGblFlag=!iGblFlag;
+    }
+}
+
+
+/*!
+	\brief		this function handles TIMER3 interrupt request.
+	\param[in]	none
+	\param[out] none
+	\retval 	none
+*/
+void TIMER3_IRQHandler(void)
+{
+
 }
 
 

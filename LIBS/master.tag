@@ -1,1 +1,1 @@
-XH2D54-5P-DEG90.dra
+zpad_soldermask_shape.dra
