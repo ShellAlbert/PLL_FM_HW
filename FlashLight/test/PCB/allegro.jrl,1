@@ -1,95 +1,25 @@
-\t (00:00:31) allegro 17.4 S017 Windows SPB 64-bit Edition
-\t (00:00:31)     Journal start - Wed Mar 16 14:51:01 2022
-\t (00:00:31)         Host=BF-202007251750 User=Administrator Pid=12904 CPUs=16
-\t (00:00:31) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
-\t (00:00:31) 
-\d (00:00:31) Design opened: G:/github/PLL_FM_HW/FlashLight/test/PCB/TEST.brd
-\i (00:00:31) etchedit 
-\i (00:00:32) zoom in 1 
-\i (00:00:32) setwindow pcb
-\i (00:00:32) zoom in 19.1211 -16.2904
-\i (00:00:32) trapsize 25969
-\i (00:00:32) zoom in 1 
-\i (00:00:32) setwindow pcb
-\i (00:00:32) zoom in 13.4079 -22.5231
-\i (00:00:32) trapsize 12985
-\i (00:00:32) zoom in 1 
-\i (00:00:32) setwindow pcb
-\i (00:00:32) zoom in 13.4079 -22.5230
-\i (00:00:32) trapsize 6492
-\i (00:00:32) zoom in 1 
-\i (00:00:32) setwindow pcb
-\i (00:00:32) zoom in 13.5377 -22.5230
-\i (00:00:32) trapsize 3246
-\i (00:00:32) zoom out 1 
-\i (00:00:32) setwindow pcb
-\i (00:00:32) zoom out 35.0275 3.1218
-\i (00:00:32) trapsize 6492
-\i (00:00:34) color192 
-\i (00:00:34) etchedit 
-\i (00:00:35) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Top Pin 1
-\i (00:00:35) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
-\i (00:00:35) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:00:35) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Top Via 1
-\i (00:00:35) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 1
-\i (00:00:35) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:00:36) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Top Etch 1
-\i (00:00:36) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 2
-\i (00:00:36) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:00:37) QtSignal ColorVisibilityDialog CVDOkButton clicked
-\i (00:00:38) zoom in 1 
-\i (00:00:38) setwindow pcb
-\i (00:00:38) zoom in 57.4909 -4.5391
-\i (00:00:38) trapsize 3246
-\i (00:00:38) zoom in 1 
-\i (00:00:38) setwindow pcb
-\i (00:00:38) zoom in 57.2962 -5.0585
-\i (00:00:38) trapsize 1623
-\i (00:00:38) zoom in 1 
-\i (00:00:38) setwindow pcb
-\i (00:00:38) zoom in 57.2312 -5.4804
-\i (00:00:38) trapsize 812
-\i (00:00:39) zoom in 1 
-\i (00:00:39) setwindow pcb
-\i (00:00:39) zoom in 55.3159 -8.7753
-\i (00:00:39) trapsize 406
-\i (00:00:40) zoom in 1 
-\i (00:00:40) setwindow pcb
-\i (00:00:40) zoom in 55.9976 -8.4587
-\i (00:00:40) trapsize 203
-\i (00:00:42) zoom out 1 
-\i (00:00:42) setwindow pcb
-\i (00:00:42) zoom out 56.3831 -8.1462
-\i (00:00:42) trapsize 406
-\i (01:08:10) zoom out 1 
-\i (01:08:10) setwindow pcb
-\i (01:08:10) zoom out 56.5129 -9.7126
-\i (01:08:10) trapsize 812
-\i (01:08:10) zoom out 1 
-\i (01:08:10) setwindow pcb
-\i (01:08:10) zoom out 56.7888 -9.9723
-\i (01:08:10) trapsize 1623
-\i (01:08:10) zoom out 1 
-\i (01:08:10) setwindow pcb
-\i (01:08:10) zoom out 57.0160 -10.2319
-\i (01:08:10) trapsize 3246
-\i (01:08:10) zoom out 1 
-\i (01:08:10) setwindow pcb
-\i (01:08:10) zoom out 57.1459 -10.3618
-\i (01:08:10) trapsize 6492
-\i (01:08:10) zoom out 1 
-\i (01:08:10) setwindow pcb
-\i (01:08:10) zoom out 57.1459 -10.3618
-\i (01:08:10) trapsize 12985
-\i (01:08:10) zoom in 1 
-\i (01:08:10) setwindow pcb
-\i (01:08:10) zoom in 53.7698 -24.3855
-\i (01:08:10) trapsize 6492
-\i (01:08:10) zoom in 1 
-\i (01:08:10) setwindow pcb
-\i (01:08:10) zoom in 53.7698 -24.3854
-\i (01:08:10) trapsize 3246
-\i (01:08:12) exit 
-\e (01:08:12) Do you want to save the changes you made to TEST.brd?
-\i (01:08:12) fillin no 
-\t (01:08:15)     Journal end - Wed Mar 16 15:58:45 2022
+\t (00:00:01) allegro 17.4 S017 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Wed Mar 16 16:00:57 2022
+\t (00:00:01)         Host=BF-202007251750 User=Administrator Pid=744 CPUs=16
+\t (00:00:01) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged TEST
+\d (00:00:04) Design opened: G:/github/PLL_FM_HW/FlashLight/test/PCB/TEST.brd
+\i (00:00:04) trapsize 62770
+\i (00:00:04) trapsize 67065
+\i (00:00:04) trapsize 53241
+\i (00:00:04) trapsize 53241
+\i (00:00:04) trapsize 51939
+\i (00:00:05) etchedit 
+\i (00:00:05) zoom in 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom in -15.1585 -36.0272
+\i (00:00:05) trapsize 25969
+\i (00:00:06) open 
+\i (00:00:11) fillin "G:/github/PLL_FM_HW/FlashLight/PCB/FLASHLIGHT_V23.brd"
+\i (00:00:11) cd "G:/github/PLL_FM_HW/FlashLight/PCB"
+\t (00:00:11) Opening existing design...
+\i (00:00:12) trapsize 6593
+\t (00:00:12)     Journal end - Wed Mar 16 16:01:08 2022

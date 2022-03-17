@@ -444,18 +444,18 @@ static void ztimer3_bdcm_init(void)
 	TIMER3 configuration: generate 2 PWM signals with 2 different duty cycles:
 	TIMER3CLK = SystemCoreClock / 120 = 1MHz
 
-	TIMER3 channel0 duty cycle = (5/ 10(period))* 100  = 50%
-	TIMER3 channel1 duty cycle = (2/ 10(period))* 100  = 20%
+	TIMER3 channel0 duty cycle = (4000/ 16000)* 100  = 25%
+	TIMER3 channel1 duty cycle = (8000/ 16000)* 100  = 50%
 	----------------------------------------------------------------------- */
 	rcu_periph_clock_enable(RCU_TIMER3);
 
 	timer_deinit(TIMER3);
 
 	/* TIMER1 configuration */
-	timer_initpara.prescaler = 120-1; //IRC 120M/120=1MHz.Prescale maximum is 65536.
+	timer_initpara.prescaler = 119;
 	timer_initpara.alignedmode = TIMER_COUNTER_EDGE;
 	timer_initpara.counterdirection = TIMER_COUNTER_UP;
-	timer_initpara.period = 10-1; //1MHz/10=100kHz
+	timer_initpara.period = 15999;
 	timer_initpara.clockdivision = TIMER_CKDIV_DIV1;
 	timer_initpara.repetitioncounter = 0;
 	timer_init(TIMER3, &timer_initpara);
@@ -463,8 +463,8 @@ static void ztimer3_bdcm_init(void)
 	/* CH0 and CH1 configuration in PWM mode */
 	timer_ocintpara.outputstate = TIMER_CCX_ENABLE;
 	timer_ocintpara.outputnstate = TIMER_CCXN_DISABLE;
-	timer_ocintpara.ocpolarity = TIMER_OC_POLARITY_LOW;
-	timer_ocintpara.ocnpolarity = TIMER_OCN_POLARITY_LOW;
+	timer_ocintpara.ocpolarity = TIMER_OC_POLARITY_HIGH;
+	timer_ocintpara.ocnpolarity = TIMER_OCN_POLARITY_HIGH;
 	timer_ocintpara.ocidlestate = TIMER_OC_IDLE_STATE_LOW;
 	timer_ocintpara.ocnidlestate = TIMER_OCN_IDLE_STATE_LOW;
 
@@ -472,16 +472,12 @@ static void ztimer3_bdcm_init(void)
 	timer_channel_output_config(TIMER3, TIMER_CH_1, &timer_ocintpara);
 
 	/* CH0 configuration in PWM mode0,duty cycle 25% */
-	//timer_channel_output_pulse_value_config(TIMER3, TIMER_CH_0, 40); //period/pwm=100/40=25%
-	//set PWM to 0 to close channel output.
-	timer_channel_output_pulse_value_config(TIMER3, TIMER_CH_0, 10);//period/pwm=100/100=0%
+	timer_channel_output_pulse_value_config(TIMER3, TIMER_CH_0, 3999);
 	timer_channel_output_mode_config(TIMER3, TIMER_CH_0, TIMER_OC_MODE_PWM0);
 	timer_channel_output_shadow_config(TIMER3, TIMER_CH_0, TIMER_OC_SHADOW_DISABLE);
 
 	/* CH1 configuration in PWM mode0,duty cycle 50% */
-	timer_channel_output_pulse_value_config(TIMER3, TIMER_CH_1, 5);//period/pwm=100/50=50%
-	//set PWM to 0 to close channel output.
-	//timer_channel_output_pulse_value_config(TIMER3, TIMER_CH_1, 100);//period/pwm=100/100=0%
+	timer_channel_output_pulse_value_config(TIMER3, TIMER_CH_1, 7999);
 	timer_channel_output_mode_config(TIMER3, TIMER_CH_1, TIMER_OC_MODE_PWM0);
 	timer_channel_output_shadow_config(TIMER3, TIMER_CH_1, TIMER_OC_SHADOW_DISABLE);
 
@@ -521,10 +517,10 @@ static void ztimer7_bdcm_init(void)
 	timer_deinit(TIMER7);
 
 	/* TIMER1 configuration */
-	timer_initpara.prescaler = 120-1; //IRC 120M/120=1MHz.Prescale maximum is 65536.
+	timer_initpara.prescaler = 119;
 	timer_initpara.alignedmode = TIMER_COUNTER_EDGE;
 	timer_initpara.counterdirection = TIMER_COUNTER_UP;
-	timer_initpara.period = 10-1; //1MHz/10=100kHz
+	timer_initpara.period = 15999;
 	timer_initpara.clockdivision = TIMER_CKDIV_DIV1;
 	timer_initpara.repetitioncounter = 0;
 	timer_init(TIMER7, &timer_initpara);
@@ -532,8 +528,8 @@ static void ztimer7_bdcm_init(void)
 	/* CH0 and CH1 configuration in PWM mode */
 	timer_ocintpara.outputstate = TIMER_CCX_ENABLE;
 	timer_ocintpara.outputnstate = TIMER_CCXN_DISABLE;
-	timer_ocintpara.ocpolarity = TIMER_OC_POLARITY_LOW;
-	timer_ocintpara.ocnpolarity = TIMER_OCN_POLARITY_LOW;
+	timer_ocintpara.ocpolarity = TIMER_OC_POLARITY_HIGH;
+	timer_ocintpara.ocnpolarity = TIMER_OCN_POLARITY_HIGH;
 	timer_ocintpara.ocidlestate = TIMER_OC_IDLE_STATE_LOW;
 	timer_ocintpara.ocnidlestate = TIMER_OCN_IDLE_STATE_LOW;
 
@@ -541,25 +537,18 @@ static void ztimer7_bdcm_init(void)
 	timer_channel_output_config(TIMER7, TIMER_CH_1, &timer_ocintpara);
 
 	/* CH0 configuration in PWM mode0,duty cycle 25% */
-	timer_channel_output_pulse_value_config(TIMER7, TIMER_CH_0, 5);//period/pwm=10/5=50%
-	//set PWM to 0 to close channel output.
-	//timer_channel_output_pulse_value_config(TIMER7, TIMER_CH_0, 10);//period/pwm=100/100=0%
+	timer_channel_output_pulse_value_config(TIMER7, TIMER_CH_0, 3999);
 	timer_channel_output_mode_config(TIMER7, TIMER_CH_0, TIMER_OC_MODE_PWM0);
 	timer_channel_output_shadow_config(TIMER7, TIMER_CH_0, TIMER_OC_SHADOW_DISABLE);
 
 	/* CH1 configuration in PWM mode0,duty cycle 50% */
-	//timer_channel_output_pulse_value_config(TIMER7, TIMER_CH_1, 5);//period/pwm=10/5=50%
-	//set PWM to 0 to close channel output.
-	timer_channel_output_pulse_value_config(TIMER7, TIMER_CH_1, 10);//period/pwm=10/10=0%
+	timer_channel_output_pulse_value_config(TIMER7, TIMER_CH_1, 7999);
 	timer_channel_output_mode_config(TIMER7, TIMER_CH_1, TIMER_OC_MODE_PWM0);
 	timer_channel_output_shadow_config(TIMER7, TIMER_CH_1, TIMER_OC_SHADOW_DISABLE);
 
 	/* auto-reload preload enable */
 	timer_auto_reload_shadow_enable(TIMER7);
 
-	/*TIMER7 primary output function enable Only Advanced Timer0 and Timer7 needed.*/
-    timer_primary_output_config(TIMER7,ENABLE);
-	
 	/* auto-reload preload enable */
 	timer_enable(TIMER7);
 }
@@ -583,12 +572,8 @@ void zboard_low_init(void)
 	//LED1/2 to indicate system working status.
 	zled12_init();
 
-	//Timer7 to output pwm to drive brush DC motor.
-	ztimer7_bdcm_init();
-
-
 	//initial all Keys to EXTI mode.
-	//zkeys_exti_init();
+	zkeys_exti_init();
 
 	//USART0: For Debug TTL-USB. (3.3V TTL Level)
 	//zusart0_debug_init();
@@ -613,9 +598,10 @@ void zboard_low_init(void)
 	ztimer2_schedule_task_init();
 	
 	//Timer3 to output pwm to drive brush DC motor.
-	ztimer3_bdcm_init();
+	//ztimer3_bdcm_init();
 
-
+	//Timer7 to output pwm to drive brush DC motor.
+	//ztimer7_bdcm_init();
 #endif
 }
 

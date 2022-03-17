@@ -174,19 +174,12 @@ void TIMER1_IRQHandler(void)
 */
 void TIMER2_IRQHandler(void)
 {
-	if (SET == timer_interrupt_flag_get(TIMER2, TIMER_INT_FLAG_UP)) {
-		/* clear channel 0 interrupt bit */
-		timer_interrupt_flag_clear(TIMER2, TIMER_INT_FLAG_UP);
+    if(SET == timer_interrupt_flag_get(TIMER2,TIMER_INT_FLAG_UP)){
+        /* clear channel 0 interrupt bit */
+        timer_interrupt_flag_clear(TIMER2,TIMER_INT_FLAG_UP);
 
-		iGblFlag			= !iGblFlag;
-
-		if (iGblFlag) {
-			gpio_bit_set(GPIOB, GPIO_PIN_3);
-		}
-		else {
-			gpio_bit_reset(GPIOB, GPIO_PIN_3);
-		}
-	}
+		iGblFlag=!iGblFlag;
+    }
 }
 
 

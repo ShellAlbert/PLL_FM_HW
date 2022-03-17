@@ -73,12 +73,14 @@ int main(void)
 	while (1) {
 		//ztask_schedule();
 		if (iGblFlag) {
+			gpio_bit_set(GPIOB, GPIO_PIN_3);
 			gpio_bit_set(GPIOA, GPIO_PIN_15);
-			delay_1ms(100);
+			//delay_1ms(100);
 		}
 		else {
+			gpio_bit_reset(GPIOB, GPIO_PIN_3);
 			gpio_bit_reset(GPIOA, GPIO_PIN_15);
-			delay_1ms(100);
+			//delay_1ms(100);
 		}
 	}
 
