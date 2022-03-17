@@ -230,16 +230,12 @@ void EXTI1_IRQHandler(void)
 		if (RESET != gpio_input_bit_get(KEY_DAY_NIGHT_PORT, KEY_DAY_NIGHT_PIN)) {
 			//set flag to indicate key was pressed.
 			gBrdFlashLight.iKey[KEY_DAY_NIGHT] = 1;
-
-			iGblKeyFlag 		= !iGblKeyFlag;
 		}
 
 		//RIGHT_SW:PB1
 		if (RESET != gpio_input_bit_get(KEY_RIGHT_PORT, KEY_RIGHT_PIN)) {
 			//set flag to indicate key was pressed.
 			gBrdFlashLight.iKey[KEY_RIGHT] = 1;
-
-			iGblKeyFlag 		= !iGblKeyFlag;
 		}
 
 		exti_interrupt_flag_clear(EXTI_1);
@@ -251,9 +247,6 @@ void EXTI1_IRQHandler(void)
 void EXTI2_IRQHandler(void)
 {
 
-	if (RESET != exti_interrupt_flag_get(EXTI_2)) {
-		exti_interrupt_flag_clear(EXTI_2);
-	}
 }
 
 
@@ -271,16 +264,12 @@ void EXTI4_IRQHandler(void)
 		if (RESET != gpio_input_bit_get(KEY_CON_FLASH_PORT, KEY_CON_FLASH_PIN)) {
 			//set flag to indicate key was pressed.
 			gBrdFlashLight.iKey[KEY_CON_FLASH] = 1;
-
-			iGblKeyFlag 		= !iGblKeyFlag;
 		}
 
 		//UP_SW:PC4
 		if (RESET != gpio_input_bit_get(KEY_UP_PORT, KEY_UP_PIN)) {
 			//set flag to indicate key was pressed.
 			gBrdFlashLight.iKey[KEY_UP] = 1;
-
-			iGblKeyFlag 		= !iGblKeyFlag;
 		}
 
 		exti_interrupt_flag_clear(EXTI_4);

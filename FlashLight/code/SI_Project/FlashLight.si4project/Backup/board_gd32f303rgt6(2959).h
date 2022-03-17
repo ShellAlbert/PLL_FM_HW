@@ -16,7 +16,6 @@ extern "C"
 #include "gd32f30x.h"
 
 extern int8_t iGblFlag;
-extern int8_t iGblKeyFlag;
 
 #define 	ARRAYNUM(arr_nanme) 	(uint32_t)(sizeof(arr_nanme) / sizeof(*(arr_nanme)))
 

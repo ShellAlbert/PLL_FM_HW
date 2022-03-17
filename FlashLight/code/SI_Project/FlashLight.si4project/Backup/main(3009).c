@@ -72,7 +72,7 @@ int main(void)
 	//infite-loop to schedule tasks.
 	while (1) {
 		//ztask_schedule();
-		if (iGblKeyFlag) {
+		if (iGblFlag) {
 			gpio_bit_set(GPIOA, GPIO_PIN_15);
 			delay_1ms(100);
 		}

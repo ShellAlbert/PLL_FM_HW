@@ -10,7 +10,6 @@
 //global variable board-layer defination.
 ZBoardStruct	gBrdFlashLight;
 int8_t iGblFlag=0;
-int8_t iGblKeyFlag=0;
 
 //keys.
 static uint32_t KEY_PORT[KEYn] =
@@ -589,7 +588,7 @@ void zboard_low_init(void)
 
 
 	//initial all Keys to EXTI mode.
-	zkeys_exti_init();
+	//zkeys_exti_init();
 
 	//USART0: For Debug TTL-USB. (3.3V TTL Level)
 	//zusart0_debug_init();
