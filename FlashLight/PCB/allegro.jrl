@@ -384,4 +384,37 @@
 \i (00:13:42) trapsize 835
 \i (00:20:33) zoom in 1 
 \i (00:20:33) setwindow pcb
-\i (00:2
+\i (00:20:33) zoom in 19.2285 -17.8653
+\i (00:20:33) trapsize 418
+\i (00:20:34) zoom out 1 
+\i (00:20:34) setwindow pcb
+\i (00:20:34) zoom out 19.4373 -18.6753
+\i (00:20:34) trapsize 835
+\i (00:20:34) zoom in 1 
+\i (00:20:34) setwindow pcb
+\i (00:20:34) zoom in 18.6189 -17.5062
+\i (00:20:34) trapsize 418
+\i (00:20:34) zoom in 1 
+\i (00:20:34) setwindow pcb
+\i (00:20:34) zoom in 18.6189 -17.5062
+\i (00:20:34) trapsize 209
+\i (00:20:34) zoom in 1 
+\i (00:20:34) setwindow pcb
+\i (00:20:34) zoom in 18.6440 -17.5563
+\i (00:20:34) trapsize 104
+\i (00:20:35) zoom out 1 
+\i (00:20:35) setwindow pcb
+\i (00:20:35) zoom out 18.8465 -17.7963
+\i (00:20:35) trapsize 209
+\i (00:20:35) zoom out 1 
+\i (00:20:35) setwindow pcb
+\i (00:20:35) zoom out 18.9091 -17.8924
+\i (00:20:35) trapsize 418
+\i (00:20:35) zoom out 1 
+\i (00:20:35) setwindow pcb
+\i (00:20:35) zoom out 19.0094 -18.1595
+\i (00:20:35) trapsize 835
+\i (00:55:38) exit 
+\e (00:55:38) Do you want to save the changes you made to FLASHLIGHT_V22.brd?
+\i (00:55:39) fillin no 
+\t (00:55:42)     Journal end - Thu Mar 17 17:34:20 2022
