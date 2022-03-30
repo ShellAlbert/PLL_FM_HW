@@ -1,6 +1,6 @@
 (ExpressProject "FlashLight"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[01/18/22]")
+  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[03/30/22]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -269,12 +269,12 @@
       (Path "Design Resources" "Library")
       (Path "Outputs")
       (Path "Logs")
-      (Select "Design Resources" ".\flashlight.dsn" "SCHEMATIC1" "5-CONNECTOR"))
+      (Select "Design Resources" ".\flashlight.dsn" "SCHEMATIC1" "1-PWR-ADC"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 695"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 248 0 765"))
       (Tab 0)))
   (MPSSessionName "Administrator")
   (LastUsedLibraryBrowseDirectory

@@ -659,7 +659,7 @@ void zboard_low_init(void)
 	ztimer7_bdcm_init();
 
 	//USART0: For Debug TTL-USB. (3.3V TTL Level)
-	zusart0_debug_init();
+	//zusart0_debug_init();
 	//USART1: To communicate with Laser Distance Module. (RS422,Full duplex)
 	//zusart1_distance_init();
 	//USART2: To communicate with Display module. (3.3V TTL Level)

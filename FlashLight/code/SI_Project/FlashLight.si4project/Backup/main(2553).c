@@ -65,7 +65,7 @@ int main(void)
 	zboard_low_init();
 
 
-	printf("FlashLight USART0!\n");
+	//printf("FlashLight USART0!\n");
 	//Tasks schedule based on Timer.
 	ztask_start();
 
