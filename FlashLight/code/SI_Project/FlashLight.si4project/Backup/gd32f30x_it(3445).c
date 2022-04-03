@@ -194,10 +194,9 @@ void TIMER3_IRQHandler(void)
 
 }
 
-
 void TIMER4_IRQHandler(void)
 {
-	if (SET == timer_interrupt_flag_get(TIMER4, TIMER_INT_FLAG_UP)) {
+		if (SET == timer_interrupt_flag_get(TIMER4, TIMER_INT_FLAG_UP)) {
 		/* clear channel 0 interrupt bit */
 		timer_interrupt_flag_clear(TIMER4, TIMER_INT_FLAG_UP);
 
@@ -211,7 +210,6 @@ void TIMER4_IRQHandler(void)
 		}
 	}
 }
-
 
 //PA0:LASER_MODE4, PA1:Day_Night, PA6:LASER_MODE1, PA7:LASER_MODE3, PA8:FL_ADD, PA11:FL_SUB
 //PB0:LEFT_SW, PB1:RIGHT_SW, PB4:CON_Flash, PB5:SET_SW
@@ -482,21 +480,6 @@ void UART3_IRQHandler(void)
 
 void UART4_IRQHandler(void)
 {
-}
-
-
-void DMA0_Channel0_IRQHandler(void)
-{
-	if (dma_interrupt_flag_get(DMA0,DMA_CH0, DMA_INT_FLAG_FTF)) {
-		//set flag to indicate DMA finished.
-		gBrdFlashLight.iDMA0Finished = 1;
-
-		timer_disable(TIMER1);
-
-		//clear flag.
-		dma_interrupt_flag_clear(DMA0,DMA_CH0, DMA_INT_FLAG_G);
-	}
-
 }
 
 

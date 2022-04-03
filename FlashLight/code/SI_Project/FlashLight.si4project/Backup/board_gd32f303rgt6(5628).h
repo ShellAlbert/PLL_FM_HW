@@ -62,7 +62,6 @@ extern int8_t iGblKeyFlag;
 
 		//MCU integrates ADC.
 		uint32_t		iMCUADC[4];
-		uint8_t 		iDMA0Finished;
 
 	} ZBoardStruct;
 

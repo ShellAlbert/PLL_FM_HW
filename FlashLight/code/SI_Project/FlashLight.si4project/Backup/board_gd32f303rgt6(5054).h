@@ -62,7 +62,6 @@ extern int8_t iGblKeyFlag;
 
 		//MCU integrates ADC.
 		uint32_t		iMCUADC[4];
-		uint8_t 		iDMA0Finished;
 
 	} ZBoardStruct;
 
@@ -329,9 +328,6 @@ extern int8_t iGblKeyFlag;
 	
 	//Timer3 to output pwm to drive brush DC motor.
 	static void ztimer3_bdcm_init(void);
-
-	//Timer4 to flash LED.
-	static void ztimer4_led_init(void);
 
 	//Timer7 to output pwm to drive brush DC motor.
 	static void ztimer7_bdcm_init(void);

@@ -334,7 +334,7 @@ static void zmcu_soc_adc0_init(void)
 	dma_parameter_struct dma_data_parameter;
 
 	/* enable GPIOA clock */
-	rcu_periph_clock_enable(RCU_GPIOC);
+	rcu_periph_clock_enable(RCU_GPIOA);
 
 	/* enable ADC0 clock */
 	rcu_periph_clock_enable(RCU_ADC0);
@@ -358,10 +358,10 @@ static void zmcu_soc_adc0_init(void)
 	//configure the TIMER peripheral
 
 	/* TIMER1 configuration */
-	timer_initpara.prescaler = 48000 - 1;			//IRC 120M/48000=2500Hz.Prescale maximum is 65536.
+	timer_initpara.prescaler = 8399;
 	timer_initpara.alignedmode = TIMER_COUNTER_EDGE;
 	timer_initpara.counterdirection = TIMER_COUNTER_UP;
-	timer_initpara.period = 1250 - 1;				//2500/1250=2Hz
+	timer_initpara.period = 9999;
 	timer_initpara.clockdivision = TIMER_CKDIV_DIV1;
 	timer_initpara.repetitioncounter = 0;
 	timer_init(TIMER1, &timer_initpara);
@@ -371,17 +371,15 @@ static void zmcu_soc_adc0_init(void)
 	timer_ocintpara.outputstate = TIMER_CCX_ENABLE;
 	timer_channel_output_config(TIMER1, TIMER_CH_1, &timer_ocintpara);
 
-	//这里设置比较值是5*1000 5ms是触发点,但是由于是周期性,所以每次采集也是等间距的
-	timer_channel_output_pulse_value_config(TIMER1, TIMER_CH_1, 500);
-	timer_channel_output_mode_config(TIMER1, TIMER_CH_1, TIMER_OC_MODE_PWM0);
+	timer_channel_output_pulse_value_config(TIMER1, TIMER_CH_1, 3999);
+	timer_channel_output_mode_config(TIMER1, TIMER_CH_1, TIMER_OC_MODE_PWM1);
 	timer_channel_output_shadow_config(TIMER1, TIMER_CH_1, TIMER_OC_SHADOW_DISABLE);
-	timer_auto_reload_shadow_enable(TIMER1);
-
 
 	//configure the DMA peripheral
 
 	/* ADC DMA_channel configuration */
 	dma_deinit(DMA0, DMA_CH0);
+
 
 	/* initialize DMA data mode */
 	dma_data_parameter.periph_addr = (uint32_t) (&ADC_RDATA(ADC0));
@@ -396,27 +394,21 @@ static void zmcu_soc_adc0_init(void)
 	dma_init(DMA0, DMA_CH0, &dma_data_parameter);
 
 	dma_circulation_enable(DMA0, DMA_CH0);
-	nvic_irq_enable(DMA0_Channel0_IRQn, 0, 0);
-
-	/* enable DMA transfer complete interrupt */
-	dma_interrupt_enable(DMA0, DMA_CH0, DMA_INT_FTF);
 
 	/* enable DMA channel */
 	dma_channel_enable(DMA0, DMA_CH0);
-
 
 	//configure the ADC peripheral
 
 	/* ADC continous function enable */
 	adc_special_function_config(ADC0, ADC_SCAN_MODE, ENABLE);
-	adc_special_function_config(ADC0, ADC_CONTINUOUS_MODE, ENABLE);
+	adc_special_function_config(ADC0, ADC_CONTINUOUS_MODE, DISABLE);
 
 	/* ADC trigger config */
 	adc_external_trigger_source_config(ADC0, ADC_REGULAR_CHANNEL, ADC0_1_EXTTRIG_REGULAR_T1_CH1);
 
 	/* ADC data alignment config */
 	adc_data_alignment_config(ADC0, ADC_DATAALIGN_RIGHT);
-	adc_resolution_config(ADC0, ADC_RESOLUTION_12B);
 
 	/* ADC mode config */
 	adc_mode_config(ADC_DAUL_REGULAL_PARALLEL);
@@ -425,10 +417,11 @@ static void zmcu_soc_adc0_init(void)
 	adc_channel_length_config(ADC0, ADC_REGULAR_CHANNEL, 4);
 
 	/* ADC regular channel config */
-	adc_regular_channel_config(ADC0, 0, ADC_CHANNEL_10, ADC_SAMPLETIME_55POINT5);
-	adc_regular_channel_config(ADC0, 1, ADC_CHANNEL_11, ADC_SAMPLETIME_55POINT5);
-	adc_regular_channel_config(ADC0, 2, ADC_CHANNEL_12, ADC_SAMPLETIME_55POINT5);
-	adc_regular_channel_config(ADC0, 3, ADC_CHANNEL_13, ADC_SAMPLETIME_55POINT5);
+	adc_regular_channel_config(ADC0, 10, ADC_CHANNEL_10, ADC_SAMPLETIME_55POINT5);
+	adc_regular_channel_config(ADC0, 11, ADC_CHANNEL_11, ADC_SAMPLETIME_55POINT5);
+	adc_regular_channel_config(ADC0, 12, ADC_CHANNEL_12, ADC_SAMPLETIME_55POINT5);
+	adc_regular_channel_config(ADC0, 13, ADC_CHANNEL_13, ADC_SAMPLETIME_55POINT5);
+
 
 	/* ADC external trigger enable */
 	adc_external_trigger_config(ADC0, ADC_REGULAR_CHANNEL, ENABLE);
@@ -591,10 +584,10 @@ static void ztimer4_led_init(void)
 	timer_deinit(TIMER4);
 
 	/* TIMER1 configuration */
-	timer_initpara.prescaler = 48000 - 1;			//IRC 120M/48000=2500Hz.Prescale maximum is 65536.
+	timer_initpara.prescaler = 48000 - 1; 			//IRC 120M/48000=2500Hz.Prescale maximum is 65536.
 	timer_initpara.alignedmode = TIMER_COUNTER_EDGE;
 	timer_initpara.counterdirection = TIMER_COUNTER_UP;
-	timer_initpara.period = 1250 - 1;				//2500/1250=2Hz
+	timer_initpara.period = 1250 - 1; 				//2500/1250=2Hz
 	timer_initpara.clockdivision = TIMER_CKDIV_DIV1;
 	timer_initpara.repetitioncounter = 0;
 	timer_init(TIMER4, &timer_initpara);
@@ -706,9 +699,9 @@ void zboard_low_init(void)
 
 	//use Timer4 to driver LED in 1Hz.
 	ztimer4_led_init();
-
 	//Timer7 to output pwm to drive brush DC motor.
 	//ztimer7_bdcm_init();
+
 	//USART0: For Debug TTL-USB. (3.3V TTL Level)
 	zusart0_debug_init();
 
@@ -722,13 +715,13 @@ void zboard_low_init(void)
 	//zuart4_laser_init();
 	//MCU SoC ADC0.
 	//use Timer1 to trigger ADC0 periodic conversation (DMA0-CH0).
-	zmcu_soc_adc0_init();
-
-	//use Timer2 to generate 10mS to schedule all Tasks.
+	//zmcu_soc_adc0_init();
 	ztimer2_schedule_task_init();
 
 	//Timer3 to output pwm to drive brush DC motor.
 	//ztimer3_bdcm_init();
+
+
 #endif
 }
 

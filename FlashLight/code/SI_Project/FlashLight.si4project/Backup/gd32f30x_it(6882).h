@@ -78,5 +78,4 @@ void UART4_IRQHandler(void);
 
 void TIMER4_IRQHandler(void);
 
-void DMA0_Channel0_IRQHandler(void);
 #endif /* GD32F30X_IT_H */

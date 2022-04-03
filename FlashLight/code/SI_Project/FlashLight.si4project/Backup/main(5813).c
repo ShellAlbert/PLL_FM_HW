@@ -34,8 +34,6 @@
 ////TIMER7_CH0:PC6, TIMER7_CH1:PC7
 ////TIMER3_CH0:PB6, TIMER3_CH1:PB7
 //DMA0-Channel0:ADC0
-
-#define VERSION "V0.1"
 #include "gd32f30x.h"
 #include "systick.h"
 #include <stdio.h>
@@ -50,19 +48,11 @@ static void PowerOnDelay(int32_t delay)
 			;
 	}
 }
-void zoutput_version(void)
-{
-	char buffer[256];
-	sprintf(buffer,"\r\nFlashLight Fw %s by YantaiElectrician\r\n%s %s",VERSION,__DATE__,__TIME__);
-	printf(buffer);
-}
+
+
 int main(void)
 {
-	//initial global variables.
-	gBrdFlashLight.iDMA0Finished=0;
-	
 	//configure clock.
-	//use Internal RC 8MHz oscillator to reduce current consumption.
 	systick_config();
 
 	//give some time to JTAG connected to JLink.
@@ -74,9 +64,7 @@ int main(void)
 	//includes all peripheral devices.
 	zboard_low_init();
 
-	//output version information to USART0.
-	zoutput_version();
-	
+	printf("FlashLight USART0!\n");
 	//Tasks schedule based on Timer.
 	ztask_start();
 

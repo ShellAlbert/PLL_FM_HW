@@ -95,22 +95,16 @@ void ztask_schedule(void)
 
 void ztask_led_status(void)
 {
-	printf("\r\n1.ztask_led_status()");
-
 	//less to take cpu time as soon as possible.
 	//high performance means run fast!
-	gpio_bit_set(GPIOA, GPIO_PIN_15);
-	delay_1ms(100);
-	gpio_bit_reset(GPIOA, GPIO_PIN_15);
-	delay_1ms(100);
+	zled_toggle(1);
+	zled_toggle(2);
 }
 
 
 void ztask_key_scan(void)
 {
 	uint8_t 		i;
-
-	printf("\r\n2.ztask_key_scan()");
 
 	for (i = 0; i < KEY_MAX; i++) {
 		switch (i)
@@ -304,37 +298,20 @@ void ztask_key_scan(void)
 
 void ztask_mcu_adc(void)
 {
-	float iVoltage;
-	printf("\r\n3.ztask_mcu_adc()");
-
-	if (gBrdFlashLight.iDMA0Finished) {
-		gBrdFlashLight.iDMA0Finished = 0;
-		printf("\r\n ADC0: PC0, adc[0] = %08X", gBrdFlashLight.iMCUADC[0]);
-		printf("\r\n ADC0: PC1, adc[1] = %08X", gBrdFlashLight.iMCUADC[1]);
-
-		//VSYS.
-		iVoltage=gBrdFlashLight.iMCUADC[2]/4096.0*3.3;
-		printf("\r\n ADC0[11],VSYS = %.2f", iVoltage);
-		//VDD12_MOTOR.
-		iVoltage=gBrdFlashLight.iMCUADC[3]/4096.0*3.3;
-		printf("\r\n ADC0[10],VDD12_MOTOR = %.2f", iVoltage);
-
-		//re-enable Timer1.
-		timer_enable(TIMER1);
-	}
+	printf("\n ADC0: PC0, adc[0] = %08X \n", gBrdFlashLight.iMCUADC[0]);
+	printf("\n ADC0: PC1, adc[1] = %08X \n", gBrdFlashLight.iMCUADC[1]);
+	printf("\n ADC0: PC2, adc[2] = %08X \n", gBrdFlashLight.iMCUADC[2]);
+	printf("\n ADC0: PC3, adc[3] = %08X \n", gBrdFlashLight.iMCUADC[3]);
 }
 
 
 void ztask_i2c_adc(void)
 {
-	printf("\r\n4.ztask_i2c_adc()");
 }
 
 
 void ztask_usart0(void)
 {
-	printf("\r\n5.ztask_usart0()");
-
 	switch (gBrdFlashLight.sUsart0.fsm)
 	{
 		case FSM_PREPARE:
@@ -407,8 +384,6 @@ void ztask_usart0(void)
 
 void ztask_usart1(void)
 {
-	printf("\r\n6.ztask_usart1()");
-
 	switch (gBrdFlashLight.sUsart1.fsm)
 	{
 		case FSM_PREPARE:
@@ -482,19 +457,19 @@ void ztask_usart1(void)
 
 void ztask_usart2(void)
 {
-	printf("\r\n7.ztask_usart2()");
+
 }
 
 
 void ztask_uart3(void)
 {
-	printf("\r\n8.ztask_uart3()");
+
 }
 
 
 void ztask_uart4(void)
 {
-	printf("\r\n9.ztask_uart4()");
+
 }
 
 

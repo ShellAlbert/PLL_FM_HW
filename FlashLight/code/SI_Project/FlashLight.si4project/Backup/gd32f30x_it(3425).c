@@ -174,11 +174,18 @@ void TIMER1_IRQHandler(void)
 */
 void TIMER2_IRQHandler(void)
 {
-
 	if (SET == timer_interrupt_flag_get(TIMER2, TIMER_INT_FLAG_UP)) {
 		/* clear channel 0 interrupt bit */
 		timer_interrupt_flag_clear(TIMER2, TIMER_INT_FLAG_UP);
-		ztask_remarks_ISR();
+
+		iGblFlag			= !iGblFlag;
+
+		if (iGblFlag) {
+			gpio_bit_set(GPIOB, GPIO_PIN_3);
+		}
+		else {
+			gpio_bit_reset(GPIOB, GPIO_PIN_3);
+		}
 	}
 }
 
@@ -192,24 +199,6 @@ void TIMER2_IRQHandler(void)
 void TIMER3_IRQHandler(void)
 {
 
-}
-
-
-void TIMER4_IRQHandler(void)
-{
-	if (SET == timer_interrupt_flag_get(TIMER4, TIMER_INT_FLAG_UP)) {
-		/* clear channel 0 interrupt bit */
-		timer_interrupt_flag_clear(TIMER4, TIMER_INT_FLAG_UP);
-
-		iGblFlag			= !iGblFlag;
-
-		if (iGblFlag) {
-			gpio_bit_set(GPIOB, GPIO_PIN_3);
-		}
-		else {
-			gpio_bit_reset(GPIOB, GPIO_PIN_3);
-		}
-	}
 }
 
 
@@ -482,21 +471,6 @@ void UART3_IRQHandler(void)
 
 void UART4_IRQHandler(void)
 {
-}
-
-
-void DMA0_Channel0_IRQHandler(void)
-{
-	if (dma_interrupt_flag_get(DMA0,DMA_CH0, DMA_INT_FLAG_FTF)) {
-		//set flag to indicate DMA finished.
-		gBrdFlashLight.iDMA0Finished = 1;
-
-		timer_disable(TIMER1);
-
-		//clear flag.
-		dma_interrupt_flag_clear(DMA0,DMA_CH0, DMA_INT_FLAG_G);
-	}
-
 }
 
 
