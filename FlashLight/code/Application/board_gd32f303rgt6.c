@@ -142,13 +142,6 @@ static void zkeys_exti_init(void)
 
 	//key will be connected to EXTI line with interrupt.
 
-	/* enable and set key EXTI interrupt to the lowest priority */
-	nvic_irq_enable(EXTI0_IRQn, 2U, 0U);
-	nvic_irq_enable(EXTI1_IRQn, 2U, 0U);
-	nvic_irq_enable(EXTI4_IRQn, 2U, 0U);
-	nvic_irq_enable(EXTI5_9_IRQn, 2U, 0U);
-	nvic_irq_enable(EXTI10_15_IRQn, 2U, 0U);
-
 	/* connect key EXTI line to key GPIO pin */
 	gpio_exti_source_select(GPIO_PORT_SOURCE_GPIOA, GPIO_PIN_SOURCE_0);
 	gpio_exti_source_select(GPIO_PORT_SOURCE_GPIOA, GPIO_PIN_SOURCE_1);
@@ -169,6 +162,14 @@ static void zkeys_exti_init(void)
 	gpio_exti_source_select(GPIO_PORT_SOURCE_GPIOC, GPIO_PIN_SOURCE_13);
 
 	nvic_priority_group_set(NVIC_PRIGROUP_PRE2_SUB2);
+
+	/* enable and set key EXTI interrupt to the lowest priority */
+	nvic_irq_enable(EXTI0_IRQn, 2U, 0U);
+	nvic_irq_enable(EXTI1_IRQn, 2U, 0U);
+	nvic_irq_enable(EXTI4_IRQn, 2U, 0U);
+	nvic_irq_enable(EXTI5_9_IRQn, 2U, 0U);
+	nvic_irq_enable(EXTI10_15_IRQn, 2U, 0U);
+
 
 	/* configure key EXTI line */
 	//Y=~A in schematic,so here is rising edge.
@@ -193,6 +194,8 @@ static void zkeys_exti_init(void)
 	exti_interrupt_flag_clear(EXTI_9);
 	exti_interrupt_flag_clear(EXTI_11);
 	exti_interrupt_flag_clear(EXTI_13);
+
+
 }
 
 
@@ -371,7 +374,8 @@ static void zmcu_soc_adc0_init(void)
 	timer_ocintpara.outputstate = TIMER_CCX_ENABLE;
 	timer_channel_output_config(TIMER1, TIMER_CH_1, &timer_ocintpara);
 
-	//这里设置比较值是5*1000 5ms是触发点,但是由于是周期性,所以每次采集也是等间距的
+	//here we set 500(because previous we set period=1250-1)
+	//so here is trigger periodly.
 	timer_channel_output_pulse_value_config(TIMER1, TIMER_CH_1, 500);
 	timer_channel_output_mode_config(TIMER1, TIMER_CH_1, TIMER_OC_MODE_PWM0);
 	timer_channel_output_shadow_config(TIMER1, TIMER_CH_1, TIMER_OC_SHADOW_DISABLE);
@@ -391,7 +395,7 @@ static void zmcu_soc_adc0_init(void)
 	dma_data_parameter.periph_width = DMA_PERIPHERAL_WIDTH_32BIT;
 	dma_data_parameter.memory_width = DMA_MEMORY_WIDTH_32BIT;
 	dma_data_parameter.direction = DMA_PERIPHERAL_TO_MEMORY;
-	dma_data_parameter.number = 4;
+	dma_data_parameter.number = 4 * 50; 			//4 channels,each channels samples 50 times.
 	dma_data_parameter.priority = DMA_PRIORITY_HIGH;
 	dma_init(DMA0, DMA_CH0, &dma_data_parameter);
 
@@ -425,10 +429,10 @@ static void zmcu_soc_adc0_init(void)
 	adc_channel_length_config(ADC0, ADC_REGULAR_CHANNEL, 4);
 
 	/* ADC regular channel config */
-	adc_regular_channel_config(ADC0, 0, ADC_CHANNEL_10, ADC_SAMPLETIME_55POINT5);
-	adc_regular_channel_config(ADC0, 1, ADC_CHANNEL_11, ADC_SAMPLETIME_55POINT5);
-	adc_regular_channel_config(ADC0, 2, ADC_CHANNEL_12, ADC_SAMPLETIME_55POINT5);
-	adc_regular_channel_config(ADC0, 3, ADC_CHANNEL_13, ADC_SAMPLETIME_55POINT5);
+	adc_regular_channel_config(ADC0, 0, ADC_CHANNEL_10, ADC_SAMPLETIME_55POINT5); //VDD12_MOTOR
+	adc_regular_channel_config(ADC0, 1, ADC_CHANNEL_11, ADC_SAMPLETIME_55POINT5); //VSYS
+	adc_regular_channel_config(ADC0, 2, ADC_CHANNEL_12, ADC_SAMPLETIME_55POINT5); //Motor1#Current
+	adc_regular_channel_config(ADC0, 3, ADC_CHANNEL_13, ADC_SAMPLETIME_55POINT5); //Motor2#Current
 
 	/* ADC external trigger enable */
 	adc_external_trigger_config(ADC0, ADC_REGULAR_CHANNEL, ENABLE);
@@ -500,7 +504,7 @@ static void ztimer2_schedule_task_init(void)
 
 
 //Timer3 to output pwm to drive brush DC motor.
-static void ztimer3_bdcm_init(void)
+extern void ztimer3_bdcm_init(void)
 {
 	timer_oc_parameter_struct timer_ocintpara;
 	timer_parameter_struct timer_initpara;
@@ -611,7 +615,7 @@ static void ztimer4_led_init(void)
 
 
 //Timer7 to output pwm to drive brush DC motor.
-static void ztimer7_bdcm_init(void)
+extern void ztimer7_bdcm_init(void)
 {
 	timer_oc_parameter_struct timer_ocintpara;
 	timer_parameter_struct timer_initpara;
@@ -773,12 +777,13 @@ void zled_toggle(uint8_t iLed)
 /* retarget the C library printf function to the USART */
 int fputc(int ch, FILE * f)
 {
+#if 1
 	usart_data_transmit(USART0, (uint8_t) ch);
 
 	while (RESET == usart_flag_get(USART0, USART_FLAG_TBE))
 		;
 
-	return ch;
+#endif
 }
 
 

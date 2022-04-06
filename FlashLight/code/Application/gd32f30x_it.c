@@ -220,19 +220,15 @@ void EXTI0_IRQHandler(void)
 {
 	if (RESET != exti_interrupt_flag_get(EXTI_0)) {
 		//LEFT_SW:PB0
-		if (RESET != gpio_input_bit_get(KEY_LEFT_PORT, KEY_LEFT_PIN)) {
+		if (RESET != gpio_input_bit_get(GPIOB, GPIO_PIN_0)) {
 			//set flag to indicate key was pressed.
 			gBrdFlashLight.iKey[KEY_LEFT] = 1;
-
-			iGblKeyFlag 		= !iGblKeyFlag;
 		}
 
 		//LASER_MODE4:PA0
-		if (RESET != gpio_input_bit_get(KEY_LASER_MODE4_PORT, KEY_LASER_MODE4_PIN)) {
+		if (RESET != gpio_input_bit_get(GPIOA, GPIO_PIN_0)) {
 			//set flag to indicate key was pressed.
 			gBrdFlashLight.iKey[KEY_LASER_MODE4] = 1;
-
-			iGblKeyFlag 		= !iGblKeyFlag;
 		}
 
 		exti_interrupt_flag_clear(EXTI_0);
@@ -248,19 +244,15 @@ void EXTI1_IRQHandler(void)
 
 	if (RESET != exti_interrupt_flag_get(EXTI_1)) {
 		//Day/Night mode switch key:PA1
-		if (RESET != gpio_input_bit_get(KEY_DAY_NIGHT_PORT, KEY_DAY_NIGHT_PIN)) {
+		if (RESET != gpio_input_bit_get(GPIOA, GPIO_PIN_1)) {
 			//set flag to indicate key was pressed.
 			gBrdFlashLight.iKey[KEY_DAY_NIGHT] = 1;
-
-			iGblKeyFlag 		= !iGblKeyFlag;
 		}
 
 		//RIGHT_SW:PB1
-		if (RESET != gpio_input_bit_get(KEY_RIGHT_PORT, KEY_RIGHT_PIN)) {
+		if (RESET != gpio_input_bit_get(GPIOB, GPIO_PIN_1)) {
 			//set flag to indicate key was pressed.
 			gBrdFlashLight.iKey[KEY_RIGHT] = 1;
-
-			iGblKeyFlag 		= !iGblKeyFlag;
 		}
 
 		exti_interrupt_flag_clear(EXTI_1);
@@ -277,21 +269,16 @@ void EXTI4_IRQHandler(void)
 
 	if (RESET != exti_interrupt_flag_get(EXTI_4)) {
 		//Continous ON mode/Flash mode switch key:PB4
-		if (RESET != gpio_input_bit_get(KEY_CON_FLASH_PORT, KEY_CON_FLASH_PIN)) {
+		if (RESET != gpio_input_bit_get(GPIOB, GPIO_PIN_4)) {
 			//set flag to indicate key was pressed.
 			gBrdFlashLight.iKey[KEY_CON_FLASH] = 1;
-
-			iGblKeyFlag 		= !iGblKeyFlag;
 		}
 
 		//UP_SW:PC4
-		if (RESET != gpio_input_bit_get(KEY_UP_PORT, KEY_UP_PIN)) {
+		if (RESET != gpio_input_bit_get(GPIOC, GPIO_PIN_4)) {
 			//set flag to indicate key was pressed.
 			gBrdFlashLight.iKey[KEY_UP] = 1;
-
-			iGblKeyFlag 		= !iGblKeyFlag;
 		}
-
 		exti_interrupt_flag_clear(EXTI_4);
 	}
 }
@@ -308,16 +295,13 @@ void EXTI5_9_IRQHandler(void)
 		if (RESET != gpio_input_bit_get(GPIOB, GPIO_PIN_5)) {
 			//set flag to indicate key was pressed.
 			gBrdFlashLight.iKey[KEY_SET] = 1;
-			iGblKeyFlag 		= !iGblKeyFlag;
 		}
 
 		//PC5:DOWN_SW
 		if (RESET != gpio_input_bit_get(GPIOC, GPIO_PIN_5)) {
 			//set flag to indicate key was pressed.
-			gBrdFlashLight.iKey[KEY_SET] = 1;
-			iGblKeyFlag 		= !iGblKeyFlag;
+			gBrdFlashLight.iKey[KEY_DOWN] = 1;
 		}
-
 		exti_interrupt_flag_clear(EXTI_5);
 	}
 
@@ -327,9 +311,7 @@ void EXTI5_9_IRQHandler(void)
 		if (RESET != gpio_input_bit_get(GPIOA, GPIO_PIN_6)) {
 			//set flag to indicate key was pressed.
 			gBrdFlashLight.iKey[KEY_LASER_MODE1] = 1;
-			iGblKeyFlag 		= !iGblKeyFlag;
 		}
-
 		exti_interrupt_flag_clear(EXTI_6);
 	}
 
@@ -339,9 +321,7 @@ void EXTI5_9_IRQHandler(void)
 		if (RESET != gpio_input_bit_get(GPIOA, GPIO_PIN_7)) {
 			//set flag to indicate key was pressed.
 			gBrdFlashLight.iKey[KEY_LASER_MODE3] = 1;
-			iGblKeyFlag 		= !iGblKeyFlag;
 		}
-
 		exti_interrupt_flag_clear(EXTI_7);
 	}
 
@@ -349,15 +329,13 @@ void EXTI5_9_IRQHandler(void)
 		//PA8:FL_ADD
 		if (RESET != gpio_input_bit_get(GPIOA, GPIO_PIN_8)) {
 			//set flag to indicate key was pressed.
-			gBrdFlashLight.iKey[KEY_LASER_MODE3] = 1;
-			iGblKeyFlag 		= !iGblKeyFlag;
+			gBrdFlashLight.iKey[KEY_FL_ADD] = 1;
 		}
 
 		//PC8:SHOT_SW2
 		if (RESET != gpio_input_bit_get(GPIOC, GPIO_PIN_8)) {
 			//set flag to indicate key was pressed.
-			gBrdFlashLight.iKey[KEY_LASER_MODE3] = 1;
-			iGblKeyFlag 		= !iGblKeyFlag;
+			gBrdFlashLight.iKey[KEY_SHOT_SW2] = 1;
 		}
 
 		exti_interrupt_flag_clear(EXTI_8);
@@ -367,10 +345,8 @@ void EXTI5_9_IRQHandler(void)
 		//PC9:SHOT_SW1
 		if (RESET != gpio_input_bit_get(GPIOC, GPIO_PIN_9)) {
 			//set flag to indicate key was pressed.
-			gBrdFlashLight.iKey[KEY_LASER_MODE3] = 1;
-			iGblKeyFlag 		= !iGblKeyFlag;
+			gBrdFlashLight.iKey[KEY_SHOT_SW1] = 1;
 		}
-
 		exti_interrupt_flag_clear(EXTI_9);
 	}
 }
@@ -388,16 +364,12 @@ void EXTI5_9_IRQHandler(void)
 */
 void EXTI10_15_IRQHandler(void)
 {
-
-
 	if (RESET != exti_interrupt_flag_get(EXTI_11)) {
 		//PA11:FL_SUB
 		if (RESET != gpio_input_bit_get(GPIOA, GPIO_PIN_11)) {
 			//set flag to indicate key was pressed.
-			gBrdFlashLight.iKey[KEY_LASER_MODE2] = 1;
-			iGblKeyFlag 		= !iGblKeyFlag;
+			gBrdFlashLight.iKey[KEY_FL_SUB] = 1;
 		}
-
 		exti_interrupt_flag_clear(EXTI_11);
 	}
 
@@ -407,9 +379,7 @@ void EXTI10_15_IRQHandler(void)
 		if (RESET != gpio_input_bit_get(GPIOC, GPIO_PIN_13)) {
 			//set flag to indicate key was pressed.
 			gBrdFlashLight.iKey[KEY_LASER_MODE2] = 1;
-			iGblKeyFlag 		= !iGblKeyFlag;
 		}
-
 		exti_interrupt_flag_clear(EXTI_13);
 	}
 }
@@ -477,6 +447,26 @@ void USART2_IRQHandler(void)
 
 void UART3_IRQHandler(void)
 {
+	if (RESET != usart_interrupt_flag_get(UART3, USART_INT_FLAG_RBNE)) {
+		/* receive one data */
+		gBrdFlashLight.sUart3.rxbuffer[gBrdFlashLight.sUart3.rxcount++] = usart_data_receive(UART3);
+
+		//after received all expected data disable Receive IRQ.
+		if (gBrdFlashLight.sUart3.rxcount == gBrdFlashLight.sUart3.rx_size) {
+			usart_interrupt_disable(UART3, USART_INT_RBNE);
+		}
+	}
+
+	if (RESET != usart_interrupt_flag_get(UART3, USART_INT_FLAG_TBE)) {
+		/* transmit one data */
+		usart_data_transmit(UART3, gBrdFlashLight.sUart3.txbuffer[gBrdFlashLight.sUart3.txcount++]);
+
+		//after transmit all expected data disable Transmit IRQ.
+		if (gBrdFlashLight.sUart3.txcount == gBrdFlashLight.sUart3.tx_size) {
+			usart_interrupt_disable(UART3, USART_INT_TBE);
+		}
+	}
+
 }
 
 

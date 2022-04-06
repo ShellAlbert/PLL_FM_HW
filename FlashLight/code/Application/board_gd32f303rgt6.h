@@ -59,9 +59,11 @@ extern int8_t iGblKeyFlag;
 		ZUARTStruct 	sUsart0;
 		ZUARTStruct 	sUsart1;
 		ZUARTStruct 	sUsart2;
+		ZUARTStruct 	sUart3;
+		ZUARTStruct 	sUart4;
 
 		//MCU integrates ADC.
-		uint32_t		iMCUADC[4];
+		uint32_t		iMCUADC[4*50];//4 channels,each channels sample 50 times.
 		uint8_t 		iDMA0Finished;
 
 	} ZBoardStruct;
@@ -328,13 +330,13 @@ extern int8_t iGblKeyFlag;
 	static void ztimer2_schedule_task_init(void);
 	
 	//Timer3 to output pwm to drive brush DC motor.
-	static void ztimer3_bdcm_init(void);
+	extern void ztimer3_bdcm_init(void);
 
 	//Timer4 to flash LED.
 	static void ztimer4_led_init(void);
 
 	//Timer7 to output pwm to drive brush DC motor.
-	static void ztimer7_bdcm_init(void);
+	extern void ztimer7_bdcm_init(void);
 
 	//integrates all low-level components initialization.
 	extern void zboard_low_init(void);

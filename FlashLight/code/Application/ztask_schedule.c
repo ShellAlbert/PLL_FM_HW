@@ -7,6 +7,12 @@
 #include "ztask_schedule.h"
 #include "board_gd32f303rgt6.h"
 #include <string.h>
+//Timer3 to output pwm to drive brush DC motor.
+extern void ztimer3_bdcm_init(void);
+//Timer7 to output pwm to drive brush DC motor.
+extern void ztimer7_bdcm_init(void);
+
+
 ZTASK_COMPONENTS ztask_comps[ZTASK_MAX] =
 {
 	//led status task.
@@ -109,7 +115,6 @@ void ztask_led_status(void)
 void ztask_key_scan(void)
 {
 	uint8_t 		i;
-
 	printf("\r\n2.ztask_key_scan()");
 
 	for (i = 0; i < KEY_MAX; i++) {
@@ -264,6 +269,8 @@ void ztask_key_scan(void)
 					//KEY_FL_SUB was pressed.
 					//to do something here.
 					printf("KEY_FL_SUB\n");
+					//Timer3 to output pwm to drive brush DC motor.
+					ztimer3_bdcm_init();
 
 					//reset flag.
 					gBrdFlashLight.iKey[KEY_FL_SUB] = 0;
@@ -288,7 +295,8 @@ void ztask_key_scan(void)
 					//KEY_SHOT_SW2 was pressed.
 					//to do something here.
 					printf("KEY_SHOT_SW2\n");
-
+					//Timer7 to output pwm to drive brush DC motor.
+					ztimer7_bdcm_init();
 					//reset flag.
 					gBrdFlashLight.iKey[KEY_SHOT_SW2] = 0;
 				}
@@ -304,21 +312,54 @@ void ztask_key_scan(void)
 
 void ztask_mcu_adc(void)
 {
-	float iVoltage;
 	printf("\r\n3.ztask_mcu_adc()");
-
 	if (gBrdFlashLight.iDMA0Finished) {
+		int 			i;
+		uint32_t		iVoltageSum[4];
+		float			iVoltageAverage[4];
 		gBrdFlashLight.iDMA0Finished = 0;
-		printf("\r\n ADC0: PC0, adc[0] = %08X", gBrdFlashLight.iMCUADC[0]);
-		printf("\r\n ADC0: PC1, adc[1] = %08X", gBrdFlashLight.iMCUADC[1]);
+
+		memset(iVoltageSum, 0, sizeof(iVoltageSum));
+
+		for (i = 0; i < 4 * 50; i += 4) {
+			iVoltageSum[0]		+= gBrdFlashLight.iMCUADC[i + 0];
+			iVoltageSum[1]		+= gBrdFlashLight.iMCUADC[i + 1];
+			iVoltageSum[2]		+= gBrdFlashLight.iMCUADC[i + 2];
+			iVoltageSum[3]		+= gBrdFlashLight.iMCUADC[i + 3];
+		}
+
+		//ADC012_IN13:PC0
+		//Motor#2Current,driven by TIMER3(on PCB Right side)
+		//Current*0.2R => Gain=(1+162k/10k)=17.2
+		//Current*0.2R*17.2=ADC_Voltage
+		//Current=ADC_Voltage/17.2/0.2R
+		//ADC_Voltage=ADC_Sample/2^12*3.3V
+		iVoltageAverage[0] 	= iVoltageSum[0] / 50.0 / 4096.0 * 3.3 / 3.44;
+		
+		//ADC012_IN12:PC1
+		//Motor#1Current,driven by TIMER7(on PCB Left side)
+		//Current*0.2R => Gain=(1+162k/10k)=17.2
+		//Current*0.2R*17.2=ADC_Voltage
+		//Current=ADC_Voltage/17.2/0.2R
+		//ADC_Voltage=ADC_Sample/2^12*3.3V
+		iVoltageAverage[1] 	= iVoltageSum[1] / 50.0 / 4096.0 * 3.3 / 3.44;
 
 		//VSYS.
-		iVoltage=gBrdFlashLight.iMCUADC[2]/4096.0*3.3;
-		printf("\r\n ADC0[11],VSYS = %.2f", iVoltage);
-		//VDD12_MOTOR.
-		iVoltage=gBrdFlashLight.iMCUADC[3]/4096.0*3.3;
-		printf("\r\n ADC0[10],VDD12_MOTOR = %.2f", iVoltage);
+		//[1.62K/(16.2K+1.62K)]*VSYS=3.3V(ADC Full-Scale)
+		//VSYS=ADC_Voltage/0.0909
+		//ADC_Voltage=ADC_Sample/2^12*3.3V
+		iVoltageAverage[2] 	= iVoltageSum[2] / 50.0 / 4096.0 * 3.3 / 0.0909;
 
+		//VDD12_MOTOR.
+		//[2.94K/(16.2K+2.94K)]*VDD12_MOTOR=3.3V(ADC Full-Scale)
+		//VDD12_MOTOR=ADC_Voltage/0.1536
+		//ADC_Voltage=ADC_Sample/2^12*3.3V
+		iVoltageAverage[3] 	= iVoltageSum[3] / 50.0 / 4096.0 * 3.3 / 0.1536;
+
+		printf("\r\nRhtMtrCur=%.2fmA,LftMtrCur=%.2fmA,VSYS=%.2fV,VDD12_MOTOR=%.2fV",///<
+		iVoltageAverage[0]*1000.0,///<
+		iVoltageAverage[1]*1000.0,///<
+		iVoltageAverage[2],iVoltageAverage[3]);
 		//re-enable Timer1.
 		timer_enable(TIMER1);
 	}
