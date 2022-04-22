@@ -74,11 +74,11 @@
     (DRC_Report_File "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\FLASHLIGHT.DRC")
     (BOM_Scope "0")
     (BOM_Mode "0")
-    (BOM_Report_File "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\FLASHLIGHT.BOM")
+    (BOM_Report_File "G:\github\PLL_FM_HW\FlashLight\sch_revb\flashlight.bom")
     (BOM_Merge_Include "FALSE")
     (BOM_Property_Combine_7.0
-       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}\t{ZSYDesc}")
-    (BOM_Header "Item\tQuantity\tReference\tPart\tPCBFootprint\tDetail")
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}\t{EIA}\t{ZSYDesc}")
+    (BOM_Header "Item\tQuantity\tReference\tPart\tPCBFootprint\tEIA\tDetail")
     (BOM_Include_File "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\FLASHLIGHT.INC")
     (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
     (BOM_One_Part_Per_Line "FALSE")
@@ -273,13 +273,12 @@
       (Path "Outputs")
       (Path "PSpice Resources")
       (Path "Logs")
-      (Select "Design Resources" ".\flashlight.dsn" "SCHEMATIC1"
-         "1-POWER-SUPPLY"))
+      (Select "Design Resources" ".\flashlight.dsn" "SCHEMATIC1" "4-MOTOR-FAN"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 298 0 565"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 422 0 526"))
       (Tab 0)))
   (MPSSessionName "Administrator")
   (LastUsedLibraryBrowseDirectory
