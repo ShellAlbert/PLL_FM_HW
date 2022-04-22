@@ -1,21 +1,22 @@
 (ExpressProject "FlashLight"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[04/06/22]")
+  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[04/22/22]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
       (File ".\library1.olb"
-        (Type "Schematic Library")))
+        (Type "Schematic Library")
+        (DisplayName ".\library1.olb")))
     ("Allegro Netlist Directory"
-       "G:\github\PLL_FM_HW\FlashLight\schematic\NETLIST")
+       "G:\github\PLL_FM_HW\FlashLight\sch_revb\netlist")
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
     (NoModify)
     (File ".\flashlight.dsn"
-      (Type "Schematic Design"))
+      (Type "Schematic Design")
+      (DisplayName ".\flashlight.dsn"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
-    (Board_sim_option "VHDL_flow")
     (DRC_Scope "0")
     (DRC_Action "0")
     (DRC_Create_Warnings "TRUE")
@@ -107,13 +108,16 @@
     ("Allegro Backannotation Update Schematic" "TRUE")
     ("Allegro Backannotation View Output" "FALSE")
     ("Allegro Setup Output Warnings" "FALSE")
-    (Backannotation_TAB "0"))
+    (Backannotation_TAB "0")
+    (Board_sim_option "VHDL_flow"))
   (Folder "Layout")
   (Folder "Outputs"
     (File ".\flashlight.drc"
-      (Type "Report"))
+      (Type "Report")
+      (DisplayName ".\flashlight.drc"))
     (File ".\flashlight.bom"
-      (Type "Report"))
+      (Type "Report")
+      (DisplayName ".\flashlight.bom"))
     (File ".\netlist\pstxnet.dat"
       (Type "Report")
       (DisplayName "pstxnet.dat"))
@@ -152,9 +156,84 @@
       (Type "Log File")
       (LogFile "G:\github\PLL_FM_HW\FlashLight\schematic\NETLIST\swp.log")))
   (PartMRUSelector
+    (NCE3013J
+      (FullPartName "NCE3013J.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (Header1x10
+      (FullPartName "Header1x10.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (Header1x12
+      (FullPartName "Header1x12.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (Header1x8
+      (FullPartName "Header1x8.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (NCE40P06J
+      (FullPartName "NCE40P06J.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (SGM8968-2
+      (FullPartName "SGM8968-2B.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\LIBRARY1.OLB")
+      (DeviceIndex "1"))
+    (SGM8968-4
+      (FullPartName "SGM8968-4D.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\LIBRARY1.OLB")
+      (DeviceIndex "3"))
+    (TPR33XX-S3TR
+      (FullPartName "TPR33XX-S3TR.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("DIODE TVS"
+      (FullPartName "DIODE TVS.Normal")
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (NCE6003Y
+      (FullPartName "NCE6003Y.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (NCE60P04Y
+      (FullPartName "NCE60P04Y.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
     (GND
       (LibraryName
          "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (SGM7SZ04XUDL6G/TR
+      (FullPartName "SGM7SZ04XUDL6G/TR.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (NCE603S
+      (FullPartName "NCE603SB.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\LIBRARY1.OLB")
+      (DeviceIndex "1"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (FUSE
+      (FullPartName "FUSE.Normal")
+      (LibraryName
+         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (KMB26S
+      (FullPartName "KMB26S.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\LIBRARY1.OLB")
       (DeviceIndex "0"))
     ("T POINT A"
       (FullPartName "T POINT A.Normal")
@@ -183,83 +262,6 @@
       (FullPartName "INDUCTOR.Normal")
       (LibraryName
          "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (BAT54CW
-      (FullPartName "BAT54CW.Normal")
-      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    ("DIODE SCHOTTKY"
-      (FullPartName "DIODE SCHOTTKY.Normal")
-      (LibraryName
-         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (DIODE
-      (FullPartName "DIODE.Normal")
-      (LibraryName
-         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (BATTERY
-      (FullPartName "BATTERY.Normal")
-      (LibraryName
-         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGELEFT-R
-      (LibraryName
-         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (Header1x6
-      (FullPartName "Header1x6.Normal")
-      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (Header1x5
-      (FullPartName "Header1x5.Normal")
-      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (Header1x16
-      (FullPartName "Header1x16.Normal")
-      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    ("DIODE TS BI-DIR"
-      (FullPartName "DIODE TS BI-DIR.Normal")
-      (LibraryName
-         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (Header1x4
-      (FullPartName "Header1x4.Normal")
-      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (CJ431
-      (FullPartName "CJ431.Normal")
-      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (TL431
-      (FullPartName "TL431.Normal")
-      (LibraryName
-         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\REGULATOR.OLB")
-      (DeviceIndex "0"))
-    (SGM8968-2
-      (FullPartName "SGM8968-2B.Normal")
-      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\LIBRARY1.OLB")
-      (DeviceIndex "1"))
-    (VCC_ARROW
-      (LibraryName
-         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGELEFT-L
-      (LibraryName
-         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (Header1x8
-      (FullPartName "Header1x8.Normal")
-      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (SGM7SZ14
-      (FullPartName "SGM7SZ14.Normal")
-      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (SM712
-      (FullPartName "SM712.Normal")
-      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\LIBRARY1.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -267,14 +269,17 @@
       (Path "Design Resources" ".\flashlight.dsn")
       (Path "Design Resources" ".\flashlight.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\library1.olb")
       (Path "Outputs")
+      (Path "PSpice Resources")
       (Path "Logs")
-      (Select "Design Resources" ".\flashlight.dsn"))
+      (Select "Design Resources" ".\flashlight.dsn" "SCHEMATIC1"
+         "1-POWER-SUPPLY"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 765"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 298 0 565"))
       (Tab 0)))
   (MPSSessionName "Administrator")
   (LastUsedLibraryBrowseDirectory
