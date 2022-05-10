@@ -1,0 +1,62 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : FLASHLIGHT_REVA2.brd                          )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Fri May  6 14:43:30 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  J13 / HEADER1X14_SMD-SH1D0-14P-HOR_HEADER1X14 / SMD-SH1D0-14P-HOR at (10.6000 82.2399)
+         Placed symbol:  U91 / SGM8968-2_SOIC-8_SGM8968-2 / SOIC-8 at (21.9600 80.9099)
+         Placed symbol:  U90 / NCE603S_SOP-8_NCE603S / SOP-8 at (26.6300 83.5399)
+         Placed symbol:  R286 / R_R0402_1.1K-OHMS / R0402 at (32.9200 77.8232)
+         Placed symbol:  R274 / R_R0402_3.32K-OHMS / R0402 at (35.8800 77.8232)
+         Placed symbol:  R293 / R_R0402_3.32K-OHMS / R0402 at (38.8400 77.8232)
+         Placed symbol:  R296 / R_R0402_1.1K-OHMS / R0402 at (41.8000 77.8232)
+         Placed symbol:  R295 / R_R0402_442-OHMS / R0402 at (44.7600 77.8232)
+         Placed symbol:  R287 / R_R0402_1.74K-OHMS / R0402 at (47.7200 77.8232)
+         Placed symbol:  R288 / R_R0402_4.42K-OHMS / R0402 at (50.6800 77.8232)
+         Placed symbol:  R298 / R_R0402_4.42K-OHMS / R0402 at (53.6400 77.8232)
+         Placed symbol:  R289 / R_R0402_22.1K-OHMS / R0402 at (56.6000 77.8232)
+         Placed symbol:  R297 / R_R0402_1.74K-OHMS / R0402 at (59.5600 77.8232)
+         Placed symbol:  R273 / R_R0402_442-OHMS / R0402 at (62.5200 77.8232)
+         Placed symbol:  R285 / R_R0402_10K-OHMS / R0402 at (65.4800 77.8232)
+         Placed symbol:  R294 / R_R0402_10K-OHMS / R0402 at (1.4900 85.6232)
+         Placed symbol:  R299 / R_R0402_10K-OHMS / R0402 at (4.4500 85.6232)
+         Placed symbol:  R300 / R_R0402_10K-OHMS / R0402 at (7.4100 85.6232)
+         Placed symbol:  R275 / R_R0603_100K-OHMS / R0603 at (10.4150 85.5999)
+         Placed symbol:  R276 / R_R0603_100K-OHMS / R0603 at (13.7700 85.5999)
+         Placed symbol:  C196 / CAP NP_C0402_0.1UF / C0402 at (17.0800 85.6232)
+         Placed symbol:  C197 / CAP NP_C0402_0.1UF / C0402 at (20.0400 85.6232)
+         Placed symbol:  C198 / CAP NP_C0402_0.1UF / C0402 at (23.0000 85.6232)
+         Placed symbol:  D97 / DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C / DFN-1006DN at (25.8700 85.9399)
+         Placed symbol:  D98 / DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C / DFN-1006DN at (28.3700 85.9399)
+         Placed symbol:  R301 / R_R0402_DNP / R0402 at (30.9600 85.6232)
+         Placed symbol:  R302 / R_R0402_DNP / R0402 at (33.9200 85.6232)
+
+
+Placed 27 of 27 applicable (27 total) symbols.
+
+-----------------------------------------------------------------------
+
+State: Placing on layer TOP
+
+
+
+Placed 0 of 0 applicable (0 total) symbols.
+
+-----------------------------------------------------------------------
+
+State: Placing on layer TOP
+
+
+
+Placed 0 of 0 applicable (0 total) symbols.
+
+-----------------------------------------------------------------------
+

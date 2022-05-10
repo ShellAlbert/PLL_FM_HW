@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : DFN2X2-6L.dra                                 )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Fri Apr 29 10:40:42 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = G:/github/PLL_FM_HW/LIBS
+    Name      = dfn2x2-6l.psm
+    User      = Administrator
+    Machine   = BF-202007251750
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

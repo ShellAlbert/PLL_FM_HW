@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : R0805.dra                                     )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Fri Apr 29 16:32:07 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = G:/github/PLL_FM_HW/LIBS
+    Name      = r0805.psm
+    User      = Administrator
+    Machine   = BF-202007251750
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

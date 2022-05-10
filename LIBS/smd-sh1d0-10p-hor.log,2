@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : SMD-SH1D0-10P-HOR.dra                         )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Fri Apr 29 09:13:43 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = G:/github/PLL_FM_HW/LIBS
+    Name      = smd-sh1d0-10p-hor.psm
+    User      = Administrator
+    Machine   = BF-202007251750
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

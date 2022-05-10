@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : R1812.dra                                     )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Fri Apr 29 14:01:34 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = G:/github/PLL_FM_HW/LIBS
+    Name      = r1812.psm
+    User      = Administrator
+    Machine   = BF-202007251750
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

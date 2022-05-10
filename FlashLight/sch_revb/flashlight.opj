@@ -1,6 +1,6 @@
 (ExpressProject "FlashLight"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[04/22/22]")
+  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[05/09/22]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -156,13 +156,33 @@
       (Type "Log File")
       (LogFile "G:\github\PLL_FM_HW\FlashLight\schematic\NETLIST\swp.log")))
   (PartMRUSelector
-    (NCE3013J
-      (FullPartName "NCE3013J.Normal")
+    (SGM8968-2
+      (FullPartName "SGM8968-2B.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\LIBRARY1.OLB")
+      (DeviceIndex "1"))
+    (Header1x14
+      (FullPartName "Header1x14.Normal")
       (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\LIBRARY1.OLB")
       (DeviceIndex "0"))
+    (NCE603S
+      (FullPartName "NCE603SB.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\LIBRARY1.OLB")
+      (DeviceIndex "1"))
     (OFFPAGELEFT-L
       (LibraryName
          "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (SN74HC148D
+      (FullPartName "SN74HC148D.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (Header1x5
+      (FullPartName "Header1x5.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (NCE3013J
+      (FullPartName "NCE3013J.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\LIBRARY1.OLB")
       (DeviceIndex "0"))
     (OFFPAGELEFT-R
       (LibraryName
@@ -184,10 +204,6 @@
       (FullPartName "NCE40P06J.Normal")
       (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\LIBRARY1.OLB")
       (DeviceIndex "0"))
-    (SGM8968-2
-      (FullPartName "SGM8968-2B.Normal")
-      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\LIBRARY1.OLB")
-      (DeviceIndex "1"))
     (SGM8968-4
       (FullPartName "SGM8968-4D.Normal")
       (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\LIBRARY1.OLB")
@@ -217,10 +233,6 @@
       (FullPartName "SGM7SZ04XUDL6G/TR.Normal")
       (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\LIBRARY1.OLB")
       (DeviceIndex "0"))
-    (NCE603S
-      (FullPartName "NCE603SB.Normal")
-      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\LIBRARY1.OLB")
-      (DeviceIndex "1"))
     (DIODE
       (FullPartName "DIODE.Normal")
       (LibraryName
@@ -248,37 +260,27 @@
     (CRYSTAL
       (FullPartName "CRYSTAL.Normal")
       (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (SGM7SZ08YXDM6G/TR
-      (FullPartName "SGM7SZ08YXDM6G/TR.Normal")
-      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (BEAD
-      (FullPartName "BEAD.Normal")
-      (LibraryName
-         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (INDUCTOR
-      (FullPartName "INDUCTOR.Normal")
-      (LibraryName
-         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\flashlight.dsn")
-      (Path "Design Resources" ".\flashlight.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "g:\github\pll_fm_hw\flashlight\sch_revb\flashlight.dsn")
+      (Path "Design Resources"
+         "g:\github\pll_fm_hw\flashlight\sch_revb\flashlight.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\library1.olb")
-      (Path "Outputs")
+      (Path "Design Resources" "Library"
+         "g:\github\pll_fm_hw\flashlight\sch_revb\library1.olb")
       (Path "PSpice Resources")
       (Path "Logs")
-      (Select "Design Resources" ".\flashlight.dsn" "SCHEMATIC1" "4-MOTOR-FAN"))
+      (Select "Design Resources"
+         "g:\github\pll_fm_hw\flashlight\sch_revb\flashlight.dsn" "SCHEMATIC1"
+         "2-MCU"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 422 0 526"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 427 0 652"))
       (Tab 0)))
   (MPSSessionName "Administrator")
   (LastUsedLibraryBrowseDirectory

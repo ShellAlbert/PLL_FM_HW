@@ -1,44 +1,3604 @@
-\t (00:00:05) allegro 17.4 S017 Windows SPB 64-bit Edition
-\t (00:00:05)     Journal start - Tue Mar  8 13:34:38 2022
-\t (00:00:05)         Host=BF-202007251750 User=Administrator Pid=1252 CPUs=16
-\t (00:00:05) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
-\t (00:00:05) 
-   (00:00:05) Loading axlcore.cxt 
-\t (00:00:06) Opening existing design...
-\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "zpad_soldermask_shape"
-\d (00:00:06) Design opened: G:/github/PLL_FM_HW/LIBS/zpad_soldermask_shape.dra
-\i (00:00:06) trapsize 890
-\i (00:00:06) trapsize 917
-\i (00:00:06) trapsize 890
-\i (00:00:06) trapsize 958
-\i (00:00:06) trapsize 982
-\i (00:00:07) etchedit 
-\i (00:01:24) zoom out 1 
-\i (00:01:24) setwindow pcb
-\i (00:01:24) zoom out 15.0255 -5.5084
-\i (00:01:24) trapsize 1964
-\i (00:01:24) zoom out 1 
-\i (00:01:24) setwindow pcb
-\i (00:01:24) zoom out 8.3083 -4.2907
-\i (00:01:24) trapsize 3928
-\i (00:01:24) zoom out 1 
-\i (00:01:24) setwindow pcb
-\i (00:01:24) zoom out -9.2896 2.0728
-\i (00:01:24) trapsize 7856
-\i (00:01:24) zoom out 1 
-\i (00:01:24) setwindow pcb
-\i (00:01:24) zoom out -9.2895 2.0727
-\i (00:01:24) trapsize 15712
-\i (00:01:24) zoom out 1 
-\i (00:01:24) setwindow pcb
-\i (00:01:24) zoom out -9.2896 2.0728
-\i (00:01:24) trapsize 31425
-\i (00:03:45) open 
-\i (00:03:55) fillin "G:/github/PLL_FM_HW/FlashLight/PCB/FLASHLIGHT_V22.brd"
-\i (00:03:55) cd "G:/github/PLL_FM_HW/FlashLight/PCB"
-\t (00:03:56) Opening existing design...
-\i (00:03:56) trapsize 1086
-\i (00:03:56) trapsize 1121
-\i (00:03:56) trapsize 1131
-\i (00:03:56) trapsize 1131
-\t (00:03:56)     Journal end - Tue Mar  8 13:38:29 2022
+\t (00:00:27) allegro 17.4 S017 Windows SPB 64-bit Edition
+\t (00:00:27)     Journal start - Thu May  5 11:18:06 2022
+\t (00:00:27)         Host=BF-202007251750 User=Administrator Pid=13652 CPUs=16
+\t (00:00:27) CmdLine= D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (00:00:27) 
+\d (00:00:27) Design opened: G:/github/PLL_FM_HW/LIBS/SO-16.dra
+\i (00:00:27) trapsize 1534
+\i (00:00:27) zoom out 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom out -5.2238 6.6516
+\i (00:00:27) trapsize 3068
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in 2.6912 -2.1839
+\i (00:00:28) trapsize 1534
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in 2.6912 -2.1839
+\i (00:00:28) trapsize 767
+\i (01:53:49) zoom out 1 
+\i (01:53:49) setwindow pcb
+\i (01:53:49) zoom out 1.1419 -2.9815
+\i (01:53:49) trapsize 1534
+\i (01:53:49) zoom in 1 
+\i (01:53:49) setwindow pcb
+\i (01:53:49) zoom in -0.7294 -0.4965
+\i (01:53:49) trapsize 767
+\e (02:37:03) Command not found: xhilite
+\i (02:37:03) xname_flush 
+\e (02:37:03) No command active
+\i (02:37:03) done 
+\e (02:37:03) No command active
+\e (02:37:04) Command not found: xdehilite
+\i (02:37:04) xname_flush 
+\e (02:37:04) No command active
+\i (02:37:04) done 
+\e (02:37:04) No command active
+\i (02:40:18) dimension edit 
+\i (02:40:18) prepopup -4.3341 4.0900
+\i (02:40:19) prepopup -4.5642 2.7554
+\i (02:40:22) pop dyn_option_select '@:@Linear dimension' 
+\t (02:40:22) Pick an element or point to dimension ...
+\i (02:40:23) prepopup -4.3954 2.9242
+\i (02:40:25) pop dyn_option_select 'Snap pick to@:@Pin' 
+\t (02:40:25) last pick:  -4.4370 2.5950
+\t (02:40:25) First point found ... pick the second point.
+\i (02:40:26) pick grid -4.5028 -2.2145
+\t (02:40:26) last pick:  -4.5030 -2.2140
+\t (02:40:26) Pick location for the dimension value.
+\i (02:40:27) zoom out 1 
+\i (02:40:27) setwindow pcb
+\i (02:40:27) zoom out 2.5379 1.2215
+\i (02:40:27) trapsize 1534
+\i (02:40:27) zoom out 1 
+\i (02:40:27) setwindow pcb
+\i (02:40:27) zoom out 2.5379 1.2215
+\i (02:40:27) trapsize 3068
+\i (02:40:28) zoom in 1 
+\i (02:40:28) setwindow pcb
+\i (02:40:28) zoom in -14.2739 1.2216
+\i (02:40:28) trapsize 1534
+\i (02:40:30) pick grid -9.6721 0.4240
+\t (02:40:30) last pick:  -9.6720 0.4240
+\t (02:40:30) Pick an element or point to dimension ...
+\i (02:40:31) prepopup -13.2922 1.1296
+\i (02:40:31) cancel 
+\e (02:55:29) Command not found: xhilite
+\i (02:55:29) xname_flush 
+\e (02:55:29) No command active
+\i (02:55:29) done 
+\e (02:55:29) No command active
+\e (02:55:31) Command not found: xhilite
+\i (02:55:31) xname_flush 
+\e (02:55:31) No command active
+\i (02:55:31) done 
+\e (02:55:31) No command active
+\e (02:55:32) Command not found: xhilite
+\i (02:55:32) xname_flush 
+\e (02:55:32) No command active
+\i (02:55:32) done 
+\e (02:55:32) No command active
+\e (02:55:33) Command not found: xhilite
+\i (02:55:33) xname_flush 
+\e (02:55:33) No command active
+\i (02:55:33) done 
+\e (02:55:33) No command active
+\e (02:55:34) Command not found: xhilite
+\i (02:55:34) xname_flush 
+\e (02:55:34) No command active
+\i (02:55:34) done 
+\e (02:55:34) No command active
+\e (02:55:35) Command not found: xhilite
+\i (02:55:35) xname_flush 
+\e (02:55:35) No command active
+\i (02:55:35) done 
+\e (02:55:35) No command active
+\e (02:55:35) Command not found: xhilite
+\i (02:55:35) xname_flush 
+\e (02:55:35) No command active
+\i (02:55:35) done 
+\e (02:55:35) No command active
+\e (02:55:36) Command not found: xdehilite
+\i (02:55:36) xname_flush 
+\e (02:55:36) No command active
+\i (02:55:36) done 
+\e (02:55:36) No command active
+\e (02:55:37) Command not found: xhilite
+\i (02:55:37) xname_flush 
+\e (02:55:37) No command active
+\i (02:55:37) done 
+\e (02:55:37) No command active
+\e (02:55:37) Command not found: xdehilite
+\i (02:55:37) xname_flush 
+\e (02:55:37) No command active
+\i (02:55:37) done 
+\e (02:55:37) No command active
+\e (02:55:39) Command not found: xhilite
+\i (02:55:39) xname_flush 
+\e (02:55:39) No command active
+\i (02:55:39) done 
+\e (02:55:39) No command active
+\e (02:55:40) Command not found: xhilite
+\i (02:55:40) xname_flush 
+\e (02:55:40) No command active
+\i (02:55:40) done 
+\e (02:55:40) No command active
+\e (02:55:41) Command not found: xdehilite
+\i (02:55:41) xname_flush 
+\e (02:55:41) No command active
+\i (02:55:41) done 
+\e (02:55:41) No command active
+\e (02:55:43) Command not found: xhilite
+\i (02:55:43) xname_flush 
+\e (02:55:43) No command active
+\i (02:55:43) done 
+\e (02:55:43) No command active
+\e (02:55:44) Command not found: xdehilite
+\i (02:55:44) xname_flush 
+\e (02:55:44) No command active
+\i (02:55:44) done 
+\e (02:55:44) No command active
+\e (02:55:46) Command not found: xhilite
+\i (02:55:46) xname_flush 
+\e (02:55:46) No command active
+\i (02:55:46) done 
+\e (02:55:46) No command active
+\e (02:55:47) Command not found: xdehilite
+\i (02:55:47) xname_flush 
+\e (02:55:47) No command active
+\i (02:55:47) done 
+\e (02:55:47) No command active
+\e (02:55:47) Command not found: xhilite
+\i (02:55:47) xname_flush 
+\e (02:55:47) No command active
+\i (02:55:47) done 
+\e (02:55:47) No command active
+\e (02:55:47) Command not found: xdehilite
+\i (02:55:47) xname_flush 
+\e (02:55:47) No command active
+\i (02:55:47) done 
+\e (02:55:47) No command active
+\e (02:55:48) Command not found: xhilite
+\i (02:55:48) xname_flush 
+\e (02:55:48) No command active
+\i (02:55:48) done 
+\e (02:55:48) No command active
+\e (02:55:49) Command not found: xdehilite
+\i (02:55:49) xname_flush 
+\e (02:55:49) No command active
+\i (02:55:49) done 
+\e (02:55:49) No command active
+\e (02:55:50) Command not found: xhilite
+\i (02:55:50) xname_flush 
+\e (02:55:50) No command active
+\i (02:55:50) done 
+\e (02:55:50) No command active
+\e (02:55:51) Command not found: xdehilite
+\i (02:55:51) xname_flush 
+\e (02:55:51) No command active
+\i (02:55:51) done 
+\e (02:55:51) No command active
+\e (02:55:51) Command not found: xhilite
+\i (02:55:51) xname_flush 
+\e (02:55:51) No command active
+\i (02:55:51) done 
+\e (02:55:51) No command active
+\e (02:55:51) Command not found: xdehilite
+\i (02:55:51) xname_flush 
+\e (02:55:51) No command active
+\i (02:55:51) done 
+\e (02:55:51) No command active
+\e (02:55:53) Command not found: xhilite
+\i (02:55:53) xname_flush 
+\e (02:55:53) No command active
+\i (02:55:53) done 
+\e (02:55:53) No command active
+\e (02:55:56) Command not found: xhilite
+\i (02:55:56) xname_flush 
+\e (02:55:56) No command active
+\i (02:55:56) done 
+\e (02:55:56) No command active
+\e (02:55:56) Command not found: xdehilite
+\i (02:55:56) xname_flush 
+\e (02:55:56) No command active
+\i (02:55:56) done 
+\e (02:55:56) No command active
+\e (02:55:57) Command not found: xhilite
+\i (02:55:57) xname_flush 
+\e (02:55:57) No command active
+\i (02:55:57) done 
+\e (02:55:57) No command active
+\e (02:55:57) Command not found: xdehilite
+\i (02:55:57) xname_flush 
+\e (02:55:57) No command active
+\i (02:55:57) done 
+\e (02:55:57) No command active
+\e (02:56:00) Command not found: xhilite
+\i (02:56:00) xname_flush 
+\e (02:56:00) No command active
+\i (02:56:00) done 
+\e (02:56:00) No command active
+\e (02:56:02) Command not found: xdehilite
+\i (02:56:02) xname_flush 
+\e (02:56:02) No command active
+\i (02:56:02) done 
+\e (02:56:02) No command active
+\e (02:56:05) Command not found: xhilite
+\i (02:56:05) xname_flush 
+\e (02:56:05) No command active
+\i (02:56:05) done 
+\e (02:56:05) No command active
+\e (02:56:06) Command not found: xdehilite
+\i (02:56:06) xname_flush 
+\e (02:56:06) No command active
+\i (02:56:06) done 
+\e (02:56:06) No command active
+\e (02:56:33) Command not found: xhilite
+\i (02:56:33) xname_flush 
+\e (02:56:33) No command active
+\i (02:56:33) done 
+\e (02:56:33) No command active
+\e (02:56:34) Command not found: xhilite
+\i (02:56:34) xname_flush 
+\e (02:56:34) No command active
+\i (02:56:34) done 
+\e (02:56:34) No command active
+\e (02:56:35) Command not found: xhilite
+\i (02:56:35) xname_flush 
+\e (02:56:35) No command active
+\i (02:56:35) done 
+\e (02:56:35) No command active
+\e (02:56:36) Command not found: xhilite
+\i (02:56:36) xname_flush 
+\e (02:56:36) No command active
+\i (02:56:36) done 
+\e (02:56:36) No command active
+\e (02:56:38) Command not found: xhilite
+\i (02:56:38) xname_flush 
+\e (02:56:38) No command active
+\i (02:56:38) done 
+\e (02:56:38) No command active
+\e (02:56:39) Command not found: xhilite
+\i (02:56:39) xname_flush 
+\e (02:56:39) No command active
+\i (02:56:39) done 
+\e (02:56:39) No command active
+\e (02:56:40) Command not found: xhilite
+\i (02:56:40) xname_flush 
+\e (02:56:40) No command active
+\i (02:56:40) done 
+\e (02:56:40) No command active
+\e (02:56:41) Command not found: xdehilite
+\i (02:56:41) xname_flush 
+\e (02:56:41) No command active
+\i (02:56:41) done 
+\e (02:56:41) No command active
+\e (02:56:41) Command not found: xhilite
+\i (02:56:41) xname_flush 
+\e (02:56:41) No command active
+\i (02:56:41) done 
+\e (02:56:41) No command active
+\e (02:56:42) Command not found: xdehilite
+\i (02:56:42) xname_flush 
+\e (02:56:42) No command active
+\i (02:56:42) done 
+\e (02:56:42) No command active
+\e (02:56:43) Command not found: xhilite
+\i (02:56:43) xname_flush 
+\e (02:56:43) No command active
+\i (02:56:43) done 
+\e (02:56:43) No command active
+\e (02:56:43) Command not found: xdehilite
+\i (02:56:43) xname_flush 
+\e (02:56:43) No command active
+\i (02:56:43) done 
+\e (02:56:43) No command active
+\e (02:56:45) Command not found: xhilite
+\i (02:56:45) xname_flush 
+\e (02:56:45) No command active
+\i (02:56:45) done 
+\e (02:56:45) No command active
+\e (02:56:47) Command not found: xdehilite
+\i (02:56:47) xname_flush 
+\e (02:56:47) No command active
+\i (02:56:47) done 
+\e (02:56:47) No command active
+\e (02:56:48) Command not found: xhilite
+\i (02:56:48) xname_flush 
+\e (02:56:48) No command active
+\i (02:56:48) done 
+\e (02:56:48) No command active
+\e (02:56:50) Command not found: xdehilite
+\i (02:56:50) xname_flush 
+\e (02:56:50) No command active
+\i (02:56:50) done 
+\e (02:56:50) No command active
+\e (02:56:51) Command not found: xhilite
+\i (02:56:51) xname_flush 
+\e (02:56:51) No command active
+\i (02:56:51) done 
+\e (02:56:51) No command active
+\e (02:56:52) Command not found: xdehilite
+\i (02:56:52) xname_flush 
+\e (02:56:52) No command active
+\i (02:56:52) done 
+\e (02:56:52) No command active
+\e (02:56:56) Command not found: xhilite
+\i (02:56:56) xname_flush 
+\e (02:56:56) No command active
+\i (02:56:56) done 
+\e (02:56:56) No command active
+\e (02:56:57) Command not found: xdehilite
+\i (02:56:57) xname_flush 
+\e (02:56:57) No command active
+\i (02:56:57) done 
+\e (02:56:57) No command active
+\e (02:56:57) Command not found: xhilite
+\i (02:56:57) xname_flush 
+\e (02:56:57) No command active
+\i (02:56:57) done 
+\e (02:56:57) No command active
+\e (02:56:57) Command not found: xdehilite
+\i (02:56:57) xname_flush 
+\e (02:56:57) No command active
+\i (02:56:57) done 
+\e (02:56:57) No command active
+\e (02:56:58) Command not found: xhilite
+\i (02:56:58) xname_flush 
+\e (02:56:58) No command active
+\i (02:56:58) done 
+\e (02:56:58) No command active
+\e (02:56:58) Command not found: xdehilite
+\i (02:56:58) xname_flush 
+\e (02:56:58) No command active
+\i (02:56:58) done 
+\e (02:56:58) No command active
+\e (02:57:00) Command not found: xhilite
+\i (02:57:00) xname_flush 
+\e (02:57:00) No command active
+\i (02:57:00) done 
+\e (02:57:00) No command active
+\e (02:57:01) Command not found: xdehilite
+\i (02:57:01) xname_flush 
+\e (02:57:01) No command active
+\i (02:57:01) done 
+\e (02:57:01) No command active
+\e (02:57:01) Command not found: xhilite
+\i (02:57:01) xname_flush 
+\e (02:57:01) No command active
+\i (02:57:01) done 
+\e (02:57:01) No command active
+\e (02:57:01) Command not found: xdehilite
+\i (02:57:01) xname_flush 
+\e (02:57:01) No command active
+\i (02:57:01) done 
+\e (02:57:01) No command active
+\e (02:57:03) Command not found: xhilite
+\i (02:57:03) xname_flush 
+\e (02:57:03) No command active
+\i (02:57:03) done 
+\e (02:57:03) No command active
+\e (02:57:03) Command not found: xdehilite
+\i (02:57:03) xname_flush 
+\e (02:57:03) No command active
+\i (02:57:03) done 
+\e (02:57:03) No command active
+\e (02:57:06) Command not found: xhilite
+\i (02:57:06) xname_flush 
+\e (02:57:06) No command active
+\i (02:57:06) done 
+\e (02:57:06) No command active
+\e (02:57:07) Command not found: xdehilite
+\i (02:57:07) xname_flush 
+\e (02:57:07) No command active
+\i (02:57:07) done 
+\e (02:57:07) No command active
+\e (02:57:47) Command not found: xdehilite
+\i (02:57:47) xname_flush 
+\e (02:57:47) No command active
+\i (02:57:47) done 
+\e (02:57:47) No command active
+\e (02:57:49) Command not found: xhilite
+\i (02:57:49) xname_flush 
+\e (02:57:49) No command active
+\i (02:57:49) done 
+\e (02:57:49) No command active
+\e (02:57:49) Command not found: xdehilite
+\i (02:57:49) xname_flush 
+\e (02:57:49) No command active
+\i (02:57:49) done 
+\e (02:57:49) No command active
+\e (02:58:06) Command not found: xhilite
+\i (02:58:06) xname_flush 
+\e (02:58:06) No command active
+\i (02:58:06) done 
+\e (02:58:06) No command active
+\e (02:58:09) Command not found: xdehilite
+\i (02:58:09) xname_flush 
+\e (02:58:09) No command active
+\i (02:58:09) done 
+\e (02:58:09) No command active
+\e (02:58:11) Command not found: xhilite
+\i (02:58:11) xname_flush 
+\e (02:58:11) No command active
+\i (02:58:11) done 
+\e (02:58:11) No command active
+\e (02:58:13) Command not found: xhilite
+\i (02:58:13) xname_flush 
+\e (02:58:13) No command active
+\i (02:58:13) done 
+\e (02:58:13) No command active
+\e (02:58:14) Command not found: xhilite
+\i (02:58:14) xname_flush 
+\e (02:58:14) No command active
+\i (02:58:14) done 
+\e (02:58:14) No command active
+\e (02:58:15) Command not found: xdehilite
+\i (02:58:15) xname_flush 
+\e (02:58:15) No command active
+\i (02:58:15) done 
+\e (02:58:15) No command active
+\e (02:58:16) Command not found: xhilite
+\i (02:58:16) xname_flush 
+\e (02:58:16) No command active
+\i (02:58:16) done 
+\e (02:58:16) No command active
+\e (02:58:16) Command not found: xhilite
+\i (02:58:16) xname_flush 
+\e (02:58:16) No command active
+\i (02:58:16) done 
+\e (02:58:16) No command active
+\e (02:58:17) Command not found: xhilite
+\i (02:58:17) xname_flush 
+\e (02:58:17) No command active
+\i (02:58:17) done 
+\e (02:58:17) No command active
+\e (02:58:17) Command not found: xhilite
+\i (02:58:17) xname_flush 
+\e (02:58:17) No command active
+\i (02:58:17) done 
+\e (02:58:17) No command active
+\e (02:58:18) Command not found: xhilite
+\i (02:58:18) xname_flush 
+\e (02:58:18) No command active
+\i (02:58:18) done 
+\e (02:58:18) No command active
+\e (02:58:19) Command not found: xdehilite
+\i (02:58:19) xname_flush 
+\e (02:58:19) No command active
+\i (02:58:19) done 
+\e (02:58:19) No command active
+\e (02:58:21) Command not found: xhilite
+\i (02:58:21) xname_flush 
+\e (02:58:21) No command active
+\i (02:58:21) done 
+\e (02:58:21) No command active
+\e (02:58:22) Command not found: xhilite
+\i (02:58:22) xname_flush 
+\e (02:58:22) No command active
+\i (02:58:22) done 
+\e (02:58:22) No command active
+\e (02:58:23) Command not found: xdehilite
+\i (02:58:23) xname_flush 
+\e (02:58:23) No command active
+\i (02:58:23) done 
+\e (02:58:23) No command active
+\e (02:58:26) Command not found: xhilite
+\i (02:58:26) xname_flush 
+\e (02:58:26) No command active
+\i (02:58:26) done 
+\e (02:58:26) No command active
+\e (02:58:27) Command not found: xdehilite
+\i (02:58:27) xname_flush 
+\e (02:58:27) No command active
+\i (02:58:27) done 
+\e (02:58:27) No command active
+\e (02:58:27) Command not found: xhilite
+\i (02:58:27) xname_flush 
+\e (02:58:27) No command active
+\i (02:58:27) done 
+\e (02:58:27) No command active
+\e (02:58:27) Command not found: xdehilite
+\i (02:58:27) xname_flush 
+\e (02:58:27) No command active
+\i (02:58:27) done 
+\e (02:58:27) No command active
+\e (02:58:29) Command not found: xhilite
+\i (02:58:29) xname_flush 
+\e (02:58:29) No command active
+\i (02:58:29) done 
+\e (02:58:29) No command active
+\e (02:58:29) Command not found: xdehilite
+\i (02:58:29) xname_flush 
+\e (02:58:29) No command active
+\i (02:58:29) done 
+\e (02:58:29) No command active
+\e (02:58:31) Command not found: xhilite
+\i (02:58:31) xname_flush 
+\e (02:58:31) No command active
+\i (02:58:31) done 
+\e (02:58:31) No command active
+\e (02:58:32) Command not found: xdehilite
+\i (02:58:32) xname_flush 
+\e (02:58:32) No command active
+\i (02:58:32) done 
+\e (02:58:32) No command active
+\e (02:58:32) Command not found: xhilite
+\i (02:58:32) xname_flush 
+\e (02:58:32) No command active
+\i (02:58:32) done 
+\e (02:58:32) No command active
+\e (02:58:32) Command not found: xdehilite
+\i (02:58:32) xname_flush 
+\e (02:58:32) No command active
+\i (02:58:32) done 
+\e (02:58:32) No command active
+\e (02:58:34) Command not found: xhilite
+\i (02:58:34) xname_flush 
+\e (02:58:34) No command active
+\i (02:58:34) done 
+\e (02:58:34) No command active
+\e (02:58:34) Command not found: xdehilite
+\i (02:58:34) xname_flush 
+\e (02:58:34) No command active
+\i (02:58:34) done 
+\e (02:58:34) No command active
+\e (02:58:36) Command not found: xhilite
+\i (02:58:36) xname_flush 
+\e (02:58:36) No command active
+\i (02:58:36) done 
+\e (02:58:36) No command active
+\e (02:58:36) Command not found: xdehilite
+\i (02:58:36) xname_flush 
+\e (02:58:36) No command active
+\i (02:58:36) done 
+\e (02:58:36) No command active
+\e (02:59:14) Command not found: xhilite
+\i (02:59:14) xname_flush 
+\e (02:59:14) No command active
+\i (02:59:14) done 
+\e (02:59:14) No command active
+\e (02:59:14) Command not found: xdehilite
+\i (02:59:14) xname_flush 
+\e (02:59:14) No command active
+\i (02:59:14) done 
+\e (02:59:14) No command active
+\e (02:59:16) Command not found: xhilite
+\i (02:59:16) xname_flush 
+\e (02:59:16) No command active
+\i (02:59:16) done 
+\e (02:59:16) No command active
+\e (02:59:17) Command not found: xhilite
+\i (02:59:17) xname_flush 
+\e (02:59:17) No command active
+\i (02:59:17) done 
+\e (02:59:17) No command active
+\e (02:59:18) Command not found: xhilite
+\i (02:59:18) xname_flush 
+\e (02:59:18) No command active
+\i (02:59:18) done 
+\e (02:59:18) No command active
+\e (02:59:27) Command not found: xhilite
+\i (02:59:27) xname_flush 
+\e (02:59:27) No command active
+\i (02:59:27) done 
+\e (02:59:27) No command active
+\e (02:59:28) Command not found: xdehilite
+\i (02:59:28) xname_flush 
+\e (02:59:28) No command active
+\i (02:59:28) done 
+\e (02:59:28) No command active
+\e (02:59:31) Command not found: xhilite
+\i (02:59:31) xname_flush 
+\e (02:59:31) No command active
+\i (02:59:31) done 
+\e (02:59:31) No command active
+\e (02:59:31) Command not found: xdehilite
+\i (02:59:31) xname_flush 
+\e (02:59:31) No command active
+\i (02:59:31) done 
+\e (02:59:31) No command active
+\e (02:59:38) Command not found: xhilite
+\i (02:59:38) xname_flush 
+\e (02:59:38) No command active
+\i (02:59:38) done 
+\e (02:59:38) No command active
+\e (02:59:39) Command not found: xdehilite
+\i (02:59:39) xname_flush 
+\e (02:59:39) No command active
+\i (02:59:39) done 
+\e (02:59:39) No command active
+\e (03:00:01) Command not found: xhilite
+\i (03:00:01) xname_flush 
+\e (03:00:01) No command active
+\i (03:00:01) done 
+\e (03:00:01) No command active
+\e (03:00:02) Command not found: xhilite
+\i (03:00:02) xname_flush 
+\e (03:00:02) No command active
+\i (03:00:02) done 
+\e (03:00:02) No command active
+\e (03:00:03) Command not found: xhilite
+\i (03:00:03) xname_flush 
+\e (03:00:03) No command active
+\i (03:00:03) done 
+\e (03:00:03) No command active
+\e (03:00:03) Command not found: xhilite
+\i (03:00:03) xname_flush 
+\e (03:00:03) No command active
+\i (03:00:03) done 
+\e (03:00:03) No command active
+\e (03:00:04) Command not found: xhilite
+\i (03:00:04) xname_flush 
+\e (03:00:04) No command active
+\i (03:00:04) done 
+\e (03:00:04) No command active
+\e (03:00:07) Command not found: xhilite
+\i (03:00:07) xname_flush 
+\e (03:00:07) No command active
+\i (03:00:07) done 
+\e (03:00:07) No command active
+\e (03:00:08) Command not found: xdehilite
+\i (03:00:08) xname_flush 
+\e (03:00:08) No command active
+\i (03:00:08) done 
+\e (03:00:08) No command active
+\e (03:00:09) Command not found: xhilite
+\i (03:00:09) xname_flush 
+\e (03:00:09) No command active
+\i (03:00:09) done 
+\e (03:00:09) No command active
+\e (03:00:11) Command not found: xdehilite
+\i (03:00:11) xname_flush 
+\e (03:00:11) No command active
+\i (03:00:11) done 
+\e (03:00:11) No command active
+\e (03:00:11) Command not found: xhilite
+\i (03:00:11) xname_flush 
+\e (03:00:11) No command active
+\i (03:00:11) done 
+\e (03:00:11) No command active
+\e (03:00:12) Command not found: xdehilite
+\i (03:00:12) xname_flush 
+\e (03:00:12) No command active
+\i (03:00:12) done 
+\e (03:00:12) No command active
+\e (03:00:13) Command not found: xhilite
+\i (03:00:13) xname_flush 
+\e (03:00:13) No command active
+\i (03:00:13) done 
+\e (03:00:13) No command active
+\e (03:00:15) Command not found: xhilite
+\i (03:00:15) xname_flush 
+\e (03:00:15) No command active
+\i (03:00:15) done 
+\e (03:00:15) No command active
+\e (03:00:16) Command not found: xdehilite
+\i (03:00:16) xname_flush 
+\e (03:00:16) No command active
+\i (03:00:16) done 
+\e (03:00:16) No command active
+\e (03:00:16) Command not found: xhilite
+\i (03:00:16) xname_flush 
+\e (03:00:16) No command active
+\i (03:00:16) done 
+\e (03:00:16) No command active
+\e (03:00:18) Command not found: xdehilite
+\i (03:00:18) xname_flush 
+\e (03:00:18) No command active
+\i (03:00:18) done 
+\e (03:00:18) No command active
+\e (03:00:22) Command not found: xhilite
+\i (03:00:22) xname_flush 
+\e (03:00:22) No command active
+\i (03:00:22) done 
+\e (03:00:22) No command active
+\e (03:00:23) Command not found: xdehilite
+\i (03:00:23) xname_flush 
+\e (03:00:23) No command active
+\i (03:00:23) done 
+\e (03:00:23) No command active
+\e (03:00:26) Command not found: xhilite
+\i (03:00:26) xname_flush 
+\e (03:00:26) No command active
+\i (03:00:26) done 
+\e (03:00:26) No command active
+\e (03:00:27) Command not found: xdehilite
+\i (03:00:27) xname_flush 
+\e (03:00:27) No command active
+\i (03:00:27) done 
+\e (03:00:27) No command active
+\e (03:00:27) Command not found: xhilite
+\i (03:00:27) xname_flush 
+\e (03:00:27) No command active
+\i (03:00:27) done 
+\e (03:00:27) No command active
+\e (03:00:27) Command not found: xdehilite
+\i (03:00:27) xname_flush 
+\e (03:00:27) No command active
+\i (03:00:27) done 
+\e (03:00:27) No command active
+\e (03:00:28) Command not found: xhilite
+\i (03:00:28) xname_flush 
+\e (03:00:28) No command active
+\i (03:00:28) done 
+\e (03:00:28) No command active
+\e (03:00:28) Command not found: xdehilite
+\i (03:00:28) xname_flush 
+\e (03:00:28) No command active
+\i (03:00:28) done 
+\e (03:00:28) No command active
+\e (03:00:29) Command not found: xhilite
+\i (03:00:29) xname_flush 
+\e (03:00:29) No command active
+\i (03:00:29) done 
+\e (03:00:29) No command active
+\e (03:00:30) Command not found: xdehilite
+\i (03:00:30) xname_flush 
+\e (03:00:30) No command active
+\i (03:00:30) done 
+\e (03:00:30) No command active
+\e (03:00:30) Command not found: xhilite
+\i (03:00:30) xname_flush 
+\e (03:00:30) No command active
+\i (03:00:30) done 
+\e (03:00:30) No command active
+\e (03:00:30) Command not found: xdehilite
+\i (03:00:30) xname_flush 
+\e (03:00:30) No command active
+\i (03:00:30) done 
+\e (03:00:30) No command active
+\e (03:00:30) Command not found: xhilite
+\i (03:00:30) xname_flush 
+\e (03:00:30) No command active
+\i (03:00:30) done 
+\e (03:00:30) No command active
+\e (03:00:30) Command not found: xdehilite
+\i (03:00:30) xname_flush 
+\e (03:00:30) No command active
+\i (03:00:30) done 
+\e (03:00:30) No command active
+\e (03:00:31) Command not found: xhilite
+\i (03:00:31) xname_flush 
+\e (03:00:31) No command active
+\i (03:00:31) done 
+\e (03:00:31) No command active
+\e (03:00:32) Command not found: xdehilite
+\i (03:00:32) xname_flush 
+\e (03:00:32) No command active
+\i (03:00:32) done 
+\e (03:00:32) No command active
+\e (03:00:36) Command not found: xdehilite
+\i (03:00:36) xname_flush 
+\e (03:00:36) No command active
+\i (03:00:36) done 
+\e (03:00:36) No command active
+\e (03:00:37) Command not found: xhilite
+\i (03:00:37) xname_flush 
+\e (03:00:37) No command active
+\i (03:00:37) done 
+\e (03:00:37) No command active
+\e (03:00:37) Command not found: xdehilite
+\i (03:00:37) xname_flush 
+\e (03:00:37) No command active
+\i (03:00:37) done 
+\e (03:00:37) No command active
+\e (03:00:38) Command not found: xhilite
+\i (03:00:38) xname_flush 
+\e (03:00:38) No command active
+\i (03:00:38) done 
+\e (03:00:38) No command active
+\e (03:00:38) Command not found: xdehilite
+\i (03:00:38) xname_flush 
+\e (03:00:38) No command active
+\i (03:00:38) done 
+\e (03:00:38) No command active
+\e (03:00:41) Command not found: xhilite
+\i (03:00:41) xname_flush 
+\e (03:00:41) No command active
+\i (03:00:41) done 
+\e (03:00:41) No command active
+\e (03:00:41) Command not found: xdehilite
+\i (03:00:41) xname_flush 
+\e (03:00:41) No command active
+\i (03:00:41) done 
+\e (03:00:41) No command active
+\e (03:01:06) Command not found: xhilite
+\i (03:01:06) xname_flush 
+\e (03:01:06) No command active
+\i (03:01:06) done 
+\e (03:01:06) No command active
+\e (03:01:09) Command not found: xhilite
+\i (03:01:09) xname_flush 
+\e (03:01:09) No command active
+\i (03:01:09) done 
+\e (03:01:09) No command active
+\e (03:01:11) Command not found: xhilite
+\i (03:01:11) xname_flush 
+\e (03:01:11) No command active
+\i (03:01:11) done 
+\e (03:01:11) No command active
+\e (03:01:11) Command not found: xhilite
+\i (03:01:11) xname_flush 
+\e (03:01:11) No command active
+\i (03:01:11) done 
+\e (03:01:11) No command active
+\e (03:01:11) Command not found: xhilite
+\i (03:01:11) xname_flush 
+\e (03:01:11) No command active
+\i (03:01:11) done 
+\e (03:01:11) No command active
+\e (03:01:12) Command not found: xhilite
+\i (03:01:12) xname_flush 
+\e (03:01:12) No command active
+\i (03:01:12) done 
+\e (03:01:12) No command active
+\e (03:01:12) Command not found: xhilite
+\i (03:01:12) xname_flush 
+\e (03:01:12) No command active
+\i (03:01:12) done 
+\e (03:01:12) No command active
+\e (03:01:13) Command not found: xhilite
+\i (03:01:13) xname_flush 
+\e (03:01:13) No command active
+\i (03:01:13) done 
+\e (03:01:13) No command active
+\e (03:01:14) Command not found: xhilite
+\i (03:01:14) xname_flush 
+\e (03:01:14) No command active
+\i (03:01:14) done 
+\e (03:01:14) No command active
+\e (03:01:14) Command not found: xhilite
+\i (03:01:14) xname_flush 
+\e (03:01:14) No command active
+\i (03:01:14) done 
+\e (03:01:14) No command active
+\e (03:01:14) Command not found: xhilite
+\i (03:01:14) xname_flush 
+\e (03:01:14) No command active
+\i (03:01:14) done 
+\e (03:01:14) No command active
+\e (03:01:15) Command not found: xhilite
+\i (03:01:15) xname_flush 
+\e (03:01:15) No command active
+\i (03:01:15) done 
+\e (03:01:15) No command active
+\e (03:01:16) Command not found: xhilite
+\i (03:01:16) xname_flush 
+\e (03:01:16) No command active
+\i (03:01:16) done 
+\e (03:01:16) No command active
+\e (03:01:17) Command not found: xhilite
+\i (03:01:17) xname_flush 
+\e (03:01:17) No command active
+\i (03:01:17) done 
+\e (03:01:17) No command active
+\e (03:01:18) Command not found: xhilite
+\i (03:01:18) xname_flush 
+\e (03:01:18) No command active
+\i (03:01:18) done 
+\e (03:01:18) No command active
+\e (03:01:18) Command not found: xhilite
+\i (03:01:18) xname_flush 
+\e (03:01:18) No command active
+\i (03:01:18) done 
+\e (03:01:18) No command active
+\e (03:01:19) Command not found: xhilite
+\i (03:01:19) xname_flush 
+\e (03:01:19) No command active
+\i (03:01:19) done 
+\e (03:01:19) No command active
+\e (03:01:21) Command not found: xhilite
+\i (03:01:21) xname_flush 
+\e (03:01:21) No command active
+\i (03:01:21) done 
+\e (03:01:21) No command active
+\e (03:01:22) Command not found: xdehilite
+\i (03:01:22) xname_flush 
+\e (03:01:22) No command active
+\i (03:01:22) done 
+\e (03:01:22) No command active
+\e (03:01:23) Command not found: xhilite
+\i (03:01:23) xname_flush 
+\e (03:01:23) No command active
+\i (03:01:23) done 
+\e (03:01:23) No command active
+\e (03:01:24) Command not found: xdehilite
+\i (03:01:24) xname_flush 
+\e (03:01:24) No command active
+\i (03:01:24) done 
+\e (03:01:24) No command active
+\e (03:01:24) Command not found: xhilite
+\i (03:01:24) xname_flush 
+\e (03:01:24) No command active
+\i (03:01:24) done 
+\e (03:01:24) No command active
+\e (03:01:27) Command not found: xdehilite
+\i (03:01:27) xname_flush 
+\e (03:01:27) No command active
+\i (03:01:27) done 
+\e (03:01:27) No command active
+\e (03:01:29) Command not found: xhilite
+\i (03:01:29) xname_flush 
+\e (03:01:29) No command active
+\i (03:01:29) done 
+\e (03:01:29) No command active
+\e (03:01:31) Command not found: xdehilite
+\i (03:01:31) xname_flush 
+\e (03:01:31) No command active
+\i (03:01:31) done 
+\e (03:01:31) No command active
+\e (03:01:31) Command not found: xhilite
+\i (03:01:31) xname_flush 
+\e (03:01:31) No command active
+\i (03:01:31) done 
+\e (03:01:31) No command active
+\e (03:01:32) Command not found: xdehilite
+\i (03:01:32) xname_flush 
+\e (03:01:32) No command active
+\i (03:01:32) done 
+\e (03:01:32) No command active
+\e (03:01:33) Command not found: xhilite
+\i (03:01:33) xname_flush 
+\e (03:01:33) No command active
+\i (03:01:33) done 
+\e (03:01:33) No command active
+\e (03:01:34) Command not found: xdehilite
+\i (03:01:34) xname_flush 
+\e (03:01:34) No command active
+\i (03:01:34) done 
+\e (03:01:34) No command active
+\e (03:01:37) Command not found: xhilite
+\i (03:01:37) xname_flush 
+\e (03:01:37) No command active
+\i (03:01:37) done 
+\e (03:01:37) No command active
+\e (03:01:39) Command not found: xdehilite
+\i (03:01:39) xname_flush 
+\e (03:01:39) No command active
+\i (03:01:39) done 
+\e (03:01:39) No command active
+\e (03:01:41) Command not found: xhilite
+\i (03:01:41) xname_flush 
+\e (03:01:41) No command active
+\i (03:01:41) done 
+\e (03:01:41) No command active
+\e (03:01:43) Command not found: xdehilite
+\i (03:01:43) xname_flush 
+\e (03:01:43) No command active
+\i (03:01:43) done 
+\e (03:01:43) No command active
+\e (03:01:44) Command not found: xhilite
+\i (03:01:44) xname_flush 
+\e (03:01:44) No command active
+\i (03:01:44) done 
+\e (03:01:44) No command active
+\e (03:01:44) Command not found: xdehilite
+\i (03:01:44) xname_flush 
+\e (03:01:44) No command active
+\i (03:01:44) done 
+\e (03:01:44) No command active
+\e (03:01:46) Command not found: xhilite
+\i (03:01:46) xname_flush 
+\e (03:01:46) No command active
+\i (03:01:46) done 
+\e (03:01:46) No command active
+\e (03:01:46) Command not found: xdehilite
+\i (03:01:46) xname_flush 
+\e (03:01:46) No command active
+\i (03:01:46) done 
+\e (03:01:46) No command active
+\e (03:01:46) Command not found: xhilite
+\i (03:01:46) xname_flush 
+\e (03:01:46) No command active
+\i (03:01:46) done 
+\e (03:01:46) No command active
+\e (03:01:46) Command not found: xdehilite
+\i (03:01:46) xname_flush 
+\e (03:01:46) No command active
+\i (03:01:46) done 
+\e (03:01:46) No command active
+\e (03:01:48) Command not found: xhilite
+\i (03:01:48) xname_flush 
+\e (03:01:48) No command active
+\i (03:01:48) done 
+\e (03:01:48) No command active
+\e (03:01:48) Command not found: xdehilite
+\i (03:01:48) xname_flush 
+\e (03:01:48) No command active
+\i (03:01:48) done 
+\e (03:01:48) No command active
+\e (03:01:53) Command not found: xdehilite
+\i (03:01:53) xname_flush 
+\e (03:01:53) No command active
+\i (03:01:53) done 
+\e (03:01:53) No command active
+\e (03:01:55) Command not found: xhilite
+\i (03:01:55) xname_flush 
+\e (03:01:55) No command active
+\i (03:01:55) done 
+\e (03:01:55) No command active
+\e (03:01:55) Command not found: xdehilite
+\i (03:01:55) xname_flush 
+\e (03:01:55) No command active
+\i (03:01:55) done 
+\e (03:01:55) No command active
+\e (03:01:58) Command not found: xhilite
+\i (03:01:58) xname_flush 
+\e (03:01:58) No command active
+\i (03:01:58) done 
+\e (03:01:58) No command active
+\e (03:01:59) Command not found: xdehilite
+\i (03:01:59) xname_flush 
+\e (03:01:59) No command active
+\i (03:01:59) done 
+\e (03:01:59) No command active
+\e (03:02:13) Command not found: xhilite
+\i (03:02:13) xname_flush 
+\e (03:02:13) No command active
+\i (03:02:13) done 
+\e (03:02:13) No command active
+\e (03:02:18) Command not found: xdehilite
+\i (03:02:18) xname_flush 
+\e (03:02:18) No command active
+\i (03:02:18) done 
+\e (03:02:18) No command active
+\e (03:02:19) Command not found: xhilite
+\i (03:02:19) xname_flush 
+\e (03:02:19) No command active
+\i (03:02:19) done 
+\e (03:02:19) No command active
+\e (03:02:21) Command not found: xdehilite
+\i (03:02:21) xname_flush 
+\e (03:02:21) No command active
+\i (03:02:21) done 
+\e (03:02:21) No command active
+\e (03:02:24) Command not found: xhilite
+\i (03:02:24) xname_flush 
+\e (03:02:24) No command active
+\i (03:02:24) done 
+\e (03:02:24) No command active
+\e (03:02:26) Command not found: xdehilite
+\i (03:02:26) xname_flush 
+\e (03:02:26) No command active
+\i (03:02:26) done 
+\e (03:02:26) No command active
+\e (03:02:29) Command not found: xhilite
+\i (03:02:29) xname_flush 
+\e (03:02:29) No command active
+\i (03:02:29) done 
+\e (03:02:29) No command active
+\e (03:02:31) Command not found: xdehilite
+\i (03:02:31) xname_flush 
+\e (03:02:31) No command active
+\i (03:02:31) done 
+\e (03:02:31) No command active
+\e (03:02:42) Command not found: xhilite
+\i (03:02:42) xname_flush 
+\e (03:02:42) No command active
+\i (03:02:42) done 
+\e (03:02:42) No command active
+\e (03:02:45) Command not found: xdehilite
+\i (03:02:45) xname_flush 
+\e (03:02:45) No command active
+\i (03:02:45) done 
+\e (03:02:45) No command active
+\e (03:02:47) Command not found: xhilite
+\i (03:02:47) xname_flush 
+\e (03:02:47) No command active
+\i (03:02:47) done 
+\e (03:02:47) No command active
+\e (03:02:47) Command not found: xdehilite
+\i (03:02:47) xname_flush 
+\e (03:02:47) No command active
+\i (03:02:47) done 
+\e (03:02:47) No command active
+\e (03:02:47) Command not found: xhilite
+\i (03:02:47) xname_flush 
+\e (03:02:47) No command active
+\i (03:02:47) done 
+\e (03:02:47) No command active
+\e (03:02:49) Command not found: xdehilite
+\i (03:02:49) xname_flush 
+\e (03:02:49) No command active
+\i (03:02:49) done 
+\e (03:02:49) No command active
+\e (03:02:50) Command not found: xhilite
+\i (03:02:50) xname_flush 
+\e (03:02:50) No command active
+\i (03:02:50) done 
+\e (03:02:50) No command active
+\e (03:02:51) Command not found: xdehilite
+\i (03:02:51) xname_flush 
+\e (03:02:51) No command active
+\i (03:02:51) done 
+\e (03:02:51) No command active
+\e (03:02:53) Command not found: xhilite
+\i (03:02:53) xname_flush 
+\e (03:02:53) No command active
+\i (03:02:53) done 
+\e (03:02:53) No command active
+\e (03:02:54) Command not found: xdehilite
+\i (03:02:54) xname_flush 
+\e (03:02:54) No command active
+\i (03:02:54) done 
+\e (03:02:54) No command active
+\e (03:02:55) Command not found: xhilite
+\i (03:02:55) xname_flush 
+\e (03:02:55) No command active
+\i (03:02:55) done 
+\e (03:02:55) No command active
+\e (03:02:56) Command not found: xdehilite
+\i (03:02:56) xname_flush 
+\e (03:02:56) No command active
+\i (03:02:56) done 
+\e (03:02:56) No command active
+\e (03:02:57) Command not found: xhilite
+\i (03:02:57) xname_flush 
+\e (03:02:57) No command active
+\i (03:02:57) done 
+\e (03:02:57) No command active
+\e (03:02:58) Command not found: xdehilite
+\i (03:02:58) xname_flush 
+\e (03:02:58) No command active
+\i (03:02:58) done 
+\e (03:02:58) No command active
+\e (03:03:00) Command not found: xhilite
+\i (03:03:00) xname_flush 
+\e (03:03:00) No command active
+\i (03:03:00) done 
+\e (03:03:00) No command active
+\e (03:03:01) Command not found: xdehilite
+\i (03:03:01) xname_flush 
+\e (03:03:01) No command active
+\i (03:03:01) done 
+\e (03:03:01) No command active
+\e (03:03:01) Command not found: xhilite
+\i (03:03:01) xname_flush 
+\e (03:03:01) No command active
+\i (03:03:01) done 
+\e (03:03:01) No command active
+\e (03:03:02) Command not found: xdehilite
+\i (03:03:02) xname_flush 
+\e (03:03:02) No command active
+\i (03:03:02) done 
+\e (03:03:02) No command active
+\e (03:03:05) Command not found: xhilite
+\i (03:03:05) xname_flush 
+\e (03:03:05) No command active
+\i (03:03:05) done 
+\e (03:03:05) No command active
+\e (03:03:05) Command not found: xdehilite
+\i (03:03:05) xname_flush 
+\e (03:03:05) No command active
+\i (03:03:05) done 
+\e (03:03:05) No command active
+\e (03:03:06) Command not found: xhilite
+\i (03:03:06) xname_flush 
+\e (03:03:06) No command active
+\i (03:03:06) done 
+\e (03:03:06) No command active
+\e (03:03:06) Command not found: xdehilite
+\i (03:03:06) xname_flush 
+\e (03:03:06) No command active
+\i (03:03:06) done 
+\e (03:03:06) No command active
+\e (03:03:06) Command not found: xhilite
+\i (03:03:06) xname_flush 
+\e (03:03:06) No command active
+\i (03:03:06) done 
+\e (03:03:06) No command active
+\e (03:03:07) Command not found: xdehilite
+\i (03:03:07) xname_flush 
+\e (03:03:07) No command active
+\i (03:03:07) done 
+\e (03:03:07) No command active
+\e (03:03:07) Command not found: xhilite
+\i (03:03:07) xname_flush 
+\e (03:03:07) No command active
+\i (03:03:07) done 
+\e (03:03:07) No command active
+\e (03:03:07) Command not found: xdehilite
+\i (03:03:07) xname_flush 
+\e (03:03:07) No command active
+\i (03:03:07) done 
+\e (03:03:07) No command active
+\e (03:03:09) Command not found: xhilite
+\i (03:03:09) xname_flush 
+\e (03:03:09) No command active
+\i (03:03:09) done 
+\e (03:03:09) No command active
+\e (03:03:09) Command not found: xdehilite
+\i (03:03:09) xname_flush 
+\e (03:03:09) No command active
+\i (03:03:09) done 
+\e (03:03:09) No command active
+\e (03:03:11) Command not found: xhilite
+\i (03:03:11) xname_flush 
+\e (03:03:11) No command active
+\i (03:03:11) done 
+\e (03:03:11) No command active
+\e (03:03:11) Command not found: xdehilite
+\i (03:03:11) xname_flush 
+\e (03:03:11) No command active
+\i (03:03:11) done 
+\e (03:03:11) No command active
+\e (03:03:16) Command not found: xhilite
+\i (03:03:16) xname_flush 
+\e (03:03:16) No command active
+\i (03:03:16) done 
+\e (03:03:16) No command active
+\e (03:03:16) Command not found: xdehilite
+\i (03:03:16) xname_flush 
+\e (03:03:16) No command active
+\i (03:03:16) done 
+\e (03:03:16) No command active
+\e (03:03:22) Command not found: xhilite
+\i (03:03:22) xname_flush 
+\e (03:03:22) No command active
+\i (03:03:22) done 
+\e (03:03:22) No command active
+\e (03:03:23) Command not found: xdehilite
+\i (03:03:23) xname_flush 
+\e (03:03:23) No command active
+\i (03:03:23) done 
+\e (03:03:23) No command active
+\e (03:03:33) Command not found: xhilite
+\i (03:03:33) xname_flush 
+\e (03:03:33) No command active
+\i (03:03:33) done 
+\e (03:03:33) No command active
+\e (03:03:36) Command not found: xhilite
+\i (03:03:36) xname_flush 
+\e (03:03:36) No command active
+\i (03:03:36) done 
+\e (03:03:36) No command active
+\e (03:03:36) Command not found: xhilite
+\i (03:03:36) xname_flush 
+\e (03:03:36) No command active
+\i (03:03:36) done 
+\e (03:03:36) No command active
+\e (03:03:37) Command not found: xhilite
+\i (03:03:37) xname_flush 
+\e (03:03:37) No command active
+\i (03:03:37) done 
+\e (03:03:37) No command active
+\e (03:03:38) Command not found: xhilite
+\i (03:03:38) xname_flush 
+\e (03:03:38) No command active
+\i (03:03:38) done 
+\e (03:03:38) No command active
+\e (03:03:38) Command not found: xhilite
+\i (03:03:38) xname_flush 
+\e (03:03:38) No command active
+\i (03:03:38) done 
+\e (03:03:38) No command active
+\e (03:03:39) Command not found: xhilite
+\i (03:03:39) xname_flush 
+\e (03:03:39) No command active
+\i (03:03:39) done 
+\e (03:03:39) No command active
+\e (03:03:39) Command not found: xhilite
+\i (03:03:39) xname_flush 
+\e (03:03:39) No command active
+\i (03:03:39) done 
+\e (03:03:39) No command active
+\e (03:03:40) Command not found: xhilite
+\i (03:03:40) xname_flush 
+\e (03:03:40) No command active
+\i (03:03:40) done 
+\e (03:03:40) No command active
+\e (03:03:40) Command not found: xdehilite
+\i (03:03:40) xname_flush 
+\e (03:03:40) No command active
+\i (03:03:40) done 
+\e (03:03:40) No command active
+\e (03:03:40) Command not found: xhilite
+\i (03:03:40) xname_flush 
+\e (03:03:40) No command active
+\i (03:03:40) done 
+\e (03:03:40) No command active
+\e (03:03:42) Command not found: xhilite
+\i (03:03:42) xname_flush 
+\e (03:03:42) No command active
+\i (03:03:42) done 
+\e (03:03:42) No command active
+\e (03:03:42) Command not found: xhilite
+\i (03:03:42) xname_flush 
+\e (03:03:42) No command active
+\i (03:03:42) done 
+\e (03:03:42) No command active
+\e (03:03:42) Command not found: xhilite
+\i (03:03:42) xname_flush 
+\e (03:03:42) No command active
+\i (03:03:42) done 
+\e (03:03:42) No command active
+\e (03:03:43) Command not found: xhilite
+\i (03:03:43) xname_flush 
+\e (03:03:43) No command active
+\i (03:03:43) done 
+\e (03:03:43) No command active
+\e (03:03:44) Command not found: xhilite
+\i (03:03:44) xname_flush 
+\e (03:03:44) No command active
+\i (03:03:44) done 
+\e (03:03:44) No command active
+\e (03:03:44) Command not found: xhilite
+\i (03:03:44) xname_flush 
+\e (03:03:44) No command active
+\i (03:03:44) done 
+\e (03:03:44) No command active
+\e (03:03:45) Command not found: xhilite
+\i (03:03:45) xname_flush 
+\e (03:03:45) No command active
+\i (03:03:45) done 
+\e (03:03:45) No command active
+\e (03:03:45) Command not found: xhilite
+\i (03:03:45) xname_flush 
+\e (03:03:45) No command active
+\i (03:03:45) done 
+\e (03:03:45) No command active
+\e (03:03:46) Command not found: xhilite
+\i (03:03:46) xname_flush 
+\e (03:03:46) No command active
+\i (03:03:46) done 
+\e (03:03:46) No command active
+\e (03:03:46) Command not found: xhilite
+\i (03:03:46) xname_flush 
+\e (03:03:46) No command active
+\i (03:03:46) done 
+\e (03:03:46) No command active
+\e (03:03:47) Command not found: xdehilite
+\i (03:03:47) xname_flush 
+\e (03:03:47) No command active
+\i (03:03:47) done 
+\e (03:03:47) No command active
+\e (03:03:47) Command not found: xhilite
+\i (03:03:47) xname_flush 
+\e (03:03:47) No command active
+\i (03:03:47) done 
+\e (03:03:47) No command active
+\e (03:03:48) Command not found: xdehilite
+\i (03:03:48) xname_flush 
+\e (03:03:48) No command active
+\i (03:03:48) done 
+\e (03:03:48) No command active
+\e (03:03:49) Command not found: xhilite
+\i (03:03:49) xname_flush 
+\e (03:03:49) No command active
+\i (03:03:49) done 
+\e (03:03:49) No command active
+\e (03:03:51) Command not found: xdehilite
+\i (03:03:51) xname_flush 
+\e (03:03:51) No command active
+\i (03:03:51) done 
+\e (03:03:51) No command active
+\e (03:03:55) Command not found: xhilite
+\i (03:03:55) xname_flush 
+\e (03:03:55) No command active
+\i (03:03:55) done 
+\e (03:03:55) No command active
+\e (03:03:56) Command not found: xdehilite
+\i (03:03:56) xname_flush 
+\e (03:03:56) No command active
+\i (03:03:56) done 
+\e (03:03:56) No command active
+\e (03:03:57) Command not found: xhilite
+\i (03:03:57) xname_flush 
+\e (03:03:57) No command active
+\i (03:03:57) done 
+\e (03:03:57) No command active
+\e (03:03:58) Command not found: xdehilite
+\i (03:03:58) xname_flush 
+\e (03:03:58) No command active
+\i (03:03:58) done 
+\e (03:03:58) No command active
+\e (03:04:00) Command not found: xhilite
+\i (03:04:00) xname_flush 
+\e (03:04:00) No command active
+\i (03:04:00) done 
+\e (03:04:00) No command active
+\e (03:04:01) Command not found: xdehilite
+\i (03:04:01) xname_flush 
+\e (03:04:01) No command active
+\i (03:04:01) done 
+\e (03:04:01) No command active
+\e (03:04:01) Command not found: xhilite
+\i (03:04:01) xname_flush 
+\e (03:04:01) No command active
+\i (03:04:01) done 
+\e (03:04:01) No command active
+\e (03:04:01) Command not found: xdehilite
+\i (03:04:01) xname_flush 
+\e (03:04:01) No command active
+\i (03:04:01) done 
+\e (03:04:01) No command active
+\e (03:04:02) Command not found: xhilite
+\i (03:04:02) xname_flush 
+\e (03:04:02) No command active
+\i (03:04:02) done 
+\e (03:04:02) No command active
+\e (03:04:02) Command not found: xdehilite
+\i (03:04:02) xname_flush 
+\e (03:04:02) No command active
+\i (03:04:02) done 
+\e (03:04:02) No command active
+\e (03:04:04) Command not found: xhilite
+\i (03:04:04) xname_flush 
+\e (03:04:04) No command active
+\i (03:04:04) done 
+\e (03:04:04) No command active
+\e (03:04:05) Command not found: xdehilite
+\i (03:04:05) xname_flush 
+\e (03:04:05) No command active
+\i (03:04:05) done 
+\e (03:04:05) No command active
+\e (03:04:05) Command not found: xhilite
+\i (03:04:05) xname_flush 
+\e (03:04:05) No command active
+\i (03:04:05) done 
+\e (03:04:05) No command active
+\e (03:04:05) Command not found: xdehilite
+\i (03:04:05) xname_flush 
+\e (03:04:05) No command active
+\i (03:04:05) done 
+\e (03:04:05) No command active
+\e (03:04:06) Command not found: xhilite
+\i (03:04:06) xname_flush 
+\e (03:04:06) No command active
+\i (03:04:06) done 
+\e (03:04:06) No command active
+\e (03:04:06) Command not found: xdehilite
+\i (03:04:06) xname_flush 
+\e (03:04:06) No command active
+\i (03:04:06) done 
+\e (03:04:06) No command active
+\e (03:04:12) Command not found: xhilite
+\i (03:04:12) xname_flush 
+\e (03:04:12) No command active
+\i (03:04:12) done 
+\e (03:04:12) No command active
+\e (03:04:12) Command not found: xdehilite
+\i (03:04:12) xname_flush 
+\e (03:04:12) No command active
+\i (03:04:12) done 
+\e (03:04:12) No command active
+\e (03:05:20) Command not found: xhilite
+\i (03:05:20) xname_flush 
+\e (03:05:20) No command active
+\i (03:05:20) done 
+\e (03:05:20) No command active
+\e (03:05:20) Command not found: xdehilite
+\i (03:05:20) xname_flush 
+\e (03:05:20) No command active
+\i (03:05:20) done 
+\e (03:05:20) No command active
+\e (03:05:25) Command not found: xhilite
+\i (03:05:25) xname_flush 
+\e (03:05:25) No command active
+\i (03:05:25) done 
+\e (03:05:25) No command active
+\e (03:05:26) Command not found: xdehilite
+\i (03:05:26) xname_flush 
+\e (03:05:26) No command active
+\i (03:05:26) done 
+\e (03:05:26) No command active
+\e (03:05:35) Command not found: xhilite
+\i (03:05:35) xname_flush 
+\e (03:05:35) No command active
+\i (03:05:35) done 
+\e (03:05:35) No command active
+\e (03:05:36) Command not found: xdehilite
+\i (03:05:36) xname_flush 
+\e (03:05:36) No command active
+\i (03:05:36) done 
+\e (03:05:36) No command active
+\e (03:05:37) Command not found: xhilite
+\i (03:05:37) xname_flush 
+\e (03:05:37) No command active
+\i (03:05:37) done 
+\e (03:05:37) No command active
+\e (03:05:38) Command not found: xdehilite
+\i (03:05:38) xname_flush 
+\e (03:05:38) No command active
+\i (03:05:38) done 
+\e (03:05:38) No command active
+\e (03:05:40) Command not found: xhilite
+\i (03:05:40) xname_flush 
+\e (03:05:40) No command active
+\i (03:05:40) done 
+\e (03:05:40) No command active
+\e (03:05:41) Command not found: xdehilite
+\i (03:05:41) xname_flush 
+\e (03:05:41) No command active
+\i (03:05:41) done 
+\e (03:05:41) No command active
+\e (03:05:42) Command not found: xhilite
+\i (03:05:42) xname_flush 
+\e (03:05:42) No command active
+\i (03:05:42) done 
+\e (03:05:42) No command active
+\e (03:05:43) Command not found: xdehilite
+\i (03:05:43) xname_flush 
+\e (03:05:43) No command active
+\i (03:05:43) done 
+\e (03:05:43) No command active
+\e (03:05:45) Command not found: xhilite
+\i (03:05:45) xname_flush 
+\e (03:05:45) No command active
+\i (03:05:45) done 
+\e (03:05:45) No command active
+\e (03:05:46) Command not found: xdehilite
+\i (03:05:46) xname_flush 
+\e (03:05:46) No command active
+\i (03:05:46) done 
+\e (03:05:46) No command active
+\e (03:05:46) Command not found: xhilite
+\i (03:05:46) xname_flush 
+\e (03:05:46) No command active
+\i (03:05:46) done 
+\e (03:05:46) No command active
+\e (03:05:46) Command not found: xdehilite
+\i (03:05:46) xname_flush 
+\e (03:05:46) No command active
+\i (03:05:46) done 
+\e (03:05:46) No command active
+\e (03:05:47) Command not found: xhilite
+\i (03:05:47) xname_flush 
+\e (03:05:47) No command active
+\i (03:05:47) done 
+\e (03:05:47) No command active
+\e (03:05:47) Command not found: xdehilite
+\i (03:05:47) xname_flush 
+\e (03:05:47) No command active
+\i (03:05:47) done 
+\e (03:05:47) No command active
+\e (03:05:49) Command not found: xhilite
+\i (03:05:49) xname_flush 
+\e (03:05:49) No command active
+\i (03:05:49) done 
+\e (03:05:49) No command active
+\e (03:05:49) Command not found: xdehilite
+\i (03:05:49) xname_flush 
+\e (03:05:49) No command active
+\i (03:05:49) done 
+\e (03:05:49) No command active
+\e (03:05:49) Command not found: xhilite
+\i (03:05:49) xname_flush 
+\e (03:05:49) No command active
+\i (03:05:49) done 
+\e (03:05:49) No command active
+\e (03:05:50) Command not found: xdehilite
+\i (03:05:50) xname_flush 
+\e (03:05:50) No command active
+\i (03:05:50) done 
+\e (03:05:50) No command active
+\e (03:05:51) Command not found: xhilite
+\i (03:05:51) xname_flush 
+\e (03:05:51) No command active
+\i (03:05:51) done 
+\e (03:05:51) No command active
+\e (03:05:51) Command not found: xdehilite
+\i (03:05:51) xname_flush 
+\e (03:05:51) No command active
+\i (03:05:51) done 
+\e (03:05:51) No command active
+\e (03:05:54) Command not found: xdehilite
+\i (03:05:54) xname_flush 
+\e (03:05:54) No command active
+\i (03:05:54) done 
+\e (03:05:54) No command active
+\e (03:05:55) Command not found: xhilite
+\i (03:05:55) xname_flush 
+\e (03:05:55) No command active
+\i (03:05:55) done 
+\e (03:05:55) No command active
+\e (03:05:56) Command not found: xdehilite
+\i (03:05:56) xname_flush 
+\e (03:05:56) No command active
+\i (03:05:56) done 
+\e (03:05:56) No command active
+\e (03:05:59) Command not found: xhilite
+\i (03:05:59) xname_flush 
+\e (03:05:59) No command active
+\i (03:05:59) done 
+\e (03:05:59) No command active
+\e (03:05:59) Command not found: xdehilite
+\i (03:05:59) xname_flush 
+\e (03:05:59) No command active
+\i (03:05:59) done 
+\e (03:05:59) No command active
+\e (03:06:52) Command not found: xhilite
+\i (03:06:52) xname_flush 
+\e (03:06:52) No command active
+\i (03:06:52) done 
+\e (03:06:52) No command active
+\e (03:06:55) Command not found: xdehilite
+\i (03:06:55) xname_flush 
+\e (03:06:55) No command active
+\i (03:06:55) done 
+\e (03:06:55) No command active
+\e (03:07:13) Command not found: xhilite
+\i (03:07:13) xname_flush 
+\e (03:07:13) No command active
+\i (03:07:13) done 
+\e (03:07:13) No command active
+\e (03:07:16) Command not found: xdehilite
+\i (03:07:16) xname_flush 
+\e (03:07:16) No command active
+\i (03:07:16) done 
+\e (03:07:16) No command active
+\i (04:28:31) zoom out 1 
+\i (04:28:31) setwindow pcb
+\i (04:28:31) zoom out -6.1441 -1.4474
+\i (04:28:31) trapsize 3068
+\e (05:33:48) Command not found: xhilite
+\i (05:33:48) xname_flush 
+\e (05:33:48) No command active
+\i (05:33:48) done 
+\e (05:33:48) No command active
+\e (05:33:51) Command not found: xhilite
+\i (05:33:51) xname_flush 
+\e (05:33:51) No command active
+\i (05:33:51) done 
+\e (05:33:51) No command active
+\e (05:33:55) Command not found: xhilite
+\i (05:33:55) xname_flush 
+\e (05:33:55) No command active
+\i (05:33:55) done 
+\e (05:33:55) No command active
+\e (05:33:56) Command not found: xhilite
+\i (05:33:56) xname_flush 
+\e (05:33:56) No command active
+\i (05:33:56) done 
+\e (05:33:56) No command active
+\e (05:33:57) Command not found: xhilite
+\i (05:33:57) xname_flush 
+\e (05:33:57) No command active
+\i (05:33:57) done 
+\e (05:33:57) No command active
+\e (05:33:58) Command not found: xhilite
+\i (05:33:58) xname_flush 
+\e (05:33:58) No command active
+\i (05:33:58) done 
+\e (05:33:58) No command active
+\e (05:34:13) Command not found: xhilite
+\i (05:34:13) xname_flush 
+\e (05:34:13) No command active
+\i (05:34:13) done 
+\e (05:34:13) No command active
+\e (05:34:18) Command not found: xhilite
+\i (05:34:18) xname_flush 
+\e (05:34:18) No command active
+\i (05:34:18) done 
+\e (05:34:18) No command active
+\e (05:34:20) Command not found: xhilite
+\i (05:34:20) xname_flush 
+\e (05:34:20) No command active
+\i (05:34:20) done 
+\e (05:34:20) No command active
+\e (05:34:20) Command not found: xhilite
+\i (05:34:20) xname_flush 
+\e (05:34:20) No command active
+\i (05:34:20) done 
+\e (05:34:20) No command active
+\e (05:34:21) Command not found: xhilite
+\i (05:34:21) xname_flush 
+\e (05:34:21) No command active
+\i (05:34:21) done 
+\e (05:34:21) No command active
+\e (05:34:21) Command not found: xhilite
+\i (05:34:21) xname_flush 
+\e (05:34:21) No command active
+\i (05:34:21) done 
+\e (05:34:21) No command active
+\e (05:34:21) Command not found: xhilite
+\i (05:34:21) xname_flush 
+\e (05:34:21) No command active
+\i (05:34:21) done 
+\e (05:34:21) No command active
+\e (05:34:22) Command not found: xhilite
+\i (05:34:22) xname_flush 
+\e (05:34:22) No command active
+\i (05:34:22) done 
+\e (05:34:22) No command active
+\e (05:34:23) Command not found: xhilite
+\i (05:34:23) xname_flush 
+\e (05:34:23) No command active
+\i (05:34:23) done 
+\e (05:34:23) No command active
+\e (05:34:25) Command not found: xhilite
+\i (05:34:25) xname_flush 
+\e (05:34:25) No command active
+\i (05:34:25) done 
+\e (05:34:25) No command active
+\e (05:34:26) Command not found: xdehilite
+\i (05:34:26) xname_flush 
+\e (05:34:26) No command active
+\i (05:34:26) done 
+\e (05:34:26) No command active
+\e (05:34:27) Command not found: xhilite
+\i (05:34:27) xname_flush 
+\e (05:34:27) No command active
+\i (05:34:27) done 
+\e (05:34:27) No command active
+\e (05:34:27) Command not found: xdehilite
+\i (05:34:27) xname_flush 
+\e (05:34:27) No command active
+\i (05:34:27) done 
+\e (05:34:27) No command active
+\e (05:34:41) Command not found: xhilite
+\i (05:34:41) xname_flush 
+\e (05:34:41) No command active
+\i (05:34:41) done 
+\e (05:34:41) No command active
+\e (05:34:41) Command not found: xdehilite
+\i (05:34:41) xname_flush 
+\e (05:34:41) No command active
+\i (05:34:41) done 
+\e (05:34:41) No command active
+\e (05:34:41) Command not found: xhilite
+\i (05:34:41) xname_flush 
+\e (05:34:41) No command active
+\i (05:34:41) done 
+\e (05:34:41) No command active
+\e (05:34:42) Command not found: xdehilite
+\i (05:34:42) xname_flush 
+\e (05:34:42) No command active
+\i (05:34:42) done 
+\e (05:34:42) No command active
+\e (05:34:44) Command not found: xhilite
+\i (05:34:44) xname_flush 
+\e (05:34:44) No command active
+\i (05:34:44) done 
+\e (05:34:44) No command active
+\e (05:34:45) Command not found: xdehilite
+\i (05:34:45) xname_flush 
+\e (05:34:45) No command active
+\i (05:34:45) done 
+\e (05:34:45) No command active
+\e (05:34:47) Command not found: xhilite
+\i (05:34:47) xname_flush 
+\e (05:34:47) No command active
+\i (05:34:47) done 
+\e (05:34:47) No command active
+\e (05:34:48) Command not found: xdehilite
+\i (05:34:48) xname_flush 
+\e (05:34:48) No command active
+\i (05:34:48) done 
+\e (05:34:48) No command active
+\e (05:34:51) Command not found: xhilite
+\i (05:34:51) xname_flush 
+\e (05:34:51) No command active
+\i (05:34:51) done 
+\e (05:34:51) No command active
+\e (05:34:52) Command not found: xdehilite
+\i (05:34:52) xname_flush 
+\e (05:34:52) No command active
+\i (05:34:52) done 
+\e (05:34:52) No command active
+\e (05:35:01) Command not found: xhilite
+\i (05:35:01) xname_flush 
+\e (05:35:01) No command active
+\i (05:35:01) done 
+\e (05:35:01) No command active
+\e (05:35:01) Command not found: xdehilite
+\i (05:35:01) xname_flush 
+\e (05:35:01) No command active
+\i (05:35:01) done 
+\e (05:35:01) No command active
+\e (05:35:14) Command not found: xhilite
+\i (05:35:14) xname_flush 
+\e (05:35:14) No command active
+\i (05:35:14) done 
+\e (05:35:14) No command active
+\e (05:35:16) Command not found: xdehilite
+\i (05:35:16) xname_flush 
+\e (05:35:16) No command active
+\i (05:35:16) done 
+\e (05:35:16) No command active
+\e (05:35:19) Command not found: xhilite
+\i (05:35:19) xname_flush 
+\e (05:35:19) No command active
+\i (05:35:19) done 
+\e (05:35:19) No command active
+\e (05:35:20) Command not found: xdehilite
+\i (05:35:20) xname_flush 
+\e (05:35:20) No command active
+\i (05:35:20) done 
+\e (05:35:20) No command active
+\e (05:35:20) Command not found: xhilite
+\i (05:35:20) xname_flush 
+\e (05:35:20) No command active
+\i (05:35:20) done 
+\e (05:35:20) No command active
+\e (05:35:21) Command not found: xdehilite
+\i (05:35:21) xname_flush 
+\e (05:35:21) No command active
+\i (05:35:21) done 
+\e (05:35:21) No command active
+\e (05:35:22) Command not found: xhilite
+\i (05:35:22) xname_flush 
+\e (05:35:22) No command active
+\i (05:35:22) done 
+\e (05:35:22) No command active
+\e (05:35:23) Command not found: xdehilite
+\i (05:35:23) xname_flush 
+\e (05:35:23) No command active
+\i (05:35:23) done 
+\e (05:35:23) No command active
+\e (05:35:28) Command not found: xhilite
+\i (05:35:28) xname_flush 
+\e (05:35:28) No command active
+\i (05:35:28) done 
+\e (05:35:28) No command active
+\e (05:35:29) Command not found: xdehilite
+\i (05:35:29) xname_flush 
+\e (05:35:29) No command active
+\i (05:35:29) done 
+\e (05:35:29) No command active
+\e (05:35:38) Command not found: xhilite
+\i (05:35:38) xname_flush 
+\e (05:35:38) No command active
+\i (05:35:38) done 
+\e (05:35:38) No command active
+\e (05:35:38) Command not found: xdehilite
+\i (05:35:38) xname_flush 
+\e (05:35:38) No command active
+\i (05:35:38) done 
+\e (05:35:38) No command active
+\e (05:35:39) Command not found: xhilite
+\i (05:35:39) xname_flush 
+\e (05:35:39) No command active
+\i (05:35:39) done 
+\e (05:35:39) No command active
+\e (05:35:43) Command not found: xdehilite
+\i (05:35:43) xname_flush 
+\e (05:35:43) No command active
+\i (05:35:43) done 
+\e (05:35:43) No command active
+\e (05:35:43) Command not found: xhilite
+\i (05:35:43) xname_flush 
+\e (05:35:43) No command active
+\i (05:35:43) done 
+\e (05:35:43) No command active
+\e (05:35:44) Command not found: xdehilite
+\i (05:35:44) xname_flush 
+\e (05:35:44) No command active
+\i (05:35:44) done 
+\e (05:35:44) No command active
+\e (05:35:45) Command not found: xhilite
+\i (05:35:45) xname_flush 
+\e (05:35:45) No command active
+\i (05:35:45) done 
+\e (05:35:45) No command active
+\e (05:35:46) Command not found: xdehilite
+\i (05:35:46) xname_flush 
+\e (05:35:46) No command active
+\i (05:35:46) done 
+\e (05:35:46) No command active
+\e (05:35:47) Command not found: xhilite
+\i (05:35:47) xname_flush 
+\e (05:35:47) No command active
+\i (05:35:47) done 
+\e (05:35:47) No command active
+\e (05:35:47) Command not found: xdehilite
+\i (05:35:47) xname_flush 
+\e (05:35:47) No command active
+\i (05:35:47) done 
+\e (05:35:47) No command active
+\e (05:35:48) Command not found: xhilite
+\i (05:35:48) xname_flush 
+\e (05:35:48) No command active
+\i (05:35:48) done 
+\e (05:35:48) No command active
+\e (05:35:50) Command not found: xdehilite
+\i (05:35:50) xname_flush 
+\e (05:35:50) No command active
+\i (05:35:50) done 
+\e (05:35:50) No command active
+\e (05:35:55) Command not found: xhilite
+\i (05:35:55) xname_flush 
+\e (05:35:55) No command active
+\i (05:35:55) done 
+\e (05:35:55) No command active
+\e (05:35:56) Command not found: xdehilite
+\i (05:35:56) xname_flush 
+\e (05:35:56) No command active
+\i (05:35:56) done 
+\e (05:35:56) No command active
+\e (05:35:56) Command not found: xhilite
+\i (05:35:56) xname_flush 
+\e (05:35:56) No command active
+\i (05:35:56) done 
+\e (05:35:56) No command active
+\e (05:35:57) Command not found: xdehilite
+\i (05:35:57) xname_flush 
+\e (05:35:57) No command active
+\i (05:35:57) done 
+\e (05:35:57) No command active
+\e (05:35:58) Command not found: xhilite
+\i (05:35:58) xname_flush 
+\e (05:35:58) No command active
+\i (05:35:58) done 
+\e (05:35:58) No command active
+\e (05:35:58) Command not found: xdehilite
+\i (05:35:58) xname_flush 
+\e (05:35:58) No command active
+\i (05:35:58) done 
+\e (05:35:58) No command active
+\e (05:35:59) Command not found: xhilite
+\i (05:35:59) xname_flush 
+\e (05:35:59) No command active
+\i (05:35:59) done 
+\e (05:35:59) No command active
+\e (05:36:00) Command not found: xdehilite
+\i (05:36:00) xname_flush 
+\e (05:36:00) No command active
+\i (05:36:00) done 
+\e (05:36:00) No command active
+\e (05:36:01) Command not found: xhilite
+\i (05:36:01) xname_flush 
+\e (05:36:01) No command active
+\i (05:36:01) done 
+\e (05:36:01) No command active
+\e (05:36:02) Command not found: xdehilite
+\i (05:36:02) xname_flush 
+\e (05:36:02) No command active
+\i (05:36:02) done 
+\e (05:36:02) No command active
+\e (05:36:02) Command not found: xhilite
+\i (05:36:02) xname_flush 
+\e (05:36:02) No command active
+\i (05:36:02) done 
+\e (05:36:02) No command active
+\e (05:36:02) Command not found: xdehilite
+\i (05:36:02) xname_flush 
+\e (05:36:02) No command active
+\i (05:36:02) done 
+\e (05:36:02) No command active
+\e (05:36:12) Command not found: xhilite
+\i (05:36:12) xname_flush 
+\e (05:36:12) No command active
+\i (05:36:12) done 
+\e (05:36:12) No command active
+\e (05:36:12) Command not found: xdehilite
+\i (05:36:12) xname_flush 
+\e (05:36:12) No command active
+\i (05:36:12) done 
+\e (05:36:12) No command active
+\e (05:36:19) Command not found: xhilite
+\i (05:36:19) xname_flush 
+\e (05:36:19) No command active
+\i (05:36:19) done 
+\e (05:36:19) No command active
+\e (05:36:20) Command not found: xhilite
+\i (05:36:20) xname_flush 
+\e (05:36:20) No command active
+\i (05:36:20) done 
+\e (05:36:20) No command active
+\e (05:36:21) Command not found: xhilite
+\i (05:36:21) xname_flush 
+\e (05:36:21) No command active
+\i (05:36:21) done 
+\e (05:36:21) No command active
+\e (05:36:22) Command not found: xdehilite
+\i (05:36:22) xname_flush 
+\e (05:36:22) No command active
+\i (05:36:22) done 
+\e (05:36:22) No command active
+\e (05:36:22) Command not found: xhilite
+\i (05:36:22) xname_flush 
+\e (05:36:22) No command active
+\i (05:36:22) done 
+\e (05:36:22) No command active
+\e (05:36:27) Command not found: xdehilite
+\i (05:36:27) xname_flush 
+\e (05:36:27) No command active
+\i (05:36:27) done 
+\e (05:36:27) No command active
+\e (05:36:35) Command not found: xhilite
+\i (05:36:35) xname_flush 
+\e (05:36:35) No command active
+\i (05:36:35) done 
+\e (05:36:35) No command active
+\e (05:36:37) Command not found: xdehilite
+\i (05:36:37) xname_flush 
+\e (05:36:37) No command active
+\i (05:36:37) done 
+\e (05:36:37) No command active
+\e (05:36:39) Command not found: xhilite
+\i (05:36:39) xname_flush 
+\e (05:36:39) No command active
+\i (05:36:39) done 
+\e (05:36:39) No command active
+\e (05:36:39) Command not found: xdehilite
+\i (05:36:39) xname_flush 
+\e (05:36:39) No command active
+\i (05:36:39) done 
+\e (05:36:39) No command active
+\e (05:36:40) Command not found: xhilite
+\i (05:36:40) xname_flush 
+\e (05:36:40) No command active
+\i (05:36:40) done 
+\e (05:36:40) No command active
+\e (05:36:40) Command not found: xdehilite
+\i (05:36:40) xname_flush 
+\e (05:36:40) No command active
+\i (05:36:40) done 
+\e (05:36:40) No command active
+\e (05:36:43) Command not found: xhilite
+\i (05:36:43) xname_flush 
+\e (05:36:43) No command active
+\i (05:36:43) done 
+\e (05:36:43) No command active
+\e (05:36:45) Command not found: xdehilite
+\i (05:36:45) xname_flush 
+\e (05:36:45) No command active
+\i (05:36:45) done 
+\e (05:36:45) No command active
+\e (05:36:46) Command not found: xhilite
+\i (05:36:46) xname_flush 
+\e (05:36:46) No command active
+\i (05:36:46) done 
+\e (05:36:46) No command active
+\e (05:36:47) Command not found: xdehilite
+\i (05:36:47) xname_flush 
+\e (05:36:47) No command active
+\i (05:36:47) done 
+\e (05:36:47) No command active
+\e (05:36:47) Command not found: xhilite
+\i (05:36:47) xname_flush 
+\e (05:36:47) No command active
+\i (05:36:47) done 
+\e (05:36:47) No command active
+\e (05:36:47) Command not found: xdehilite
+\i (05:36:47) xname_flush 
+\e (05:36:47) No command active
+\i (05:36:47) done 
+\e (05:36:47) No command active
+\e (05:36:49) Command not found: xhilite
+\i (05:36:49) xname_flush 
+\e (05:36:49) No command active
+\i (05:36:49) done 
+\e (05:36:49) No command active
+\e (05:36:49) Command not found: xdehilite
+\i (05:36:49) xname_flush 
+\e (05:36:49) No command active
+\i (05:36:49) done 
+\e (05:36:49) No command active
+\e (05:36:50) Command not found: xhilite
+\i (05:36:50) xname_flush 
+\e (05:36:50) No command active
+\i (05:36:50) done 
+\e (05:36:50) No command active
+\e (05:36:50) Command not found: xdehilite
+\i (05:36:50) xname_flush 
+\e (05:36:50) No command active
+\i (05:36:50) done 
+\e (05:36:50) No command active
+\e (05:37:00) Command not found: xhilite
+\i (05:37:00) xname_flush 
+\e (05:37:00) No command active
+\i (05:37:00) done 
+\e (05:37:00) No command active
+\e (05:37:02) Command not found: xhilite
+\i (05:37:02) xname_flush 
+\e (05:37:02) No command active
+\i (05:37:02) done 
+\e (05:37:02) No command active
+\e (05:37:02) Command not found: xhilite
+\i (05:37:02) xname_flush 
+\e (05:37:02) No command active
+\i (05:37:02) done 
+\e (05:37:02) No command active
+\e (05:37:03) Command not found: xhilite
+\i (05:37:03) xname_flush 
+\e (05:37:03) No command active
+\i (05:37:03) done 
+\e (05:37:03) No command active
+\e (05:37:04) Command not found: xhilite
+\i (05:37:04) xname_flush 
+\e (05:37:04) No command active
+\i (05:37:04) done 
+\e (05:37:04) No command active
+\e (05:37:05) Command not found: xdehilite
+\i (05:37:05) xname_flush 
+\e (05:37:05) No command active
+\i (05:37:05) done 
+\e (05:37:05) No command active
+\e (05:37:06) Command not found: xhilite
+\i (05:37:06) xname_flush 
+\e (05:37:06) No command active
+\i (05:37:06) done 
+\e (05:37:06) No command active
+\e (05:37:08) Command not found: xdehilite
+\i (05:37:08) xname_flush 
+\e (05:37:08) No command active
+\i (05:37:08) done 
+\e (05:37:08) No command active
+\e (05:37:09) Command not found: xhilite
+\i (05:37:09) xname_flush 
+\e (05:37:09) No command active
+\i (05:37:09) done 
+\e (05:37:09) No command active
+\e (05:37:10) Command not found: xdehilite
+\i (05:37:10) xname_flush 
+\e (05:37:10) No command active
+\i (05:37:10) done 
+\e (05:37:10) No command active
+\e (05:37:12) Command not found: xhilite
+\i (05:37:12) xname_flush 
+\e (05:37:12) No command active
+\i (05:37:12) done 
+\e (05:37:12) No command active
+\e (05:37:12) Command not found: xhilite
+\i (05:37:12) xname_flush 
+\e (05:37:12) No command active
+\i (05:37:12) done 
+\e (05:37:12) No command active
+\e (05:37:16) Command not found: xhilite
+\i (05:37:16) xname_flush 
+\e (05:37:16) No command active
+\i (05:37:16) done 
+\e (05:37:16) No command active
+\e (05:37:17) Command not found: xdehilite
+\i (05:37:17) xname_flush 
+\e (05:37:17) No command active
+\i (05:37:17) done 
+\e (05:37:17) No command active
+\e (05:37:17) Command not found: xhilite
+\i (05:37:17) xname_flush 
+\e (05:37:17) No command active
+\i (05:37:17) done 
+\e (05:37:17) No command active
+\e (05:37:19) Command not found: xdehilite
+\i (05:37:19) xname_flush 
+\e (05:37:19) No command active
+\i (05:37:19) done 
+\e (05:37:19) No command active
+\e (05:37:20) Command not found: xhilite
+\i (05:37:20) xname_flush 
+\e (05:37:20) No command active
+\i (05:37:20) done 
+\e (05:37:20) No command active
+\e (05:37:22) Command not found: xdehilite
+\i (05:37:22) xname_flush 
+\e (05:37:22) No command active
+\i (05:37:22) done 
+\e (05:37:22) No command active
+\e (05:37:24) Command not found: xhilite
+\i (05:37:24) xname_flush 
+\e (05:37:24) No command active
+\i (05:37:24) done 
+\e (05:37:24) No command active
+\e (05:37:26) Command not found: xdehilite
+\i (05:37:26) xname_flush 
+\e (05:37:26) No command active
+\i (05:37:26) done 
+\e (05:37:26) No command active
+\e (05:37:27) Command not found: xhilite
+\i (05:37:27) xname_flush 
+\e (05:37:27) No command active
+\i (05:37:27) done 
+\e (05:37:27) No command active
+\e (05:37:27) Command not found: xdehilite
+\i (05:37:27) xname_flush 
+\e (05:37:27) No command active
+\i (05:37:27) done 
+\e (05:37:27) No command active
+\e (05:37:32) Command not found: xhilite
+\i (05:37:32) xname_flush 
+\e (05:37:32) No command active
+\i (05:37:32) done 
+\e (05:37:32) No command active
+\e (05:37:32) Command not found: xdehilite
+\i (05:37:32) xname_flush 
+\e (05:37:32) No command active
+\i (05:37:32) done 
+\e (05:37:32) No command active
+\e (05:37:37) Command not found: xhilite
+\i (05:37:37) xname_flush 
+\e (05:37:37) No command active
+\i (05:37:37) done 
+\e (05:37:37) No command active
+\e (05:37:37) Command not found: xdehilite
+\i (05:37:37) xname_flush 
+\e (05:37:37) No command active
+\i (05:37:37) done 
+\e (05:37:37) No command active
+\e (05:37:39) Command not found: xhilite
+\i (05:37:39) xname_flush 
+\e (05:37:39) No command active
+\i (05:37:39) done 
+\e (05:37:39) No command active
+\e (05:37:41) Command not found: xdehilite
+\i (05:37:41) xname_flush 
+\e (05:37:41) No command active
+\i (05:37:41) done 
+\e (05:37:41) No command active
+\e (05:37:48) Command not found: xhilite
+\i (05:37:48) xname_flush 
+\e (05:37:48) No command active
+\i (05:37:48) done 
+\e (05:37:48) No command active
+\e (05:37:49) Command not found: xdehilite
+\i (05:37:49) xname_flush 
+\e (05:37:49) No command active
+\i (05:37:49) done 
+\e (05:37:49) No command active
+\e (05:37:51) Command not found: xhilite
+\i (05:37:51) xname_flush 
+\e (05:37:51) No command active
+\i (05:37:51) done 
+\e (05:37:51) No command active
+\e (05:37:52) Command not found: xdehilite
+\i (05:37:52) xname_flush 
+\e (05:37:52) No command active
+\i (05:37:52) done 
+\e (05:37:52) No command active
+\e (05:37:53) Command not found: xhilite
+\i (05:37:53) xname_flush 
+\e (05:37:53) No command active
+\i (05:37:53) done 
+\e (05:37:53) No command active
+\e (05:37:53) Command not found: xhilite
+\i (05:37:53) xname_flush 
+\e (05:37:53) No command active
+\i (05:37:53) done 
+\e (05:37:53) No command active
+\e (05:37:54) Command not found: xhilite
+\i (05:37:54) xname_flush 
+\e (05:37:54) No command active
+\i (05:37:54) done 
+\e (05:37:54) No command active
+\e (05:37:56) Command not found: xhilite
+\i (05:37:56) xname_flush 
+\e (05:37:56) No command active
+\i (05:37:56) done 
+\e (05:37:56) No command active
+\e (05:38:00) Command not found: xdehilite
+\i (05:38:00) xname_flush 
+\e (05:38:00) No command active
+\i (05:38:00) done 
+\e (05:38:00) No command active
+\e (05:38:02) Command not found: xhilite
+\i (05:38:02) xname_flush 
+\e (05:38:02) No command active
+\i (05:38:02) done 
+\e (05:38:02) No command active
+\e (05:38:04) Command not found: xdehilite
+\i (05:38:04) xname_flush 
+\e (05:38:04) No command active
+\i (05:38:04) done 
+\e (05:38:04) No command active
+\e (05:38:06) Command not found: xdehilite
+\i (05:38:06) xname_flush 
+\e (05:38:06) No command active
+\i (05:38:06) done 
+\e (05:38:06) No command active
+\e (05:38:10) Command not found: xhilite
+\i (05:38:10) xname_flush 
+\e (05:38:10) No command active
+\i (05:38:10) done 
+\e (05:38:10) No command active
+\e (05:38:10) Command not found: xdehilite
+\i (05:38:10) xname_flush 
+\e (05:38:10) No command active
+\i (05:38:10) done 
+\e (05:38:10) No command active
+\e (05:38:34) Command not found: xhilite
+\i (05:38:34) xname_flush 
+\e (05:38:34) No command active
+\i (05:38:34) done 
+\e (05:38:34) No command active
+\e (05:38:36) Command not found: xhilite
+\i (05:38:36) xname_flush 
+\e (05:38:36) No command active
+\i (05:38:36) done 
+\e (05:38:36) No command active
+\e (05:38:37) Command not found: xhilite
+\i (05:38:37) xname_flush 
+\e (05:38:37) No command active
+\i (05:38:37) done 
+\e (05:38:37) No command active
+\e (05:38:37) Command not found: xhilite
+\i (05:38:37) xname_flush 
+\e (05:38:37) No command active
+\i (05:38:37) done 
+\e (05:38:37) No command active
+\e (05:38:38) Command not found: xhilite
+\i (05:38:38) xname_flush 
+\e (05:38:38) No command active
+\i (05:38:38) done 
+\e (05:38:38) No command active
+\e (05:38:38) Command not found: xhilite
+\i (05:38:38) xname_flush 
+\e (05:38:38) No command active
+\i (05:38:38) done 
+\e (05:38:38) No command active
+\e (05:38:40) Command not found: xhilite
+\i (05:38:40) xname_flush 
+\e (05:38:40) No command active
+\i (05:38:40) done 
+\e (05:38:40) No command active
+\e (05:38:43) Command not found: xhilite
+\i (05:38:43) xname_flush 
+\e (05:38:43) No command active
+\i (05:38:43) done 
+\e (05:38:43) No command active
+\e (05:38:44) Command not found: xdehilite
+\i (05:38:44) xname_flush 
+\e (05:38:44) No command active
+\i (05:38:44) done 
+\e (05:38:44) No command active
+\e (05:38:44) Command not found: xhilite
+\i (05:38:44) xname_flush 
+\e (05:38:44) No command active
+\i (05:38:44) done 
+\e (05:38:44) No command active
+\e (05:38:45) Command not found: xdehilite
+\i (05:38:45) xname_flush 
+\e (05:38:45) No command active
+\i (05:38:45) done 
+\e (05:38:45) No command active
+\e (05:38:46) Command not found: xhilite
+\i (05:38:46) xname_flush 
+\e (05:38:46) No command active
+\i (05:38:46) done 
+\e (05:38:46) No command active
+\e (05:38:46) Command not found: xdehilite
+\i (05:38:46) xname_flush 
+\e (05:38:46) No command active
+\i (05:38:46) done 
+\e (05:38:46) No command active
+\e (05:38:57) Command not found: xhilite
+\i (05:38:57) xname_flush 
+\e (05:38:57) No command active
+\i (05:38:57) done 
+\e (05:38:57) No command active
+\e (05:38:59) Command not found: xhilite
+\i (05:38:59) xname_flush 
+\e (05:38:59) No command active
+\i (05:38:59) done 
+\e (05:38:59) No command active
+\e (05:39:00) Command not found: xdehilite
+\i (05:39:00) xname_flush 
+\e (05:39:00) No command active
+\i (05:39:00) done 
+\e (05:39:00) No command active
+\e (05:39:01) Command not found: xhilite
+\i (05:39:01) xname_flush 
+\e (05:39:01) No command active
+\i (05:39:01) done 
+\e (05:39:01) No command active
+\e (05:39:03) Command not found: xhilite
+\i (05:39:03) xname_flush 
+\e (05:39:03) No command active
+\i (05:39:03) done 
+\e (05:39:03) No command active
+\e (05:39:10) Command not found: xhilite
+\i (05:39:10) xname_flush 
+\e (05:39:10) No command active
+\i (05:39:10) done 
+\e (05:39:10) No command active
+\e (05:39:10) Command not found: xdehilite
+\i (05:39:10) xname_flush 
+\e (05:39:10) No command active
+\i (05:39:10) done 
+\e (05:39:10) No command active
+\e (05:39:11) Command not found: xhilite
+\i (05:39:11) xname_flush 
+\e (05:39:11) No command active
+\i (05:39:11) done 
+\e (05:39:11) No command active
+\e (05:39:13) Command not found: xdehilite
+\i (05:39:13) xname_flush 
+\e (05:39:13) No command active
+\i (05:39:13) done 
+\e (05:39:13) No command active
+\e (05:39:15) Command not found: xhilite
+\i (05:39:15) xname_flush 
+\e (05:39:15) No command active
+\i (05:39:15) done 
+\e (05:39:15) No command active
+\e (05:39:17) Command not found: xhilite
+\i (05:39:17) xname_flush 
+\e (05:39:17) No command active
+\i (05:39:17) done 
+\e (05:39:17) No command active
+\e (05:39:19) Command not found: xdehilite
+\i (05:39:19) xname_flush 
+\e (05:39:19) No command active
+\i (05:39:19) done 
+\e (05:39:19) No command active
+\e (05:39:20) Command not found: xhilite
+\i (05:39:20) xname_flush 
+\e (05:39:20) No command active
+\i (05:39:20) done 
+\e (05:39:20) No command active
+\e (05:39:21) Command not found: xdehilite
+\i (05:39:21) xname_flush 
+\e (05:39:21) No command active
+\i (05:39:21) done 
+\e (05:39:21) No command active
+\e (05:39:23) Command not found: xhilite
+\i (05:39:23) xname_flush 
+\e (05:39:23) No command active
+\i (05:39:23) done 
+\e (05:39:23) No command active
+\e (05:39:24) Command not found: xdehilite
+\i (05:39:24) xname_flush 
+\e (05:39:24) No command active
+\i (05:39:24) done 
+\e (05:39:24) No command active
+\e (05:39:25) Command not found: xdehilite
+\i (05:39:25) xname_flush 
+\e (05:39:25) No command active
+\i (05:39:25) done 
+\e (05:39:25) No command active
+\e (05:39:29) Command not found: xdehilite
+\i (05:39:29) xname_flush 
+\e (05:39:29) No command active
+\i (05:39:29) done 
+\e (05:39:29) No command active
+\e (05:39:30) Command not found: xdehilite
+\i (05:39:30) xname_flush 
+\e (05:39:30) No command active
+\i (05:39:30) done 
+\e (05:39:30) No command active
+\e (05:39:32) Command not found: xdehilite
+\i (05:39:32) xname_flush 
+\e (05:39:32) No command active
+\i (05:39:32) done 
+\e (05:39:32) No command active
+\e (05:39:37) Command not found: xhilite
+\i (05:39:37) xname_flush 
+\e (05:39:37) No command active
+\i (05:39:37) done 
+\e (05:39:37) No command active
+\e (05:39:43) Command not found: xdehilite
+\i (05:39:43) xname_flush 
+\e (05:39:43) No command active
+\i (05:39:43) done 
+\e (05:39:43) No command active
+\e (05:39:45) Command not found: xhilite
+\i (05:39:45) xname_flush 
+\e (05:39:45) No command active
+\i (05:39:45) done 
+\e (05:39:45) No command active
+\e (05:39:46) Command not found: xdehilite
+\i (05:39:46) xname_flush 
+\e (05:39:46) No command active
+\i (05:39:46) done 
+\e (05:39:46) No command active
+\e (05:39:47) Command not found: xdehilite
+\i (05:39:47) xname_flush 
+\e (05:39:47) No command active
+\i (05:39:47) done 
+\e (05:39:47) No command active
+\e (05:39:49) Command not found: xdehilite
+\i (05:39:49) xname_flush 
+\e (05:39:49) No command active
+\i (05:39:49) done 
+\e (05:39:49) No command active
+\e (05:39:51) Command not found: xhilite
+\i (05:39:51) xname_flush 
+\e (05:39:51) No command active
+\i (05:39:51) done 
+\e (05:39:51) No command active
+\e (05:39:51) Command not found: xdehilite
+\i (05:39:51) xname_flush 
+\e (05:39:51) No command active
+\i (05:39:51) done 
+\e (05:39:51) No command active
+\e (05:39:52) Command not found: xhilite
+\i (05:39:52) xname_flush 
+\e (05:39:52) No command active
+\i (05:39:52) done 
+\e (05:39:52) No command active
+\e (05:39:53) Command not found: xdehilite
+\i (05:39:53) xname_flush 
+\e (05:39:53) No command active
+\i (05:39:53) done 
+\e (05:39:53) No command active
+\e (05:39:55) Command not found: xdehilite
+\i (05:39:55) xname_flush 
+\e (05:39:55) No command active
+\i (05:39:55) done 
+\e (05:39:55) No command active
+\e (05:40:08) Command not found: xhilite
+\i (05:40:08) xname_flush 
+\e (05:40:08) No command active
+\i (05:40:08) done 
+\e (05:40:08) No command active
+\e (05:40:10) Command not found: xhilite
+\i (05:40:10) xname_flush 
+\e (05:40:10) No command active
+\i (05:40:10) done 
+\e (05:40:10) No command active
+\e (05:40:15) Command not found: xdehilite
+\i (05:40:15) xname_flush 
+\e (05:40:15) No command active
+\i (05:40:15) done 
+\e (05:40:15) No command active
+\e (05:40:17) Command not found: xhilite
+\i (05:40:17) xname_flush 
+\e (05:40:17) No command active
+\i (05:40:17) done 
+\e (05:40:17) No command active
+\e (05:40:17) Command not found: xdehilite
+\i (05:40:17) xname_flush 
+\e (05:40:17) No command active
+\i (05:40:17) done 
+\e (05:40:17) No command active
+\e (05:40:17) Command not found: xhilite
+\i (05:40:17) xname_flush 
+\e (05:40:17) No command active
+\i (05:40:17) done 
+\e (05:40:17) No command active
+\e (05:40:18) Command not found: xdehilite
+\i (05:40:18) xname_flush 
+\e (05:40:18) No command active
+\i (05:40:18) done 
+\e (05:40:18) No command active
+\e (05:40:19) Command not found: xhilite
+\i (05:40:19) xname_flush 
+\e (05:40:19) No command active
+\i (05:40:19) done 
+\e (05:40:19) No command active
+\e (05:40:19) Command not found: xdehilite
+\i (05:40:19) xname_flush 
+\e (05:40:19) No command active
+\i (05:40:19) done 
+\e (05:40:19) No command active
+\e (05:40:21) Command not found: xhilite
+\i (05:40:21) xname_flush 
+\e (05:40:21) No command active
+\i (05:40:21) done 
+\e (05:40:21) No command active
+\e (05:40:21) Command not found: xdehilite
+\i (05:40:21) xname_flush 
+\e (05:40:21) No command active
+\i (05:40:21) done 
+\e (05:40:21) No command active
+\e (05:41:08) Command not found: xhilite
+\i (05:41:08) xname_flush 
+\e (05:41:08) No command active
+\i (05:41:08) done 
+\e (05:41:08) No command active
+\e (05:41:10) Command not found: xdehilite
+\i (05:41:10) xname_flush 
+\e (05:41:10) No command active
+\i (05:41:10) done 
+\e (05:41:10) No command active
+\e (05:41:13) Command not found: xdehilite
+\i (05:41:13) xname_flush 
+\e (05:41:13) No command active
+\i (05:41:13) done 
+\e (05:41:13) No command active
+\e (05:41:22) Command not found: xdehilite
+\i (05:41:22) xname_flush 
+\e (05:41:22) No command active
+\i (05:41:22) done 
+\e (05:41:22) No command active
+\e (05:41:24) Command not found: xhilite
+\i (05:41:24) xname_flush 
+\e (05:41:24) No command active
+\i (05:41:24) done 
+\e (05:41:24) No command active
+\e (05:41:28) Command not found: xdehilite
+\i (05:41:28) xname_flush 
+\e (05:41:28) No command active
+\i (05:41:28) done 
+\e (05:41:28) No command active
+\e (05:41:30) Command not found: xdehilite
+\i (05:41:30) xname_flush 
+\e (05:41:30) No command active
+\i (05:41:30) done 
+\e (05:41:30) No command active
+\e (05:41:32) Command not found: xdehilite
+\i (05:41:32) xname_flush 
+\e (05:41:32) No command active
+\i (05:41:32) done 
+\e (05:41:32) No command active
+\e (05:41:33) Command not found: xhilite
+\i (05:41:33) xname_flush 
+\e (05:41:33) No command active
+\i (05:41:33) done 
+\e (05:41:33) No command active
+\e (05:41:35) Command not found: xdehilite
+\i (05:41:35) xname_flush 
+\e (05:41:35) No command active
+\i (05:41:35) done 
+\e (05:41:35) No command active
+\e (05:41:36) Command not found: xdehilite
+\i (05:41:36) xname_flush 
+\e (05:41:36) No command active
+\i (05:41:36) done 
+\e (05:41:36) No command active
+\e (05:41:39) Command not found: xhilite
+\i (05:41:39) xname_flush 
+\e (05:41:39) No command active
+\i (05:41:39) done 
+\e (05:41:39) No command active
+\e (05:41:40) Command not found: xdehilite
+\i (05:41:40) xname_flush 
+\e (05:41:40) No command active
+\i (05:41:40) done 
+\e (05:41:40) No command active
+\e (05:41:43) Command not found: xdehilite
+\i (05:41:43) xname_flush 
+\e (05:41:43) No command active
+\i (05:41:43) done 
+\e (05:41:43) No command active
+\e (05:41:48) Command not found: xdehilite
+\i (05:41:48) xname_flush 
+\e (05:41:48) No command active
+\i (05:41:48) done 
+\e (05:41:48) No command active
+\e (05:41:49) Command not found: xhilite
+\i (05:41:49) xname_flush 
+\e (05:41:49) No command active
+\i (05:41:49) done 
+\e (05:41:49) No command active
+\e (05:41:49) Command not found: xdehilite
+\i (05:41:49) xname_flush 
+\e (05:41:49) No command active
+\i (05:41:49) done 
+\e (05:41:49) No command active
+\e (05:42:13) Command not found: xhilite
+\i (05:42:13) xname_flush 
+\e (05:42:13) No command active
+\i (05:42:13) done 
+\e (05:42:13) No command active
+\e (05:42:13) Command not found: xdehilite
+\i (05:42:13) xname_flush 
+\e (05:42:13) No command active
+\i (05:42:13) done 
+\e (05:42:13) No command active
+\e (05:44:36) Command not found: xhilite
+\i (05:44:36) xname_flush 
+\e (05:44:36) No command active
+\i (05:44:36) done 
+\e (05:44:36) No command active
+\e (05:44:41) Command not found: xhilite
+\i (05:44:41) xname_flush 
+\e (05:44:41) No command active
+\i (05:44:41) done 
+\e (05:44:41) No command active
+\e (05:44:42) Command not found: xhilite
+\i (05:44:42) xname_flush 
+\e (05:44:42) No command active
+\i (05:44:42) done 
+\e (05:44:42) No command active
+\e (05:44:43) Command not found: xhilite
+\i (05:44:43) xname_flush 
+\e (05:44:43) No command active
+\i (05:44:43) done 
+\e (05:44:43) No command active
+\e (05:44:44) Command not found: xhilite
+\i (05:44:44) xname_flush 
+\e (05:44:44) No command active
+\i (05:44:44) done 
+\e (05:44:44) No command active
+\e (05:44:45) Command not found: xdehilite
+\i (05:44:45) xname_flush 
+\e (05:44:45) No command active
+\i (05:44:45) done 
+\e (05:44:45) No command active
+\e (05:44:47) Command not found: xhilite
+\i (05:44:47) xname_flush 
+\e (05:44:47) No command active
+\i (05:44:47) done 
+\e (05:44:47) No command active
+\e (05:44:47) Command not found: xdehilite
+\i (05:44:47) xname_flush 
+\e (05:44:47) No command active
+\i (05:44:47) done 
+\e (05:44:47) No command active
+\e (05:44:58) Command not found: xhilite
+\i (05:44:58) xname_flush 
+\e (05:44:58) No command active
+\i (05:44:58) done 
+\e (05:44:58) No command active
+\e (05:45:00) Command not found: xhilite
+\i (05:45:00) xname_flush 
+\e (05:45:00) No command active
+\i (05:45:00) done 
+\e (05:45:00) No command active
+\e (05:45:01) Command not found: xhilite
+\i (05:45:01) xname_flush 
+\e (05:45:01) No command active
+\i (05:45:01) done 
+\e (05:45:01) No command active
+\e (05:45:03) Command not found: xhilite
+\i (05:45:03) xname_flush 
+\e (05:45:03) No command active
+\i (05:45:03) done 
+\e (05:45:03) No command active
+\e (05:45:04) Command not found: xhilite
+\i (05:45:04) xname_flush 
+\e (05:45:04) No command active
+\i (05:45:04) done 
+\e (05:45:04) No command active
+\e (05:45:06) Command not found: xhilite
+\i (05:45:06) xname_flush 
+\e (05:45:06) No command active
+\i (05:45:06) done 
+\e (05:45:06) No command active
+\e (05:45:10) Command not found: xhilite
+\i (05:45:10) xname_flush 
+\e (05:45:10) No command active
+\i (05:45:10) done 
+\e (05:45:10) No command active
+\e (05:45:11) Command not found: xdehilite
+\i (05:45:11) xname_flush 
+\e (05:45:11) No command active
+\i (05:45:11) done 
+\e (05:45:11) No command active
+\e (05:45:13) Command not found: xhilite
+\i (05:45:13) xname_flush 
+\e (05:45:13) No command active
+\i (05:45:13) done 
+\e (05:45:13) No command active
+\e (05:45:13) Command not found: xdehilite
+\i (05:45:13) xname_flush 
+\e (05:45:13) No command active
+\i (05:45:13) done 
+\e (05:45:13) No command active
+\e (05:45:14) Command not found: xhilite
+\i (05:45:14) xname_flush 
+\e (05:45:14) No command active
+\i (05:45:14) done 
+\e (05:45:14) No command active
+\e (05:45:15) Command not found: xdehilite
+\i (05:45:15) xname_flush 
+\e (05:45:15) No command active
+\i (05:45:15) done 
+\e (05:45:15) No command active
+\e (05:45:16) Command not found: xhilite
+\i (05:45:16) xname_flush 
+\e (05:45:16) No command active
+\i (05:45:16) done 
+\e (05:45:16) No command active
+\e (05:45:16) Command not found: xdehilite
+\i (05:45:16) xname_flush 
+\e (05:45:16) No command active
+\i (05:45:16) done 
+\e (05:45:16) No command active
+\e (05:45:24) Command not found: xhilite
+\i (05:45:24) xname_flush 
+\e (05:45:24) No command active
+\i (05:45:24) done 
+\e (05:45:24) No command active
+\e (05:45:25) Command not found: xdehilite
+\i (05:45:25) xname_flush 
+\e (05:45:25) No command active
+\i (05:45:25) done 
+\e (05:45:25) No command active
+\e (05:45:26) Command not found: xdehilite
+\i (05:45:26) xname_flush 
+\e (05:45:26) No command active
+\i (05:45:26) done 
+\e (05:45:26) No command active
+\e (05:45:27) Command not found: xhilite
+\i (05:45:27) xname_flush 
+\e (05:45:27) No command active
+\i (05:45:27) done 
+\e (05:45:27) No command active
+\e (05:45:27) Command not found: xdehilite
+\i (05:45:27) xname_flush 
+\e (05:45:27) No command active
+\i (05:45:27) done 
+\e (05:45:27) No command active
+\e (05:45:27) Command not found: xhilite
+\i (05:45:27) xname_flush 
+\e (05:45:27) No command active
+\i (05:45:27) done 
+\e (05:45:27) No command active
+\e (05:45:28) Command not found: xdehilite
+\i (05:45:28) xname_flush 
+\e (05:45:28) No command active
+\i (05:45:28) done 
+\e (05:45:28) No command active
+\e (05:45:40) Command not found: xhilite
+\i (05:45:40) xname_flush 
+\e (05:45:40) No command active
+\i (05:45:40) done 
+\e (05:45:40) No command active
+\e (05:45:40) Command not found: xdehilite
+\i (05:45:40) xname_flush 
+\e (05:45:40) No command active
+\i (05:45:40) done 
+\e (05:45:40) No command active
+\e (05:45:43) Command not found: xhilite
+\i (05:45:43) xname_flush 
+\e (05:45:43) No command active
+\i (05:45:43) done 
+\e (05:45:43) No command active
+\e (05:45:43) Command not found: xdehilite
+\i (05:45:43) xname_flush 
+\e (05:45:43) No command active
+\i (05:45:43) done 
+\e (05:45:43) No command active
+\e (05:45:44) Command not found: xhilite
+\i (05:45:44) xname_flush 
+\e (05:45:44) No command active
+\i (05:45:44) done 
+\e (05:45:44) No command active
+\e (05:45:47) Command not found: xdehilite
+\i (05:45:47) xname_flush 
+\e (05:45:47) No command active
+\i (05:45:47) done 
+\e (05:45:47) No command active
+\e (05:46:09) Command not found: xhilite
+\i (05:46:09) xname_flush 
+\e (05:46:09) No command active
+\i (05:46:09) done 
+\e (05:46:09) No command active
+\e (05:46:10) Command not found: xdehilite
+\i (05:46:10) xname_flush 
+\e (05:46:10) No command active
+\i (05:46:10) done 
+\e (05:46:10) No command active
+\e (05:46:18) Command not found: xhilite
+\i (05:46:18) xname_flush 
+\e (05:46:18) No command active
+\i (05:46:18) done 
+\e (05:46:18) No command active
+\e (05:46:19) Command not found: xdehilite
+\i (05:46:19) xname_flush 
+\e (05:46:19) No command active
+\i (05:46:19) done 
+\e (05:46:19) No command active
+\e (05:46:21) Command not found: xdehilite
+\i (05:46:21) xname_flush 
+\e (05:46:21) No command active
+\i (05:46:21) done 
+\e (05:46:21) No command active
+\e (05:46:23) Command not found: xhilite
+\i (05:46:23) xname_flush 
+\e (05:46:23) No command active
+\i (05:46:23) done 
+\e (05:46:23) No command active
+\e (05:46:23) Command not found: xdehilite
+\i (05:46:23) xname_flush 
+\e (05:46:23) No command active
+\i (05:46:23) done 
+\e (05:46:23) No command active
+\e (05:46:34) Command not found: xhilite
+\i (05:46:34) xname_flush 
+\e (05:46:34) No command active
+\i (05:46:34) done 
+\e (05:46:34) No command active
+\e (05:46:34) Command not found: xdehilite
+\i (05:46:34) xname_flush 
+\e (05:46:34) No command active
+\i (05:46:34) done 
+\e (05:46:34) No command active
+\e (05:46:46) Command not found: xhilite
+\i (05:46:46) xname_flush 
+\e (05:46:46) No command active
+\i (05:46:46) done 
+\e (05:46:46) No command active
+\e (05:46:48) Command not found: xdehilite
+\i (05:46:48) xname_flush 
+\e (05:46:48) No command active
+\i (05:46:48) done 
+\e (05:46:48) No command active
+\e (05:46:49) Command not found: xdehilite
+\i (05:46:49) xname_flush 
+\e (05:46:49) No command active
+\i (05:46:49) done 
+\e (05:46:49) No command active
+\e (05:46:50) Command not found: xdehilite
+\i (05:46:50) xname_flush 
+\e (05:46:50) No command active
+\i (05:46:50) done 
+\e (05:46:50) No command active
+\e (05:46:51) Command not found: xdehilite
+\i (05:46:51) xname_flush 
+\e (05:46:51) No command active
+\i (05:46:51) done 
+\e (05:46:51) No command active
+\e (05:46:53) Command not found: xhilite
+\i (05:46:53) xname_flush 
+\e (05:46:53) No command active
+\i (05:46:53) done 
+\e (05:46:53) No command active
+\e (05:46:53) Command not found: xdehilite
+\i (05:46:53) xname_flush 
+\e (05:46:53) No command active
+\i (05:46:53) done 
+\e (05:46:53) No command active
+\e (05:46:55) Command not found: xhilite
+\i (05:46:55) xname_flush 
+\e (05:46:55) No command active
+\i (05:46:55) done 
+\e (05:46:55) No command active
+\e (05:46:55) Command not found: xdehilite
+\i (05:46:55) xname_flush 
+\e (05:46:55) No command active
+\i (05:46:55) done 
+\e (05:46:55) No command active
+\e (05:46:56) Command not found: xhilite
+\i (05:46:56) xname_flush 
+\e (05:46:56) No command active
+\i (05:46:56) done 
+\e (05:46:56) No command active
+\e (05:46:56) Command not found: xdehilite
+\i (05:46:56) xname_flush 
+\e (05:46:56) No command active
+\i (05:46:56) done 
+\e (05:46:56) No command active
+\e (05:47:12) Command not found: xhilite
+\i (05:47:12) xname_flush 
+\e (05:47:12) No command active
+\i (05:47:12) done 
+\e (05:47:12) No command active
+\e (05:47:12) Command not found: xdehilite
+\i (05:47:12) xname_flush 
+\e (05:47:12) No command active
+\i (05:47:12) done 
+\e (05:47:12) No command active
+\e (05:47:13) Command not found: xhilite
+\i (05:47:13) xname_flush 
+\e (05:47:13) No command active
+\i (05:47:13) done 
+\e (05:47:13) No command active
+\e (05:47:14) Command not found: xdehilite
+\i (05:47:14) xname_flush 
+\e (05:47:14) No command active
+\i (05:47:14) done 
+\e (05:47:14) No command active
+\e (05:47:15) Command not found: xhilite
+\i (05:47:15) xname_flush 
+\e (05:47:15) No command active
+\i (05:47:15) done 
+\e (05:47:15) No command active
+\e (05:47:15) Command not found: xdehilite
+\i (05:47:15) xname_flush 
+\e (05:47:15) No command active
+\i (05:47:15) done 
+\e (05:47:15) No command active
+\e (05:47:16) Command not found: xhilite
+\i (05:47:16) xname_flush 
+\e (05:47:16) No command active
+\i (05:47:16) done 
+\e (05:47:16) No command active
+\e (05:47:17) Command not found: xdehilite
+\i (05:47:17) xname_flush 
+\e (05:47:17) No command active
+\i (05:47:17) done 
+\e (05:47:17) No command active
+\e (05:47:18) Command not found: xdehilite
+\i (05:47:18) xname_flush 
+\e (05:47:18) No command active
+\i (05:47:18) done 
+\e (05:47:18) No command active
+\e (05:47:19) Command not found: xdehilite
+\i (05:47:19) xname_flush 
+\e (05:47:19) No command active
+\i (05:47:19) done 
+\e (05:47:19) No command active
+\e (05:47:21) Command not found: xdehilite
+\i (05:47:21) xname_flush 
+\e (05:47:21) No command active
+\i (05:47:21) done 
+\e (05:47:21) No command active
+\e (05:47:22) Command not found: xdehilite
+\i (05:47:22) xname_flush 
+\e (05:47:22) No command active
+\i (05:47:22) done 
+\e (05:47:22) No command active
+\e (05:47:28) Command not found: xhilite
+\i (05:47:28) xname_flush 
+\e (05:47:28) No command active
+\i (05:47:28) done 
+\e (05:47:28) No command active
+\e (05:47:29) Command not found: xdehilite
+\i (05:47:29) xname_flush 
+\e (05:47:29) No command active
+\i (05:47:29) done 
+\e (05:47:29) No command active
+\e (05:47:29) Command not found: xhilite
+\i (05:47:29) xname_flush 
+\e (05:47:29) No command active
+\i (05:47:29) done 
+\e (05:47:29) No command active
+\e (05:47:29) Command not found: xdehilite
+\i (05:47:29) xname_flush 
+\e (05:47:29) No command active
+\i (05:47:29) done 
+\e (05:47:29) No command active
+\e (05:47:31) Command not found: xhilite
+\i (05:47:31) xname_flush 
+\e (05:47:31) No command active
+\i (05:47:31) done 
+\e (05:47:31) No command active
+\e (05:47:31) Command not found: xdehilite
+\i (05:47:31) xname_flush 
+\e (05:47:31) No command active
+\i (05:47:31) done 
+\e (05:47:31) No command active
+\e (05:47:33) Command not found: xhilite
+\i (05:47:33) xname_flush 
+\e (05:47:33) No command active
+\i (05:47:33) done 
+\e (05:47:33) No command active
+\e (05:47:37) Command not found: xhilite
+\i (05:47:37) xname_flush 
+\e (05:47:37) No command active
+\i (05:47:37) done 
+\e (05:47:37) No command active
+\e (05:47:37) Command not found: xdehilite
+\i (05:47:37) xname_flush 
+\e (05:47:37) No command active
+\i (05:47:37) done 
+\e (05:47:37) No command active
+\e (05:47:39) Command not found: xhilite
+\i (05:47:39) xname_flush 
+\e (05:47:39) No command active
+\i (05:47:39) done 
+\e (05:47:39) No command active
+\e (05:47:39) Command not found: xdehilite
+\i (05:47:39) xname_flush 
+\e (05:47:39) No command active
+\i (05:47:39) done 
+\e (05:47:39) No command active
+\e (05:47:40) Command not found: xhilite
+\i (05:47:40) xname_flush 
+\e (05:47:40) No command active
+\i (05:47:40) done 
+\e (05:47:40) No command active
+\e (05:47:41) Command not found: xdehilite
+\i (05:47:41) xname_flush 
+\e (05:47:41) No command active
+\i (05:47:41) done 
+\e (05:47:41) No command active
+\e (05:47:42) Command not found: xhilite
+\i (05:47:42) xname_flush 
+\e (05:47:42) No command active
+\i (05:47:42) done 
+\e (05:47:42) No command active
+\e (05:47:44) Command not found: xhilite
+\i (05:47:44) xname_flush 
+\e (05:47:44) No command active
+\i (05:47:44) done 
+\e (05:47:44) No command active
+\e (05:47:45) Command not found: xhilite
+\i (05:47:45) xname_flush 
+\e (05:47:45) No command active
+\i (05:47:45) done 
+\e (05:47:45) No command active
+\e (05:47:46) Command not found: xhilite
+\i (05:47:46) xname_flush 
+\e (05:47:46) No command active
+\i (05:47:46) done 
+\e (05:47:46) No command active
+\e (05:47:47) Command not found: xhilite
+\i (05:47:47) xname_flush 
+\e (05:47:47) No command active
+\i (05:47:47) done 
+\e (05:47:47) No command active
+\e (05:47:48) Command not found: xhilite
+\i (05:47:48) xname_flush 
+\e (05:47:48) No command active
+\i (05:47:48) done 
+\e (05:47:48) No command active
+\e (05:47:51) Command not found: xdehilite
+\i (05:47:51) xname_flush 
+\e (05:47:51) No command active
+\i (05:47:51) done 
+\e (05:47:51) No command active
+\e (05:47:51) Command not found: xhilite
+\i (05:47:51) xname_flush 
+\e (05:47:51) No command active
+\i (05:47:51) done 
+\e (05:47:51) No command active
+\e (05:47:53) Command not found: xdehilite
+\i (05:47:53) xname_flush 
+\e (05:47:53) No command active
+\i (05:47:53) done 
+\e (05:47:53) No command active
+\e (05:47:53) Command not found: xhilite
+\i (05:47:53) xname_flush 
+\e (05:47:53) No command active
+\i (05:47:53) done 
+\e (05:47:53) No command active
+\e (05:47:54) Command not found: xdehilite
+\i (05:47:54) xname_flush 
+\e (05:47:54) No command active
+\i (05:47:54) done 
+\e (05:47:54) No command active
+\e (05:47:55) Command not found: xhilite
+\i (05:47:55) xname_flush 
+\e (05:47:55) No command active
+\i (05:47:55) done 
+\e (05:47:55) No command active
+\e (05:47:56) Command not found: xdehilite
+\i (05:47:56) xname_flush 
+\e (05:47:56) No command active
+\i (05:47:56) done 
+\e (05:47:56) No command active
+\e (05:47:59) Command not found: xhilite
+\i (05:47:59) xname_flush 
+\e (05:47:59) No command active
+\i (05:47:59) done 
+\e (05:47:59) No command active
+\e (05:48:00) Command not found: xdehilite
+\i (05:48:00) xname_flush 
+\e (05:48:00) No command active
+\i (05:48:00) done 
+\e (05:48:00) No command active
+\e (05:48:01) Command not found: xhilite
+\i (05:48:01) xname_flush 
+\e (05:48:01) No command active
+\i (05:48:01) done 
+\e (05:48:01) No command active
+\e (05:48:02) Command not found: xdehilite
+\i (05:48:02) xname_flush 
+\e (05:48:02) No command active
+\i (05:48:02) done 
+\e (05:48:02) No command active
+\e (05:48:03) Command not found: xhilite
+\i (05:48:03) xname_flush 
+\e (05:48:03) No command active
+\i (05:48:03) done 
+\e (05:48:03) No command active
+\e (05:48:04) Command not found: xdehilite
+\i (05:48:04) xname_flush 
+\e (05:48:04) No command active
+\i (05:48:04) done 
+\e (05:48:04) No command active
+\e (05:48:05) Command not found: xhilite
+\i (05:48:05) xname_flush 
+\e (05:48:05) No command active
+\i (05:48:05) done 
+\e (05:48:05) No command active
+\e (05:48:05) Command not found: xdehilite
+\i (05:48:05) xname_flush 
+\e (05:48:05) No command active
+\i (05:48:05) done 
+\e (05:48:05) No command active
+\e (05:48:16) Command not found: xhilite
+\i (05:48:16) xname_flush 
+\e (05:48:16) No command active
+\i (05:48:16) done 
+\e (05:48:16) No command active
+\e (05:48:17) Command not found: xhilite
+\i (05:48:17) xname_flush 
+\e (05:48:17) No command active
+\i (05:48:17) done 
+\e (05:48:17) No command active
+\e (05:48:18) Command not found: xdehilite
+\i (05:48:18) xname_flush 
+\e (05:48:18) No command active
+\i (05:48:18) done 
+\e (05:48:18) No command active
+\e (05:48:18) Command not found: xhilite
+\i (05:48:18) xname_flush 
+\e (05:48:18) No command active
+\i (05:48:18) done 
+\e (05:48:18) No command active
+\e (05:48:19) Command not found: xdehilite
+\i (05:48:19) xname_flush 
+\e (05:48:19) No command active
+\i (05:48:19) done 
+\e (05:48:19) No command active
+\e (05:48:20) Command not found: xhilite
+\i (05:48:20) xname_flush 
+\e (05:48:20) No command active
+\i (05:48:20) done 
+\e (05:48:20) No command active
+\e (05:48:20) Command not found: xdehilite
+\i (05:48:20) xname_flush 
+\e (05:48:20) No command active
+\i (05:48:20) done 
+\e (05:48:20) No command active
+\e (05:48:29) Command not found: xhilite
+\i (05:48:29) xname_flush 
+\e (05:48:29) No command active
+\i (05:48:29) done 
+\e (05:48:29) No command active
+\e (05:48:29) Command not found: xdehilite
+\i (05:48:29) xname_flush 
+\e (05:48:29) No command active
+\i (05:48:29) done 
+\e (05:48:29) No command active
+\e (05:48:43) Command not found: xhilite
+\i (05:48:43) xname_flush 
+\e (05:48:43) No command active
+\i (05:48:43) done 
+\e (05:48:43) No command active
+\e (05:48:46) Command not found: xdehilite
+\i (05:48:46) xname_flush 
+\e (05:48:46) No command active
+\i (05:48:46) done 
+\e (05:48:46) No command active
+\e (05:48:46) Command not found: xhilite
+\i (05:48:46) xname_flush 
+\e (05:48:46) No command active
+\i (05:48:46) done 
+\e (05:48:46) No command active
+\e (05:48:50) Command not found: xdehilite
+\i (05:48:50) xname_flush 
+\e (05:48:50) No command active
+\i (05:48:50) done 
+\e (05:48:50) No command active
+\e (05:48:51) Command not found: xdehilite
+\i (05:48:51) xname_flush 
+\e (05:48:51) No command active
+\i (05:48:51) done 
+\e (05:48:51) No command active
+\e (05:48:54) Command not found: xhilite
+\i (05:48:54) xname_flush 
+\e (05:48:54) No command active
+\i (05:48:54) done 
+\e (05:48:54) No command active
+\e (05:48:55) Command not found: xdehilite
+\i (05:48:55) xname_flush 
+\e (05:48:55) No command active
+\i (05:48:55) done 
+\e (05:48:55) No command active
+\e (05:49:08) Command not found: xhilite
+\i (05:49:08) xname_flush 
+\e (05:49:08) No command active
+\i (05:49:08) done 
+\e (05:49:08) No command active
+\e (05:49:09) Command not found: xdehilite
+\i (05:49:09) xname_flush 
+\e (05:49:09) No command active
+\i (05:49:09) done 
+\e (05:49:09) No command active
+\e (05:49:11) Command not found: xhilite
+\i (05:49:11) xname_flush 
+\e (05:49:11) No command active
+\i (05:49:11) done 
+\e (05:49:11) No command active
+\e (05:49:13) Command not found: xdehilite
+\i (05:49:13) xname_flush 
+\e (05:49:13) No command active
+\i (05:49:13) done 
+\e (05:49:13) No command active
+\e (05:49:17) Command not found: xhilite
+\i (05:49:17) xname_flush 
+\e (05:49:17) No command active
+\i (05:49:17) done 
+\e (05:49:17) No command active
+\e (05:49:17) Command not found: xdehilite
+\i (05:49:17) xname_flush 
+\e (05:49:17) No command active
+\i (05:49:17) done 
+\e (05:49:17) No command active
+\e (05:49:20) Command not found: xhilite
+\i (05:49:20) xname_flush 
+\e (05:49:20) No command active
+\i (05:49:20) done 
+\e (05:49:20) No command active
+\e (05:49:21) Command not found: xdehilite
+\i (05:49:21) xname_flush 
+\e (05:49:21) No command active
+\i (05:49:21) done 
+\e (05:49:21) No command active
+\e (05:49:26) Command not found: xhilite
+\i (05:49:26) xname_flush 
+\e (05:49:26) No command active
+\i (05:49:26) done 
+\e (05:49:26) No command active
+\e (05:49:28) Command not found: xhilite
+\i (05:49:28) xname_flush 
+\e (05:49:28) No command active
+\i (05:49:28) done 
+\e (05:49:28) No command active
+\e (05:49:28) Command not found: xhilite
+\i (05:49:28) xname_flush 
+\e (05:49:28) No command active
+\i (05:49:28) done 
+\e (05:49:28) No command active
+\e (05:49:29) Command not found: xdehilite
+\i (05:49:29) xname_flush 
+\e (05:49:29) No command active
+\i (05:49:29) done 
+\e (05:49:29) No command active
+\e (05:49:29) Command not found: xhilite
+\i (05:49:29) xname_flush 
+\e (05:49:29) No command active
+\i (05:49:29) done 
+\e (05:49:29) No command active
+\e (05:49:31) Command not found: xhilite
+\i (05:49:31) xname_flush 
+\e (05:49:31) No command active
+\i (05:49:31) done 
+\e (05:49:31) No command active
+\e (05:49:31) Command not found: xdehilite
+\i (05:49:31) xname_flush 
+\e (05:49:31) No command active
+\i (05:49:31) done 
+\e (05:49:31) No command active
+\e (05:49:44) Command not found: xhilite
+\i (05:49:44) xname_flush 
+\e (05:49:44) No command active
+\i (05:49:44) done 
+\e (05:49:44) No command active
+\e (05:49:46) Command not found: xdehilite
+\i (05:49:46) xname_flush 
+\e (05:49:46) No command active
+\i (05:49:46) done 
+\e (05:49:46) No command active
+\e (05:49:47) Command not found: xhilite
+\i (05:49:47) xname_flush 
+\e (05:49:47) No command active
+\i (05:49:47) done 
+\e (05:49:47) No command active
+\e (05:49:47) Command not found: xdehilite
+\i (05:49:47) xname_flush 
+\e (05:49:47) No command active
+\i (05:49:47) done 
+\e (05:49:47) No command active
+\e (05:49:48) Command not found: xhilite
+\i (05:49:48) xname_flush 
+\e (05:49:48) No command active
+\i (05:49:48) done 
+\e (05:49:48) No command active
+\e (05:49:49) Command not found: xdehilite
+\i (05:49:49) xname_flush 
+\e (05:49:49) No command active
+\i (05:49:49) done 
+\e (05:49:49) No command active
+\e (05:50:24) Command not found: xhilite
+\i (05:50:24) xname_flush 
+\e (05:50:24) No command active
+\i (05:50:24) done 
+\e (05:50:24) No command active
+\e (05:50:27) Command not found: xhilite
+\i (05:50:27) xname_flush 
+\e (05:50:27) No command active
+\i (05:50:27) done 
+\e (05:50:27) No command active
+\e (05:50:31) Command not found: xhilite
+\i (05:50:31) xname_flush 
+\e (05:50:31) No command active
+\i (05:50:31) done 
+\e (05:50:31) No command active
+\e (05:50:32) Command not found: xdehilite
+\i (05:50:32) xname_flush 
+\e (05:50:32) No command active
+\i (05:50:32) done 
+\e (05:50:32) No command active
+\e (05:50:34) Command not found: xhilite
+\i (05:50:34) xname_flush 
+\e (05:50:34) No command active
+\i (05:50:34) done 
+\e (05:50:34) No command active
+\e (05:50:36) Command not found: xdehilite
+\i (05:50:36) xname_flush 
+\e (05:50:36) No command active
+\i (05:50:36) done 
+\e (05:50:36) No command active
+\e (05:50:49) Command not found: xhilite
+\i (05:50:49) xname_flush 
+\e (05:50:49) No command active
+\i (05:50:49) done 
+\e (05:50:49) No command active
+\e (05:50:51) Command not found: xdehilite
+\i (05:50:51) xname_flush 
+\e (05:50:51) No command active
+\i (05:50:51) done 
+\e (05:50:51) No command active
+\e (05:50:54) Command not found: xhilite
+\i (05:50:54) xname_flush 
+\e (05:50:54) No command active
+\i (05:50:54) done 
+\e (05:50:54) No command active
+\e (05:50:56) Command not found: xdehilite
+\i (05:50:56) xname_flush 
+\e (05:50:56) No command active
+\i (05:50:56) done 
+\e (05:50:56) No command active
+\e (05:50:59) Command not found: xhilite
+\i (05:50:59) xname_flush 
+\e (05:50:59) No command active
+\i (05:50:59) done 
+\e (05:50:59) No command active
+\e (05:51:00) Command not found: xdehilite
+\i (05:51:00) xname_flush 
+\e (05:51:00) No command active
+\i (05:51:00) done 
+\e (05:51:00) No command active
+\e (05:51:02) Command not found: xhilite
+\i (05:51:02) xname_flush 
+\e (05:51:02) No command active
+\i (05:51:02) done 
+\e (05:51:02) No command active
+\e (05:51:03) Command not found: xdehilite
+\i (05:51:03) xname_flush 
+\e (05:51:03) No command active
+\i (05:51:03) done 
+\e (05:51:03) No command active
+\e (05:51:06) Command not found: xhilite
+\i (05:51:06) xname_flush 
+\e (05:51:06) No command active
+\i (05:51:06) done 
+\e (05:51:06) No command active
+\e (05:51:08) Command not found: xdehilite
+\i (05:51:08) xname_flush 
+\e (05:51:08) No command active
+\i (05:51:08) done 
+\e (05:51:08) No command active
+\e (05:51:11) Command not found: xhilite
+\i (05:51:11) xname_flush 
+\e (05:51:11) No command active
+\i (05:51:11) done 
+\e (05:51:11) No command active
+\e (05:51:13) Command not found: xdehilite
+\i (05:51:13) xname_flush 
+\e (05:51:13) No command active
+\i (05:51:13) done 
+\e (05:51:13) No command active
+\e (05:51:13) Command not found: xhilite
+\i (05:51:13) xname_flush 
+\e (05:51:13) No command active
+\i (05:51:13) done 
+\e (05:51:13) No command active
+\e (05:51:14) Command not found: xdehilite
+\i (05:51:14) xname_flush 
+\e (05:51:14) No command active
+\i (05:51:14) done 
+\e (05:51:14) No command active
+\e (05:51:18) Command not found: xhilite
+\i (05:51:18) xname_flush 
+\e (05:51:18) No command active
+\i (05:51:18) done 
+\e (05:51:18) No command active
+\e (05:51:19) Command not found: xdehilite
+\i (05:51:19) xname_flush 
+\e (05:51:19) No command active
+\i (05:51:19) done 
+\e (05:51:19) No command active
+\e (05:51:20) Command not found: xhilite
+\i (05:51:20) xname_flush 
+\e (05:51:20) No command active
+\i (05:51:20) done 
+\e (05:51:20) No command active
+\e (05:51:21) Command not found: xdehilite
+\i (05:51:21) xname_flush 
+\e (05:51:21) No command active
+\i (05:51:21) done 
+\e (05:51:21) No command active
+\e (05:51:21) Command not found: xhilite
+\i (05:51:21) xname_flush 
+\e (05:51:21) No command active
+\i (05:51:21) done 
+\e (05:51:21) No command active
+\e (05:51:22) Command not found: xdehilite
+\i (05:51:22) xname_flush 
+\e (05:51:22) No command active
+\i (05:51:22) done 
+\e (05:51:22) No command active
+\e (05:51:23) Command not found: xhilite
+\i (05:51:23) xname_flush 
+\e (05:51:23) No command active
+\i (05:51:23) done 
+\e (05:51:23) No command active
+\e (05:51:24) Command not found: xdehilite
+\i (05:51:24) xname_flush 
+\e (05:51:24) No command active
+\i (05:51:24) done 
+\e (05:51:24) No command active
+\e (05:51:25) Command not found: xhilite
+\i (05:51:25) xname_flush 
+\e (05:51:25) No command active
+\i (05:51:25) done 
+\e (05:51:25) No command active
+\e (05:51:26) Command not found: xhilite
+\i (05:51:26) xname_flush 
+\e (05:51:26) No command active
+\i (05:51:26) done 
+\e (05:51:26) No command active
+\e (05:51:28) Command not found: xdehilite
+\i (05:51:28) xname_flush 
+\e (05:51:28) No command active
+\i (05:51:28) done 
+\e (05:51:28) No command active
+\e (05:51:30) Command not found: xhilite
+\i (05:51:30) xname_flush 
+\e (05:51:30) No command active
+\i (05:51:30) done 
+\e (05:51:30) No command active
+\e (05:51:31) Command not found: xdehilite
+\i (05:51:31) xname_flush 
+\e (05:51:31) No command active
+\i (05:51:31) done 
+\e (05:51:31) No command active
+\e (05:51:34) Command not found: xhilite
+\i (05:51:34) xname_flush 
+\e (05:51:34) No command active
+\i (05:51:34) done 
+\e (05:51:34) No command active
+\e (05:51:36) Command not found: xdehilite
+\i (05:51:36) xname_flush 
+\e (05:51:36) No command active
+\i (05:51:36) done 
+\e (05:51:36) No command active
+\e (05:51:37) Command not found: xhilite
+\i (05:51:37) xname_flush 
+\e (05:51:37) No command active
+\i (05:51:37) done 
+\e (05:51:37) No command active
+\e (05:51:38) Command not found: xdehilite
+\i (05:51:38) xname_flush 
+\e (05:51:38) No command active
+\i (05:51:38) done 
+\e (05:51:38) No command active
+\e (05:51:40) Command not found: xhilite
+\i (05:51:40) xname_flush 
+\e (05:51:40) No command active
+\i (05:51:40) done 
+\e (05:51:40) No command active
+\e (05:51:42) Command not found: xdehilite
+\i (05:51:42) xname_flush 
+\e (05:51:42) No command active
+\i (05:51:42) done 
+\e (05:51:42) No command active
+\e (05:51:50) Command not found: xhilite
+\i (05:51:50) xname_flush 
+\e (05:51:50) No command active
+\i (05:51:50) done 
+\e (05:51:50) No command active
+\e (05:51:53) Command not found: xdehilite
+\i (05:51:53) xname_flush 
+\e (05:51:53) No command active
+\i (05:51:53) done 
+\e (05:51:53) No command active
+\e (05:51:59) Command not found: xhilite
+\i (05:51:59) xname_flush 
+\e (05:51:59) No command active
+\i (05:51:59) done 
+\e (05:51:59) No command active
+\e (05:52:00) Command not found: xdehilite
+\i (05:52:00) xname_flush 
+\e (05:52:00) No command active
+\i (05:52:00) done 
+\e (05:52:00) No command active
+\e (05:53:09) Command not found: xhilite
+\i (05:53:09) xname_flush 
+\e (05:53:09) No command active
+\i (05:53:09) done 
+\e (05:53:09) No command active
+\e (05:53:13) Command not found: xdehilite
+\i (05:53:14) xname_flush 
+\e (05:53:14) No command active
+\i (05:53:14) done 
+\e (05:53:14) No command active
+\e (05:53:17) Command not found: xhilite
+\i (05:53:17) xname_flush 
+\e (05:53:17) No command active
+\i (05:53:17) done 
+\e (05:53:17) No command active
+\e (05:53:17) Command not found: xdehilite
+\i (05:53:17) xname_flush 
+\e (05:53:17) No command active
+\i (05:53:17) done 
+\e (05:53:17) No command active
+\e (05:53:20) Command not found: xhilite
+\i (05:53:20) xname_flush 
+\e (05:53:20) No command active
+\i (05:53:20) done 
+\e (05:53:20) No command active
+\e (05:53:25) Command not found: xhilite
+\i (05:53:25) xname_flush 
+\e (05:53:25) No command active
+\i (05:53:25) done 
+\e (05:53:25) No command active
+\e (05:53:25) Command not found: xdehilite
+\i (05:53:25) xname_flush 
+\e (05:53:25) No command active
+\i (05:53:25) done 
+\e (05:53:25) No command active
+\i (06:01:08) exit 
+\e (06:01:08) Do you want to save the changes you made to SO-16.dra?
+\i (06:01:09) fillin no 
+\t (06:01:12)     Journal end - Thu May  5 17:18:51 2022
