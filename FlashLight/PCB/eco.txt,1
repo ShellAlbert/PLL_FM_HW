@@ -2,26 +2,46 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  G:/github/PLL_FM_HW/FlashLight/PCB/FLASHLIGHT_REVA2-3.brd                   |
-|                                                    Mon May  9 09:04:11 2022  |
+|  F:/FLASHLIGHT_REVA2-14.brd                                                  |
+|                                                    Sat May 28 14:52:55 2022  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  ADC-PT100    pins MOVED FROM this net (to net name listed on right)
-                                 R89.1           22.8900 -17.850
-                                                                        ADC-VR1
+  GND          pins ADDED TO this existing net (pins not previously on any net)
+                                 C206.1                         
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ADC-VR1      pins MOVED FROM this net (to net name listed on right)
-                                 R224.1          40.7000 41.9766
-                                                                        ADC-VR2
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ADC-VR2      pins MOVED FROM this net (to net name listed on right)
-                                 R226.1          37.7400 41.9766
-                                                                      ADC-PT100
+  VDD33        pins ADDED TO this existing net (pins not previously on any net)
+                                 C206.2                         
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|       Nets changed          :       3                                        |
+|  F:/FLASHLIGHT_REVA2-14.brd                                                  |
+|                                                    Sat May 28 14:52:55 2022  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C206                CAP NP_C0402_0.1UF    
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  F:/FLASHLIGHT_REVA2-14.brd                                                  |
+|                                                    Sat May 28 14:52:55 2022  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C206.2                         PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :       2                                        |
+|       Components added      :       1                                        |
+|       Slot property added   :       1                                        |
 |                                                                              |
-|   Total ECO changes reported:       3                                        |
+|   Total ECO changes reported:       4                                        |
 |------------------------------------------------------------------------------|

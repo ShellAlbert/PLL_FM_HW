@@ -1,6 +1,6 @@
 (ExpressProject "FlashLight"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[05/09/22]")
+  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[06/06/22]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -101,9 +101,9 @@
     ("Allegro Netlist User Defined Property" "FALSE")
     ("Allegro Backannotation Run Genfeed" "TRUE")
     ("Allegro Backannotation Board File"
-       "G:\github\PLL_FM_HW\FlashLight\PCB\FLASHLIGHT_V23.brd")
+       "G:\github\PLL_FM_HW\FlashLight\PCB\FLASHLIGHT_REVA2-15.brd")
     ("Allegro Backannotation Netlist Directory"
-       "G:\github\PLL_FM_HW\FlashLight\schematic\NETLIST")
+       "G:\github\PLL_FM_HW\FlashLight\sch_revb\netlist")
     ("Allegro Backannotation Output File" "allegro\FLASHLIGHT.swp")
     ("Allegro Backannotation Update Schematic" "TRUE")
     ("Allegro Backannotation View Output" "FALSE")
@@ -154,8 +154,12 @@
   (Folder "Logs"
     (File ".\netlist\swp.log"
       (Type "Log File")
-      (LogFile "G:\github\PLL_FM_HW\FlashLight\schematic\NETLIST\swp.log")))
+      (LogFile "G:\github\PLL_FM_HW\FlashLight\sch_revb\netlist\swp.log")))
   (PartMRUSelector
+    (BAT54SW
+      (FullPartName "BAT54SW.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
     (SGM8968-2
       (FullPartName "SGM8968-2B.Normal")
       (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\LIBRARY1.OLB")
@@ -256,10 +260,6 @@
       (FullPartName "TEST POINT.Normal")
       (LibraryName
          "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    (CRYSTAL
-      (FullPartName "CRYSTAL.Normal")
-      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCHEMATIC\LIBRARY1.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -275,13 +275,23 @@
       (Path "Logs")
       (Select "Design Resources"
          "g:\github\pll_fm_hw\flashlight\sch_revb\flashlight.dsn" "SCHEMATIC1"
-         "2-MCU"))
+         "4-MOTOR-FAN"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 427 0 652"))
-      (Tab 0)))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 676"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1154 28 698")
+        (Scroll "132 1517")
+        (Zoom "216")
+        (Occurrence "/"))
+      (Path "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\FLASHLIGHT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "4-MOTOR-FAN")))
   (MPSSessionName "Administrator")
   (LastUsedLibraryBrowseDirectory
      "D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\capture\library")

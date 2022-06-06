@@ -1,0 +1,117 @@
+Tue May 31 08:00:26 2022				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Tue May 31 08:00:26 2022
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : FLASHLIGHT_REVA2-15.brd                       )
+(    Software Version : 17.4S017                                      )
+(    Date/Time        : Tue May 31 08:00:26 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Tue May 31 08:00:26 2022				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design  = 'G:/github/PLL_FM_HW/FlashLight/PCB/FLASHLIGHT_REVA2-15.brd'
+Output design = ''
+
+Update mechanical symbols              = 'NO'
+Update format symbols                  = 'NO'
+Update package symbols                 = 'YES'
+Update shape/flash symbols             = 'NO'
+Update symbol padstacks                = 'NO'
+Preserve padstacks replaced on pins    = 'NO'
+Reset symbol text and size locations   = 'NO'
+Reset Pin Escapes (fanouts)            = 'NO'
+Ripup Etch                             = 'NO'
+Reset custom drill data                = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/local/pcb/symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/pcb_lib/symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/allegrolib/symbols 
+           G:/github/PLL_FM_HW/IMX8MINI/LIBS 
+           G:/github/PLL_FM_HW/LIBS 
+
+PADPATH =  G:/github/PLL_FM_HW/IMX8MINI/LIBS 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/local/pcb/padstacks 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/pcb_lib/symbols 
+           D:/ZSY/Cadence/Cadence_SPB_17.4-2019/share/pcb/allegrolib/symbols 
+           G:/github/PLL_FM_HW/LIBS/via 
+           G:/github/PLL_FM_HW/LIBS 
+
+
+------ Symbol Refresh Messages ------
+
+'LQFP64'  symbol refreshed successfully.
+'SOIC-14'  symbol refreshed successfully.
+'MSOP-10'  symbol refreshed successfully.
+'SOP8-PP'  symbol refreshed successfully.
+'SOP8-150MIL'  symbol refreshed successfully.
+'SMD-SH1D0-6P-HOR'  symbol refreshed successfully.
+'XTDFN-1X1-6L'  symbol refreshed successfully.
+'SMD-SH1D0-4P-HOR'  symbol refreshed successfully.
+'CRY-SMD-3D2X2D5MM-4P'  symbol refreshed successfully.
+'SOT-23-3'  symbol refreshed successfully.
+'SOT-323'  symbol refreshed successfully.
+'C0402'  symbol refreshed successfully.
+'C0603'  symbol refreshed successfully.
+'R0402'  symbol refreshed successfully.
+'LED0402'  symbol refreshed successfully.
+'DFN-1006DN'  symbol refreshed successfully.
+'C0805'  symbol refreshed successfully.
+'FB0402'  symbol refreshed successfully.
+'CRY-SMD-3D2X1D5MM-2P'  symbol refreshed successfully.
+'SMD-SH1D0-16P-HOR'  symbol refreshed successfully.
+'SMD-SH1D0-8P-HOR'  symbol refreshed successfully.
+'SOIC-8-EPAD'  symbol refreshed successfully.
+'DFN2X2-6L'  symbol refreshed successfully.
+'SOP-8'  symbol refreshed successfully.
+'SMD-SH1D0-5P-HOR'  symbol refreshed successfully.
+'SOT-23-5'  symbol refreshed successfully.
+'TO-269AA'  symbol refreshed successfully.
+'SOT-23-3L'  symbol refreshed successfully.
+'R0603'  symbol refreshed successfully.
+'FUSE1206'  symbol refreshed successfully.
+'DO-214AC'  symbol refreshed successfully.
+'SOD-323'  symbol refreshed successfully.
+'SOD-123'  symbol refreshed successfully.
+'C2220'  symbol refreshed successfully.
+'IND-5D7X5D2X1D8'  symbol refreshed successfully.
+'R0805'  symbol refreshed successfully.
+'SMD-SH1D0-14P-HOR'  symbol refreshed successfully.
+'SOIC-8'  symbol refreshed successfully.
+'L0805'  symbol refreshed successfully.
+
+
+----- Symbol Update Summary ----
+
+Updated symbols: 39 out 39
+    Design updated.
+

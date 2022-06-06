@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : FLASHLIGHT_REVA2-3.brd                        )
+(    Drawing          : FLASHLIGHT_REVA2-15.brd                       )
 (    Software Version : 17.4S017                                      )
-(    Date/Time        : Mon May  9 09:52:26 2022                      )
+(    Date/Time        : Tue May 31 07:29:22 2022                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,10 +19,10 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         'G:/github/PLL_FM_HW/FlashLight/sch_revb/netlist'
 Design Directory:            'G:/github/PLL_FM_HW/FlashLight/PCB'
-Old design name:             'G:/github/PLL_FM_HW/FlashLight/PCB/FLASHLIGHT_REVA2-3.brd'
-New design name:             'G:/github/PLL_FM_HW/FlashLight/PCB/FLASHLIGHT_REVA2-3.brd'
+Old design name:             'G:/github/PLL_FM_HW/FlashLight/PCB/FLASHLIGHT_REVA2-15.brd'
+New design name:             'G:/github/PLL_FM_HW/FlashLight/PCB/FLASHLIGHT_REVA2-15.brd'
 
-CmdLine: netrev -$ -i G:/github/PLL_FM_HW/FlashLight/sch_revb/netlist -y 1 -h -q netrev_constraint_report.xml G:/github/PLL_FM_HW/FlashLight/PCB/#Taaaasl06544.tmp
+CmdLine: netrev -$ -i G:/github/PLL_FM_HW/FlashLight/sch_revb/netlist -y 1 -h -q netrev_constraint_report.xml G:/github/PLL_FM_HW/FlashLight/PCB/#Taaaaag12780.tmp
 
 ------ Preparing to read pst files ------
 
@@ -65,7 +65,7 @@ PADPATH =  G:/github/PLL_FM_HW/IMX8MINI/LIBS
 ------ Summary Statistics ------
 
 
-netrev run on May 9 9:52:26 2022
+netrev run on May 31 7:29:22 2022
    DESIGN NAME : 'FLASHLIGHT'
    PACKAGING ON Apr 19 2021 16:22:31
 
