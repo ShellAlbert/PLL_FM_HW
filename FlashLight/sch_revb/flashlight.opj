@@ -275,23 +275,23 @@
       (Path "Logs")
       (Select "Design Resources"
          "g:\github\pll_fm_hw\flashlight\sch_revb\flashlight.dsn" "SCHEMATIC1"
-         "4-MOTOR-FAN"))
+         "1-POWER-SUPPLY"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 676"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 299 0 676"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1154 28 698")
-        (Scroll "132 1517")
-        (Zoom "216")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1256 28 698")
+        (Scroll "-163 -3")
+        (Zoom "54")
         (Occurrence "/"))
       (Path "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\FLASHLIGHT.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "4-MOTOR-FAN")))
+      (Page "2-MCU")))
   (MPSSessionName "Administrator")
   (LastUsedLibraryBrowseDirectory
      "D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\capture\library")
