@@ -1,0 +1,4064 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.4.0 d001May-31-2022 at 07:29:14 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='FLASHLIGHT';
+ POST_TIME='Apr 19 2021 16:22:31';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ BT1 'BATTERY_C0805_CR1220-3V':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9725902@DISCRETE.BATTERY.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9725902@discrete.\battery.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9725902@discrete.\battery.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C1 'CAP NP_C0603_10UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9613725@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9613725@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9613725@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9805045@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9805045@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9805045@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C100 'CAP NP_C0805_10UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9782196@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9782196@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9782196@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C101 'CAP NP_C2220_47UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9620345@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9620345@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9620345@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C102 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9939635@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9939635@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9939635@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C103 'CAP NP_C0603_10UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9596393@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9596393@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9596393@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C104 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9566516@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9566516@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9566516@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C105 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9995609@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9995609@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9995609@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C106 'CAP NP_C0805_10UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9995369@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9995369@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9995369@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9869742@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9869742@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9869742@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C12 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9869520@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9869520@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9869520@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C13 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10220969@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10220969@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10220969@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C14 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9723838@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9723838@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9723838@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C15 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9869838@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9869838@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9869838@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C16 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9869254@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9869254@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9869254@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C17 'CAP NP_C0402_22PF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9723960@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9723960@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9723960@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C18 'CAP NP_C0603_10NF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9605129@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9605129@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9605129@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C19 'CAP NP_C0402_22PF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9723636@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9723636@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9723636@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP NP_C0603_10UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9615945@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9615945@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9615945@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C20 'CAP NP_C0402_5.6NF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9605491@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9605491@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9605491@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C21 'CAP NP_C0402_22PF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9723554@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9723554@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9723554@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C22 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9605415@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9605415@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9605415@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C23 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10014827@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10014827@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10014827@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C24 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10014961@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10014961@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10014961@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C25 'CAP NP_C0402_22PF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9723468@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9723468@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9723468@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C26 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9605085@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9605085@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9605085@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C27 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762323@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762323@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762323@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C28 'CAP NP_C0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9619855@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9619855@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9619855@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C29 'CAP NP_C0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10191968@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10191968@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins10191968@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9933568@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9933568@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9933568@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C30 'CAP NP_C0603_10NF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9619903@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9619903@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9619903@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C31 'CAP NP_C0805_10UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10151293@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10151293@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins10151293@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C32 'CAP NP_C0805_10UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762559@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762559@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762559@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C33 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9763107@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9763107@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9763107@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C34 'CAP NP_C2220_47UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9620033@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9620033@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9620033@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C35 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9544575@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9544575@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9544575@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C36 'CAP NP_C0805_10UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10151037@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10151037@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins10151037@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C37 'CAP NP_C0805_10UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9763445@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9763445@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9763445@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C38 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9763895@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9763895@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9763895@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C39 'CAP NP_C0402_1.5UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9541438@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9541438@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9541438@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9927322@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9927322@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9927322@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C40 'CAP NP_C0805_10UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10205035@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10205035@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins10205035@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C41 'CAP NP_C0805_10UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10205069@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10205069@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins10205069@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C42 'CAP NP_C0805_10UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10206050@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10206050@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins10206050@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C43 'CAP NP_C0402_5.6NF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9620381@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9620381@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9620381@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C44 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9620117@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9620117@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9620117@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C45 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9568116@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9568116@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9568116@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C46 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9569248@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9569248@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9569248@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C47 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9571044@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9571044@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9571044@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C48 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9927470@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9927470@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9927470@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C49 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9927666@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9927666@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9927666@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'CAP NP_C0603_4.7UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9615961@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9615961@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9615961@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C50 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9933716@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9933716@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9933716@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C51 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9933912@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9933912@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9933912@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C52 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10138635@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10138635@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10138635@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C53 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9613693@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9613693@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9613693@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C54 'CAP NP_C0603_4.7UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9613437@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9613437@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9613437@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C55 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9887436@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9887436@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9887436@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C56 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9885962@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9885962@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9885962@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C57 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9888634@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9888634@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9888634@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C58 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9884582@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9884582@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9884582@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C59 'CAP NP_C0603_10UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9613485@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9613485@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9613485@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9615993@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9615993@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9615993@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C60 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9746351@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9746351@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9746351@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C61 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9845575@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9845575@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9845575@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C62 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9613453@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9613453@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9613453@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C63 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9887564@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9887564@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9887564@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C64 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9885834@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9885834@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9885834@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C65 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10117839@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10117839@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10117839@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C66 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10132557@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10132557@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10132557@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C67 'CAP NP_C0402_10UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9746077@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9746077@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9746077@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C68 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9745901@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9745901@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9745901@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C69 'CAP NP_C0402_10UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9745529@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9745529@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9745529@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9933760@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9933760@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9933760@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C70 'CAP NP_C0603_4.7UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9613677@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9613677@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9613677@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C71 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9888506@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9888506@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9888506@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C72 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9884454@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9884454@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9884454@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C73 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10171050@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10171050@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins10171050@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C74 'CAP NP_C0402_10UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9862647@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9862647@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9862647@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C75 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9862861@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9862861@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9862861@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C76 'CAP NP_C0603_4.7UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9615771@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9615771@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9615771@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C77 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9615803@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9615803@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9615803@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C78 'CAP NP_C0603_10UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9856590@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9856590@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9856590@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C79 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9857324@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9857324@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9857324@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9927514@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9927514@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9927514@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C80 'CAP NP_C0603_10UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9845547@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9845547@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9845547@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C81 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9946552@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9946552@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9946552@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C82 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9615787@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9615787@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9615787@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C83 'CAP NP_C0603_10UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9615755@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9615755@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9615755@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C84 'CAP NP_C2220_47UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9605507@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9605507@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9605507@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C85 'CAP NP_C0603_10UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10220676@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10220676@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins10220676@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C86 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762379@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762379@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762379@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C87 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762363@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762363@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762363@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C88 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9869358@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9869358@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9869358@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C89 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9615977@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9615977@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9615977@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'CAP NP_C0402_10UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9805029@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9805029@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9805029@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C90 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762395@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762395@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762395@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C91 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762649@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762649@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762649@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C92 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9763799@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9763799@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9763799@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C93 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9763831@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9763831@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9763831@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C94 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762965@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762965@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762965@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C95 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762981@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762981@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762981@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C96 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9723774@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9723774@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9723774@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C97 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9725958@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9725958@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9725958@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C98 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9936101@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9936101@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9936101@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C99 'CAP NP_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9782446@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9782446@discrete.\cap np.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9782446@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'DIODE TVS_0_DO-214AC_SMAJ6.0A':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9635507@FLASHLIGHT.DIODE TVS_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9635507@flashlight.\diode tvs_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9635507@flashlight.\diode tvs_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D10 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9725692@DISCRETE.DIODE TS BI-DIR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9725692@discrete.\diode ts bi-dir.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9725692@discrete.\diode ts bi-dir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D11 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9725708@DISCRETE.DIODE TS BI-DIR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9725708@discrete.\diode ts bi-dir.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9725708@discrete.\diode ts bi-dir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D12 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9927448@DISCRETE.DIODE TS BI-DIR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9927448@discrete.\diode ts bi-dir.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9927448@discrete.\diode ts bi-dir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D13 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9927644@DISCRETE.DIODE TS BI-DIR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9927644@discrete.\diode ts bi-dir.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9927644@discrete.\diode ts bi-dir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D14 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9933694@DISCRETE.DIODE TS BI-DIR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9933694@discrete.\diode ts bi-dir.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9933694@discrete.\diode ts bi-dir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D15 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9933890@DISCRETE.DIODE TS BI-DIR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9933890@discrete.\diode ts bi-dir.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9933890@discrete.\diode ts bi-dir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D16 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9887516@DISCRETE.DIODE TS BI-DIR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9887516@discrete.\diode ts bi-dir.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9887516@discrete.\diode ts bi-dir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D17 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9887668@DISCRETE.DIODE TS BI-DIR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9887668@discrete.\diode ts bi-dir.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9887668@discrete.\diode ts bi-dir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D18 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9885914@DISCRETE.DIODE TS BI-DIR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9885914@discrete.\diode ts bi-dir.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9885914@discrete.\diode ts bi-dir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D19 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9886066@DISCRETE.DIODE TS BI-DIR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9886066@discrete.\diode ts bi-dir.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9886066@discrete.\diode ts bi-dir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 'LED_LED0402_BLUE':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9798758@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9798758@discrete.\led.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9798758@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D20 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9888586@DISCRETE.DIODE TS BI-DIR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9888586@discrete.\diode ts bi-dir.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9888586@discrete.\diode ts bi-dir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D21 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9888738@DISCRETE.DIODE TS BI-DIR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9888738@discrete.\diode ts bi-dir.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9888738@discrete.\diode ts bi-dir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D22 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9884534@DISCRETE.DIODE TS BI-DIR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9884534@discrete.\diode ts bi-dir.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9884534@discrete.\diode ts bi-dir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D23 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9884686@DISCRETE.DIODE TS BI-DIR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9884686@discrete.\diode ts bi-dir.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9884686@discrete.\diode ts bi-dir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D24 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10121697@DISCRETE.DIODE TS BI-DIR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10121697@discrete.\diode ts bi-dir.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10121697@discrete.\diode ts bi-dir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D25 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10132633@DISCRETE.DIODE TS BI-DIR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10132633@discrete.\diode ts bi-dir.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10132633@discrete.\diode ts bi-dir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D26 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10163495@DISCRETE.DIODE TS BI-DIR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10163495@discrete.\diode ts bi-dir.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins10163495@discrete.\diode ts bi-dir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D27 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10163513@DISCRETE.DIODE TS BI-DIR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10163513@discrete.\diode ts bi-dir.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins10163513@discrete.\diode ts bi-dir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D28 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10163147@DISCRETE.DIODE TS BI-DIR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10163147@discrete.\diode ts bi-dir.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins10163147@discrete.\diode ts bi-dir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D29 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10163165@DISCRETE.DIODE TS BI-DIR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10163165@discrete.\diode ts bi-dir.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins10163165@discrete.\diode ts bi-dir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D3 'LED_LED0402_BLUE':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9798774@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9798774@discrete.\led.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9798774@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D30 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10162569@DISCRETE.DIODE TS BI-DIR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10162569@discrete.\diode ts bi-dir.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins10162569@discrete.\diode ts bi-dir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D31 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10162378@DISCRETE.DIODE TS BI-DIR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10162378@discrete.\diode ts bi-dir.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins10162378@discrete.\diode ts bi-dir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D32 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9946520@DISCRETE.DIODE TS BI-DIR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9946520@discrete.\diode ts bi-dir.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9946520@discrete.\diode ts bi-dir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D33 'DIODE ZENER_0_DO-214AC_SS35':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9605475@FLASHLIGHT.DIODE ZENER_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9605475@flashlight.\diode zener_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9605475@flashlight.\diode zener_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D34 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762347@DISCRETE.DIODE TS BI-DIR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762347@discrete.\diode ts bi-dir.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762347@discrete.\diode ts bi-dir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D35 'DIODE ZENER_0_SOD-123_BZT52C4V7':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9593685@FLASHLIGHT.DIODE ZENER_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9593685@flashlight.\diode zener_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9593685@flashlight.\diode zener_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D36 'DIODE ZENER_0_DO-214AC_SS35':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9620309@FLASHLIGHT.DIODE ZENER_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9620309@flashlight.\diode zener_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9620309@flashlight.\diode zener_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D37 'DIODE ZENER_0_SOD-123_BZT52C4V7':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9559887@FLASHLIGHT.DIODE ZENER_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9559887@flashlight.\diode zener_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9559887@flashlight.\diode zener_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D38 'DIODE ZENER_0_SOD-123_BZT52C36V':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9548483@FLASHLIGHT.DIODE ZENER_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9548483@flashlight.\diode zener_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9548483@flashlight.\diode zener_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D39 'DIODE ZENER_0_SOD-123_BZT52C24':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9548123@FLASHLIGHT.DIODE ZENER_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9548123@flashlight.\diode zener_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9548123@flashlight.\diode zener_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D4 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762261@DISCRETE.DIODE TS BI-DIR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762261@discrete.\diode ts bi-dir.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762261@discrete.\diode ts bi-dir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D40 'DIODE ZENER_0_SOD-123_BZT52C24':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9559289@FLASHLIGHT.DIODE ZENER_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9559289@flashlight.\diode zener_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9559289@flashlight.\diode zener_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D41 'DIODE ZENER_0_SOD-123_BZT52C4V7':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9551000@FLASHLIGHT.DIODE ZENER_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9551000@flashlight.\diode zener_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9551000@flashlight.\diode zener_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D42 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10015071@DISCRETE.DIODE TS BI-DIR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10015071@discrete.\diode ts bi-dir.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10015071@discrete.\diode ts bi-dir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D43 'DIODE TS BI-DIR_DFN-1006DN_ESD4.5V88D-C':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10014911@DISCRETE.DIODE TS BI-DIR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10014911@discrete.\diode ts bi-dir.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10014911@discrete.\diode ts bi-dir.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D44 'DIODE ZENER_0_SOD-123_BZT52C4V7':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9549433@FLASHLIGHT.DIODE ZENER_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9549433@flashlight.\diode zener_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9549433@flashlight.\diode zener_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D45 'DIODE ZENER_0_SOD-123_BZT52C4V7':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9597373@FLASHLIGHT.DIODE ZENER_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9597373@flashlight.\diode zener_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9597373@flashlight.\diode zener_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D46 'DIODE_SOD-323_MBRX0560':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9599986@DISCRETE.DIODE.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9599986@discrete.\diode.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9599986@discrete.\diode.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D47 'DIODE TVS_0_DO-214AC_SMAJ13A':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9717294@FLASHLIGHT.DIODE TVS_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9717294@flashlight.\diode tvs_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9717294@flashlight.\diode tvs_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D5 'DIODE ZENER_0_SOD-123_BZT52C6V8':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9540934@FLASHLIGHT.DIODE ZENER_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9540934@flashlight.\diode zener_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9540934@flashlight.\diode zener_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D6 'DIODE_SOD-323_MBRX0560':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9706942@DISCRETE.DIODE.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9706942@discrete.\diode.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9706942@discrete.\diode.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D7 'LED_LED0402_BLUE':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9569068@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9569068@discrete.\led.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9569068@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D8 'LED_LED0402_RED':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9568447@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9568447@discrete.\led.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9568447@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D9 'LED_LED0402_YELLOW':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9571108@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9571108@discrete.\led.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9571108@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ F1 'FUSE_FUSE1206_1AMP':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9592090@DISCRETE.FUSE.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9592090@discrete.\fuse.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9592090@discrete.\fuse.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'HEADER1X6_0_SMD-SH1D0-6P-HOR_HEADER1X6':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9960060@FLASHLIGHT.HEADER1X6_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9960060@flashlight.\header1x6_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page5_ins9960060@flashlight.\header1x6_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'HEADER1X14_SMD-SH1D0-14P-HOR_HEADER1X14':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10136161@LIBRARY1.HEADER1X14.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10136161@library1.\header1x14.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page5_ins10136161@library1.\header1x14.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 'HEADER1X16_0_SMD-SH1D0-16P-HOR_HEADER1X16':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9277778@FLASHLIGHT.HEADER1X16_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9277778@flashlight.\header1x16_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page5_ins9277778@flashlight.\header1x16_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'HEADER1X8_SMD-SH1D0-8P-HOR_HEADER1X8':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9960637@LIBRARY1.HEADER1X8.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9960637@library1.\header1x8.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page5_ins9960637@library1.\header1x8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 'HEADER1X4_0_SMD-SH1D0-4P-HOR_HEADER1X4':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9281471@FLASHLIGHT.HEADER1X4_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9281471@flashlight.\header1x4_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page5_ins9281471@flashlight.\header1x4_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J6 'HEADER1X5_SMD-SH1D0-5P-HOR_HEADER1X5':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10011495@LIBRARY1.HEADER1X5.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10011495@library1.\header1x5.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page5_ins10011495@library1.\header1x5.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'INDUCTOR_IND-5D7X5D2X1D8_10UH':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9605259@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9605259@discrete.\inductor.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9605259@discrete.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L2 'BEAD_FB0402_BLM15BD182SN1D':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9804973@DISCRETE.BEAD.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9804973@discrete.\bead.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9804973@discrete.\bead.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L3 'INDUCTOR_IND-5D7X5D2X1D8_10UH':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9620049@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9620049@discrete.\inductor.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9620049@discrete.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L4 'INDUCTOR_L0805_1UH':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9832211@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9832211@discrete.\inductor.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9832211@discrete.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L5 'INDUCTOR_L0805_1UH':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9620149@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9620149@discrete.\inductor.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9620149@discrete.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L6 'INDUCTOR_L0805_1UH':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9620245@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9620245@discrete.\inductor.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9620245@discrete.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q1 '2N2800_1_SOT-23-3_S8550':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9745699@FLASHLIGHT.2N2800_1.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9745699@flashlight.\2n2800_1.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9745699@flashlight.\2n2800_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q2 '2N2800_1_SOT-23-3_S8550':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9746243@FLASHLIGHT.2N2800_1.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9746243@flashlight.\2n2800_1.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9746243@flashlight.\2n2800_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q3 '2N2800_1_SOT-23-3_S8550':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9862787@FLASHLIGHT.2N2800_1.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9862787@flashlight.\2n2800_1.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9862787@flashlight.\2n2800_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q4 'BAT54CW_0_SOT-323_BAT54CW':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9725834@FLASHLIGHT.BAT54CW_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9725834@flashlight.\bat54cw_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9725834@flashlight.\bat54cw_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q5 'BAT54CW_0_SOT-323_BAT54CW':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10035283@FLASHLIGHT.BAT54CW_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10035283@flashlight.\bat54cw_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins10035283@flashlight.\bat54cw_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q6 'BAT54CW_0_SOT-323_BAT54CW':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10035476@FLASHLIGHT.BAT54CW_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10035476@flashlight.\bat54cw_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins10035476@flashlight.\bat54cw_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_R0402_150K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9613641@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9613641@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9613641@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9869474@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9869474@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9869474@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R100 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10120351@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10120351@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10120351@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R101 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9749746@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9749746@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9749746@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R102 'R_R0402_9.09K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9879990@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9879990@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9879990@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R103 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9749642@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9749642@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9749642@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R104 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9946758@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9946758@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9946758@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R105 'R_R0402_0-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9801361@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9801361@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9801361@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R106 'R_R0402_DNP':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9801421@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9801421@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9801421@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R107 'R_R0402_1.69K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9862627@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9862627@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9862627@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R108 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9880062@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9880062@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9880062@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R109 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9749520@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9749520@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9749520@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'R_R0402_1MEG-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9723822@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9723822@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9723822@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R110 'R_R0402_1K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9862667@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9862667@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9862667@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R111 'R_R0402_110K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9880100@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9880100@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9880100@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R112 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9749444@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9749444@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9749444@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R113 'R_R0402_DNP':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9946825@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9946825@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9946825@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R114 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9946859@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9946859@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9946859@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R115 'R_R0402_16.2K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9946476@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9946476@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9946476@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R116 'R_R0402_8.25K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9946536@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9946536@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9946536@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R117 'R_R0402_2K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9862767@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9862767@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9862767@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R118 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9723608@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9723608@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9723608@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R119 'R_R0402_33-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9723746@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9723746@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9723746@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R12 'R_R0402_33.2K':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9605359@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9605359@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9605359@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R120 'R_R0402_33-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9723910@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9723910@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9723910@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R121 'R_R0402_33-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9723860@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9723860@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9723860@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R122 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762201@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762201@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762201@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R123 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762439@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762439@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762439@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R124 'R_R0402_DNP':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762423@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762423@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762423@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R125 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762123@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762123@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762123@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R126 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762225@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762225@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762225@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R127 'R_R0402_DNP':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9761977@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9761977@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9761977@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R128 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9761993@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9761993@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9761993@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R129 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762161@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762161@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762161@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R13 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9869454@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9869454@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9869454@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R130 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9725794@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9725794@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9725794@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R131 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9763649@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9763649@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9763649@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R132 'R_R0402_71.5K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9763425@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9763425@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9763425@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R133 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9763409@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9763409@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9763409@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R134 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9763677@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9763677@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9763677@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R135 'R_R0402_8.66K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9763693@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9763693@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9763693@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R136 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762791@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762791@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762791@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R137 'R_R0402_8.66K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762807@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762807@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762807@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R138 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9763017@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9763017@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9763017@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R139 'R_R0402_71.5K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9763033@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9763033@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9763033@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R14 'R_R0402_5.49K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9761913@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9761913@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9761913@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R140 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762877@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762877@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762877@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R141 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9725778@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9725778@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9725778@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R142 'R_R0402_DNP':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9801377@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9801377@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9801377@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R143 'R_R0402_0-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9801437@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9801437@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9801437@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R144 'R_R0603_1.4K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9593659@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9593659@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9593659@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R145 'R_R0402_DNP':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9763219@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9763219@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9763219@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R146 'R_R0805_0.68-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10150708@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10150708@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins10150708@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R147 'R_R0805_0.68-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10150768@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10150768@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins10150768@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R148 'R_R0402_100K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9782340@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9782340@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9782340@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R149 'R_R0805_0.68-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10150728@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10150728@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins10150728@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R15 'R_R0402_100K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9974879@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9974879@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9974879@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R150 'R_R0805_0.68-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10150788@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10150788@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins10150788@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R151 'R_R0402_100K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9782164@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9782164@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9782164@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R152 'R_R0603_24.9K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9559857@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9559857@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9559857@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R153 'R_R0402_1.87K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9782510@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9782510@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9782510@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R154 'R_R0603_5.62K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9559190@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9559190@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9559190@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R155 'R_R0402_100K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9931619@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9931619@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9931619@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R156 'R_R0402_16.2K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9782494@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9782494@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9782494@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R157 'R_R0603_2K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9548416@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9548416@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9548416@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R158 'R_R0603_825-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9554946@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9554946@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9554946@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R159 'R_R0402_DNP':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9763995@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9763995@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9763995@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R16 'R_R0402_5.62K':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9605439@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9605439@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9605439@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R160 'R_R0603_2K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9550965@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9550965@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9550965@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R161 'R_R0402_100K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9555126@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9555126@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9555126@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R162 'R_R0805_0.68-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10148639@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10148639@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins10148639@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R163 'R_R0805_0.68-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10148699@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10148699@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins10148699@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R164 'R_R0402_100K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9995509@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9995509@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9995509@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R165 'R_R0402_100K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9995337@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9995337@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9995337@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R166 'R_R0805_0.68-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10148659@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10148659@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins10148659@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R167 'R_R0805_0.68-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10148719@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10148719@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins10148719@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R168 'R_R0402_100K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9600741@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9600741@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9600741@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R169 'R_R0402_1.87K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9995677@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9995677@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9995677@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R17 'R_R0402_2.2K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9798718@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9798718@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9798718@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R170 'R_R0402_100K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9929769@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9929769@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9929769@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R171 'R_R0603_24.9K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9594935@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9594935@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9594935@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R172 'R_R0603_33.2K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9548745@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9548745@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9548745@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R173 'R_R0402_16.2K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9995657@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9995657@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9995657@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R18 'R_R0402_2.2K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9798734@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9798734@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9798734@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R19 'R_R0402_6.49K':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9605543@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9605543@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9605543@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_R0402_47.5K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9613709@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9613709@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9613709@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R20 'R_R0402_16.2K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9761929@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9761929@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9761929@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R21 'R_R0402_2K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9605455@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9605455@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9605455@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R22 'R_R0402_20K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9605279@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9605279@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9605279@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R23 'R_R0402_16.2K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9763147@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9763147@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9763147@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R24 'R_R0402_0-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9967641@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9967641@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9967641@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R25 'R_R0603_5.62K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9540904@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9540904@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9540904@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R26 'R_R0402_1.87K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9763163@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9763163@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9763163@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R27 'R_R0603_10-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9619887@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9619887@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9619887@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R28 'R_R0402_100K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10091100@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10091100@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins10091100@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R29 'R_R0402_100K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10091139@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10091139@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins10091139@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9869640@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9869640@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9869640@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R30 'R_R0402_DNP':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9619963@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9619963@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9619963@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R31 'R_R0402_100K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9620269@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9620269@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9620269@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R32 'R_R0402_1.62K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762013@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762013@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762013@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R33 'R_R0402_16.2K':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762029@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762029@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762029@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R34 'R_R0402_100K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762523@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762523@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762523@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R35 'R_R0805_0.68-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10042039@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10042039@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins10042039@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R36 'R_R0805_0.68-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762941@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762941@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762941@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R37 'R_R0402_100K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762823@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762823@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762823@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R38 'R_R0805_0.68-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10042073@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10042073@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins10042073@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R39 'R_R0805_0.68-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10041420@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10041420@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins10041420@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9869338@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9869338@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9869338@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R40 'R_R0402_10K':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9707105@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9707105@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9707105@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R41 'R_R0402_10K':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9706988@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9706988@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9706988@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R42 'R_R0402_16.2K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9763935@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9763935@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9763935@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R43 'R_R0402_1.87K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9763951@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9763951@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9763951@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R44 'R_R0402_DNP':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9544414@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9544414@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9544414@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R45 'R_R0402_23.7K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9544262@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9544262@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9544262@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R46 'R_R0402_100K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9763381@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9763381@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9763381@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R47 'R_R0805_0.68-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10038990@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10038990@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins10038990@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R48 'R_R0805_0.68-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9763815@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9763815@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9763815@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R49 'R_R0402_100K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9763729@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9763729@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9763729@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9723592@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9723592@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9723592@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R50 'R_R0402_2K':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9568999@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9568999@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9568999@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R51 'R_R0402_2K':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9568375@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9568375@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9568375@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R52 'R_R0402_2K':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9571124@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9571124@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9571124@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R53 'R_R0402_33.2K':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9620181@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9620181@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9620181@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R54 'R_R0805_0.68-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10039880@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10039880@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins10039880@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R55 'R_R0805_0.68-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10040654@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10040654@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins10040654@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R56 'R_R0402_2.37K':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9620325@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9620325@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9620325@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R57 'R_R0402_6.49K':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9620365@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9620365@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9620365@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R58 'R_R0402_976-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9863123@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9863123@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9863123@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R59 'R_R0402_511-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9834038@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9834038@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9834038@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9869784@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9869784@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9869784@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R60 'R_R0402_511-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9848064@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9848064@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9848064@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R61 'R_R0402_3.32K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10078038@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10078038@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10078038@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R62 'R_R0402_3.32K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10132421@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10132421@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10132421@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R63 'R_R0402_DNP':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9862953@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9862953@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9862953@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R64 'R_R0402_3.4K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9751611@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9751611@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9751611@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R65 'R_R0402_3.4K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9848014@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9848014@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9848014@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R66 'R_R0402_442-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10110475@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10110475@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10110475@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R67 'R_R0402_1.1K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10120598@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10120598@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10120598@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R68 'R_R0402_1.74K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10120654@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10120654@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10120654@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R69 'R_R0402_4.42K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10120688@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10120688@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10120688@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9869196@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9869196@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9869196@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R70 'R_R0402_22.1K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10120722@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10120722@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10120722@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R71 'R_R0402_442-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10132473@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10132473@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10132473@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R72 'R_R0402_1.1K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10132529@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10132529@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10132529@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R73 'R_R0402_1.74K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10132593@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10132593@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10132593@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R74 'R_R0402_4.42K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10132651@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10132651@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10132651@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R75 'R_R0402_47.5K':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9613469@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9613469@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9613469@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R76 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10139872@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10139872@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10139872@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R77 'R_R0402_2K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9746227@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9746227@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9746227@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R78 'R_R0402_2K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9745683@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9745683@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9745683@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R79 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9862901@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9862901@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9862901@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9869434@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9869434@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9869434@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R80 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9749806@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9749806@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9749806@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R81 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9927262@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9927262@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9927262@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R82 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9933508@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9933508@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9933508@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R83 'R_R0402_150K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9613401@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9613401@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9613401@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R84 'R_R0402_DNP':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10140872@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10140872@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10140872@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R85 'R_R0402_DNP':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10141621@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10141621@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10141621@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R86 'R_R0402_1K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9746093@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9746093@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9746093@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R87 'R_R0402_1K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9745545@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9745545@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9745545@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R88 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9862973@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9862973@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9862973@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R89 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9749854@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9749854@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9749854@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'R_R0603_10-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9605113@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9605113@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9605113@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R90 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10140350@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10140350@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10140350@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R91 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10132449@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10132449@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10132449@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R92 'R_R0402_1.69K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9746045@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9746045@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9746045@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R93 'R_R0402_1.69K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9846575@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9846575@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9846575@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R94 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9863039@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9863039@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9863039@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R95 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9749948@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9749948@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9749948@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R96 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9863103@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9863103@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9863103@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R97 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9750030@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9750030@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9750030@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R98 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9927282@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9927282@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9927282@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R99 'R_R0402_10K-OHMS':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9933528@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9933528@discrete.\r.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9933528@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'SGM7SZ08YXDM6G/TR_0_XTDFN-1X1-6L_SGM7SZ08YXDM6G/TR':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9933592@FLASHLIGHT.SGM7SZ08YXDM6G/TR_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9933592@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9933592@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U10 'SGM7SZ08YXDM6G/TR_0_XTDFN-1X1-6L_SGM7SZ08YXDM6G/TR':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9927538@FLASHLIGHT.SGM7SZ08YXDM6G/TR_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9927538@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9927538@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U11 'SGM7SZ08YXDM6G/TR_0_XTDFN-1X1-6L_SGM7SZ08YXDM6G/TR':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9884426@FLASHLIGHT.SGM7SZ08YXDM6G/TR_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9884426@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9884426@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U12 'SGM7SZ08YXDM6G/TR_0_XTDFN-1X1-6L_SGM7SZ08YXDM6G/TR':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9888478@FLASHLIGHT.SGM7SZ08YXDM6G/TR_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9888478@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9888478@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U13 'SGM8968-4_SOIC-14_SGM8968-4':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9855747@LIBRARY1.SGM8968-4A.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9855747@library1.\sgm8968-4a.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9855747@library1.\sgm8968-4a.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10170426@LIBRARY1.SGM8968-4B.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10170426@library1.\sgm8968-4b.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins10170426@library1.\sgm8968-4b.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9862743@LIBRARY1.SGM8968-4C.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9862743@library1.\sgm8968-4c.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9862743@library1.\sgm8968-4c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10170355@LIBRARY1.SGM8968-4D.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10170355@library1.\sgm8968-4d.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins10170355@library1.\sgm8968-4d.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U14 'SGM8968-4_SOIC-14_SGM8968-4XS14G/TR':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10170639@LIBRARY1.SGM8968-4A.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10170639@library1.\sgm8968-4a.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins10170639@library1.\sgm8968-4a.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10171697@LIBRARY1.SGM8968-4B.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10171697@library1.\sgm8968-4b.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins10171697@library1.\sgm8968-4b.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10171646@LIBRARY1.SGM8968-4C.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10171646@library1.\sgm8968-4c.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins10171646@library1.\sgm8968-4c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10170690@LIBRARY1.SGM8968-4D.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10170690@library1.\sgm8968-4d.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins10170690@library1.\sgm8968-4d.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U15 'TPR33XX-S3TR_SOT-23-3_TPR33XX-S3TR':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9865799@LIBRARY1.TPR33XX-S3TR.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9865799@library1.\tpr33xx-s3tr.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9865799@library1.\tpr33xx-s3tr.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U16 'SGM2028_SOT-23-5_SGM2028-3.3':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9615673@LIBRARY1.SGM2028.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9615673@library1.\sgm2028.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9615673@library1.\sgm2028.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U17 'SGM58031_MSOP-10_SGM58031XMS10G/TR':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9869398@LIBRARY1.SGM58031.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9869398@library1.\sgm58031.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page3_ins9869398@library1.\sgm58031.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U18 'GD32F303RE_LQFP64_GD32F303RGT6':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9725982@LIBRARY1.GD32F303RE.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9725982@library1.\gd32f303re.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9725982@library1.\gd32f303re.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U19 'SGM8968-4_SOIC-14_SGM8968-4XS14G/TR':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762721@LIBRARY1.SGM8968-4A.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762721@library1.\sgm8968-4a.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762721@library1.\sgm8968-4a.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9763595@LIBRARY1.SGM8968-4B.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9763595@library1.\sgm8968-4b.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9763595@library1.\sgm8968-4b.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762139@LIBRARY1.SGM8968-4C.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762139@library1.\sgm8968-4c.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762139@library1.\sgm8968-4c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762105@LIBRARY1.SGM8968-4D.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762105@library1.\sgm8968-4d.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762105@library1.\sgm8968-4d.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U2 'SGM7SZ08YXDM6G/TR_0_XTDFN-1X1-6L_SGM7SZ08YXDM6G/TR':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9927346@FLASHLIGHT.SGM7SZ08YXDM6G/TR_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9927346@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9927346@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U20 'SGM6230_SOIC-8-EPAD_SGM6230':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9605205@LIBRARY1.SGM6230.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9605205@library1.\sgm6230.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9605205@library1.\sgm6230.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U21 'NCE3013J_DFN2X2-6L_NCE3013J':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9973279@LIBRARY1.NCE3013J.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9973279@library1.\nce3013j.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9973279@library1.\nce3013j.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U22 'SGM7SZ08YXDM6G/TR_0_XTDFN-1X1-6L_SGM7SZ08YXDM6G/TR':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10014797@FLASHLIGHT.SGM7SZ08YXDM6G/TR_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10014797@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10014797@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U23 'SGM7SZ08YXDM6G/TR_0_XTDFN-1X1-6L_SGM7SZ08YXDM6G/TR':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10014985@FLASHLIGHT.SGM7SZ08YXDM6G/TR_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10014985@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10014985@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U24 'AS4950_SOP8-PP_AS4950':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9762603@LIBRARY1.AS4950.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9762603@library1.\as4950.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9762603@library1.\as4950.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U25 'NCE603S_SOP-8_NCE603S':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10090690@LIBRARY1.NCE603SA.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10090690@library1.\nce603sa.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins10090690@library1.\nce603sa.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10090767@LIBRARY1.NCE603SB.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10090767@library1.\nce603sb.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins10090767@library1.\nce603sb.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+PART_NAME
+ U26 'NCE40P06J_DFN2X2-6L_NCE40P06J':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9930640@LIBRARY1.NCE40P06J.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9930640@library1.\nce40p06j.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9930640@library1.\nce40p06j.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U27 'NCE603S_3_SOP-8_NCE603S':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9554419@FLASHLIGHT.NCE603S_3A.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9554419@flashlight.\nce603s_3a.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9554419@flashlight.\nce603s_3a.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9554496@FLASHLIGHT.NCE603S_3B.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9554496@flashlight.\nce603s_3b.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9554496@flashlight.\nce603s_3b.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+PART_NAME
+ U28 'SGM6230_SOIC-8-EPAD_SGM6230':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9619979@LIBRARY1.SGM6230.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9619979@library1.\sgm6230.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9619979@library1.\sgm6230.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U29 'AS4950_SOP8-PP_AS4950':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9763509@LIBRARY1.AS4950.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9763509@library1.\as4950.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9763509@library1.\as4950.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 'SGM7SZ08YXDM6G/TR_0_XTDFN-1X1-6L_SGM7SZ08YXDM6G/TR':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9884602@FLASHLIGHT.SGM7SZ08YXDM6G/TR_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9884602@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9884602@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U30 'SGM7SZ08YXDM6G/TR_0_XTDFN-1X1-6L_SGM7SZ08YXDM6G/TR':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9568924@FLASHLIGHT.SGM7SZ08YXDM6G/TR_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9568924@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9568924@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U31 'SGM7SZ08YXDM6G/TR_0_XTDFN-1X1-6L_SGM7SZ08YXDM6G/TR':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9567308@FLASHLIGHT.SGM7SZ08YXDM6G/TR_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9567308@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9567308@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U32 'SGM7SZ08YXDM6G/TR_0_XTDFN-1X1-6L_SGM7SZ08YXDM6G/TR':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9571064@FLASHLIGHT.SGM7SZ08YXDM6G/TR_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9571064@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9571064@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U33 'NCE6003Y_SOT-23-3L_NCE6003Y':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9600576@LIBRARY1.NCE6003Y.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9600576@library1.\nce6003y.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9600576@library1.\nce6003y.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U34 'SGM7SZ14_0_SOT-23-5_SGM7SZ14':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9541288@FLASHLIGHT.SGM7SZ14_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9541288@flashlight.\sgm7sz14_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9541288@flashlight.\sgm7sz14_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U35 'NCE40P06J_DFN2X2-6L_NCE40P06J':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9928158@LIBRARY1.NCE40P06J.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9928158@library1.\nce40p06j.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9928158@library1.\nce40p06j.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U36 'SGM7SZ08YXDM6G/TR_0_XTDFN-1X1-6L_SGM7SZ08YXDM6G/TR':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9887408@FLASHLIGHT.SGM7SZ08YXDM6G/TR_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9887408@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9887408@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U37 'SGM7SZ08YXDM6G/TR_0_XTDFN-1X1-6L_SGM7SZ08YXDM6G/TR':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9885806@FLASHLIGHT.SGM7SZ08YXDM6G/TR_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9885806@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9885806@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U38 'SGM7SZ08YXDM6G/TR_0_XTDFN-1X1-6L_SGM7SZ08YXDM6G/TR':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9887584@FLASHLIGHT.SGM7SZ08YXDM6G/TR_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9887584@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9887584@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U39 'SGM7SZ08YXDM6G/TR_0_XTDFN-1X1-6L_SGM7SZ08YXDM6G/TR':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9885982@FLASHLIGHT.SGM7SZ08YXDM6G/TR_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9885982@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9885982@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U4 'SGM7SZ08YXDM6G/TR_0_XTDFN-1X1-6L_SGM7SZ08YXDM6G/TR':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9888654@FLASHLIGHT.SGM7SZ08YXDM6G/TR_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9888654@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9888654@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U40 'GD25Q40E_SOP8-150MIL_GD25Q40ETIG':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9723712@LIBRARY1.GD25Q40E.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9723712@library1.\gd25q40e.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9723712@library1.\gd25q40e.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U41 'NCE60P04Y_SOT-23-3L_NCE60P04Y':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9591984@LIBRARY1.NCE60P04Y.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9591984@library1.\nce60p04y.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9591984@library1.\nce60p04y.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U42 'SGM7SZ08YXDM6G/TR_0_XTDFN-1X1-6L_SGM7SZ08YXDM6G/TR':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9935766@FLASHLIGHT.SGM7SZ08YXDM6G/TR_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9935766@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9935766@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U43 'AS4950_SOP8-PP_AS4950':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9782224@LIBRARY1.AS4950.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9782224@library1.\as4950.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9782224@library1.\as4950.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U44 'KMB26S_TO-269AA_KMB26S':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9540628@LIBRARY1.KMB26S.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9540628@library1.\kmb26s.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9540628@library1.\kmb26s.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U45 'NCE60P04Y_SOT-23-3L_NCE60P04Y':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9590195@LIBRARY1.NCE60P04Y.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9590195@library1.\nce60p04y.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9590195@library1.\nce60p04y.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U46 'SGM7SZ08YXDM6G/TR_0_XTDFN-1X1-6L_SGM7SZ08YXDM6G/TR':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9939605@FLASHLIGHT.SGM7SZ08YXDM6G/TR_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9939605@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9939605@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U47 'AS4950_SOP8-PP_AS4950':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9995405@LIBRARY1.AS4950.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9995405@library1.\as4950.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page4_ins9995405@library1.\as4950.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U48 'NCE60P04Y_SOT-23-3L_NCE60P04Y':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9587860@LIBRARY1.NCE60P04Y.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9587860@library1.\nce60p04y.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9587860@library1.\nce60p04y.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U49 'SGM7SZ14_0_SOT-23-5_SGM7SZ14':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9603637@FLASHLIGHT.SGM7SZ14_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9603637@flashlight.\sgm7sz14_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9603637@flashlight.\sgm7sz14_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U5 'SGM2028_SOT-23-5_SGM2028-ADJ':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9613319@LIBRARY1.SGM2028.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9613319@library1.\sgm2028.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9613319@library1.\sgm2028.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U6 'SGM2028_SOT-23-5_SGM2028-ADJ':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9613553@LIBRARY1.SGM2028.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9613553@library1.\sgm2028.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9613553@library1.\sgm2028.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U7 'SGM2028_SOT-23-5_SGM2028-3.3':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9615863@LIBRARY1.SGM2028.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9615863@library1.\sgm2028.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page1_ins9615863@library1.\sgm2028.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U8 'SGM8968-2_SOIC-8_SGM8968-2':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10137502@LIBRARY1.SGM8968-2A.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10137502@library1.\sgm8968-2a.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10137502@library1.\sgm8968-2a.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS10137535@LIBRARY1.SGM8968-2B.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins10137535@library1.\sgm8968-2b.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins10137535@library1.\sgm8968-2b.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+PART_NAME
+ U9 'SGM7SZ08YXDM6G/TR_0_XTDFN-1X1-6L_SGM7SZ08YXDM6G/TR':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9933784@FLASHLIGHT.SGM7SZ08YXDM6G/TR_0.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9933784@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9933784@flashlight.\sgm7sz08yxdm6g/tr_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Y1 'CRYSTAL_1_CRY-SMD-3D2X2D5MM-4P_8MHZ':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9723798@FLASHLIGHT.CRYSTAL_1.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9723798@flashlight.\crystal_1.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9723798@flashlight.\crystal_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Y2 'CRYSTAL_CRY-SMD-3D2X1D5MM-2P_32.768KHZ':;
+
+SECTION_NUMBER 1
+ '@FLASHLIGHT.SCHEMATIC1(SCH_1):INS9723510@DISCRETE.CRYSTAL.NORMAL(CHIPS)':
+ C_PATH='@flashlight.schematic1(sch_1):ins9723510@discrete.\crystal.normal\(chips)',
+ P_PATH='@flashlight.schematic1(sch_1):page2_ins9723510@discrete.\crystal.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

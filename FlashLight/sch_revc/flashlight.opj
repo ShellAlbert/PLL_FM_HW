@@ -1,6 +1,6 @@
 (ExpressProject "FlashLight"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[06/07/22]")
+  (SoftwareVersion "17.4-2019 S017 (3936576)  [4/19/2021]-[06/08/22]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -156,6 +156,10 @@
       (Type "Log File")
       (LogFile "G:\github\PLL_FM_HW\FlashLight\sch_revb\netlist\swp.log")))
   (PartMRUSelector
+    (SGM7SZ00YN5G/TR
+      (FullPartName "SGM7SZ00YN5G/TR.Normal")
+      (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVC\LIBRARY1.OLB")
+      (DeviceIndex "0"))
     (BAT54SW
       (FullPartName "BAT54SW.Normal")
       (LibraryName "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\LIBRARY1.OLB")
@@ -255,43 +259,36 @@
       (FullPartName "T POINT A.Normal")
       (LibraryName
          "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    ("TEST POINT"
-      (FullPartName "TEST POINT.Normal")
-      (LibraryName
-         "D:\ZSY\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "g:\github\pll_fm_hw\flashlight\sch_revb\flashlight.dsn")
+         "g:\github\pll_fm_hw\flashlight\sch_revc\flashlight.dsn")
       (Path "Design Resources"
-         "g:\github\pll_fm_hw\flashlight\sch_revb\flashlight.dsn" "SCHEMATIC1")
+         "g:\github\pll_fm_hw\flashlight\sch_revc\flashlight.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "g:\github\pll_fm_hw\flashlight\sch_revb\library1.olb")
       (Path "PSpice Resources")
       (Path "Logs")
       (Select "Design Resources"
-         "g:\github\pll_fm_hw\flashlight\sch_revb\flashlight.dsn" "SCHEMATIC1"
-         "4-MOTOR-FAN"))
+         "g:\github\pll_fm_hw\flashlight\sch_revc\flashlight.dsn" "SCHEMATIC1"
+         "5-CONNECTOR"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 391 0 676"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 676"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1164 28 698")
-        (Scroll "0 1680")
-        (Zoom "216")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1355 28 698")
+        (Scroll "-237 -6")
+        (Zoom "87")
         (Occurrence "/"))
-      (Path "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVB\FLASHLIGHT.DSN")
+      (Path "G:\GITHUB\PLL_FM_HW\FLASHLIGHT\SCH_REVC\FLASHLIGHT.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "4-MOTOR-FAN")))
+      (Page "5-CONNECTOR")))
   (MPSSessionName "Administrator")
   (LastUsedLibraryBrowseDirectory
      "D:\ZSY\Cadence\Cadence_SPB_17.4-2019\tools\capture\library")
