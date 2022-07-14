@@ -105,10 +105,10 @@ void ztask_led_status(void)
 
 	//less to take cpu time as soon as possible.
 	//high performance means run fast!
-	gpio_bit_set(GPIOA, GPIO_PIN_15);
-	delay_1ms(100);
-	gpio_bit_reset(GPIOA, GPIO_PIN_15);
-	delay_1ms(100);
+	gpio_bit_set(GPIOB, GPIO_PIN_3);
+	delay_1ms(500);
+	gpio_bit_reset(GPIOB, GPIO_PIN_3);
+	delay_1ms(500);
 }
 
 

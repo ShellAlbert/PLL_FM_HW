@@ -75,14 +75,15 @@ int main(void)
 	zboard_low_init();
 
 	//output version information to USART0.
-	zoutput_version();
+	//zoutput_version();
 	
 	//Tasks schedule based on Timer.
-	ztask_start();
+	//ztask_start();
 
 	//infite-loop to schedule tasks.
 	while (1) {
-		ztask_schedule();
+		ztask_led_status();
+		//ztask_schedule();
 	}
 
 	return 0;

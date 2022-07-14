@@ -91,24 +91,61 @@ static uint8_t	KEY_IRQn[KEYn] =
 static void zled12_init(void)
 {
 	//PA15 was assigned to JTDI according to the Datasheet.
-	//So here we remap to disable JTAG and enable SWD.
-	//must enable AFIO clock before operate it.
-	rcu_periph_clock_enable(RCU_AF);
-	gpio_pin_remap_config(GPIO_SWJ_SWDPENABLE_REMAP, ENABLE);
+		//So here we remap to disable JTAG and enable SWD.
+		//must enable AFIO clock before operate it.
+		rcu_periph_clock_enable(RCU_AF);
+		gpio_pin_remap_config(GPIO_SWJ_SWDPENABLE_REMAP, ENABLE);
+		
 
-	//LED1:PB3 
-	//LED2:PA15
+	//LED:PB3 
 	//enable the led clock.
 	rcu_periph_clock_enable(RCU_GPIOB);
-	rcu_periph_clock_enable(RCU_GPIOA);
 
 	//configure led GPIO port.
 	gpio_init(GPIOB, GPIO_MODE_OUT_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_3);
-	gpio_init(GPIOA, GPIO_MODE_OUT_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_15);
 
 	//set bit to off LEDs.
 	gpio_bit_reset(GPIOB, GPIO_PIN_3);
-	gpio_bit_reset(GPIOA, GPIO_PIN_15);
+
+
+#if 1
+	//PB5:12V_PWR_ON
+	gpio_init(GPIOB, GPIO_MODE_OUT_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_5);
+	gpio_bit_set(GPIOB, GPIO_PIN_5);
+ 
+	//PA8:WIFI_PWR_ON
+	rcu_periph_clock_enable(RCU_GPIOA);
+	gpio_init(GPIOA, GPIO_MODE_OUT_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_8);
+	gpio_bit_set(GPIOA, GPIO_PIN_8);
+	
+	//PC13:OLED_PWR_ON
+	rcu_periph_clock_enable(RCU_GPIOC);
+	gpio_init(GPIOC, GPIO_MODE_OUT_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_13);
+	gpio_bit_set(GPIOC, GPIO_PIN_13);
+
+	//PA12:LDM_PWR_ON
+	gpio_init(GPIOA, GPIO_MODE_OUT_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_12);
+	gpio_bit_set(GPIOA, GPIO_PIN_12);
+#else
+	//PB5:12V_PWR_ON
+	gpio_init(GPIOB, GPIO_MODE_OUT_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_5);
+	gpio_bit_reset(GPIOB, GPIO_PIN_5);
+
+	//PA8:WIFI_PWR_ON
+	rcu_periph_clock_enable(RCU_GPIOA);
+	gpio_init(GPIOA, GPIO_MODE_OUT_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_8);
+	gpio_bit_reset(GPIOA, GPIO_PIN_8);
+	
+	//PC13:OLED_PWR_ON
+	rcu_periph_clock_enable(RCU_GPIOC);
+	gpio_init(GPIOC, GPIO_MODE_OUT_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_13);
+	gpio_bit_reset(GPIOC, GPIO_PIN_13);
+
+	//PA12:LDM_PWR_ON
+	gpio_init(GPIOA, GPIO_MODE_OUT_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_12);
+	gpio_bit_reset(GPIOA, GPIO_PIN_12);
+#endif
+	
 }
 
 
@@ -690,7 +727,7 @@ extern void ztimer7_bdcm_init(void)
 //integrates all low-level components initialization.
 void zboard_low_init(void)
 {
-#if 1
+
 
 	//configure the TIMER peripheral
 	timer_oc_parameter_struct timer_ocintpara;
@@ -704,6 +741,7 @@ void zboard_low_init(void)
 
 	//LED1/2 to indicate system working status.
 	zled12_init();
+#if 0
 
 	//initial all Keys to EXTI mode.
 	zkeys_exti_init();
@@ -744,11 +782,6 @@ void zled_on_off(uint8_t iLed, uint8_t iOn)
 		case 1:
 			(iOn == 1) ? (GPIO_BC(GPIOB) = GPIO_PIN_3): (GPIO_BOP(GPIOB) = GPIO_PIN_3);
 			break;
-
-		case 2:
-			(iOn == 1) ? (GPIO_BC(GPIOA) = GPIO_PIN_15): (GPIO_BOP(GPIOA) = GPIO_PIN_15);
-			break;
-
 		default:
 			break;
 	}
@@ -762,11 +795,6 @@ void zled_toggle(uint8_t iLed)
 		case 1:
 			gpio_bit_write(GPIOB, GPIO_PIN_3, (bit_status) (1 - gpio_input_bit_get(GPIOB, GPIO_PIN_3)));
 			break;
-
-		case 2:
-			gpio_bit_write(GPIOA, GPIO_PIN_15, (bit_status) (1 - gpio_input_bit_get(GPIOA, GPIO_PIN_15)));
-			break;
-
 		default:
 			break;
 	}
